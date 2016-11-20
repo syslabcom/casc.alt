@@ -1,0 +1,26 @@
+title: casc
+author: Syslab.com GmbH
+#baseurl: /
+domain: casc2.syslab.com
+media: /media
+markdown: kramdown
+permalink: /:title
+sass:
+  style: :compressed
+  load_paths:
+    - "_sass"
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - config.codekit
+  - config.rb
+  - node_modules
+  - Makefile
+  - README.md
+  - bower.json
+  - main.js
+  - bundle-config.js
+  - src/
+  - stamp-bower
+  - stamp-npm
+  - stamp-bundler

@@ -1,0 +1,41 @@
+---
+layout: generic
+---
+
+
+<!-- Section: home -->
+<section id="home">
+  <div class="container-fluid p-0">
+    
+    {% include slider.html %}
+
+  </div>
+</section>
+
+
+<section>
+      <div class="container">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 text-center">
+
+        {{ content }}
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- Divider: testimonials -->
+    
+    {% include testimonials.html %}
+
+    <!-- Section: blog -->
+     {% include news.html %}
+
+    <!-- Divider: Clients -->
+    {% include logos.html %}
