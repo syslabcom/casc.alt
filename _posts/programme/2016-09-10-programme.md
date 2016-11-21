@@ -1,6 +1,6 @@
 ---
-layout: programme
-title: Programme
+layout: programmes
+title: Unsere Programme
 nav_title: Programme
 name: programme
 description: Programme der Universität der Bundeswehr München
