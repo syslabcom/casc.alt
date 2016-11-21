@@ -15,11 +15,13 @@
           <div class="widget dark">
             <h4 class="widget-title">Programme</h4>
             <ul class="list angle-double-right list-border">
-              <li><a href=".html">1</a></li>
-              <li><a href=".html">2</a></li>
-              <li><a href=".html">3</a></li>
-              <li><a href=".html">4</a></li>
-              <li><a href=".html">5</a></li>              
+            {% for item in site.posts %}
+              {% if item.parent == 'Studiengänge' %}
+
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+
+              {% endif %}
+            {% endfor %}
             </ul>
           </div>
         </div>
@@ -27,11 +29,11 @@
           <div class="widget dark">
             <h4 class="widget-title">Service</h4>
             <ul class="list angle-double-right list-border">
-              <li><a href=".html">1</a></li>
-              <li><a href=".html">2</a></li>
-              <li><a href=".html">3</a></li>
-              <li><a href=".html">4</a></li>
-              <li><a href=".html">5</a></li>              
+            {% for item in site.posts %}
+              {% if item.parent == 'Service' %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              {% endif %}
+            {% endfor %}
             </ul>
           </div>
         </div>
@@ -39,11 +41,11 @@
           <div class="widget dark">
             <h4 class="widget-title">Institut</h4>
             <ul class="list angle-double-right list-border">
-              <li><a href=".html">1</a></li>
-              <li><a href=".html">2</a></li>
-              <li><a href=".html">3</a></li>
-              <li><a href=".html">4</a></li>
-              <li><a href=".html">5</a></li>              
+            {% for item in site.posts %}
+              {% if item.parent == 'Das Weiterbildungsinstitut casc' or item.parent == 'Team' %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              {% endif %}
+            {% endfor %}
             </ul>
           </div>
         </div>
