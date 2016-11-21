@@ -3,24 +3,54 @@ layout: generic
 parent: Aktuelles
 ---
 
-<div class="container">
-    <article class="pat-rich row">
-        <h1 class=" eight columns">
-            {{ page.title }}
-        </h1>
-    </article>
-    <div class="row">   
-        <div class="eight columns">
-            <article class="pat-rich news-item">
-                <figure class="news-hero">
-                    <img src="{{ page.image }}" alt="" />
-                    <figcaption>
-                        {{ page.description }}
-                    </figcaption>
-                </figure>
-                
-                {{ content }}
-            </article>
+<section>
+  <div class="container mt-30 mb-30 pt-30 pb-30">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="blog-posts single-post">
+          <article class="post clearfix mb-0">
+            <div class="entry-header">
+              <div class="post-thumb thumb"> <img src="{{ page.image }}" alt="" class="img-responsive img-fullwidth"> </div>
+            </div>
+            <div class="entry-title pt-10 pl-15">
+              <h4><a class="text-uppercase" href="#"> {{ page.title }} </a></h4>
+            </div>
+            <div class="entry-meta pl-15">
+              <ul class="list-inline">
+                <li>Posted: <span class="text-theme-color-2"> {{ page.date |  date: '%d %B %Y' }} </span></li>
+              </ul>
+            </div>
+            <div class="entry-content mt-10">
+              <p class="pb-20">{{ page.description }}</p>
+              {{ content }}
+            </div>
+          </article>
         </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="sidebar sidebar-right mt-sm-30">
+          <div class="widget">
+            <h5 class="widget-title line-bottom">Aktuelles</h5>
+            <div class="widget-image-carousel">
+              {% for item in site.posts %}
+                {% if item.layout == 'news-item' %}
+                  {% unless page.url == item.url %}
+                    <div class="item">
+                      <a href="{{ item.url }}">
+                        <img src="{{ item.image }}" alt="">
+                        <h4 class="title">{{ item.title }}</h4>
+                        <p>{{ item.description }}</p>
+                      </a>
+                    </div>
+                  {% endunless %}
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
-</div>
+  </div>
+</section>
