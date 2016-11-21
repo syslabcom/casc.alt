@@ -1,5 +1,5 @@
 ---
-layout: programme
+layout: programmes
 title: Programme
 nav_title: Programme
 name: programme
