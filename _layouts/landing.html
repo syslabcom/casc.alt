@@ -1,0 +1,70 @@
+---
+layout: generic
+---
+<section id="overview" class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="{{ page.hero }}">
+  <div class="container pt-70 pb-140">
+    <!-- Section Content -->
+    <div class="section-content">
+      <div class="row"  >
+        <div class="col-md-12">
+          <h2 class="title text-white tp-caption tp-resizeme text-uppercase font-raleway bg-theme-colored-transparent border-left-theme-color-2-6px pl-20 pr-20">{{ page.title }}</h2>
+            <ol class="breadcrumb text-left text-black mt-10">
+                <li><a href="#">&nbsp;</a></li>
+            </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container mt-0 mb-30 pt-30 pb-30">
+    <div class="row">
+      <div class="col-md-9 blog-pull-right">
+        <div class="blog-posts single-post">
+              {{ content }}
+        </div>
+
+        {% for item in site.posts %}
+            {% if item.parent == page.title %}
+            <div class="blog-posts single-post" id="{{ item.url | remove: '/' | remove: '.html' }}">
+                <div id="{{ item.url | remove: '/' | remove: '.html' }}-content">
+                    <h2 class="pt-40">{{ item.title }}</h2>
+                    {% if item.description %}
+                        <section class="introduction">
+                            <p>
+                                {{ item.description }}
+                            </p>
+                        </section>
+                    {% endif %}
+
+                    {{ item.content | markdownify }}
+                
+
+                    {% if item.title == 'Team' %}
+                        {% include people-cloud.html %}
+                    {% endif %}
+
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}          
+      </div>
+
+    <div class="col-md-3 scrolltofixed-container">
+        <div class="list-group scrolltofixed" >
+            <a href="#overview" class="list-group-item smooth-scroll-to-target">Übersicht</a>
+            {% for item in site.posts %}
+                {% if item.parent == page.title %}
+                    <a href="#{{ item.url | remove: '/' |remove: '.html' }}" class="list-group-item smooth-scroll-to-target">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+
+
+    </div>
+  </div>
+</section>
+

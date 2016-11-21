@@ -1,0 +1,20 @@
+    <div class="section-content">
+      <div class="row multi-row-clearfix">
+        {% for person in site.posts %}
+            {% if item.title == person.parent %}
+
+        <div class="col-sm-3 col-md-4 sm-text-center mb-sm-8">
+          <div class="team maxwidth200">
+            <div class="thumb"><img class="img-fullwidth" src="{{ person.image }}" alt=""></div>
+            <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
+              <h4 class="font-14 name text-theme-color-2 mt-0">{{ person.title }}</h4>
+              <p class="mb-20 font-12 ">{{ person.description }}&nbsp;</p>
+              <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ person.url }}">Details</a>
+            </div>
+          </div>
+        </div>
+            {% endif %}
+        {% endfor %}
+
+      </div>
+    </div>
