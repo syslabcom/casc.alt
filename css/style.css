@@ -14,6 +14,10 @@ theme. But don't modify style-main.css file.
     font-size: 18px;
 }
 
+.header-nav .header-nav-wrapper .menuzord {
+    background-color: white;
+}
+
 section.clients img {
 
 }
@@ -35,3 +39,4 @@ nav ul li a#faculty {
     height: 36px;
     background-image: url('/media/logos/casc.png');
 }
+
