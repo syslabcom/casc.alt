@@ -11,7 +11,7 @@ theme. But don't modify style-main.css file.
 
 .menuzord-menu > li > a {
     color: black;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .header-nav .header-nav-wrapper .menuzord {
@@ -40,3 +40,6 @@ nav ul li a#faculty {
     background-image: url('/media/logos/casc.png');
 }
 
+#header .header-nav div.header-nav-wrapper {
+    background-color: white;
+}
