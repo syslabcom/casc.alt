@@ -40,3 +40,11 @@ nav ul li a#faculty {
     background-image: url('/media/logos/casc.png');
 }
 
+// Hack to offset anchors by the height of the navbar
+a.anchor {
+  display: block;
+  position: relative;
+  top: -90px;
+  visibility: hidden;
+}
+
