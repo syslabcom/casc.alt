@@ -3,7 +3,7 @@ layout: bio
 title: Bettina Herrmann
 name: bettina__hermann_ma
 description: M.A.
-category: aktuelles
+category: institut
 tagline: Unser Service
 image: "/media/team-members/12.jpg"
 parent: Team

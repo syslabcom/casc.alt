@@ -3,7 +3,7 @@ layout: programme
 title: MBA Public Management
 name: mba_public_management
 description: "MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung"
-category: MBA Public Management
+category: programme
 tagline: 
 image:  /media/programme/casc_3.jpg
 parent: Studiengänge

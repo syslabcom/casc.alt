@@ -3,7 +3,7 @@ layout: bio
 title: Dr. Brigita Jeraj
 name: dr_brigita-jeraj
 description: 
-category: aktuelles
+category: institut
 tagline: Unser Service
 image: "/media/team-members/13.jpg"
 parent: Team

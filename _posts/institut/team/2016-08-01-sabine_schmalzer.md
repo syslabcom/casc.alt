@@ -3,7 +3,7 @@ layout: bio
 title: Dr. des. Sabine Schmalzer
 name: dr__des_sabine_schmalzer
 description: 
-category: aktuelles
+category: institut
 tagline: Unser Service
 image: "/media/team-members/10.jpg"
 parent: Team

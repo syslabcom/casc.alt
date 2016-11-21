@@ -3,7 +3,7 @@ layout: programme
 title: Masterstudiengang Personalentwicklung 
 name: personalentwicklung
 description: "Masterstudiengang Personalentwicklung (M.A.)"
-category: Personalentwicklung
+category: programme
 tagline: 
 image:  /media/programme/casc_4.jpg
 parent: Studiengänge

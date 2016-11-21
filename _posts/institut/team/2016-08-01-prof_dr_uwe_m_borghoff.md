@@ -3,7 +3,7 @@ layout: bio
 title: Prof. Dr. Uwe M. Borghoff
 name: prof_dr_uwe_m_borghoff
 description: 
-category: aktuelles
+category: institut
 tagline: Unser Service
 image: "/media/team-members/6.jpg"
 parent: Team

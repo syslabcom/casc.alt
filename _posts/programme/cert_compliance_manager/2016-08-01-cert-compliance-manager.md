@@ -3,7 +3,7 @@ layout: programme
 title: Compliance Manager/in (univ.)
 name: compliance_manager
 description: "Spezialisierungsprogramm mit Zertifikatabschluss"
-category: Certificate Compliance Manager
+category: programme
 tagline: 
 image:  /media/programme/casc_7.jpg
 parent: Zertifikate

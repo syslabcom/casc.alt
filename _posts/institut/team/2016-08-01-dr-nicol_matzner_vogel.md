@@ -3,7 +3,7 @@ layout: bio
 title: Dr. Nicol Matzner-Vogel
 name: dr_nicol_matzner_vogel
 description: MBA
-category: aktuelles
+category: institut
 tagline: Unser Service
 image: "/media/team-members/7.jpg"
 parent: Team

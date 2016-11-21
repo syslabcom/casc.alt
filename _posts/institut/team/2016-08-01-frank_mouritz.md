@@ -3,7 +3,7 @@ layout: bio
 title: Frank Mouritz
 name: frank_mouritz_m_a_
 description: M.A.
-category: aktuelles
+category: institut
 tagline: Unser Service
 image: "/media/team-members/9.jpg"
 parent: Team
