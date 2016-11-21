@@ -31,3 +31,11 @@ section.clients .clients-logo img {
     height: 6em;
     padding: 1em 2em;
 }
+
+nav ul li a#faculty {
+    color: transparent;
+    border-radius: 0;
+    width: 36px;
+    height: 36px;
+    background-image: url('/media/logos/casc.png');
+}
