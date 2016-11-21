@@ -8,6 +8,8 @@ tagline:
 image:  /media/programme/casc_7.jpg
 parent: Zertifikate
 backlink: "/programme#zertifikate"
+anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
+contact_name: dr_nicol_matzner_vogel
 ---
 
 ** STUB: Will be replaced with real content in a few days. Length will be roughly like "Systems Engineering"**

@@ -1,8 +1,8 @@
 ---
 layout: bio
-title: Martina Hucl, Dipl. Kulturwirtin
+title: Martina Hucl
 name: martina_hucl_dipl_kulturwirtin
-description: 
+description: Dipl. Kulturwirtin
 category: aktuelles
 tagline: Unser Service
 image: "/media/team-members/8.jpg"

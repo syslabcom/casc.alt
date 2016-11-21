@@ -1,8 +1,8 @@
 ---
 layout: bio
-title: Bettina Herrmann, M.A.
+title: Bettina Herrmann
 name: bettina__hermann_ma
-description: 
+description: M.A.
 category: aktuelles
 tagline: Unser Service
 image: "/media/team-members/12.jpg"

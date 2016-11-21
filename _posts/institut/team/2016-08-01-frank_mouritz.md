@@ -1,8 +1,8 @@
 ---
 layout: bio
-title: Frank Mouritz, M.A.
+title: Frank Mouritz
 name: frank_mouritz_m_a_
-description: 
+description: M.A.
 category: aktuelles
 tagline: Unser Service
 image: "/media/team-members/9.jpg"

@@ -8,6 +8,8 @@ tagline: Unser Service
 image:  /media/programme/casc_5.jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
+anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
+contact_name: dr_nicol_matzner_vogel
 
 ---
 

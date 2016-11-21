@@ -1,8 +1,8 @@
 ---
 layout: bio
-title: Dipl.-Päd. Karina Anders, MBA
+title: Dipl.-Päd. Karina Anders
 name: Dipl-Päd_Karina_Anders_MBA
-description: 
+description: MBA
 category: aktuelles
 tagline: Unser Service
 image: "/media/team-members/11.jpg"

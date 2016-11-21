@@ -1,20 +1,23 @@
 ---
 layout: bio
-title: Dr. Nicol Matzner-Vogel, MBA
-name: dr_nicol_matzner_vogel, MBA
-description: 
+title: Dr. Nicol Matzner-Vogel
+name: dr_nicol_matzner_vogel
+description: MBA
 category: aktuelles
 tagline: Unser Service
 image: "/media/team-members/7.jpg"
 parent: Team
 ---
 
-**Dr. Nicol Matzner-Vogel, MBA**
+**Dr. Nicol Matzner-Vogel, MBA**<br>
+Geschäftsführerin casc<br>
 
-Geschäftsführerin
+Universität der Bundeswehr München  <br>
+Werner-Heisenberg-Weg 39
 
-Programmkoordinatorin Systems Engineering (M.Sc.)
+85577 Neubiberg
 
-- Telefon:  +49 89 6004 4530
-- E-Mail:  <a href="nicol.matzner@casc.de">"nicol.matzner@casc.de"</a>
-
+<ul class="list angle-double-right m-0">
+  <li class="mt-0"><strong>Email</strong><br> <a href="mailto:nicol.matzner@casc.de">nicol.matzner@casc.de</a></li>
+  <li class=""><strong >Tel</strong><br> +49 89 6004 4530</li>
+</ul>
