@@ -1,6 +1,6 @@
 ---
 layout: programmes
-title: 'Unsere <span class="text-theme-color-2 font-weight-400">Programme</span>'
+title: Unsere Programme
 nav_title: Programme
 name: programme
 description: Programme der Universität der Bundeswehr München
