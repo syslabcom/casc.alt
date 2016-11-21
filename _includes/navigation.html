@@ -1,11 +1,11 @@
 <!-- Navigation -->
 <nav id="menuzord" class="menuzord pull-left flip menuzord-responsive">
             <ul class="menuzord-menu">
-                <li class="active">
+                <li>
                     <a id="faculty" href="/" class="faculty-casc" href="#home">casc</a>
                 </li>
-                <li>
-                    <a href="/programme/">Programme</a>
+                <li class="{% if page.category == 'programme' %}active{% endif %}">
+                    <a href="/programme.html">Programme</a>
 <!--                     <ul class="dropdown">
                       <li><a href="features-preloader.html">Preloaders</a></li>
                       <li><a href="#">Header</a>
@@ -22,8 +22,8 @@
                       </li>
                     </ul> -->
                 </li>
-                <li>
-                    <a href="/service/">Service</a>
+                <li class="{% if page.category == 'service' %}active{% endif %}">
+                    <a href="/service.html">Service</a>
                     <!-- <ul class="dropdown">
                       <li><a href="features-preloader.html">Preloaders</a></li>
                       <li><a href="#">Header</a>
@@ -40,8 +40,8 @@
                       </li>
                     </ul> -->
                 </li>
-                <li>
-                    <a href="/institut/">Institut</a>
+                <li class="{% if page.category == 'institut' %}active{% endif %}">
+                    <a href="/institut.html">Institut</a>
                     <!-- <ul class="dropdown">
                       <li><a href="features-preloader.html">Preloaders</a></li>
                       <li><a href="#">Header</a>
@@ -58,8 +58,8 @@
                       </li>
                     </ul> -->
                 </li>
-                <li>
-                    <a href="/aktuelles/">Aktuelles</a>
+                <li class="{% if page.category == 'aktuelles' %}active{% endif %}">
+                    <a href="/aktuelles.html">Aktuelles</a>
                     <!-- <ul class="dropdown">
                       <li><a href="features-preloader.html">Preloaders</a></li>
                       <li><a href="#">Header</a>
@@ -80,7 +80,7 @@
             <ul class="pull-right flip hidden-sm hidden-xs">
               <li>
                 <!-- Modal: Book Now Starts -->
-                <a class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15" href="/antrags-formular/">Antrag stellen</a>
+                <a class="btn btn-colored btn-flat bg-theme-color-2 text-white font-14 bs-modal-ajax-load mt-0 p-25 pr-15 pl-15" href="/antrags-formular.html">Antrag stellen</a>
                 <!-- Modal: Book Now End -->
               </li>
             </ul>
