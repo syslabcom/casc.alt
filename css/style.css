@@ -60,7 +60,7 @@ a.anchor {
 
 body.category-service .main-content #overview {
     min-height: 350px;
-    background-position: center -150px !important;
+    background-position: center -100px !important;
     background-size: cover;
     text-align: center;
 }
@@ -71,6 +71,6 @@ body.category-institut .main-content #overview {
 }
 body.category-antrag .main-content #overview {
     min-height: 350px;
-    background-position: center -200px !important;
+    background-position: center center !important;
     background-size: cover;
 }
