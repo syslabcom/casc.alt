@@ -19,6 +19,18 @@ layout: generic
 <section>
   <div class="container mt-0 mb-30 pt-30 pb-30">
     <div class="row">
+
+      <div class="col-md-3 scrolltofixed-container">
+        <div class="list-group scrolltofixed" >
+            <a href="#overview" class="list-group-item smooth-scroll-to-target">Übersicht</a>
+            {% for item in site.posts %}
+                {% if item.parent == page.title %}
+                    <a href="#{{ item.url | remove: '/' |remove: '.html' }}" class="list-group-item smooth-scroll-to-target">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </div>
+      </div>
       <div class="col-md-9 blog-pull-right">
         <div class="blog-posts single-post">
               {{ content }}
@@ -49,19 +61,6 @@ layout: generic
             {% endif %}
         {% endfor %}          
       </div>
-
-    <div class="col-md-3 scrolltofixed-container">
-        <div class="list-group scrolltofixed" >
-            <a href="#overview" class="list-group-item smooth-scroll-to-target">Übersicht</a>
-            {% for item in site.posts %}
-                {% if item.parent == page.title %}
-                    <a href="#{{ item.url | remove: '/' |remove: '.html' }}" class="list-group-item smooth-scroll-to-target">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
-        </div>
-    </div>
-
 
 
     </div>
