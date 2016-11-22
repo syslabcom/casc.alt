@@ -69,3 +69,8 @@ body.category-institut .main-content #overview {
     background-position: center center !important;
     background-size: cover;
 }
+body.category-antrag .main-content #overview {
+    min-height: 350px;
+    background-position: center -200px !important;
+    background-size: cover;
+}

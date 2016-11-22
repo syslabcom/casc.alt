@@ -3,7 +3,7 @@ layout: form
 title: Antragsformular
 nav_title: Antragsformular
 name: programme
-category: programme
+category: antrag
 parent: Antrag auf Aufnahme
 ---
 
