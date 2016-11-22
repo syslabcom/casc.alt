@@ -7,13 +7,52 @@ layout: generic
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-8 blog-pull-right">
+      <div class="col-md-9 blog-pull-right">
         <div class="single-service">
           <img src="{{ page.image }}" alt="{{ page.title }}">
           <h3 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h3>
           <h5>{{ page.description }}</h5>
 
             {{ content }}
+
+
+
+        {% for item in site.posts %}
+            {% if item.parent == page.title %}
+            <div class="blog-posts single-post" id="{{ item.url | remove: '/' | remove: '.html' }}">
+                <div id="{{ item.url | remove: '/' | remove: '.html' }}-content">
+                    <h2 class="pt-40">{{ item.title }}</h2>
+                    {% if item.description %}
+                        <section class="introduction">
+                            <p>
+                                {{ item.description }}
+                            </p>
+                        </section>
+                    {% endif %}
+
+                    {{ item.content | markdownify }}
+                
+                </div>
+            </div>
+            {% endif %}
+        {% endfor %}      
+
+            
+          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">FAQ<span class="text-theme-color-2 font-weight-400">s</span></h4>
+            <div id="accordion1" class="panel-group accordion">
+            {% for item in site.posts %}
+              {% if item.layout == 'faq' %}
+              <div class="panel">
+                <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ item.title }} </a> </div>
+                <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+                  <div class="panel-content">
+                    <p>{{ item.content }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endif %}
+            {% endfor %}
+            </div>
 
           <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Weitere <span class="text-theme-color-2 font-weight-400">Informationen</span></h4>
           <ul id="myTab" class="nav nav-tabs boot-tabs">
@@ -85,7 +124,7 @@ layout: generic
         <div class="row">
             <div class="section-title mb-10">
               <div class="row">
-                <div class="col-md-8">
+                <div class="col-md-9">
                   <h4 class="mt-20 line-bottom line-height-1">Akademische <span class="text-theme-color-2 font-weight-400">Leitung</span></h4>
                </div>
               </div>
@@ -95,11 +134,11 @@ layout: generic
               <div class="row multi-row-clearfix">
               {% for item in site.posts %}
               {% if item.parent == 'People' and item.category == "akademische_leitung" %}
-                <div class="col-sm-6 col-md-3 sm-text-center mb-sm-30">
-                  <div class="team maxwidth400">
+                <div class="col-sm-3 col-md-3 sm-text-center mb-sm-8">
+                  <div class="team maxwidth200">
                     <div class="thumb"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
                     <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
-                      <h5 class="name text-theme-color-2 mt-0">{{ item.title }}</h5>
+                      <h5 class="name font-14 text-theme-color-2 mt-0">{{ item.title }}</h5>
                       <p class="mb-20 font-12">{{ item.description }}&nbsp;</p>
                       <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ item.url}}">Zur Person…</a>
                     </div>
@@ -113,35 +152,20 @@ layout: generic
       </div>
 
       </div>
-      <div class="col-sm-12 col-md-4">
+      <div class="col-md-3 scrolltofixed-container">
+        <div class="list-group scrolltofixed" >
+            <a href="#overview" class="list-group-item smooth-scroll-to-target">Übersicht</a>
+            {% for item in site.posts %}
+                {% if item.parent == page.title %}
+                    <a href="#{{ item.url | remove: '/' |remove: '.html' }}" class="list-group-item smooth-scroll-to-target">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </div>
+      </div>
+      <!-- <div class="col-sm-12 col-md-4">
         <div class="sidebar sidebar-left mt-sm-30 ml-40">
-          <div class="widget">
-            <h4 class="widget-title line-bottom">Unsere <span class="text-theme-color-2">Programme</span></h4>
-            <div class="services-list">
-              <ul class="list list-border angle-double-right">
-               {% for item in site.posts %}
-                {% if item.parent == 'Studiengänge' %}
-
-                <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
-                {% endif %}
-               {% endfor %}
-
-              </ul>
-            </div>
-            <h4 class="widget-title line-bottom">Unsere <span class="text-theme-color-2">Zertifikate</span></h4>
-            <div class="services-list">
-              <ul class="list list-border angle-double-right">
-               {% for item in site.posts %}
-                {% if item.parent == 'Zertifikate' %}
-
-                <li class="{% if item.url == page.url %}active{% endif %}"><a href="{{ item.url }}">{{ item.title }}</a></li>
-                {% endif %}
-               {% endfor %}
-
-              </ul>
-            </div>
-
-          </div>
+          
             {% for item in site.posts %}
             {% if item.name == page.contact_name %}
             <div class="widget">
@@ -173,7 +197,6 @@ layout: generic
               </div>
             </form>
 
-            <!-- Quick Contact Form Validation-->
             <script type="text/javascript">
               $("#quick_contact_form_sidebar").validate({
                 submitHandler: function(form) {
@@ -199,7 +222,7 @@ layout: generic
             </script>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
