@@ -52,7 +52,7 @@ a.anchor {
     background-color: white;
 }
 #header .header-nav div.header-nav-wrapper .active a {
-    border-bottom: 2px solid #da670f;
+    border-bottom: 6px solid #da670f;
     border-radius: 0 !important;
     padding: 4px 4px;
     margin: 4px 12px;
