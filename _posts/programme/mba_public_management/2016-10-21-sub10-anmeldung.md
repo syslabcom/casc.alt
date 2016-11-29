@@ -24,8 +24,7 @@ parent: MBA Public Management
 **Sie sollten folgende Voraussetzungen mitbringen, um für das Studium zugelassen zu werden:**
 
 * Abschluss eines ersten berufsqualifizierenden Hochschulstudiums (Diplom, Diplom FH oder Bachelor im Umfang von 210 ECTS-Leistungspunkten)
-
-Hinweis: Studieninteressierte mit einem Hochschulabschluss von weniger als 210 ECTS (aber mindestens 180 ECTS) erhalten die Zulassung durch die erfolgreiche Absolvierung eines Eingangsprüfungsverfahrens.
+  Hinweis: Studieninteressierte mit einem Hochschulabschluss von weniger als 210 ECTS (aber mindestens 180 ECTS) erhalten die Zulassung durch die erfolgreiche Absolvierung eines Eingangsprüfungsverfahrens.
 
 * Nachweis einer mindestens einjährigen qualifizierten berufspraktischen Erfahrung
  
