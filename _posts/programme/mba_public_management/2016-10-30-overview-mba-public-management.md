@@ -5,6 +5,7 @@ name: mba_public_management
 description: "MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung"
 category: programme
 parent: MBA Public Management
+footer: Programme
 ---
 
 **Public Management ist die Disziplinen übergreifende Auseinandersetzung mit der Führung von und in öffentlichen Institutionen. Dabei werden die Perspektiven der Betriebs- und Volkswirtschaftslehre mit denen der Politik- und Rechtswissenschaft zusammengeführt. Der Fokus liegt dabei auf der strategischen Verwaltungsführung.**

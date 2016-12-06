@@ -1,23 +1,160 @@
 /*
-@Author: ThemeMascot
-@URL: http://ThemeMascot.com
-
-This is the file where you can add your custom styles to change the look of the
-theme. But don't modify style-main.css file.
+@Author: 
+@URL: 
 
 */
 
 /* Your custom css codes start here: */
+// Fonts
+@font-face {
+    font-family: thesans;
+    src: url('/css/fonts/TheSaB4_.woff') format('woff');
+}
 
+@font-face {
+    font-family: theserif;
+    src: url('/css/fonts/TheSerif_cls_3_.woff') format('woff');
+}
+.font-thesans {
+  font-family: 'thesans', sans-serif;
+}
+.font-theserif {
+  font-family: 'theserif', serif;
+}
+
+#header {
+    background-color: #fff;
+    color: #6A686F;
+    padding: 0.5em 0;
+/*    height: 31px;*/
+    z-index: 20;
+    top: 0;
+    left: 0;
+    right: 0;
+/*    position: fixed;*/
+    padding-top: 85px;
+    transition: all 1s;
+}
+#global-navigation {
+    position: relative;
+    height: 36px;
+    line-height: 32px;
+}
+#athene{
+    position: absolute;
+    left: 50%;
+    transform: -webkit-translateX(-50%);
+    transform: -moz-translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: all 1s;
+    top: -80px;
+    opacity: 1;
+    height: 70px;
+    overflow: hidden;
+
+}
+#athene.bumped {
+    top: -50px;
+    opacity: 0;
+}
+#athene a {
+    background: url("/media/logos/logo-unibw-brandmark.svg");
+    background-size: cover;
+    color: transparent;
+    width: 330px;
+    height: 53px;
+    display: block;
+    transform: scale(1.5);
+    transition: all 0.5s;
+    margin-left: -15px;
+}
+#athene a:hover {
+    transform: -webkit-scale(1);
+    transform: -moz-scale(1);
+    transform: scale(1);
+    margin-top: 12px;
+    margin-left: 0;
+}
+#athene a:hover:before {
+    opacity: 1;
+}
+#athene a:before {
+    content: ' ';
+    background: url("/media/logos/logo-unibw-text.svg");
+    background-size: cover;
+    width: 330px;
+    height: 53px;
+    display: block;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+#global-navigation nav {
+    position: relative;
+    z-index: 2;
+    float: left;
+}
+
+nav ul li a#faculty {
+    color: transparent;
+    border-radius: 0;
+    width: 36px;
+    height: 36px;
+    background-image: url('/media/logos/casc.png');
+}
+.menuzord-menu > li  {
+    padding: 2px 0;
+}
 .menuzord-menu > li > a {
     color: black;
     font-size: 16px;
 }
 
+.header-nav-wrapper,
 .header-nav .header-nav-wrapper .menuzord {
     background-color: white;
 }
 
+/* Slider */
+
+.rev_slider .slotholder:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,000000+32&0+0,0.78+100 */
+    background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(0,0,0,0.25) 32%, rgba(0,0,0,0.78) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(0,0,0,0.25) 32%,rgba(0,0,0,0.78) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(0,0,0,0.25) 32%,rgba(0,0,0,0.78) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#c7000000',GradientType=0 ); /* IE6-9 */
+}
+.rev_slider .slotholder:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 30%;
+    left: 0;
+    z-index: 2;
+    opacity: 0.5;
+}
+.rev_slider .text-layer {
+    width: 80%;
+}
+.rev_slider h2 {
+    text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
+    font-family: theserif;
+}
+.rev_slider p.description {
+    font-family: theserif;
+    white-space: normal ;
+}
 section.clients img {
 
 }
@@ -32,15 +169,9 @@ section.clients .clients-logo img {
     padding: 1em 2em;
 }
 
-nav ul li a#faculty {
-    color: transparent;
-    border-radius: 0;
-    width: 36px;
-    height: 36px;
-    background-image: url('/media/logos/casc.png');
-}
 
-// Hack to offset anchors by the height of the navbar
+
+/* Hack to offset anchors by the height of the navbar*/
 a.anchor {
   display: block;
   position: relative;

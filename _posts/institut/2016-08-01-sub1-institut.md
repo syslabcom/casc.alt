@@ -7,6 +7,7 @@ description: Karriereförderung als Teil des bunten Programms beim Tag der offen
 category: institut
 tagline: Unser Service
 hero: /media/hero/institut.jpg
+footer: Institut
 ---
 
 ## campus advanced studies center (casc) - das Weiterbildungsinstitut der Universität der Bundeswehr München

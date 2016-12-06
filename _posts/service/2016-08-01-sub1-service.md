@@ -7,6 +7,7 @@ description: Das Weiterbildungsinstitut casc ist die zentrale Koordinierungs-, B
 category: service
 tagline: Unser Service
 hero: /media/hero/service.jpg
+footer: Service
 ---
 
 Das Weiterbildungsinstitut casc ist die zentrale Koordinierungs-, Betreuungs- und Beratungsstelle für die wissenschaftliche Weiterbildung der Universität der Bundeswehr München. Zu unseren Kernkompetenzen gehören die Erarbeitung, der Ausbau und die Begleitung von Weiterbildungsangeboten in enger Zusammenarbeit mit den Professorinnen und Professoren unserer Universität sowie externen Experten aus Wissenschaft und Wirtschaft. 
