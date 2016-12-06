@@ -1,16 +1,15 @@
 ---
 layout: programme
-title: Systems Engineering (M.Sc.)
+title: "Systems Engineering (M.Sc.)"
 name: systems_engineering
-description: "Komplexe technische Systeme mit integriertem Systemdenken durchdringen - Erwerben Sie mit dem berufsbegleitenden Master Systems Engineering das erforderliche Wissen, um Projekte ganzheitlich zum Erfolg zu führen.""
+description: "Komplexe technische Systeme mit integriertem Systemdenken durchdringen - Erwerben Sie mit dem berufsbegleitenden Master Systems Engineering das erforderliche Wissen, um Projekte ganzheitlich zum Erfolg zu führen."
 category: programme
 tagline: Unser Service
-image:  /media/programme/casc_5.jpg
+image:  /media/programme/5_Systems Engineering.jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
-
 ---
 
 ### Systems Engineering (M.Sc.)

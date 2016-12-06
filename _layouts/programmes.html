@@ -24,67 +24,41 @@ layout: generic
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-12">
 
-        <!-- <div class="portfolio-filter font-alt align-center">
-          <a href="#" class="active" data-filter="*">Alle</a>
-          <a href="#studiengang" class="" data-filter=".studiengang">Studiengänge</a>
-          <a href="#zertifikat" class="" data-filter=".zertifikat">Zertifikate</a>
-        </div> -->
+    {% assign programmes = site.posts | where:"parent","Studiengänge" | sort: 'title' %}
+    {% for item in programmes %}
 
-        <div id="grid" class="gallery-isotope grid-3 masonry gutter clearfix">
-          {% for item in site.posts %}
-          {% if item.parent == "Studiengänge" %}
+        {% assign loopindex = forloop.index0 | modulo: 3 %}
+        {% if loopindex == 0 %}<div class="row">{% endif %}
 
-            <!-- Portfolio Item Start -->
-            <div class="gallery-item studiengang">
-              <div class="thumb">
-                <img class="img-fullwidth" src="{{ item.image }}" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a href="{{ item.url }}"><i class="fa fa-info"></i></a>
-                    </div>
-                  </div>
-                </div>
-                <a class="hover-link" href="{{ item.url }}">Details</a>
-              </div>
-              <div class="portfolio-description">
-                <h5 class="title"><a href="{{ item.url }}">{{ item.title }}</a></h5>
-                <!-- <span class="category"><span>Studiengang</span> --></span>
+      <div class="col-md-4">
+        <div class="gallery-item studiengang">
+          <article class="post clearfix mb-30 bg-deep">
+            <div class="entry-header">
+              <div class="post-thumb thumb"> 
+                <a href="{{ item.url }}" ><img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth"> </a>
               </div>
             </div>
-            <!-- Portfolio Item End -->
-          {% endif %}
-          {% endfor %}
-          {% for item in site.posts %}
-          {% if item.parent == "Zertifikate" %}
-
-            <!-- Portfolio Item Start -->
-            <div class="gallery-item zertifikat">
-              <div class="thumb">
-                <img class="img-fullwidth" src="{{ item.image }}" alt="project">
-                <div class="overlay-shade"></div>
-                <div class="icons-holder">
-                  <div class="icons-holder-inner">
-                    <div class="styled-icons icon-sm icon-dark icon-circled icon-theme-colored">
-                      <a href="{{ item.url }}"><i class="fa fa-info"></i></a>
-                    </div>
+            <div class=" border-1px p-20 pr-10">
+              <div class="entry-meta media mt-0 no-bg no-border">
+                <div class="media-body pl-15">
+                  <div class="event-content pull-left flip">
+                    <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="{{ item.url }}">{{ item.title }}</a></h4>
                   </div>
                 </div>
-                <a class="hover-link" href="{{ item.url }}">Details</a>
               </div>
-              <div class="portfolio-description">
-                <h5 class="title"><a href="{{ item.url }}">{{ item.title }}</a></h5>
-                <!-- <span class="category"><span>Zertifikat</span> --></span>
-              </div>
+              <p class="mt-10">{{ item.description }}</p>
+              <a href="{{ item.url }}" class="btn-read-more">Mehr</a>
+              <div class="clearfix"></div>
             </div>
-            <!-- Portfolio Item End -->
-          {% endif %}
-          {% endfor %}
+          </article>
         </div>
+      </div>
+    {% if loopindex == 2 or forloop.last %}</div>{% endif %}
+    {% endfor %}
+
+
+
       </div>
     </div>
   </div>
