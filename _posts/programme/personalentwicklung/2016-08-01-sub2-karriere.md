@@ -1,0 +1,76 @@
+---
+layout: programme
+title: Karriere
+name: personalentwicklung
+description: "Masterstudiengang Personalentwicklung (M.A.)"
+category: programme
+tagline: 
+image:  /media/programme/casc_4.jpg
+parent: Studiengänge
+backlink: "/programme#studiengaenge"
+anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
+contact_name: dr_nicol_matzner_vogel
+---
+
+
+## Qualifizierung und berufliche Perspektiven
+
+**Durch die systematische und didaktisch aufbereitete Bearbeitung von Fachbeiträgen ausgewiesener Expertinnen und Experten sind die Inhalte des Studiengangs sowohl in Bezug auf die Aktualität als auch die Qualität hoch attraktiv. Die zu erwerbenden Kompetenzen bieten eine intensive, akademisch anspruchsvolle Vorbereitung auf Personalentwicklungsaufgaben und eröffnen formal den Zugang zum höheren Dienst.**
+
+Ein erfolgreicher Abschluss des Master-Studiengangs „Personalentwicklung“ qualifiziert Sie für den beruflichen Einsatz in den vielfältigen, heterogenen und komplexen Bereichen der Personalentwicklung, Bildung, Beratung und Förderung. 
+
+Diese umfassen u.a. den Aufbau und das Etablieren von fachlichen und außerfachlichen Weiterbildungsstrukturen, die Anwendung von Führungsinstrumenten, Gesundheitsmanagement und Gesundheitsförderung, die Personalauswahl und strategische Personalplanung.
+
+## Typische Berufsbilder 
+
+**Referentin/Referent oder Consultant für**
+
+* Personal- und Führungskräfteentwicklung
+* Personalmanagement
+* Betriebliche Weiterbildung
+* Betriebliches Gesundheitsmanagement
+* Diversity
+* Interkulturelle Kooperationen
+* Nachwuchssicherung
+
+Für weiterqualifizierte Beratungstätigkeiten wie Coaching und Mentoring stellt der Studiengang eine optimale Grundlage dar.
+
+## Zielgruppe
+
+Der Masterstudiengang „Personalentwicklung“ richtet sich sowohl an Berufstätige in der privaten oder staatlichen Wirtschaft, Mitarbeiterinnen und Mitarbeiter von NGOs und ausscheidende Zeitoffiziere als auch an Personen, die langfristig im staatlichen Dienst verbleiben. Erfahrungsgemäß bietet die große Bandbreite der beruflichen Tätigkeiten der Teilnehmenden bei vergleichbaren Interessengebieten einen Rahmen für besonders erkenntnisreiche Zusammenarbeit.
+ 
+
+## Gute Gründe für den Master-Studiengang Personalentwicklung:
+
+* Der Studiengang ist staatlich anerkannt und ACQUIN-akkreditiert. 
+* Hohe Flexibilität durch die Möglichkeit, einzelne Module zu belegen (Einstieg alle zwei Monate).
+* Berufsbegleitend: Fernstudium mit Präsenzwochenenden (Blended Learning).
+* Bewährtes Kleingruppenkonzept und hervorragende individuelle Betreuung.
+* Präsenztage an einem attraktiven Studienort und Austausch mit anderen Fach- und Führungskräften.
+
+## Teilnehmerstimmen
+
+**Stephanie Bartomioli (M.A.), Studienjahrgang 2014**
+
+„Das Studium „Personalentwicklung“ interessierte mich bereits, als ich noch in meinem ersten MA-Studium war. Nicht zuletzt aufgrund der vertrauten Strukturen und der guten Erfahrung bisher an der UniBw München entschied ich mich, noch während der Elternzeit dieses Studium berufsbegleitend zu beginnen. Auch nach meiner Rückkehr in den Dienst lassen sich die jeweiligen Wochenaufgaben ideal und flexibel mit meinem Alltag vereinbaren. Hierbei bietet das Studium neben der nötigen Freiheit aber auch verbindliche zeitliche und inhaltliche Vorgaben, die die Orientierung wesentlich erleichtern. Die Kommunikation mit den Lehrenden könnte nicht besser sein – auf akute Fragen wird stets prompt und umfassend geantwortet und jedwede nur denkbare Unterstützung angeboten. Insbesondere die Arbeit in Kleingruppen und das Feedback meiner KommilitonInnen empfand ich als sehr hilfreich. Da die Foren im Internet für alle und zu jeder Zeit zugänglich waren, konnten eventuelle Fragen oder Wünsche direkt geäußert und beantwortet werden. Die Präsenzwochenenden rundeten das Lernerlebnis ab. Neben dem persönlichen Kontakt und Austausch wurden Methoden und Verfahren direkt vermittelt. Von Anfang an herrschte eine lockere, positive und nichtsdestotrotz professionelle Stimmung unter den Studierenden. Spaß am Lernen und gegenseitige Motivation waren für mich von Anfang an gegeben!“
+
+
+**Kerstin Melzer (M.A.), Personalentwicklerin Universität Konstanz, Studienjahrgang 2014**
+
+„Als angehende Personalentwicklerin an einer Universität war ich auf der Suche nach einer ordentlichen Weiterbildung, die mich auf meine neuen Aufgaben gut vorbereitet und sich in meinen Arbeitsalltag integrieren lässt. Nach ausführlicher Recherche des Weiterbildungsmarkts entschied ich mich für das Modulstudium Personalentwicklung an der Bundeswehruniversität München, da mich hier die Studieninhalte und die blended-learning Struktur sehr überzeugten.
+
+Die Organisation des Studiums war sehr gut mit meiner Vollzeitstelle zu vereinbaren, da sich die wöchentlichen Aufgaben am Abend und am Wochenende bearbeiten ließen. Die vorgegebene Struktur und das zeitnahe Feedback der Professorin erleichterten es uns zudem, die vielen Studieninhalte zügig und sukzessiv zu behandeln und in unserem Lernprozess voranzukommen. Hilfreich war auch in Lerngruppen zusammenzuarbeiten, wodurch wir uns gegenseitig austauschen, motivieren und unterstützen konnten. Die Präsenzeinheiten in Neubiberg waren für mich Highlights: zum einen war es sehr nett die anderen Studis wiederzusehen und zum anderen hatten wir hier auch die Gelegenheit, Methoden selbst zu erproben und Praktikerinnen zu treffen.“
+
+**Sascha Heeren (M.A.), Personalentwickler, Studienjahrgang 2014**
+
+„Für den berufsbegleitenden Master-Studiengang Personalentwicklung habe ich mich ganz bewusst entschieden. Als fachspezifische Vertiefung zu meinem ersten Master-Studium mit Schwerpunkt 'Berufsbildung' konnte ich mein berufliches Profil für die Zeit nach der Bundeswehr und den zivilen Arbeitsmarkt auf interessante und professionelle Weise schärfen. Persönlich lag mein größtes Interesse in den Bereichen Unternehmensbindung und Kommunikation, weshalb ich in meiner Masterarbeit ein Forschungsprojekt über die öffentliche Darstellung der Personalentwicklung von ausgewählten Dax-Unternehmen durchgeführt habe. Damit war es mir möglich, mit aktuellem Wissensstand in einem zunehmend bedeutenderen Themenfeld bei potenziellen Arbeitgebern zu überzeugen.
+
+Diese Entscheidung hat sich gelohnt, denn heute kann ich als Personalentwickler in der Wirtschaft meine im Studium vertieften Kenntnisse in der Praxis wiedererkennen und anwenden.“
+
+**Astrid Köbernick (Dipl. Btrw. (FH), M.A.), Einplanungsoffizier im Karrierecenter der Bundeswehr Mainz, Studienjahrgang 2014**
+
+„Ich erfuhr bereits während meines Erststudiums Betriebswirtschaftslehre (FH) an der Universität der Bundeswehr München von dem Vorhaben der Frau Prof. Dr. Rotering-Steinberg einen neuen casc-Studiengang Personalentwicklung zu implementieren. 
+
+Thematisch interessierte mich der Studiengang von Anfang an, da ich im Schwerpunkt Personalmanagement und Arbeitsrecht belegte. Ich wollte auch nicht warten, bis ich das Lernen verlerne, neue Themenfelder und weiterführende Entwicklungen an mir vorbeigehen, mein Dienstzeitende auf einmal da ist, und ich meine Möglichkeiten durch den Berufsförderungsdienst ungenutzt verstreichen lasse.
+
+Das Grundmodul frischte mein Wissen aus dem Erststudium auf und knüpfte sehr gut an das Thema Mitarbeiterbindung, mit dem ich mich in meiner Diplomarbeit beschäftigte, an. Weiterhin erwiesen sich die Lernmethode Blended-Learning, das ein selbständiges Lernen und die Vertiefung des Wissens in Präsenzphasen fördert, die Anwendung des Kleingruppenprinzips und die Prüfungsformen als äußerst attraktiv und passend. Ich fühle mich mit dem Abschluss Master Personalentwicklung für das, nicht mehr nur in Großunternehmen zunehmend relevante Themenfeld, qualitativ sehr gut ausgebildet und kompetent auf den Wechsel in die Wirtschaft vorbereitet.

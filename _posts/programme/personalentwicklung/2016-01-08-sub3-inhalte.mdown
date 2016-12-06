@@ -1,0 +1,42 @@
+---
+layout: programme
+title: Inhalte
+name: personalentwicklung
+description: "Masterstudiengang Personalentwicklung (M.A.)"
+category: programme
+tagline: 
+image:  /media/programme/casc_4.jpg
+parent: Studiengänge
+backlink: "/programme#studiengaenge"
+anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
+contact_name: dr_nicol_matzner_vogel
+---
+
+
+**Das Studium umfasst vier Abschnitte – Grundlagenphase, Vertiefungsphase, anwendungsspezifische Phase, sowie zukunftsorientierte Phase, die gefolgt von der Masterarbeit insgesamt 27 Monate umfassen. Pro Studienabschnitt werden zwei bis vier Module durchgeführt. Alle vier Monate ist eine Wochenendpräsenz von Freitagmorgen bis Samstagabend vorgesehen.**
+
+* In der **Grundlagenphase** werden elementare Kenntnisse und Methoden der Personalentwicklung und Personalpsychologie, z.B.in den Bereichen Organisations- und Personalentwicklung, Führungstheorien, Change Management sowie zielgruppenspezifisches Karrieremanagement vermittelt.
+
+* In der **Vertiefungsphase** stehen die Besonderheiten der Personalentwicklung im Fokus: Es werden spezifische Kenntnisse und Methoden zu den Themen Beurteilung und Qualifizierung, z.B. Potenzialerhebung, Teamentwicklung, Karrierecoaching sowie Mentoring, bearbeitet.
+
+* In der **anwendungsspezifischen Phase** werden Kenntnisse und Methoden zu exemplarischen Praxisfeldern der Personalentwicklung vorgestellt, um konkrete Handlungskompetenzen entwickeln zu können. Das Modul zu Unternehmenskulturen sowie die Wahlpflichtmodule lassen eine interessenorientierte Auswahl zu.
+
+* In der **zukunftsorientierten Phase** werden die Handlungsfelder, Methoden und Instrumente der für die Personalentwicklung zukünftig immer wichtiger werdenden Themen „Betriebliches Gesundheitsmanagement“ und „Interkulturelle Kommunikation“ vertiefend vermittelt.
+
+
+## Modulstruktur 
+**Graphische Darstellung, s. Flyer (pdf) bzw. Umsetzung in Prototyping; Wunsch: Hinterlegung der Buttons mit Kurzbeschreibung jedes Moduls**
+
+## Lehr- und Lernmethode
+Der Studiengang ist modular aufgebaut und konsequent berufsbegleitend studierbar. Das im Blended-Learning-Prinzip gestaltete Lehr-Lern-Konzept verbindet das Fernstudium mit zweitägigen Wochenendpräsenzen (Freitag und Samstag) und erlaubt dadurch intensive Wissensvermittlung und raschen Kompetenzerwerb.
+
+Die kompetenzorientierten Prüfungsformen im Master-Studiengang Personalentwicklung tragen zur Anwendbarkeit und zum Lerntransfer der Lerninhalte bei und wurden in der konkreten Ausprägung für die berufliche, akademische Erwachsenenbildung entwickelt. Zudem bereiten die Aufgabenstellungen der Fernphase, die fast immer in virtueller Zusammenarbeit und Kooperation innerhalb der Arbeitsgruppen bearbeitet werden, optimal auf sowohl den Leistungsnachweis, als auch die Masterarbeit vor.
+
+In den Wochenendpräsenzen werden zum einen die mündliche Prüfung eines vorausgegangenen Moduls als auch Handlungstrainings und Kamingespräche bzw. Interviews mit Expertinnen und Experten aus der Personalentwicklung durchgeführt.
+
+## Modulstudium
+
+Der modulare Aufbau des Studiengangs erlaubt es, auch einzelne Module im Rahmen eines Modulstudiums zu belegen und diese mit einem Hochschulzertifikat abzuschließen. Für erfolgreich abgelegte Module werden von der Universität ECTS-Leistungspunkte bescheinigt.
+
+Wurden auf diese Art alle Module belegt und erfolgreich abgeschlossen, kann die Ausbildung mit dem Master-Abschluss beendet werden, sofern eine Masterarbeit entsprechend der Prüfungsordnung erfolgreich angefertigt wurde.
+
