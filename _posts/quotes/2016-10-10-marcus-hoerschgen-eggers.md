@@ -1,8 +1,9 @@
 ---
 layout: article
-title: Dipl.-Ing. Marcus Hörschgen-Eggers, Deutsches Zentrum für Luft- und Raumfahrt (DLR), Studienjahrgang 2014
+title: Dipl.-Ing. Marcus Hörschgen-Eggers
+abschluss: "Deutsches Zentrum für Luft- und Raumfahrt (DLR), Studienjahrgang 2014"
 name: kerstin-melzer
-description: „Nach mehr als zehnjähriger beruflicher Tätigkeit beim Deutschen Zentrum für Luft- und Raumfahrt im Bereich der Auslegung, Konzeptionierung und Konstruktion von Höhenforschungsraketen und Subsystemen habe ich mich für den Masterstudiengang Systems Engineering bei der Universität der Bundeswehr München entschieden, um zum einen meine berufliche Weiterbildung im Bereich Projektmanagement und Systems Engineering auf eine solide akademische Basis zu stellen, aber auch aus persönlicher Lust an einem weiterführenden Studium.“ 
+description: "Nach mehr als zehnjähriger beruflicher Tätigkeit beim Deutschen Zentrum für Luft- und Raumfahrt im Bereich der Auslegung, Konzeptionierung und Konstruktion von Höhenforschungsraketen und Subsystemen habe ich mich für den Masterstudiengang Systems Engineering bei der Universität der Bundeswehr München entschieden, um zum einen meine berufliche Weiterbildung im Bereich Projektmanagement und Systems Engineering auf eine solide akademische Basis zu stellen, aber auch aus persönlicher Lust an einem weiterführenden Studium."
 category: quotes
 tagline: 
 image: kerstin-melzer.jpg

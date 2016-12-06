@@ -1,8 +1,9 @@
 ---
 layout: article
-title: Sascha Heeren (M.A.), Personalentwickler, Studienjahrgang 2014
+title: Sascha Heeren (M.A.)
+abschluss: "Personalentwickler, Studienjahrgang 2014"
 name: sascha-heeren
-description: „Für den berufsbegleitenden Master-Studiengang Personalentwicklung habe ich mich ganz bewusst entschieden. Als fachspezifische Vertiefung zu meinem ersten Master-Studium mit Schwerpunkt 'Berufsbildung' konnte ich mein berufliches Profil für die Zeit nach der Bundeswehr und den zivilen Arbeitsmarkt auf interessante und professionelle Weise schärfen.“
+description: "Für den berufsbegleitenden Master-Studiengang Personalentwicklung habe ich mich ganz bewusst entschieden. Als fachspezifische Vertiefung zu meinem ersten Master-Studium mit Schwerpunkt 'Berufsbildung' konnte ich mein berufliches Profil für die Zeit nach der Bundeswehr und den zivilen Arbeitsmarkt auf interessante und professionelle Weise schärfen."
 category: quotes
 tagline: 
 image: sascha-heeren.jpg

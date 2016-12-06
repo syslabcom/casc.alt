@@ -1,8 +1,9 @@
 ---
 layout: article
-title: Konstantin Runkel (MBA), Military Recruiter bei Amazon Deutschland, MBA-Studiengang International Management, Jahrgang 2013
+title: Konstantin Runkel (MBA)
+abschluss: "Military Recruiter bei Amazon Deutschland, MBA-Studiengang International Management, Jahrgang 2013"
 name: florian-grimm
-description: „Als Geisteswissenschaftler stand für mich bereits früh fest, dass ich ein betriebswirtschaftliches Aufbaustudium anstrebe, um mich bestmöglich für die Zeit nach der Bundeswehr zu positionieren.“
+description: Als Geisteswissenschaftler stand für mich bereits früh fest, dass ich ein betriebswirtschaftliches Aufbaustudium anstrebe, um mich bestmöglich für die Zeit nach der Bundeswehr zu positionieren.
 category: quotes
 tagline: 
 image: florian-grimm.jpg

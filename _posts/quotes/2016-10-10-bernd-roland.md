@@ -1,8 +1,9 @@
 ---
 layout: article
 title: Bernd Roland
+abschluss: "Project Manager Global Operations bei der Dräger Medical GmbH, Absolvent MBA International Management Jg. 2011"
 name: bernd-roland
-description: "Project Manager Global Operations bei der Dräger Medical GmbH, Absolvent MBA International Management Jg. 2011"
+description: "Dieses MBA-Programm war für mich nicht nur eine ideale Vorbereitung auf neue Aufgaben nach meiner Zeit als Offizier, sondern förderte auch meine persönliche Weiterentwicklung."
 category: quotes
 tagline: 
 image: bernd-roland.jpg

@@ -1,8 +1,9 @@
 ---
 layout: article
 title: Andre Kutz
+abschluss: "Associate bei McKinsey & Company ab September 2011, Absolvent MBA International Management Jg. 2011"
 name: andre-kutz
-description: "Associate bei McKinsey & Company ab September 2011, Absolvent MBA International Management Jg. 2011"
+description: "Der gute Ruf des MBA-Programms hat mir bereits während des Studiums die Möglichkeit gegeben, ein Praktikum bei einer Unternehmensberatung zu absolvieren und meine Master Thesis mit Unterstützung einer Investmentbank zu schreiben."
 category: quotes
 tagline: 
 image: andre-kutz.jpg

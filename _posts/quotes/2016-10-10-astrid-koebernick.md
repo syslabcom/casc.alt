@@ -1,8 +1,9 @@
 ---
 layout: article
-title: Astrid Köbernick (Dipl. Btrw. (FH), M.A.), Einplanungsoffizier im Karrierecenter der Bundeswehr Mainz, Studienjahrgang 2014
+title: Astrid Köbernick (Dipl. Btrw. (FH), M.A.)
+abschluss: "Einplanungsoffizier im Karrierecenter der Bundeswehr Mainz, Studienjahrgang 2014"
 name: kerstin-melzer
-description: „Ich erfuhr bereits während meines Erststudiums Betriebswirtschaftslehre (FH) an der Universität der Bundeswehr München von dem Vorhaben der Frau Prof. Dr. Rotering-Steinberg einen neuen casc-Studiengang Personalentwicklung zu implementieren. Thematisch interessierte mich der Studiengang von Anfang an, da ich im Schwerpunkt Personalmanagement und Arbeitsrecht belegte.“ 
+description: "Ich erfuhr bereits während meines Erststudiums Betriebswirtschaftslehre (FH) an der Universität der Bundeswehr München von dem Vorhaben der Frau Prof. Dr. Rotering-Steinberg einen neuen casc-Studiengang Personalentwicklung zu implementieren. Thematisch interessierte mich der Studiengang von Anfang an, da ich im Schwerpunkt Personalmanagement und Arbeitsrecht belegte."
 category: quotes
 tagline: 
 image: kerstin-melzer.jpg

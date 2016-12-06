@@ -1,8 +1,9 @@
 ---
 layout: article
-title: Kerstin Melzer (M.A.), Personalentwicklerin Universität Konstanz, Master-Studiengang Personalentwicklung, Jahrgang 2014
+title: Kerstin Melzer (M.A.)
+abschluss: "Personalentwicklerin Universität Konstanz, Master-Studiengang Personalentwicklung, Jahrgang 2014"
 name: kerstin-melzer
-description: "„Als angehende Personalentwicklerin an einer Universität war ich auf der Suche nach einer ordentlichen Weiterbildung, die mich auf meine neuen Aufgaben gut vorbereitet und sich in meinen Arbeitsalltag integrieren lässt.“ Weiterlesen"
+description: "Als angehende Personalentwicklerin an einer Universität war ich auf der Suche nach einer ordentlichen Weiterbildung, die mich auf meine neuen Aufgaben gut vorbereitet und sich in meinen Arbeitsalltag integrieren lässt."
 category: quotes
 tagline: 
 image: kerstin-melzer.jpg

@@ -1,8 +1,9 @@
 ---
 layout: article
-title: Marco Knott, Bachelor-Studiengang Wirtschaftsingenieurwesen, Jahrgang 2013
+title: Marco Knott
+abschluss: "Bachelor-Studiengang Wirtschaftsingenieurwesen, Jahrgang 2013"
 name: marco-knott
-description: „Der Bachelor-Studiengang Wirtschaftsingenieurwesen hat mir aufgrund des gelungenen Studienkonzeptes auf Anhieb zugesagt. Sehr gut gefiel mir der durchdachte Aufbau mit der Vorbereitungsphase und der darauffolgenden Fernstudienphase.“ 
+description: "Der Bachelor-Studiengang Wirtschaftsingenieurwesen hat mir aufgrund des gelungenen Studienkonzeptes auf Anhieb zugesagt. Sehr gut gefiel mir der durchdachte Aufbau mit der Vorbereitungsphase und der darauffolgenden Fernstudienphase."
 category: quotes
 tagline: 
 image: marco-knott.jpg

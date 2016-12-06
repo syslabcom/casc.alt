@@ -1,8 +1,9 @@
 ---
 layout: article
-title: Stephanie Bartomioli (M.A.), Studienjahrgang 2014
+title: Stephanie Bartomioli (M.A.)
+abschluss: "Studienjahrgang 2014"
 name: florian-grimm
-description: „Das Studium Personalentwicklung interessierte mich bereits, als ich noch in meinem ersten MA-Studium war. Nicht zuletzt aufgrund der vertrauten Strukturen und der guten Erfahrung bisher an der UniBw München entschied ich mich, noch während der Elternzeit dieses Studium berufsbegleitend zu beginnen. Auch nach meiner Rückkehr in den Dienst lassen sich die jeweiligen Wochenaufgaben ideal und flexibel mit meinem Alltag vereinbaren.“ 
+description: "Das Studium Personalentwicklung interessierte mich bereits, als ich noch in meinem ersten MA-Studium war. Nicht zuletzt aufgrund der vertrauten Strukturen und der guten Erfahrung bisher an der UniBw München entschied ich mich, noch während der Elternzeit dieses Studium berufsbegleitend zu beginnen. Auch nach meiner Rückkehr in den Dienst lassen sich die jeweiligen Wochenaufgaben ideal und flexibel mit meinem Alltag vereinbaren."
 category: quotes
 tagline: 
 image: florian-grimm.jpg
