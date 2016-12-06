@@ -1,0 +1,15 @@
+{% if page.hero_image %}
+<section id="hero" 
+         class="inner-header divider gradient " data-bg-img="{{ page.hero_image }}" style="background-image: url({{ page.hero_image }}); ">
+  <div class="container pt-70 pb-20">
+    <!-- Section Content -->
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12 mt-180">
+          <h2 class="title font-theserif text-white">{{ page.hero_title }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}

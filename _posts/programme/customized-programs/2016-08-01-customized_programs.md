@@ -6,6 +6,7 @@ description: "Sie möchten Ihre Mitarbeiterinnen und Mitarbeiter in einem spezie
 category: programme
 parent: Studiengänge
 image: /media/programme/15_Customized Programs.JPG
+footer: Programme
 ---
 
 

@@ -6,6 +6,7 @@ description: "Sie möchten ihr Wissen in einem bestimmten Themengebiet vertiefen
 category: programme
 parent: Studiengänge
 image: /media/programme/14_Zertifikate.JPG
+footer: Programme
 ---
  
 

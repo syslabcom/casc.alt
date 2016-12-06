@@ -6,6 +6,7 @@ description: "Sie möchten sich fachlich gezielt auf eine Führungsaufgabe vorbe
 category: programme
 parent: Studiengänge
 image: /media/programme/13_Modulstudium.jpg
+footer: Programme
 ---
 
 
