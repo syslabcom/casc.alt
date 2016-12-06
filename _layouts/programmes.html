@@ -7,18 +7,18 @@ layout: generic
       <div class="row">
         <div class="col-md-8">
           <h2 class="text-uppercase font-28 line-bottom mt-0 line-height-1">Unsere <span class="text-theme-color-2 font-weight-400">Programme</span></h2>
-          <h4 class="pb-20">Studiengänge und Zertifikate an der UniBW</h4>
+          <h4 class="pb-20"></h4>
         </div>
       </div>
     </div>
     <div class="row">
       <div class="col-md-12">
 
-        <div class="portfolio-filter font-alt align-center">
+        <!-- <div class="portfolio-filter font-alt align-center">
           <a href="#" class="active" data-filter="*">Alle</a>
           <a href="#studiengang" class="" data-filter=".studiengang">Studiengänge</a>
           <a href="#zertifikat" class="" data-filter=".zertifikat">Zertifikate</a>
-        </div>
+        </div> -->
 
         <div id="grid" class="gallery-isotope grid-3 masonry gutter clearfix">
           {% for item in site.posts %}
@@ -40,7 +40,7 @@ layout: generic
               </div>
               <div class="portfolio-description">
                 <h5 class="title"><a href="{{ item.url }}">{{ item.title }}</a></h5>
-                <span class="category"><span>Studiengang</span></span>
+                <!-- <span class="category"><span>Studiengang</span> --></span>
               </div>
             </div>
             <!-- Portfolio Item End -->
@@ -65,7 +65,7 @@ layout: generic
               </div>
               <div class="portfolio-description">
                 <h5 class="title"><a href="{{ item.url }}">{{ item.title }}</a></h5>
-                <span class="category"><span>Zertifikat</span></span>
+                <!-- <span class="category"><span>Zertifikat</span> --></span>
               </div>
             </div>
             <!-- Portfolio Item End -->
