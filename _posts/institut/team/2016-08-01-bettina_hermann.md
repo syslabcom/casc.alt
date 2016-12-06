@@ -7,6 +7,7 @@ category: institut
 tagline: Unser Service
 image: "/media/team-members/12.jpg"
 parent: Team
+typ: staff
 ---
 
 **Bettina Herrmann, M.A.**

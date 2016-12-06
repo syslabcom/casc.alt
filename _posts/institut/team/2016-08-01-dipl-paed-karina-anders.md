@@ -7,6 +7,7 @@ category: institut
 tagline: Unser Service
 image: "/media/team-members/11.jpg"
 parent: Team
+typ: staff
 ---
 
 **Dipl.-Päd. Karina Anders, MBA**

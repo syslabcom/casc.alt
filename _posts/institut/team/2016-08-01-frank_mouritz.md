@@ -7,6 +7,7 @@ category: institut
 tagline: Unser Service
 image: "/media/team-members/9.jpg"
 parent: Team
+typ: staff
 ---
 
 **Frank Mouritz, M.A.**

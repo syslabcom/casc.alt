@@ -1,7 +1,7 @@
-    <div class="section-content">
-      <div class="row multi-row-clearfix">
-        {% for person in site.posts %}
-            {% if item.title == person.parent %}
+
+      <h2>Unser Team</h2>
+        {% assign items = site.posts | where:"typ","staff" | sort: 'title' %}
+        {% for person in items %}
 
         <div class="col-sm-3 col-md-4 sm-text-center mb-sm-8">
           <div class="team maxwidth200">
@@ -13,8 +13,5 @@
             </div>
           </div>
         </div>
-            {% endif %}
         {% endfor %}
 
-      </div>
-    </div>

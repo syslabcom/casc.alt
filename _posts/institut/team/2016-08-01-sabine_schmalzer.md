@@ -7,6 +7,7 @@ category: institut
 tagline: Unser Service
 image: "/media/team-members/10.jpg"
 parent: Team
+typ: staff
 ---
 
 **Dr. des. Sabine Schmalzer**

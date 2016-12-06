@@ -7,6 +7,7 @@ category: institut
 tagline: Unser Service
 image: "/media/team-members/8.jpg"
 parent: Team
+typ: staff
 ---
 
 **Martina Hucl, Dipl. Kulturwirtin**

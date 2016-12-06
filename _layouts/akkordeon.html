@@ -11,11 +11,10 @@ layout: generic
         <!-- Room for more info -->
         </div>
       </div>
-      <div class="col-md-9 blog-pull-right">
-        <div class="blog-posts single-post">
-              {{ content }}
-        </div>
-
+      <div class="col-md-9">
+        
+        {{ content }}
+        
         <div id="accordion1" class="panel-group accordion">
         {% assign items = site.posts | where:"parent",page.title %}
         {% for item in items %}
@@ -29,6 +28,11 @@ layout: generic
           </div>
         {% endfor %}
         </div>
+        
+        {% if page.show_team %}
+        {% include people-cloud.html %}
+        {% endif %}
+
       </div>
 
 
