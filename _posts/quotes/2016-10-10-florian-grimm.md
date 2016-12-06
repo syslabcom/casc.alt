@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Florian Grimm (Dipl.-Ing.), Entwicklungsingenieur bei Voith Composites GmbH, Master-Studiengang Systems Engineering, Jahrgang 2015
+title: "Florian Grimm (Dipl.-Ing.), Entwicklungsingenieur bei Voith Composites GmbH, Master-Studiengang Systems Engineering, Jahrgang 2015"
 name: florian-grimm
 description: „Nach einigen beruflichen Jahren primär in der Luftfahrtentwicklung habe ich mich für den Studiengang Systems Engineering an der UniBw entschieden, da ich meine technischen Erfahrungen als Ingenieur um das breite Feld der Entwicklungsmethodik und des Entwicklungsmanagements fundiert ausbauen möchte.“ 
 category: quotes
