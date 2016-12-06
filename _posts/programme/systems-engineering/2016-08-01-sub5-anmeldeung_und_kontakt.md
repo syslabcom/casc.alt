@@ -42,7 +42,7 @@ Geschäftsführerin casc <br>
 Universität der Bundeswehr München<br>
 Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg Tel.: +49 89 6004 4530 <br>
-E-Mail:  <a href="mailto:nicol.matzner@unibw.de ">"nicol.matzner@unibw.de"</a><br>
+E-Mail:  <a href="mailto:nicol.matzner@unibw.de">"nicol.matzner@unibw.de"</a><br>
 
 ## Kontakt
 

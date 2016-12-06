@@ -2,7 +2,7 @@
 layout: programme
 title: Personalentwicklung (M.A.)
 name: personalentwicklung
-description: "Masterstudiengang Personalentwicklung (M.A.)"
+description: "Soziale Kompetenzentwicklung in Organisationen aktiv mitgestalten - Erlangen Sie mit dem berufsbegleitenden Master Personalentwicklung die notwendigen Kenntnisse für eine Fach- oder Führungsposition in der systematischen Personalentwicklung."
 category: programme
 tagline: 
 image:  /media/programme/casc_4.jpg

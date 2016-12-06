@@ -1,8 +1,8 @@
 ---
 layout: programme
-title: Frontpage
+title: International Security Studies (M.A.)
 name: international_security_studies
-description: "The Master of Arts – Program “International Security Studies” (MISS) is a unique post-graduate program for security professionals offered jointly by the Universität der Bundeswehr München (UniBwM) and the George C. Marshall European Center for Security Studies (GCMC)."
+description: "Sich zum Experten für internationale Sicherheitspolitik weiterbilden – Starten Sie mit dem englischsprachigen Master International Security Studies eine erfolgreiche Karriere im Bereich der  internationalen Sicherheit"
 category: programme
 tagline: 
 image: /media/programme/casc_3.jpg

@@ -1,8 +1,8 @@
 ---
 layout: programme
-title: Systems Engineering
+title: Systems Engineering (M.Sc.)
 name: systems_engineering
-description: casc versteht sich im Prozess der Angebotsplanung, -realisierung und -verbesserung als Dienstleister, der akademischen Verantwortlichen und Unternehmen insbesondere eine administrativ-organisatorische Unterstützung entlang der gesamten Wertschöpfungskette der Weiterbildungsangebote anbietet.
+description: "Komplexe technische Systeme mit integriertem Systemdenken durchdringen - Erwerben Sie mit dem berufsbegleitenden Master Systems Engineering das erforderliche Wissen, um Projekte ganzheitlich zum Erfolg zu führen.""
 category: programme
 tagline: Unser Service
 image:  /media/programme/casc_5.jpg

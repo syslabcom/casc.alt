@@ -2,8 +2,7 @@
 layout: programme
 title: BA Wirtschaftsingenieurwesen (B.Eng.)
 name: wirtschaftsingenieur
-description: "Der praxisorientierte Studiengang mit und ohne Abitur für Feldwebel. Ein maßgeschneidertes Programm der Hochschule Reutlingen und der Universität der Bundeswehr München."
-category: programme
+description: "Als Feldwebel mit und ohne Abitur studieren – Qualifizieren Sie sich mit dem praxisnahen Bachelor Wirtschaftsingenieurwesen für vielfältige Tätigkeitsfelder in der zivilen Wirtschaft und Industrie."
 tagline: 
 image:  /media/programme/casc_6.jpg
 parent: Studiengänge

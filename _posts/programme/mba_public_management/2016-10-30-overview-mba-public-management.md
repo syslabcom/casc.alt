@@ -2,7 +2,7 @@
 layout: programme
 title: MBA Public Management
 name: mba_public_management
-description: "MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung"
+description: "Management-Kompetenzen für den öffentlichen Sektor erwerben - Bereiten Sie sich mit dem berufsbegleitenden MBA Public Management gezielt auf die vielschichtigen Führungsaufgaben im öffentlichen Dienst vor."
 category: programme
 parent: MBA Public Management
 footer: Programme
