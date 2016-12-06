@@ -1,0 +1,38 @@
+---
+layout: generic
+---
+
+<section>
+  <div class="container mt-0 mb-30 pt-30 pb-30">
+ 
+    <div class="row">
+      <div class="col-md-3 scrolltofixed-container">
+        <div class="list-group scrolltofixed" >
+        <!-- Room for more info -->
+        </div>
+      </div>
+      <div class="col-md-9 blog-pull-right">
+        <div class="blog-posts single-post">
+              {{ content }}
+        </div>
+
+        <div id="accordion1" class="panel-group accordion">
+        {% assign items = site.posts | where:"parent",page.title %}
+        {% for item in items %}
+          <div class="panel">
+            <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ item.title }} </a> </div>
+            <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+              <div class="panel-content">
+                <p>{{ item.content | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+
