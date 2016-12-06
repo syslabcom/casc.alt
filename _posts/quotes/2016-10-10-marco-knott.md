@@ -6,7 +6,7 @@ name: marco-knott
 description: "Der Bachelor-Studiengang Wirtschaftsingenieurwesen hat mir aufgrund des gelungenen Studienkonzeptes auf Anhieb zugesagt. Sehr gut gefiel mir der durchdachte Aufbau mit der Vorbereitungsphase und der darauffolgenden Fernstudienphase."
 category: quotes
 tagline: 
-image: marco-knott.jpg
+image: /media/people/marco-knott.jpg
 ---
 
 „Außerdem konnte ich mit den Schwerpunktfächern des Studiums aufgrund meiner Vorausbildungen gleich etwas anfangen. Daneben ist der Studiengang meines Erachtens themenmäßig breit gefächert, was ein rasches Einsteigen in fast jede Berufssparte ermöglicht.

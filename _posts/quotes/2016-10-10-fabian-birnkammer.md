@@ -5,7 +5,7 @@ name: kerstin-melzer
 description: "Nach meinem dualen Studium der Elektrotechnik wollte ich mich nach einiger Zeit im Beruf weiterbilden. Da in meinem aktuellen Arbeitsbereich bereits viel interdisziplinäres Verständnis erforderlich ist, sprach mich das Systems Engineering Masterstudium sofort an. Dieser Eindruck wurde nach einem persönlichen Gespräch mit Prof. Förstner noch verstärkt, so dass ich mich entschied nebenbei noch ein Studium aufzunehmen. Diese Entscheidung habe ich bislang nicht bereut."
 category: quotes
 tagline: 
-image: kerstin-melzer.jpg
+image: /media/people/fabian-birnkammer.jpg
 ---
 
 

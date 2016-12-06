@@ -15,9 +15,9 @@ layout: generic
               <h4><a class="text-uppercase" href="#">{{page.title}}</a></h4>
             </div>
             <div class="entry-meta pl-15">
-              <ul class="list-inline">
-                <li>Posted: <span class="text-theme-color-2"> {{ page.date | date: '%d %B %Y'}}</span></li>
-              </ul>
+              <em class="meta">
+                 {{ page.description }}
+              </em>
             </div>
             <div class="entry-content mt-10">
               {{ content }}
@@ -28,15 +28,7 @@ layout: generic
           
       <div class="col-md-3">
         <div class="sidebar sidebar-right mt-sm-30">
-          <div class="bs-docs-sidebar affix">
-            <h5 class="widget-title line-bottom">Service</h5>
-            <ul class="nav bs-docs-sidenav nav-list">
-              <li><a href="#anchor1">Übersicht</a></li>
-              <li><a href="#anchor2">Karriereförderung</a></li>
-              <li><a href="#anchor3">Finanzierung</a></li>
-              <li><a href="#anchor4">Angebotsentwicklung</a></li>
-            </ul>
-          </div>
+        <img class="thumb" src="{{ page.image }}">
         </div>
       </div>
 

@@ -1402,7 +1402,7 @@ var THEMEMASCOT = {};
                     after: function() {
                         current_div.owlCarousel({
                             rtl: THEMEMASCOT.isRTL.check(),
-                            autoplay: true,
+                            autoplay: false,
                             autoplayTimeout: 4000,
                             loop: true,
                             margin: 15,
@@ -1489,7 +1489,7 @@ var THEMEMASCOT = {};
                 }, function() {
                     $twitter_feed_carousel.find('ul').owlCarousel({
                         rtl: THEMEMASCOT.isRTL.check(),
-                        autoplay: true,
+                        autoplay: false,
                         autoplayTimeout: 2000,
                         loop: true,
                         items: 1,
@@ -1603,7 +1603,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 1,
@@ -1622,7 +1622,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 2,
@@ -1669,7 +1669,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 3,
@@ -1717,7 +1717,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 4,
@@ -1764,7 +1764,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 5,
@@ -1811,7 +1811,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 6,
@@ -1858,7 +1858,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 7,
@@ -1901,7 +1901,7 @@ var THEMEMASCOT = {};
                 var data_duration = ( $(this).data("duration") === undefined ) ? 4000: $(this).data("duration");
                 $(this).owlCarousel({
                     rtl: THEMEMASCOT.isRTL.check(),
-                    autoplay: true,
+                    autoplay: false,
                     autoplayTimeout: data_duration,
                     loop: true,
                     items: 8,

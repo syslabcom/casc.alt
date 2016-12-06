@@ -119,7 +119,11 @@ nav ul li a#faculty {
 section.inner-header {
     height: 400px;
 }
-
+/* Testimonials - Quotes */
+#quotes .item img {
+    height: 100px;
+    width: 100px;
+}
 /* Slider */
 .inner_header:before,
 .rev_slider .slotholder:before {
@@ -160,6 +164,9 @@ section.inner-header {
     font-family: theserif;
     white-space: normal ;
 }
+
+
+/* Sections */
 section.clients img {
 
 }

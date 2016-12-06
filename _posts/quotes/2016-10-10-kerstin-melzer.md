@@ -6,7 +6,7 @@ name: kerstin-melzer
 description: "Als angehende Personalentwicklerin an einer Universität war ich auf der Suche nach einer ordentlichen Weiterbildung, die mich auf meine neuen Aufgaben gut vorbereitet und sich in meinen Arbeitsalltag integrieren lässt."
 category: quotes
 tagline: 
-image: kerstin-melzer.jpg
+image: /media/people/kerstin-melzer.jpg
 ---
 
 

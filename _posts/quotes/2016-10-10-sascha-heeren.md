@@ -6,7 +6,7 @@ name: sascha-heeren
 description: "Für den berufsbegleitenden Master-Studiengang Personalentwicklung habe ich mich ganz bewusst entschieden. Als fachspezifische Vertiefung zu meinem ersten Master-Studium mit Schwerpunkt 'Berufsbildung' konnte ich mein berufliches Profil für die Zeit nach der Bundeswehr und den zivilen Arbeitsmarkt auf interessante und professionelle Weise schärfen."
 category: quotes
 tagline: 
-image: sascha-heeren.jpg
+image: /media/people/sascha-heeren.jpg
 ---
 
 „Persönlich lag mein größtes Interesse in den Bereichen Unternehmensbindung und Kommunikation, weshalb ich in meiner Masterarbeit ein Forschungsprojekt über die öffentliche Darstellung der Personalentwicklung von ausgewählten Dax-Unternehmen durchgeführt habe. Damit war es mir möglich, mit aktuellem Wissensstand in einem zunehmend bedeutenderen Themenfeld bei potenziellen Arbeitgebern zu überzeugen.
