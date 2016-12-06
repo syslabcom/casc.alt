@@ -5,7 +5,7 @@ name: personalentwicklung
 description: "Soziale Kompetenzentwicklung in Organisationen aktiv mitgestalten - Erlangen Sie mit dem berufsbegleitenden Master Personalentwicklung die notwendigen Kenntnisse für eine Fach- oder Führungsposition in der systematischen Personalentwicklung."
 category: programme
 tagline: 
-image:  /media/programme/casc_4.jpg
+image:  /media/programme/4_Personalentwicklung (M.A.).jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."

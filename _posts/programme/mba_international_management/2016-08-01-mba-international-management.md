@@ -5,7 +5,7 @@ name: mba_international_management
 description: "Als Offizier Management-Know-How erwerben - Bereiten Sie sich mit dem maßgeschneiderten MBA International Management optimal auf Ihre Karriere als Führungskraft vor."
 category: programme
 tagline: 
-image:  /media/programme/casc_2.jpg
+image:  /media/programme/2_MBA International Management.jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."

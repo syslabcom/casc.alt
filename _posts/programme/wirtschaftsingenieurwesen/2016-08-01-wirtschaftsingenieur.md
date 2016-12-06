@@ -4,7 +4,7 @@ title: BA Wirtschaftsingenieurwesen (B.Eng.)
 name: wirtschaftsingenieur
 description: "Als Feldwebel mit und ohne Abitur studieren – Qualifizieren Sie sich mit dem praxisnahen Bachelor Wirtschaftsingenieurwesen für vielfältige Tätigkeitsfelder in der zivilen Wirtschaft und Industrie."
 tagline: 
-image:  /media/programme/casc_6.jpg
+image:  /media/programme/6_Wirtschaftsingenieurwesen (B.Eng.).jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."

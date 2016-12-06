@@ -4,7 +4,8 @@ title: Modulstudium
 name: modulstudium
 description: "Sie möchten sich fachlich gezielt auf eine Führungsaufgabe vorbereiten? Erwerben Sie mit unseren karrierebegleitenden Modulstudien kompaktes Wissen zu fachspezifischen Themen."
 category: programme
-parent: MBA Public Management
+parent: Studiengänge
+image: /media/programme/13_Modulstudium.jpg
 ---
 
 

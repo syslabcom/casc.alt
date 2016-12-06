@@ -6,7 +6,7 @@ description: "Masterstudiengang Personalentwicklung (M.A.)"
 category: programme
 tagline: 
 image:  /media/programme/casc_4.jpg
-parent: Studiengänge
+parent: Masterstudiengang Personalentwicklung 
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
