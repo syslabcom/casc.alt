@@ -1,12 +1,14 @@
 ---
 layout: article
-title: Sascha Heeren (M.A.)
+title: Sascha Heeren (M.A.), Personalentwickler, Studienjahrgang 2014
 name: sascha-heeren
-description: "Personalentwickler HECTAS Facility Services Stiftung & Co. KG, Absolvent Personalentwicklung Jg. 2014"
+description: „Für den berufsbegleitenden Master-Studiengang Personalentwicklung habe ich mich ganz bewusst entschieden. Als fachspezifische Vertiefung zu meinem ersten Master-Studium mit Schwerpunkt 'Berufsbildung' konnte ich mein berufliches Profil für die Zeit nach der Bundeswehr und den zivilen Arbeitsmarkt auf interessante und professionelle Weise schärfen.“
 category: quotes
 tagline: 
 image: sascha-heeren.jpg
 ---
 
-„Ich konnte mein berufliches Profil durch den berufsbegleitenden Masterstudiengang Personalentwicklung gezielt schärfen. Diese Entscheidung hat sich gelohnt, denn heute kann ich als Personalentwickler in der Wirtschaft meine im Studium vertieften Kenntnisse in der Praxis wiedererkennen und anwenden.“
+„Persönlich lag mein größtes Interesse in den Bereichen Unternehmensbindung und Kommunikation, weshalb ich in meiner Masterarbeit ein Forschungsprojekt über die öffentliche Darstellung der Personalentwicklung von ausgewählten Dax-Unternehmen durchgeführt habe. Damit war es mir möglich, mit aktuellem Wissensstand in einem zunehmend bedeutenderen Themenfeld bei potenziellen Arbeitgebern zu überzeugen.
+
+Diese Entscheidung hat sich gelohnt, denn heute kann ich als Personalentwickler in der Wirtschaft meine im Studium vertieften Kenntnisse in der Praxis wiedererkennen und anwenden.“
 
