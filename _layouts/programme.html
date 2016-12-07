@@ -130,13 +130,7 @@ layout: generic
       </div>
       <div class="col-md-3 scrolltofixed-container">
         <div class="list-group scrolltofixed" >
-            <a href="#overview" class="list-group-item smooth-scroll-to-target">Übersicht</a>
-            {% for item in site.posts %}
-                {% if item.parent == page.title %}
-                    <a href="#{{ item.url | remove: '/' |remove: '.html' }}" class="list-group-item smooth-scroll-to-target">{% if item.nav_title %}{{ item.nav_title }}{% else %}{{ item.title }}{% endif %}</a>
-                    </li>
-                {% endif %}
-            {% endfor %}
+            <!-- no left slot required atm -->
         </div>
       </div>
       <!-- <div class="col-sm-12 col-md-4">
@@ -204,3 +198,4 @@ layout: generic
 </section>
 
     {% include testimonials.html %}
+    {% include logos.html %}
