@@ -4,7 +4,7 @@ title: Downloads
 name: mba_public_management
 description: "MBA Public Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung"
 category: programme
-parent: International Security Studies
+parent: International Security Studies (M.A.)
 ---
 
 

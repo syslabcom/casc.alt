@@ -6,7 +6,7 @@ description: "The Master of Arts – Program “International Security Studies�
 category: programme
 tagline: 
 image: /media/programme/casc_3.jpg
-parent: International Security Studies
+parent: International Security Studies (M.A.)
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
