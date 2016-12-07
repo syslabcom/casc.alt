@@ -10,49 +10,25 @@ layout: generic
       <div class="col-md-9 blog-pull-right">
         <div class="single-service">
           <img src="{{ page.image }}" alt="{{ page.title }}">
-          <h3 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h3>
-          <h5>{{ page.description }}</h5>
+          <h2 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h2>
+          <p class="description"><em>{{ page.description }}</em></p>
 
-            {{ content }}
+          {{ content }}
 
-
-
-        {% for item in site.posts %}
-            {% if item.parent == page.title %}
-            <div class="blog-posts single-post" id="{{ item.url | remove: '/' | remove: '.html' }}">
-                <div id="{{ item.url | remove: '/' | remove: '.html' }}-content">
-                    <h2 class="pt-40">{{ item.title }}</h2>
-                    {% if item.description %}
-                        <section class="introduction">
-                            <p>
-                                {{ item.description }}
-                            </p>
-                        </section>
-                    {% endif %}
-
-                    {{ item.content | markdownify }}
-                
-                </div>
-            </div>
-            {% endif %}
-        {% endfor %}      
-
-            
-          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">FAQ<span class="text-theme-color-2 font-weight-400">s</span></h4>
-            <div id="accordion1" class="panel-group accordion">
-            {% for item in site.posts %}
-              {% if item.layout == 'faq' %}
-              <div class="panel">
-                <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ item.title }} </a> </div>
-                <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
-                  <div class="panel-content">
-                    <p>{{ item.content }}</p>
-                  </div>
+          <div id="accordion1" class="panel-group accordion">
+          {% assign items = site.posts | where:"parent",page.title %}
+          {% for item in items %}
+            <div class="panel">
+              <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ item.title }} </a> </div>
+              <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+                <div class="panel-content">
+                  <p>{{ item.content | markdownify }}</p>
                 </div>
               </div>
-              {% endif %}
-            {% endfor %}
             </div>
+          {% endfor %}
+          </div>
+
 
           <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Weitere <span class="text-theme-color-2 font-weight-400">Informationen</span></h4>
           <ul id="myTab" class="nav nav-tabs boot-tabs">
