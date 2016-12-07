@@ -8,13 +8,10 @@ tagline:
 image:  /media/programme/2_MBA International Management.jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
-anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
 ---
 
-
-** STUB: Will be replaced with real content in a few days. Length will be roughly like "Systems Engineering"**
 
 MBA International Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung
 
