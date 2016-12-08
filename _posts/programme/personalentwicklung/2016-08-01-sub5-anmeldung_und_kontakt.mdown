@@ -40,7 +40,7 @@ Universität der Bundeswehr München <br>
 Werner-Heisenberg-Weg 39 <br>
 85577 Neubiberg <br>
 Tel.: +49-(0)89 / 6004 2388 <br>
-E-Mail:  <a href="mailto:bettina.herrmann@unibw.de">"bettina.herrmann@unibw.de"</a>< br>
+E-Mail:  <a href="mailto:bettina.herrmann@unibw.de">bettina.herrmann@unibw.de</a><br>
 
 ## Kontakt
 ## Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.

@@ -1,6 +1,6 @@
 ---
 layout: programme
-title: International Security Studies (M.A.)
+title: M.A. International Security Studies
 name: international_security_studies
 description: "Sich zum Experten für internationale Sicherheitspolitik weiterbilden – Starten Sie mit dem englischsprachigen Master International Security Studies eine erfolgreiche Karriere im Bereich der  internationalen Sicherheit"
 category: programme
@@ -13,9 +13,6 @@ contact_name: dr_nicol_matzner_vogel
 new: True
 footer: Programme
 ---
-
-
-### The Master in International Security Studies (MISS)
 
 ### M.A. International Security Studies
 

@@ -23,11 +23,12 @@ The MISS is a twelve-month program that consists of a common study period of fou
 
 The program’s common curriculum aims to provide students with a thorough knowledge of contemporary security studies from both theoretical and policy perspectives. It starts with the introductory module **“Theories and Methods”**, in which students learn to understand the structures and processes behind international security policy. A particular focus of this module is also on consolidating the methods (analysis, writing, presenting) required for the program.
 
-Subsequently, students attend the Marshall Center's Flagship Course, the <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-pass-en.html">"Program in Advanced Security Studies"</a> (PASS). More than 100 international government officials participate in this eight-week foundation course, which makes it the perfect opportunity to exchange views and establish new contacts. The program consists of plenary lectures, small seminar discussion groups, expert panels, role-playing exercises, and a field study trip.
+Subsequently, students attend the Marshall Center's Flagship Course, the <a href="http://www.marshallcenter.org/mcpublicweb/en/nav-main-wwd-res-courses-pass-en.html">"Program in Advanced Security Studies"</a> 
+(PASS). More than 100 international government officials participate in this eight-week foundation course, which makes it the perfect opportunity to exchange views and establish new contacts. The program consists of plenary lectures, small seminar discussion groups, expert panels, role-playing exercises, and a field study trip.
 
 In the course of the module **“Transnational and International Conflict”**, students delve deeper into security and conflict studies and learn to understand and analyze historical and current international conflicts by extending their methodological understanding of sociological, political, and historical approaches.
 
-The common curriculum concludes with a course in **"International Humanitarian Law"**, which provides students with a thorough understanding of international treaties and agreements. Students will learn to deal with aspects of +jus ad bellum+ as well as *jus in bello* and assess the relationships between international law and politics.
+The common curriculum concludes with a course in **"International Humanitarian Law"**, which provides students with a thorough understanding of international treaties and agreements. Students will learn to deal with aspects of *jus ad bellum* as well as *jus in bello* and assess the relationships between international law and politics.
 
 ## Elective
 
@@ -42,10 +43,10 @@ In the second half of the study program students have to attend one out of two e
 
 Students have the chance to specialize in a specific area of security studies by choosing a study concentration. For this purpose four different Marshall Center residents programs are currently offered (for course descriptions please click on the links).
 
-* <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-ptss-en.html">"Program on Terrorism and Security Studies"</a> (PTSS)
-* <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-srs-en.html">"Seminar on Regional Security" </a>  (SRS)
-* <a href="www.marshallcenter.org/MCPUBLICWEB/en/nav-main-wwd-res-courses-ctoc-en.html">"Countering Transnational Organized Crime" </a> (CTOC)
-* <a href="www.marshallcenter.org/mcpublicweb/nav-main-wwd-res-courses-pcss-en.html">"Program on Cyber Security Studies" </a> (PCSS)
+* <a href="http://www.marshallcenter.org/mcpublicweb/en/nav-main-wwd-res-courses-ptss-en.html">"Program on Terrorism and Security Studies"</a> (PTSS)
+* <a href="http://www.marshallcenter.org/mcpublicweb/en/nav-main-wwd-res-courses-srs-en.html">"Seminar on Regional Security" </a>  (SRS)
+* <a href="http://www.marshallcenter.org/MCPUBLICWEB/en/nav-main-wwd-res-courses-ctoc-en.html">"Countering Transnational Organized Crime" </a> (CTOC)
+* <a href="http://www.marshallcenter.org/mcpublicweb/en/nav-main-wwd-res-courses-pcss-en.html">"Program on Cyber Security Studies" </a> (PCSS)
 
 ## Master Thesis
 

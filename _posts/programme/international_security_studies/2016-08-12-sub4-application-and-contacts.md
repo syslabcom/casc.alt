@@ -43,7 +43,7 @@ Applications must include the following materials:
 2. Certified copy (German or English) of higher education qualification certificate
 3. Certified copy (German or English) of university degree certificate (incl. transcript of records)
 4. Documents (German or English) attesting at least two years of qualified professional work experience
-5. Certificate of English language proficiency (Level B2, For more information see:  http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf )
+5. Certificate of English language proficiency (Level B2, For more information see: <a href="http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf">"http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf"</a> 
 6. A letter of motivation (The applicant should explain why he is interested in this specific program and how he sees it contributing to his further career)
 7. A *Curriculum Vitae (bio)* listing all study courses hitherto completed by the applicant as well as a complete record of professional experience
 
@@ -81,7 +81,7 @@ College of International and Security Studies  <br>
 Gernackerstraße 2  <br>
 D-82467 Garmisch-Partenkirchen <br>
 
-<a href="mailto:ralf.roloff@marshallcenter.org">""Email"</a>  <br>
+<a href="mailto:ralf.roloff@marshallcenter.org">"Email"</a>  <br>
 Tel.: +49 8821 750 2590  <br>
 Fax: +49 8821 750 2688 <br>
 
@@ -89,4 +89,11 @@ What motivates me?
 
 As a student of literature, political science and history at the end of the 1980 I was fascinated that no one predicted the collapse of the Soviet Union and wanted to learn more about the reasons for this historic change. This is how I ended up in the security field. As a professor I soon experienced the huge demand for security experts in Europe but until recent years higher education in security studies was only available in the United Kingdom or the United states. That is why I came up with the idea to establish a Master’s program in International Security Studies at George C. Marshall Center and the Universität der Bundeswehr in Germany.
 
-<a href="www.marshallcenter.org/MCPUBLICWEB/en/nav-itemid-fix-bios-en/107-cat-bios-faculty-en/69-art-bio-roloff-en.html">"Profile at the George C. Marshall European Center for Security Studies" </a>
+<a href="http://www.marshallcenter.org/MCPUBLICWEB/en/nav-itemid-fix-bios-en/107-cat-bios-faculty-en/69-art-bio-roloff-en.html">"Profile at the George C. Marshall European Center for Security Studies" </a>
+
+
+
+
+
+
+

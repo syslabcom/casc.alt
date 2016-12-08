@@ -8,25 +8,27 @@ parent: International Security Studies (M.A.)
 ---
 
 
-## Informationsmaterial
+## Information Material
 
-* **Studiengangsflyer**
-* **„Auf einen Blick“**
-* **Modulstruktur/ Modulübersicht**
-* **Video**
-* **Präsentation**
+* **Information Flyer**
 
-##(Termine
+* **Course Calendar**
 
-* **Studienplan/ Terminplan**
-* **Kosten- und Leistungsübersicht)**
+* **Videos**
 
-## Prüfungsreglement
+* **Presentations**
 
-* **Modulhandbuch**
-* **Prüfungsordnung**
+## Study and Examination Regulations
 
-## Anmeldeunterlagen
+* **Module Handbook**
 
-* **Aufnahmeantrag**
-* **Immatrikulationsantrag**
+* **Examination Regulations**
+
+
+## Application Documents
+
+* **Application Form**
+
+* **Firm Acceptance Letter**
+
+* **Matriculation Form**

@@ -9,6 +9,7 @@ image: pi-profile.jpg
 parent: Service
 ---
 
+## Angebotsentwicklung
 
 **Sie sind Professorin oder Professor an unserer Universität und möchten ein Weiterbildungsprogramm entwickeln? Sie sind in Ihrem Unternehmen, Ihrer Einrichtung oder Behörde für die Personalentwicklung verantwortlich und möchten Ihre Mitarbeiterinnen und Mitarbeiter auf einem speziellen Themengebiet weiterqualifizieren? Dann sind Sie bei uns genau richtig: Wir beraten und betreuen Sie kompetent von der Entwicklung über die Implementierung bis zur Durchführung Ihres Weiterbildungsangebots.**
 

@@ -18,7 +18,9 @@ Mit einem erfolgreichen Abschluss des MBA Public Management qualifizieren Sie si
 * Öffentliches Controlling und 
 * Öffentliches Beschaffungswesen.
 
-## Der Studiengang richtet sich insbesondere an**
+## Zielgruppe
+
+**Der Studiengang richtet sich insbesondere an**
 
 * ausscheidende Zeitoffiziere ein bis zwei Jahre vor Dienstzeitende
 * Fach- und Führungskräfte in Behörden auf Bundes-, Landes- und kommunaler Ebene mit den Schwerpunkten Steuerung/Controlling und Beschaffung

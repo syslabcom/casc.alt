@@ -23,6 +23,6 @@ Nach Abschluss des Masters im Systems Engineering sind Sie fachübergreifenden u
 
 **Das Studium legt besondere Schwerpunkte auf folgende Aspekte:**
 
-- Sie lernen die Herausforderungen in der Entwicklung und Behandlung komplexer technischer Systeme zu meistern.
-- Sie erlangen umfassendes Grundwissen zum Management der Prozesse im Systems Engineering.
-- Sie erwerben vielseitige Kompetenzen zur Lösungsfindung und zum ganzheitlichen Management.
+* Sie lernen die Herausforderungen in der Entwicklung und Behandlung komplexer technischer Systeme zu meistern.
+* Sie erlangen umfassendes Grundwissen zum Management der Prozesse im Systems Engineering.
+* Sie erwerben vielseitige Kompetenzen zur Lösungsfindung und zum ganzheitlichen Management.

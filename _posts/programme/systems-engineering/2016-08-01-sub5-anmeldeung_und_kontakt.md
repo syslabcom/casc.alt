@@ -80,25 +80,4 @@ Werner-Heisenberg-Weg 39<br>
 Tel.: +49 (0)89 6004 2036<br>	 
 E-Mail: <a href="mailto:brigita.jeraj@unibw.de">"brigita.jeraj@unibw.de"</a><br>
 
-## Informationsmaterial
 
-* **Studiengangsflyer**
-* **„Auf einen Blick“**
-* **Modulstruktur/ Modulübersicht**
-* **Video**
-* **Präsentation**
-
-## (Termine
-
-* **Studienplan/ Terminplan**
-* **Kosten- und Leistungsübersicht)**
-
-## Prüfungsreglement
-
-* **Modulhandbuch**
-* **Prüfungsordnung**
-
-## Anmeldeunterlagen
-
-* **Aufnahmeantrag**
-* **Immatrikulationsantrag**

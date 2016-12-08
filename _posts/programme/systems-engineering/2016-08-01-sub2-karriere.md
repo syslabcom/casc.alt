@@ -13,17 +13,6 @@ contact_name: dr_nicol_matzner_vogel
 
 ---
 
-
-## Qualifizierung und berufliche Perspektiven
-
-**Mit Absolvieren des Master-Studiengangs Systems Engineering erwerben Sie folgendes Kompetenzprofil:**
-
-* In einem fachlichen Reifeprozess verinnerlichen Sie die Disziplin des Systems Engineering verarbeiten sie weiter und können Sie sicher auf konkrete Probleme anwenden.
-
-* Durch die erlernten Methoden des Systems Engineering können Sie komplexe Aufgabenstellungen in Forschung und Entwicklung in der Industrie formulieren und lösen, kritisch hinterfragen und bei Bedarf weiterentwickeln.
-
-* Sie werden in den Methoden und Prozessen des Systems Engineering und des Systems Engineering Managements geschult, so dass diese die Aufgaben von SystemingenieurInnen übernehmen können. Zudem werden spezifisches Problembewusstsein und Systemdenken entwickelt, welche erlauben, situationsangepasste Vorgehensweisen zu definieren und zu initiieren sowie Fehlentwicklungen frühzeitig zu erkennen und diesen entgegenzusteuern. Als wesentlich für den Lernerfolg wird hierbei ein dem Studium unterlegter Theorie-Praxis-Transfer verstanden.
-
 ## Qualifizierung und berufliche Perspektiven
 
 **Mit Absolvieren des Master-Studiengangs Systems Engineering erwerben Sie folgendes  Kompetenzprofil:**

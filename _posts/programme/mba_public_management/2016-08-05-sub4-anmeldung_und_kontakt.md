@@ -38,7 +38,7 @@ Geschäftsführerin casc <br>
 Universität der Bundeswehr München<br>
 Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg Tel.: +49 89 6004 4530 <br>
-E-Mail:  <a href="mailto:nicol.matzner@unibw.de ">"nicol.matzner@unibw.de"</a><br>
+E-Mail:  <a href="mailto:nicol.matzner@unibw.de ">nicol.matzner@unibw.de</a><br>
 
 ## Kontakt
 
@@ -54,7 +54,7 @@ Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg<br>
 
 Tel.: +49 (0)89 6004-4221<br>	 
-E-Mail: <a href="mailto:michael.essig@unibw.de">michael.essig@unibw.de"</a><br>	 
+E-Mail: <a href="mailto:michael.essig@unibw.de">michael.essig@unibw.de</a><br>	 
 
 **Prof. Dr. Bernhard Hirsch**<br>
 **Professor für Controlling**<br>
@@ -64,7 +64,7 @@ Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg<br>
 
 Tel.: +49 (0)89 6004-4209<br>	 
-E-Mail: <a href="mailto:bernhard.hirsch@unibw.de">"bernhard.hirsch@unibw.de"</a><br>	
+E-Mail: <a href="mailto:bernhard.hirsch@unibw.de">bernhard.hirsch@unibw.de</a><br>	
 
 
 **Programmkoordination**<br>
@@ -76,7 +76,7 @@ Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg<br>
 
 Tel.: +49 89 6004 4262<br>	 
-E-Mail: <a href="mailto:c.von.deimling@unibw.de">"c.von.deimling@unibw.de"</a><br>
+E-Mail: <a href="mailto:c.von.deimling@unibw.de">c.von.deimling@unibw.de</a><br>
 
 
 
