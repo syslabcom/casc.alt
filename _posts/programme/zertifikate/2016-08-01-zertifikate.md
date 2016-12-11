@@ -5,7 +5,8 @@ name: zertifikate
 description: "Sie möchten ihr Wissen in einem bestimmten Themengebiet vertiefen? Mit unseren Zertifikaten qualifizieren Sie sich gezielt für herausfordernde Aufgaben und werden Experte auf diesem Gebiet."
 category: programme
 parent: Studiengänge
-image: /media/programme/14_Zertifikate.JPG
+hero_image: /media/programme/14_zertifikate.jpg
+hero_title: Zertifikate
 footer: Programme
 ---
  
@@ -15,4 +16,4 @@ Zertifikate runden neben postgradualen Studiengängen und den Customized Program
   * <a href="https://www.unibw.de/casc/zertifikate/compliance-manager">"Compliance Manager/in (univ.) "</a>< br>
   * <a href="https://www.unibw.de/casc/zertifikate/it-sicherheit">"IT-Sicherheit (Basis-Zertifikat) "</a><br>
   * <a href="file:///Users/nielsen/Downloads/Announcement_ESA_JRC_Summerschool_2016.pdf">"International Summer School on GNSS "</a><br>
-3
+

@@ -16,7 +16,7 @@ new: True
 
 **The application deadline for the regular start of the one year full time program is May 15th. For part-time or modular studies applications are accepted on a rolling basis.**
 
-#### Admission Process
+### Admission Process
 
 Admission occurs in three steps:
 
@@ -24,7 +24,7 @@ Admission occurs in three steps:
 2. Invitation to an admission interview (also via phone)
 3. Offer of a seat in the program and enrollment via Firm Acceptance-Form
 
-## Admission Requirements
+### Admission Requirements
 
 Applicants must meet four requirements:
 
@@ -35,7 +35,7 @@ Applicants must meet four requirements:
 
 If you are unsure whether you meet the admission requirements you can contact the program coordinator for an individual documents check before submission. 
 
-## Application Documents
+### Application Documents
 
 Applications must include the following materials:
 

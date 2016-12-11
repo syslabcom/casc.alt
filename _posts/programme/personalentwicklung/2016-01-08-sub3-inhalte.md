@@ -6,7 +6,7 @@ description: "Masterstudiengang Personalentwicklung (M.A.)"
 category: programme
 tagline: 
 image:  /media/programme/casc_4.jpg
-parent: Studiengänge
+parent: Personalentwicklung (M.A.)
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
@@ -24,16 +24,17 @@ contact_name: dr_nicol_matzner_vogel
 * In der **zukunftsorientierten Phase** werden die Handlungsfelder, Methoden und Instrumente der für die Personalentwicklung zukünftig immer wichtiger werdenden Themen „Betriebliches Gesundheitsmanagement“ und „Interkulturelle Kommunikation“ vertiefend vermittelt.
 
 
-## Modulstruktur 
+### Modulstruktur 
 
-## Lehr- und Lernmethode
+### Lehr- und Lernmethode
+
 Der Studiengang ist modular aufgebaut und konsequent berufsbegleitend studierbar. Das im Blended-Learning-Prinzip gestaltete Lehr-Lern-Konzept verbindet das Fernstudium mit zweitägigen Wochenendpräsenzen (Freitag und Samstag) und erlaubt dadurch intensive Wissensvermittlung und raschen Kompetenzerwerb.
 
 Die kompetenzorientierten Prüfungsformen im Master-Studiengang Personalentwicklung tragen zur Anwendbarkeit und zum Lerntransfer der Lerninhalte bei und wurden in der konkreten Ausprägung für die berufliche, akademische Erwachsenenbildung entwickelt. Zudem bereiten die Aufgabenstellungen der Fernphase, die fast immer in virtueller Zusammenarbeit und Kooperation innerhalb der Arbeitsgruppen bearbeitet werden, optimal auf sowohl den Leistungsnachweis, als auch die Masterarbeit vor.
 
 In den Wochenendpräsenzen werden zum einen die mündliche Prüfung eines vorausgegangenen Moduls als auch Handlungstrainings und Kamingespräche bzw. Interviews mit Expertinnen und Experten aus der Personalentwicklung durchgeführt.
 
-## Modulstudium
+### Modulstudium
 
 Der modulare Aufbau des Studiengangs erlaubt es, auch einzelne Module im Rahmen eines Modulstudiums zu belegen und diese mit einem Hochschulzertifikat abzuschließen. Für erfolgreich abgelegte Module werden von der Universität ECTS-Leistungspunkte bescheinigt.
 

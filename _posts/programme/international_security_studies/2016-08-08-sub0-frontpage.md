@@ -1,11 +1,12 @@
 ---
 layout: programme
-title: M.A. International Security Studies
+title: International Security Studies (M.A.)
 name: international_security_studies
 description: "Sich zum Experten für internationale Sicherheitspolitik weiterbilden – Starten Sie mit dem englischsprachigen Master International Security Studies eine erfolgreiche Karriere im Bereich der  internationalen Sicherheit"
 category: programme
 tagline: 
-image: /media/programme/1_International Security Studies (M.A.).jpg
+hero_image: /media/programme/1_international_security_studies.jpg
+hero_title: M.A. International Security Studies
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."

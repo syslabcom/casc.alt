@@ -7,7 +7,7 @@ category: programme
 parent: MBA Public Management
 ---
 
-## Qualifizierung und berufliche Perspektiven
+### Qualifizierung und berufliche Perspektiven
 
 **Der weiterbildende MBA-Studiengang Public Management vermittelt auf wissenschaftlicher Basis Managementkompetenzen für öffentliche Institutionen, insbesondere in den Fachbereichen des öffentlichen Controllings und Beschaffungswesens.**
 
@@ -18,7 +18,7 @@ Mit einem erfolgreichen Abschluss des MBA Public Management qualifizieren Sie si
 * Öffentliches Controlling und 
 * Öffentliches Beschaffungswesen.
 
-## Zielgruppe
+### Zielgruppe
 
 **Der Studiengang richtet sich insbesondere an**
 
@@ -29,7 +29,7 @@ Mit einem erfolgreichen Abschluss des MBA Public Management qualifizieren Sie si
 * Fach- und Führungskräfte der Bundeswehr in den Bereichen Controlling und Beschaffungswesen
 
 
-## Gute Gründe für den MBA Public Management
+### Gute Gründe für den MBA Public Management
 
 * Qualifizieren Sie sich mit unserem MBA für Leitungsaufgaben im öffentlichen Dienst.
 * Werden Sie mit unseren einmaligen Spezialisierungen Experte im öffentlichen Controlling oder im öffentlichen Beschaffungsmanagement.

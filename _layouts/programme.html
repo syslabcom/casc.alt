@@ -9,7 +9,7 @@ layout: generic
     <div class="row">
       <div class="col-md-9 blog-pull-right">
         <div class="single-service">
-          <img src="{{ page.image }}" alt="{{ page.title }}">
+          <!-- <img src="{{ page.image }}" alt="{{ page.title }}"> -->
           <h2 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h2>
           <p class="description"><em>{{ page.description }}</em></p>
 
@@ -32,69 +32,42 @@ layout: generic
 
           <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Weitere <span class="text-theme-color-2 font-weight-400">Informationen</span></h4>
           <ul id="myTab" class="nav nav-tabs boot-tabs">
-            <li class="active"><a href="#info" data-toggle="tab">Informationsmaterial</a></li>
-            <li><a href="#small" data-toggle="tab">Termine</a></li>
+            <li class="active"><a href="#info" data-toggle="tab">Anmeldeunterlagen</a></li>
+            <li><a href="#small" data-toggle="tab">Informationsmaterial</a></li>
             <li><a href="#medium" data-toggle="tab">Prüfungsreglement</a></li>
-            <li><a href="#large" data-toggle="tab">Anmeldeunterlagen</a></li>
           </ul>
           <div id="myTabContent" class="tab-content">
             <div class="tab-pane fade in active" id="info">
-              <table class="table table-bordered"> 
-                <tbody><tr>
-                  <td class="text-center font-16 font-weight-600 bg-theme-color-2 text-white" colspan="4">Informationsmaterial</td>
-                </tr>
-                <tr> <th>Coures Type</th> <th>Class time</th> <th>Course Duration</th> <th>Price</th> </tr>
-                </tbody><tbody> 
-                  <tr> <th scope="row">Studiengangsflyer</th> <td>45 minutes</td> <td>3 years</td> <td>$810</td> </tr>
-                  <tr> <th scope="row">„Auf einen Blick“</th> <td>45 minutes</td> <td>2 years</td> <td>$940</td> </tr>
-                  <tr> <th scope="row">Modulstruktur/ Modulübersicht</th> <td>45 minutes</td> <td>2 years</td> <td>$940</td> </tr>
-                  <tr> <th scope="row">Video</th> <td>45 minutes</td> <td>2 years</td> <td>$940</td> </tr>
-                  <tr> <th scope="row">Präsentation</th> <td>45 minutes</td> <td>2 years</td> <td>$940</td> </tr>
-                  
-                </tbody> 
-              </table>
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Aufnahmeantrag Master</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Aufnahmeantrag Modul</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Immatrikulationsantrag</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Checkliste</a></li>
+              </ul>
+
             </div>
 
             <div class="tab-pane fade" id="small">
-              <table class="table table-bordered"> 
-                <tbody><tr>
-                  <td class="text-center font-16 font-weight-600 bg-theme-color-2 text-white" colspan="4">Termine</td>
-                </tr>
-                <tr> <th>Coures Type</th> <th>Class time</th> <th>Course Duration</th> <th>Price</th> </tr>
-                </tbody><tbody> 
-                  <tr> <th scope="row">Studienplan/ Terminplan</th> <td>45 minutes</td> <td>3 years</td> <td>$810</td> </tr>
-                  <tr> <th scope="row">Kosten- und Leistungsübersicht</th> <td>45 minutes</td> <td>2 years</td> <td>$940</td> </tr>
-                  
-                </tbody> 
-              </table>
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Flyer</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Präsentation</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Video</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Interview</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Curriculum</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Factsheet</a></li>
+              </ul>
             </div>
             <div class="tab-pane fade" id="medium">
-              <table class="table table-bordered"> 
-                <tbody><tr>
-                  <td class="text-center font-16 font-weight-600 bg-theme-color-2 text-white" colspan="4">Prüfungsreglement</td>
-                </tr>
-                <tr> <th>Coures Type</th> <th>Class time</th> <th>Course Duration</th> <th>Price</th> </tr>
-                </tbody><tbody> 
-                  <tr> <th scope="row">Modulhandbuch</th> <td>45 minutes</td> <td>3 years</td> <td>$810</td> </tr>
-                  <tr> <th scope="row">Prüfungsordnung</th> <td>45 minutes</td> <td>2 years</td> <td>$940</td> </tr>
-                  
-                </tbody> 
-              </table>
-            </div>
-            <div class="tab-pane fade" id="large">
-              <table class="table table-bordered"> 
-                <tbody><tr>
-                  <td class="text-center font-16 font-weight-600 bg-theme-color-2 text-white" colspan="4">Anmeldeunterlagen</td>
-                </tr>
-                <tr> <th>Coures Type</th> <th>Class time</th> <th>Course Duration</th> <th>Price</th> </tr>
-                </tbody><tbody> 
-                  <tr> <th scope="row">Aufnahmeantrag</th> <td>45 minutes</td> <td>3 years</td> <td>$810</td> </tr>
-                  <tr> <th scope="row">Immatrikulationsantrag</th> <td>45 minutes</td> <td>2 years</td> <td>$940</td> </tr>
-                </tbody> 
-              </table>
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Prüfungsordnung</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Modulhandbuch</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Studienplan</a></li>
+              </ul>
             </div>
           </div>
         </div>
+
+
 
       <div class="container">
         <div class="row">

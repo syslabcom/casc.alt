@@ -14,7 +14,7 @@ contact_name: dr_nicol_matzner_vogel
 ---
 
 
-## Anmeldung 
+### Anmeldung 
 
 **Sie können sich bis zum 1. März jedes Jahres zum Master-Studiengang Systems Engineering anmelden, der Studiengang beginnt im April jedes Jahres.**
 
@@ -44,9 +44,9 @@ Werner-Heisenberg-Weg 39<br>
 85577 Neubiberg Tel.: +49 89 6004 4530 <br>
 E-Mail:  <a href="mailto:nicol.matzner@unibw.de">"nicol.matzner@unibw.de"</a><br>
 
-## Kontakt
+### Kontakt
 
-## Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.<br>	
+Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.<br>	
 
 **Akademische Leitung**<br>
 

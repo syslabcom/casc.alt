@@ -15,11 +15,11 @@ new: True
 
 
 
-## Program Features
+### Program Features
 
 The MISS is a twelve-month program that consists of a common study period of four modules, an elective module, a concentration subject and a master thesis. For those professionals who are not able to take a sabbatical, the MISS is also offered on a part-time basis, where single modules can be completed individually over a period of two years.
 
-## Common Curriculum
+### Common Curriculum
 
 The program’s common curriculum aims to provide students with a thorough knowledge of contemporary security studies from both theoretical and policy perspectives. It starts with the introductory module **“Theories and Methods”**, in which students learn to understand the structures and processes behind international security policy. A particular focus of this module is also on consolidating the methods (analysis, writing, presenting) required for the program.
 
@@ -30,7 +30,7 @@ In the course of the module **“Transnational and International Conflict”**, 
 
 The common curriculum concludes with a course in **"International Humanitarian Law"**, which provides students with a thorough understanding of international treaties and agreements. Students will learn to deal with aspects of *jus ad bellum* as well as *jus in bello* and assess the relationships between international law and politics.
 
-## Elective
+### Elective
 
 In the second half of the study program students have to attend one out of two electives. 
 
@@ -39,7 +39,7 @@ In the second half of the study program students have to attend one out of two e
 
 * **“Security and Development”** examines the nexus of security and development in post-conflict settings
 
-## Study Concentration
+### Study Concentration
 
 Students have the chance to specialize in a specific area of security studies by choosing a study concentration. For this purpose four different Marshall Center residents programs are currently offered (for course descriptions please click on the links).
 
@@ -48,11 +48,11 @@ Students have the chance to specialize in a specific area of security studies by
 * <a href="http://www.marshallcenter.org/MCPUBLICWEB/en/nav-main-wwd-res-courses-ctoc-en.html">"Countering Transnational Organized Crime" </a> (CTOC)
 * <a href="http://www.marshallcenter.org/mcpublicweb/en/nav-main-wwd-res-courses-pcss-en.html">"Program on Cyber Security Studies" </a> (PCSS)
 
-## Master Thesis
+### Master Thesis
 
 The program concludes with a 15,000 word Master Thesis.
 
-## Teaching and Learning Style
+### Teaching and Learning Style
 
 The Master of Arts Program in International Security Studies is structured in separate modules. Modules last between two and eight weeks and either end with a 5000 word research paper or an oral examination. Classes during modules normally take place from Monday to Friday. In the time between modules students do not have to be present at the Marshall Center as this time is reserved for self-study (research paper, preparation for examinations). 
 
@@ -62,6 +62,6 @@ As the MISS program only accepts up to 15 students each year, teaching is conduc
 
 The whole program has an overall workload of 60 ECTS credit points and is separated in modules of 5 up to 9 credit points each, which corresponds to 150 up to 270 working hours (presence time and self-study). 
 
-## Modular Studies
+### Modular Studies
 
 The modular structure of the program allows to attend single modules without having to finish the whole master program. Successful participants receive an official transcript from the Universität der Bundeswehr München in the amount of the respective ECTS credit points of the module. The obtained credit points can be applied towards degrees at other universities or if a student has attended and passed all modules under this scheme, he can be awarded with a master’s degree in International Security Studies from the Universität der Bundeswehr München if he also prepares a master thesis that meets the academic standards of the program.

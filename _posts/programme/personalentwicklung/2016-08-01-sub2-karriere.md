@@ -13,7 +13,7 @@ contact_name: dr_nicol_matzner_vogel
 ---
 
 
-## Qualifizierung und berufliche Perspektiven
+### Qualifizierung und berufliche Perspektiven
 
 **Durch die systematische und didaktisch aufbereitete Bearbeitung von Fachbeiträgen ausgewiesener Expertinnen und Experten sind die Inhalte des Studiengangs sowohl in Bezug auf die Aktualität als auch die Qualität hoch attraktiv. Die zu erwerbenden Kompetenzen bieten eine intensive, akademisch anspruchsvolle Vorbereitung auf Personalentwicklungsaufgaben und eröffnen formal den Zugang zum höheren Dienst.**
 
@@ -21,7 +21,7 @@ Ein erfolgreicher Abschluss des Master-Studiengangs „Personalentwicklung“ qu
 
 Diese umfassen u.a. den Aufbau und das Etablieren von fachlichen und außerfachlichen Weiterbildungsstrukturen, die Anwendung von Führungsinstrumenten, Gesundheitsmanagement und Gesundheitsförderung, die Personalauswahl und strategische Personalplanung.
 
-## Typische Berufsbilder 
+### Typische Berufsbilder 
 
 **Referentin/Referent oder Consultant für**
 
@@ -35,12 +35,12 @@ Diese umfassen u.a. den Aufbau und das Etablieren von fachlichen und außerfachl
 
 Für weiterqualifizierte Beratungstätigkeiten wie Coaching und Mentoring stellt der Studiengang eine optimale Grundlage dar.
 
-## Zielgruppe
+### Zielgruppe
 
 Der Masterstudiengang „Personalentwicklung“ richtet sich sowohl an Berufstätige in der privaten oder staatlichen Wirtschaft, Mitarbeiterinnen und Mitarbeiter von NGOs und ausscheidende Zeitoffiziere als auch an Personen, die langfristig im staatlichen Dienst verbleiben. Erfahrungsgemäß bietet die große Bandbreite der beruflichen Tätigkeiten der Teilnehmenden bei vergleichbaren Interessengebieten einen Rahmen für besonders erkenntnisreiche Zusammenarbeit.
  
 
-## Gute Gründe für den Master-Studiengang Personalentwicklung:
+### Gute Gründe für den Master-Studiengang Personalentwicklung:
 
 * Der Studiengang ist staatlich anerkannt und ACQUIN-akkreditiert. 
 * Hohe Flexibilität durch die Möglichkeit, einzelne Module zu belegen (Einstieg alle zwei Monate).
@@ -48,7 +48,7 @@ Der Masterstudiengang „Personalentwicklung“ richtet sich sowohl an Berufstä
 * Bewährtes Kleingruppenkonzept und hervorragende individuelle Betreuung.
 * Präsenztage an einem attraktiven Studienort und Austausch mit anderen Fach- und Führungskräften.
 
-## Teilnehmerstimmen
+### Teilnehmerstimmen
 
 **Stephanie Bartomioli (M.A.), Studienjahrgang 2014**
 

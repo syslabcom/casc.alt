@@ -6,7 +6,8 @@ description: "Management-Kompetenzen für den öffentlichen Sektor erwerben - Be
 category: programme
 parent: Studiengänge
 footer: Programme
-image: /media/programme/3_MBA Public Management.jpg
+hero_image: /media/programme/3_mba_public_management.jpg
+hero_title: MBA Public Management
 ---
 
 **Public Management ist die Disziplinen übergreifende Auseinandersetzung mit der Führung von und in öffentlichen Institutionen. Dabei werden die Perspektiven der Betriebs- und Volkswirtschaftslehre mit denen der Politik- und Rechtswissenschaft zusammengeführt. Der Fokus liegt dabei auf der strategischen Verwaltungsführung.**

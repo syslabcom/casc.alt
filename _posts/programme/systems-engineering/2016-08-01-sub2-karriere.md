@@ -13,7 +13,7 @@ contact_name: dr_nicol_matzner_vogel
 
 ---
 
-## Qualifizierung und berufliche Perspektiven
+### Qualifizierung und berufliche Perspektiven
 
 **Mit Absolvieren des Master-Studiengangs Systems Engineering erwerben Sie folgendes  Kompetenzprofil:**
 
@@ -24,13 +24,13 @@ contact_name: dr_nicol_matzner_vogel
 * Sie werden in den Methoden und Prozessen des Systems Engineering und des Systems Engineering Managements geschult, so dass diese die Aufgaben von SystemingenieurInnen übernehmen können. Zudem werden spezifisches Problembewusstsein und Systemdenken entwickelt, welche erlauben, situationsangepasste Vorgehensweisen zu definieren und zu initiieren sowie Fehlentwicklungen frühzeitig zu erkennen und diesen entgegenzusteuern. Als wesentlich für den Lernerfolg wird hierbei ein dem Studium unterlegter Theorie-Praxis-Transfer verstanden.
 
 
-## Zielgruppe 
+### Zielgruppe 
 
 Der Studiengang richtet sich an erfahrene Ingenieurinnen und Ingenieure, Fach- und Führungskräfte aus der Bundeswehr und der zivilen Wirtschaft mit einem ersten Hochschulstudium und Berufserfahrung von mindestens drei Jahren. 
 
 Der Schwerpunkt des Studiengangs liegt daher nicht auf der Vermittlung von technischem Wissen, das als Voraussetzung angesehen wird, sondern auf der Basis von Kenntnissen von technischen Systemen als hochvernetzte Teilsysteme werden Entwicklungs- und Managementansätze vorgestellt, die in der Projektabwicklung genauso wie bei der konkreten Problemlösung unterstützen. Zudem entwickeln die Studierenden ein Bewusstsein für Limitierungen und Randbedingungen des realen „Projektlebens“. 
 
-## Gute Gründe für den Master-Studiengang Systems Engineering:
+### Gute Gründe für den Master-Studiengang Systems Engineering:
 
 * Bewährtes Kleingruppenkonzept (10 bis 15 Teilnehmende pro Jahrgang) und hervorragende individuelle Betreuung.
 * Universitäre, bedarfsgerechte Weiterbildung für Berufserfahrene (mindestens drei Jahre) mit erstem Hochschulabschluss.
@@ -38,7 +38,7 @@ Der Schwerpunkt des Studiengangs liegt daher nicht auf der Vermittlung von techn
 * Hohe Flexibilität durch die Möglichkeit, einzelne Module zu belegen (Einstieg alle zwei Monate).
 * Präsenztage an einem attraktiven Studienort und Austausch mit anderen Fach- und Führungskräften.
 
-## Teilnehmerstimmen
+### Teilnehmerstimmen
 
 **Dipl.-Ing. Florian Grimm, Entwicklungsingenieur bei Voith Composites GmbH, Studienjahrgang 2015**
 

@@ -5,12 +5,13 @@ name: customized programs
 description: "Sie möchten Ihre Mitarbeiterinnen und Mitarbeiter in einem speziellen Themengebiet weiterbilden? Wir entwickeln mit Ihnen Customized Programs, die explizit auf Ihre Bedarfe zugeschnitten sind."
 category: programme
 parent: Studiengänge
-image: /media/programme/15_Customized Programs.JPG
+hero_image: /media/programme/15_customized_programs.jpg
+hero_title: Customized Programs
 footer: Programme
 ---
 
 
-## Customized Programs - Maßgeschneiderte Weiterbildung für den Erfolg Ihres Unternehmens!
+### Customized Programs - Maßgeschneiderte Weiterbildung für den Erfolg Ihres Unternehmens!
 
 Die forschungsstarke Universität der Bundeswehr München arbeitet in der Innovationsregion München eng mit der Industrie, der Wirtschaft sowie dem öffentlichen Sektor zusammen. Die Schwerpunkte der Fakultäten in den Ingenieur-, Wirtschafts- und Gesellschaftswissenschaften machen es möglich, themenspezifische, aber auch interdisziplinäre Weiterbildungsangebote maßgeschneidert nach Ihren Bedürfnissen zu kreieren.
 
