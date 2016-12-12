@@ -10,6 +10,9 @@ image: pi-profile.jpg
 parent: Service
 ---
 
+
+## Karriereförderung
+
 **Sie wollen sich beruflich weiterentwickeln oder neue Karrierewege einschlagen? Dafür benötigen Sie nicht nur fachliches Know-How, sondern auch berufsrelevante Schlüsselkompetenzen sowie Kontakte zu den entsprechenden Entscheidungsträgern. Karriereberatung und -förderung bildet daher in allen unseren Programmen und Aktivitäten ein zentrales Element.**
 
 ### Kontakte für die Karriere knüpfen

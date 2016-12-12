@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Finanzierung und Fördermöglichkeiten
+title: Finanzierung 
 nav_title: Finanzierung
 name: finanzierung_und_foerdermoeglichkeiten
 description: "Eine gute Übersicht über die verschiedenen Fördermöglichkeiten von Weiterbildungsangeboten bietet der Leitfaden 'Weiterbildung finanzieren' der Stiftung Warentest (s. Downloadbereich rechts)."
@@ -10,6 +10,8 @@ image: pi-profile.jpg
 parent: Service
 ---
 
+## Finanzierung und Fördermöglichkeiten
+
 **Sie möchten ein Studium aufnehmen oder an einem Weiterbildungsprogramm teilnehmen, Ihnen fehlen jedoch finanzielle Mittel dazu? Gerne informieren wir Sie auf den folgenden Seiten, welche Finanzierungs- und Fördermöglichkeiten Ihnen offen stehen und geben Ihnen weitere hilfreiche Tipps.**
 
 Eine gute Übersicht über die Fördermöglichkeiten von Weiterbildungsangeboten bietet der Leitfaden "Weiterbildung finanzieren" der Stiftung Warentest. 
@@ -18,7 +20,7 @@ Eine Auswahl weiterer Finanzierungsmöglichkeiten haben wir für Sie nachfolgend
 
 ### Stipendien
 
-Der <a href="https://www.stipendienlotse.de/">"Stipendienlotse"</a>, die Datenbank des Bundesministeriums für Bildung und Forschung für nationale und internationale Stipendien, hält über 1250 Einträge bereit. Interessant ist auch das Weiterbildungsstipendium sowie das Aufstiegsstipendium der <a href="https://www.sbb-stipendien.de/sbb.html">"Stiftung Begabtenförderung berufliche Bildung"</a>.
+Der <a href="https://www.stipendienlotse.de/">Stipendienlotse</a>, die Datenbank des Bundesministeriums für Bildung und Forschung für nationale und internationale Stipendien, hält über 1250 Einträge bereit. Interessant ist auch das Weiterbildungsstipendium sowie das Aufstiegsstipendium der <a href="https://www.sbb-stipendien.de/sbb.html">Stiftung Begabtenförderung berufliche Bildung</a>.
 
 ### Bildungsfonds
 
@@ -26,7 +28,7 @@ Die bankenunabhängige Studienfinanzierung wird von privaten Geldgebern und inst
 
 ### Studienkredite
 
-Studien- und Bildungskredite sind beispielsweise über die staatliche <a href="https://www.kfw.de/">"KfW Bankengruppe"</a> erhältlich, werden aber auch von privatwirtschaftlichen Banken angeboten. Dieser Kredit wird in der Regel als monatliche Auszahlung gewährt. Eine Publikation des Centrum für Hochschulentwicklung vergleicht die einzelnen Angebote anschaulich.
+Studien- und Bildungskredite sind beispielsweise über die staatliche <a href="https://www.kfw.de/">KfW Bankengruppe</a> erhältlich, werden aber auch von privatwirtschaftlichen Banken angeboten. Dieser Kredit wird in der Regel als monatliche Auszahlung gewährt. Eine Publikation des Centrum für Hochschulentwicklung vergleicht die einzelnen Angebote anschaulich.
 
 ### Steuerliche Aspekte 
 
