@@ -7,7 +7,7 @@ layout: generic
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-9 blog-pull-right">
+      <div class="col-md-9">
         <div class="single-service">
           <!-- <img src="{{ page.image }}" alt="{{ page.title }}"> -->
           <h2 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h2>
@@ -67,108 +67,68 @@ layout: generic
           </div>
         </div>
 
-
-
-      <div class="container">
-        <div class="row">
-            <div class="section-title mb-10">
-              <div class="row">
-                <div class="col-md-9">
-                  <h4 class="mt-20 line-bottom line-height-1">Akademische <span class="text-theme-color-2 font-weight-400">Leitung</span></h4>
-               </div>
+        <div class="container">
+          <div class="row">
+              <div class="section-title mb-10">
+                <div class="row">
+                  <div class="col-md-9">
+                    <h4 class="mt-20 line-bottom line-height-1">Akademische <span class="text-theme-color-2 font-weight-400">Leitung</span></h4>
+                 </div>
+                </div>
               </div>
-            </div>
 
-            <div class="section-content">
-              <div class="row multi-row-clearfix">
-              {% for item in site.posts %}
-              {% if item.parent == 'People' and item.category == "akademische_leitung" %}
-                <div class="col-sm-3 col-md-3 sm-text-center mb-sm-8">
-                  <div class="team maxwidth200">
-                    <div class="thumb"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
-                    <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
-                      <h5 class="name font-14 text-theme-color-2 mt-0">{{ item.title }}</h5>
-                      <p class="mb-20 font-12">{{ item.description }}&nbsp;</p>
-                      <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ item.url}}">Zur Person…</a>
+              <div class="section-content">
+                <div class="row multi-row-clearfix">
+                {% for item in site.posts %}
+                {% if item.parent == 'People' and item.category == "akademische_leitung" %}
+                  <div class="col-sm-3 col-md-3 sm-text-center mb-sm-8">
+                    <div class="team maxwidth200">
+                      <div class="thumb"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
+                      <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
+                        <h5 class="name font-14 text-theme-color-2 mt-0">{{ item.title }}</h5>
+                        <p class="mb-20 font-12">{{ item.description }}&nbsp;</p>
+                        <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ item.url}}">Zur Person…</a>
+                      </div>
                     </div>
                   </div>
+                  {% endif %}
+                  {% endfor %}         
                 </div>
-                {% endif %}
-                {% endfor %}         
               </div>
-            </div>
-        </div>
-      </div>
-
-      </div>
-      <div class="col-md-3 scrolltofixed-container">
-        <div class="list-group scrolltofixed" >
-            <!-- no left slot required atm -->
-        </div>
-      </div>
-      <!-- <div class="col-sm-12 col-md-4">
-        <div class="sidebar sidebar-left mt-sm-30 ml-40">
-          
-            {% for item in site.posts %}
-            {% if item.name == page.contact_name %}
-            <div class="widget">
-              <h4 class="widget-title line-bottom">Anmeldung und  <span class="text-theme-color-2">Kontakt</span></h4>
-              <p>{{ page.anmeldung }}</p>
-              <div class="doctor-thumb">
-                <img src="{{ item.image }}" alt="{{ item.title }}">
-              </div>
-              <div class="info">
-                <h4 class="text-uppercase text-white">{{ item.title }}</h4>
-                {{ item.content }}
-              </div>
-            </div>
-            {% endif %}
-            {% endfor %}
-          <div class="widget">
-            <h4 class="widget-title line-bottom">Schreiben <span class="text-theme-color-2">Sie uns!</span></h4>
-            <p>Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.</p>
-            <form id="quick_contact_form_sidebar" name="footer_quick_contact_form" class="quick-contact-form" action="includes/quickcontact.php" method="post" novalidate="novalidate">
-              <div class="form-group">
-                <input name="form_email" class="form-control" type="text" required="" placeholder="Ihre Email" aria-required="true">
-              </div>
-              <div class="form-group">
-                <textarea name="form_message" class="form-control" required="" placeholder="Ihre Nachricht" rows="3" aria-required="true"></textarea>
-              </div>
-              <div class="form-group">
-                <input name="form_botcheck" class="form-control" type="hidden" value="">
-                <button type="submit" class="btn btn-theme-colored btn-flat btn-xs btn-quick-contact text-white pt-5 pb-5" data-loading-text="Please wait...">Abschicken</button>
-              </div>
-            </form>
-
-            <script type="text/javascript">
-              $("#quick_contact_form_sidebar").validate({
-                submitHandler: function(form) {
-                  var form_btn = $(form).find('button[type="submit"]');
-                  var form_result_div = '#form-result';
-                  $(form_result_div).remove();
-                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                  var form_btn_old_msg = form_btn.html();
-                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                  $(form).ajaxSubmit({
-                    dataType:  'json',
-                    success: function(data) {
-                      if( data.status == 'true' ) {
-                        $(form).find('.form-control').val('');
-                      }
-                      form_btn.prop('disabled', false).html(form_btn_old_msg);
-                      $(form_result_div).html(data.message).fadeIn('slow');
-                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                    }
-                  });
-                }
-              });
-            </script>
           </div>
         </div>
-      </div> -->
+      </div>
+
+      <div class="col-md-3 scrolltofixed-container">
+        <div class="list-group scrolltofixed" >
+          <!-- no left slot required atm -->
+          {% assign person = site.posts | where:"name",page.contact_person %}
+          {% for item in person %}
+          <div class="sidebar sidebar-right mt-sm-30 pl-10 pr-10 pt-10 pb-10 bg-light">
+              <div class="text-center">
+                <img class="img-circle" src="{{ item.image }}" alt="{{ item.title }}">
+              </div>
+              <h4 class="widget-title line-bottom">Programmkoordination</h4>
+              <h5>{{ item.title }}</h5>
+              <div class="info">
+                <em>{{ item.description }}</em>
+
+                {{ item.content }}
+
+                <p>
+                  <i class="fa fa-envelope-o mr-5"></i> <a href="mailto:{{ item.email }}">{{ item.email }}</a><br>
+                  <i class="fa fa-phone text-theme-color-2 mr-5"></i> {{ item.phone }}
+                </p>
+              </div>
+
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>
 
-    {% include testimonials.html %}
-    {% include logos.html %}
+{% include testimonials.html %}
+{% include logos.html %}

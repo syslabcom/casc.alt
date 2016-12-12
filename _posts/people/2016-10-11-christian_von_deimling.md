@@ -2,9 +2,9 @@
 layout: bio
 title: Christian von Deimling
 name: christian_von_deimling
-description: Programmkoordination - Wirtschafts- und Organisationswissenschaften 
-category: akademische_leitung
-image: "/media/people/platzhalter.jpg"
+description: Programmkoordination Wirtschafts- und Organisationswissenschaften 
+category: programmkoordination
+image: "/media/people/christian_von_deimling.jpg"
 parent: People
 phone: 089 6004-4262
 email: c.von.deimling@unibw.de

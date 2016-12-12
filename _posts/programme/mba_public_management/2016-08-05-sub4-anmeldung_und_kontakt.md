@@ -37,35 +37,14 @@ Dr. Nicol Matzner-Vogel, MBA <br>
 Geschäftsführerin casc <br>
 Universität der Bundeswehr München<br>
 Werner-Heisenberg-Weg 39<br>
-85577 Neubiberg Tel.: +49 89 6004 4530 <br>
+85577 Neubiberg <br>
+Tel.: +49 89 6004 4530 <br>
 E-Mail:  <a href="mailto:nicol.matzner@unibw.de ">nicol.matzner@unibw.de</a><br>
 
 ### Kontakt
 
-Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.<br>	
-
-**Akademische Leitung**<br>
-
- **Prof. Dr. Michael Eßig**<br>	
-**Professor für Materialwirtschaft & Distribution**<br> 
-
-Universität der Bundeswehr München<br>
-Werner-Heisenberg-Weg 39<br>
-85577 Neubiberg<br>
-
-Tel.: +49 (0)89 6004-4221<br>	 
-E-Mail: <a href="mailto:michael.essig@unibw.de">michael.essig@unibw.de</a><br>	 
-
-**Prof. Dr. Bernhard Hirsch**<br>
-**Professor für Controlling**<br>
-
-Universität der Bundeswehr München<br>
-Werner-Heisenberg-Weg 39<br>
-85577 Neubiberg<br>
-
-Tel.: +49 (0)89 6004-4209<br>	 
-E-Mail: <a href="mailto:bernhard.hirsch@unibw.de">bernhard.hirsch@unibw.de</a><br>	
-
+**Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.**
+<br>	
 
 **Programmkoordination**<br>
 

@@ -231,6 +231,7 @@ body.category-antrag .main-content #overview {
     background-size: cover;
 }
 
+.main-content .accordion ul,
 .main-content .single-post ul {
     list-style: outside none none;
     margin-top: 13px;
@@ -239,12 +240,15 @@ body.category-antrag .main-content #overview {
     margin: 0;
 }
 
+.main-content .accordion ul li,
 .main-content .single-post ul li {
     margin: 5px 0 5px 10px;
     font-weight: 500;
     padding-left: 15px;
     position: relative;
 }
+
+.main-content .accordion ul li:before, 
 .main-content .single-post ul li:before {
     border: none;
     color: #a9a9a9;
