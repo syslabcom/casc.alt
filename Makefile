@@ -24,7 +24,7 @@ RELEASE_DIR		= release/prototype
 RELEASE_TARBALL = release/prototype-$(RELEASE).tar.gz
 
 # This directory is relative to ./prototype dir.
-DIAZO_DIR   = ../src/unibw/casc/theme/static
+DIAZO_DIR   = ../src/unibw/theme/static
 
 LATEST          = $(shell cat LATEST)
 BUNDLEPLONEID	= casc
