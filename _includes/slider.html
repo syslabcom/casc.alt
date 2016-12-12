@@ -2,16 +2,16 @@
         <div class="rev_slider_wrapper">
           <div class="rev_slider" data-version="5.0">
             <ul>
-
-              <!-- SLIDE 1 -->
-              <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/media/hero/home.jpg" data-rotate="0" data-saveperformance="off" data-title="Lautlos über den Campus" data-description="">
+            {% assign programme = site.posts | where:"parent","Studiengänge" %}
+            {% for item in programme %}
+              <li data-index="rs-{{ forloop.index }}" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="{{ item.hero_image }}" data-rotate="0" data-saveperformance="off" data-title="{{ item.hero_title }}" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="/media/hero/home.jpg"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="{{ item.hero_image }}"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme text-layer"
-                  id="rs-1-layer-2"
+                  id="rs-{{ forloop.index }}-layer-2"
                   data-x="['left']"
                   data-hoffset="['10']"
                   data-y="['bottom']"
@@ -20,61 +20,13 @@
                   data-height="200px"
                   data-basealign="grid"
                   data-responsive_offset="on"
-                  >
-
-                    <h2 class="text-white font-theserif">Lautlos über den Campus</h2>
-                    <p class="description font-theserif font-20 text-white"> Die Universität der Bundeswehr München setzt in puncto Mobilität auf Elektroroller. Anfang März sind sieben fabrikneue E-Roller
-                    eingetroffen, die künftig von jedem Angehörigen der Bundeswehr
-                     sowie darüber hinaus für Forschungszwecke genutzt werden können.</p>
+                  ><a href="{{ item.url }}">
+                    <h2 class="text-white font-theserif">{{ item.hero_title }}</h2>
+                    <p class="description font-theserif font-20 text-white"> {{ item.hero_description }}</p></a>
                 </div>
 
               </li>
-
-              <!-- SLIDE 2 -->
-              <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/media/hero/workshop.jpg" data-rotate="0" data-saveperformance="off" data-title="Tag der Bundeswehr" data-description="">
-                <!-- MAIN IMAGE -->
-                <img src="/media/hero/workshop.jpg"  alt=""  data-bgposition="center 40%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
-                <!-- LAYERS -->
-
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent border-left-theme-color-2-6px pl-20 pr-20"
-                  id="rs-1-layer-2"
-
-                  data-x="['right']"
-                  data-hoffset="['35']"
-                  data-y="['middle']"
-                  data-voffset="['-25']" 
-                  data-fontsize="['35']"
-                  data-lineheight="['54']"
-                  data-responsive_offset="on"
-                  >Tag der Bundeswehr
-                </div>
-
-              </li>
-
-              <!-- SLIDE 3 -->
-              <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="/media/hero/class.jpg" data-rotate="0" data-saveperformance="off" data-title="Cyber Defence ist eine gesamtstaatliche Aufgabe" data-description="">
-                <!-- MAIN IMAGE -->
-                <img src="/media/hero/class.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
-                <!-- LAYERS -->
-
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-uppercase text-white font-raleway bg-theme-colored-transparent border-left-theme-color-2-6px pl-20 pr-20"
-                  id="rs-1-layer-2"
-
-                  data-x="['left']"
-                  data-hoffset="['35']"
-                  data-y="['middle']"
-                  data-voffset="['-25']" 
-                  data-fontsize="['35']"
-                  data-lineheight="['54']"
-                  data-responsive_offset="on"
-                  >Cyber Defence ist eine gesamtstaatliche Aufgabe
-                </div>
-
-              
-              </li>
-
+            {% endfor %}
             </ul>
           </div>
           <!-- end .rev_slider -->
