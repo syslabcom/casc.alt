@@ -8,6 +8,7 @@ image: "/media/people/prof-hirsch.jpg"
 parent: People
 phone: 089 6004-4209
 email: bernhard.hirsch@unibw.de
+program: mba_public_management
 ---
 
 Universität der Bundeswehr München<br>

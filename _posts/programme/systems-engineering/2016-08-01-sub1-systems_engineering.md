@@ -8,13 +8,10 @@ tagline: Unser Service
 hero_image:  /media/programme/5_systems_engineering.jpg
 hero_title: "Systems Engineering (M.Sc.)"
 parent: Studiengänge
-backlink: "/programme#studiengaenge"
-anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
+contact_person: dr_brigita-jeraj
 ---
-
-### Systems Engineering (M.Sc.)
 
 **Technische Systeme sind geprägt durch eine zunehmende Komplexität, die nicht nur aus dem System heraus sondern auch durch Wechselwirkungen und Beziehungen zu anderen Systemen und zur Umgebung resultieren. Zusätzlich ist in der Systementwicklung eine zunehmende Spezialisierung durch technische Experten zu beobachten. Die resultierende Notwendigkeit zur Systemintegration ist nicht mehr allein mit Expertenwissen zu Teillösungen zu beherrschen.**
 

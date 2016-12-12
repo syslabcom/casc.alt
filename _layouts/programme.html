@@ -12,9 +12,9 @@ layout: generic
           <!-- <img src="{{ page.image }}" alt="{{ page.title }}"> -->
           <h2 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h2>
           <p class="description"><em>{{ page.description }}</em></p>
-
-          {{ content }}
-
+            <div class="single-post">
+              {{ content }}
+            </div>
           <div id="accordion1" class="panel-group accordion">
           {% assign items = site.posts | where:"parent",page.title %}
           {% for item in items %}
@@ -80,7 +80,7 @@ layout: generic
               <div class="section-content">
                 <div class="row multi-row-clearfix">
                 {% for item in site.posts %}
-                {% if item.parent == 'People' and item.category == "akademische_leitung" %}
+                {% if item.parent == 'People' and item.category == "akademische_leitung" and item.program == page.name %}
                   <div class="col-sm-3 col-md-3 sm-text-center mb-sm-8">
                     <div class="team maxwidth200">
                       <div class="thumb"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
@@ -102,7 +102,8 @@ layout: generic
       <div class="col-md-3 scrolltofixed-container">
         <div class="list-group scrolltofixed" >
           <!-- no left slot required atm -->
-          {% assign person = site.posts | where:"name",page.contact_person %}
+          {% assign people = site.posts | where:"layout","bio" %}
+          {% assign person = people | where:"name",page.contact_person %}
           {% for item in person %}
           <div class="sidebar sidebar-right mt-sm-30 pl-10 pr-10 pt-10 pb-10 bg-light">
               <div class="text-center">

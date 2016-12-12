@@ -20,18 +20,18 @@ new: True
 
 Admission occurs in three steps:
 
-1. Submission of an application by the applicant and verification of eligibility
-2. Invitation to an admission interview (also via phone)
-3. Offer of a seat in the program and enrollment via Firm Acceptance-Form
+* Submission of an application by the applicant and verification of eligibility
+* Invitation to an admission interview (also via phone)
+* Offer of a seat in the program and enrollment via Firm Acceptance-Form
 
 ### Admission Requirements
 
 Applicants must meet four requirements:
 
-1. Completion of a typically four-year higher education degree accrediting a competence level equivalent to 240 ECTS points (*Technical Degree (Diplom), Master’s or Bachelor’s Degree, or an equivalent domestic or foreign qualification usually requiring four years of full-time studies*)
-2. At least two years’ qualified professional work experience
-3. A certificate of English language proficiency (Level B2)
-4. Successful completion of an admission interview
+* Completion of a typically four-year higher education degree accrediting a competence level equivalent to 240 ECTS points (*Technical Degree (Diplom), Master’s or Bachelor’s Degree, or an equivalent domestic or foreign qualification usually requiring four years of full-time studies*)
+* At least two years’ qualified professional work experience
+* A certificate of English language proficiency (Level B2)
+* Successful completion of an admission interview
 
 If you are unsure whether you meet the admission requirements you can contact the program coordinator for an individual documents check before submission. 
 
@@ -39,13 +39,13 @@ If you are unsure whether you meet the admission requirements you can contact th
 
 Applications must include the following materials:
 
-1. Duly completed Application Form  (Available in the download section)
-2. Certified copy (German or English) of higher education qualification certificate
-3. Certified copy (German or English) of university degree certificate (incl. transcript of records)
-4. Documents (German or English) attesting at least two years of qualified professional work experience
-5. Certificate of English language proficiency (Level B2, For more information see: <a href="http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf">"http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf"</a> 
-6. A letter of motivation (The applicant should explain why he is interested in this specific program and how he sees it contributing to his further career)
-7. A *Curriculum Vitae (bio)* listing all study courses hitherto completed by the applicant as well as a complete record of professional experience
+* Duly completed Application Form  (Available in the download section)
+* Certified copy (German or English) of higher education qualification certificate
+* Certified copy (German or English) of university degree certificate (incl. transcript of records)
+* Documents (German or English) attesting at least two years of qualified professional work experience
+* Certificate of English language proficiency (Level B2, For more information see: <a href="http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf">"http://www.nato.int/structur/recruit/info-doc/Language-test-equivalence-table_FINAL2013.pdf"</a> 
+* A letter of motivation (The applicant should explain why he is interested in this specific program and how he sees it contributing to his further career)
+* A *Curriculum Vitae (bio)* listing all study courses hitherto completed by the applicant as well as a complete record of professional experience
 
 **Please send your application to the Academic Coordinator:**
 

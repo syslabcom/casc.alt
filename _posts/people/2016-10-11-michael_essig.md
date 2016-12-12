@@ -8,6 +8,7 @@ image: "/media/people/prof-essig.jpg"
 parent: People
 phone: 089 6004-4221
 email: michael.essig@unibw.de
+program: mba_public_management
 ---
 
 

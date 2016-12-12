@@ -11,8 +11,8 @@ parent: Studiengänge
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
-new: True
 footer: Programme
+contact_person: frank_mouritz
 ---
 
 ### M.A. International Security Studies
