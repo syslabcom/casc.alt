@@ -12,9 +12,9 @@ layout: generic
         </div>
       </div>
       <div class="col-md-9">
-        
-        {{ content }}
-        
+        <div class="single-post">
+          {{ content }}
+        </div>        
         <div id="accordion1" class="panel-group accordion">
         {% assign items = site.posts | where:"parent",page.title %}
         {% for item in items %}

@@ -44,31 +44,6 @@ E-Mail:  <a href="mailto:bettina.herrmann@unibw.de">bettina.herrmann@unibw.de</a
 
 ### Kontakt
 
-Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.
+**Sie haben noch Fragen? Sprechen Sie uns an! Wir beraten Sie gerne per E-Mail, telefonisch oder im persönlichen Gespräch.**
 	
-**Akademische Leitung**
 
-Prof. Dr. habil. Sigrid Rotering-Steinberg <br>
-Professur für Pädagogische Psychologie <br>
-Gebäude 42, Raum 3 <br>
-
-Universität der Bundeswehr München <br>
-Werner-Heisenberg-Weg 39 <br>
-85577 Neubiberg <br>
-
-Tel: 089 / 6004 3160 <br>
-E-Mail:  sigrid.rotering-steinberg@unibw.de <br>
-
-
-**Programmkoordination**
-
-Bettina Herrmann <br>
-Programmkoordinatorin <br>
-
-campus advanced studies center <br>
-Universität der Bundeswehr München <br>
-Werner-Heisenberg-Weg 39 <br>
-85577 Neubiberg <br>
-
-Tel.: +49-(0)89 / 6004 2388 <br>
-E-Mail:  bettina.herrmann@unibw.de <br>
