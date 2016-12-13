@@ -7,7 +7,7 @@ description: Programme der Universität der Bundeswehr München
 category: programme
 tagline: Programme
 hero_image: /media/hero/programme.jpg
-hero_title: Unsere Programme
+hero_title: Programme
 ---
 
 
