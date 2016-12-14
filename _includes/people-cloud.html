@@ -9,6 +9,10 @@
             <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
               <h4 class="font-14 name text-theme-color-2 mt-0">{{ person.title }}</h4>
               <p class="mb-20 font-12 ">{{ person.description }}&nbsp;</p>
+              <p>
+                  <i class="fa fa-envelope-o mr-5"></i> <a href="mailto:{{ item.email }}">{{ item.email }}</a><br>
+                  <i class="fa fa-phone text-theme-color-2 mr-5"></i> {{ item.phone }}
+                </p>
               <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ person.url }}">Details</a>
             </div>
           </div>
