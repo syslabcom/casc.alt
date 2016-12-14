@@ -120,7 +120,6 @@ section.inner-header {
     height: 400px;
 }
 section.inner-header .title {
-    font-family: theserif;
     text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
     font-size: 32px;
 }
@@ -169,13 +168,12 @@ section.gradient:after {
 }
 .rev_slider h2 {
     text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
-    font-family: theserif;
     background-color: grey;
     display: inline;
+    padding: 4px 8px;
     line-height: 20px;
 }
 .rev_slider p.description {
-    font-family: theserif;
     white-space: normal ;
 }
 
