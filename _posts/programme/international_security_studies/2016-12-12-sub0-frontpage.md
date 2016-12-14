@@ -6,18 +6,18 @@ description: "Sich zum Experten für internationale Sicherheitspolitik weiterbil
 category: programme
 tagline: 
 hero_image: /media/programme/1_international_security_studies.jpg
-hero_title: M.A. International Security Studies
+hero_title: International Security Studies (M.A.)
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
 contact_person: frank_mouritz
+slider: show
 ---
 
-### M.A. International Security Studies
 
-**The Master of Arts in International Security Studies (MISS) is a unique post-graduate program for security professionals offered jointly by the Universität der Bundeswehr München (UniBwM) and the George C. Marshall European Center for Security Studies (GCMC). The one-year program is designed to prepare international military and civilian students with some years of professional experience for executive positions in the public and private sector.**
+The Master of Arts in International Security Studies (MISS) is a unique post-graduate program for security professionals offered jointly by the Universität der Bundeswehr München (UniBwM) and the George C. Marshall European Center for Security Studies (GCMC). The one-year program is designed to prepare international military and civilian students with some years of professional experience for executive positions in the public and private sector.
 
 MISS participants profit from the particular strengths of the partnering institutions: The program combines university modules taught by the UniBwM professors and selected international faculty with the policy-oriented programs of the George C. Marshall European Center for Security Studies, a German-American defense institution where students study alongside other government officials from 110 countries. It provides its students with a comprehensive understanding of international security and connects them to a network of more than 10,000 security professionals around the globe.
 

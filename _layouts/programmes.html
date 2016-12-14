@@ -13,7 +13,7 @@ layout: generic
       </div>
     </div> -->
 
-    {% assign programmes = site.posts | where:"parent","Studiengänge" | sort: 'title' %}
+    {% assign programmes = site.posts | where:"parent","Studiengänge" %}
     {% for item in programmes %}
 
         {% assign loopindex = forloop.index0 | modulo: 3 %}

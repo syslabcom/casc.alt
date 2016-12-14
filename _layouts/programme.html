@@ -11,7 +11,7 @@ layout: generic
         <div class="single-service">
           <!-- <img src="{{ page.image }}" alt="{{ page.title }}"> -->
           <h2 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h2>
-          <p class="description"><em>{{ page.description }}</em></p>
+          <p class="description">{{ page.description }}</p>
             <div class="single-post">
               {{ content }}
             </div>
@@ -30,7 +30,7 @@ layout: generic
           </div>
 
 
-          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Weitere <span class="text-theme-color-2 font-weight-400">Informationen</span></h4>
+          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Downloads </h4>
           <ul id="myTab" class="nav nav-tabs boot-tabs">
             <li class="active"><a href="#info" data-toggle="tab">Anmeldeunterlagen</a></li>
             <li><a href="#small" data-toggle="tab">Informationsmaterial</a></li>
@@ -83,7 +83,7 @@ layout: generic
                 {% if item.parent == 'People' and item.category == "akademische_leitung" and item.program == page.name %}
                   <div class="col-sm-3 col-md-3 sm-text-center mb-sm-8">
                     <div class="team maxwidth200">
-                      <div class="thumb"><img class="img-circle img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
+                      <div class="thumb"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
                       <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
                         <h5 class="name font-14 text-theme-color-2 mt-0">{{ item.title }}</h5>
                         <p class="mb-20 font-12">{{ item.description }}&nbsp;</p>
@@ -118,8 +118,8 @@ layout: generic
               <div class="info">
                 <em>{{ item.description }}</em>
 
-                {{ item.content }}
-
+    <!--             {{ item.content }}
+ -->
                 <p>
                   <i class="fa fa-envelope-o mr-5"></i> <a href="mailto:{{ item.email }}">{{ item.email }}</a><br>
                   <i class="fa fa-phone text-theme-color-2 mr-5"></i> {{ item.phone }}

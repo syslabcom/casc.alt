@@ -7,6 +7,7 @@ description: "Der Bachelor-Studiengang Wirtschaftsingenieurwesen hat mir aufgrun
 category: quotes
 tagline: 
 image: /media/people/marco-knott.jpg
+show: quotes
 ---
 
 „Außerdem konnte ich mit den Schwerpunktfächern des Studiums aufgrund meiner Vorausbildungen gleich etwas anfangen. Daneben ist der Studiengang meines Erachtens themenmäßig breit gefächert, was ein rasches Einsteigen in fast jede Berufssparte ermöglicht.

@@ -11,6 +11,7 @@ parent: Studiengänge
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
 contact_person: dr_nicol_matzner_vogel
+slider: show
 ---
 
 **Technische Systeme sind geprägt durch eine zunehmende Komplexität, die nicht nur aus dem System heraus sondern auch durch Wechselwirkungen und Beziehungen zu anderen Systemen und zur Umgebung resultieren. Zusätzlich ist in der Systementwicklung eine zunehmende Spezialisierung durch technische Experten zu beobachten. Die resultierende Notwendigkeit zur Systemintegration ist nicht mehr allein mit Expertenwissen zu Teillösungen zu beherrschen.**

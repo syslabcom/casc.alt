@@ -130,7 +130,7 @@ section.inner-header .title {
     width: 100px;
 }
 /* Slider */
-.inner-header .hero-image:before,
+/*.inner-header .hero-image:before,
 section.gradient:before,
 .rev_slider .slotholder:before {
     content: ' ';
@@ -141,11 +141,10 @@ section.gradient:before,
     bottom: 0;
     left: 0;
     z-index: 2;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7db9e8+0,000000+32&0+0,0.78+100 */
-    background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(0,0,0,0.25) 32%, rgba(0,0,0,0.78) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(0,0,0,0.25) 32%,rgba(0,0,0,0.78) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(0,0,0,0.25) 32%,rgba(0,0,0,0.78) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#c7000000',GradientType=0 ); /* IE6-9 */
+    background: -moz-linear-gradient(top, rgba(125,185,232,0) 0%, rgba(0,0,0,0.25) 32%, rgba(0,0,0,0.78) 100%);
+    background: -webkit-linear-gradient(top, rgba(125,185,232,0) 0%,rgba(0,0,0,0.25) 32%,rgba(0,0,0,0.78) 100%); 
+    background: linear-gradient(to bottom, rgba(125,185,232,0) 0%,rgba(0,0,0,0.25) 32%,rgba(0,0,0,0.78) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#c7000000',GradientType=0 ); 
 }
 .inner-header .hero-image:after,
 section.gradient:after,
@@ -159,7 +158,7 @@ section.gradient:after,
     left: 0;
     z-index: 2;
     opacity: 0.5;
-}
+}*/
 
 section.gradient:before,
 section.gradient:after {
@@ -171,6 +170,9 @@ section.gradient:after {
 .rev_slider h2 {
     text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
     font-family: theserif;
+    background-color: grey;
+    display: inline;
+    line-height: 20px;
 }
 .rev_slider p.description {
     font-family: theserif;
@@ -194,6 +196,12 @@ section.clients .clients-logo img {
     padding: 1em 2em;
 }
 
+/* Description highlight */
+
+.single-service .description {
+    font-size: 20px;
+    font-weight: 600;
+}
 
 
 /* Hack to offset anchors by the height of the navbar*/

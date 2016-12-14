@@ -11,6 +11,7 @@ parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
+slider: show
 ---
 
 

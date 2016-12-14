@@ -7,6 +7,7 @@ description: „Nach einigen beruflichen Jahren primär in der Luftfahrtentwickl
 category: quotes
 tagline: 
 image: /media/people/florian-grimm.jpg
+show: quotes
 ---
 
 „Die Zielsetzungen des Studiums, den Blick bei der Produktentwicklung stets auf den gesamten Lebenszyklus zu richten und sich die richtigen methodischen Werkzeuge dazu anzueignen, lässt sich auch schon während des laufenden Studiums prima im beruflichen Alltag integrieren. Die Auseinandersetzung mit den Studieninhalten lässt einen dabei die eigens gemachten Erfahrungen nochmals überprüfen und sortiert und ergänzt das vorhandene Wissen. Auch nach einigen Jahren im Beruf ist daher selbst bei bekannten Inhalten für so manchen „Aha“-Effekt gesorgt.

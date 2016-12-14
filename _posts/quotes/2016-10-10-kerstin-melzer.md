@@ -7,6 +7,7 @@ description: "Als angehende Personalentwicklerin an einer Universität war ich a
 category: quotes
 tagline: 
 image: /media/people/kerstin-melzer.jpg
+show: quotes
 ---
 
 

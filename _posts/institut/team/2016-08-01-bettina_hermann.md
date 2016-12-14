@@ -2,7 +2,7 @@
 layout: bio
 title: Bettina Herrmann
 name: bettina__hermann_ma
-description: M.A.
+description: Programmkoordinatorin Personalentwicklung
 category: institut
 tagline: Unser Service
 image: "/media/team-members/12.jpg"
