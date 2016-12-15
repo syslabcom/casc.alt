@@ -1,0 +1,51 @@
+---
+layout: generic
+parent: Aktuelles
+---
+
+<section>
+  <div class="container mt-30 mb-30 pt-30 pb-30">
+
+
+
+    <div class="row">
+      <div class="col-md-9 blog-pull-right">
+
+        <h2>{{ page.hero_title }}</h2>
+        <div class="upcoming-events bg-white-f3 mb-20">
+          {% assign events = site.posts | where:"category",page.show_category %}
+          {% for item in events %}
+          <div class="row">
+            <div class="col-sm-4 pr-0 pr-sm-15">
+              <div class="thumb p-15">
+                {% if item.image  %}<img class="img-fullwidth" src="https://placehold.it/220x160" alt="...">{% endif %}
+              </div>
+            </div>
+            <div class="col-sm-4 pl-0 pl-sm-15">
+              <div class="event-details p-15 mt-20">
+                <h4 class="media-heading font-weight-500">{{ item.title }}</h4>
+                <p>{{ item.description }}</p>
+                <a href="http://www.google.com" class="btn btn-flat btn-dark btn-theme-colored btn-sm">Details <i class="fa fa-angle-double-right"></i></a>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="event-count p-15 mt-15">
+                <ul class="event-date list-inline font-16 text-uppercase mt-10 mb-20">
+                  <li class="p-15 pl-20 pr-20 mr-5 bg-lightest"> {{item.day}}</li>
+                  <li class="p-15 mr-5 bg-lightest">{{item.month}}</li>
+                  <li class="p-15 bg-lightest">{{item.year}}</li>
+                </ul>
+                <ul>
+                  <li class="mb-10 text-theme-colored"><i class="fa fa-clock-o mr-5"></i>  {{ item.start}} - {{item.end }}</li>
+                  <li class="text-theme-colored"><i class="fa fa-map-marker mr-5"></i> {{ item.location }}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+        
+
+    </div>
+  </div>
+</section>
