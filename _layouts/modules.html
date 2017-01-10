@@ -1,0 +1,60 @@
+---
+layout: generic
+---
+
+<h1>Modules</h1>
+<p>The following UI components are available for use throughout the
+UniBw website</p>
+
+<h2>Slider</h2>
+{% include slider.html %}
+
+<h2>Hero</h2>
+{% include hero.html %}
+
+<h2>About</h2>
+{% include about.html %}
+
+<h2>Courses</h2>
+{% include courses.html %}
+
+<h2>Events</h2>
+{% include events.html %}
+
+<h2>Gallery</h2>
+{% include gallery.html %}
+
+<h2>News</h2>
+{% include news.html %}
+
+<h2>People cloud</h2>
+<section>
+  <div class="row">
+    <div class="container mt-0 mb-30 pt-30 pb-30">
+      <div class="col-md-3 scrolltofixed-container">
+        <div class="list-group scrolltofixed" >
+        <!-- Room for more info -->
+        </div>
+      </div>
+      <div class="col-md-9 blog-pull-right">
+        <div class="blog-posts single-post">
+        </div>
+        <div class="blog-posts single-post" id="{{ item.url | remove: '/' | remove: '.html' }}">
+          {% include people-cloud.html %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<h2>Team</h2>
+{% include team.html %}
+
+<h2>Testimonials</h2>
+{% include testimonials.html %}
+
+<h2>Why us</h2>
+{% include why-us.html %}
+
+<h2>Logos</h2>
+{% include logos.html %}
