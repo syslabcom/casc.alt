@@ -22,6 +22,8 @@
   font-family: 'theserif', serif;
 }
 
+a {    color: #337ab7;}
+
 #header {
     background-color: #fff;
     color: #6A686F;
@@ -166,6 +168,7 @@ section.gradient:after {
 .rev_slider .text-layer {
     width: 80%;
 }
+#hero h2,
 .rev_slider h2 {
     text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
     background-color: grey;
@@ -267,4 +270,17 @@ body.category-antrag .main-content #overview {
     left: 0;
     position: absolute;
     top: 4px;
+}
+
+/* gradients */
+
+.royal-gradient::before {
+    background: #141E30; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.titanium-gradient::before {
+    background: #283048; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 }

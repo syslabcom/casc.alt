@@ -1,11 +1,14 @@
 ---
 layout: potential-modules
-title: Potential CASC Modules
-name: potential_casc_modules
-description: Showcase UI components which can be added on request
+title: UniBW Website mögliche Module
+name: potential_modules
+description: Showcase the available UI components
 category: 
 tagline: 
+hero_image: /media/legoblocks.jpg
+hero_title: Beispielhaft mögliche Module für den neuen UniBW Webauftritt
 ---
+
 
 The following UI components can be implemented for use in multiple areas of the
 CASC website.
