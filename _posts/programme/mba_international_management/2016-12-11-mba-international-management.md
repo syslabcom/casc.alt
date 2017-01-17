@@ -14,22 +14,15 @@ footer: Programme
 slider: show
 ---
 
-
-MBA International Management mit den Schwerpunkten Öffentliches Controlling und Öffentliche Beschaffung
-
-International Management ist die Disziplinen übergreifende Auseinandersetzung mit der Führung von und in öffentlichen Institutionen. Dabei werden die Perspektiven der Betriebs- und Volkswirtschaftslehre mit denen der Politik- und Rechtswissenschaft zusammengeführt. Der Fokus liegt dabei nicht auf der technischen Ausgestaltung der Verwaltungstätigkeit, sondern auf der strategischen Verwaltungsführung. Ziel ist es, den öffentlichen Sektor kostengünstig, effizient und effektiv zu gestalten. Das heutige Public Management orientiert sich dabei an marktlichen, netzwerkartigen oder hierarchischen Steuerungsmechanismen und einem konsequenten Veränderungsmanagement.
-
-Der MBA International Management der Universität der Bundeswehr München greift diesen Ansatz auf und bereitet qualifizierte Fachkräfte auf Führungsaufgaben an den Schnittstellen von öffentlichem Sektor und Privatwirtschaft vor und bietet wissenschaftlich fundiertes Studium und praxisorientiertes Wissen in einem.
-
-Video-Clip (Kurzfassung)
-
-<video autobuffer="" controls="controls" poster="/media/video/mba-international-management-video.png" style="width: 100%; max-width: 100%;"><source src="https://www.unibw.de/casc/studiengaenge/mbapm/werbespot-mba-pm.mp4"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" height="315" width="560"><param name="movie" value="https://www.unibw.de/medz/strobe-media-playback/strobemediaplayback.swf"><param name="FlashVars" value="src=https://www.unibw.de/casc/studiengaenge/pe/mp4-pe"><param name="allowFullScreen" value="true"><param name="allowscriptaccess" value="always"><embed allowfullscreen="true" allowscriptaccess="always" flashvars="https://www.unibw.de/casc/studiengaenge/pe/mp4-pe" height="315" src="https://www.unibw.de/medz/strobe-media-playback/strobemediaplayback.swf" type="application/x-shockwave-flash" width="560"></object></video>
-
-Im Vordergrund steht die Vermittlung von Konzepten und Instrumenten für ein erfolgreiches Management von öffentlichen Institutionen (Kommunen, Länder, Bund), von Unternehmen privatwirtschaftlicher Rechtsform, die dem Vergaberecht unterliegen (bspw. Stadtwerke, Bahn etc.) sowie von Lieferanten, die die öffentliche Hand beliefern (wollen). Berufserfahrenen bietet der Studiengang gezielte Weiterqualifizierung im Bereich Öffentliches Controlling und Öffentliche Beschaffung an.
-
-An der Universität der Bundeswehr München verfolgen anerkannte Wirtschafts-, Sozial- und Rechtswissenschaftler einen interdisziplinären und praxisorientierten Ansatz in Lehre und Forschung. So werden Präsenzveranstaltungen und Vorbereitungsphasen mit Fernlernelementen kombiniert und durch praxisnahe Seminare und Exkursionen ergänzt. Ein hochkarätig besetzter Beirat garantiert, dass die neuesten Entwicklungen aus Forschung und Berufspraxis unmittelbar Eingang in das Studium finden.
-
-Starten Sie die nächste Stufe Ihrer Karriere und informieren Sie sich über diesen bundesweit einmaligen Studiengang. Die Akademischen Leiter  laden Sie herzlich ein, auf den folgenden Internetseiten mehr über den MBA in International Management zu erfahren.
+Als Offizier Management-Know-How erwerben - Bereiten Sie sich mit dem maßgeschneiderten MBA International Management optimal auf Ihre Karriere als Führungskraft vor.
 
 
+Der MBA-Studiengang International Management bereitet Zeitoffiziere am Ende ihrer Dienstzeit maßgeschneidert auf die Übernahme ziviler Management-Positionen vor. Das hohe Niveau des Studiengangs wird durch die beiden renommierten Partnerhochschulen, die ESB Business School Reutlingen und die Universität der Bundeswehr München gesichert. 
+
+Die Besonderheit des Studiengangs besteht darin, dass berufliche Vorkenntnisse der Offiziere als wertvolle Managementgrundlage ins Curriculum einbezogen und an die Anforderungen des zivilen Arbeitsmarktes angepasst werden. Ergänzend werden den Studierenden international relevantes und praxisbezogenes Management-Wissen sowie zivile Führungs- und Sozialkompetenzen vermittelt.
+Weitreichende Flexibilität wird durch die Wahlmöglichkeit der Studienorte München, Reutlingen oder Hamburg und eine an die Dienstzeit angepasste Studienstruktur geboten. Somit ermöglicht der MBA-Studiengang eine effektive und an die individuelle Situation angepasste Wissensvermittlung und lässt sich im Intensiv-Studium bereits in 20 Monaten abschließen. 
+
+Ein ausgereiftes System der Karriereförderung erweitert gezielt die Berufsperspektiven der Studierenden: Firmenforen, individuelle Betreuung und Beratung und ein großes Netzwerk mit über 300 Alumni sorgen dafür, dass der Berufsstart zugleich auch ein Karrierestart wird.
+
+Weitere Informationen finden Sie unter <a href="http://www.mba-fuer-offiziere.eu/">http://www.mba-fuer-offiziere.eu/</a>
 
