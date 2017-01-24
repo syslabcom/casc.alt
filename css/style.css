@@ -309,3 +309,29 @@ body.category-antrag .main-content #overview {
     background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 }
+
+
+/* start 'orangehills' theme */
+.emerald {
+  background-color: #ff6600;
+}
+
+.media-body,
+.media-body h3 {
+  color: #fff;
+}
+
+.icon-lg {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 100%;
+  color: #fff;
+  display: inline-block !important;
+  font-size: 48px;
+  height: 108px;
+  line-height: 108px;
+  margin: 10px;
+  text-align: center;
+  width: 108px;
+}
+
+/* end 'orangehills' theme */
