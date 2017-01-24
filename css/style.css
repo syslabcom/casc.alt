@@ -24,6 +24,9 @@
 
 a {    color: #337ab7;}
 
+.bg-blue  {
+    background-color: #07A0F7 !important;
+}
 #header {
     background-color: #fff;
     color: #6A686F;
@@ -122,9 +125,14 @@ section.inner-header {
     height: 400px;
 }
 section.inner-header .title {
-    text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
+    /*text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);*/
     font-size: 32px;
 }
+section.inner-header small {
+    font-size: 18px;
+    color: white;
+}
+
 /* Testimonials - Quotes */
 #quotes .item img {
     height: 100px;
@@ -168,13 +176,30 @@ section.gradient:after {
 .rev_slider .text-layer {
     width: 80%;
 }
-#hero h2,
+#hero .title,
+#hero small,
 .rev_slider h2 {
-    text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
     background-color: grey;
     display: inline;
     padding: 4px 8px;
-    line-height: 20px;
+}
+#hero .marker {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 40px;
+    height: 100%;
+}
+#hero .marker span {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+    display: block;
+    position: absolute;
+    top: 55%;
+    font-weight: bold;
+    -webkit-font-smoothing: antialiased;
+    font-size: 26px;
+    line-height: 41px;
 }
 .rev_slider p.description {
     white-space: normal ;
