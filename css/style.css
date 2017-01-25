@@ -334,4 +334,21 @@ body.category-antrag .main-content #overview {
   width: 108px;
 }
 
+.quicklinks-wrapper > .row {
+  margin-bottom: 20px;
+}
+
+.quicklink {
+  display: inline-block;
+  margin: 0 20px;
+  text-align: center;
+  width: 80px;
+}
+
+.quicklink .fa {
+  border: 2px solid #fff;
+  border-radius: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+}
 /* end 'orangehills' theme */

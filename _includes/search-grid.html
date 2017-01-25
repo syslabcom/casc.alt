@@ -1,0 +1,421 @@
+<section id="intranet-search">
+  <div class="container">
+    <div class="row search-form">
+      <div class="section-title">
+        <div class="row">
+          <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">UniBw Intranet</h2>
+        </div>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="search-box"><h4><b>Suchbegriff</b></h4></label>
+          <input class="form-control" id="search-box" placeholder="z.B. Prüfungsamt" type="text">
+        </div>
+        <div class="col-md-9 col-sm-12">
+          <h4><b>Filter</b></h4>
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker services"></span>
+                <input class="filter" id="services" value="Übergreifende Dienste" type="checkbox"> Übergreif. Dienste
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker research"></span>
+                <input class="filter" id="research" value="Forschung" type="checkbox"> Forschung
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker studies"></span>
+                <input class="filter" id="studies" value="Studium" type="checkbox"> Studium
+              </label>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker personel"></span>
+                <input class="filter" id="personal" value="Personal" type="checkbox"> Personal
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker it"></span>
+                <input class="filter" id="it" value="IT-Dienste" type="checkbox"> IT-Dienste
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker soul"></span>
+                <input class="filter" id="soul" value="Für die Seele" type="checkbox"> Für die Seele
+              </label>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker people"></span>
+                <input class="filter" id="people" value="Personen" type="checkbox"> Personen
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker lunch"></span>
+                <input class="filter" id="lunch" value="Verpflegung" type="checkbox"> Verpflegung
+              </label>
+            </div>
+            <div class="form-group">
+              <label class="checkbox-inline">
+                <span class="color-marker learning"></span>
+                <input class="filter" id="learning" value="Weiterbildung" type="checkbox"> Weiterbildung
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <h4><b>Sortierung</b></h4>
+          <select id="sorting" class="form-control">
+            <option value="hits">Häufigkeit</option>
+            <option value="alphabetical">A - Z</option>
+          </select>
+        </div>
+      </form>
+    </div>
+    <div class="row search-results" style="position: relative; width: 1100px; height: 990px;">
+      <div class="grid">
+        <div class="grid-sizer"></div>
+        <div class="grid-item" data-category="Übergreifende Dienste" data-hits="23" style="position: absolute; left: 222px; top: 220px;">
+          <a href="#">
+            <div class="item-header services">
+              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+            </div>
+            <span class="text">Arbeitssicherheit</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Übergreifende Dienste" data-hits="22" style="position: absolute; left: 444px; top: 220px;">
+          <a href="#">
+            <div class="item-header services">
+              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+            </div>
+            <span class="text">Gremienangelegenheiten</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Übergreifende Dienste" data-hits="14" style="position: absolute; left: 222px; top: 440px;">
+          <a href="#">
+            <div class="item-header services">
+              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+            </div>
+            <span class="text">Qualitätsmanagement</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Übergreifende Dienste" data-hits="15" style="position: absolute; left: 0px; top: 440px;">
+          <a href="#">
+            <div class="item-header services">
+              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+            </div>
+            <span class="text">Hochschulkooperationen</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Übergreifende Dienste" data-hits="16" style="position: absolute; left: 666px; top: 330px;">
+          <a href="#">
+            <div class="item-header services">
+              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+            </div>
+            <span class="text">Datenschutz</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Forschung" data-hits="29" style="position: absolute; left: 0px; top: 110px;">
+          <a href="#">
+            <div class="item-header research">
+              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+            </div>
+            <span class="text">Drittmittelanzeige</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Forschung" data-hits="21" style="position: absolute; left: 666px; top: 220px;">
+          <a href="#">
+            <div class="item-header research">
+              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+            </div>
+            <span class="text">Personal</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Forschung" data-hits="19" style="position: absolute; left: 888px; top: 220px;">
+          <a href="#">
+            <div class="item-header research">
+              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+            </div>
+            <span class="text">Athene Forschung</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Forschung" data-hits="13" style="position: absolute; left: 222px; top: 550px;">
+          <a href="#">
+            <div class="item-header research">
+              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+            </div>
+            <span class="text">Ombudsperson</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Studium" data-hits="18" style="position: absolute; left: 0px; top: 330px;">
+          <a href="#">
+            <div class="item-header studies">
+              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <span class="text">HISinOne</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Studium" data-hits="17" style="position: absolute; left: 444px; top: 330px;">
+          <a href="#">
+            <div class="item-header studies">
+              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <span class="text">Prüfungsamt</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Studium" data-hits="11" style="position: absolute; left: 888px; top: 550px;">
+          <a href="#">
+            <div class="item-header studies">
+              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <span class="text">Modulhandbücher</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Studium" data-hits="12" style="position: absolute; left: 444px; top: 550px;">
+          <a href="#">
+            <div class="item-header studies">
+              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <span class="text">Termine</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Studium" data-hits="12" style="position: absolute; left: 666px; top: 550px;">
+          <a href="#">
+            <div class="item-header studies">
+              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <span class="text">Studiengänge</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Studium" data-hits="25" style="position: absolute; left: 666px; top: 110px;">
+          <a href="#">
+            <div class="item-header studies">
+              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+            </div>
+            <span class="text">Praktika</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="24" style="position: absolute; left: 0px; top: 220px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Krankmeldung</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="70" style="position: absolute; left: 0px; top: 0px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Dienstreiseantrag</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="3" style="position: absolute; left: 666px; top: 770px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Arbeitsvertrag</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="4" style="position: absolute; left: 444px; top: 770px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Jobbörse</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="40" style="position: absolute; left: 666px; top: 0px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Urlaubsantrag</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="60" style="position: absolute; left: 222px; top: 0px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Telefonverzeichnis</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="29" style="position: absolute; left: 222px; top: 110px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Zeiterfassung</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="25" style="position: absolute; left: 888px; top: 110px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Verträge</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="30" style="position: absolute; left: 888px; top: 0px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">SHK-Anträge</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personal" data-hits="11" style="position: absolute; left: 0px; top: 660px;">
+          <a href="#">
+            <div class="item-header personel">
+              <i class="pull-right fa fa-users" aria-hidden="true"></i>
+            </div>
+            <span class="text">Ansprechpartner</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="IT-Dienste" data-hits="5" style="position: absolute; left: 222px; top: 770px;">
+          <a href="#">
+            <div class="item-header it">
+              <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <span class="text">Drucken</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="IT-Dienste" data-hits="6" style="position: absolute; left: 0px; top: 770px;">
+          <a href="#">
+            <div class="item-header it">
+              <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <span class="text">Cloud</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="IT-Dienste" data-hits="1" style="position: absolute; left: 0px; top: 880px;">
+          <a href="#">
+            <div class="item-header it">
+              <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <span class="text">Benutzerkonto</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="IT-Dienste" data-hits="2" style="position: absolute; left: 888px; top: 770px;">
+          <a href="#">
+            <div class="item-header it">
+              <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <span class="text">Web-Mail</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="IT-Dienste" data-hits="7" style="position: absolute; left: 888px; top: 660px;">
+          <a href="#">
+            <div class="item-header it">
+              <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <span class="text">Software</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="IT-Dienste" data-hits="16" style="position: absolute; left: 888px; top: 330px;">
+          <a href="#">
+            <div class="item-header it">
+              <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <span class="text">Nutzerverwaltung</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="IT-Dienste" data-hits="18" style="position: absolute; left: 222px; top: 330px;">
+          <a href="#">
+            <div class="item-header it">
+              <i class="pull-right fa fa-laptop" aria-hidden="true"></i>
+            </div>
+            <span class="text">ZPM</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Für die Seele" data-hits="8" style="position: absolute; left: 666px; top: 660px;">
+          <a href="#">
+            <div class="item-header soul">
+              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+            </div>
+            <span class="text">Psychologische Beratung</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Für die Seele" data-hits="9" style="position: absolute; left: 444px; top: 660px;">
+          <a href="#">
+            <div class="item-header soul">
+              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+            </div>
+            <span class="text">Betriebsarzt</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Für die Seele" data-hits="14" style="position: absolute; left: 444px; top: 440px;">
+          <a href="#">
+            <div class="item-header soul">
+              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+            </div>
+            <span class="text">Zahnarzt</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Für die Seele" data-hits="10" style="position: absolute; left: 222px; top: 660px;">
+          <a href="#">
+            <div class="item-header soul">
+              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+            </div>
+            <span class="text">Kirche</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Für die Seele" data-hits="26" style="position: absolute; left: 444px; top: 110px;">
+          <a href="#">
+            <div class="item-header soul">
+              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+            </div>
+            <span class="text">Gesundheitsmanagement</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personen" data-hits="14" style="position: absolute; left: 666px; top: 440px;">
+          <a href="#">
+            <div class="item-header people">
+              <i class="pull-right fa fa-user" aria-hidden="true"></i>
+            </div>
+            <span class="text">Bernhard Hirsch</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personen" data-hits="14" style="position: absolute; left: 888px; top: 440px;">
+          <a href="#">
+            <div class="item-header people">
+              <i class="pull-right fa fa-user" aria-hidden="true"></i>
+            </div>
+            <span class="text">Gabi Dreo Rodosek</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Personen" data-hits="14" style="position: absolute; left: 0px; top: 550px;">
+          <a href="#">
+            <div class="item-header people">
+              <i class="pull-right fa fa-user" aria-hidden="true"></i>
+            </div>
+            <span class="text">Stefan Josten</span>
+          </a>
+        </div>
+        <div class="grid-item" data-category="Verpflegung" data-hits="50" style="position: absolute; left: 444px; top: 0px;">
+          <a href="#">
+            <div class="item-header lunch">
+              <i class="pull-right fa fa-user" aria-hidden="true"></i>
+            </div>
+            <span class="text">Speiseplan Mensa</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
