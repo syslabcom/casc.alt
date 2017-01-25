@@ -1,14 +1,30 @@
-<div class="carousel slide" data-ride="carousel"> 
-  <!-- Indicators -->
-  <ol class='carousel-indicators'>
-    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    {% include events-listing.html %}
+<section class="events-slider">
+  <div class="container">
+    <div class="row">
+      {% for item in (1..10) %}
+      <div class="owl-carousel-3col">
+        <div class="item schedule-box maxwidth500 bg-light mb-30">
+          <div class="thumb">
+            <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
+            <div class="overlay">
+              <a href="#"><i class="fa fa-calendar mr-5"></i></a>
+            </div>
+          </div>
+          <div class="schedule-details clearfix p-15 pt-10">
+            <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
+            <ul class="list-inline font-11 mb-20">
+              <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
+              <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
+            <div class="mt-10">
+              <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
+              <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  <!-- Controls --> 
-  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> 
-  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a> 
-</div>
+</section>
