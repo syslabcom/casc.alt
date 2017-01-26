@@ -15,6 +15,9 @@
     font-family: theserif;
     src: url('/css/fonts/TheSerif_cls_3_.woff') format('woff');
 }
+body {
+    font-size: 16px;
+}
 .font-thesans {
   font-family: 'thesans', sans-serif;
 }
@@ -22,8 +25,8 @@
   font-family: 'theserif', serif;
 }
 
-a {    color: #337ab7;}
-
+/*a {    color: #337ab7;}
+*/
 .bg-blue  {
     background-color: #07A0F7 !important;
 }
