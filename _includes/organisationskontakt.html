@@ -8,9 +8,26 @@
           {% include single_inline_person.html person="andrea_hoffmann" %}          
         </div>
         <div class="col-md-5">
-          <img alt="" src="/media/campusplan-wow-large.png" class="img-responsive img-fullwidth">
+          <img id="zoom" alt="" src="/media/campusplan-wow-large.png" class="img-responsive img-fullwidth">
         </div>
       </div>
     </div>
   </div>
+  <script src="/js/jquery.elevatezoom.js"></script>
+  <script src="/js/jquery.elevateZoom-3.0.8.min.js"></script>
+  <script>
+    jQuery(function($) {
+
+        if ( $(window).width() >= 1200 ) {
+
+            $("#zoom").elevateZoom({
+                zoomType: "lens",
+                lensShape: "round",
+                lensSize: 200
+            });
+        }
+
+    });
+
+  </script>
 </section>
