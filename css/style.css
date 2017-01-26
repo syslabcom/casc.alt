@@ -363,16 +363,71 @@ body.category-antrag .main-content #overview {
   padding: 15px;
 }
 
+#intranet-search input[type=checkbox] {
+  margin-left: -60px;
+}
+
 .grid-sizer {
-    width: 212px;
-    height: 100px;
+  width: 212px;
+  height: 100px;
 }
 
 .search-results .grid-item {
-    width: 212px;
-    height: 100px;
-    background-color: #f5f5f5;;
-    margin-bottom: 10px;
+  width: 212px;
+  height: 100px;
+  background-color: #f5f5f5;;
+  margin-bottom: 10px;
+}
+
+.color-marker {
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 15px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 7px 6px;
+}
+
+.color-marker.services {
+  background-color: #16A085;
+}
+
+.color-marker.research {
+  background-color: #2980B9;
+  padding-left: 8px;
+}
+
+.color-marker.studies {
+  background-color: #8E44AD;
+  padding-left: 5px;
+}
+
+.color-marker.personel {
+  background-color: #006B2D;
+}
+
+.color-marker.it {
+  background-color: #2C3E50;
+}
+
+.color-marker.soul {
+  background-color: #4C348C;
+}
+
+.color-marker.people {
+  background-color: #898E92;
+  padding-left: 8px;
+}
+
+.color-marker.lunch {
+  background-color: #C00D0E;
+  padding-left: 9px;
+}
+
+.color-marker.learning {
+  background-color: #2C2D2E;
 }
 
 .search-results .grid-item {
