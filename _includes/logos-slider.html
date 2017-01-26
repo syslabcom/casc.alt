@@ -1,7 +1,7 @@
 <section class="logos-slider">
   <div class="container">
     <div class="row">
-      <div class="owl-carousel-3col">
+      <div id="logo-carousel" class="owl-carousel owl-carousel-3col">
         <div class="item">
           <img class="logo" src="/media/logos/events_logo_1.jpeg">
         </div>
@@ -30,6 +30,29 @@
           <img class="logo" src="/media/logos/events_logo_9.jpeg">
         </div>
       </div>
+      <script>
+      $('#logo-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        autoplay:true,
+        nav:true,
+        navText: [
+            'XX',
+            'XX'
+        ],
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+    </script>
     </div>
   </div>
   <script>
