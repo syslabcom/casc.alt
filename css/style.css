@@ -35,8 +35,8 @@ body {
 .unibworange-background { background-color: #ff6600; }
 .unibworange-border { border-color: #ff6600; }
 
-.background-light-gray { background-color: #eee; }
-.background-gray { background-color: #aaa; }
+.background-light-gray, .silver-light { background-color: #eee; }
+.background-gray, .silver { background-color: #aaa; }
 .background-dark-gray { background-color: #666; }
 
 .scheme-light-gray { background-color: #eee !important; color: #333 !important; }
