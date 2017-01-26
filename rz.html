@@ -8,17 +8,10 @@ hero_overline: Das Rechenzentrum, der zentrale IT-Dienstleister auf dem Campus d
 department: Rechenzentrum
 ---
 
-
-{% include news.html %}
+{% include news.html title="Aktuelles aus dem Rechenzentrum" %}
 
 {% include news-teaser-img-right.html image="/media/rz/exchange.jpg" %}
 
+{% include status-grid.html title="Bitte beachten" color_scheme="light-gray" %}
 
-{% include team-2.html %}
-
-{% include events-slider.html %}
-
-{% include video.html video="https://en.syslab.com/download/RZ-Drone-Video.mp4" preview="/media/video/rz.png" %}
-
-{% include accordion-img.html title="Betriebsordnung und Regelungen" color_scheme="light-gray" %}
-
+{% include search-grid.html title="Status Störung/Wartung" %}
