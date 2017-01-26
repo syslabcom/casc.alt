@@ -1,0 +1,50 @@
+<div class="container">
+      <div class="row border-bottom">
+        <div class="col-sm-6 col-md-6">
+          <div class="widget dark text-white">
+            <img class="mt-5 mb-20" alt="" src="/media/rz/rz-logo.png">
+            <p>Die Geschäftsräume von casc befinden sich im Präsidialbereich der Universität der Bundeswehr München in Gebäude 38, Erdgeschoss.</p>
+            <p>Kontaktieren Sie uns:</p>
+            <ul class="list-inline mt-5">
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-color-2 mr-5"></i> <a class="text-white" href="#">+49 89 6004-4530</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope-o text-theme-color-2 mr-5"></i> <a class="text-white" href="mailto:info@casc.de">info@casc.de</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-color-2 mr-5"></i> <a class="text-white" href="https://www.unibw.de/praes/universitaet/kontakt">Ihr Weg zu uns…</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6">
+          <div class="widget dark text-white">
+            <h4 class="widget-title">Programme</h4>
+            <ul class="list angle-double-right list-border">
+            {% assign footeritems = site.posts | where:"footer","Programme" | sort: 'title' %}
+            {% for item in footeritems %}
+              <li><a class="text-white" href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <!-- <div class="col-sm-6 col-md-3">
+          <div class="widget dark">
+            <h4 class="widget-title">Service</h4>
+            <ul class="list angle-double-right list-border">
+            {% assign footeritems = site.posts | where:"footer","Service" | sort: 'title' %}
+            {% for item in footeritems %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="widget dark">
+            <h4 class="widget-title">Institut</h4>
+            <ul class="list angle-double-right list-border">
+            {% assign footeritems = site.posts | where:"footer","Institut" | sort: 'title' %}
+            {% for item in footeritems %}
+              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+            {% endfor %}
+            </ul>
+          </div>
+        </div> -->
+      </div>
+    </div>
+    {% include global_footer.html %}
