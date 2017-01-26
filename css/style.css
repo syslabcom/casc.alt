@@ -354,4 +354,89 @@ body.category-antrag .main-content #overview {
   margin-bottom: 10px;
   padding: 15px;
 }
+
+.grid-sizer {
+    width: 212px;
+    height: 100px;
+}
+
+.search-results .grid-item {
+    width: 212px;
+    height: 100px;
+    background-color: #f5f5f5;;
+    margin-bottom: 10px;
+}
+
+.search-results .grid-item {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.search-results .grid-item .item-header {
+  color: #fff;
+  height: 30px;
+  padding: 5px 10px;
+}
+
+#intranet-search {
+  padding: 0;
+}
+
+.row.search-form {
+  margin: 50px 0;
+  padding: 0 20px;
+}
+
+.row.search-results {
+  margin: 50px auto;
+}
+
+.search-results .grid-item .item-header.services {
+  background-color: #16a085;
+}
+
+.search-results .grid-item .item-header.research {
+  background-color: #2980b9;
+}
+
+.search-results .grid-item .item-header.studies {
+  background-color: #8e44ad;
+}
+
+.search-results .grid-item .item-header.personel {
+  background-color: #006b2d;
+}
+
+.search-results .grid-item .item-header.it {
+  background-color: #2c3e50;
+}
+
+.search-results .grid-item .item-header.soul {
+  background-color: #4c348c;
+}
+
+.search-results .grid-item .item-header.people {
+  background-color: #898e92;
+}
+
+.search-results .grid-item .item-header.lunch {
+  background-color: #c00d0e;
+}
+
+.search-results .grid-item .item-header.learning {
+  background-color: #2c2d2e;
+}
+
+.search-results .grid-item .text {
+  display: block;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 0 10px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
 /* end 'orangehills' theme */
