@@ -27,7 +27,15 @@ body {
 .font-theserif {
   font-family: 'theserif', serif;
 }
-
+#breadcrumbs .breadcrumb {
+    color: black; 
+    font-size:16px;
+    font-weight: bold;
+}
+#breadcrumbs .breadcrumb > li + li::before {
+    content: "/";
+    font-size:16px;    
+}
 /*a {    color: #337ab7;}
 */
 /* Color schemes */

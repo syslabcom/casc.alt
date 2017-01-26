@@ -50,3 +50,20 @@
   </section>
 
 {% endif %}
+
+<section id="breadcrumbs">
+  <div class="container mt-0 pt-0 mb-0 pb-0">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            {% for item in page.breadcrumbs %}
+              <li><a href="#" class="{% if forloop.last == true %}active text-gray-silver{% endif %}">{{item}}</a></li>
+            {% endfor %}
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
