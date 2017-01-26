@@ -51,6 +51,7 @@ body {
 .scheme-red { background-color: #FF0000 !important; color: white !important; }
 .scheme-purple { background-color: #720CE8 !important; color: white !important; }
 .scheme-blue,
+.scheme-blue h2,
 .scheme-blue h3,
 .scheme-blue h4,
 .scheme-blue a,
