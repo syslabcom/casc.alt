@@ -50,7 +50,12 @@ body {
 .scheme-orange { background-color: #FFFA08 !important; color: white !important; }
 .scheme-red { background-color: #FF0000 !important; color: white !important; }
 .scheme-purple { background-color: #720CE8 !important; color: white !important; }
-.scheme-blue { background-color: #07A0F7 !important; color: white !important; }
+.scheme-blue,
+.scheme-blue h3,
+.scheme-blue h4,
+.scheme-blue a,
+.scheme-blue p
+{ background-color: #07A0F7 !important; color: white !important; }
 
 #header {
     background-color: #fff;
