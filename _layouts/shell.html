@@ -108,7 +108,11 @@
 
   <!-- Footer -->
   <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="">
-    {% include footer.html %}
+        {% if page.department == 'Rechenzentrum' %}
+          {% include footer-rz.html %}
+        {% else %}
+          {% include footer.html %}
+        {% endif %}
   </footer>
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
