@@ -1,0 +1,27 @@
+---
+layout: generic
+---
+
+<section>
+  <div class="container mt-30 mb-30 pt-30 pb-30">
+    <div class="row">
+      <div class="col-md-9">
+        <article class="post clearfix mb-0">
+          <h2><a class="text-uppercase" href="#">{{page.title}}</a></h2>
+          <p class="font-20 description">
+             {{ page.description }}
+          </p>
+
+          {{ content | markdownify}}
+
+        </article>
+      </div>
+          
+      <div class="col-md-3">
+        <div class="sidebar sidebar-right mt-sm-30">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
