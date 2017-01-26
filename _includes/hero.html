@@ -1,17 +1,27 @@
 {% if page.hero_image %}
+
+{% if page.color_scheme %}
+  {% assign colorscheme = page.color_scheme %}
+{% else %}
+  {% assign colorscheme = 'gray' %}
+{% endif %}
+
 <section id="hero" 
-         class="inner-header divider gradient " data-bg-img="{{ page.hero_image }}" style="background-image: url({{ page.hero_image }}); ">
-  
-  <div class="marker text-white bg-blue hidden-sm hidden-xs">
-        <span>WOW</span>
+         class="inner-header divider gradient " 
+         data-bg-img="{{ page.hero_image }}" 
+         style="background-image: url({{ page.hero_image }}); ">
+  {% if page.section %}
+  <div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
+        <span>{{page.section}}</span>
     </div>
+  {% endif %}
   <div class="container pt-70 pb-20">
     <!-- Section Content -->
     <div class="section-content">
       <div class="row">
         <div class="col-md-12 mt-180">
-          {% if page.hero_overline %}<small class="bg-blue text-white">{{ page.hero_overline }}</small><br>{% endif %}
-          <h2 class="title font-theserif bg-blue text-white">{{ page.hero_title }}</h2>
+          {% if page.hero_overline %}<small class="scheme-{{colorscheme}}">{{ page.hero_overline }}</small><br>{% endif %}
+          <h2 class="title font-theserif scheme-{{ colorscheme }}">{{ page.hero_title }}</h2>
         </div>
       </div>
     </div>

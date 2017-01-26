@@ -27,9 +27,14 @@ body {
 
 /*a {    color: #337ab7;}
 */
-.bg-blue  {
-    background-color: #07A0F7 !important;
-}
+/* Color schemes */
+.scheme-gray { background-color: #666 !important; color: white !important; }
+.scheme-yellow { background-color: #FFFA08 !important; color: black !important; }
+.scheme-orange { background-color: #FFFA08 !important; color: white !important; }
+.scheme-red { background-color: #FF0000 !important; color: white !important; }
+.scheme-purple { background-color: #720CE8 !important; color: white !important; }
+.scheme-blue { background-color: #0D9DFF !important; color: white !important; }
+
 #header {
     background-color: #fff;
     color: #6A686F;
@@ -194,11 +199,11 @@ section.gradient:after {
     height: 100%;
 }
 #hero .marker span {
-    transform: rotate(-90deg);
-    transform-origin: left top 0;
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
     display: block;
     position: absolute;
-    top: 55%;
+    top: 50%;
+    left: 50%;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
     font-size: 26px;
