@@ -145,6 +145,16 @@ nav ul li a#faculty {
     height: 36px;
     background-image: url('/media/logos/casc.png');
 }
+nav ul li a#faculty-rz {
+    color: transparent;
+    border-radius: 0;
+    width: 100px;
+    height: 36px;
+    background-image: url('/media/rz/rz-logo.png');
+    background-size: 100%;
+
+}
+
 .menuzord-menu > li  {
     padding: 2px 0;
 }
