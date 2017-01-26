@@ -357,6 +357,24 @@ body.category-antrag .main-content #overview {
   color: #fff;
 }
 
+.owl-carousel .owl-item img.icon-md,
+.icon-md {
+  font-size: 36px;
+  height: 68px;
+  width: 68px;
+  line-height: 68px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  -webkit-transition: 500ms;
+  -moz-transition: 500ms;
+  -o-transition: 500ms;
+  transition: 500ms;
+}
+
 .owl-carousel .owl-item img.icon-lg,
 .icon-lg {
   background-color: rgba(0, 0, 0, 0.4);
