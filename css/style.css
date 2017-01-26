@@ -365,6 +365,14 @@ body.category-antrag .main-content #overview {
   color: #fff;
 }
 
+.owl-carousel .owl-controls .owl-next {
+  right: -40px;
+}
+
+.owl-carousel .owl-controls .owl-prev {
+  left: -40px;
+}
+
 .owl-carousel .owl-item img.icon-md,
 .icon-md {
   font-size: 36px;
