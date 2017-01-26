@@ -18,6 +18,9 @@
 body {
     font-size: 16px;
 }
+.list-icon li {
+    font-size: 16px;    
+}
 .font-thesans {
   font-family: 'thesans', sans-serif;
 }
@@ -28,8 +31,14 @@ body {
 /*a {    color: #337ab7;}
 */
 /* Color schemes */
-.light-gray-background { background-color: #eee; }
-.scheme-gray { background-color: #666 !important; color: white !important; }
+.background-light-gray { background-color: #eee; }
+.background-gray { background-color: #aaa; }
+.background-dark-gray { background-color: #666; }
+
+.scheme-light-gray { background-color: #eee !important; color: #333 !important; }
+.scheme-gray { background-color: #bbb !important; color: black !important; }
+.scheme-dark-gray { background-color: #666 !important; color: white !important; }
+
 .scheme-yellow { background-color: #FFFA08 !important; color: black !important; }
 .scheme-orange { background-color: #FFFA08 !important; color: white !important; }
 .scheme-red { background-color: #FF0000 !important; color: white !important; }
@@ -321,6 +330,18 @@ body.category-antrag .main-content #overview {
     background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
 }
 
+#studies-info .box {
+    margin-top: -70px;
+    background-color: #666666;
+    color: #fff;
+    border-radius: 0px 0px 20px 20px;
+    padding: 10px 0px 20px 30px;
+}
+#studies-info .box a,
+#studies-info .box a i,
+#studies-info .box h3 {
+    color: white;
+}
 
 /* start 'orangehills' theme */
 .emerald {
