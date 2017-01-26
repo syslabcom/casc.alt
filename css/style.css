@@ -154,9 +154,15 @@ nav ul li a#faculty-rz {
     background-size: 100%;
 
 }
-
+.menuzord-menu ul.dropdown {
+    top: 50px;
+}
+.menuzord-menu ul.dropdown li a {
+    padding: 5px 25px 5px 22px;
+    font-size: 16px;
+}
 .menuzord-menu > li  {
-    padding: 2px 0;
+    padding: 4px 0;
 }
 .menuzord-menu > li > a {
     color: black;
