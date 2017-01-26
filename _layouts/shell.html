@@ -84,6 +84,9 @@
         <div class="container">
         {% if page.department == 'Rechenzentrum' %}
           {% include navigation-rz.html  %}
+        {% elsif page.department == 'UniBwM' %}
+          {% include navigation-unibwm.html  %}
+
         {% else %}
           {% include navigation.html  %}
         {% endif %}
@@ -108,11 +111,15 @@
 
   <!-- Footer -->
   <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="">
+{{ page.department }}
         {% if page.department == 'Rechenzentrum' %}
           {% include footer-rz.html %}
+        {% elsif page.department == 'UniBwM' %}
+         <!-- no footer -->
         {% else %}
           {% include footer.html %}
         {% endif %}
+        {% include global_footer.html %}
   </footer>
   <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
