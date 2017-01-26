@@ -357,6 +357,7 @@ body.category-antrag .main-content #overview {
   color: #fff;
 }
 
+.owl-carousel .owl-item img.icon-lg,
 .icon-lg {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 100%;
