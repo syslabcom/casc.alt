@@ -28,6 +28,7 @@ body {
 /*a {    color: #337ab7;}
 */
 /* Color schemes */
+.light-gray-background { background-color: #eee; }
 .scheme-gray { background-color: #666 !important; color: white !important; }
 .scheme-yellow { background-color: #FFFA08 !important; color: black !important; }
 .scheme-orange { background-color: #FFFA08 !important; color: white !important; }
@@ -132,9 +133,11 @@ nav ul li a#faculty {
 section.inner-header {
     height: 400px;
 }
+section.inner-header.no-hero {
+    height: 220px;
+}
 section.inner-header .title {
-    /*text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);*/
-    font-size: 32px;
+    font-size: 36px;
 }
 section.inner-header small {
     font-size: 18px;
