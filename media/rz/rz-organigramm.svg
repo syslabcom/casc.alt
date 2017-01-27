@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generiert durch Microsoft Visio, SVG Export RZ-Organigramm.svg Page-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="16.5354in" height="11.6929in"
+		viewBox="0 0 1190.55 841.89" xml:space="preserve" color-interpolation-filters="sRGB" class="st10">
+	<v:documentProperties v:langID="1031" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvSubprocessMaster" v:prompt="" v:val="VT4(Rectangle)"/>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(1):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#bfbfbf;stroke-width:1}
+		.st2 {fill:#000000;font-family:Calibri;font-size:0.916672em}
+		.st3 {fill:#a5a5a5;stroke:#bfbfbf;stroke-width:0.25}
+		.st4 {fill:#feffff;font-family:Calibri;font-size:1.00001em;letter-spacing:0.0166665em}
+		.st5 {fill:#ffffff;stroke:#dd6a0f;stroke-width:1}
+		.st6 {font-size:1em}
+		.st7 {fill:#002e5b;stroke:#002e5b;stroke-width:0.25}
+		.st8 {fill:#dd6a0f;stroke:#dd6a0f;stroke-width:0.25}
+		.st9 {stroke:#7f7f7f;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.25}
+		.st10 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<v:userDefs>
+			<v:ud v:nameU="msvThemeOrder" v:val="VT0(0):26"/>
+		</v:userDefs>
+		<title>Zeichenblatt-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(276.378,-680.315)">
+			<title>Rechteck.1</title>
+			<desc>Gabriele Becker</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Gabriele Becker</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(276.378,-708.661)">
+			<title>Rechteck.2</title>
+			<desc>Geschäftszimmer</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st3"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>Geschäftszimmer</text>		</g>
+		<g id="shape5-7" v:mID="5" v:groupContext="shape" transform="translate(453.543,-680.315)">
+			<title>Rechteck</title>
+			<desc>abpl. Prof. Dr. Stefan Schwarz</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="77.9528" cy="806.457" width="155.91" height="70.8661"/>
+			<rect x="0" y="771.024" width="155.906" height="70.8661" class="st5"/>
+			<text x="12.5" y="817.26" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>abpl. Prof. Dr.<v:newlineChar/><tspan
+						x="12.5" dy="1.5em" class="st6">Stefan Schwarz</tspan></text>		</g>
+		<g id="shape6-11" v:mID="6" v:groupContext="shape" transform="translate(453.543,-722.835)">
+			<title>Rechteck.2</title>
+			<desc>RZ Leitung</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="74.4094" cy="831.327" width="148.82" height="21.125"/>
+			<rect x="0" y="820.765" width="148.819" height="21.125" class="st7"/>
+			<text x="12.5" y="834.93" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>RZ Leitung</text>		</g>
+		<g id="shape9-14" v:mID="9" v:groupContext="shape" transform="translate(637.795,-680.315)">
+			<title>Rechteck.9</title>
+			<desc>Winfried Thalmeier</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Winfried Thalmeier</text>		</g>
+		<g id="shape10-17" v:mID="10" v:groupContext="shape" transform="translate(637.795,-708.661)">
+			<title>Rectangle.2</title>
+			<desc>IT-Sicherheit</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>IT-Sicherheit</text>		</g>
+		<g id="shape11-20" v:mID="11" v:groupContext="shape" transform="translate(127.559,-574.016)">
+			<title>Rechteck.11</title>
+			<desc>Monika Koch</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Monika Koch</text>		</g>
+		<g id="shape12-23" v:mID="12" v:groupContext="shape" transform="translate(127.559,-602.362)">
+			<title>Rectangle.12</title>
+			<desc>ServiceDesk / Anwend.</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>ServiceDesk / Anwend.</text>		</g>
+		<g id="shape13-26" v:mID="13" v:groupContext="shape" transform="translate(510.236,-496.063)">
+			<title>Rechteck.13</title>
+			<desc>Alexander Probst</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Alexander Probst</text>		</g>
+		<g id="shape14-29" v:mID="14" v:groupContext="shape" transform="translate(510.236,-524.409)">
+			<title>Rectangle.14</title>
+			<desc>Campus-Management</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>Campus-Management</text>		</g>
+		<g id="shape15-32" v:mID="15" v:groupContext="shape" transform="translate(304.724,-574.016)">
+			<title>Rechteck.15</title>
+			<desc>Manfred Neumann</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Manfred Neumann</text>		</g>
+		<g id="shape16-35" v:mID="16" v:groupContext="shape" transform="translate(304.724,-602.362)">
+			<title>Rectangle.16</title>
+			<desc>Zentralsysteme</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>Zentralsysteme</text>		</g>
+		<g id="shape17-38" v:mID="17" v:groupContext="shape" transform="translate(481.89,-574.016)">
+			<title>Rechteck.17</title>
+			<desc>Ludwig Bayer</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Ludwig Bayer</text>		</g>
+		<g id="shape18-41" v:mID="18" v:groupContext="shape" transform="translate(481.89,-602.362)">
+			<title>Rectangle.18</title>
+			<desc>Netzdienste</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>Netzdienste</text>		</g>
+		<g id="shape19-44" v:mID="19" v:groupContext="shape" transform="translate(659.055,-574.016)">
+			<title>Rechteck.19</title>
+			<desc>Heinz Schillo</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Heinz Schillo</text>		</g>
+		<g id="shape20-47" v:mID="20" v:groupContext="shape" transform="translate(659.055,-602.362)">
+			<title>Rectangle.20</title>
+			<desc>Betriebstechnik</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>Betriebstechnik</text>		</g>
+		<g id="shape21-50" v:mID="21" v:groupContext="shape" transform="translate(836.22,-574.016)">
+			<title>Rechteck.21</title>
+			<desc>Richard Hartl</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Richard Hartl</text>		</g>
+		<g id="shape22-53" v:mID="22" v:groupContext="shape" transform="translate(836.22,-602.362)">
+			<title>Rectangle.22</title>
+			<desc>Drucken / Logistik</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>Drucken / Logistik</text>		</g>
+		<g id="shape23-56" v:mID="23" v:groupContext="shape" transform="translate(155.906,-496.063)">
+			<title>Rechteck.23</title>
+			<desc>Tobias Eiland</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Tobias Eiland</text>		</g>
+		<g id="shape24-59" v:mID="24" v:groupContext="shape" transform="translate(155.906,-524.409)">
+			<title>Rectangle.24</title>
+			<desc>IntranetBw</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>IntranetBw</text>		</g>
+		<g id="shape25-62" v:mID="25" v:groupContext="shape" transform="translate(333.071,-496.063)">
+			<title>Rechteck.25</title>
+			<desc>Stefan Iwan</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197" v:verticalAlign="2"/>
+			<v:textRect cx="74.4094" cy="813.543" width="148.82" height="56.6929"/>
+			<rect x="0" y="785.197" width="148.819" height="56.6929" class="st1"/>
+			<text x="12.5" y="833.76" class="st2" v:langID="1031"><v:paragraph v:indentLeft="8.5" v:spLine="-1.5"/><v:tabList/>Stefan Iwan</text>		</g>
+		<g id="shape26-65" v:mID="26" v:groupContext="shape" transform="translate(333.071,-524.409)">
+			<title>Rectangle.26</title>
+			<desc>Windows-Systeme</desc>
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:val="VT0(15):26"/>
+			</v:userDefs>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="70.8661" cy="831.372" width="141.74" height="21.0351"/>
+			<rect x="0" y="820.855" width="141.732" height="21.0351" class="st8"/>
+			<text x="12.5" y="834.97" class="st4" v:langID="1031"><v:paragraph v:indentLeft="8.5"/><v:tabList/>Windows-Systeme</text>		</g>
+		<g id="shape27-68" v:mID="27" v:groupContext="shape" transform="translate(425.197,-694.488)">
+			<title>Tabelle.27</title>
+			<path d="M0 841.89 L28.35 841.89" class="st9"/>
+		</g>
+		<g id="shape28-71" v:mID="28" v:groupContext="shape" transform="translate(609.449,-694.488)">
+			<title>Tabelle.28</title>
+			<path d="M0 841.89 L28.35 841.89" class="st9"/>
+		</g>
+		<g id="shape29-74" v:mID="29" v:groupContext="shape" transform="translate(1337.11,148.916) rotate(89.1385)">
+			<title>Tabelle.29</title>
+			<path d="M0 841.89 L49.61 841.89" class="st9"/>
+		</g>
+		<g id="shape30-77" v:mID="30" v:groupContext="shape" transform="translate(983.622,197.008) rotate(90)">
+			<title>Tabelle.30</title>
+			<path d="M0 841.89 L14.17 841.89" class="st9"/>
+		</g>
+		<g id="shape31-80" v:mID="31" v:groupContext="shape" transform="translate(1160.79,197.008) rotate(90)">
+			<title>Tabelle.31</title>
+			<path d="M0 841.89 L14.17 841.89" class="st9"/>
+		</g>
+		<g id="shape32-83" v:mID="32" v:groupContext="shape" transform="translate(1515.12,197.008) rotate(90)">
+			<title>Tabelle.32</title>
+			<path d="M0 841.89 L14.17 841.89" class="st9"/>
+		</g>
+		<g id="shape33-86" v:mID="33" v:groupContext="shape" transform="translate(1692.28,197.008) rotate(90)">
+			<title>Tabelle.33</title>
+			<path d="M0 841.89 L14.17 841.89" class="st9"/>
+		</g>
+		<g id="shape34-89" v:mID="34" v:groupContext="shape" transform="translate(141.732,-644.882)">
+			<title>Tabelle.34</title>
+			<path d="M0 841.89 L708.66 841.89" class="st9"/>
+		</g>
+		<g id="shape35-92" v:mID="35" v:groupContext="shape" transform="translate(1011.97,267.874) rotate(90)">
+			<title>Tabelle.35</title>
+			<path d="M0 841.89 L21.26 841.89" class="st9"/>
+		</g>
+		<g id="shape36-95" v:mID="36" v:groupContext="shape" transform="translate(1189.13,267.874) rotate(90)">
+			<title>Tabelle.36</title>
+			<path d="M0 841.89 L21.26 841.89" class="st9"/>
+		</g>
+		<g id="shape38-98" v:mID="38" v:groupContext="shape" transform="translate(1366.3,267.874) rotate(90)">
+			<title>Tabelle.38</title>
+			<path d="M0 841.89 L21.26 841.89" class="st9"/>
+		</g>
+	</g>
+</svg>
