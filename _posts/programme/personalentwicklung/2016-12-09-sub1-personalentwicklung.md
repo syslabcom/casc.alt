@@ -13,7 +13,7 @@ anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Manage
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
 contact_person: bettina__hermann_ma
-slider: show
+slider: casc
 ---
 
 

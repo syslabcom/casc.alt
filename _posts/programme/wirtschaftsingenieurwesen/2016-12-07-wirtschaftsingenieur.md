@@ -10,7 +10,7 @@ parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
-slider: show
+slider: casc
 ---
 
 Wirtschaftsingenieure arbeiten heute in vielfältigen Tätigkeitsfeldern an der Schnittstelle zwischen Technik und Wirtschaft. Der eigens für Feldwebel konzipierte Bachelor-Studiengang Wirtschaftsingenieurwesen ebnet nach der Dienstzeit in der Bundeswehr den Weg zu einem erfolgreichen Berufsstart als Wirtschaftsingenieur in der Industrie, der Wirtschaft oder im gehobenen technischen Dienst. 

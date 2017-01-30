@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Prof. Dr. Ralf Roloff
+title: "Prof. Dr. Ralf Roloff"
 name: ralf_roloff
 description: Program Director
 category: akademische_leitung

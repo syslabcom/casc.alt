@@ -1,7 +1,7 @@
 ---
 layout: bio
 position: Dekanat
-title: Frau Andrea Hoffmann
+title: "Frau Andrea Hoffmann"
 name: andrea_hoffmann
 description: Dekanat der Fakultät WOW
 category: 

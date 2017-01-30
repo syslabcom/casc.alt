@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Prof. Dr. habil. Sigrid Rotering-Steinberg
+title: "Prof. Dr. habil. Sigrid Rotering-Steinberg"
 name: sigrid-rotering
 description: Professur für Pädagogische Psychologie 
 category: akademische_leitung

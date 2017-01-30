@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Prof. Dr. Michael Eßig
+title: "Prof. Dr. Michael Eßig"
 name: michael_eßig
 description: Professor für Materialwirtschaft & Distribution
 category: akademische_leitung

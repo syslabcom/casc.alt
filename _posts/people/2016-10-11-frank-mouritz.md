@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Frank Mouritz M.A.
+title: "Frank Mouritz M.A."
 name: frank_mouritz
 description: Programmkoordinator MISS
 category: programmkoordination

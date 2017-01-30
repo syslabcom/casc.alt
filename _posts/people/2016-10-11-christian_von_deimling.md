@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Christian von Deimling
+title: "Christian von Deimling"
 name: christian_von_deimling
 description: Programmkoordination Wirtschafts- und Organisationswissenschaften 
 category: programmkoordination

@@ -1,69 +1,206 @@
-{% if page.color_scheme %}
-  {% assign colorscheme = page.color_scheme %}
-{% else %}
-  {% assign colorscheme = 'dark-gray' %}
-{% endif %}
+{% if page.slider_section %}
+<section id="home">
+  <div class="container-fluid p-0">
+        <!-- Slider Revolution Start -->
+        <div class="rev_slider_wrapper">
+          <div class="rev_slider" data-version="5.0">
+            <ul>
+            {% assign programme = site.posts | where:"slider", page.slider_section %}
+            {% for item in programme %}
+              <li data-index="rs-{{ forloop.index }}" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="{{ item.hero_image }}" data-rotate="0" data-saveperformance="off" data-title="{{ item.hero_title }}" data-description="">
+                <!-- MAIN IMAGE -->
+                <img src="{{ item.hero_image }}"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <!-- LAYERS -->
 
-{% if page.hero_image %}
-  <section id="hero" 
-           class="inner-header divider gradient" 
-           data-bg-img="{{ page.hero_image }}" 
-           style="background-image: url({{ page.hero_image }}); ">
-    {% if page.section %}
-    <div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
-          <span>{{page.section}}</span>
-      </div>
-    {% endif %}
-    <div class="container pt-70 pb-20">
-      <!-- Section Content -->
-      <div class="section-content">
-        <div class="row">
-          <div class="col-md-12 mt-200">
-            {% if page.hero_overline %}<small class="scheme-{{colorscheme}}">{{ page.hero_overline }}</small><br>{% endif %}
-            <h2 class="title font-theserif scheme-{{ colorscheme }}">{{ page.hero_title }}</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                <!-- LAYER NR. 1 -->
+                <div class="tp-caption tp-resizeme text-layer"
+                  id="rs-{{ forloop.index }}-layer-2"
+                  data-x="['left']"
+                  data-hoffset="['10']"
+                  data-y="['bottom']"
+                  data-voffset="['0']" 
+                  data-width="full"
+                  data-height="150px"
+                  data-basealign="grid"
+                  data-responsive_offset="on"
+                  ><a href="{{ item.url }}">
+                    <h2 class="text-white">{{ item.hero_title }}</h2>
+                    <p class="description font-20 text-white"> {{ item.hero_description }}</p></a>
+                </div>
 
-{% elsif page.hero_title %}
-
-  <section id="hero" 
-           class="inner-header no-hero divider background-light-gray">
-    {% if page.section %}
-    <div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
-          <span>{{page.section}}</span>
-      </div>
-    {% endif %}
-    <div class="container pt-70 pb-20">
-      <!-- Section Content -->
-      <div class="section-content">
-        <div class="row">
-          <div class="col-md-12 mt-20">
-            {% if page.hero_overline %}<small class="scheme-{{colorscheme}}">{{ page.hero_overline }}</small><br>{% endif %}
-            <h2 class="title font-theserif scheme-{{ colorscheme }}">{{ page.hero_title }}</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-{% endif %}
-
-<section id="breadcrumbs">
-  <div class="container mt-0 pt-0 mb-0 pb-0">
-    <div class="section-content">
-      <div class="row">
-        <div class="col-md-12">
-          <ol class="breadcrumb">
-            <li><a href="/">Home</a></li>
-            {% for item in page.breadcrumbs %}
-              <li><a href="#" class="{% if forloop.last == true %}active text-gray-silver{% endif %}">{{item}}</a></li>
+              </li>
             {% endfor %}
-          </ol>
+            </ul>
+          </div>
+          <!-- end .rev_slider -->
         </div>
-      </div>
-    </div>
+        <!-- end .rev_slider_wrapper -->
+        <script>
+          $(document).ready(function(e) {
+            $(".rev_slider").revolution({
+              sliderType:"standard",
+              sliderLayout: "auto",
+              dottedOverlay: "none",
+              delay: 50000,
+              navigation: {
+                  keyboardNavigation: "off",
+                  keyboard_direction: "horizontal",
+                  mouseScrollNavigation: "off",
+                  onHoverStop: "off",
+                  touch: {
+                      touchenabled: "on",
+                      swipe_threshold: 75,
+                      swipe_min_touches: 1,
+                      swipe_direction: "horizontal",
+                      drag_block_vertical: false
+                  },
+                arrows: {
+                  style:"zeus",
+                  enable:true,
+                  hide_onmobile:true,
+                  hide_under:600,
+                  hide_onleave:true,
+                  hide_delay:200,
+                  hide_delay_mobile:1200,
+                  tmp:'<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div> </div>',
+                  left: {
+                    h_align:"left",
+                    v_align:"center",
+                    h_offset:30,
+                    v_offset:0
+                  },
+                  right: {
+                    h_align:"right",
+                    v_align:"center",
+                    h_offset:30,
+                    v_offset:0
+                  }
+                },
+                bullets: {
+                  enable:true,
+                  hide_onmobile:true,
+                  hide_under:600,
+                  style:"metis",
+                  hide_onleave:true,
+                  hide_delay:200,
+                  hide_delay_mobile:1200,
+                  direction:"horizontal",
+                  h_align:"center",
+                  v_align:"bottom",
+                  h_offset:0,
+                  v_offset:30,
+                  space:5,
+                  tmp:'<span class="tp-bullet-img-wrap">  <span class="tp-bullet-image"></span></span><span class="tp-bullet-title">{{title}}</span>'
+                }
+              },
+              responsiveLevels: [1240, 1024, 778],
+              visibilityLevels: [1240, 1024, 778],
+              gridwidth: [1170, 1024, 778, 480],
+              gridheight: [500, 768, 960, 720],
+              lazyType: "none",
+              parallax: {
+                  origo: "slidercenter",
+                  speed: 1000,
+                  levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 100, 55],
+                  type: "scroll"
+              },
+              shadow: 0,
+              spinner: "off",
+              stopLoop: "on",
+              stopAfterLoops: 0,
+              stopAtSlide: -1,
+              shuffle: "off",
+              autoHeight: "off",
+              fullScreenAutoWidth: "off",
+              fullScreenAlignForce: "off",
+              fullScreenOffsetContainer: "",
+              fullScreenOffset: "0",
+              hideThumbsOnMobile: "off",
+              hideSliderAtLimit: 0,
+              hideCaptionAtLimit: 0,
+              hideAllCaptionAtLilmit: 0,
+              debugMode: false,
+              fallbacks: {
+                  simplifyAll: "off",
+                  nextSlideOnWindowFocus: "off",
+                  disableFocusListener: false,
+              }
+            });
+          });
+        </script>
+        <!-- Slider Revolution Ends -->
   </div>
 </section>
+{% else %}
+
+  {% if page.color_scheme %}
+    {% assign colorscheme = page.color_scheme %}
+  {% else %}
+    {% assign colorscheme = 'dark-gray' %}
+  {% endif %}
+
+  {% if page.hero_image %}
+    <section id="hero" 
+             class="inner-header divider gradient" 
+             data-bg-img="{{ page.hero_image }}" 
+             style="background-image: url({{ page.hero_image }}); ">
+      {% if page.section %}
+      <div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
+            <span>{{page.section}}</span>
+        </div>
+      {% endif %}
+      <div class="container pt-70 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 mt-200">
+              {% if page.hero_overline %}<small class="scheme-{{colorscheme}}">{{ page.hero_overline }}</small><br>{% endif %}
+              <h2 class="title font-theserif scheme-{{ colorscheme }}">{{ page.hero_title }}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  {% elsif page.hero_title %}
+
+    <section id="hero" 
+             class="inner-header no-hero divider background-light-gray">
+      {% if page.section %}
+      <div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
+            <span>{{page.section}}</span>
+        </div>
+      {% endif %}
+      <div class="container pt-70 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 mt-20">
+              {% if page.hero_overline %}<small class="scheme-{{colorscheme}}">{{ page.hero_overline }}</small><br>{% endif %}
+              <h2 class="title font-theserif scheme-{{ colorscheme }}">{{ page.hero_title }}</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  {% endif %}
+
+{% endif %}
+
+  <section id="breadcrumbs">
+    <div class="container mt-0 pt-0 mb-0 pb-0">
+      <div class="section-content">
+        <div class="row">
+          <div class="col-md-12">
+            <ol class="breadcrumb">
+              <li><a href="/">Home</a></li>
+              {% for item in page.breadcrumbs %}
+                <li><a href="#" class="{% if forloop.last == true %}active text-gray-silver{% endif %}">{{item}}</a></li>
+              {% endfor %}
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

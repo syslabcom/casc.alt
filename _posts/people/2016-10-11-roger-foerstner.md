@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Prof. Dr.-Ing. Roger Förstner
+title: "Prof. Dr.-Ing. Roger Förstner"
 name: kristin-paetzold
 description: Institut für Raumfahrttechnik & Weltraumnutzung, Fakultät für Luft- & Raumfahrttechnik 
 category: akademische_leitung

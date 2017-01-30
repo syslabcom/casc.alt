@@ -11,7 +11,7 @@ parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: dr_nicol_matzner_vogel
 footer: Programme
-slider: show
+slider: casc
 ---
 
 Als Offizier Management-Know-How erwerben - Bereiten Sie sich mit dem maßgeschneiderten MBA International Management optimal auf Ihre Karriere als Führungskraft vor.

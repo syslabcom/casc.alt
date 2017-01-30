@@ -1,7 +1,7 @@
 ---
 layout: bio
 position: Prodekan
-title: Prof. Dr. Bernhard Hirsch
+title: "Prof. Dr. Bernhard Hirsch"
 name: bernhard_hirsch
 description: Professor für Controlling
 category: akademische_leitung

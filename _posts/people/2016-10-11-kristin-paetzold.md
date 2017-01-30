@@ -1,6 +1,6 @@
 ---
 layout: bio
-title: Prof. Dr.-Ing. Kristin Paetzold
+title: "Prof. Dr.-Ing. Kristin Paetzold"
 name: kristin-paetzold
 description: Institut für Technische Produktentwicklung, Fakultät für Luft- & Raumfahrttechnik
 category: akademische_leitung

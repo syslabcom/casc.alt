@@ -1,7 +1,7 @@
 ---
 layout: bio
 position: Dekan
-title: Univ-Prof. Dr. Thomas Hartung
+title: "Univ-Prof. Dr. Thomas Hartung"
 name: thomas_hartung
 description: 
 category: 
