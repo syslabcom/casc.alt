@@ -86,7 +86,8 @@
           {% include navigation-rz.html  %}
         {% elsif page.department == 'UniBwM' %}
           {% include navigation-unibwm.html  %}
-
+        {% elsif page.department == 'home' %}
+          {% include navigation-home.html  %}
         {% else %}
           {% include navigation.html  %}
         {% endif %}
