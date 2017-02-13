@@ -103,8 +103,8 @@ layout: generic
         </div>
       </div>
 
-      <div class="col-md-3 scrolltofixed-container">
-        <div class="list-group scrolltofixed" >
+      <div class="col-md-3 ">
+        <div class="list-group " >
           <!-- no left slot required atm -->
           {% assign people = site.posts | where:"layout","bio" %}
           {% assign person = people | where:"name",page.contact_person %}
