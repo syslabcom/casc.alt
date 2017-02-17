@@ -1,0 +1,33 @@
+<section id="organisationskontakt" class="">
+  <div class="container pb-50">
+    <div class="section-content">
+      <div class="row"> 
+        <div class="col-md-7">
+          {% include single_inline_person.html person="geralt_siebert" %}
+          {% include single_inline_person.html person="thomas_apel" %}
+          {% include single_inline_person.html person="karin_baechle" %}          
+        </div>
+        <div class="col-md-5">
+          <img id="zoom" alt="" src="/media/campusplan-wow-large.png" class="img-responsive img-fullwidth">
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="/js/jquery.elevatezoom.js"></script>
+  <script src="/js/jquery.elevateZoom-3.0.8.min.js"></script>
+  <script>
+    jQuery(function($) {
+
+        if ( $(window).width() >= 1200 ) {
+
+            $("#zoom").elevateZoom({
+                zoomType: "lens",
+                lensShape: "round",
+                lensSize: 200
+            });
+        }
+
+    });
+
+  </script>
+</section>
