@@ -4,7 +4,7 @@ title: Prof. Dr.-Ing. Karl-Christian Thienel
 name: christian_thienel
 description: 
 category: 
-image: "/media/people/christian_von_deimling.jpg"
+image: "/media/people/karl-christian-thienel.jpg"
 parent: People
 phone: 
 email: 
