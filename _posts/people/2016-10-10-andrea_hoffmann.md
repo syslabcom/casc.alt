@@ -2,6 +2,8 @@
 layout: bio
 position: Dekanat
 title: "Frau Andrea Hoffmann"
+hero_overline: Dekanat der Fakultät WOW
+hero_title: Frau Andrea Hoffmann
 name: andrea_hoffmann
 description: Dekanat der Fakultät WOW
 category: 
@@ -13,5 +15,9 @@ secretary_phone: 089 6004-4229
 secretary_name: Anna Meyer
 program: 
 room: Gebäude 41/300, Zimmer 0304
+breadcrumbs:
+- INF
+- Lehrstuhl für Kommunikationssysteme und Netzsicherheit
+- Frau Andrea Hoffmann
 ---
 

@@ -2,6 +2,8 @@
 layout: bio
 position: Dekan
 title: "Univ-Prof. Dr. Thomas Hartung"
+hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
+hero_title: Univ-Prof. Dr. Thomas Hartung
 name: thomas_hartung
 description: 
 category: 
@@ -13,4 +15,8 @@ fax:  089 6004-4219
 secretary_phone: 089 6004-4229
 secretary_name: Anna Meyer
 room: Gebäude 41/300, Zimmer 0304
+breadcrumbs:
+- INF
+- Lehrstuhl für Kommunikationssysteme und Netzsicherheit
+- Univ-Prof. Dr. Thomas Hartung
 ---
