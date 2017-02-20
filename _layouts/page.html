@@ -7,10 +7,11 @@ layout: generic
     <div class="row">
       <div class="col-md-9">
         <article class="post clearfix mb-0">
-          <h2><a class="text-uppercase" href="#">{{page.title}}</a></h2>
-          <p class="font-20 description">
+          {% if page.title %}<h2><a class="text-uppercase" href="#">{{page.title}}</a></h2>{% endif %}
+          {% if page.description %}<p class="font-20 description">
              {{ page.description }}
           </p>
+          {% endif %}
 
           {{ content | markdownify}}
 
