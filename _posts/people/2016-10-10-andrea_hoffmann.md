@@ -1,17 +1,17 @@
 ---
 layout: bio
-position: Prodekan
-title: "Prof. Dr. Bernhard Hirsch"
-name: bernhard_hirsch
-description: Professor für Controlling
-category: akademische_leitung
-image: "/media/people/prof-hirsch.jpg"
+position: Dekanat
+title: "Frau Andrea Hoffmann"
+name: andrea_hoffmann
+description: Dekanat der Fakultät WOW
+category: 
+image: "/media/people/person.png"
 parent: People
-phone: 089 6004-4209
-email: bernhard.hirsch@unibw.de
-program: mba_public_management
+phone: 089 6004-4239
+email: dekan.wow@unibw.de
+secretary_phone: 089 6004-4229
+secretary_name: Anna Meyer
+program: 
+room: Gebäude 41/300, Zimmer 0304
 ---
 
-Universität der Bundeswehr München<br>
-Werner-Heisenberg-Weg 39<br>
-85577 Neubiberg

@@ -9,8 +9,8 @@ parent: People
 phone: +49 (0)89 6004 3571
 email: roger.foerstner@unibw.de
 program: systems_engineering
+fax:  089 6004-4219
+secretary_phone: 089 6004-4229
+secretary_name: Anna Meyer
+room: Gebäude 41/300, Zimmer 0304
 ---
-
-Universität der Bundeswehr München<br>
-Werner-Heisenberg-Weg 39<br>
-85577 Neubiberg<br>

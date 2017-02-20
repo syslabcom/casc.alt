@@ -9,9 +9,8 @@ parent: People
 phone:  +49 (0)89 / 6004 3160
 email:  sigrid.rotering-steinberg@unibw.de
 program: personalentwicklung
+fax:  089 6004-4219
+secretary_phone: 089 6004-4229
+secretary_name: Anna Meyer
+room: Gebäude 41/300, Zimmer 0304
 ---
-
-Gebäude 42, Raum 3<br>
-Universität der Bundeswehr München<br>
-Werner-Heisenberg-Weg 39<br>
-85577 Neubiberg

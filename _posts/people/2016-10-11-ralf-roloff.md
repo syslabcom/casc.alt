@@ -10,19 +10,11 @@ phone: +49 8821 750 2590
 fax: +49 8821 750 2688
 email: ralf.roloff@marshallcenter.org
 program: international_security_studies
+fax:  089 6004-4219
+secretary_phone: 089 6004-4229
+secretary_name: Anna Meyer
+room: Gebäude 41/300, Zimmer 0304
 ---
-
-Außerplanmäßiger Professor<br>
-Universität der Bundeswehr München<br>
-Institut für Politikwissenschaft<br>
-Werner-Heisenberg-Weg 39<br>
-D-85577 Neubiberg<br>
-<br>
-Senior German Professor and Director MISS<br>
-George C. Marshall European Center for Security Studies<br>
-College of International and Security Studies<br>
-Gernackerstraße 2<br>
-D-82467 Garmisch-Partenkirchen<br>
 
 
 

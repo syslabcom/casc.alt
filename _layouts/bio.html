@@ -2,123 +2,90 @@
 layout: generic
 ---
 
-<!-- Section: Experts Details -->
-<section>
+<section class="news">
   <div class="container">
-    <div class="section-content">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="thumb">
-            <img src="{{ page.image }}" alt="">
-          </div>
-        </div>
-        <div class="col-md-8">
-          <h4 class="name font-24 mt-0 mb-0">{{ page.title }}</h4>
-          <h5 class="mt-5 text-theme-color-2">{{ page.description }}</h5>
-          {{ content }}
-          <ul class="styled-icons icon-dark icon-theme-colored icon-sm mt-15 mb-0">
-           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-           <li><a href="#"><i class="fa fa-skype"></i></a></li>
-           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-         </ul>
+    <div class="row">
+
+      <img class="col-md-3 col-sm-5 img-responsive hidden-xs" src="{{ page.image }}">
+
+      <div class="col-md-5 col-md-offset-1 col-sm-offset-1 col-sm-5 img-xs">
+        <img class="img-responsive visible-xs" src="{{ page.image }}">
+
+        <div class="inst-wrapper">
+          <b>{{ page.position }}</b>
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <td><b><i class="fa fa-home" aria-hidden="true"></i></b></td>
+                <td>{{ page.room }}</td>
+              </tr>
+              <tr>
+                <td><b><i class="fa fa-phone" aria-hidden="true"></i></b></td>
+                <td>
+                  <a href="tel:{{ page.phone }}">{{ page.phone }}</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b><i class="fa fa-fax" aria-hidden="true"></i></b></td>
+                <td>
+                  <a href="tel:{{ page.fax }}">{{ page.fax }}</a>
+                </td>
+              </tr>
+              <tr>
+                <td><b><i class="fa fa-envelope" aria-hidden="true"></i></b></td>
+                <td><a href="mailto:{{ page.email }}">{{ page.email }}</a></td>
+              </tr>
+              <tr>
+                <td><b><i class="fa fa-user" aria-hidden="true"></i></b></td>
+                <td>Sekretariat: <a href="tel:{{ page.office_phone }}">{{ page.secretary_phone }}</a> ({{ page.secretary_name }})</td>
+              </tr>
+              <tr>
+                <td>
+                  <b><i class="fa fa-share-square-o" aria-hidden="true"></i></b>
+                </td>
+                <td>
+                  <a href="http://www.xing.de" class="social-link">
+                    <i class="fa fa-xing" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/" class="social-link">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                  </a>
+                  <a href="http://www.facebook.com" class="social-link">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+                  <a href="https://plus.google.com/" class="social-link">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                  </a>
+                  <a href="#" class="social-link">
+                    V-Card:
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
-      <div class="row mt-30">
-        <div class="col-md-4">
-          <h4 class="line-bottom">Über mich:</h4>
-          <div class="volunteer-address">
-            <ul>
-              <li>
-                <div class="bg-light media border-bottom p-15 mb-20">
-                  <div class="media-left">
-                    <i class="pe-7s-pen text-theme-colored font-24 mt-5"></i>
-                  </div>
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-0">Erfahrung:</h5>
-                    <p>Chemistry (BSc), Computer Science (BSc), English and Creative Writing (BA)</p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="bg-light media border-bottom p-15 mb-20">
-                  <div class="media-left">
-                    <i class="fa fa-map-marker text-theme-colored font-24 mt-5"></i>
-                  </div>
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-0">Adresse:</h5>
-                    <p> Universität der Bundeswehr München<br>
-                      Werner-Heisenberg-Weg 39<br>
-                      85577 Neubiberg
-                    </p>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <div class="bg-light media border-bottom p-15">
-                  <div class="media-left">
-                    <i class="fa fa-phone text-theme-colored font-24 mt-5"></i>
-                  </div>
-                  <div class="media-body">
-                    <h5 class="mt-0 mb-0">Kontakt:</h5>
-                    <p><span>Phone:</span> {{ page.phone }}<br><span>Email:</span> {{ page.email }}</p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <h4 class="line-bottom">Adresse finden:</h4>
 
-          <!-- Google Map HTML Codes -->
-          <div
-            data-address="121 King Street, Melbourne Victoria 3000 Australia"
-            data-popupstring-id="#popupstring1"
-            class="map-canvas autoload-map"
-            data-mapstyle="style1"
-            data-height="335"
-            data-latlng="22.798835,89.534401"
-            data-title="sample title"
-            data-zoom="14"
-            data-marker="/media/map-marker.png">
-          </div>
-          <div class="map-popupstring hidden" id="popupstring1">
-            <div class="text-center">
-              <h3>CharityFund Office</h3>
-              <p>121 King Street, Melbourne Victoria 3000 Australia</p>
-            </div>
-          </div>
-          <!-- Google Map Javascript Codes -->
-          <script src="http://maps.google.com/maps/api/js"></script>
-          <script src="/js/google-map-init.js"></script>
+    </div>
+  </div>
+</section>
+
+<section class="profile-tabs">
+  <div class="container">
+    <div class="row">
+      <ul id="myTab" class="nav nav-tabs boot-tabs">
+        <li class="active" role="presentation"><a href="#werdegang" data-toggle="tab">Werdegang</a></li>
+        <li><a href="#lehrveranstaltungen" data-toggle="tab">Lehrveranstaltungen</a></li>
+      </ul>
+      <div id="myTabContent" class="tab-content">
+        <div class="tab-pane fade in active" id="werdegang">
+          {% include table-2col.html %}
         </div>
-        <div class="col-md-4">
-          <div class="clearfix">
-            <h4 class="line-bottom">Schnelle Nachricht:</h4>
-          </div>
-          <form id="contact-form" class="contact-form-transparent">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="form-group">
-                  <input type="text" placeholder="Ihre Namen" id="contact_name" name="contact_name" required="" class="form-control">
-                </div>
-              </div>
-              <div class="col-sm-12">
-                <div class="form-group">
-                  <input type="text" placeholder="Ihre Email" id="contact_email" name="contact_email" class="form-control" required="">
-                </div>
-              </div>
-            </div>
-            <div class="form-group">
-              <textarea rows="5" placeholder="Ihre Nachricht" id="contact_message" name="contact_message" required class="form-control"></textarea>
-            </div>
-            <div class="form-group">
-              <button data-loading-text="Please wait..." class="btn btn-flat btn-dark btn-theme-colored mt-5" type="submit">Abschicken</button>
-            </div>
-          </form>
+        <div class="tab-pane fade" id="lehrveranstaltungen">
+          {% include table-3col.html %}
         </div>
       </div>
     </div>
   </div>
 </section>
-
