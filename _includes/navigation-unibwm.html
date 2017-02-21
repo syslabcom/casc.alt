@@ -1,6 +1,16 @@
 <!-- Navigation -->
 <nav id="menuzord" class="menuzord pull-left flip menuzord-responsive">
             <ul class="menuzord-menu">
+
+                <li class="{% if page.category == 'bereiche' %}active{% endif %}">
+                    <a href="/">Bereiche</a>
+                     <ul class="dropdown">
+                      <li><a href="bau.html">BAU</a></li>
+                      <li><a href="rz.html">RZ</a></li>
+                      <li><a href="studber.html">Studber</a></li>
+                      <li><a href="casc.html">CASC</a></li>
+                    </ul>
+                </li>
                 <li class="{% if page.category == 'about' %}active{% endif %}">
                     <a href="/">Prototypseiten</a>
                      <ul class="dropdown">
@@ -13,82 +23,14 @@
                       <li><a href="intranet.html">Intranetseite</a></li>
                     </ul>
                 </li>
-
-                <li class="{% if page.category == 'services' %}active{% endif %}">
-                    <a href="/rz.html">Rechenzentrum</a>
-                     <ul class="dropdown">
-                      <li><a href="rz.html">Das Rechenzentrum</a></li>
-                      <li><a href="rz-about.html">Über</a></li>
-                      <li><a href="rz-services.html">Dienste und Leistungen</a></li>
-                      <li><a href="rz-help.html">Hilfe und Support</a></li>
-                    </ul> 
-                </li>
-
-                <li class="{% if page.category == 'casc' %}active{% endif %}">
-                    <a href="/casc.html">CASC</a>
-<!--                     <ul class="dropdown">
-                      <li><a href="features-preloader.html">Preloaders</a></li>
-                      <li><a href="#">Header</a>
-                        <ul class="dropdown">
-                          <li><a href="features-header-style1.html">Header Style1</a></li>
-                          <li><a href="features-header-style2.html">Header Style2</a></li>
-                          <li><a href="features-header-style3.html">Header Style3</a></li>
-                          <li><a href="features-header-style4.html">Header Style4</a></li>
-                          <li><a href="features-header-style5.html">Header Style5</a></li>
-                          <li><a href="features-header-style6.html">Header Style6</a></li>
-                          <li><a href="features-header-style7.html">Header Style7</a></li>
-                          <li><a href="features-header-vertical-nav.html">Vertical Header</a></li>
-                        </ul>
-                      </li>
-                    </ul> -->
-                </li>
-                
-                <li class="{% if page.category == bau' %}active{% endif %}">
-                  <a href="/bau.html">Bau</a>
-                </li>
-
-                <li class="{% if page.category == studber' %}active{% endif %}">
-                  <a href="/studber.html">Studber</a>
-                </li>
-
                 <li>
-                  <a>Modules</a>
+                  <a>Modulbeispiele</a>
                   <ul class="dropdown">
                     <li class="{% if page.category == 'modules' %}active{% endif %}">
                       <a href="/modules.html">Umgesetze Module</a>
-                      <!-- <ul class="dropdown">
-                           <li><a href="features-preloader.html">Preloaders</a></li>
-                           <li><a href="#">Header</a>
-                             <ul class="dropdown">
-                               <li><a href="features-header-style1.html">Header Style1</a></li>
-                               <li><a href="features-header-style2.html">Header Style2</a></li>
-                               <li><a href="features-header-style3.html">Header Style3</a></li>
-                               <li><a href="features-header-style4.html">Header Style4</a></li>
-                               <li><a href="features-header-style5.html">Header Style5</a></li>
-                               <li><a href="features-header-style6.html">Header Style6</a></li>
-                               <li><a href="features-header-style7.html">Header Style7</a></li>
-                               <li><a href="features-header-vertical-nav.html">Vertical Header</a></li>
-                             </ul>
-                           </li>
-                      </ul> -->
                     </li>
                     <li class="{% if page.category == 'potential-modules' %}active{% endif %}">
                       <a href="/potential-modules.html">Mögliche Module</a>
-                      <!-- <ul class="dropdown">
-                           <li><a href="features-preloader.html">Preloaders</a></li>
-                           <li><a href="#">Header</a>
-                             <ul class="dropdown">
-                               <li><a href="features-header-style1.html">Header Style1</a></li>
-                               <li><a href="features-header-style2.html">Header Style2</a></li>
-                               <li><a href="features-header-style3.html">Header Style3</a></li>
-                               <li><a href="features-header-style4.html">Header Style4</a></li>
-                               <li><a href="features-header-style5.html">Header Style5</a></li>
-                               <li><a href="features-header-style6.html">Header Style6</a></li>
-                               <li><a href="features-header-style7.html">Header Style7</a></li>
-                               <li><a href="features-header-vertical-nav.html">Vertical Header</a></li>
-                             </ul>
-                           </li>
-                      </ul> -->
                     </li>
                   </ul>
                 </li>
