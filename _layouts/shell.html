@@ -119,6 +119,8 @@
 {{ page.department }}
         {% if page.department == 'Rechenzentrum' %}
           {% include footer-rz.html %}
+        {% elsif page.department == 'bau' %}
+          {% include footer-bau.html %}
         {% elsif page.department == 'UniBwM' %}
          <!-- no footer -->
         {% else %}
