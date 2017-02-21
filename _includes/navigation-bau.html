@@ -9,12 +9,16 @@
                     <ul class="dropdown">
                       <li><a href="bauv1.html">Bauv1</a></li>
                       <li><a href="bau_institut_werkstoffe.html">Bauv3 - Werkstoffe</a>
-                        <ul class="dropdown">
-                           <li><a href="bau_studiengang.html">Bauingenieurwesen und Umweltwissenschaften</a></li>
-                         </ul>
                       </li>
                     </ul>
                 </li>
+                <li class="{% if page.category == 'bauv1' %}active{% endif %}">
+                    <a href="#">Studiengänge</a>
+                    <ul class="dropdown">
+                      <li><a href="bau_studiengang.html">Bauingenieurwesen und Umweltwissenschaften</a></li>
+                    </ul>
+                </li>
+
                 <li class="{% if page.category == 'bauv2' %}active{% endif %}">
                     <a href="/christian_thienel.html">Prof. Dr.-Ing. Karl-Christian Thienel</a>
                     <!-- <ul class="dropdown">
