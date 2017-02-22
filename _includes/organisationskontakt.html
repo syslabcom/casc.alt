@@ -3,9 +3,9 @@
     <div class="section-content">
       <div class="row"> 
         <div class="col-md-7">
-          {% include single_inline_person.html person="thomas_hartung" %}
-          {% include single_inline_person.html person="bernhard_hirsch" %}
-          {% include single_inline_person.html person="andrea_hoffmann" %}          
+        {% for person in page.orgkontakt %}
+          {% include single_inline_person.html person=person.name %}
+        {% endfor %}
         </div>
         <div class="col-md-5">
           <img id="zoom" alt="" src="/media/campusplan-wow-large.png" class="img-responsive img-fullwidth">

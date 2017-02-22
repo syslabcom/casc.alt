@@ -13,6 +13,10 @@ color_scheme: blue
 breadcrumbs:
 - Module
 - Mögliche Module
+orgkontakt:
+- name: thomas_hartung
+- name: bernhard_hirsch
+- name: andrea_hoffmann
 ---
 
 
