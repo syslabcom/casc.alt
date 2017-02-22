@@ -159,6 +159,15 @@ nav ul li a#faculty-rz {
     background-size: 100%;
 
 }
+nav ul li a#faculty-bau {
+    color: transparent;
+    border-radius: 0;
+    width: 36px;
+    height: 36px;
+    background-image: url('/media/bau/logo_bau.png');
+    background-size: 100%;
+
+}
 .menuzord-menu ul.dropdown {
     top: 50px;
 }
