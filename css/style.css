@@ -54,6 +54,7 @@ body {
 .scheme-dark-gray { background-color: #666 !important; color: white !important; }
 
 .scheme-dark-gray a,
+.scheme-dark-gray h2,
 .scheme-dark-gray h3,
 .scheme-dark-gray h4 {
   color: white; 
