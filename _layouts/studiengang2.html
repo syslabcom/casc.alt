@@ -1,0 +1,139 @@
+---
+layout: generic
+---
+
+
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="single-service">
+          <!-- <img src="{{ page.image }}" alt="{{ page.title }}"> -->
+          <h2 class="text-theme-colored line-bottom text-theme-colored">{{ page.title }}</h2>
+          <p class="description">{{ page.description }}</p>
+            <div class="single-post">
+              {{ content }}
+            </div>
+          <div id="accordion1" class="panel-group accordion">
+          {% assign items = site.posts | where:"parent",page.title %}
+          {% for item in items %}
+            <div class="panel">
+              <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ item.title }} </a> </div>
+              <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+                <div class="panel-content">
+                  <p>{{ item.content | markdownify }}</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+          </div>
+
+
+          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Downloads </h4>
+          <ul id="myTab" class="nav nav-tabs boot-tabs">
+            <li class="active"><a href="#info" data-toggle="tab">Anmeldeunterlagen</a></li>
+            <li><a href="#small" data-toggle="tab">Informationsmaterial</a></li>
+            <li><a href="#medium" data-toggle="tab">Prüfungsreglement</a></li>
+          </ul>
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="info">
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Aufnahmeantrag Master</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Aufnahmeantrag Modul</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Immatrikulationsantrag</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Checkliste</a></li>
+              </ul>
+
+            </div>
+
+            <div class="tab-pane fade" id="small">
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Flyer</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Präsentation</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Video</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Interview</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Curriculum</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Factsheet</a></li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="medium">
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Prüfungsordnung</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Modulhandbuch</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Studienplan</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+              <div class="section-title mb-10">
+                <div class="row">
+                  <div class="col-md-9">
+                    <h4 class="mt-20 line-bottom line-height-1">Akademische <span class="text-theme-color-2 font-weight-400">Leitung</span></h4>
+                 </div>
+                </div>
+              </div>
+
+              <div class="section-content">
+                <div class="row multi-row-clearfix">
+                {% for item in site.posts %}
+                {% if item.parent == 'People' and item.category == "akademische_leitung" and item.program == page.name %}
+                  <div class="col-sm-3 col-md-3 sm-text-center mb-sm-8">
+                    <div class="team maxwidth200">
+                      <div class="thumb"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
+                      <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
+                        <h5 class="name font-14 text-theme-color-2 mt-0">{{ item.title }}</h5>
+                        <p class="mb-20 font-12">{{ item.description }}&nbsp;</p>
+                        <p>
+                          <i class="fa fa-envelope-o mr-5"></i> <a href="mailto:{{ item.email }}">{{ item.email }}</a><br>
+                          <i class="fa fa-phone text-theme-color-2 mr-5"></i> {{ item.phone }}
+                        </p>
+                        <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ item.url}}">Zur Person…</a>
+                      </div>
+                    </div>
+                  </div>
+                  {% endif %}
+                  {% endfor %}         
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3 ">
+        <div class="list-group " >
+          <!-- no left slot required atm -->
+          {% assign people = site.posts | where:"layout","bio" %}
+          {% assign person = people | where:"name",page.contact_person %}
+          {% for item in person %}
+          <div class="sidebar sidebar-right mt-sm-30 pl-10 pr-10 pt-10 pb-10 bg-light">
+              <div class="text-center">
+                <img class="img-circle" src="{{ item.image }}" alt="{{ item.title }}">
+              </div>
+              <h4 class="widget-title line-bottom">Programmkoordination</h4>
+              <h5>{{ item.title }}</h5>
+              <div class="info">
+                <em>{{ item.description }}</em>
+
+    <!--             {{ item.content }}
+ -->
+                <p>
+                  <i class="fa fa-envelope-o mr-5"></i> <a href="mailto:{{ item.email }}">{{ item.email }}</a><br>
+                  <i class="fa fa-phone text-theme-color-2 mr-5"></i> {{ item.phone }}
+                </p>
+              </div>
+
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+{% include testimonials.html %}
+{% include logos.html %}
