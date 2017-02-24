@@ -47,7 +47,7 @@ body {
 .background-gray, .silver { background-color: #aaa; }
 .background-dark-gray { background-color: #666; }
 
-.scheme-light-gray { background-color: #eee !important; color: #333 !important; }
+.scheme-light-gray, .scheme-light-grey { background-color: #eee !important; color: #333 !important; }
 .scheme-grey, 
 .scheme-gray { background-color: #bbb !important; color: white !important; }
 .scheme-dark-grey, 
