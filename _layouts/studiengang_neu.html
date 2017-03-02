@@ -1,0 +1,83 @@
+---
+layout: generic
+---
+
+
+{% include bau_studies_intro-text-zwei-spalten.html %}
+
+{% include image.html src="/media/bw/bw3.jpg" title="Organigramm" color_scheme='light-gray' %}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="single-service">
+
+          <div id="accordion1" class="panel-group accordion">
+            {% assign items = site.posts | where:"parent",page.title %}
+            {% for item in items %}
+            <div class="panel">
+              <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ item.title }} </a> </div>
+              <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+                <div class="panel-content">
+                  <p>{{ item.content | markdownify }}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="single-service">
+          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Downloads </h4>
+          <ul id="myTab" class="nav nav-tabs boot-tabs">
+            <li class="active"><a href="#info" data-toggle="tab">Anmeldeunterlagen</a></li>
+            <li><a href="#small" data-toggle="tab">Informationsmaterial</a></li>
+            <li><a href="#medium" data-toggle="tab">Prüfungsreglement</a></li>
+          </ul>
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade in active" id="info">
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Aufnahmeantrag Master</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Aufnahmeantrag Modul</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Immatrikulationsantrag</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Checkliste</a></li>
+              </ul>
+            </div>
+
+            <div class="tab-pane fade" id="small">
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Flyer</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Präsentation</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Video</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Interview</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Curriculum</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Factsheet</a></li>
+              </ul>
+            </div>
+            <div class="tab-pane fade" id="medium">
+              <ul class="list-icon">
+                <li><i class="fa fa-download"></i> <a href="#">Prüfungsordnung</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Modulhandbuch</a></li>
+                <li><i class="fa fa-download"></i> <a href="#">Studienplan</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>        
+
+{% include news-teaser-img-left.html %}
+
+{% include organisationskontakt.html %}
