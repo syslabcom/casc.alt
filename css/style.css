@@ -176,6 +176,9 @@ nav ul li a#faculty-bau {
     padding: 5px 25px 5px 22px;
     font-size: 16px;
 }
+.menuzord-menu ul.dropdown li:hover > a {
+    padding-left: 22px;
+}
 .menuzord-menu > li  {
     padding: 4px 0;
 }
