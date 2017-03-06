@@ -1,7 +1,7 @@
 ---
 layout: bio
 title: Prof. Dr.-Ing. Thomas Apel
-position: Institut für Werkstoff des Bauwesens
+position: Werkstoffe des Bauwesens
 name: thomas_apel
 hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 hero_title: Prof. Dr.-Ing. Karl-Christian Thienel
