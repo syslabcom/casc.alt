@@ -208,6 +208,20 @@ nav ul li a#site-komm {
 
 section.inner-header {
     height: 400px;
+    display:table;
+}
+section.inner-header .container {
+  height: 400px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: table-cell;
+  vertical-align: bottom;
+}
+section.inner-header .container .section-content {
+  background-color; #ccc;
+  opacity: 0.95;
+  padding: 10px 40px;
 }
 section.inner-header.no-hero {
     height: 220px;
@@ -263,10 +277,13 @@ section.gradient:after {
 .rev_slider .text-layer {
     width: 80%;
 }
+.rev_slider h2 {
+  background-color: #ccc;
+}
 #hero .title,
 #hero small,
 .rev_slider h2 {
-    background-color: grey;
+    color: black;
     display: inline;
     padding: 4px 8px;
 }
@@ -281,7 +298,7 @@ section.gradient:after {
     transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
     display: block;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     font-weight: bold;
     -webkit-font-smoothing: antialiased;
