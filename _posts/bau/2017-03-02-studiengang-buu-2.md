@@ -6,7 +6,7 @@ description: "Die Regelungen für die Studiengänge werden in unregelmäßigen Z
 category: bau
 department: bau
 name: bau-studiengang-buu
-img: /media/bau/bau_studiengang_buux.jpg
+img: /media/bau/bau_studiengang_buu.jpg
 hero_overline: Studiengang
 hero_title: Bauingenieurwesen und Umweltwissenschaften
 hero_image: /media/bau/bau_studiengang_buu.jpg
