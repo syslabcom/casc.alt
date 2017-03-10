@@ -17,6 +17,7 @@
 }
 body {
     font-size: 16px;
+    color: #97a4af;
 }
 .list-icon li {
     font-size: 16px;    
@@ -169,6 +170,17 @@ nav ul li a#faculty-bau {
     background-size: 100%;
 
 }
+nav ul li a#site-komm {
+    color: transparent;
+    border-radius: 0;
+    width: 36px;
+    height: 36px;
+    background-image: url('/media/logos/kommsite.jpg');
+    background-size: 100%;
+
+}
+
+
 .menuzord-menu ul.dropdown {
     top: 50px;
 }
