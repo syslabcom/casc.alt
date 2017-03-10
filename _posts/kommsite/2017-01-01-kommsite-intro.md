@@ -6,7 +6,7 @@ description:
 category: kommsite
 department: kommsite
 hero_title: Kommunikationswebsite
-section: KommSite
+section: kommsite
 color_scheme: orange
 img: /media/bau/berufsfeld.jpg
 ---
@@ -20,9 +20,9 @@ Wie soll die Website funktionieren?
 
 Das Webteam
 
-Prof. Dr-Ing. Thienel
-Pressestelle Hr. Vogel
-Rechenzentrum Fr. Blachnik
+Prof. Dr-Ing. Thienel<br>
+Pressestelle Hr. Vogel<br>
+Rechenzentrum Fr. Blachnik<br>
 
 mit Unterstützung von Syslab.com
 

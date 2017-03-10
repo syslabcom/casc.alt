@@ -94,6 +94,8 @@
           {% include navigation-bw.html  %}
         {% elsif page.department == 'studber' %}
           {% include navigation-studber.html  %}
+        {% elsif page.department == 'kommsite' %}
+          {% include navigation-kommsite.html  %}
         {% else %}
           {% include navigation.html  %}
         {% endif %}
@@ -123,6 +125,8 @@
           {% include footer-rz.html %}
         {% elsif page.department == 'bau' %}
           {% include footer-bau.html %}
+        {% elsif page.department == 'kommsite' %}
+          {% include footer-kommsite.html %}
         {% elsif page.department == 'UniBwM' %}
          <!-- no footer -->
         {% else %}

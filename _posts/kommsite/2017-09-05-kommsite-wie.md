@@ -12,6 +12,7 @@ color_scheme: orange
 img: /media/bau/berufsfeld.jpg
 ---
 
+
 Wie wir morgen leben, wird durch ihre Fantasie und ihr Wissen beflügelt. Sie analysieren, modellieren und realisieren. Sie schaffen sichere Flughäfen, vernetzen Siedlungen, entwerfen Wasserversorgungskonzepte und Kanalisationen, renaturieren Flüsse oder gründen Windkraftanlagen auf offener See.
 
 Kreativ und innovativ bewältigen Bauingenieure und Umweltwissenschaftler heute die stark wachsenden Anforderungen aus Wirtschaft, Kultur und Umwelteinflüssen. Sie untersuchen zum Beispiel die Auswirkungen und Möglichkeiten neuer digitaler Techniken auf die Mobilität von Morgen und erforschen neue umwelt- und ressourcenschonende Werkstoffe. Das erfordert hohes Verantwortungsbewusstsein. Es verlangt technisches Interesse und Begeisterungsfähigkeit, interdisziplinäre Teamarbeit, die Fähigkeit zur Abstraktion, Organisationsvermögen und Spaß an naturwissenschaftlichen Fächern.
