@@ -1,19 +1,55 @@
 ---
-layout: article
-title: Berufsfeld
-name: bau-berufsfeld
-description: Bauingenieure und -ingenieurinnen verändern die Welt und arbeiten maßgeblich beim Schutz unserer Umwelt mit. Sie beeinflussen unser Leben stärker als viele andere Berufe. Denn Infrastruktureinrichtungen und Bauwerke sind essentieller Bestandteil jeder Zivilisation.
-category: bau
-department: bau
-name: bau-berufsfeld
-hero_title: Berufsfeld Bauingenieur
-section: BAU
+layout: page
+title: kommsite-intro
+name: kommsite-intro
+description: 
+category: kommsite
+department: kommsite
+hero_image: /media/hero/kommsite_1.png
+hero_title: Was bisher geschah...
+hero_overline: 
+section: kommsite
 color_scheme: orange
-img: /media/bau/berufsfeld.jpg
 ---
 
-Wie wir morgen leben, wird durch ihre Fantasie und ihr Wissen beflügelt. Sie analysieren, modellieren und realisieren. Sie schaffen sichere Flughäfen, vernetzen Siedlungen, entwerfen Wasserversorgungskonzepte und Kanalisationen, renaturieren Flüsse oder gründen Windkraftanlagen auf offener See.
+### Bisher
 
-Kreativ und innovativ bewältigen Bauingenieure und Umweltwissenschaftler heute die stark wachsenden Anforderungen aus Wirtschaft, Kultur und Umwelteinflüssen. Sie untersuchen zum Beispiel die Auswirkungen und Möglichkeiten neuer digitaler Techniken auf die Mobilität von Morgen und erforschen neue umwelt- und ressourcenschonende Werkstoffe. Das erfordert hohes Verantwortungsbewusstsein. Es verlangt technisches Interesse und Begeisterungsfähigkeit, interdisziplinäre Teamarbeit, die Fähigkeit zur Abstraktion, Organisationsvermögen und Spaß an naturwissenschaftlichen Fächern.
+* Anforderungsworkshop mit Orange Hills
+* Erstellung eines ersten Prototypen
+* Absegnung der generellen Richtung
+* Umsetzung des Prototypen in ein Baukastensystem (Frontend)
+* Anbindung des CMS (Backend), Anpassung an das Frontend
 
-Den Bauingenieur eröffnen sich exzellente Berufsaussichten. Und die Freude an einem breit angelegten Studium, das zahlreiche Wissenszweige verknüpft und in enger Beziehung zur Architektur, zu den Naturwissenschaften, der Mathematik und zur Informatik steht. Durch die steigende Komplexität der bauingenieurlichen und umweltwissenschaftlichen Aufgaben wird interdisziplinäres Handeln zur Schlüsselkompetenz. Umfassende Antworten auf diese Anforderungen sind in den Bachelor- und Master-Studiengängen der Universität der Bundeswehr München verankert. 
+
+### Als nächstes
+
+* Vereinfachung des Backends
+* Festlegungen im Frontend
+* Erstellung erster Sites
+* Finetuning des Designs
+* Lessons Learned
+* Ausrollen weiterer Sites
+* Integration der neuen Suche
+* Schnittstellen
+
+### Prototyp
+
+<a href="https://prototyp.rz.unibw-muenchen.de"><img src="/media/kommsite/website_proto.png"></a>
+
+### Plone
+
+<a href="webfrontend.rz.unibw-muenchen.de"><img src="/media/kommsite/plone.png"></a>
+
+### Aktuelle Testsites
+
+<img src="/media/kommsite/testsite.png">
+
+* casc
+* casc-sandbox
+* intranet
+* zki-herbsttagung
+<br /><br />
+* kaffee
+* tee
+* kakao
+* cola

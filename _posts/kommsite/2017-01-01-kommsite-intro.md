@@ -1,28 +1,22 @@
 ---
-layout: article
+layout: page
 title: kommsite-intro
 name: kommsite-intro
 description: 
 category: kommsite
 department: kommsite
-hero_title: Kommunikationswebsite
+hero_image: /media/hero/kommsite_1.png
+hero_title: UniBW - Kommunikationswebsite
+hero_overline: Bleiben Sie auf dem Laufenden
 section: kommsite
 color_scheme: orange
-img: /media/bau/berufsfeld.jpg
 ---
 
-Übersicht
+### Übersicht
 
-Das Team
-Was bisher geschah…
-Wie das Team arbeitet
-Wie soll die Website funktionieren?
+* Das Team
+* Was bisher geschah…
+* Wie das Team arbeitet
+* Wie soll die Website funktionieren?
 
-Das Webteam
-
-Prof. Dr-Ing. Thienel<br>
-Pressestelle Hr. Vogel<br>
-Rechenzentrum Fr. Blachnik<br>
-
-mit Unterstützung von Syslab.com
 

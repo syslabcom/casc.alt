@@ -1,20 +1,57 @@
 ---
-layout: article
-title: Berufsfeld
-name: bau-berufsfeld
-description: Bauingenieure und -ingenieurinnen verändern die Welt und arbeiten maßgeblich beim Schutz unserer Umwelt mit. Sie beeinflussen unser Leben stärker als viele andere Berufe. Denn Infrastruktureinrichtungen und Bauwerke sind essentieller Bestandteil jeder Zivilisation.
-category: bau
-department: bau
-name: bau-berufsfeld
-hero_title: Berufsfeld Bauingenieur
-section: BAU
+layout: page
+title: kommsite-wie
+name: kommsite-wie
+description: 
+category: kommsite
+department: kommsite
+hero_image: /media/hero/bw2_hero.jpg
+hero_title: Wie soll die Website funktionieren?
+hero_overline: 
+section: kommsite
 color_scheme: orange
-img: /media/bau/berufsfeld.jpg
 ---
 
+### Modulseiten
 
-Wie wir morgen leben, wird durch ihre Fantasie und ihr Wissen beflügelt. Sie analysieren, modellieren und realisieren. Sie schaffen sichere Flughäfen, vernetzen Siedlungen, entwerfen Wasserversorgungskonzepte und Kanalisationen, renaturieren Flüsse oder gründen Windkraftanlagen auf offener See.
+<img src="/media/kommsite/modulseiten.png">
 
-Kreativ und innovativ bewältigen Bauingenieure und Umweltwissenschaftler heute die stark wachsenden Anforderungen aus Wirtschaft, Kultur und Umwelteinflüssen. Sie untersuchen zum Beispiel die Auswirkungen und Möglichkeiten neuer digitaler Techniken auf die Mobilität von Morgen und erforschen neue umwelt- und ressourcenschonende Werkstoffe. Das erfordert hohes Verantwortungsbewusstsein. Es verlangt technisches Interesse und Begeisterungsfähigkeit, interdisziplinäre Teamarbeit, die Fähigkeit zur Abstraktion, Organisationsvermögen und Spaß an naturwissenschaftlichen Fächern.
 
-Den Bauingenieur eröffnen sich exzellente Berufsaussichten. Und die Freude an einem breit angelegten Studium, das zahlreiche Wissenszweige verknüpft und in enger Beziehung zur Architektur, zu den Naturwissenschaften, der Mathematik und zur Informatik steht. Durch die steigende Komplexität der bauingenieurlichen und umweltwissenschaftlichen Aufgaben wird interdisziplinäres Handeln zur Schlüsselkompetenz. Umfassende Antworten auf diese Anforderungen sind in den Bachelor- und Master-Studiengängen der Universität der Bundeswehr München verankert. 
+### Inhaltsseiten
+
+<img src="/media/kommsite/inhaltsseiten.png">
+
+
+### Struktur
+
+<img src="/media/kommsite/struktur.png">
+
+
+### Zielkonflikt
+
+<img src="/media/kommsite/zielkonflikt.png">
+<br />
+(aka Tradeoff / Pest oder Cholera)
+
+
+### Schritte zur neuen Site
+
+* Inhalt zuerst
+* Struktur planen
+* Modulseiten planen
+* Inhaltsseiten anlegen
+* Modulseiten anlegen
+* Navigation zusammenstellen
+
+
+### Ausprobieren
+
+* Ausprobieren
+* Ideen notieren
+* Abstimmen
+
+### Abstimmen über Themen
+
+<img src="/media/kommsite/abstimmen.png">
+<br />
+Experiment: Notieren, Diskutieren und Abstimmen online
