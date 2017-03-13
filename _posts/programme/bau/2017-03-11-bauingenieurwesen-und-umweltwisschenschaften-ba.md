@@ -6,6 +6,7 @@ description: "Eine größere Zukunft gestalten. Vier Jahre – vier Studienprofi
 category: programme
 tagline: 
 hero_image:  /media/programme/2_mba_international_management.jpg
+img: /media/programme/3_mba_public_management.jpg
 hero_title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
 parent: Studiengänge
 backlink: "/programme#studiengaenge"

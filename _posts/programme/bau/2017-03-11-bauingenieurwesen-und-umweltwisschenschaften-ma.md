@@ -5,11 +5,13 @@ name: bauingenieurwesen_und_umweltwisschenschaften_ma
 description: "Eine größere Zukunft gestalten. Vier Jahre – vier Studienprofile – beste Berufsaussichten"
 hero_title: Studiengang Bauingenieurwesen und Umweltwisschenschaften MA
 hero_image: /media/programme/3_mba_public_management.jpg
+img: /media/programme/3_mba_public_management.jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: geralt_siebert
 footer: Programme
 slider: casc
+category: programme
 department: bau
 ---
 

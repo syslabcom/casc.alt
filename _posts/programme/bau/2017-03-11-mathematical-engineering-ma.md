@@ -7,6 +7,7 @@ category: programme
 tagline: 
 hero_title: Mathematical Engineering MA
 hero_image: /media/programme/3_mba_public_management.jpg
+img: /media/programme/3_mba_public_management.jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: geralt_siebert
