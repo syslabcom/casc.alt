@@ -3,6 +3,7 @@
 #############################################################################
 - name: werkstoffe
   title: Werkstoffe
+  url: bau_institut_werkstoffe.html
   items:
   - title: Institut
     id: institut
@@ -22,6 +23,7 @@
 #############################################################################
 - name: Rechenzentrum
   title: Rechenzentrum
+  url: rz.html
   items:
   - title: Das RZ
     id: dasrz
@@ -38,6 +40,7 @@
 #############################################################################
 - name: casc
   title: CASC
+  url: casc.html
   items:
   - title: Programme
     id: programme
@@ -57,6 +60,7 @@
 #############################################################################
 - name: bau
   title: BAU
+  url: bau.html
   items:
   - title: Institute
     id: institute
@@ -93,6 +97,7 @@
 - name: bw
   title: BW
   id: bw
+  url: bw.html
   items:
   - title: Institut
     id: institut
@@ -120,6 +125,7 @@
 - name: studber
   title: Studentenfachbereich
   id: studber
+  url: studber.html
   items:
   - title: Studber
     id: institut
@@ -132,6 +138,7 @@
 - name: kommsite
   title: Webrelaunch
   id: kommsite
+  url: kommsite.html
   items:
   - title: Überblick
     id: ueberblick
@@ -168,6 +175,7 @@
 - name: UniBwM
   title: UniBwM
   id: UniBwM
+  url: home.html
   items:
   - title: Bereiche
     id: bereiche
