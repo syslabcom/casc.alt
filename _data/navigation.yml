@@ -1,3 +1,6 @@
+#############################################################################
+# Site WERKSTOFFE
+#############################################################################
 - name: werkstoffe
   title: Werkstoffe
   items:
@@ -14,6 +17,9 @@
     id: kompetenzen
     url: werkstoffe-kompetenzen.html
 
+#############################################################################
+# Site RECHENZENTRUM
+#############################################################################
 - name: Rechenzentrum
   title: Rechenzentrum
   items:
@@ -27,8 +33,122 @@
     id: hilfesupport
     url: rz-help.html
 
+#############################################################################
+# Site BAU
+#############################################################################
+- name: bau
+  title: BAU
+  items:
+  - title: Institute
+    id: institute
+    url: #
+    children:
+    - title: Werkstoffe des Bauwesens
+      url: bau_institut_werkstoffe.html
+    - title: Mathematik und Bauinformatik
+    - title: Mechanik und Statik
+    - title: Konstruktiver Ingenieurbau
+    - title: Bodenmechanik und Grundbau 
+    - title: Wasserwesen
+    - title: Verkehrswesen und Raumplanung
+    - title: Baubetrieb
+    - title: Geodäsie
+  - title: Studiengänge
+    id: studiengaenge
+    url: #
+    children:
+    - title: BA Bauingenieurwesen und Umweltwissenschaften
+      url: bau_studiengang_ba.html
+    - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
+      url: bauingenieurwesen-und-umweltwisschenschaften-ba.html
+    - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften MA
+      url: bauingenieurwesen-und-umweltwisschenschaften-ma.html
+    - title: Mathematical Engineering BA
+      url: mathematical-engineering-ba.html
+    - title: Mathematical Engineering MA
+      url: mathematical-engineering-ma.html
+
+#############################################################################
+# Site BW
+#############################################################################
+- name: bw
+  title: BW
+  id: bw
+  items:
+  - title: Institut
+    id: institut
+    url: #
+    children:
+    - title: Journalistik
+      url: bw_institut_orgkomm.html
+    - title: …
+      url: #
+  - title: Professur
+    id: professur
+    children:
+    - title: Mobilkommunikation
+      url: bw_professur_mobilkom.html
+  - title: Studiengang
+    id: studiengang
+    url: bw_studiengaenge.html
+    children:
+    - title: BA Management und Medien 
+      url: bw_studiengang_ba.html
+
+#############################################################################
+# Site STUDBER
+#############################################################################
+- name: studber
+  title: Studentenfachbereich
+  id: studber
+  items:
+  - title: Studber
+    id: institut
+    url: studber.html
+
+
+#############################################################################
+# Site KOMMSITE
+#############################################################################
+- name: kommsite
+  title: Webrelaunch
+  id: kommsite
+  items:
+  - title: Überblick
+    id: ueberblick
+    url: kommsite-intro.html
+  - title: Ziele
+    id: ziele
+    url: kommsite-ziele.html
+  - title: Prozesse
+    id: prozesse
+    url: kommsite-prozesse.html
+  - title: Das Team
+    id: team
+    url: kommsite-team.html
+  - title: Lieferumfang
+    id: lieferumfang
+    url: kommsite-lieferumfang.html
+  - title: Wie
+    id: wie
+    url: kommsite-wie.html
+  - title: Risiken
+    id: risiken
+    url: kommsite-risiken.html
+  - title: Abhängigkeiten
+    id: abhaengigkeiten
+    url: kommsite-abhaengigkeiten.html
+  - title: Termine
+    id: termine
+    url: kommsite-deadlines.html
+
+#############################################################################
+# Site MAIN PRAES SITE
+#############################################################################
+
 - name: UniBwM
   title: UniBwM
+  id: UniBwM
   items:
   - title: Bereiche
     id: bereiche
@@ -97,8 +217,6 @@
   title: Home
   items:
   - title: Universität
-    id: bereiche
-    url: #
     children:
     - title: Aktuelle Meldungen
     - title: Gremien und Vertretungen
@@ -115,4 +233,209 @@
       - title: Personalrat
       - title: Studentischer Konvent
       - title: Freundeskreis (Name prüfen)
+    - title: Leitung 
+      children:
+      - title: Erweiterte Hochschulleitung
+      - title: Kanzler
+      - title: Militärische Leitung
+      - title: Präsidentin
+      - title: Präsidialabteilung
+      - title: Senat
+      - title: Universitätsrat
+      - title: Verwaltungsrat
+      - title: Vizepräsidenten
+    - title: Fakultäten
+      children:
+      - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
+      - title: Elektrotechnik und Informationstechnik (univ.)
+      - title: Humanwissenschaften (univ.)
+      - title: Informatik (univ.)
+      - title: Luft- und Raumfahrttechnik (univ.)
+      - title: Staats- und Sozialwissenschaften (univ.)
+      - title: Wirtschafts- und Organisationswissenschaften (univ.)
+      - title: Betriebswirtschaft (HAW)
+      - title: Elektrotechnik und Technische Informatik (HAW)
+      - title: Maschinenbau (HAW)
+    - title: Stellenbörse
+      children:
+      - title: Stellenausschreibungen, Offene Stellen
+      - title: Neuberufungen
+      - title: Vakante Professuren
+      - title: Wissenschaftlicher Mitarbeiter
+      - title: Studentische Hilfskräfte
+      - title: wissenschaftliche Hilfskräfte
+      - title: Berufungsorganisation, Berufungsverfahren
+    - title: Über uns 
+      children: 
+      - title: Leitbild
+      - title: Geschichte (Historie)
+      - title: Anfahrt
+      - title: Lageplan
+
+  - title: Studium
+    children:
+    - title: Beratung / Bewerbung
+      children:
+      - title: Studieninformationen
+      - title: Zugangsmöglichkeiten (Ihr Weg zu uns, Bewerbung)
+      - title: Studium als Soldat
+      - title: Studium als Zivilist
+      - title: Besonderheiten (Alleinstellungsmerkmale, Spezielles)
+      - title: Förderprogramme/Stipendien
+      - title: Frühförderung für Hochbegabte
+    - title: Studienangebot (Studiengänge)
+      children:
+      - title: (alle Studiengänge nennen mit Berufsfeldern)
+    - title: Fakultäten
+      children:
+      - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
+      - title: Elektrotechnik und Informationstechnik (univ.)
+      - title: Humanwissenschaften (univ.)
+      - title: Informatik (univ.)
+      - title: Luft- und Raumfahrttechnik (univ.)
+      - title: Staats- und Sozialwissenschaften (univ.)
+      - title: Wirtschafts- und Organisationswissenschaften (univ.)
+      - title: Betriebswirtschaft (HAW)
+      - title: Elektrotechnik und Technische Informatik (HAW)
+      - title: Maschinenbau (HAW)
+    - title: Im Studium
+      children:
+      - title: E-Learning (Ilias)
+      - title: Studiengänge mit Lehrinhalten
+      - title: Studium plus
+      - title: Vorlesungsverzeichnis
+      - title: Summer School
+    - title: Alumni + Career Service
+      children:
+      - title: Auslandsbüro
+        children:
+        - title: Erasmus
+        - title: Fördermöglichkeiten
+        - title: Incoming
+        - title: Internationales
+        - title: Outgoing
+        - title: Partnerhochschulen
+        - title: Auslandsaufenthalt
+        - title: Tutorenmöglichkeiten, Tutorenprogramm
+      - title: Weiterbildung
+
+  - title: Forschung
+    children:
+    - title: Forschungszentren
+      children:
+      - title: Cyber Defence (CODE)
+      - title: Modern Vehicles (MOVE)
+      - title: Munich Integrated Research on Aerospace (MIRA)
+      - title: Risiko, Infrastruktur, Sicherheit und Konflikt (RISK)
+    - title: Center of Excellence
+    - title: Fakultäten
+      children:
+      - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
+      - title: Elektrotechnik und Informationstechnik (univ.)
+      - title: Humanwissenschaften (univ.)
+      - title: Informatik (univ.)
+      - title: Luft- und Raumfahrttechnik (univ.)
+      - title: Staats- und Sozialwissenschaften (univ.)
+      - title: Wirtschafts- und Organisationswissenschaften (univ.)
+      - title: Betriebswirtschaft (HAW)
+      - title: Elektrotechnik und Technische Informatik (HAW)
+      - title: Maschinenbau (HAW)
+    - title: Transfer-Service  
+      children:
+      - title: Entrepreneurship
+      - title: Startup-Service
+      - title: Technologietransfer
+      - title: Kooperationen
+    - title: Forschungsdatenbank (Athene Forschung)
+    - title: Forschungs-Service
+      children: 
+      - title: Forschungsförderung
+      - title: Drittmittelmanagement
+      - title: Vertragsprüfung und Steuerrecht
+      - title: Patent- und Erfindungsberatung
+    - title: Nachwuchsförderung
+      children:
+      - title: Post-Doc
+      - title: Promovierende
+      - title: ProfiLehre
+      - title: Förderprogramme
+    - title: Qualitätsmanagement
+      children:
+      - title: DFG-Beauftragter
+      - title: Nachwuchskommission
+      - title: Ethikkommission
+      - title: Kommission zur Sicherstellung der guten wiss. Praxis
+      - title: Chancengleichheit in der Wissenschaft
+      - title: Ombudsperson
+  - title: Einrichtungen
+    children:
+    - title: Bibliothek (Universitätsbibliothek)
+    - title: Institut für Technik Intelligenter Systeme (ITIS)
+    - title: Medienzentrum
+    - title: Prüfungsamt
+    - title: Rechenzentrum
+    - title: Sportzentrum
+    - title: Sprachenzentrum
+    - title: Zentrale Verwaltung
+  - title: Campusleben
+    children:
+    - title: Für die Seele 
+      children:
+      - title: Betriebliches Gesundheitsmanagement
+      - title: Militärseelsorge
+      - title: Psychosoziale Beratungsstelle
+    - title: Kinderbetreuung
+      children:
+      - title: Kinderkrippe (Campusküken)
+      - title: Kindergarten
+    - title: Musik
+      children:
+      - title: Big Band
+      - title: Uni-Chor
+    - title: Sport an der Uni 
+      children:
+      - title: Sportförderverein
+      - title: Sportzentrum
+    - title: Verpflegung
+      children:
+      - title: Restaurant (Brandl)
+      - title: Mensa
+      - title: Supermarkt
+      - title: Unibar
+      - title: UniCasino
+  - title: Militärisches
+    children: 
+    - title: Studierendenbereich
+      children:
+      - title: aero
+      - title: alpha
+      - title: bravo
+      - title: charlie
+      - title: delta
+    - title: Angebote
+    - title: Ansprechpartner
+    - title: Antragsstellung
+    - title: BFD
+    - title: bundeswehr.org
+    - title: Dienstpläne
+    - title: DV-Stelle
+    - title: Freizeitbüro
+    - title: Militärische Gleich-stellungsbeauftragte
+    - title: Interessengruppen
+    - title: Militärseelsorge
+    - title: Psychologische Beratungsstelle
+    - title: Rechnungsführer
+    - title: S1-S6
+    - title: Sanitätszentrum
+    - title: Sozialdienst der Bundeswehr
+    - title: Sportfördergruppe
+    - title: Sprachnachweis (SLP)
+    - title: Stab
+    - title: Stamm
+    - title: Truppenkameradschaft
+    - title: ÜVAS
+    - title: Vertrauenspersonen
+    - title: Wache
+    - title: Wohnen
+
 

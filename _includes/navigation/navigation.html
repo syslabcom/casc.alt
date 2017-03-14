@@ -2,15 +2,15 @@
   <nav id="menuzord" class="menuzord pull-left flip menuzord-responsive">
   {% for item in site.data.navigation %}
     {% if item.name == page.department %}
-      {% assign section = item.items %}
+      {% assign section = item %}
     {% endif %}
   {% endfor %}
   
     <ul class="menuzord-menu">
         <li>
-            <a id="site-{{ page.department }}" href="/werkstoffe.html" class="site-{{ page.department }}" href="#home">{{ page.department }}</a>
+            <a id="site-{{ page.department }}" href="/werkstoffe.html" class="site-{{ page.department }}" href="#home">{{ section.title }}</a>
         </li>
-        {% for item in section %}
+        {% for item in section.items %}
         <li class="{% if page.category == item.id %}active{% endif %}">
             <a href="{{ item.url }}"> {{ item.title }} </a>
             {% if item.children %}
