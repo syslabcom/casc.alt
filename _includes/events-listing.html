@@ -1,183 +1,42 @@
-<section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="images/bg/bg1.jpg" style="background-image: url(&quot;images/bg/bg1.jpg&quot;); background-position: 50% 32px;">
+<section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="/media/werkstoffe/events.jpg" style="background-image: url(&quot;/media/werkstoffe/events.jpg&quot;); background-position: 50% 32px;">
   <div class="container pb-50 pt-80">
     <div class="section-content">
       <div class="row">
+    {% assign count = 1 %}
+    {% assign count_old = 1 %}
+
+      {% for item in site.posts %}
+      {% if item.layout == 'event' and count < 4 and item.department == page.department %}
+
+
         <div class="col-sm-6 col-md-3 col-lg-3">
           <div class="schedule-box maxwidth500 bg-light mb-30">
             <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
+              <img class="img-fullwidth" alt="" src="{{ item.img }}">
               <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
+                <a href="{{ item.url }}"><i class="fa fa-calendar mr-5"></i></a>
               </div>
             </div>
             <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
+              <h5 class="font-16 title"><a href="{{ item.url }}">{{ item.title }}</a></h5>
               <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
+                <li><i class="fa fa-calendar mr-5"></i>{{ item.start }}</li>
+                <li><i class="fa fa-map-marker mr-5"></i> {{ item.location }}</li>
               </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
+              <p>{{ item.description }}</p>
               <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
+                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="{{ item.url }}">Anmelden</a>
+                <a href="{{ item.url }}" class="btn btn-dark btn-sm mt-10">Details</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="schedule-box maxwidth500 bg-light mb-30">
-            <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
-              <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
-              </div>
-            </div>
-            <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
-              <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
-              <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="schedule-box maxwidth500 bg-light mb-30">
-            <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
-              <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
-              </div>
-            </div>
-            <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
-              <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
-              <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="schedule-box maxwidth500 bg-light mb-30">
-            <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
-              <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
-              </div>
-            </div>
-            <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
-              <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
-              <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="schedule-box maxwidth500 bg-light mb-30">
-            <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
-              <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
-              </div>
-            </div>
-            <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
-              <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
-              <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="schedule-box maxwidth500 bg-light mb-30">
-            <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
-              <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
-              </div>
-            </div>
-            <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
-              <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
-              <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="schedule-box maxwidth500 bg-light mb-30">
-            <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
-              <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
-              </div>
-            </div>
-            <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
-              <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
-              <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 col-lg-3">
-          <div class="schedule-box maxwidth500 bg-light mb-30">
-            <div class="thumb">
-              <img class="img-fullwidth" alt="" src="https://placehold.it/220x160">
-              <div class="overlay">
-                <a href="#"><i class="fa fa-calendar mr-5"></i></a>
-              </div>
-            </div>
-            <div class="schedule-details clearfix p-15 pt-10">
-              <h5 class="font-16 title"><a href="#">Business Conferences 2016</a></h5>
-              <ul class="list-inline font-11 mb-20">
-                <li><i class="fa fa-calendar mr-5"></i> DEC 31/2016</li>
-                <li><i class="fa fa-map-marker mr-5"></i> 89 Newyork City.</li>
-              </ul>
-              <p>Lorem ipsum dolor sit amet elit. Cum veritatis sequi nulla nihil, dolor amit voluptatum nemo adipisci eligendi! Sed nisi perferendis.</p>
-              <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="#">Register</a>
-                <a href="#" class="btn btn-dark btn-sm mt-10">Details</a>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        {% assign count = count | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+
+
       </div>
     </div>
   </div>

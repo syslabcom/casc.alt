@@ -9,6 +9,8 @@ start: 2015-08-10
 end: 2015-08-12
 description: Auch dieses Jahr fand an unserem Institut wieder das Ferienprogramm "Mädchen machen Technik" der Agentur "Mädchen in Wissenschaft und Technik" der Technischen Universität München statt.
 category: werkstoffe
+department: werkstoffe
+img: /media/werkstoffe/maedchen-machen-technik.jpg
 ---
 
 

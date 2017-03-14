@@ -1,7 +1,7 @@
-title: casc
+title: Universität der Bundeswehr
 author: Syslab.com GmbH
 #baseurl: /
-domain: casc2.syslab.com
+domain: www.unibw.de
 media: /media
 markdown: kramdown
 permalink: /:title.html
