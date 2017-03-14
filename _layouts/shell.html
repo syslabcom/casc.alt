@@ -82,13 +82,7 @@
     <div id="global-navigation" class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-2-1px">
         <div class="container">
-        {% if page.department == 'Rechenzentrum' %}
-          {% include navigation-rz.html  %}
-        {% elsif page.department == 'UniBwM' %}
-          {% include navigation-unibwm.html  %}
-        {% elsif page.department == 'home' %}
-          {% include navigation-home.html  %}
-        {% elsif page.department == 'bau' %}
+        {% if page.department == 'bau' %}
           {% include navigation-bau.html  %}
         {% elsif page.department == 'bw' %}
           {% include navigation-bw.html  %}
@@ -96,6 +90,8 @@
           {% include navigation-studber.html  %}
         {% elsif page.department == 'kommsite' %}
           {% include navigation-kommsite.html  %}
+        {% elsif page.department %}
+          {% include navigation/navigation.html %}
         {% else %}
           {% include navigation.html  %}
         {% endif %}

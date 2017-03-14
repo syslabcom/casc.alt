@@ -1,0 +1,118 @@
+- name: werkstoffe
+  title: Werkstoffe
+  items:
+  - title: Institut
+    id: institut
+    url: werkstoffe-institut.html
+  - title: Lehre
+    id: lehre
+    url: werkstoffe-lehre.html
+  - title: Forschung
+    id: forschung 
+    url: werkstoffe-forschung.html
+  - title: Kompetenzen
+    id: kompetenzen
+    url: werkstoffe-kompetenzen.html
+
+- name: Rechenzentrum
+  title: Rechenzentrum
+  items:
+  - title: Das RZ
+    id: dasrz
+    url: rz-about.html
+  - title: Dienste & Leistungen
+    id: diensteleistungen
+    url: rz-services.html
+  - title: Hilfe & Support
+    id: hilfesupport
+    url: rz-help.html
+
+- name: UniBwM
+  title: UniBwM
+  items:
+  - title: Bereiche
+    id: bereiche
+    url: #
+    children:
+    - title: unibw.de 
+      id: unibw.de
+      url: home.html
+    - title: Intranet
+      id: intranet
+      url: intranet.html
+    - title: BAU
+      id: bau
+      url: bau.html
+    - title: BW
+      id: bw
+      url: bw.html
+    - title: RZ
+      id: rz
+      url: rz.html
+    - title: Studber
+      id: studber
+      url: studber.html
+    - title: CASC
+      id: casc
+      url: casc.html
+
+  - title: Seitentypen 
+    id: seitentypen
+    url: #
+    children:
+    - title: Startseite 
+      id: startseite 
+      url: home.html
+    - title: Fakultätsseite 
+      id: fakultaetsseite 
+      url: fak_landing.html
+    - title: Studiengangsseite 
+      id: studiengangsseite 
+      url: studies.html
+    - title: Inhaltsseite 
+      id: inhaltsseite 
+      url: content.html
+    - title: Eventseite 
+      id: eventseite 
+      url: event.html
+    - title: Personenseite 
+      id: personenseite 
+      url: person.html
+    - title: Intranetseite 
+      id: intranetseite 
+      url: intranet.html
+
+  - title: Modulbeispiele
+    id: modulbeispiele
+    url: #
+    children:
+    - title: Umgesetzte Module 
+      id: umgesetztemodule
+      url: modules.html
+    - title: Mögliche Module 
+      id: moeglichemodule
+      url: potential-modules.html
+
+- name: home
+  title: Home
+  items:
+  - title: Universität
+    id: bereiche
+    url: #
+    children:
+    - title: Aktuelle Meldungen
+    - title: Gremien und Vertretungen
+      children:
+      - title: Ausschüsse
+      - title: Beirat für Informations- und KommunikationsInfraStruktur (IKIS)
+      - title: Datenschutzbeauftragter
+      - title: Nachwuchskommission
+      - title: Ethikkommission
+      - title: Gleichstellungsbeauftragte
+      - title: IT-Sicherheitsbeauftragter
+      - title: Konvent der wissenschaftlichen Mitarbeiter
+      - title: Ombudsperson
+      - title: Personalrat
+      - title: Studentischer Konvent
+      - title: Freundeskreis (Name prüfen)
+

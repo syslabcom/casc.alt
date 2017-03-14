@@ -152,7 +152,18 @@ nav ul li a#faculty {
     height: 36px;
     background-image: url('/media/logos/casc.png');
 }
-nav ul li a#faculty-rz {
+nav ul li a#site-home,
+nav ul li a#site-UniBwM {
+    color: transparent;
+    border-radius: 0;
+    width: 40px;
+    height: 36px;
+    background-image: url('/media/logos/athene.png');
+    background-size: 100%;
+
+}
+
+nav ul li a#site-Rechenzentrum {
     color: transparent;
     border-radius: 0;
     width: 100px;
@@ -161,7 +172,7 @@ nav ul li a#faculty-rz {
     background-size: 100%;
 
 }
-nav ul li a#faculty-bau {
+nav ul li a#site-bau {
     color: transparent;
     border-radius: 0;
     width: 36px;
