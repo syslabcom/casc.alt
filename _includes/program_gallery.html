@@ -1,7 +1,7 @@
 <section class="bg-lighter">
   <div class="container">
 
-    {% assign programmes = site.posts | where:"parent", include.parent %}
+    {% assign programmes = site.posts | where:"layout", "programme" | where:"department", page.department%}
     {% for item in programmes %}
 
         {% assign loopindex = forloop.index0 | modulo: 3 %}

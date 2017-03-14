@@ -34,6 +34,25 @@
     url: rz-help.html
 
 #############################################################################
+# Site CASC
+#############################################################################
+- name: casc
+  title: CASC
+  items:
+  - title: Programme
+    id: programme
+    url: programme.html
+  - title: Service
+    id: service
+    url: service.html
+  - title: Institut
+    id: institut
+    url: institut.html
+  - title: Aktuelles
+    id: aktuelles
+    url: aktuelles.html
+
+#############################################################################
 # Site BAU
 #############################################################################
 - name: bau
