@@ -6,4 +6,5 @@ category: termine
 show_category: informationsveranstaltung
 hero_image: /media/events/infoveranstaltungen.jpg
 hero_title: Informationsveranstaltungen
+department: casc
 ---

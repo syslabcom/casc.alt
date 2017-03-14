@@ -14,6 +14,7 @@ contact_name: dr_nicol_matzner_vogel
 footer: Programme
 contact_person: bettina__hermann_ma
 slider: casc
+department: casc
 ---
 
 

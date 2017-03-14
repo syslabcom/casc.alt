@@ -6,6 +6,8 @@ description: Zahlreiche Likes erhielt die gestrige Q+A-Runde zum Bachelor-Studie
 category: aktuelles
 tagline: Unser Service
 image: /media/news/news_14.jpg
+department: casc
+
 ---
 
 Die beiden WING-Studenten Michael und Boris aus dem Jahrgang 2014 haben am 17. Februar 2016 auf der Facebook-Seite der Bundeswehr viele Fragen zum Bachelor-Studiengang "Wirtschaftsingenieurwesen" und zum Studentenleben auf dem Campus der Universität der Bundeswehr München beantwortet. Nach dem erfolgreichen Absolvieren des Vorbereitungskurses und der berufsbegleitenden Fernstudienphase befinden sich die beiden als Vollzeitstudenten im zweiten Präsenztrimester. Das vierjährige Studium, das in Kooperation der UniBwM und der Hochschule Reutlingen angeboten wird, verschafft Zeitsoldaten einen optimalen Einstieg ins zivile Berufsleben.

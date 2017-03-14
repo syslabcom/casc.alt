@@ -6,6 +6,8 @@ description: Informieren Sie sich über unsere Studiengänge und Ihre Karrierech
 category: aktuelles
 tagline: Unser Service
 image: /media/news/news_15.jpg
+department: casc
+
 ---
 
 Auch in diesem Jahr sind wir auf den folgenden BFD-Karrieremesseveranstaltungen mit einem Infostand vor Ort:

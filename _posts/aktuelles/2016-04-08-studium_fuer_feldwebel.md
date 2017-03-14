@@ -6,6 +6,8 @@ description: Im Bachelor-Studiengang Wirtschaftsingenieurwesen der Universität 
 category: aktuelles
 tagline: Unser Service
 image: /media/news/news_13.jpg
+department: casc
+
 ---
 
 Die Teilnehmerinnen und Teilnehmer beginnen nun mit der Vorbereitungsphase, einem halbjährigen, eigens für das Bachelor-Studium konzipierten Fachkurs in den Fächern Mathematik, Englisch und Physik, der noch während der Dienstzeit absolviert wird. „Hier wird in Mathematik tatsächlich mit den Grundlagen angefangen“, berichtet Eugen Kalitka, Teilnehmer im neuen Jahrgang.

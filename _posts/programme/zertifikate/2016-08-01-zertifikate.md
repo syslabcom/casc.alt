@@ -9,6 +9,7 @@ hero_image: /media/programme/14_zertifikate.jpg
 hero_title: Zertifikate
 footer: Programme
 contact_person: dr_nicol_matzner_vogel
+department: casc
 ---
  
 

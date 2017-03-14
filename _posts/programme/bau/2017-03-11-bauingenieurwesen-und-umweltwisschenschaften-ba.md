@@ -5,8 +5,8 @@ name: bauingenieurwesen_und_umweltwisschenschaften_ba
 description: "Eine größere Zukunft gestalten. Vier Jahre – vier Studienprofile – beste Berufsaussichten"
 category: programme
 tagline: 
-hero_image:  /media/programme/2_mba_international_management.jpg
-img: /media/programme/3_mba_public_management.jpg
+hero_image: /media/werkstoffe/bauing-ba.png
+img: /media/werkstoffe/bauing-ba.png
 hero_title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
 parent: Studiengänge
 backlink: "/programme#studiengaenge"

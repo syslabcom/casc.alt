@@ -6,6 +6,8 @@ description: Die Universität der Bundeswehr München und die ESB Reutlingen fei
 category: aktuelles
 tagline: Unser Service
 image: /media/news/news_19.jpg
+department: casc
+
 ---
 
 Ein Highlight der Studienzeit durfte am 8. April 2016 der diesjährige Absolventenjahrgang des MBA-Studiengangs „International Management“ erleben. Bei der Absolventenfeier in Siegertsbrunn im Süden Münchens wurden 49 Absolventinnen und Absolventen des von der Universität der Bundeswehr

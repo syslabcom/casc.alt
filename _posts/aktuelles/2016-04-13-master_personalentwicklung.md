@@ -6,6 +6,7 @@ description: Am 1. April 2016 wurden die Studierenden von der akademischen Leite
 category: aktuelles
 tagline: Unser Service
 image: /media/news/news_12.jpg
+department: casc
 ---
 
 Die Studierendengruppe besteht in diesem Jahr aus Berufstätigen der freien Wirtschaft, ausscheidenden Zeitoffizieren sowie zivilen Mitarbeitern der Universität der Bundeswehr München. Sie alle nutzen die Chance einer hochkarätigen akademischen Weiterbildung und werden den Master "Personalentwicklung" innerhalb von 2 Jahren und 3 Monaten berufsbegleitend ablegen.

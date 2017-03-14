@@ -82,23 +82,8 @@
     <div id="global-navigation" class="header-nav">
       <div class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-2-1px">
         <div class="container">
-        {% if page.department == 'Rechenzentrum' %}
-          {% include navigation-rz.html  %}
-        {% elsif page.department == 'UniBwM' %}
-          {% include navigation-unibwm.html  %}
-        {% elsif page.department == 'home' %}
-          {% include navigation-home.html  %}
-        {% elsif page.department == 'bau' %}
-          {% include navigation-bau.html  %}
-        {% elsif page.department == 'bw' %}
-          {% include navigation-bw.html  %}
-        {% elsif page.department == 'studber' %}
-          {% include navigation-studber.html  %}
-        {% elsif page.department == 'kommsite' %}
-          {% include navigation-kommsite.html  %}
-        {% else %}
-          {% include navigation.html  %}
-        {% endif %}
+        <!-- EDIT _data/navigation.yml fuer neue Navigationen!! -->
+          {% include navigation/navigation.html %}
         </div>
       </div>
     </div>
@@ -112,18 +97,17 @@
    {{ content }}
    
 
-
-
-
   <!-- end main-content -->
   </div>
 
   <!-- Footer -->
   <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="">
-{{ page.department }}
+        {{ page.department }}
         {% if page.department == 'Rechenzentrum' %}
           {% include footer-rz.html %}
         {% elsif page.department == 'bau' %}
+          {% include footer-bau.html %}
+        {% elsif page.department == 'werkstoffe' %}
           {% include footer-bau.html %}
         {% elsif page.department == 'kommsite' %}
           {% include footer-kommsite.html %}

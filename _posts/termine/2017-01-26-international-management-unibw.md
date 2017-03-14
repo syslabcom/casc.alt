@@ -9,5 +9,6 @@ start: 2017-01-26
 end: 2017-01-26
 description: 
 category: informationsveranstaltung
+department: casc
 ---
 

@@ -9,5 +9,6 @@ start: 2017-01-20
 end: 2017-01-20
 description: 
 category: messetermin
+department: casc
 ---
 
