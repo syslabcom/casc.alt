@@ -6,5 +6,6 @@ category: termine
 show_category: messetermin
 hero_image: /media/events/messetermine.jpg
 hero_title: Messetermine
+department: casc
 ---
 

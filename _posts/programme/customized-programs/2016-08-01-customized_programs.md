@@ -9,6 +9,7 @@ hero_image: /media/programme/15_customized_programs.jpg
 hero_title: Customized Programs
 footer: Programme
 contact_person: dr_nicol_matzner_vogel
+department: casc
 ---
 
 

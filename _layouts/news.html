@@ -15,7 +15,7 @@ layout: generic
         <div id="grid" class="gallery-isotope grid-3 masonry gutter-30 clearfix">
 
           {% for item in site.posts %}
-            {% if item.layout == 'news-item' and count < 12 %}
+            {% if item.layout == 'news-item' and count < 12 and item.department == page.department %}
               <!-- Blog Item Start -->
               <div class="gallery-item">
                 <article class="post clearfix mb-30 bg-lighter">

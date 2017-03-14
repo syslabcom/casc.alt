@@ -9,6 +9,7 @@ hero_image: /media/programme/13_modulstudium.jpg
 hero_title: Modulstudium
 footer: Programme
 contact_person: dr_nicol_matzner_vogel
+department: casc
 ---
 
 

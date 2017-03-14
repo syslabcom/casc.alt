@@ -6,6 +6,7 @@ description: Die Universität der Bundeswehr München und das Weiterbildungsinst
 category: aktuelles
 tagline: Unser Service
 image: /media/4.jpg
+department: casc
 ---
 
 An der zehnten Ausgabe dieser Veranstaltung haben 47 junge Ingenieure, Informatiker und Naturwissenschaftler aus 17 verschiedenen Ländern aus aller Welt teilgenommen. Die 21 vortragenden Dozenten, alles weltbekannte Professoren und Spezialisten auf ihrem Gebiet, kamen aus neun Ländern angereist, um mit den Teilnehmerinnen und Teilnehmern zwei Wochen lang intensiv zu arbeiten. 
