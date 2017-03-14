@@ -86,6 +86,7 @@
         {% if page.department %}
           {% include navigation/navigation.html %}
         {% else %}
+          <!-- Alter zustand von CASC -->
           {% include navigation.html  %}
         {% endif %}
         </div>
@@ -101,15 +102,12 @@
    {{ content }}
    
 
-
-
-
   <!-- end main-content -->
   </div>
 
   <!-- Footer -->
   <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="">
-{{ page.department }}
+        {{ page.department }}
         {% if page.department == 'Rechenzentrum' %}
           {% include footer-rz.html %}
         {% elsif page.department == 'bau' %}
