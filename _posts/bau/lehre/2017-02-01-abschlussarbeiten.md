@@ -5,8 +5,8 @@ name: werkstoffe-abschlussarbeiten
 description: Bauingenieure und -ingenieurinnen verändern die Welt und arbeiten maßgeblich beim Schutz unserer Umwelt mit. Sie beeinflussen unser Leben stärker als viele andere Berufe. Denn Infrastruktureinrichtungen und Bauwerke sind essentieller Bestandteil jeder Zivilisation.
 category: bau
 department: bau
-hero_image: /media/hero/klaeranlage.jpg
-hero_title: Berufsfeld Bauingenieur
+hero_image: /media/bau/abschlussarbeiten.jpg
+hero_title: Abschlussarbeiten
 section: BAU
 color_scheme: orange
 ---

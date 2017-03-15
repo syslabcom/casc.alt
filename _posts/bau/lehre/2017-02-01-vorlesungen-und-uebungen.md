@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Vorlesungen und Übungen
-hero_image: /media/hero/klaeranlage.jpg
+hero_image: /media/bau/vorlesungen-hero.jpg
 hero_title: Vorlesungen und Übungen
 section: BAU
 color_scheme: orange
