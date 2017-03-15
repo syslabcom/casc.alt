@@ -517,7 +517,12 @@ section.gradient:after {
     white-space: normal ;
 }
 
-
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width:95%;
+  overflow:hidden;
+}
 /* Sections */
 
 section.clients img {
@@ -851,19 +856,21 @@ body.category-antrag .main-content #overview {
   border: 1px solid #cccccc;
   background: #f8f8f8;
   padding: 10px;
+  color: #666666;
   border-radius: 4px;
   margin-bottom: 10px;
 }
 .business-card .profile-img {
   width: 100px;
 }
-.business-card p {
+.business-card div {
   color: #666666;
+}
+.business-card p {
   font-size: 17px;
 
 }
 .business-card .byline {
-  color: #666666;
   font-size: 14px;
 }
  
