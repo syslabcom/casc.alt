@@ -13,7 +13,7 @@ color_scheme: orange
 	  <tbody>
 		<tr>
 		  <td colspan="2">
-			<h1>BA - Veranstaltungen</h1>
+			<h3>BA - Veranstaltungen</h3>
 		  </td>
 		</tr>
 		<tr>
@@ -21,7 +21,7 @@ color_scheme: orange
 		  <td>
 			<p><br>
 			  <br>
-			  <span class="link-pdf-js">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/stundenplan-ht-202016-final.pdf">Vorlesungsplan für das 1. Trimester (Herbsttrimester)</a></p>
+			  <span class="fa fa-file-pdf-o">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/stundenplan-ht-202016-final.pdf">Vorlesungsplan für das 1. Trimester (Herbsttrimester)</a></p>
 		  </td>
 		</tr>
 		<tr>
@@ -29,7 +29,7 @@ color_scheme: orange
 		  <td>
 			<p><br>
 			  <br>
-			  <span class="link-pdf-js">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/stundenplan-wt-2017-081216.pdf">Vorlesungsplan für das 2. Trimester (Wintertrimester)</a></p>
+			  <span class="fa fa-file-pdf-o">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/stundenplan-wt-2017-081216.pdf">Vorlesungsplan für das 2. Trimester (Wintertrimester)</a></p>
 		  </td>
 		</tr>
 		<tr>
@@ -37,7 +37,7 @@ color_scheme: orange
 		  <td>
 			<p><br>
 			  <br>
-			  <span class="link-pdf-js">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/fruhjahrstrimester-2016-1.pdf">Vorlesungsplan für das 3. Trimester (Frühjahrstrimester)</a></p>
+			  <span class="fa fa-file-pdf-o">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/fruhjahrstrimester-2016-1.pdf">Vorlesungsplan für das 3. Trimester (Frühjahrstrimester)</a></p>
 		  </td>
 		</tr>
 		<tr>
@@ -46,7 +46,7 @@ color_scheme: orange
 		</tr>
 		<tr>
 		  <td colspan="2">
-			<h1>MA - Veranstaltungen</h1>
+			<h3>MA - Veranstaltungen</h3>
 		  </td>
 		</tr>
 		<tr>
@@ -54,7 +54,7 @@ color_scheme: orange
 		  <td>
 			<p><br>
 			  <br>
-			  <span class="link-pdf-js">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/150407-vorlesungstermine-leichte-und-transparente.pdf">Vorlesungsplan für das 9. Trimester (Frühjahrstrimester)</a></p>
+			  <span class="fa fa-file-pdf-o">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/150407-vorlesungstermine-leichte-und-transparente.pdf">Vorlesungsplan für das 9. Trimester (Frühjahrstrimester)</a></p>
 		  </td>
 		</tr>
 		<tr>
@@ -62,7 +62,7 @@ color_scheme: orange
 		  <td>
 			<p><br>
 			  <br>
-			  <span class="link-pdf-js">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/ht2014-sonderbetone.pdf">Vorlesungsplan für das 10. Trimester (Herbstrimester)</a></p>
+			  <span class="fa fa-file-pdf-o">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/ht2014-sonderbetone.pdf">Vorlesungsplan für das 10. Trimester (Herbstrimester)</a></p>
 		  </td>
 		</tr>
 		<tr>
@@ -70,14 +70,10 @@ color_scheme: orange
 		  <td>
 			<p><br>
 			  <br>
-			  <span class="link-pdf-js">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/sonderbetone-wt-2015-1.pdf">Vorlesungsplan für das 11. Trimester (Wintertrimester)</a></p>
+			  <span class="fa fa-file-pdf-o">&nbsp;</span><a href="https://www.unibw.de/werkstoffe/lehre/vorlesungen/sonderbetone-wt-2015-1.pdf">Vorlesungsplan für das 11. Trimester (Wintertrimester)</a></p>
 		  </td>
 		</tr>
 	  </tbody>
     </table>
-
-    <p>&nbsp;</p>
-
-    <p style="text-align: right;">&nbsp;</p>
   </div>
 </div>
