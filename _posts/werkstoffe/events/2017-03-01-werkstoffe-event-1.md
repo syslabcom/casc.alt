@@ -25,6 +25,6 @@ Unter Anderem mischten sie eigenständig Mörtel und Leichtbeton an und konnten 
 
 Weitere Infos gibt es hier:
 
-http://www.unibw.de/willkommen/startseite-meldungen/haelt-die-bruecke-auch
+<a href="https://www.unibw.de/willkommen/startseite-meldungen/haelt-die-bruecke-auch">"https://www.unibw.de/willkommen/startseite-meldungen/haelt-die-bruecke-auch"</a> 
 
-und auf folgender Homepage: http://www.maedchenmachentechnik.de
+und auf folgender Homepage: <a href="http://www.maedchenmachentechnik.de/">"http://www.maedchenmachentechnik.de/"</a> 
