@@ -6,7 +6,7 @@ layout: generic
   <div class="container">
     <div class="row">
 
-      <img class="col-md-3 col-sm-5 img-responsive hidden-xs" src="{{ page.image }}">
+      <img class="col-md-3 col-sm-5 img-responsive img-circle hidden-xs" src="{{ page.image }}">
 
       <div class="col-md-5 col-md-offset-1 col-sm-offset-1 col-sm-5 img-xs">
         <img class="img-responsive visible-xs" src="{{ page.image }}">
@@ -83,6 +83,10 @@ layout: generic
       <ul id="myTab" class="nav nav-tabs boot-tabs">
         <li class="active" role="presentation"><a href="#werdegang" data-toggle="tab">Werdegang</a></li>
         <li><a href="#lehrveranstaltungen" data-toggle="tab">Lehrveranstaltungen</a></li>
+        <li><a href="#forschungsbereiche" data-toggle="tab">Forschungsbereiche</a></li>
+        <li><a href="#aktuelleforschungsprojekte" data-toggle="tab">Aktuelle Forschungsprojekte</a></li>
+        <li><a href="#konferenzen" data-toggle="tab">Konferenzen</a></li>
+        <li><a href="#funktionen" data-toggle="tab">Funktionen</a></li>
       </ul>
       <div id="myTabContent" class="tab-content">
         <div class="tab-pane fade in active" id="werdegang">
@@ -90,6 +94,18 @@ layout: generic
         </div>
         <div class="tab-pane fade" id="lehrveranstaltungen">
           {% include table-3col.html %}
+        </div>
+        <div class="tab-pane fade" id="forschungsbereiche">
+          Leer
+        </div>
+        <div class="tab-pane fade" id="aktuelleforschungsprojekte">
+          Leer
+        </div>
+        <div class="tab-pane fade" id="konferenzen">
+          Leer
+        </div>
+        <div class="tab-pane fade" id="funktionen">
+          Leer
         </div>
       </div>
     </div>

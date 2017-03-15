@@ -1,10 +1,6 @@
 ---
 layout: article
 title: Vorlesungen und Übungen
-name: vorlesungen-und-uebungen
-category: bau
-department: bau
-name: bau-berufsfeld
 hero_image: /media/hero/klaeranlage.jpg
 hero_title: Vorlesungen und Übungen
 section: BAU
