@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@function blacken($color, $percent) {
+    @return mix(black, $color, $percent);
+}
+
+@function whiten($color, $percent) {
+    @return mix(white, $color, $percent);
+}
+
+// Project components
+// @import "components/activity-stream";
+// @import "businesscard";

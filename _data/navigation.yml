@@ -7,16 +7,19 @@
   items:
   - title: Institut
     id: institut
-    url: werkstoffe-institut.html
+    url: werkstoffe_institut.html
+    children:
+    - title: Mitarbeiter
+      url: werkstoffe_institut_mitarbeiter.html
   - title: Lehre
     id: lehre
-    url: werkstoffe-lehre.html
+    url: werkstoffe_lehre.html
   - title: Forschung
     id: forschung 
-    url: werkstoffe-forschung.html
+    url: werkstoffe_forschung.html
   - title: Kompetenzen
     id: kompetenzen
-    url: werkstoffe-kompetenzen.html
+    url: werkstoffe_kompetenzen.html
 
 #############################################################################
 # Site RECHENZENTRUM

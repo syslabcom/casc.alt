@@ -4,7 +4,7 @@ title: "Aktiv. Attraktiv. Anders."
 name: werkstoffe-news-1
 description:  "Anlässlich 22 Jahren Gleichstellung hat die zivile Gleichstellungsstelle mit dem Institut für Journalistik eine Broschüre erstellt."
 category: aktuelles
-image: /media/werkstoffe/nancy-beuntner.png
+image: /media/werkstoffe/nancy_beuntner.png
 department: werkstoffe
 ---
 
