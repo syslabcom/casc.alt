@@ -1,7 +1,7 @@
 ---
 layout: bio
 title: Univ.-Prof. Dr.-Ing. Christian Jacoby
-position: Sekretariat
+position: Studiendekan
 name: christian_jacoby
 hero_overline: INSTITUT FÜR VERKEHRSWESEN UND RAUMPLANUNG (IVR)
 hero_title: Univ.-Prof. Dr.-Ing. Christian Jacoby
