@@ -9,6 +9,9 @@ start: 2015-08-10
 end: 2015-08-12
 description: Ricarda Gmür, Absolventin der Hochschule München erhält für ihre Bachelorarbeit „Alterungseffekte calcinierter Tone und deren Einfluss auf die Eigenschaften in zementären Systemen“ den Hochschulpreis des Bayerischen Baugewerbes 2014.
 category: werkstoffe
+department: werkstoffe
+img: /media/werkstoffe/maedchen-machen-technik.jpg
+
 ---
 
 Ricarda Gmür, Absolventin der Hochschule München erhält für ihre Bachelorarbeit „**Alterungseffekte calcinierter Tone und deren Einfluss auf die Eigenschaften in zementären Systemen**“ den <a href="http://www.hochschulpreis-bayern.de/Start_I5641.whtml">"den Hochschulpreis des Bayerischen Baugewerbes 2014"</a>. Der Preis ist mit 3.000 Euro dotiert.

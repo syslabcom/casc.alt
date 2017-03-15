@@ -9,6 +9,9 @@ start: 2015-08-10
 end: 2015-08-12
 description: Eine technische und sportliche Herausforderung. Die 14. Deutsche Betonkanu-Regatta in Nürnberg wird von der BetonMarketing Deutschland und der BetonMarketing Süd gestaltet. 
 category: werkstoffe
+department: werkstoffe
+img: /media/werkstoffe/maedchen-machen-technik.jpg
+
 ---
 
 *Eine technische und sportliche Herausforderung*

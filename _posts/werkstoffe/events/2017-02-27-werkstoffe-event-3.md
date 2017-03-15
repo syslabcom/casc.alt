@@ -9,6 +9,9 @@ start: 2015-08-10
 end: 2015-08-12
 description: Mädchen machen Technik ist ein Förderprogramm, das Mädchen zwischen 10 und 16 Jahren in den Schulferien verschiedenste technische und naturwissenschaftliche Einblicke geben soll.
 category: werkstoffe
+department: werkstoffe
+img: /media/werkstoffe/maedchen-machen-technik.jpg
+
 ---
 
 Mädchen machen Technik ist ein Förderprogramm, das Mädchen zwischen 10 und 16 Jahren in den Schulferien verschiedenste technische und naturwissenschaftliche Einblicke geben soll.

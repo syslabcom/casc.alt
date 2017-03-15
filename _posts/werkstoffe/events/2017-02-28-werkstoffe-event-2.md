@@ -9,6 +9,9 @@ start: 2015-08-10
 end: 2015-08-12
 description: Ein Erfahrungsbericht von Elena Eden (auf www.schollz.youthpress.de) "Die letzten 365 Tage vergingen wie im Flug.
 category: werkstoffe
+department: werkstoffe
+img: /media/werkstoffe/maedchen-machen-technik.jpg
+
 ---
 
 
