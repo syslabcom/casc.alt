@@ -661,11 +661,12 @@ body.category-antrag .main-content #overview {
   background-color: #ff6600;
 }
 
+/* WHy is that?
 .media-body,
 .media-body h3 {
   color: #fff;
 }
-
+*/
 .owl-carousel .owl-controls .owl-next {
   right: -40px;
 }

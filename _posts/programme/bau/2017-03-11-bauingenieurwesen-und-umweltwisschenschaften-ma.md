@@ -10,7 +10,7 @@ parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: geralt_siebert
 footer: Programme
-slider: casc
+slider: bau
 category: programme
 department: bau
 ---

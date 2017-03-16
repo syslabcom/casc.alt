@@ -11,7 +11,7 @@ img: /media/werkstoffe/me.jpg
 backlink: "/programme#studiengaenge"
 contact_name: geralt_siebert
 footer: Programme
-slider: casc
+slider: bau
 department: bau
 ---
 
