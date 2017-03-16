@@ -574,7 +574,7 @@ a.anchor {
 #header .header-nav div.header-nav-wrapper {
     background-color: white;
 }
-#header .header-nav div.header-nav-wrapper .active a {
+#header .header-nav div.header-nav-wrapper .active > a {
     border-bottom: 6px solid #da670f;
     border-radius: 0 !important;
     padding: 4px 4px;
