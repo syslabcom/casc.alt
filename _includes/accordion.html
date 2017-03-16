@@ -1,0 +1,24 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="single-service">
+
+          <div id="accordion1" class="panel-group accordion">
+            {% for item in page.accordion %}
+            {% assign elems = site.posts | where:"name",item.name %}
+            <div class="panel">
+              <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ elems[0].title }} </a> </div>
+              <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+                <div class="panel-content">
+                  <p>{{ elems[0].content | markdownify }}</p>
+                </div>
+              </div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

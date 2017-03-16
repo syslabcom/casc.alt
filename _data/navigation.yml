@@ -83,10 +83,8 @@
     id: studiengaenge
     url: #
     children:
-    - title: BA Bauingenieurwesen und Umweltwissenschaften
-      url: bau_studiengang_ba.html
     - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
-      url: bauingenieurwesen-und-umweltwisschenschaften-ba.html
+      url: bau_studiengang_ba.html
     - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften MA
       url: bauingenieurwesen-und-umweltwisschenschaften-ma.html
     - title: Mathematical Engineering BA

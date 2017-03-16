@@ -1,8 +1,31 @@
-<div>
-  <h3>Downloads</h3>
-  <ul class="list angle-double-right">
-    <li><a href="#">Programmheft</a></li>
-    <li><a href="#">Flyer</a></li>
-    <li><a href="#">Pressekit</a></li>
-  </ul>
-</div>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="single-service">
+          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Downloads </h4>
+
+          {% assign tabs = page.downloads | group_by:"tab" %}
+          <ul id="myTab" class="nav nav-tabs boot-tabs">
+          	{% for tab in tabs %}
+          	<li{% if forloop.index == 1 %} class="active" {% endif %}><a href="#tab-{{ forloop.index }}" data-toggle="tab">{{ tab.name }}</a></li>
+          	{% endfor %}
+          </ul>
+		  <div id="myTabContent" class="tab-content">
+		  	{% for tab in tabs %}
+            <div class="tab-pane fade{% if forloop.index == 1 %} in active{% endif %}" id="tab-{{ forloop.index }}">
+              <ul class="list-icon">
+              {% for item in tab.items %}	
+                <li><i class="fa fa-download"></i> <a href="{{ item.url }}">{{ item.title }}</a></li>
+              {% endfor %}
+              </ul>
+            </div>
+            {% endfor %}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>   
+

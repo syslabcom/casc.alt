@@ -6,7 +6,7 @@
     {% for item in site.posts %}
       {% if item.name == include.pagename %}
       <div class="col-md-12 col-sm-12">
-           {{ item.content }} 
+           {{ item.content | markdownify  }} 
       </div>
       {% endif %}
     {% endfor %}
