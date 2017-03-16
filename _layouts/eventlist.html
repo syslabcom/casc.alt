@@ -9,9 +9,8 @@ parent: Aktuelles
 
 
     <div class="row">
-      <div class="col-md-9 blog-pull-right">
-
-        <h2>{{ page.hero_title }}</h2>
+      <div class="col-md-12" >
+        <h2 class="line-bottom mt-0 mb-30">{{ page.hero_title }}</h2>
         <div class="upcoming-events bg-white-f3 mb-20">
           {% assign events = site.posts | where:"layout", "event" | where:"category",page.show_category %}
           {% for item in events %}
