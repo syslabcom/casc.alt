@@ -10,7 +10,7 @@ end: 2015-08-12
 description: Die Universität der Bundeswehr München veranstaltet regelmäßig einen Tag der offenen Tür..
 category: werkstoffe
 department: werkstoffe
-img: /media/werkstoffe/maedchen-machen-technik.jpg
+img: /media/werkstoffe/maedchen-machen-technik4.jpeg
 
 ---
 
