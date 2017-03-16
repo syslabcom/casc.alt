@@ -1,5 +1,5 @@
 ---
-layout: modulseite
+layout: page
 title: Bereichsseite
 description: Modulseite mit Introtext, Seitenteasern und Institutsvorschau in Gallerieform. 
 department: modulseite
