@@ -441,8 +441,9 @@ section.inner-header .container .section-content {
   opacity: 0.95;
   padding: 10px 40px;
 }
-section.inner-header.no-hero {
-    height: 220px;
+section.inner-header.no-hero, 
+section.inner-header.no-hero .container {
+    height: 200px;
 }
 section.inner-header .title {
     font-size: 36px;
