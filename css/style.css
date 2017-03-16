@@ -48,7 +48,12 @@ a:focus {
     color: #23527c;
     text-decoration: underline;
 }
-
+.breadcrumb a,
+.breadcrumb a:hover,
+.breadcrumb a:focus {
+    color: #808080;
+    text-decoration: none;
+}
 /* Color schemes */
 .unibworange-text { color: #ff6600; }
 .unibworange-background { background-color: #ff6600; }
