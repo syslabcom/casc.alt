@@ -11,10 +11,12 @@
     children:
     - title: Mitarbeiter
       url: werkstoffe_institut_mitarbeiter.html
-    - title: Links
-      url: werkstoffe_institut_links.html
     - title: Kontakt & Anfahrt
       url: werkstoffe-institut-kontakt.html
+    - title: Termine
+      url: werkstoffe-termine.html
+    - title: Links
+      url: werkstoffe_institut_links.html
   - title: Lehre
     id: lehre
     url: werkstoffe_lehre.html

@@ -13,7 +13,7 @@ parent: Aktuelles
 
         <h2>{{ page.hero_title }}</h2>
         <div class="upcoming-events bg-white-f3 mb-20">
-          {% assign events = site.posts | where:"category",page.show_category %}
+          {% assign events = site.posts | where:"layout", "event" | where:"category",page.show_category %}
           {% for item in events %}
           <div class="row">
             <div class="col-sm-4 pr-0 pr-sm-15">
