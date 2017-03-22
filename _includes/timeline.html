@@ -1,0 +1,37 @@
+<style>
+
+.working-process li a.mode-active {
+  color: #f60;
+  border-width: 2px;
+}
+
+.working-process li a.mode-done {
+  background: #333333 none repeat scroll 0 0;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+</style>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="heading-line-bottom text-center mb-60">
+          <h4>{{ include.module_title }}</h4>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <ul class="working-process">
+        {% assign milestones = page.deadlines %}
+        {% for milestone in milestones %}
+        <li class="col-xs-12 col-sm-2">
+          <a href="{{ milestone.link }}" class="{{ milestone.mode }}"><i class="fa {{ milestone.icon }}"></i></a>
+          <h5>{{ milestone.title }}</h5>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,4 +1,4 @@
-<section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="/media/werkstoffe/events.jpg" style="background-image: url(&quot;/media/werkstoffe/events.jpg&quot;); background-position: 50% 32px;">
+<section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="{{ include.bg-image }}" style="background-image: url(&quot;{{ include.bg-image }}&quot;); background-position: {{ include.bg-position }};">
   <div class="container pb-50 pt-80">
     <div class="section-content">
       <div class="row">
@@ -35,7 +35,6 @@
         {% assign count = count | plus: 1 %}
       {% endif %}
     {% endfor %}
-
 
       </div>
       <div class="row">
