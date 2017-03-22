@@ -6,7 +6,7 @@ description: Öffentlichkeitsarbeit, interne Kommunikation, Studieninformation
 image: "/media/people/vogel_4x4.jpg"
 parent: Team
 typ: staff
-email: 
-phone: 
+email: achim.vogel@unibw.de
+phone: +49 89 6004-3244
 ---
 
