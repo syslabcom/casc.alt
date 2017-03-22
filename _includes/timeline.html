@@ -18,11 +18,12 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <div class="heading-line-bottom text-center mb-60">
-          <h4>{{ include.module_title }}</h4>
+          <h2>{{ include.module_title }}</h2>
         </div>
+        <p>Das Webrelaunch Projekt wurde am xx.xx.2016 von XXX gestartet. Die Umsetzung hat bereits begonnen und läuft parallel zur Verfeinerung der Anforderungsanalyse. Die ersten Sites sollen im Herbst umgesetzt sein.</p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mt-60 mb-60">
       <ul class="working-process">
         {% assign milestones = page.deadlines %}
         {% for milestone in milestones %}
@@ -32,6 +33,13 @@
         </li>
         {% endfor %}
       </ul>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-right">
+        <div class="">
+          <p><a class="btn btn-xl btn-default" href="kommsite-verlauf.html">Details zum Projektverlauf…</a></p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
