@@ -6,6 +6,6 @@ category: kommsite
 department: kommsite
 section: kommsite
 img: "/media/kommsite/plone.png"
-description: Auf dieser Seite wird erklärt, wie das CMS der neuen UniBW Website funktioniert. 
+description: So funktioniert das CMS der neuen Website. 
 ---
 
