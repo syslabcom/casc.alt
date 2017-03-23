@@ -3,42 +3,22 @@
     <div class="row">
       <div class="col-md-5">
         <h3 class="mt-5 text-white">Aktuelle Updates zum Webrelaunch</h3>
-        <p class="text-white">Tragen Sie sich hier ein und wir senden Ihnen Updates zum Verlauf.<br />
+        <p class="text-white">Tragen Sie sich hier ein und wir senden Ihnen Updates zum Verlauf.<br /><br />
         Damit Sie stets gut informiert sind, wie es weitergeht!</p>
       </div>
       <div class="col-md-6 col-md-offset-1">
         
         <!-- Mailchimp Subscription Form-->
-        <form id="mailchimp-subscription-form11" class="newsletter-form mt-30" novalidate="true">
+        <!--form id="mailchimp-subscription-form11" class="newsletter-form mt-30" novalidate="true">
           <div class="input-group">
             <input id="mce-EMAIL" data-height="45px" class="form-control input-lg" placeholder="Emailadresse" name="EMAIL" value="" style="height: 45px;" type="email">
             <span class="input-group-btn">
               <button type="submit" class="btn btn-gray btn-theme-color-2 text-white btn-xl mt-0 hvr-grow-rotate" data-height="45px" style="height: 45px;">Anmelden <i class="fa fa-envelope-o"></i></button>
             </span>
           </div>
-        </form> 
+        </form--> 
+        <iframe class="ktv2" src="https://klicktipp.s3.amazonaws.com/userimages/47103/forms/70022/1m5mz13fsz8z5b2c.html" style="position:relative;display:inline-block;border:none;background:transparent none no-repeat scroll 0 0;margin:0;" width="300" height="250" scrolling="no"></iframe>
 
-        <!-- Mailchimp Subscription Form Validation-->
-        <script type="text/javascript">
-          $('#mailchimp-subscription-form11').ajaxChimp({
-              callback: mailChimpCallBack,
-              url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
-          });
-
-          function mailChimpCallBack(resp) {
-              // Hide any previous response text
-              var $mailchimpform = $('#mailchimp-subscription-form11'),
-                  $response = '';
-              $mailchimpform.children(".alert").remove();
-              if (resp.result === 'success') {
-                  $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-              } else if (resp.result === 'error') {
-                  $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
-              }
-              $mailchimpform.prepend($response);
-          }
-        </script>
-        
       </div>
     </div> 
   </div>       
