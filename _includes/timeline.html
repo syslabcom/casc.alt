@@ -1,0 +1,45 @@
+<style>
+
+.working-process li a.mode-active {
+  color: #f60;
+  border-width: 2px;
+}
+
+.working-process li a.mode-done {
+  background: #333333 none repeat scroll 0 0;
+  border: 1px solid transparent;
+  color: #fff;
+}
+
+</style>
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="heading-line-bottom text-center mb-60">
+          <h2>{{ include.module_title }}</h2>
+        </div>
+        <p>Das Webrelaunch Projekt wurde am xx.xx.2016 von XXX gestartet. Die Umsetzung hat bereits begonnen und läuft parallel zur Verfeinerung der Anforderungsanalyse. Die ersten Sites sollen im Herbst umgesetzt sein.</p>
+      </div>
+    </div>
+    <div class="row mt-60 mb-60">
+      <ul class="working-process">
+        {% assign milestones = page.deadlines %}
+        {% for milestone in milestones %}
+        <li class="col-xs-12 col-sm-2">
+          <a href="{{ milestone.link }}" class="{{ milestone.mode }}"><i class="fa {{ milestone.icon }}"></i></a>
+          <h5>{{ milestone.title }}</h5>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-right">
+        <div class="">
+          <p><a class="btn btn-gray btn-theme-colored btn-lg" href="kommsite-verlauf.html">Details zum Projektverlauf <i class="fa fa-arrow-circle-right"></i></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

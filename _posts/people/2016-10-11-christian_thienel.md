@@ -2,11 +2,8 @@
 layout: bio
 title: Prof. Dr.-Ing. Karl-Christian Thienel
 position: Werkstoffe des Bauwesens
+description: Werkstoffe des Bauwesens
 name: christian_thienel
-hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
-hero_title: Prof. Dr.-Ing. Karl-Christian Thienel
-description: 
-category: 
 hero_overline: Institut für Werkstoffe des Bauwesens
 hero_title: Prof. Dr.-Ing. Karl-Christian Thienel
 image: "/media/people/karl-christian-thienel.jpg"

@@ -1,4 +1,4 @@
-<section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="/media/werkstoffe/events.jpg" style="background-image: url(&quot;/media/werkstoffe/events.jpg&quot;); background-position: 50% 32px;">
+<section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="{{ include.bg-image }}" style="background-image: url(&quot;{{ include.bg-image }}&quot;); background-position: {{ include.bg-position }};">
   <div class="container pb-50 pt-80">
     <div class="section-content">
       <div class="row">
@@ -36,11 +36,10 @@
       {% endif %}
     {% endfor %}
 
-
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-          <p class="text-right"><a href="werkstoffe-termine.html" class="btn btn-gray btn-theme-color-2 text-white">Alle Veranstaltungen anzeigen <i class="fa fa-arrow-circle-right"></i></a></p>
+          <p class="text-right"><a href="werkstoffe-termine.html" class="btn btn-gray btn-lg">Alle Veranstaltungen anzeigen <i class="fa fa-arrow-circle-right"></i></a></p>
         </div>
       </div>
     </div>

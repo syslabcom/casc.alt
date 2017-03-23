@@ -1,37 +1,64 @@
 ---
 layout: generic
-title: Kommunikationswebsite
-description: 
-category: 
-tagline: 
-hero_image: /media/hero/kommsite_1.png
-hero_title: Der UniBW Web Relaunch
-hero_overline: Alle Infos zum Projekt
+name: kommsite
+title: Webrelaunch für den Cyber-Raum
+hero_image: /media/hero/cyber_7.jpg
+hero_title: Webrelaunch für den Cyber-Raum
+hero_overline: 
 section: Web Relaunch
-color_scheme: orange
+color_scheme: dark-gray
 department: kommsite
 breadcrumbs:
-- UniBW Web Relaunch
+- Web Relaunch
+deadlines:
+- title: Anforderungsworkshop
+  icon: fa-file-text
+  url: /kommsite
+  mode: mode-done
+- title: Designphase
+  icon: fa-paint-brush
+  url: /kommsite
+  mode: mode-done
+- title: Erstellen eines Prototypen
+  icon: fa-picture-o
+  url: /kommsite
+  mode: mode-done
+- title: Anbindung des CMS
+  icon: fa-wrench
+  url: /kommsite
+  mode: mode-active
+#- title: Erstellung erster Sites
+#  icon: fa-edit
+#  url: /kommsite
+#  mode: mode-inactive
+- title: Integration der neuen Suche
+  icon: fa-search
+  url: /kommsite
+  mode: mode-inactive
+- title: Launch
+  icon: fa-rocket
+  url: /kommsite
+  mode: mode-inactive
+team:
+- name: christian_thienel
+  role: Projektmanager
+- name: achim_vogel
+  role: Presse & Kommunikation
+- name: ruth_blachnik
+  role: Technische Leitung
+team-add: kommsite-team-info
+accordion:
+- name: kommsite-howto-1
+- name: kommsite-howto-2
+- name: kommsite-howto-3
 ---
 
+{% include subscribe-widget.html pagename="kommsite-missionstatement" color_scheme="xdark-gray"%}
 
-{% include news-teaser-img-right.html %}
+{% include timeline.html module_title="Projektplan"%}
 
+{% include events-listing.html bg-image="/media/hero/cyber_7.jpg" bg-position="10% 10%" %}
 
-{% include team-2.html %}
+{% include accordion2.html title="So funktioniert's" description="Wie funktioniert das CMS der neuen UniBW Website? Wo muss ich meine Inhalte einpflegen und wie kommen sie auf die einzelnen Seiten? Wer erklärt mir das Konzept der Modulseiten und Module, die die Inhalte darstellen? Klicken Sie auf die einzelnen Bilder, um mehr über die Funktionsweise des neuen CMS zu erfahren. Tutorials, Videos und HowTos zeigen erste Schritte im neuen CMS." %}
 
-<!--
-
-{% include gallery.html title="Institute" color_scheme="gray" %}
-
-{% include page-teaser-img-left.html pagename="bau-studiengang-bwma" color_scheme="light-grey"%}
-
-{% include page-teaser-img-right.html pagename="bau-studiengang-bwma"%}
-
-{% include fulltext-bg-image.html color_scheme="dark-gray" pagename="bw-berufsfeld" %}
-
-{% include team-slider_bw.html color_scheme="gray" title="Professoren" %}
-
-{% include organisationskontakt.html %}
-
--->
+{% include team-plus.html title="Das Team" color_scheme="dark-gray"  %}

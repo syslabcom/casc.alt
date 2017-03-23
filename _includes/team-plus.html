@@ -1,0 +1,20 @@
+<section id="organisationskontakt" class="scheme-{{include.color_scheme}}">
+  <div class="container pb-50">
+    <div class="section-content">
+      <div class="row"> 
+        <div class="col-md-7">
+        {% for person in page.team%}
+          {% include single_inline_person.html person=person.name role=person.role %}
+        {% endfor %}
+        </div>
+        <div class="col-md-5">
+        {% for item in site.posts %}
+        {% if item.name == page.team-add %}
+           {{ item.content | markdownify  }} 
+        {% endif %}
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
