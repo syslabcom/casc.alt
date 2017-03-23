@@ -24,6 +24,12 @@ body {
 .list-icon li {
     font-size: 16px;    
 }
+
+.main-content .container ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
 .font-thesans {
   font-family: 'thesans', sans-serif;
 }
