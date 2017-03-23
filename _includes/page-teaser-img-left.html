@@ -11,6 +11,9 @@
         <a href="{{ item.url }}" class="no-hover">
             <h2 class="mt-0"> {{ item.title }} </h2>
             <h3 class="font-16">{{ item.description }}</h3>
+            {% if include.showcontent %}
+              {{ item.content | markdownify }}
+            {% endif %}
 
             <img class="img-responsive visible-xs" src="{{ item.img }}">
         </a>
