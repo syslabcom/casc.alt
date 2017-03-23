@@ -8,7 +8,7 @@ department: kommsite
 hero_image: /media/hero/kommsite_1.png
 hero_title: Was bisher geschah...
 hero_overline: 
-section: kommsite
+section: Web Relaunch
 color_scheme: orange
 ---
 

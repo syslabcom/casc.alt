@@ -8,7 +8,7 @@ department: kommsite
 hero_image: /media/hero/bw2_hero.jpg
 hero_title: Wie soll die Website funktionieren?
 hero_overline: 
-section: kommsite
+section: Web Relaunch
 color_scheme: orange
 ---
 

@@ -8,9 +8,9 @@ department: kommsite
 hero_image: /media/hero/kommsite_3.jpg
 hero_title: Prozesse und Methoden
 hero_overline: "Projekt: Webrelaunch"
-section: kommsite
+section: Web Relaunch
 color_scheme: gray
-icon_class: pe-7s-helm
+icon_class: pe-7s-edit
 ---
 
 Das Projekt: Webrelaunch ist keineswegs von vornhinen festgelegt. Es gibt eine Vielzahl an Interessenten einzubinden und eine Unmenge an Anforderungen zu sammeln, zu bewerten und einzuordnen. Und es kommen von beiden stets neue hinzu. Das stellt das Projekt und seine Leitung vor größe sich ständig verändernde Herausforderungen.

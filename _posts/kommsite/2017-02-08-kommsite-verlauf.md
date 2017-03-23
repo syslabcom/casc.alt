@@ -5,10 +5,9 @@ name: kommsite-verlauf
 description: 
 category: kommsite
 department: kommsite
-section: kommsite
+section: Web Relaunch
 hero_image: /media/hero/kommsite_projektverlauf.jpg
 hero_title: Projektverlauf
-section: Web Relaunch
 color_scheme: dark-gray
 breadcrumbs:
 - UniBW Web Relaunch
