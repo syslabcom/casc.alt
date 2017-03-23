@@ -1,12 +1,13 @@
 ---
 layout: eventlist
-title: Termine
+title: Termine und Deadlines
 nav_title: Termine
 category: kommsite-termine
 show_category: kommsite
 hero_image: /media/events/infoveranstaltungen.jpg
-hero_title: Termine
+hero_overline: "Projekt: Webrelaunch"
+hero_title: Termine und Deadlines
 department: kommsite
 breadcrumbs:
-- Termine
+- Termine & Deadlines
 ---

@@ -148,7 +148,7 @@
   url: kommsite.html
   items:
   - title: Übersicht
-    id: uebersicht
+    id: kommsite-uebersicht
     url: kommsite.html
   # - title: Ziele
   #   id: ziele
@@ -172,7 +172,7 @@
   #   id: abhaengigkeiten
   #   url: kommsite-abhaengigkeiten.html
   - title: Termine
-    id: termine
+    id: kommsite-termine
     url: kommsite-termine.html
 
 #############################################################################
