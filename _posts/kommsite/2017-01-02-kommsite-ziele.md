@@ -12,44 +12,15 @@ section: kommsite
 color_scheme: orange
 ---
 
-### Bisher
+# Ziele:
 
-* Anforderungsworkshop mit Orange Hills
-* Erstellung eines ersten Prototypen
-* Absegnung der generellen Richtung
-* Umsetzung des Prototypen in ein Baukastensystem (Frontend)
-* Anbindung des CMS (Backend), Anpassung an das Frontend
-
-
-### Als nächstes
-
-* Vereinfachung des Backends
-* Festlegungen im Frontend
-* Erstellung erster Sites
-* Finetuning des Designs
-* Lessons Learned
-* Ausrollen weiterer Sites
-* Integration der neuen Suche
-* Schnittstellen
-
-### Prototyp
-
-<a href="https://prototyp.rz.unibw-muenchen.de"><img src="/media/kommsite/website_proto.png"></a>
-
-### Plone
-
-<a href="webfrontend.rz.unibw-muenchen.de"><img src="/media/kommsite/plone.png"></a>
-
-### Aktuelle Testsites
-
-<img src="/media/kommsite/testsite.png">
-
-* casc
-* casc-sandbox
-* intranet
-* zki-herbsttagung
-<br /><br />
-* kaffee
-* tee
-* kakao
-* cola
+- Neu und frisch
+  Das Design soll an moderne Standards angepasst werden und neu und frisch wirken
+- Einheitliche Aussenwirkung
+  Alle Einrichtungen sollen ein weitgehend einheitliches Aussehen bekommen um einen Wiedererkennungseffekt zu erreichen. 
+- Gestaltungsspielraum und Freiheiten
+  Gleichzeitig soll es viele Gestaltungsspielräume geben, um den unterschiedlichen Anforderungen Rechnung zu tragen.
+- Einfachheit
+  Die Bedienung soll einfach gehalten werden damit die Pflege der Inhalte leicht von der Hand geht. Eine aktuelle Website ist dringend notwendig zur zeitgemäßen Aussendarstellung.
+- Effizienz
+  Effiziente und ressourcenschonende Umsetzung.

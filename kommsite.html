@@ -53,9 +53,11 @@ accordion:
 - name: kommsite-howto-3
 ---
 
-{% include subscribe-widget.html pagename="kommsite-missionstatement" color_scheme="xdark-gray"%}
+{% include static.html pagename="kommsite-missionstatement"%}
 
-{% include static.html pagename="kommsite-whatsnew" color_scheme="dark-gray"%}
+{% include subscribe-widget.html%}
+
+{% include image.html src="/media/kommsite/feature_cloud.svg" title="Ziele" color_scheme='dark-gray' %}
 
 {% include timeline.html module_title="Projektplan"%}
 
