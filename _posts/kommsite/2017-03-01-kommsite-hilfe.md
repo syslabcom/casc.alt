@@ -21,7 +21,7 @@ breadcrumbs:
 Das RZ bietet Zugang zum Ticketsystem an. Wir freuen uns über jedes Ticket, das exakte Angaben zum Problem liefert.
 Wir bemühen uns nach Kräften, Ihnen weiter zu helfen. Bitte haben Sie Verständnis, wenn wir manchmal am Ende dieser Kräfte sind, wir werden uns trotzdem bemühen!
 
-=> Hier gehts zum Ticketsystem
+<a class="btn btn-xl btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Mail an das Ticketsystem</a>
 
 
 ### Trainings
