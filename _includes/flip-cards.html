@@ -1,7 +1,15 @@
-<section class="">
-  <div class="container pt-0 pb-0">
+<section class="scheme-{{include.color_scheme}}">
+  <div class="container">
+  <div class="section-title">
+      <div class="row">
+        <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{ include.title }}</h2>
+        <p class="description mt-20">
+          {{ include.description }}
+        </p>
+      </div>
+    </div>
     <div class="section-content">
-      <div class="row"  >
+    <div class="row"  >
         <div class="col-sm-12 col-md-4">
           <div class="card effect__hover">
             <div class="card__front border-3px bg-lighter">
@@ -13,7 +21,8 @@
                         <a href="#" class="icon mb-0">
                           <i class="text-theme-colored pe-7s-helm font-72"></i>
                         </a>
-                        <h3 class="icon-box-title text-theme-colored">Experience Teachers</h3>
+                        <h3 class="icon-box-title text-theme-colored">{{ include.module_title }}</h3>
+                        <p>{{ include.module_description }}</p>
                       </div>
                     </div>
                   </div>
