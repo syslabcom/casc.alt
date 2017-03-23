@@ -52,6 +52,10 @@ accordion:
 # - name: kommsite-howto-1
 - name: kommsite-howto-2
 - name: kommsite-howto-3
+flip_modules:
+- kommsite-prozesse
+- kommsite-design
+- kommsite-cms
 ---
 
 {% include static.html pagename="kommsite-missionstatement"%}
@@ -60,7 +64,7 @@ accordion:
 
 {% include image-svg.html pagename="kommsite-feature-cloud" title="Ziele" color_scheme='dark-gray' %}
 
-{% include flip-cards.html title="Wie wir arbeiten" description="Prozesse, Methoden und Herangehensweisen bei der Umsetzung des Web Relaunch Projekts"%} 
+{% include flip-cards-dyn.html title="Wie wir arbeiten" description="Prozesse, Methoden und Herangehensweisen bei der Umsetzung des Web Relaunch Projekts" %} 
 
 {% include timeline.html module_title="Projektplan" %}
 

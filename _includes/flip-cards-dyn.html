@@ -1,0 +1,56 @@
+<section class="scheme-{{include.color_scheme}}">
+  <div class="container">
+  <div class="section-title">
+      <div class="row">
+        <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{ include.title }}</h2>
+        <p class="description mt-20">
+          {{ include.description }}
+        </p>
+      </div>
+    </div>
+    <div class="section-content">
+    <div class="row"  >
+      {% for module in page.flip_modules %}
+        {% for item in site.posts %}
+          {% if item.name == module %}
+        <div class="col-sm-12 col-md-4">
+          <div class="card effect__hover">
+            <div class="card__front border-3px bg-lighter">
+              <div class="card__text">
+                <div class="display-table-parent">
+                  <div class="display-table">
+                    <div class="display-table-cell">
+                      <div class="icon-box mb-0">
+                        <a href="#" class="icon mb-0">
+                          <i class="text-theme-colored {{item.icon_class}} font-72"></i>
+                        </a>
+                        <h3 class="icon-box-title text-theme-colored">{{ item.title }}</h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card__back" data-bg-color="#202c45" style="background: rgb(32, 44, 69) none repeat scroll 0% 0% ! important;">
+              <div class="card__text">
+                <div class="display-table-parent p-30">
+                  <div class="display-table">
+                    <div class="display-table-cell">
+                      <h3 class="text-theme-color-2">{{ item.title }}</h3>
+                      <p class="text-gray-lightgray">{{ item.description }}</p>
+                      <a href="{{ item.url }}" class="btn btn-default mt-10"> Mehr </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /flip-box -->
+        </div>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
