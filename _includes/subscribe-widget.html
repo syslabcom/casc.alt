@@ -3,10 +3,14 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-9">
-      Apokalypse oder Aufbruch in ein neues, goldenes Zeitalter: In der Verlagsbranche betrachtet man die rasante Entwicklung der Informations- und Kommunikationstechnologien mit gemischten Gefühlen. Während die Großen der Zunft wie Bertelsmann längst eigene, lukrative Geschäftsfelder im Umfeld von Internet und Multimedia aufgebaut haben, zögern die kleineren Verlage, mit voller Geschwindigkeit auf dem Datenhighway zu starten.
+    {% for item in site.posts %}
+      {% if item.name == include.pagename %}
+      <div class="col-md-8">
+           {{ item.content | markdownify  }} 
       </div>
-      <div class="col-md-3" >
+      {% endif %}
+    {% endfor %}
+      <div class="col-md-4" >
         <div class="widget border-1px p-30">
           <h5 class="widget-title line-bottom">Aktuelle Updates zum Webrelaunch</h5>
           <p class="font-13">Tragen Sie sich hier ein und wir senden Ihnen Updates zum Verlauf.</p>
@@ -16,7 +20,9 @@
             </div>
             <div class="form-group">
               <input name="form_botcheck" class="form-control" value="" type="hidden">
-              <button type="submit" class="btn btn-default btn-circled btn-theme-colored btn-xl mt-0 hvr-grow-rotate" style="background-color: #339860" data-loading-text="Please wait...">Anmelden <i class="fa fa-envelope-o"></i> </button>
+              <!--button type="submit" class="btn btn-default btn-circled btn-theme-colored btn-xl mt-0 hvr-grow-rotate" style="background-color: #339860" data-loading-text="Please wait...">Anmelden <i class="fa fa-envelope-o"></i> </button-->
+              <button type="submit" class="btn btn-dark btn-transparent btn-theme-colored btn-xl mt-0 hvr-grow-rotate" data-loading-text="Please wait...">Anmelden <i class="fa fa-envelope-o"></i> </button>
+
             </div>
             <p class="font-13">Damit Sie stets gut informiert sind, wie es weitergeht!</p>
           </form>
