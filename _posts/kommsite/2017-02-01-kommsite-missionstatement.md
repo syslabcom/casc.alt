@@ -9,4 +9,17 @@ section: kommsite
 color_scheme: orange
 ---
 
-Apokalypse oder Aufbruch in ein neues, goldenes Zeitalter: In der Verlagsbranche betrachtet man die rasante Entwicklung der Informations- und Kommunikationstechnologien mit gemischten Gefühlen. Während die Großen der Zunft wie Bertelsmann längst eigene, lukrative Geschäftsfelder im Umfeld von Internet und Multimedia aufgebaut haben, zögern die kleineren Verlage, mit voller Geschwindigkeit auf dem Datenhighway zu starten. 
+Unsere Universität betreibt über 200 Websites auf einem zentralen Server. Das zugrundeliegende Design ist nun bald 14 Jahre alt. Zeit für eine Überarbeitung!
+
+# Ziele:
+
+- Neu und frisch
+  Das Design soll an moderne Standards angepasst werden und neu und frisch wirken
+- Einheitliche Aussenwirkung
+  Alle Einrichtungen sollen ein weitgehend einheitliches Aussehen bekommen um einen Wiedererkennungseffekt zu erreichen. 
+- Gestaltungsspielraum und Freiheiten
+  Gleichzeitig soll es viele Gestaltungsspielräume geben, um den unterschiedlichen Anforderungen Rechnung zu tragen.
+- Einfachheit
+  Die Bedienung soll einfach gehalten werden damit die Pflege der Inhalte leicht von der Hand geht. Eine aktuelle Website ist dringend notwendig zur zeitgemäßen Aussendarstellung.
+- Effizienz
+  Effiziente und ressourcenschonende Umsetzung.
