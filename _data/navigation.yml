@@ -147,30 +147,30 @@
   id: kommsite
   url: kommsite.html
   items:
-  - title: Überblick
-    id: ueberblick
-    url: kommsite-intro.html
-  - title: Ziele
-    id: ziele
-    url: kommsite-ziele.html
-  - title: Prozesse
-    id: prozesse
-    url: kommsite-prozesse.html
-  - title: Das Team
-    id: team
-    url: kommsite-team.html
-  - title: Lieferumfang
-    id: lieferumfang
-    url: kommsite-lieferumfang.html
-  - title: Wie
-    id: wie
-    url: kommsite-wie.html
-  - title: Risiken
-    id: risiken
-    url: kommsite-risiken.html
-  - title: Abhängigkeiten
-    id: abhaengigkeiten
-    url: kommsite-abhaengigkeiten.html
+  - title: Übersicht
+    id: uebersicht
+    url: kommsite.html
+  # - title: Ziele
+  #   id: ziele
+  #   url: kommsite-ziele.html
+  # - title: Prozesse
+  #   id: prozesse
+  #   url: kommsite-prozesse.html
+  # - title: Das Team
+  #   id: team
+  #   url: kommsite-team.html
+  # - title: Lieferumfang
+  #   id: lieferumfang
+  #   url: kommsite-lieferumfang.html
+  # - title: Wie
+  #   id: wie
+  #   url: kommsite-wie.html
+  # - title: Risiken
+  #   id: risiken
+  #   url: kommsite-risiken.html
+  # - title: Abhängigkeiten
+  #   id: abhaengigkeiten
+  #   url: kommsite-abhaengigkeiten.html
   - title: Termine
     id: termine
     url: kommsite-deadlines.html

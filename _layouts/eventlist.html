@@ -17,7 +17,7 @@ parent: Aktuelles
           <div class="row">
             <div class="col-sm-4 pr-0 pr-sm-15">
               <div class="thumb p-15">
-                {% if item.image  %}<img class="img-fullwidth" src="https://placehold.it/220x160" alt="...">{% endif %}
+                {% if item.img  %}<img class="img-fullwidth" src="{{ item.img }}" alt="Bild: {{item.title}}">{% endif %}
               </div>
             </div>
             <div class="col-sm-4 pl-0 pl-sm-15">
