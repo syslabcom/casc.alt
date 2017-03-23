@@ -56,6 +56,46 @@ flip_modules:
 - kommsite-prozesse
 - kommsite-design
 - kommsite-cms
+carousel:
+- title: 
+  img: /media/kommsite/screens/c1.jpg
+  url: /media/kommsite/screens/c1.jpg
+- title: 
+  img: /media/kommsite/screens/c2.jpg
+  url: /media/kommsite/screens/c2.jpg
+- title: 
+  img: /media/kommsite/screens/c3.jpg
+  url: /media/kommsite/screens/c3.jpg
+- title: 
+  img: /media/kommsite/screens/c4.jpg
+  url: /media/kommsite/screens/c4.jpg
+- title: 
+  img: /media/kommsite/screens/c5.jpg
+  url: /media/kommsite/screens/c5.jpg
+- title: 
+  img: /media/kommsite/screens/c6.jpg
+  url: /media/kommsite/screens/c6.jpg
+- title: 
+  img: /media/kommsite/screens/c7.jpg
+  url: /media/kommsite/screens/c7.jpg
+- title: 
+  img: /media/kommsite/screens/c8.jpg
+  url: /media/kommsite/screens/c8.jpg
+- title: 
+  img: /media/kommsite/screens/c9.jpg
+  url: /media/kommsite/screens/c9.jpg
+- title: 
+  img: /media/kommsite/screens/c10.jpg
+  url: /media/kommsite/screens/c10.jpg
+- title: 
+  img: /media/kommsite/screens/c11.jpg
+  url: /media/kommsite/screens/c11.jpg
+- title: 
+  img: /media/kommsite/screens/c12.jpg
+  url: /media/kommsite/screens/c12.jpg
+- title: 
+  img: /media/kommsite/screens/c13.jpg
+  url: /media/kommsite/screens/c13.jpg
 ---
 
 {% include static.html pagename="kommsite-missionstatement"%}
@@ -67,6 +107,27 @@ flip_modules:
 {% include flip-cards-dyn.html title="Wie wir arbeiten" description="Prozesse, Methoden und Herangehensweisen bei der Umsetzung des Web Relaunch Projekts" %} 
 
 {% include timeline.html module_title="Projektplan" %}
+
+{% include owl-carousel.html title="Was entsteht?" %}
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+
+        <h3>Klickbarer Prototyp</h3>
+        <p>Ein sich stets weiterentwickelnder klickbarer Prototyp aus HTML, CSS und Javascript. Das hat den Vorteil, schnell neue Anforderung testen zu können, ohne das Hauptsystem zu beeinflussen. Funktionieren neue Elemente, so können sie nach einer Stabilisierungsphase in das Produktivsystem übernommen werden. Funktionieren sie nicht, so ist nur wenig Aufwand für die Tests nötig gewesen. Der Prototyp erlaubt uns effiziente Evaluation von Inhalt, Logik und Darstellung</p>
+      </div>
+
+      <div class="col-md-6">
+        <h3>Produktivsystem mit CMS Anbindung</h3>
+        <p>Das Produktivsystem wird parallel zum bestehenden Webauftritt aufgebaut. Stück für Stück können Websites auf das neue System übertragen werden. Die Reihenfolge wird weitgehend von den Wünschen und dem Engagement der Betreiber abhängen. Das dahinterliegende CMS für die Datenpflege ist die neueste Version von Plone, speziell überarbeitet, um die Bedienung zu vereinfachen und ausgewählt, weil es das sicherste System auf dem Markt ist und betriebs-Know-How bereits vorliegt.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
 
 {% include events-listing.html bg-image="/media/hero/cyber_7.jpg" morelink="kommsite-termine.html" bg-position="10% 10%" %}
 

@@ -1,0 +1,40 @@
+<section id="carousel" class="carousel scheme-{{include.color_scheme}}">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <div class="row">
+          <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{include.title}}</h2>
+        </div>
+      </div>
+      <div class="owl-carousel">
+        {% for item in page.carousel %}
+          <div class="item"><a href="{{item.url}}"><img src="{{ item.img }}" alt="{{ item.title}}"></a></div>
+        {% endfor %}
+      </div>
+
+    </div>
+  </div>
+  <script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    nav:true,
+    navText: [
+        '<i class="fa fa-angle-left"></i>',
+        '<i class="fa fa-angle-right"></i>'
+    ],
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+  </script>
+</section>
