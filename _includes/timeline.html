@@ -16,7 +16,7 @@
 <section>
   <div class="container">
     <div class="row">
-      <div class="col-md-12 text-center">
+      <div class="col-md-12">
         <div class="heading-line-bottom text-center mb-60">
           <h2>{{ include.module_title }}</h2>
         </div>
@@ -28,7 +28,7 @@
       <ul class="working-process">
         {% assign milestones = page.deadlines %}
         {% for milestone in milestones %}
-        <li class="col-xs-12 col-sm-1">
+        <li class="col-xs-12 col-sm-{{ milestone.width }}">
           <a href="{{ milestone.link }}" class="{{ milestone.mode }}"><i class="fa {{ milestone.icon }}"></i></a>
           <h5>{{ milestone.title }}</h5>
         </li>
