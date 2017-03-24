@@ -5,12 +5,14 @@ name: kommsite-prozesse
 description: Iterativer Prozess - oder warum wir nicht alles vorhersehen können
 category: kommsite
 department: kommsite
-hero_image: /media/hero/kommsite_3.jpg
+hero_image: /media/hero/kommsite_n4.jpg
 hero_title: Prozesse und Methoden
-hero_overline: "Projekt: Webrelaunch"
 section: Web Relaunch
-color_scheme: gray
+color_scheme: dark-gray
 icon_class: pe-7s-edit
+breadcrumbs:
+- Web Relaunch
+- Prozesse und Methoden
 ---
 
 Das Projekt: Webrelaunch ist keineswegs von vornhinen festgelegt. Es gibt eine Vielzahl an Interessenten einzubinden und eine Unmenge an Anforderungen zu sammeln, zu bewerten und einzuordnen. Und es kommen von beiden stets neue hinzu. Das stellt das Projekt und seine Leitung vor größe sich ständig verändernde Herausforderungen.
@@ -49,4 +51,6 @@ Mit diesem Ansatz können wir zwar auch nicht jeden glücklich machen und auch n
 </li>
 </ul>
 
-Haben Sie Fragen, Anregungen oder Kritik zu diesen Punkten, dann freuen wir uns über eine Email an <a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a>
+Haben Sie Fragen, Anregungen oder Kritik zu diesen Punkten, dann freuen wir uns über eine Email an 
+<!--a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a-->
+<a class="btn btn-gray btn-theme-colored btn-lg mt-5" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a>

@@ -6,7 +6,7 @@ description:
 category: kommsite
 department: kommsite
 section: Web Relaunch
-hero_image: /media/hero/kommsite_projektverlauf.jpg
+hero_image: /media/hero/kommsite_n5.jpg
 hero_title: Projektverlauf
 color_scheme: dark-gray
 breadcrumbs:
