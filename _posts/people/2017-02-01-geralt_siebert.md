@@ -20,9 +20,8 @@ secretary_name: Karin Bächle
 room: Gebäude 37/100, Zimmer 0137
 department: UniBwM
 breadcrumbs:
-- BAU
-- Fakultät BAU
-- Univ.-Prof. Dr.-Ing. Geralt Siebert
+- title: Home
+  url: bau.html
 ---
 
 

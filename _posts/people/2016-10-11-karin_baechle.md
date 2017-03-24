@@ -20,8 +20,8 @@ secretary_name: Anna Meyer
 room: Gebäude 41/300, Zimmer 0304
 department: UniBwM
 breadcrumbs:
-- BAU
-- Karin Bächle
+- title: Home
+  url: bau.html
 ---
 
 

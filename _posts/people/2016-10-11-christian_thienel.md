@@ -18,9 +18,10 @@ room: Gebäude 41/300, Zimmer 0304
 department: UniBwM
 category: akademische_leitung
 breadcrumbs:
-- BAU
-- Werkstoffe des Bauwesens
-- Prof. Dr.-Ing. Karl-Christian Thienel
+- title: Home
+  url: bau.html
+- title: Werkstoffe des Bauwesens
+  url: bau_institut_werkstoffe.html
 ---
 
 

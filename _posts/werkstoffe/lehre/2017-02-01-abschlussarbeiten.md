@@ -11,9 +11,12 @@ hero_title: Abschlussarbeiten
 section: BAU
 color_scheme: orange
 breadcrumbs:
-- BAU
-- Werkstoffe
-- Lehre
+- title: Home
+  url: bau.html
+- title: Werkstoffe
+  url: bau_institut_werkstoffe.html
+- title: Lehre
+  url: werkstoffe_lehre.html
 
 ---
 

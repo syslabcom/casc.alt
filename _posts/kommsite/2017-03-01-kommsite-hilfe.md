@@ -12,6 +12,9 @@ section: Web Relaunch
 color_scheme: dark-gray
 breadcrumbs:
 - Hilfe & Unterstützung
+breadcrumbs:
+- title: Home
+  url: kommsite.html
 ---
 
 

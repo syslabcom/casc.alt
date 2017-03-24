@@ -1,6 +1,6 @@
 ---
 layout: generic
-title: kommsite-verlauf
+title: Verlauf
 name: kommsite-verlauf
 description: 
 category: kommsite
@@ -12,6 +12,10 @@ color_scheme: dark-gray
 breadcrumbs:
 - UniBW Web Relaunch
 - Projektverlauf
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---
 
 {% include timeline_vert.html %}

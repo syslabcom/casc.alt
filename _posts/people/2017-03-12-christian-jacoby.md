@@ -20,8 +20,8 @@ secretary_name:
 room: Geb. 41/100, Raum 6107
 department: UniBwM
 breadcrumbs:
-- BAU
-- Christian Jacoby
+- title: Home
+  url: bau.html
 ---
 
 

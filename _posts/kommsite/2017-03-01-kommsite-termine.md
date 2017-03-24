@@ -10,4 +10,8 @@ hero_title: Termine und Deadlines
 department: kommsite
 breadcrumbs:
 - Termine & Deadlines
+
+breadcrumbs:
+- title: Home
+  url: kommsite.html
 ---

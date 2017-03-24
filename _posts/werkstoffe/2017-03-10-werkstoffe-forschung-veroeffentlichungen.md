@@ -10,10 +10,12 @@ hero_image: /media/werkstoffe/veroeffentlichungen.jpg
 department: werkstoffe
 img: /media/werkstoffe/veroeffentlichungen.jpg
 breadcrumbs:
-- BAU
-- Werkstoffe
-- Forschung
-- Veröffentlichungen
+- title: Home
+  url: bau.html
+- title: Werkstoffe
+  url: bau_institut_werkstoffe.html
+- title: Forschung
+  url: werkstoffe_forschung.html
 ---
 
 ## Veröffentlichungen

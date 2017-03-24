@@ -87,7 +87,7 @@
     - title: Geodäsie
   - title: Studiengänge
     id: studiengaenge
-    url: #
+    url: bau_studiengaenge.html
     children:
     - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
       url: bau_studiengang_ba.html
