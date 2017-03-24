@@ -151,11 +151,11 @@
       {% endif %}
       <div class="container">
         <!-- Section Content -->
-        <div class="section-content scheme-light-gray">
+        <div class="section-content">
           <div class="row">
             <div class="col-md-12">
-              {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %}
-              <h2 class="title font-theserif">{{ page.hero_title }}</h2>
+              <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %} -->
+              <h1 class="title font-theserif">{{ page.hero_title }}</h1>
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@
   {% elsif page.hero_title %}
 
     <section id="hero" 
-             class="inner-header no-hero divider background-light-gray ">
+             class="inner-header no-hero divider ">
       {% if page.section %}
       <div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
             <span>{{page.section}}</span>
@@ -177,7 +177,7 @@
           <div class="row">
             <div class="col-md-12">
               {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %}
-              <h2 class="title font-theserif">{{ page.hero_title }}</h2>
+              <h1 class="title font-theserif">{{ page.hero_title }}</h1>
             </div>
           </div>
         </div>
