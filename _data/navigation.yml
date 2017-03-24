@@ -191,8 +191,8 @@
     - title: unibw.de 
       id: unibw.de
       url: home.html
-    - title: Intranet
-      id: intranet
+    - title: Intern
+      id: intern
       url: intranet.html
     - title: BAU
       id: bau
