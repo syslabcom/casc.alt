@@ -171,6 +171,12 @@
   # - title: Abhängigkeiten
   #   id: abhaengigkeiten
   #   url: kommsite-abhaengigkeiten.html
+  - title: Historie
+    id: kommsite-historie
+    url: kommsite-verlauf.html
+  - title: Unterstützung
+    id: kommsite-unterstuetzung
+    url: kommsite-hilfe.html
   - title: Termine
     id: kommsite-termine
     url: kommsite-termine.html

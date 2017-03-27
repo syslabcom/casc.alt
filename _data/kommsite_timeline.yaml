@@ -1,6 +1,6 @@
-- date: Okt. 2015
-  title: "Projektstart"
-  description: "Die erweiterte Hochschulleitung beschliesst einen neuen Webauftritt."
+- date: Ende 2015
+  title: "Projektstart Neuer Webauftritt"
+  description: "Die erweiterte Hochschulleitung beschliesst einen neuen Webauftritt. Die Projektleitung wurde dem Vizepräsidenten für Forschung, Prof. Dr.-Ing. Christian Thienel, übertragen."
   img: /js/vertical-timeline/img/cd-icon-picture.svg
   img_class: cd-picture
   url: 
@@ -8,6 +8,20 @@
 - date: Dez. 2015
   title: "Anforderungsanalyse"
   description: "Das Web Team tritt zum ersten mal zusammen und erörtert die Herangehensweise"
+  img: /js/vertical-timeline/img/cd-icon-movie.svg
+  img_class: cd-movie
+  url: 
+
+- date: 3. Feb. 2016
+  title: "Workshop: Zielgruppen"
+  description: "Analyse der Zielgruppen zusammen mit Kollegen der LMU."
+  img: /js/vertical-timeline/img/cd-icon-movie.svg
+  img_class: cd-movie
+  url: 
+
+- date: 10. Feb. 2016
+  title: "Task Forces"
+  description: "Bildung von Task Forces zu den verschiedenen Themen des neuen Webauftritts. Ziel: Bereitstellung eines neuen Layouts (mit neuer Bedienoberfläche, neuem Editor) und neuen Funktionaliäten (News, Einbindung von Personendaten, Lagepläne usw.) Ende 2017. Ab hier können die einzelnen Bereiche ihre Seiten für das neue Layout gestalten und in das neue Livesystem übernehmen."
   img: /js/vertical-timeline/img/cd-icon-movie.svg
   img_class: cd-movie
   url: 

@@ -3,7 +3,7 @@ layout: generic
 title: Projekthistorie
 name: kommsite-verlauf
 description: 
-category: kommsite
+category: kommsite-historie
 department: kommsite
 section: Web Relaunch
 hero_image: /media/hero/kommsite_n5.jpg
