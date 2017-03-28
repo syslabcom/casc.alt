@@ -15,5 +15,5 @@ linked-pages:
 ---
 
 In diesem Modul können beliebig viele Seiten in einer Galerie-Ansicht verlinkt werden.
-Von den verlinkten Seiten werden je ein Vorschaubild sowie der Titel der Seite angezeigt.<br />
+Von den verlinkten Seiten werden je ein Vorschaubild sowie der Titel und die Beschreibung der Seite angezeigt.<br />
 Zudem kann ein Titel für das Modul angegeben und die Hintergrundfarbe ausgewählt werden.

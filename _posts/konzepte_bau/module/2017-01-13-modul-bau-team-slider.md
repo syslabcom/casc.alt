@@ -11,6 +11,6 @@ linked-pages:
 ---
 
 In diesem Modul werden beliebig viele Kurzportraits von gewählten Personen horizontal angeordnet.
-Von der jeweiligen Person werden ein verkleinertes Profilbild sowie Name und Berufsbezeichnung sowie ein Verweis auf die jeweilige Personenseite.<br />
+Von der jeweiligen Person werden ein verkleinertes Profilbild sowie Name und Berufsbezeichnung sowie ein Verweis auf die jeweilige Personenseite dargestellt.<br />
 Werden mehr als 5 Personen ausgewählt wird eine Karussell-Navigation angezeigt.<br />
 Zudem kann ein Titel für das Modul angegeben und die Hintergrundfarbe ausgewählt werden.

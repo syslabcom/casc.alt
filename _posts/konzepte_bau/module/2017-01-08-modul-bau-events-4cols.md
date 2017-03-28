@@ -12,5 +12,5 @@ linked-pages:
 ---
 
 Dieses Modul zeigt eine Vorschau auf die 4 aktuellsten Termine in einer dreispaltigen Ansicht an.
-Ein Newsartikel wird mit Vorschaubild, Datum, Titel, Beschreibungstext und Link auf den entsprechenden Artikel dargestellt<br />
+Ein Termin wird mit Vorschaubild, Datum, Titel, Beschreibungstext und Link auf den entsprechenden Artikel dargestellt<br />
 Zudem kann ein Titel für das Modul angegeben und die Hintergrundfarbe ausgewählt werden.
