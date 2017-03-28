@@ -11,7 +11,7 @@
     <div class="row xequalize">
 
     {% for item in page.gallery %}
-      <div class="col-sm-{{include.sm | default:6 }} col-md-{{include.md | default:4 }}">
+      <div class="col-sm-{{include.sm | default:'6' }} col-md-{{include.md | default:'4' }}">
         <div class="box-item">
           <div class="item-inner padding">
             <a href="{{item.url}}">

@@ -7,9 +7,12 @@ category: werkstoffe
 hero_title: Rasterelektronenmikroskop (REM)
 department: werkstoffe
 breadcrumbs:
-- BAU
-- Werkstoffe
-- Kompetenzen
+- title: Home
+  url: bau.html
+- title: Werkstoffe
+  url: bau_institut_werkstoffe.html
+- title: Kompetenzen
+  url: werkstoffe_kompetenzen.html
 ---
 
 Das REM ist ein Gerät zur Oberflächenstrukturanalyse von Feststoffen und zur Charakterisierung pulverförmiger Proben, das im Bereich der Baustoffe weit verbreiteten Einsatz findet. Die Rasterelektronenmikroskopie ist eine bildgebende Methode, bei der ein gebündelter Elektronenstrahl zeilenweise über die Probenoberfläche geführt wird. Das Auflösungsvermögen eines Lichtmikroskops ist aufgrund der vorgegebenen Wellenlänge des sichtbaren Lichts (400-800&nbsp;nm) beschränkt. Die Wellenlänge von Elektronen ist von deren Energie und somit von der Spannung, mit der die Elektronen beschleunigt werden, abhängig. Bei einer Beschleunigungsspannung von 25 kV beträgt die Wellenlänge der Elektronen circa 0,008&nbsp;nm. Durch die sehr kleine Numerische Apertur kann im REM eine große Schärfentiefe bei gleichzeitig hohen Vergrößerungen, im Vergleich zu Lichtmikroskopen, erreicht werden.

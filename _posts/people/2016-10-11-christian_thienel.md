@@ -10,16 +10,18 @@ image: "/media/people/karl-christian-thienel.jpg"
 parent: People
 phone: +49 (0) 89 6004 4219
 email: christian.thienel@unibw.de
-program: mba_public_management
+program: bauingenieurwesen_und_umweltwisschenschaften_ba
 fax:  +49 (0) 89 6004-4219
 secretary_phone: +49 (0) 89 6004-4229
 secretary_name: Anna Meyer
 room: Gebäude 41/300, Zimmer 0304
 department: UniBwM
+category: akademische_leitung
 breadcrumbs:
-- BAU
-- Werkstoffe des Bauwesens
-- Prof. Dr.-Ing. Karl-Christian Thienel
+- title: Home
+  url: bau.html
+- title: Werkstoffe des Bauwesens
+  url: bau_institut_werkstoffe.html
 ---
 
 

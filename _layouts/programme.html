@@ -83,9 +83,9 @@ layout: generic
                 {% if item.parent == 'People' and item.category == "akademische_leitung" and item.program == page.name %}
                   <div class="col-sm-3 col-md-3 sm-text-center mb-sm-8">
                     <div class="team maxwidth200">
-                      <div class="thumb"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></div>
+                      <div class="thumb"><a href="{{item.url}}"><img class="img-fullwidth" src="{{ item.image }}" alt="{{ item.title }}"></a></div>
                       <div class="content border-1px border-bottom-theme-color-2-2px p-15 bg-light clearfix">
-                        <h5 class="name font-14 text-theme-color-2 mt-0">{{ item.title }}</h5>
+                        <h5 class="name font-14 text-theme-color-2 mt-0">{{ item.title }}</h5>
                         <p class="mb-20 font-12">{{ item.description }}&nbsp;</p>
                         <p>
                           <i class="fa fa-envelope-o mr-5"></i> <a href="mailto:{{ item.email }}">{{ item.email }}</a><br>

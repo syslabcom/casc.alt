@@ -20,7 +20,7 @@ secretary_name: Anna Meyer
 room: Gebäude 41/300, Zimmer 0304
 department: UniBwM
 breadcrumbs:
-- BAU
-- Prof. Dr.-Ing. Thomas Apel
+- title: Home
+  url: bau.html
 ---
 

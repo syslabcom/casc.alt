@@ -5,7 +5,7 @@ name: kommsite-risiken
 description: 
 category: kommsite
 department: kommsite
-section: kommsite
+section: Web Relaunch
 color_scheme: orange
 ---
 

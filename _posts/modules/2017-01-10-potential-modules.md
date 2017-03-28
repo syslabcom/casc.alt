@@ -1,6 +1,6 @@
 ---
 layout: potential-modules
-title: UniBW Website mögliche Module
+title: Mögliche Module
 name: potential_modules
 description: Showcase the available UI components
 category: potential-modules
@@ -11,8 +11,8 @@ department: UniBwM
 section: Module
 color_scheme: blue
 breadcrumbs:
-- Module
-- Mögliche Module
+- title: Home
+  url: home.html
 orgkontakt:
 - name: thomas_hartung
 - name: bernhard_hirsch

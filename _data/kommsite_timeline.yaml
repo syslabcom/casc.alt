@@ -1,0 +1,184 @@
+- date: Ende 2015
+  title: "Projektstart Neuer Webauftritt"
+  description: "Die erweiterte Hochschulleitung beschliesst einen neuen Webauftritt. Die Projektleitung wurde dem Vizepräsidenten für Forschung, Prof. Dr.-Ing. Christian Thienel, übertragen."
+  img: /js/vertical-timeline/img/cd-icon-picture.svg
+  img_class: cd-picture
+  url: 
+
+- date: Dez. 2015
+  title: "Anforderungsanalyse"
+  description: "Das Web Team tritt zum ersten mal zusammen und erörtert die Herangehensweise"
+  img: /js/vertical-timeline/img/cd-icon-movie.svg
+  img_class: cd-movie
+  url: 
+
+- date: 3. Feb. 2016
+  title: "Workshop: Zielgruppen"
+  description: "Analyse der Zielgruppen zusammen mit Kollegen der LMU."
+  img: /js/vertical-timeline/img/cd-icon-movie.svg
+  img_class: cd-movie
+  url: 
+
+- date: 10. Feb. 2016
+  title: "Task Forces"
+  description: "Bildung von Task Forces zu den verschiedenen Themen des neuen Webauftritts. Ziel: Bereitstellung eines neuen Layouts (mit neuer Bedienoberfläche, neuem Editor) und neuen Funktionaliäten (News, Einbindung von Personendaten, Lagepläne usw.) Ende 2017. Ab hier können die einzelnen Bereiche ihre Seiten für das neue Layout gestalten und in das neue Livesystem übernehmen."
+  img: /js/vertical-timeline/img/cd-icon-movie.svg
+  img_class: cd-movie
+  url: 
+
+- date: 14.12.2016
+  title: "Entscheidung zur BSCW Schnittstelle"
+  description: "BSCW ist mittlerweile gereift und Dokumente aus BSCW können und sollen nun direkt aus dem Web verlinkt werden."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 21.12.2016
+  title: "Neue Intern Seite als Prototyp"
+  description: "Es gibt jetzt eine Intern Seite, die alle verfügbaren Dienste über Quick-Filter zugänglich macht. "
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: https://webfrontend.rz.unibw-muenchen.de/intranet
+
+
+- date: 21.12.2016
+  title: "Interaktiver Lageplan"
+  description: "Anfrage an das RZ, ob ein interaktiver Lageplan machbar ist."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 21.12.2016
+  title: "Schnittstellen"
+  description: "Die Schnittstellen HISinOne, AtheneForschung und Telefonbuch sind zur Neu-Entwicklung und Überarbeitung ab Januar 2017 eingeplant."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 21.12.2016
+  title: "Entwurf neue RZ Site"
+  description: "Die ersten Seiten der neuen RZ Site sind im Prototypen umgesetzt."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: https://prototyp.rz.unibw-muenchen.de/rz.html
+
+- date: 4.1.2017
+  title: "Beschlussmeeting"
+  description: "Athene Signet immer im Header: Die Athene soll grundsätzlich immer im Header mit vollem Schriftzug sichtbar sein. Einen Lageplan wird es erst geben, wenn die Funktionalität 'Interaktiver Lageplan' verfügbar ist. Die Intranet Seite muss 'Intern' heissen, um nicht mit dem Bundeswehr-Intranet verwechselt zu werden."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: https://prototyp.rz.unibw-muenchen.de/home.html
+  
+- date: 11.1.2017
+  title: "Cardsorting zur Navigation"
+  description: "Mittels Cardsorting wird versucht, die überbordende Menge an Inhalten in eine klare Navigationsstruktur zu bringen. "
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:
+
+- date: 13.1.2017
+  title: "Parallel-Aktionsplan"
+  description: "Der CASC Prototyp wird ins CMS überführt sowie ein extra Testportal bereitgestellt. Das Design wird in Workshops validiert und Änderungen im Prototypen nachgezogen. Der Styleguide wird unter Zuhilfenahme der Moduleseiten ausgearbeitet. "
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 16.1.2017
+  title: "Verständnis Prototyp"
+  description: "Absprache zur Umsetzung der orange hills Modelle in HTML-Prototypen. Beschluss: Es ist keine zwingende  1:1 Umsetzung notwendig (VP). Das Drohnenvideo wurde vom Medienzentrum (A. Schäfer) zur Verwendung bereitgestellt."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 17.1.2017
+  title: "CASC im CMS"
+  description: "Die CASC-Seite ist bereits auf CMS vorhanden und wird wie im Projektplan festgehalten Ende Januar auf die RZ-Server übertragen. Mit Fr. Anders (CASC) wurde vereinbart, dass alle weiteren redaktionellen Änderungen direkt im CMS durchgeführt werden. Ergänzungen/Modifikationen an den Modulen der CASC-Seite können gesammelt werden und werden zusammen mit einer priorisierten Ergebnis-Liste aus der Vorstellung (Workshop) der HTML-Prototypen bewertet und ggf. für die CMS-Umsetzung eingearbeitet."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 19.1.2017
+  title: "Cardsorting Ergebnisse"
+  description: "Das Cardsorting ist durchgeführt und erste Ergebnisse sind verfügbar. Diese sind ab sofort im Prototypen testbar."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  https://prototyp.rz.unibw-muenchen.de/home.html
+
+- date: 26.1.2017
+  title: "Virtuelle Campus-Tour"
+  description: "Untersuchungen zu einer möglichen Umsetzung (Ladezeiten, interne Vorhaltung der Daten etc.) sollen in die Wege geleitet werden. Die virtuelle Campus-Tour ist für die Werbung neuer Studenten von Bedeutung."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+
+- date: 26.1.2017
+  title: "Uni-weite Meldungen"
+  description: "Vorstellung und Beschluss eines Konzepts zur Verteilung von aktuellen Meldungen: Über einen bereits für das RZ genutzten Mechanismus (hier Störungsmeldungen) sollen aktuelle Meldungen aus der Uni sowohl über abonnierte Mailing-Listen als auch über ein 'News-Portal' und/oder das Intern-Portal publiziert werden. Die aktuelle Meldung wird dabei vom Ersteller als mail an eine entsprechende Email-Adresse (Mailing-Liste) geschickt. Gleichzeitig mit Aufnahme der Email in der Mailing-Liste wird in dem 'News-Portal' ein Objekt mit der Meldung erzeugt und angezeigt. Dabei wird automatisch ein RSS-Feed erzeugt. Zusätzlich können in beliebigen Portalen der Uni über das RSS-Feed gewünschte Meldungen (Kategorien) angezeigt werden. Notfall-Meldungen und 'Nachrichten an alle' müssen erhalten bleiben. Möglichkeit von internen/weltweiten Meldungen vorsehen."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 30.1.2017
+  title: "Grafiker"
+  description: "Ein Team uni-interner Medienspezialisten soll in den nächsten Tagen über die Prototyp-Seiten schauen und Gestaltungsvorschläge bzgl. Überschriften, Farbschemata, Text-Schriften ausarbeiten. Dazu wird einen vollständige Sammlung der momentan eingesetzten Module in diesem Portal bereitgestellt."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+
+- date: 30.1.2017
+  title: "Prototypen in HTML"
+  description: "Die orange hills Modelle wurden bereits alle in HTML-Prototypen umgesetzt und sind damit termingerecht verfügbar. Die Prototypen werden nach einer Vorstellungsrunde mit den gewünschten Modifikationen als Templates in das CMS übernommen. Zusätzlich sind die RZ-Seiten in Arbeit. Auf unserem RZ-Server sind ab sofort folgende HTML-Prototypen erreichbar: UniBw-Startseite, Fakultätsseite, Studiengangssseite, Inhaltsseite, Eventseite, Personenseite, Internseite, CASC, RZ, Umgesetzte Module, Mögliche Module."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  https://prototyp.rz.unibw-muenchen.de/
+
+- date: 9.2.2017
+  title: "Styleguide"
+  description: "Beschluss Design-Fragen: Es sollen zunächst mehrere Prototoyp-Seiten mit Inhalt gefüllt werden (Fakultät BAU, Institut Werkstoffe, Personenseiten etc.), um eine Vorlage für weitere Diskussionen zu haben. Um auch anhand dieser Prototypen weitere Design-Fragen zu klären, soll Syslab zu einem Meeting gebeten werden. Die vorliegendenden Prototyp-Seiten wurden von Syslab annähernd nach Vorgabe der Workshop-Modelle umgesetzt. Änderungswünsche sollten daher unter Berücksichtigung der festgelegten Workshop-Modelle (orange hills) geprüft werden. Erstellung Styleguide: Der Styleguide soll sukzessive weitergeschrieben werden."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 16.2.2017
+  title: "Abstimmung mit ZV"
+  description: "Abstimmung des Webteams mit der Zentralen Verwaltung über die Trennung Website und Intern."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 23.2.2017
+  title: "Athene Forschung"
+  description: "Bei der Portierung der vorhandenen Schnittstelle in das neue CMS sind Probleme bzgl. der javascripts  aufgetreten. Eine Anpassung könnte vorgenommen werden, ist jedoch aufwendig. Unter Berücksichtigung der Planung eines Software Updates seitens TUM (mediaTUM) - geplant für 3. Quartal 2017 - wurde beschlossen, die Schnittstelle AtheneForschung (Projektlisten, Publikationslisten) aus der aktuellen Entwicklung auszuklammern und bis nach dem TUM-Software Update zurückzustellen."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 7.3.2017
+  title: "Workshop Bedienoberfläche"
+  description: "Den Workshop-Teilnehmern wurde die neue Bedienoberfläche vorgestellt. Anschliessend konnten die Workshop-Teilnehmer in eingerichteten Testbereichen die Bedienoberfläche ausprobieren. Fragen, Wünsche, Probleme wurden parallel notiert und gesammelt. Priorisierung der gesammelten Punkte durch die Workshop-Teilnehmer. Ergebnis: <ol><li>1. Arbeitsleiste (links) übersichtlicher gestalten </li><li>2. Templates zum schnellen Erstellen von Modulseiten</li><li>3. Online-Hilfe zum Erstellen von Modulseiten</li><li>4. Online-Hilfe zum Hinzufügen und Bearbeiten (Inhalte, Module, Seiten)</li></ol>"
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 9.3.2017
+  title: "Workshop Styleguide und Design"
+  description: "Präsentation: Was bisher geschah, Wo stehen wir/was kommt als nächstes, Entwicklung von Webseiten, Design. Abarbeitung der Agenda mit Sammlung der Fragen und Lösungsansätze in Liste, Priorisierung der Liste mit Festlegung der durchzufühenden Arbeiten. <br>Ergebnis: <ol><li>1. Farbschema definieren (Web-Team)</li><li>2. Titel im Hero unten bündig anordnen (Syslab)</li><li> 3. Sekundär-Navigation / Öffnen neuer Tabs zum Navigieren (Syslab) </li><li>4. Fakultäten erreichbar über Universität, Studium und Forschung (Syslab)</li><li> 5. Logogröße evaluieren (Zuarbeit RB) </li><li>6. Eyecatcher in Footr (evtl. Social Media) (Syslab und Web-Team) </li><li>7. Transparenz in aufklappbarer Navigation</li></ol>"
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 14.3.2017
+  title: "Vorbereitung Infoveranstaltung am 5.April"
+  description: "<dl><dt>Prototypen zur Demo</dt><dd>Wir bereiten NUR den Bereich BAU in den Prototypen vor (Fakultätsseite BAU, Instituts-/Professurseite Werkstoffe, Studiengang Bauingenieru BA, Personenseite C.Thinel, Demo-Inhaltsseiten)</dd><dt>Inhalt der Infoveranstaltung</dt><dd>Module und deren Einsatz in den o.g. Prototypen zeigen (Leitfaden zum Moduleinsatz)</dd> <dt>Fragestellung in der Infoveranstaltung</dt><dd><ul><li>- Sind alle Informationen untergebracht worden?</li><li>- Findet der Besucher der Seiten die Informationen, die er braucht?</li><li>- Was fehlt ggf. an Informationen? In welcher Form sollten sie dargestellt werden (Ziel: Modul-Auswahl)</li></ul></dd><dt>Ziel der Infoveranstaltung</dt><dd>Priorisierte (!) Ergebnis-Liste -> welche Module benötigen wir noch, um das Informationsangebot für einen kompletten Fakultätsbereich zu vervollständigen/abzurunden?</dd></dl> "
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 5.4.2017
+  title: "Infoveranstaltung"
+  description: "tbd…"
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  

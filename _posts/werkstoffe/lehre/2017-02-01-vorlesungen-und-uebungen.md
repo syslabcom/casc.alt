@@ -9,9 +9,12 @@ color_scheme: orange
 category: lehre
 department: werkstoffe
 breadcrumbs:
-- BAU
-- Werkstoffe
-- Lehre
+- title: Home
+  url: bau.html
+- title: Werkstoffe
+  url: bau_institut_werkstoffe.html
+- title: Lehre
+  url: werkstoffe_lehre.html
 
 ---
 

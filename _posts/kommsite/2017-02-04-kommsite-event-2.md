@@ -4,7 +4,7 @@ name: kommsite-event-2
 title: Vorstellung des ersten Prototypen
 category: kommsite
 department: kommsite
-section: kommsite
+section: Web Relaunch
 img: "/media/kommsite/website_proto.png"
 description: Der Prototyp der neuen Website wird dem Gremium vorgestellt und weitere Designfragen geklärt.  
 location: Campus Universität der Bundeswehr München

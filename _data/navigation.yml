@@ -87,7 +87,7 @@
     - title: Geodäsie
   - title: Studiengänge
     id: studiengaenge
-    url: #
+    url: bau_studiengaenge.html
     children:
     - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
       url: bau_studiengang_ba.html
@@ -147,33 +147,39 @@
   id: kommsite
   url: kommsite.html
   items:
-  - title: Überblick
-    id: ueberblick
-    url: kommsite-intro.html
-  - title: Ziele
-    id: ziele
-    url: kommsite-ziele.html
-  - title: Prozesse
-    id: prozesse
-    url: kommsite-prozesse.html
-  - title: Das Team
-    id: team
-    url: kommsite-team.html
-  - title: Lieferumfang
-    id: lieferumfang
-    url: kommsite-lieferumfang.html
-  - title: Wie
-    id: wie
-    url: kommsite-wie.html
-  - title: Risiken
-    id: risiken
-    url: kommsite-risiken.html
-  - title: Abhängigkeiten
-    id: abhaengigkeiten
-    url: kommsite-abhaengigkeiten.html
+  - title: Übersicht
+    id: kommsite-uebersicht
+    url: kommsite.html
+  # - title: Ziele
+  #   id: ziele
+  #   url: kommsite-ziele.html
+  # - title: Prozesse
+  #   id: prozesse
+  #   url: kommsite-prozesse.html
+  # - title: Das Team
+  #   id: team
+  #   url: kommsite-team.html
+  # - title: Lieferumfang
+  #   id: lieferumfang
+  #   url: kommsite-lieferumfang.html
+  # - title: Wie
+  #   id: wie
+  #   url: kommsite-wie.html
+  # - title: Risiken
+  #   id: risiken
+  #   url: kommsite-risiken.html
+  # - title: Abhängigkeiten
+  #   id: abhaengigkeiten
+  #   url: kommsite-abhaengigkeiten.html
+  - title: Historie
+    id: kommsite-historie
+    url: kommsite-verlauf.html
+  - title: Unterstützung
+    id: kommsite-unterstuetzung
+    url: kommsite-hilfe.html
   - title: Termine
-    id: termine
-    url: kommsite-deadlines.html
+    id: kommsite-termine
+    url: kommsite-termine.html
 
 #############################################################################
 # Site MAIN PRAES SITE
@@ -191,8 +197,8 @@
     - title: unibw.de 
       id: unibw.de
       url: home.html
-    - title: Intranet
-      id: intranet
+    - title: Intern
+      id: intern
       url: intranet.html
     - title: BAU
       id: bau

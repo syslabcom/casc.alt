@@ -2,63 +2,166 @@
 layout: generic
 name: kommsite
 title: Webrelaunch für den Cyber-Raum
-hero_image: /media/hero/cyber_7.jpg
+hero_image: /media/hero/kommsite_n2.jpg
 hero_title: Webrelaunch für den Cyber-Raum
 hero_overline: 
+category: kommsite-uebersicht
 section: Web Relaunch
 color_scheme: dark-gray
 department: kommsite
 breadcrumbs:
-- Web Relaunch
+- title: Home
+  url: kommsite.html
+
 deadlines:
-- title: Anforderungsworkshop
+- title: Anforderungsworkshops
   icon: fa-file-text
-  url: /kommsite
+  url: #
   mode: mode-done
+  width: 2
 - title: Designphase
   icon: fa-paint-brush
-  url: /kommsite
+  url: #
   mode: mode-done
-- title: Erstellen eines Prototypen
+  width: 1
+- title: Prototyp
   icon: fa-picture-o
-  url: /kommsite
+  url: #
   mode: mode-done
-- title: Anbindung des CMS
+  width: 1
+- title: CMS-Anbindung
   icon: fa-wrench
-  url: /kommsite
+  url: #
   mode: mode-active
-#- title: Erstellung erster Sites
-#  icon: fa-edit
-#  url: /kommsite
-#  mode: mode-inactive
+  width: 2
+- title: Erstellung erster Sites
+  icon: fa-edit
+  url: #
+  mode: mode-inactive
+  width: 2
 - title: Integration der neuen Suche
   icon: fa-search
-  url: /kommsite
+  url: #
   mode: mode-inactive
-- title: Launch
+  width: 2
+- title: Launch erster Sites
   icon: fa-rocket
-  url: /kommsite
+  url: #
   mode: mode-inactive
+  width: 2
 team:
 - name: christian_thienel
-  role: Projektmanager
+  role: Projektleiter
 - name: achim_vogel
   role: Presse & Kommunikation
 - name: ruth_blachnik
   role: Technische Leitung
 team-add: kommsite-team-info
 accordion:
-- name: kommsite-howto-1
+# - name: kommsite-howto-1
 - name: kommsite-howto-2
 - name: kommsite-howto-3
+flip_modules:
+- kommsite-prozesse
+- kommsite-design
+- kommsite-cms
+carousel:
+- title: 
+  img: /media/kommsite/screens/c1.jpg
+  url: /media/kommsite/screens/c1.jpg
+- title: 
+  img: /media/kommsite/screens/c2.jpg
+  url: /media/kommsite/screens/c2.jpg
+- title: 
+  img: /media/kommsite/screens/c3.jpg
+  url: /media/kommsite/screens/c3.jpg
+- title: 
+  img: /media/kommsite/screens/c4.jpg
+  url: /media/kommsite/screens/c4.jpg
+- title: 
+  img: /media/kommsite/screens/c5.jpg
+  url: /media/kommsite/screens/c5.jpg
+- title: 
+  img: /media/kommsite/screens/c6.jpg
+  url: /media/kommsite/screens/c6.jpg
+- title: 
+  img: /media/kommsite/screens/c7.jpg
+  url: /media/kommsite/screens/c7.jpg
+- title: 
+  img: /media/kommsite/screens/c8.jpg
+  url: /media/kommsite/screens/c8.jpg
+- title: 
+  img: /media/kommsite/screens/c9.jpg
+  url: /media/kommsite/screens/c9.jpg
+- title: 
+  img: /media/kommsite/screens/c10.jpg
+  url: /media/kommsite/screens/c10.jpg
+- title: 
+  img: /media/kommsite/screens/c11.jpg
+  url: /media/kommsite/screens/c11.jpg
+- title: 
+  img: /media/kommsite/screens/c12.jpg
+  url: /media/kommsite/screens/c12.jpg
+- title: 
+  img: /media/kommsite/screens/c13.jpg
+  url: /media/kommsite/screens/c13.jpg
 ---
 
-{% include subscribe-widget.html pagename="kommsite-missionstatement" color_scheme="xdark-gray"%}
+{% include static.html pagename="kommsite-missionstatement"%}
 
-{% include timeline.html module_title="Projektplan"%}
+{% include subscribe-widget.html%}
 
-{% include events-listing.html bg-image="/media/hero/cyber_7.jpg" bg-position="10% 10%" %}
+{% include text-map.html title="Ziele" color_scheme='dark-gray' %}
 
-{% include accordion2.html title="So funktioniert's" description="Wie funktioniert das CMS der neuen UniBW Website? Wo muss ich meine Inhalte einpflegen und wie kommen sie auf die einzelnen Seiten? Wer erklärt mir das Konzept der Modulseiten und Module, die die Inhalte darstellen? Klicken Sie auf die einzelnen Bilder, um mehr über die Funktionsweise des neuen CMS zu erfahren. Tutorials, Videos und HowTos zeigen erste Schritte im neuen CMS." %}
+{% include flip-cards-dyn.html title="Wie wir arbeiten" description="Prozesse, Methoden und Herangehensweisen bei der Umsetzung des Web Relaunch Projekts" %} 
+
+{% include timeline.html module_title="Projektplan" %}
+
+{% include owl-carousel.html title="Was entsteht?" %}
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+
+        <h3>Klickbarer Prototyp</h3>
+        <p>Ein sich stets weiterentwickelnder klickbarer Prototyp aus HTML, CSS und Javascript. Das hat den Vorteil, schnell neue Anforderung testen zu können, ohne das Hauptsystem zu beeinflussen. Funktionieren neue Elemente, so können sie nach einer Stabilisierungsphase in das Produktivsystem übernommen werden. Funktionieren sie nicht, so ist nur wenig Aufwand für die Tests nötig gewesen. Der Prototyp erlaubt uns effiziente Evaluation von Inhalt, Logik und Darstellung</p>
+      </div>
+
+      <div class="col-md-6">
+        <h3>Produktivsystem mit CMS Anbindung</h3>
+        <p>Das Produktivsystem wird parallel zum bestehenden Webauftritt aufgebaut. Stück für Stück können Websites auf das neue System übertragen werden. Die Reihenfolge wird weitgehend von den Wünschen und dem Engagement der Betreiber abhängen. Das dahinterliegende CMS für die Datenpflege ist die neueste Version von Plone, speziell überarbeitet, um die Bedienung zu vereinfachen und ausgewählt, weil es das sicherste System auf dem Markt ist und betriebs-Know-How bereits vorliegt.</p>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+      <h3 class="title font-28 text-theme-color-2 mt-30 mb-20 text-center">Endergebnis</h3>
+      <p class="font-22 text-center ml-100 mr-100">
+      Nach der Umsetzung wird die Universität ein <span class="text-highlight light">einfach zu bedienendes CMS</span> und <span class="text-highlight bg-theme-colored">moderne und wiedererkennbare Internetseiten</span> besitzten, welches beides deutlich schneller läuft und wesentlich mehr Freiheiten zur Gestaltung bietet.</p>
+
+      <!--div class="icon-box icon-left">
+              <a class="icon icon-gray icon-circled icon-border-effect effect-circled icon-sm pull-left flip mr-10" href="#">
+                <i class="fa fa-child"></i>
+              </a>
+              <h5 class="icon-box-title mb-5">Endergebnis</h5>
+              <p class="text-gray">Nach der Umsetzung wird die Universität ein modernes, einfach zu bedienendes und wiedererkennbare Internetseiten besitzten, welches deutlich schneller läuft und wesentlich mehr Freiheiten zur Gestaltung bietet. </p>
+            </div-->
+        
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+{% include events-listing.html bg-image="/media/hero/kommsite_n3.jpg" morelink="kommsite-termine.html" bg-position="10% 10%" %}
+
+{% include accordion.html title="So funktioniert's" description="Wie funktioniert das CMS der neuen UniBW Website? Wo muss ich meine Inhalte einpflegen und wie kommen sie auf die einzelnen Seiten? Wer erklärt mir das Konzept der Modulseiten und Module, die die Inhalte darstellen? Klicken Sie auf die einzelnen Bilder, um mehr über die Funktionsweise des neuen CMS zu erfahren. Tutorials, Videos und HowTos zeigen erste Schritte im neuen CMS." %}
 
 {% include team-plus.html title="Das Team" color_scheme="dark-gray"  %}
+
+{% include page-teaser-img-right.html title="So wird mir geholfen…" pagename="kommsite-hilfe"%}
+
+

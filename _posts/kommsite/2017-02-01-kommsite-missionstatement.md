@@ -5,21 +5,8 @@ name: kommsite-missionstatement
 description: 
 category: kommsite
 department: kommsite
-section: kommsite
+section: Web Relaunch
 color_scheme: orange
 ---
-
-Unsere Universität betreibt über 200 Websites auf einem zentralen Server. Das zugrundeliegende Design ist nun bald 14 Jahre alt. Zeit für eine Überarbeitung!
-
-# Ziele:
-
-- Neu und frisch
-  Das Design soll an moderne Standards angepasst werden und neu und frisch wirken
-- Einheitliche Aussenwirkung
-  Alle Einrichtungen sollen ein weitgehend einheitliches Aussehen bekommen um einen Wiedererkennungseffekt zu erreichen. 
-- Gestaltungsspielraum und Freiheiten
-  Gleichzeitig soll es viele Gestaltungsspielräume geben, um den unterschiedlichen Anforderungen Rechnung zu tragen.
-- Einfachheit
-  Die Bedienung soll einfach gehalten werden damit die Pflege der Inhalte leicht von der Hand geht. Eine aktuelle Website ist dringend notwendig zur zeitgemäßen Aussendarstellung.
-- Effizienz
-  Effiziente und ressourcenschonende Umsetzung.
+<p class="font-22 text-center ml-100 mr-100">Unsere Universität betreibt <span class="text-highlight light">über 200 Websites</span> auf einem zentralen Server. Das zugrundeliegende Design ist nun bald <span class="text-highlight bg-theme-colored">14 Jahre alt</span>.</p>
+<h2 class="title font-36 text-theme-color-2 mt-30 mb-20 text-center">Zeit für eine Überarbeitung!</h2>

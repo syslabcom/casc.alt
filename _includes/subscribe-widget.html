@@ -1,58 +1,25 @@
-<section class="news scheme-{{include.color_scheme}}">
-
-  <div class="container">
-
+<section class="bg-theme-colored mt-30">
+  <div class="container pt-40 pb-40">
     <div class="row">
-    {% for item in site.posts %}
-      {% if item.name == include.pagename %}
-      <div class="col-md-8">
-           {{ item.content | markdownify  }} 
+      <div class="col-md-5">
+        <h3 class="mt-5 text-white">Aktuelle Updates zum Webrelaunch</h3>
+        <p class="text-white">Tragen Sie sich hier ein und wir senden Ihnen Updates zum Verlauf.<br /><br />
+        Damit Sie stets gut informiert sind, wie es weitergeht!</p>
       </div>
-      {% endif %}
-    {% endfor %}
-      <div class="col-md-4" >
-        <div class="widget border-1px p-30">
-          <h5 class="widget-title line-bottom">Aktuelle Updates zum Webrelaunch</h5>
-          <p class="font-13">Tragen Sie sich hier ein und wir senden Ihnen Updates zum Verlauf.</p>
-          <form id="quick_contact_form" name="quick_contact_form" class="quick-contact-form" action="includes/quickcontact.php" method="post" novalidate="novalidate">
-            <div class="form-group">
-              <input name="form_email" class="form-control" required="" placeholder="Email-Adresse" aria-required="true" type="text">
-            </div>
-            <div class="form-group">
-              <input name="form_botcheck" class="form-control" value="" type="hidden">
-              <!--button type="submit" class="btn btn-default btn-circled btn-theme-colored btn-xl mt-0 hvr-grow-rotate" style="background-color: #339860" data-loading-text="Please wait...">Anmelden <i class="fa fa-envelope-o"></i> </button-->
-              <button type="submit" class="btn btn-dark btn-transparent btn-theme-colored btn-xl mt-0 hvr-grow-rotate" data-loading-text="Please wait...">Anmelden <i class="fa fa-envelope-o"></i> </button>
+      <div class="col-md-6 col-md-offset-1">
+        
+        <!-- Mailchimp Subscription Form-->
+        <!--form id="mailchimp-subscription-form11" class="newsletter-form mt-30" novalidate="true">
+          <div class="input-group">
+            <input id="mce-EMAIL" data-height="45px" class="form-control input-lg" placeholder="Emailadresse" name="EMAIL" value="" style="height: 45px;" type="email">
+            <span class="input-group-btn">
+              <button type="submit" class="btn btn-gray btn-theme-color-2 text-white btn-xl mt-0 hvr-grow-rotate" data-height="45px" style="height: 45px;">Anmelden <i class="fa fa-envelope-o"></i></button>
+            </span>
+          </div>
+        </form--> 
+        <iframe class="ktv2" src="https://klicktipp.s3.amazonaws.com/userimages/47103/forms/70022/1m5mz13fsz8z5b2c.html" style="position:relative;display:inline-block;border:none;background:transparent none no-repeat scroll 0 0;margin:0;" width="300" height="250" scrolling="no"></iframe>
 
-            </div>
-            <p class="font-13">Damit Sie stets gut informiert sind, wie es weitergeht!</p>
-          </form>
-
-          <!-- Quick Contact Form Validation-->
-          <script type="text/javascript">
-            $("#quick_contact_form").validate({
-              submitHandler: function(form) {
-                var form_btn = $(form).find('button[type="submit"]');
-                var form_result_div = '#form-result';
-                $(form_result_div).remove();
-                form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
-                var form_btn_old_msg = form_btn.html();
-                form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
-                $(form).ajaxSubmit({
-                  dataType:  'json',
-                  success: function(data) {
-                    if( data.status == 'true' ) {
-                      $(form).find('.form-control').val('');
-                    }
-                    form_btn.prop('disabled', false).html(form_btn_old_msg);
-                    $(form_result_div).html(data.message).fadeIn('slow');
-                    setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
-                  }
-                });
-              }
-            });
-          </script>
-        </div>
       </div>
-    </div>
-  </div>
+    </div> 
+  </div>       
 </section>

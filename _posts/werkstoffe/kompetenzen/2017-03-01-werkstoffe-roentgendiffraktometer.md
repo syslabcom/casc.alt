@@ -7,9 +7,12 @@ category: werkstoffe
 hero_title: Röntgendiffraktometer
 department: werkstoffe
 breadcrumbs:
-- BAU
-- Werkstoffe
-- Kompetenzen
+- title: Home
+  url: bau.html
+- title: Werkstoffe
+  url: bau_institut_werkstoffe.html
+- title: Kompetenzen
+  url: werkstoffe_kompetenzen.html
 ---
 
 <p><strong><img alt="Röntgendiff" src="https://www.unibw.de/werkstoffe/kompetenzen/chemische-analyse/roentgendiffraktometrie/xrd-mit-umgebung.png/image_preview" style="width: 480px; height: 431px;"></strong></p>

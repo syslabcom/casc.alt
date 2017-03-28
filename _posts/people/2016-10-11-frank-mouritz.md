@@ -16,8 +16,9 @@ secretary_phone: 089 6004-4229
 secretary_name: Anna Meyer
 room: Gebäude 41/300, Zimmer 0304
 breadcrumbs:
-- INF
-- Lehrstuhl für Kommunikationssysteme und Netzsicherheit
-- Frank Mouritz M.A.
+- title: Home
+  url: /
+- title: INF
+- title: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 ---
 

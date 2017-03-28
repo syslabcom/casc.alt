@@ -7,9 +7,12 @@ category: werkstoffe
 hero_title: Computertomographie
 department: werkstoffe
 breadcrumbs:
-- BAU
-- Werkstoffe
-- Kompetenzen
+- title: Home
+  url: bau.html
+- title: Werkstoffe
+  url: bau_institut_werkstoffe.html
+- title: Kompetenzen
+  url: werkstoffe_kompetenzen.html
 ---
 
 

@@ -16,8 +16,9 @@ secretary_name: Anna Meyer
 program: 
 room: Gebäude 41/300, Zimmer 0304
 breadcrumbs:
-- INF
-- Lehrstuhl für Kommunikationssysteme und Netzsicherheit
-- Frau Andrea Hoffmann
+- title: Home
+  url: /
+- title: INF
+- title: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 ---
 

@@ -2,7 +2,7 @@
 layout: generic
 name: modulseiten
 category: konzepte
-hero_image: /media/hero/hero_modulseiten.png
+hero_image: /media/hero/hero_modulseite.jpg
 hero_title: Modulseiten für den neuen UniBW Webauftritt
 department: modulseite
 section: Konzepte

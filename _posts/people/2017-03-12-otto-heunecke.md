@@ -20,8 +20,8 @@ secretary_name:
 room: Geb. 41/100, Raum 0000
 department: UniBwM
 breadcrumbs:
-- BAU
-- Otto Heunecke
+- title: Home
+  url: bau.html
 ---
 
 
