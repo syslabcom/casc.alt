@@ -1,15 +1,15 @@
 <section>
   <div class="container">
-    {{ if include.title }}
+    {% if page.accordion-title %}
     <div class="section-title">
       <div class="row">
-        <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{ include.title }}</h2>
+        <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{ page.accordion-title }}</h2>
         <p class="description mt-20">
-          {{ include.description }}
+          {{ page.accordion-description }}
         </p>
       </div>
     </div>
-    {{ endif }}
+    {% endif %}
     <div class="row">
       <div class="col-md-9">
         <div class="single-service">

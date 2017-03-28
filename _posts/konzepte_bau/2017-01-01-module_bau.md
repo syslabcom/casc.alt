@@ -1,23 +1,21 @@
 ---
 layout: generic
-name: module
+name: module_bau
 category: konzepte
 hero_image: /media/hero/hero_module.jpg
-hero_title: Module für den neuen UniBW Webauftritt
-department: modul
-section: Konzepte
+hero_title: Verwendete Module im Bereich BAU
+department: modul_bau
+section: Module BAU
 color_scheme: orange
 ---
 
-
-{% include static.html pagename="module-intro" color_scheme="orange"%}
+{% include static.html pagename="module_bau-intro" color_scheme="orange"%}
 
 <div class="separator dotted separator-medium-line"> </div>
 
 {% assign modules = site.posts | where:"layout", "modul" | where:"department", page.department%}
 {% for item in modules reversed %}
-
-{% include page-teaser-img-left.html pagename=item.name color_scheme="gray"%}
+{% include module-details.html pagename=item.name color_scheme="gray"%}
 
 <div class="separator dotted separator-medium-line"> </div>
 
