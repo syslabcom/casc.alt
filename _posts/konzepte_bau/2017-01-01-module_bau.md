@@ -1,4 +1,5 @@
 ---
+title: Module in BAU
 layout: generic
 name: module_bau
 category: konzepte
@@ -7,6 +8,9 @@ hero_title: Verwendete Module im Bereich BAU
 department: modul_bau
 section: Module BAU
 color_scheme: orange
+breadcrumbs:
+- title: Home
+  url: bau.html
 ---
 
 {% include static.html pagename="module_bau-intro" color_scheme="orange"%}
