@@ -898,4 +898,9 @@ body.category-antrag .main-content #overview {
 .business-card .byline {
   font-size: 14px;
 }
- 
+
+#contentview-navigation {
+  border-color: #ddd;
+  border-style: solid;
+  border-width: 1px;
+}
