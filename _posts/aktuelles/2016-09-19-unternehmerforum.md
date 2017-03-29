@@ -5,7 +5,7 @@ name: casc_beim_tag
 description: "Am 14. und 15. Oktober 2016 richtet casc zusammen mit dem Alumni & Career Service das 7. Unternehmens- und Karriereforum an der Universität der Bundeswehr München aus."
 category: aktuelles
 tagline: Unser Service
-image: /media/news/news_18.jpg
+image: media/news/news_18.jpg
 department: casc
 ---
 

@@ -6,7 +6,7 @@ name: programme
 description: Programme der Universität der Bundeswehr München
 category: programme
 tagline: Programme
-hero_image: /media/hero/programme.jpg
+hero_image: media/hero/programme.jpg
 hero_title: Programme
 department: casc
 ---

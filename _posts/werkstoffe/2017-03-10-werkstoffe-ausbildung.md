@@ -6,7 +6,7 @@ description: "Habt ihr Lust, einmal bei uns hereinzuschnuppern? Schülerpraktika
 category: werkstoffe
 hero_title: Wir bilden aus!
 department: werkstoffe
-img: /media/werkstoffe/wir-bilden-aus.jpg
+img: media/werkstoffe/wir-bilden-aus.jpg
 ---
 
 

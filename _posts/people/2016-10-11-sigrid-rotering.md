@@ -6,7 +6,7 @@ hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 hero_title: Prof. Dr. habil. Sigrid Rotering-Steinberg
 description: Professur für Pädagogische Psychologie 
 category: akademische_leitung
-image: "/media/people/sigrid-rotering.jpg"
+image: "media/people/sigrid-rotering.jpg"
 parent: People
 phone:  +49 (0)89 / 6004 3160
 email:  sigrid.rotering-steinberg@unibw.de

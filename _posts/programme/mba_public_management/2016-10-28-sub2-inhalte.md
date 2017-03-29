@@ -19,7 +19,7 @@ parent: MBA Public Management
 
 ### Modulstruktur
 
-<img src="/media/programme/studienplan.png">
+<img src="media/programme/studienplan.png">
 
 ### Lehr- und Lernmethode
 

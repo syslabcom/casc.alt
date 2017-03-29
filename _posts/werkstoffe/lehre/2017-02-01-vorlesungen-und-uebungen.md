@@ -1,7 +1,7 @@
 ---
 layout: akkordeon
 title: Vorlesungen und Übungen
-hero_image: /media/bau/vorlesungen-hero.jpg
+hero_image: media/bau/vorlesungen-hero.jpg
 hero_overline: Werkstoffe des Bauwesens
 hero_title: Vorlesungen und Übungen
 section: BAU

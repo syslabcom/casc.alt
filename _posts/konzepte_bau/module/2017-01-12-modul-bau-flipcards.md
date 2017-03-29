@@ -4,7 +4,7 @@ title: Flip Cards
 description: Modul, das bis zu vier Inhaltsseiten in Form von animierten Vorschauboxen anzeigt.
 department: modul_bau
 name: modul-bau-flipcards
-img: /media/konzepte/module/modul_flipcards.png
+img: media/konzepte/module/modul_flipcards.png
 linked-pages:
 - title: Lehre
   url: /werkstoffe_lehre.html

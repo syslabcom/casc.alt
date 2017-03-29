@@ -5,7 +5,7 @@ name: modulstudium
 description: "Sie möchten sich fachlich gezielt auf eine Führungsaufgabe vorbereiten? Erwerben Sie mit unseren karrierebegleitenden Modulstudien kompaktes Wissen zu fachspezifischen Themen."
 category: programme
 parent: Studiengänge
-hero_image: /media/programme/13_modulstudium.jpg
+hero_image: media/programme/13_modulstudium.jpg
 hero_title: Modulstudium
 footer: Programme
 contact_person: dr_nicol_matzner_vogel

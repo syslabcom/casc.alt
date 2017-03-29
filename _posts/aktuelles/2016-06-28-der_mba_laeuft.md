@@ -5,7 +5,7 @@ name: der_mba_läuft
 description: Beim Münchner Stadtlauf am 26. Juni 2016 holt das MBA-International Management-Team den 18. Platz.
 category: aktuelles
 tagline: Unser Service
-image: /media/news/news_4.jpg
+image: media/news/news_4.jpg
 department: casc
 ---
 

@@ -7,7 +7,7 @@ hero_overline: Werkstoffe des Bauwesens
 hero_title: Nancy Beutner
 description: 
 category: 
-image: "/media/people/person.png"
+image: "media/people/person.png"
 parent: People
 phone: +49 (0) 89 6004 4219
 email: nancy.beutner@unibw.de

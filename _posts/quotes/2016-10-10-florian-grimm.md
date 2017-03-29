@@ -6,7 +6,7 @@ name: florian-grimm
 description: „Nach einigen beruflichen Jahren primär in der Luftfahrtentwicklung habe ich mich für den Studiengang Systems Engineering an der UniBw entschieden, da ich meine technischen Erfahrungen als Ingenieur um das breite Feld der Entwicklungsmethodik und des Entwicklungsmanagements fundiert ausbauen möchte.“ 
 category: quotes
 tagline: 
-image: /media/people/florian-grimm.jpg
+image: media/people/florian-grimm.jpg
 show: quotes
 ---
 

@@ -9,7 +9,7 @@ name: bw-berufsfeld
 hero_title: Berufsfeld Bauingenieur
 section: BW
 color_scheme: orange
-img: /media/bw/bw3.jpg
+img: media/bw/bw3.jpg
 ---
 
 Wir bilden ökonomisch versierte Kommunikations- und Medienmanager aus, die die Medienumwelt von Unternehmen und Non-Profit-Organisationen, wie z.B. der Bundeswehr, planen und gestalten. Tätgkeitsfelder sind:

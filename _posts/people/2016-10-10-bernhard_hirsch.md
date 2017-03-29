@@ -5,12 +5,12 @@ title: "Prof. Dr. Bernhard Hirsch"
 name: bernhard_hirsch
 description: Professor für Controlling
 category: akademische_leitung
-image: "/media/people/prof-hirsch.jpg"
+image: "media/people/prof-hirsch.jpg"
 hero_overline: Professor für Controlling
 hero_title: Prof. Dr. Bernhard Hirsch
 name: bernhard_hirsch
 category: akademische_leitung
-image: "/media/people/prof-hirsch.jpg"
+image: "media/people/prof-hirsch.jpg"
 parent: People
 phone: 089 6004-4209
 email: bernhard.hirsch@unibw.de

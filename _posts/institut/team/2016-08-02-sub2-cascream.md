@@ -6,7 +6,7 @@ name: das_weiterbildungsinstitut_casc
 description: Karriereförderung als Teil des bunten Programms beim Tag der offenen Tür auf dem Campus der Universität der Bundeswehr München am 11. Juni 2016.
 category: institut
 tagline: Unser Service
-hero: /media/hero/institut.jpg
+hero: media/hero/institut.jpg
 ---
 
 

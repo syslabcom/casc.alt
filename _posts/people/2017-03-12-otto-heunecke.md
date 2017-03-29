@@ -9,7 +9,7 @@ description:
 category: 
 hero_overline: Ingenieursgeodäsie
 hero_title: Univ.-Prof. Dr.-Ing. Otto Heunecke
-image: /media/people/otto_heunecke.jpg
+image: media/people/otto_heunecke.jpg
 parent: People
 phone: 089 / 6004 - 1234
 email: otto.heunecke@unibw.de

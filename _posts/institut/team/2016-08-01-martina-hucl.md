@@ -5,7 +5,7 @@ name: martina_hucl_dipl_kulturwirtin
 description: Dipl. Kulturwirtin
 category: institut
 tagline: Unser Service
-image: "/media/team-members/8.jpg"
+image: "media/team-members/8.jpg"
 parent: Team
 typ: staff
 ---

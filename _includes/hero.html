@@ -7,9 +7,9 @@
             <ul>
             {% assign programme = site.posts | where:"slider", page.slider_section %}
             {% for item in programme %}
-              <li data-index="rs-{{ forloop.index }}" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="{{ item.hero_image }}" data-rotate="0" data-saveperformance="off" data-title="{{ item.hero_title }}" data-description="">
+              <li data-index="rs-{{ forloop.index }}" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="{{ site.baseurl }}{{ item.hero_image }}" data-rotate="0" data-saveperformance="off" data-title="{{ item.hero_title }}" data-description="">
                 <!-- MAIN IMAGE -->
-                <img src="{{ item.hero_image }}"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+                <img src="{{ site.baseurl }}{{ item.hero_image }}"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
                 <!-- LAYERS -->
 
                 <!-- LAYER NR. 1 -->
@@ -24,7 +24,7 @@
                   data-whitespace="normal"
                   data-basealign="grid"
                   data-responsive_offset="on"
-                  ><a href="{{ item.url }}">
+                  ><a href="{{ site.baseurl }}{{ item.url }}">
                     <h1>{{ item.hero_title }}</h1>
                   </a>
                 </div>
@@ -143,8 +143,8 @@
   {% if page.hero_image %}
     <section id="hero" 
              class="inner-header divider gradient" 
-             data-bg-img="{{ page.hero_image }}" 
-             style="background-image: url({{ page.hero_image }}); ">
+             data-bg-img="{{ site.baseurl }}{{ page.hero_image }}" 
+             style="background-image: url({{ site.baseurl }}{{ page.hero_image }}); ">
       {% if page.section %}
       <div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
             <span style="white-space: nowrap">{{page.section}}</span>
@@ -196,9 +196,9 @@
           <div class="col-md-12">
             <ol class="breadcrumb">
               {% for item in page.breadcrumbs %}
-                <li><a href="{{item.url}}">{{item.title}}</a></li>
+                <li><a href="{{ site.baseurl }}{{item.url}}">{{item.title}}</a></li>
               {% endfor %}
-              <li><a href="{{page.url}}" class="active text-gray-silver">{{page.title}}</a></li>
+              <li><a href="{{ site.baseurl }}{{page.url}}" class="active text-gray-silver">{{page.title}}</a></li>
             </ol>
           </div>
         </div>

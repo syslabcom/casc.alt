@@ -5,7 +5,7 @@ title: Anforderungsworkshop mit Orange Hills
 category: kommsite
 department: kommsite
 section: Web Relaunch
-img: "/media/kommsite/struktur.png"
+img: "media/kommsite/struktur.png"
 description: In einem Meeting mit Orange Hills wurde ein Anforderungskatalog für den neuen Webauftritt erstellt.  
 location: Campus Universität der Bundeswehr München
 day: dd

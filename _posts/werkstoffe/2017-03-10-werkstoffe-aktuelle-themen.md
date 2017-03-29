@@ -6,7 +6,7 @@ description: "An unserem Institut sind zahlreiche Themen zur Bearbeitung einer B
 category: werkstoffe
 hero_title: Aktuelle Themen für Bachelor- und Masterarbeiten
 department: werkstoffe
-img: /media/werkstoffe/werkstoffe-aktuelle-themen.jpg
+img: media/werkstoffe/werkstoffe-aktuelle-themen.jpg
 ---
 
 Bei Interesse meldet euch einfach bei Ricarda Sposito ( ricarda.sposito@unibw.de) oder Simon Rumplmayr ( simon.rumplmayr@unibw.de) oder schaut gerne auch persönlich vorbei!

@@ -8,22 +8,22 @@
   
     <ul class="menuzord-menu">
         <li>
-            <a id="site-{{ page.department }}" href="{{ section.url }}" class="site-logo site-{{ page.department }}" href="#home">{{ section.title }}</a>
+            <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="site-logo site-{{ page.department }}" href="#home">{{ section.title }}</a>
         </li>
         {% for item in section.items %}
         <li class="{% if page.category == item.id %}active{% endif %}">
-            <a href="{{ item.url }}"> {{ item.title }} </a>
+            <a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }} </a>
             {% if item.children %}
             <ul class="dropdown">
               
               {% for subitem in item.children %}
               <li>
-                <a href=" {{ subitem.url }}"> {{ subitem.title }} </a>
+                <a href="{{ site.baseurl }}{{ subitem.url }}"> {{ subitem.title }} </a>
                   {% if subitem.children %}
                   <ul class="dropdown">
                     
                     {% for subsubitem in subitem.children %}
-                    <li><a href=" {{ subsubitem.url }}"> {{ subsubitem.title }} </a></li>
+                    <li><a href="{{ site.baseurl }}{{ subsubitem.url }}"> {{ subsubitem.title }} </a></li>
                     {% endfor %}                      
                   </ul>
                   {% endif %}
@@ -37,5 +37,5 @@
     </ul>
   </nav>
   <p id="athene">
-      <a href="/">Universität der Bundeswehr München</a>
+      <a href="{{ site.baseurl }}./index.html">Universität der Bundeswehr München</a>
   </p>

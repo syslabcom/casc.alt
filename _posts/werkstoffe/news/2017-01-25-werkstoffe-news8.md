@@ -4,7 +4,7 @@ title: "Wir bilden aus"
 name: werkstoffe-news-1
 description:  "Habt ihr Lust, einmal bei uns hereinzuschnuppern? Schülerpraktikanten sind willkommen!"
 category: aktuelles
-image: /media/werkstoffe/ausbildungsbetrieb_2016.png
+image: media/werkstoffe/ausbildungsbetrieb_2016.png
 department: werkstoffe
 ---
 

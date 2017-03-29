@@ -4,7 +4,7 @@ title: Aufmacherbild (Hero) mit Titel
 description: Modul für den Seitenkopf bestehend aus einem Aufmacherbild über die gesamte Breite der Website und einem Titel, einem Untertitel sowie einem vertikalen Marker. 
 department: modul_bau
 name: modul-bau-hero
-img: /media/konzepte/module/modul_hero.png
+img: media/konzepte/module/modul_hero.png
 linked-pages:
 - title: Startseite "Bauingenieurwesen und Umweltwissenschaften"
   url: /bau.html

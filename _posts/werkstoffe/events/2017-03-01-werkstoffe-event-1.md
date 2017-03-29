@@ -10,7 +10,7 @@ end: 2015-08-12
 description: Auch dieses Jahr fand an unserem Institut wieder das Ferienprogramm "Mädchen machen Technik" der Agentur "Mädchen in Wissenschaft und Technik" der Technischen Universität München statt.
 category: werkstoffe
 department: werkstoffe
-img: /media/werkstoffe/maedchen-machen-technik.jpg
+img: media/werkstoffe/maedchen-machen-technik.jpg
 ---
 
 
@@ -20,7 +20,7 @@ Unter dem Motto „Beton, Holz, Papier … kreative Brücken bauen“ konnten in
 
 Unter Anderem mischten sie eigenständig Mörtel und Leichtbeton an und konnten damit Schlüsselanhänger, Memohalter, Schälchen und Türstopper anfertigen. Das Ergebnis sind kleine bunt verzierte Kunststücke aus einem Material, das man sonst oft nur als groben Baustoff kennt.
 
-<img src="/media/werkstoffe/maedchen-machen-technik.jpg">
+<img src="media/werkstoffe/maedchen-machen-technik.jpg">
 
 
 Weitere Infos gibt es hier:

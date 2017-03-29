@@ -9,4 +9,4 @@ section: Web Relaunch
 color_scheme: orange
 ---
 
-<img src="/media/kommsite/feature_cloud.png" />
+<img src="media/kommsite/feature_cloud.png" />

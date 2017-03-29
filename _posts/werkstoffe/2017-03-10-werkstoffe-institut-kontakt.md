@@ -6,9 +6,9 @@ description: ""
 category: werkstoffe
 hero_overline: Werkstoffe des Bauwesens
 hero_title: Kontakt & Anfahrt
-hero_image: /media/hero/contact.jpg
+hero_image: media/hero/contact.jpg
 department: werkstoffe
-img: /media/hero/contact.jpg
+img: media/hero/contact.jpg
 breadcrumbs:
 - title: Home
   url: bau.html

@@ -2,7 +2,7 @@
 layout: generic
 name: inhalte
 category: konzepte
-hero_image: /media/hero/hero_inhalt.jpg
+hero_image: media/hero/hero_inhalt.jpg
 hero_title: Inhaltsseiten für den neuen UniBW Webauftritt
 department: inhaltsseite
 section: Konzepte

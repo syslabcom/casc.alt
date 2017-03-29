@@ -6,7 +6,7 @@ hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 hero_title: Prof. Dr.-Ing. Kristin Paetzold
 description: Institut für Technische Produktentwicklung, Fakultät für Luft- & Raumfahrttechnik
 category: akademische_leitung
-image: "/media/people/kristin-paetzold.jpg"
+image: "media/people/kristin-paetzold.jpg"
 parent: People
 phone: +49 (0)89 6004 2814
 email: kristin.paetzold@unibw.de

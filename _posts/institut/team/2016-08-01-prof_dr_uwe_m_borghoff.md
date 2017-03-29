@@ -5,7 +5,7 @@ name: prof_dr_uwe_m_borghoff
 description: 
 category: institut
 tagline: Unser Service
-image: "/media/team-members/6.jpg"
+image: "media/team-members/6.jpg"
 parent: Team
 typ: staff
 ---

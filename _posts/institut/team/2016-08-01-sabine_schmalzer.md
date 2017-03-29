@@ -5,7 +5,7 @@ name: dr__des_sabine_schmalzer
 description: 
 category: institut
 tagline: Unser Service
-image: "/media/team-members/10.jpg"
+image: "media/team-members/10.jpg"
 parent: Team
 typ: staff
 ---

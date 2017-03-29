@@ -5,7 +5,7 @@ name: international_security_studies
 description: "The Master of Arts – Program “International Security Studies” (MISS) is a unique post-graduate program for security professionals offered jointly by the Universität der Bundeswehr München (UniBwM) and the George C. Marshall European Center for Security Studies (GCMC)."
 category: programme
 tagline: 
-image: /media/programme/casc_3.jpg
+image: media/programme/casc_3.jpg
 parent: International Security Studies (M.A.)
 backlink: "/programme#studiengaenge"
 anmeldung: "Sie können sich bis zum 1. März jedes Jahres zum MBA Public Management anmelden, der Studiengang beginnt im April jedes Jahres."
@@ -21,7 +21,7 @@ The MISS is a twelve-month program that consists of a common study period of fou
 
 ### Common Curriculum
 
-<img src="/media/programme/iss_modulplan.png" class="mr-10" style="float:left">
+<img src="media/programme/iss_modulplan.png" class="mr-10" style="float:left">
 The program’s common curriculum aims to provide students with a thorough knowledge of contemporary security studies from both theoretical and policy perspectives. It starts with the introductory module **“Theories and Methods”**, in which students learn to understand the structures and processes behind international security policy. A particular focus of this module is also on consolidating the methods (analysis, writing, presenting) required for the program.
 
 Subsequently, students attend the Marshall Center's Flagship Course, the <a href="http://www.marshallcenter.org/mcpublicweb/en/nav-main-wwd-res-courses-pass-en.html">"Program in Advanced Security Studies"</a> 

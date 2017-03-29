@@ -4,7 +4,7 @@ title: Seitenvorschau mit Text und Bild
 description: Einfaches Modul bestehend aus Textblock und einem Bild, das links angeordnet wird.
 department: modul_bau
 name: modul-bau-page-teaser-img-left
-img: /media/konzepte/module/modul_page_teaser_img_left.png
+img: media/konzepte/module/modul_page_teaser_img_left.png
 linked-pages:
 - title: Startseite "Bauingenieurwesen und Umweltwissenschaften"
   url: /bau.html

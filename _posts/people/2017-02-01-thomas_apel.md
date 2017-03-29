@@ -9,7 +9,7 @@ description:
 category: 
 hero_overline: Institut für Werkstoffe des Bauwesens
 hero_title: Prof. Dr.-Ing. Karl-Christian Thienel
-image: "/media/people/thomas_apel.jpg"
+image: "media/people/thomas_apel.jpg"
 parent: People
 phone: +49 (0) 89 6004 4219
 email: thomas.apel@unibw.de

@@ -16,7 +16,7 @@
             <div class="tab-pane fade{% if forloop.index == 1 %} in active{% endif %}" id="tab-{{ forloop.index }}">
               <ul class="list-icon">
               {% for item in tab.items %}	
-                <li><i class="fa fa-download"></i> <a href="{{ item.url }}">{{ item.title }}</a></li>
+                <li><i class="fa fa-download"></i> <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a></li>
               {% endfor %}
               </ul>
             </div>

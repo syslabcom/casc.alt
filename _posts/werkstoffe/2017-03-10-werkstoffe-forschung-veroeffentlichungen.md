@@ -6,9 +6,9 @@ description: Veröffentlichungen an unserem Institut
 category: werkstoffe
 hero_overline: Werkstoffe des Bauwesens
 hero_title: Forschung - Veröffentlichungen
-hero_image: /media/werkstoffe/veroeffentlichungen.jpg
+hero_image: media/werkstoffe/veroeffentlichungen.jpg
 department: werkstoffe
-img: /media/werkstoffe/veroeffentlichungen.jpg
+img: media/werkstoffe/veroeffentlichungen.jpg
 breadcrumbs:
 - title: Home
   url: bau.html

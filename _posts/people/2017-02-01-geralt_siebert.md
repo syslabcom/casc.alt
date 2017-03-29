@@ -9,7 +9,7 @@ description:
 category: 
 hero_overline: Fakultät BAU
 hero_title: Univ.-Prof. Dr.-Ing. Geralt Siebert
-image: "/media/people/geralt_siebert.jpg"
+image: "media/people/geralt_siebert.jpg"
 parent: People
 phone: +49 (0) 89 6004 3879
 email: geralt.siebert@unibw.de

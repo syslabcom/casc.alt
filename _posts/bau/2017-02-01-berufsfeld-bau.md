@@ -8,7 +8,7 @@ department: bau
 hero_title: Berufsfeld Bauingenieur
 section: BAU
 color_scheme: orange
-img: /media/bau/berufsfeld.jpg
+img: media/bau/berufsfeld.jpg
 ---
 
 Wie wir morgen leben, wird durch ihre Fantasie und ihr Wissen beflügelt. Sie analysieren, modellieren und realisieren. Sie schaffen sichere Flughäfen, vernetzen Siedlungen, entwerfen Wasserversorgungskonzepte und Kanalisationen, renaturieren Flüsse oder gründen Windkraftanlagen auf offener See.

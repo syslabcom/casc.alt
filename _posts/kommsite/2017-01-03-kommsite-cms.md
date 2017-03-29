@@ -5,7 +5,7 @@ name: kommsite-cms
 description: Ansätze, wie die Arbeit im CMS vereinfacht werden kann.
 category: kommsite
 department: kommsite
-hero_image: /media/hero/kommsite_n5.jpg
+hero_image: media/hero/kommsite_n5.jpg
 hero_title: CMS
 hero_overline: 
 section: Web Relaunch

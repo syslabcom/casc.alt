@@ -5,7 +5,7 @@ name: zertifikate
 description: "Sie möchten ihr Wissen in einem bestimmten Themengebiet vertiefen? Mit unseren Zertifikaten qualifizieren Sie sich gezielt für herausfordernde Aufgaben und werden Experte auf diesem Gebiet."
 category: programme
 parent: Studiengänge
-hero_image: /media/programme/14_zertifikate.jpg
+hero_image: media/programme/14_zertifikate.jpg
 hero_title: Zertifikate
 footer: Programme
 contact_person: dr_nicol_matzner_vogel

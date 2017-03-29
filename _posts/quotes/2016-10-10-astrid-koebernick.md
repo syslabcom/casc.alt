@@ -6,7 +6,7 @@ name: kerstin-melzer
 description: "Ich erfuhr bereits während meines Erststudiums Betriebswirtschaftslehre (FH) an der Universität der Bundeswehr München von dem Vorhaben der Frau Prof. Dr. Rotering-Steinberg einen neuen casc-Studiengang Personalentwicklung zu implementieren. Thematisch interessierte mich der Studiengang von Anfang an, da ich im Schwerpunkt Personalmanagement und Arbeitsrecht belegte."
 category: quotes
 tagline: 
-image: /media/people/kerstin-melzer.jpg
+image: media/people/kerstin-melzer.jpg
 ---
 
 

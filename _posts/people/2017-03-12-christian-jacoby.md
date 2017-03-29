@@ -9,7 +9,7 @@ description:
 category: 
 hero_overline: Institut für Werkstoffe des Bauwesens
 hero_title: Univ.-Prof. Dr.-Ing. Christian Jacoby
-image: /media/people/christian_jacoby.jpg
+image: media/people/christian_jacoby.jpg
 parent: People
 phone: 089 / 6004 - 3866
 email: christian.jacoby@unibw.de
