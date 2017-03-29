@@ -7,7 +7,7 @@ category: programme
 tagline: 
 hero_image: /media/werkstoffe/bauing-ba.png
 img: /media/werkstoffe/bauing-ba.png
-hero_title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
+hero_title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BSc
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: geralt_siebert

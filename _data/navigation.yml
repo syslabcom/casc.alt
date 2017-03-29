@@ -89,13 +89,13 @@
     id: studiengaenge
     url: bau_studiengaenge.html
     children:
-    - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
+    - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BSc
       url: bau_studiengang_ba.html
-    - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften MA
+    - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften MSc
       url: bauingenieurwesen-und-umweltwisschenschaften-ma.html
-    - title: Mathematical Engineering BA
+    - title: Mathematical Engineering BSc
       url: mathematical-engineering-ba.html
-    - title: Mathematical Engineering MA
+    - title: Mathematical Engineering MSc
       url: mathematical-engineering-ma.html
 
 #############################################################################

@@ -1,11 +1,11 @@
 ---
 layout: programme
-title: Studiengang Mathematical Engineering BA
+title: Studiengang Mathematical Engineering BSc
 name: mathematical_engineering_ba
 description: "Als interdisziplinärer Studiengang umfasst Mathematical Engineering eine Vielzahl von Themengebieten und Anwendungsmöglichkeiten."
 category: programme
 tagline: 
-hero_title: Mathematical Engineering BA
+hero_title: Mathematical Engineering BSc
 hero_image:  /media/werkstoffe/me-ba.jpg
 img: /media/werkstoffe/me-ba.jpg
 parent: Studiengänge
