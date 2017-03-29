@@ -1,6 +1,6 @@
 ---
 layout: programme
-title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
+title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BSc
 name: bauingenieurwesen_und_umweltwisschenschaften_ba
 description: "Eine größere Zukunft gestalten. Vier Jahre – vier Studienprofile – beste Berufsaussichten"
 category: programme
