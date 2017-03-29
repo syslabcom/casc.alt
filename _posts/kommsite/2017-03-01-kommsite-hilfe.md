@@ -34,7 +34,13 @@ Es ist geplant, rechtzeitig über die Uni Weiterbildungsstelle Trainings zum neu
 ### Dokumentation
 
 Genau wie in der bisherigen Site wird es einen eigenen Dokumentationsbereich für die neue Website geben. Hier behandeln wir alle Uni-spezifischen Fragen und Kniffe. Dieser Bereich wird voraussichtlich im neuen Uni-Wiki liegen, das April/Mai eingeführt werden soll.
+
+### Styleguide
+
+Es wird einen Styleguide geben, in dem beschrieben ist, was eine Website der Universität ausmacht und wie Sie diese am besten gestalten. 
  
 ### Inhaltliche Unterstützung
 
 Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support - soll voraussichtlich ein neuer Web-Content-Editor am Präsidialbereich leisten. Details dazu finden Sie hier, wenn diese spruchreif werden.
+
+Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bildern aufgebaut, auf die Sie zugreifen können. 
