@@ -917,3 +917,7 @@ body.category-antrag .main-content #overview {
   border-style: solid;
   border-width: 1px;
 }
+
+.main-content .container ul.list-icon  {
+  list-style-type: none;
+}
