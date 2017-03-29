@@ -1,11 +1,11 @@
-- date: Ende 2015
+- date: Jan 2016
   title: "Projektstart Neuer Webauftritt"
   description: "Die erweiterte Hochschulleitung beschliesst einen neuen Webauftritt. Die Projektleitung wurde dem Vizepräsidenten für Forschung, Prof. Dr.-Ing. Christian Thienel, übertragen."
   img: /js/vertical-timeline/img/cd-icon-picture.svg
   img_class: cd-picture
   url: 
 
-- date: Dez. 2015
+- date: Jan. 2016
   title: "Anforderungsanalyse"
   description: "Das Web Team tritt zum ersten mal zusammen und erörtert die Herangehensweise"
   img: /js/vertical-timeline/img/cd-icon-movie.svg
@@ -136,7 +136,7 @@
 
 - date: 9.2.2017
   title: "Styleguide"
-  description: "Beschluss Design-Fragen: Es sollen zunächst mehrere Prototoyp-Seiten mit Inhalt gefüllt werden (Fakultät BAU, Institut Werkstoffe, Personenseiten etc.), um eine Vorlage für weitere Diskussionen zu haben. Um auch anhand dieser Prototypen weitere Design-Fragen zu klären, soll Syslab zu einem Meeting gebeten werden. Die vorliegendenden Prototyp-Seiten wurden von Syslab annähernd nach Vorgabe der Workshop-Modelle umgesetzt. Änderungswünsche sollten daher unter Berücksichtigung der festgelegten Workshop-Modelle (orange hills) geprüft werden. Erstellung Styleguide: Der Styleguide soll sukzessive weitergeschrieben werden."
+  description: "Beschluss Layout-Fragen: Es sollen zunächst mehrere Prototoyp-Seiten mit Inhalt gefüllt werden (Fakultät BAU, Institut Werkstoffe, Personenseiten etc.), um eine Vorlage für weitere Diskussionen zu haben. Um auch anhand dieser Prototypen weitere Layout-Fragen zu klären, soll Syslab zu einem Meeting gebeten werden. Die vorliegendenden Prototyp-Seiten wurden von Syslab annähernd nach Vorgabe der Workshop-Modelle umgesetzt. Änderungswünsche sollten daher unter Berücksichtigung der festgelegten Workshop-Modelle (orange hills) geprüft werden. Erstellung Styleguide: Der Styleguide soll sukzessive weitergeschrieben werden."
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
