@@ -1,13 +1,13 @@
 - date: Jan 2016
   title: "Projektstart Neuer Webauftritt"
-  description: "Die erweiterte Hochschulleitung beschliesst einen neuen Webauftritt. Die Projektleitung wurde dem Vizepräsidenten für Forschung, Prof. Dr.-Ing. Christian Thienel, übertragen."
+  description: "Die Hochschulleitung beschließt einen neuen Webauftritt. Die Projektleitung wurde dem Vizepräsidenten für Forschung, Prof. Dr.-Ing. Christian Thienel, übertragen."
   img: /js/vertical-timeline/img/cd-icon-picture.svg
   img_class: cd-picture
   url: 
 
 - date: Jan. 2016
   title: "Anforderungsanalyse"
-  description: "Das Web Team tritt zum ersten mal zusammen und erörtert die Herangehensweise"
+  description: "Das Web Team tritt zum ersten Mal zusammen und erörtert die Herangehensweise"
   img: /js/vertical-timeline/img/cd-icon-movie.svg
   img_class: cd-movie
   url: 
@@ -21,7 +21,7 @@
 
 - date: 10. Feb. 2016
   title: "Task Forces"
-  description: "Bildung von Task Forces zu den verschiedenen Themen des neuen Webauftritts. Ziel: Bereitstellung eines neuen Layouts (mit neuer Bedienoberfläche, neuem Editor) und neuen Funktionaliäten (News, Einbindung von Personendaten, Lagepläne usw.) Ende 2017. Ab hier können die einzelnen Bereiche ihre Seiten für das neue Layout gestalten und in das neue Livesystem übernehmen."
+  description: "Bildung von Task Forces zu den verschiedenen Themen des neuen Webauftritts. Ziel: Bereitstellung eines neuen Layouts (mit neuer Bedienoberfläche, neuem Editor) und neuen Funktionalitäten (News, Einbindung von Personendaten, Lagepläne usw.) bis Ende 2017. Ab hier können die einzelnen Bereiche ihre Seiten für das neue Layout gestalten und in das neue Livesystem übernehmen."
   img: /js/vertical-timeline/img/cd-icon-movie.svg
   img_class: cd-movie
   url: 
@@ -34,8 +34,8 @@
   url: 
 
 - date: 21.12.2016
-  title: "Neue Intern Seite als Prototyp"
-  description: "Es gibt jetzt eine Intern Seite, die alle verfügbaren Dienste über Quick-Filter zugänglich macht. "
+  title: "Neue UniBw-Intern Seite als Prototyp"
+  description: "Es gibt jetzt eine UniBw-Intern Seite, die alle verfügbaren Dienste über Quick-Filter zugänglich macht. "
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url: https://webfrontend.rz.unibw-muenchen.de/intranet
@@ -64,7 +64,7 @@
 
 - date: 4.1.2017
   title: "Beschlussmeeting"
-  description: "Athene Signet immer im Header: Die Athene soll grundsätzlich immer im Header mit vollem Schriftzug sichtbar sein. Einen Lageplan wird es erst geben, wenn die Funktionalität 'Interaktiver Lageplan' verfügbar ist. Die Intranet Seite muss 'Intern' heissen, um nicht mit dem Bundeswehr-Intranet verwechselt zu werden."
+  description: "Athene Signet immer im Header: Die Athene soll grundsätzlich immer im Header mit vollem Schriftzug sichtbar sein. Einen Lageplan wird es erst geben, wenn die Funktionalität 'Interaktiver Lageplan' verfügbar ist. Die Intranet Seite muss 'UniBw-Intern' heißen, um nicht mit dem Bundeswehr-Intranet verwechselt zu werden."
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url: https://prototyp.rz.unibw-muenchen.de/home.html
@@ -78,7 +78,7 @@
 
 - date: 13.1.2017
   title: "Parallel-Aktionsplan"
-  description: "Der CASC Prototyp wird ins CMS überführt sowie ein extra Testportal bereitgestellt. Das Design wird in Workshops validiert und Änderungen im Prototypen nachgezogen. Der Styleguide wird unter Zuhilfenahme der Moduleseiten ausgearbeitet. "
+  description: "Der Prototyp der CASC-Seite wird ins CMS überführt sowie ein extra Testportal bereitgestellt. Das Design wird in Workshops validiert und Änderungen im Prototypen nachgezogen. Der Styleguide wird unter Zuhilfenahme der Moduleseiten ausgearbeitet. "
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url: 
@@ -114,7 +114,7 @@
 
 - date: 26.1.2017
   title: "Uni-weite Meldungen"
-  description: "Vorstellung und Beschluss eines Konzepts zur Verteilung von aktuellen Meldungen: Über einen bereits für das RZ genutzten Mechanismus (hier Störungsmeldungen) sollen aktuelle Meldungen aus der Uni sowohl über abonnierte Mailing-Listen als auch über ein 'News-Portal' und/oder das Intern-Portal publiziert werden. Die aktuelle Meldung wird dabei vom Ersteller als mail an eine entsprechende Email-Adresse (Mailing-Liste) geschickt. Gleichzeitig mit Aufnahme der Email in der Mailing-Liste wird in dem 'News-Portal' ein Objekt mit der Meldung erzeugt und angezeigt. Dabei wird automatisch ein RSS-Feed erzeugt. Zusätzlich können in beliebigen Portalen der Uni über das RSS-Feed gewünschte Meldungen (Kategorien) angezeigt werden. Notfall-Meldungen und 'Nachrichten an alle' müssen erhalten bleiben. Möglichkeit von internen/weltweiten Meldungen vorsehen."
+  description: "Vorstellung und Beschluss eines Konzepts zur Verteilung von aktuellen Meldungen: Über einen bereits für das RZ genutzten Mechanismus (hier Störungsmeldungen) sollen aktuelle Meldungen aus der Uni sowohl über abonnierte Mailing-Listen als auch über ein 'News-Portal' und/oder das UniBw-Intern-Portal publiziert werden. Die aktuelle Meldung wird dabei vom Ersteller als Email an eine entsprechende Email-Adresse (Mailing-Liste) geschickt. Gleichzeitig mit Aufnahme der Email in der Mailing-Liste wird in dem 'News-Portal' ein Objekt mit der Meldung erzeugt und angezeigt. Dabei wird automatisch ein RSS-Feed erzeugt. Zusätzlich können in beliebigen Portalen der Uni über das RSS-Feed gewünschte Meldungen (Kategorien) angezeigt werden. Notfall-Meldungen und 'Nachrichten an alle' müssen erhalten bleiben. Möglichkeit von internen/weltweiten Meldungen vorsehen. Ziel: Entfall nervender Emails, die nur einen kleinen Kreis tatsächlich betreffen und ggf. interessieren."
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
@@ -143,7 +143,7 @@
 
 - date: 16.2.2017
   title: "Abstimmung mit ZV"
-  description: "Abstimmung des Webteams mit der Zentralen Verwaltung über die Trennung Website und Intern."
+  description: "Abstimmung des Webteams mit der Zentralen Verwaltung über die Trennung Website und UniBw-Intern."
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
@@ -157,21 +157,21 @@
 
 - date: 7.3.2017
   title: "Workshop Bedienoberfläche"
-  description: "Den Workshop-Teilnehmern wurde die neue Bedienoberfläche vorgestellt. Anschliessend konnten die Workshop-Teilnehmer in eingerichteten Testbereichen die Bedienoberfläche ausprobieren. Fragen, Wünsche, Probleme wurden parallel notiert und gesammelt. Priorisierung der gesammelten Punkte durch die Workshop-Teilnehmer. Ergebnis: <ol><li>1. Arbeitsleiste (links) übersichtlicher gestalten </li><li>2. Templates zum schnellen Erstellen von Modulseiten</li><li>3. Online-Hilfe zum Erstellen von Modulseiten</li><li>4. Online-Hilfe zum Hinzufügen und Bearbeiten (Inhalte, Module, Seiten)</li></ol>"
+  description: "Den Workshop-Teilnehmern wurde die neue Bedienoberfläche vorgestellt. Anschließend konnten die Workshop-Teilnehmer in eingerichteten Testbereichen die Bedienoberfläche ausprobieren. Fragen, Wünsche, Probleme wurden parallel notiert und gesammelt. Priorisierung der gesammelten Punkte durch die Workshop-Teilnehmer.<br />Ergebnis: <ol><li>1. Arbeitsleiste (links) übersichtlicher gestalten </li><li>2. Templates zum schnellen Erstellen von Modulseiten</li><li>3. Online-Hilfe zum Erstellen von Modulseiten</li><li>4. Online-Hilfe zum Hinzufügen und Bearbeiten (Inhalte, Module, Seiten)</li></ol>"
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
 
 - date: 9.3.2017
   title: "Workshop Styleguide und Design"
-  description: "Präsentation: Was bisher geschah, Wo stehen wir/was kommt als nächstes, Entwicklung von Webseiten, Design. Abarbeitung der Agenda mit Sammlung der Fragen und Lösungsansätze in Liste, Priorisierung der Liste mit Festlegung der durchzufühenden Arbeiten. <br>Ergebnis: <ol><li>1. Farbschema definieren (Web-Team)</li><li>2. Titel im Hero unten bündig anordnen (Syslab)</li><li> 3. Sekundär-Navigation / Öffnen neuer Tabs zum Navigieren (Syslab) </li><li>4. Fakultäten erreichbar über Universität, Studium und Forschung (Syslab)</li><li> 5. Logogröße evaluieren (Zuarbeit RB) </li><li>6. Eyecatcher in Footr (evtl. Social Media) (Syslab und Web-Team) </li><li>7. Transparenz in aufklappbarer Navigation</li></ol>"
+  description: "Präsentation: Was bisher geschah, Wo stehen wir/was kommt als nächstes, Entwicklung von Webseiten, Design. Abarbeitung der Agenda mit Sammlung der Fragen und Lösungsansätze in Liste, Priorisierung der Liste mit Festlegung der durchzuführenden Arbeiten. <br>Ergebnis: <ol><li>1. Farbschema definieren (Web-Team)</li><li>2. Titel im Hero unten bündig anordnen (Syslab)</li><li> 3. Sekundär-Navigation / Öffnen neuer Tabs zum Navigieren (Syslab) </li><li>4. Fakultäten erreichbar über Universität, Studium und Forschung (Syslab)</li><li> 5. Logogröße evaluieren (Zuarbeit RB) </li><li>6. Eyecatcher in Footer (evtl. Social Media) (Syslab und Web-Team) </li><li>7. Transparenz in aufklappbarer Navigation</li></ol>"
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
 
 - date: 14.3.2017
   title: "Vorbereitung Infoveranstaltung am 5.April"
-  description: "<dl><dt>Prototypen zur Demo</dt><dd>Wir bereiten NUR den Bereich BAU in den Prototypen vor (Fakultätsseite BAU, Instituts-/Professurseite Werkstoffe, Studiengang Bauingenieru BA, Personenseite C.Thinel, Demo-Inhaltsseiten)</dd><dt>Inhalt der Infoveranstaltung</dt><dd>Module und deren Einsatz in den o.g. Prototypen zeigen (Leitfaden zum Moduleinsatz)</dd> <dt>Fragestellung in der Infoveranstaltung</dt><dd><ul><li>- Sind alle Informationen untergebracht worden?</li><li>- Findet der Besucher der Seiten die Informationen, die er braucht?</li><li>- Was fehlt ggf. an Informationen? In welcher Form sollten sie dargestellt werden (Ziel: Modul-Auswahl)</li></ul></dd><dt>Ziel der Infoveranstaltung</dt><dd>Priorisierte (!) Ergebnis-Liste -> welche Module benötigen wir noch, um das Informationsangebot für einen kompletten Fakultätsbereich zu vervollständigen/abzurunden?</dd></dl> "
+  description: "<dl><dt>Prototypen zur Demo</dt><dd>Wir bereiten NUR den Bereich BAU in den Prototypen vor (Fakultätsseite BAU, Instituts-/Professurseite Werkstoffe, Studiengang Bauingenieur BSc, Personenseite C.Thienel, Demo-Inhaltsseiten)</dd><dt>Inhalt der Infoveranstaltung</dt><dd>Module und deren Einsatz in den o.g. Prototypen zeigen (Leitfaden zum Moduleinsatz)</dd> <dt>Fragestellung in der Infoveranstaltung</dt><dd><ul><li>- Sind alle Informationen untergebracht worden?</li><li>- Findet der Besucher der Seiten die Informationen, die er braucht?</li><li>- Was fehlt ggf. an Informationen? In welcher Form sollten sie dargestellt werden (Ziel: Modul-Auswahl)</li></ul></dd><dt>Ziel der Infoveranstaltung</dt><dd>Priorisierte (!) Ergebnis-Liste -> welche Module benötigen wir noch, um das Informationsangebot für einen kompletten Fakultätsbereich zu vervollständigen/abzurunden?<br />Es sollen keine offenen Probleme verbleiben, die verhindern, dass sich derzeit ausgelagerte Seiten wieder unter das Dach des neuen Web-Auftritts begeben.</dd></dl> "
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
