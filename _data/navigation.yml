@@ -290,6 +290,8 @@
     - title: Fakultäten
       children:
       - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
+        id: bau
+        url: bau.html
       - title: Elektrotechnik und Informationstechnik (univ.)
       - title: Humanwissenschaften (univ.)
       - title: Informatik (univ.)
@@ -332,6 +334,8 @@
     - title: Fakultäten
       children:
       - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
+        id: bau
+        url: bau.html
       - title: Elektrotechnik und Informationstechnik (univ.)
       - title: Humanwissenschaften (univ.)
       - title: Informatik (univ.)
@@ -374,6 +378,8 @@
     - title: Fakultäten
       children:
       - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
+        id: bau
+        url: bau.html
       - title: Elektrotechnik und Informationstechnik (univ.)
       - title: Humanwissenschaften (univ.)
       - title: Informatik (univ.)
