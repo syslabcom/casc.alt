@@ -912,12 +912,6 @@ body.category-antrag .main-content #overview {
   font-size: 14px;
 }
 
-#contentview-navigation {
-  border-color: #ddd;
-  border-style: solid;
-  border-width: 1px;
-}
-
 .main-content .container ul.list-icon  {
   list-style-type: none;
-}
+
