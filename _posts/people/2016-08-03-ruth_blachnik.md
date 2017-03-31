@@ -8,7 +8,7 @@ parent: People
 category: akademische_leitung
 program: bauingenieurwesen_und_umweltwisschenschaften_ma
 typ: staff
-email: support@unibw.de
+email: homepage@unibw.de
 phone: +49 89 6004-0
 ---
 
