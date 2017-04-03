@@ -6,7 +6,7 @@ description:
 category: kommsite-historie
 department: kommsite
 section: Web Relaunch
-hero_image: /media/hero/kommsite_n5.jpg
+hero_image: media/hero/kommsite_n5.jpg
 hero_title: Projekthistorie
 color_scheme: dark-gray
 breadcrumbs:

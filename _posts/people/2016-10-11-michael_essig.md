@@ -6,7 +6,7 @@ hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 hero_title: Prof. Dr. Michael Eßig
 description: Professor für Materialwirtschaft & Distribution
 category: akademische_leitung
-image: "/media/people/prof-essig.jpg"
+image: "media/people/prof-essig.jpg"
 parent: People
 phone: 089 6004-4221
 email: michael.essig@unibw.de

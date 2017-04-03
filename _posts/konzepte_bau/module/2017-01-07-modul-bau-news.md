@@ -4,7 +4,7 @@ title: Nachrichten
 description: Modul, das eine Vorschau auf die 3 aktuellsten Newsartikel in einer vierspaltigen Ansicht anzeigt.
 department: modul_bau
 name: modul-bau-news
-img: /media/konzepte/module/modul_news.png
+img: media/konzepte/module/modul_news.png
 linked-pages:
 - title: Werkstoffe des Bauwesens
   url: /bau_institut_werkstoffe.html

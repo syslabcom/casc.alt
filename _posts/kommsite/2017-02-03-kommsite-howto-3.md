@@ -5,7 +5,7 @@ title: Die neue Suche
 category: kommsite
 department: kommsite
 section: Web Relaunch
-img: "/media/kommsite/plone.png"
+img: "media/kommsite/plone.png"
 description: So funktioniert die neue Suche.
 ---
 

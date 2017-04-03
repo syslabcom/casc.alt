@@ -5,7 +5,7 @@ name: systems_engineering
 description: "Komplexe technische Systeme mit integriertem Systemdenken durchdringen - Erwerben Sie mit dem berufsbegleitenden Master Systems Engineering das erforderliche Wissen, um Projekte ganzheitlich zum Erfolg zu führen."
 category: programme
 tagline: Unser Service
-hero_image:  /media/programme/5_systems_engineering.jpg
+hero_image:  media/programme/5_systems_engineering.jpg
 hero_title: "Systems Engineering (M.Sc.)"
 parent: Studiengänge
 contact_name: dr_nicol_matzner_vogel

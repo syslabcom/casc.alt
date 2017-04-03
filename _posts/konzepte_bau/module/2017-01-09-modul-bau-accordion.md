@@ -4,7 +4,7 @@ title: Akkordeon
 description: Modul, das Titel und Inhalt gewählter Inhaltsseiten zu einem Akkordeon zusammengefasst anzeigt.
 department: modul_bau
 name: modul-bau-accordion
-img: /media/konzepte/module/modul_accordion.png
+img: media/konzepte/module/modul_accordion.png
 linked-pages:
 - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
   url: /bau_studiengang_ba.html

@@ -5,7 +5,7 @@ name: mba_international_management
 description: "Als Offizier Management-Know-How erwerben - Bereiten Sie sich mit dem maßgeschneiderten MBA International Management optimal auf Ihre Karriere als Führungskraft vor."
 category: programme
 tagline: 
-hero_image:  /media/programme/2_mba_international_management.jpg
+hero_image:  media/programme/2_mba_international_management.jpg
 hero_title: MBA International Management
 parent: Studiengänge
 backlink: "/programme#studiengaenge"

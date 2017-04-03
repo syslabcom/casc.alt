@@ -4,7 +4,7 @@ title: Visitenkarten
 description: Modul, das eine beliebige Anzahl an ausgewählten Mitarbeitern in Visitenkartenform in einem dreispaltigen Raster anzeigt.
 department: modul_bau
 name: modul-bau-business-cards
-img: /media/konzepte/module/modul_business-cards.png
+img: media/konzepte/module/modul_business-cards.png
 linked-pages:
 - title: Das Institut
   url: /werkstoffe_institut.html

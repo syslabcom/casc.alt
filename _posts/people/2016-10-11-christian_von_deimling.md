@@ -6,7 +6,7 @@ hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 hero_title: Christian von Deimling
 description: Programmkoordination Wirtschafts- und Organisationswissenschaften 
 category: programmkoordination
-image: "/media/people/christian_von_deimling.jpg"
+image: "media/people/christian_von_deimling.jpg"
 parent: People
 phone: 089 6004-4262
 email: c.von.deimling@unibw.de

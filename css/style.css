@@ -1,11 +1,11 @@
 @font-face {
     font-family: thesans;
-    src: url('/css/fonts/TheSaB4_.woff') format('woff');
+    src: url('css/fonts/TheSaB4_.woff') format('woff');
 }
 
 @font-face {
     font-family: theserif;
-    src: url('/css/fonts/TheSerif_cls_3_.woff') format('woff');
+    src: url('css/fonts/TheSerif_cls_3_.woff') format('woff');
 }
 body {
     font-size: 16px;
@@ -123,7 +123,7 @@ a:focus {
     opacity: 0;
 }
 #athene a {
-    background: url("/media/logos/logo-unibw-brandmark.svg");
+    background: url("../media/logos/logo-unibw-brandmark.svg");
     background-size: cover;
     color: transparent;
     width: 330px;
@@ -145,7 +145,7 @@ a:focus {
 }
 #athene a:before {
     content: ' ';
-    background: url("/media/logos/logo-unibw-text.svg");
+    background: url("../media/logos/logo-unibw-text.svg");
     background-size: cover;
     width: 330px;
     height: 53px;
@@ -168,32 +168,32 @@ nav ul li a.site-logo {
 nav ul li a#site-casc {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/casc.png');
+    background-image: url('../media/logos/casc.png');
 }
 nav ul li a#site-home,
 nav ul li a#site-UniBwM {
     width: 40px;
     height: 36px;
-    background-image: url('/media/logos/athene.png');
+    background-image: url('../media/logos/athene.png');
     background-size: 100%;
 }
 
 nav ul li a#site-Rechenzentrum {
     width: 100px;
     height: 36px;
-    background-image: url('/media/rz/rz-logo.png');
+    background-image: url('../media/rz/rz-logo.png');
     background-size: 100%;
 }
 nav ul li a#site-werkstoffe {
     width: 36px;
     height: 36px;
-    background-image: url('/media/bau/logo_bau.png');
+    background-image: url('../media/bau/logo_bau.png');
     background-size: 100%;
 }
 nav ul li a#site-komm {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/kommsite.jpg');
+    background-image: url('../media/logos/kommsite.jpg');
     background-size: 100%;
 }
 
@@ -202,202 +202,202 @@ nav ul li a#site-komm {
 nav ul li a#site-baubetrieb {
     width: 140px;
     height: 36px;
-    background-image: url('/media/logos/subsite/baubetrieb.png');
+    background-image: url('../media/logos/subsite/baubetrieb.png');
 }
 nav ul li a#site-betriebswirtschaft {
     width: 60px;
     height: 36px;
-    background-image: url('/media/logos/subsite/betriebswirtschaft.png');
+    background-image: url('../media/logos/subsite/betriebswirtschaft.png');
 }
 nav ul li a#site-b {
     width: 28px;
     height: 36px;
-    background-image: url('/media/logos/subsite/b.jpg');
+    background-image: url('../media/logos/subsite/b.jpg');
 }
 nav ul li a#site-c {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/c.jpg');
+    background-image: url('../media/logos/subsite/c.jpg');
 }
 nav ul li a#site-communicationsystems {
     width: 210px;
     height: 36px;
-    background-image: url('/media/logos/subsite/communicationsystems.png');
+    background-image: url('../media/logos/subsite/communicationsystems.png');
 }
 nav ul li a#site-csp {
     width: 150px;
     height: 36px;
-    background-image: url('/media/logos/subsite/csp.png');
+    background-image: url('../media/logos/subsite/csp.png');
 }
 nav ul li a#site-diode {
     width: 61px;
     height: 36px;
-    background-image: url('/media/logos/subsite/diode.jpg');
+    background-image: url('../media/logos/subsite/diode.jpg');
 }
 nav ul li a#site-eaa {
     width: 128px;
     height: 36px;
-    background-image: url('/media/logos/subsite/eaa.jpg');
+    background-image: url('../media/logos/subsite/eaa.jpg');
 }
 nav ul li a#site-eit {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/eit.jpg');
+    background-image: url('../media/logos/subsite/eit.jpg');
 }
 nav ul li a#site-eitlpt {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/eitlpt.jpg');
+    background-image: url('../media/logos/subsite/eitlpt.jpg');
 }
 nav ul li a#site-enginlab {
     width: 320px;
     height: 36px;
-    background-image: url('/media/logos/subsite/enginlab.png');
+    background-image: url('../media/logos/subsite/enginlab.png');
 }
 nav ul li a#site-etti4 {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/etti4.jpg');
+    background-image: url('../media/logos/subsite/etti4.jpg');
 }
 nav ul li a#site-ettig {
     width: 66px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ettig.png');
+    background-image: url('../media/logos/subsite/ettig.png');
 }
 nav ul li a#site-ia {
     width: 50px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ia.png');
+    background-image: url('../media/logos/subsite/ia.png');
 }
 nav ul li a#site-ifg {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ifg.jpg');
+    background-image: url('../media/logos/subsite/ifg.jpg');
 }
 nav ul li a#site-ifs {
     width: 66px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ifs.png');
+    background-image: url('../media/logos/subsite/ifs.png');
 }
 nav ul li a#site-iit {
     width: 61px;
     height: 36px;
-    background-image: url('/media/logos/subsite/iit.gif');
+    background-image: url('../media/logos/subsite/iit.gif');
 }
 nav ul li a#site-ilb {
     width: 82px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ilb.png');
+    background-image: url('../media/logos/subsite/ilb.png');
 }
 nav ul li a#site-im {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/im.jpg');
+    background-image: url('../media/logos/subsite/im.jpg');
 }
 nav ul li a#site-ims {
     width: 41px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ims.jpg');
+    background-image: url('../media/logos/subsite/ims.jpg');
 }
 nav ul li a#site-isr {
     width: 50px;
     height: 36px;
-    background-image: url('/media/logos/subsite/isr.jpg');
+    background-image: url('../media/logos/subsite/isr.jpg');
 }
 nav ul li a#site-ista {
     width: 146px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ista.png');
+    background-image: url('../media/logos/subsite/ista.png');
 }
 nav ul li a#site-itimor {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/itimor.jpg');
+    background-image: url('../media/logos/subsite/itimor.jpg');
 }
 nav ul li a#site-itpe {
     width: 66px;
     height: 36px;
-    background-image: url('/media/logos/subsite/itpe.jpg');
+    background-image: url('../media/logos/subsite/itpe.jpg');
 }
 nav ul li a#site-ivr {
     width: 136px;
     height: 36px;
-    background-image: url('/media/logos/subsite/ivr.jpg');
+    background-image: url('../media/logos/subsite/ivr.jpg');
 }
 nav ul li a#site-mathematikundbauinformatik {
     width: 110px;
     height: 36px;
-    background-image: url('/media/logos/subsite/mathematikundbauinformatik.gif');
+    background-image: url('../media/logos/subsite/mathematikundbauinformatik.gif');
 }
 nav ul li a#site-mblrtetti {
     width: 36px;
     height: 36px;
-    background-image: url('/media/logos/subsite/mblrtetti.png');
+    background-image: url('../media/logos/subsite/mblrtetti.png');
 }
 nav ul li a#site-medienzentrum {
     width: 110px;
     height: 36px;
-    background-image: url('/media/logos/subsite/medienzentrum.png');
+    background-image: url('../media/logos/subsite/medienzentrum.png');
 }
 nav ul li a#site-mira {
     width: 210px;
     height: 36px;
-    background-image: url('/media/logos/subsite/mira.jpg');
+    background-image: url('../media/logos/subsite/mira.jpg');
 }
 nav ul li a#site-modernvehicles {
     width: 152px;
     height: 36px;
-    background-image: url('/media/logos/subsite/modernvehicles.jpg');
+    background-image: url('../media/logos/subsite/modernvehicles.jpg');
 }
 nav ul li a#site-nms {
     width: 68px;
     height: 36px;
-    background-image: url('/media/logos/subsite/nms.gif');
+    background-image: url('../media/logos/subsite/nms.gif');
 }
 nav ul li a#site-o {
     width: 86px;
     height: 36px;
-    background-image: url('/media/logos/subsite/o.jpg');
+    background-image: url('../media/logos/subsite/o.jpg');
 }
 nav ul li a#site-oooo {
     width: 48px;
     height: 36px;
-    background-image: url('/media/logos/subsite/oooo.png');
+    background-image: url('../media/logos/subsite/oooo.png');
 }
 nav ul li a#site-pbl {
     width: 76px;
     height: 36px;
-    background-image: url('/media/logos/subsite/pbl.jpg');
+    background-image: url('../media/logos/subsite/pbl.jpg');
 }
 nav ul li a#site-p {
     width: 28px;
     height: 36px;
-    background-image: url('/media/logos/subsite/p.png');
+    background-image: url('../media/logos/subsite/p.png');
 }
 nav ul li a#site-rechenzentrum {
     width: 107px;
     height: 36px;
-    background-image: url('/media/logos/subsite/rechenzentrum.png');
+    background-image: url('../media/logos/subsite/rechenzentrum.png');
 }
 nav ul li a#site-shield {
     width: 28px;
     height: 36px;
-    background-image: url('/media/logos/subsite/shield.jpg');
+    background-image: url('../media/logos/subsite/shield.jpg');
 }
 nav ul li a#site-tas {
     width: 85px;
     height: 36px;
-    background-image: url('/media/logos/subsite/tas.jpg');
+    background-image: url('../media/logos/subsite/tas.jpg');
 }
 nav ul li a#site-techinf {
     width: 240px;
     height: 36px;
-    background-image: url('/media/logos/subsite/techinf.jpg');
+    background-image: url('../media/logos/subsite/techinf.jpg');
 }
 nav ul li a#site-v {
     width: 41px;
     height: 36px;
-    background-image: url('/media/logos/subsite/v.jpg');
+    background-image: url('../media/logos/subsite/v.jpg');
 }
 
 /* / Experimental Logos */
@@ -914,4 +914,4 @@ body.category-antrag .main-content #overview {
 
 .main-content .container ul.list-icon  {
   list-style-type: none;
-
+}

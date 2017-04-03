@@ -6,7 +6,7 @@ hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 hero_title: Prof. Dr. Ralf Roloff
 description: Program Director
 category: akademische_leitung
-image: "/media/people/ralf-roloff.png"
+image: "media/people/ralf-roloff.png"
 parent: People
 phone: +49 8821 750 2590
 fax: +49 8821 750 2688

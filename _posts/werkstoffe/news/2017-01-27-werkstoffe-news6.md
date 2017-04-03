@@ -4,7 +4,7 @@ title: "Hochschulpreis des Bayerischen Baugewerbes 2016"
 name: werkstoffe-news-1
 description:  "Die Stiftung Berufsförderung Bayerisches Baugewerbe prämiert mit dem Hochschulpreis des Bayerischen Baugewerbes jährlich herausragende Bachelor-, Master- und Diplomarbeiten der Fachrichtung Bauingenieurwesen."
 category: aktuelles
-image: /media/werkstoffe/simon_rumplmayr.png
+image: media/werkstoffe/simon_rumplmayr.png
 department: werkstoffe
 ---
 

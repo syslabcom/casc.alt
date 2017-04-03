@@ -4,7 +4,7 @@ title: Textblock, zweispaltig
 description: Modul mit zwei Spalten in denen jeweils ein Textblock angezeigt wird.
 department: modul_bau
 name: modul-bau-text-2-cols
-img: /media/konzepte/module/modul_text_2_cols.png
+img: media/konzepte/module/modul_text_2_cols.png
 linked-pages:
 - title: Startseite "Bauingenieurwesen und Umweltwissenschaften"
   url: /bau.html

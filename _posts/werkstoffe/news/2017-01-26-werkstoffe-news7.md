@@ -4,7 +4,7 @@ title: "IHK-Siegel für exzellente Ausbildungsqualität"
 name: werkstoffe-news-1
 description:  "Die Industrie- und Handelskammer von München und Oberbayern zeichnet einmal jährlich Ausbildungsbetriebe, die sich auf herausragende Weise in der Ausbildung engagieren."
 category: aktuelles
-image: /media/werkstoffe/ausbildungsbetrieb_2016.png
+image: media/werkstoffe/ausbildungsbetrieb_2016.png
 department: werkstoffe
 ---
 

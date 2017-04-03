@@ -6,7 +6,7 @@ hero_overline: Lehrstuhl für Kommunikationssysteme und Netzsicherheit
 hero_title: Frank Mouritz M.A.
 description: Programmkoordinator MISS
 category: programmkoordination
-image: "/media/people/frank-mouritz.jpg"
+image: "media/people/frank-mouritz.jpg"
 parent: People
 phone: +49 8821 750 2444
 email: Frank.Mouritz@unibw.de

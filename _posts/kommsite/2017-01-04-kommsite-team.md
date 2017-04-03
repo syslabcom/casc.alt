@@ -11,7 +11,7 @@ color_scheme: orange
 
 ### Das Webteam
 
-<img src="/media/kommsite/webteam.png">
+<img src="media/kommsite/webteam.png">
 
 Prof. Dr-Ing. Thienel<br>
 Pressestelle Hr. Vogel<br>

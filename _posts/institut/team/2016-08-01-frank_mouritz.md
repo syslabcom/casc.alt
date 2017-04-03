@@ -5,7 +5,7 @@ name: frank_mouritz_m_a_
 description: Programmkoordinator MISS
 category: institut
 tagline: Unser Service
-image: "/media/team-members/9.jpg"
+image: "media/team-members/9.jpg"
 parent: Team
 typ: staff
 ---

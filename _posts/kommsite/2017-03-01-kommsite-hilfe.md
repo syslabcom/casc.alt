@@ -5,9 +5,9 @@ name: kommsite-hilfe
 description: "Sie sind nicht allein bei der Umstellung. Es hat zwar keiner Manpower übrig und die Resourcen sind stets knapp. Trotzdem stehen Ihnen eine Reihe an Möglichkeiten zur Verfügung, gut durch die Umstellung zu kommen und schnell die neuen Möglichkeiten nutzen zu können. Lesen Sie hier, wie…"
 category: kommsite-unterstuetzung
 department: kommsite
-hero_image: /media/hero/kommsite_n6.jpg
+hero_image: media/hero/kommsite_n6.jpg
 hero_title: So bekomme ich Hilfe
-img: /media/first-aid.jpg
+img: media/first-aid.jpg
 section: Web Relaunch
 color_scheme: dark-gray
 breadcrumbs:

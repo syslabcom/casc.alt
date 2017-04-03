@@ -6,7 +6,7 @@ description: "Management-Kompetenzen für den öffentlichen Sektor erwerben - Be
 category: programme
 parent: Studiengänge
 footer: Programme
-hero_image: /media/programme/3_mba_public_management.jpg
+hero_image: media/programme/3_mba_public_management.jpg
 hero_title: MBA Public Management
 contact_person: christian_von_deimling
 slider: casc

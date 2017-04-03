@@ -5,7 +5,7 @@ title: Textblock - optional mit Hintergrundbild
 description: Einfaches Modul bestehend aus einem Textblock und einem Bild, das als Hintergrundbild angezeigt wird.
 department: modul_bau
 name: modul-bau-fulltext-with-bg
-img: /media/konzepte/module/modul_fulltext_with_bg.png
+img: media/konzepte/module/modul_fulltext_with_bg.png
 linked-pages:
 - title: Startseite "Bauingenieurwesen und Umweltwissenschaften"
   url: /bau.html

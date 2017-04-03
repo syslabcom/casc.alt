@@ -4,7 +4,7 @@ title: "Wir sind umgezogen!"
 name: werkstoffe-news-1
 description:  "ADas KI-Kolloquium ist eine sich monatlich wiederholende Veranstaltungsreihe der Fakultät für Bauingenieurwesen."
 category: aktuelles
-image: /media/werkstoffe/nancy-beuntner.png
+image: media/werkstoffe/nancy-beuntner.png
 department: werkstoffe
 ---
 

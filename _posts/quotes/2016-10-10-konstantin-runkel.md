@@ -6,7 +6,7 @@ name: florian-grimm
 description: Als Geisteswissenschaftler stand für mich bereits früh fest, dass ich ein betriebswirtschaftliches Aufbaustudium anstrebe, um mich bestmöglich für die Zeit nach der Bundeswehr zu positionieren.
 category: quotes
 tagline: 
-image: /media/people/konstantin-runkel.jpg
+image: media/people/konstantin-runkel.jpg
 show: quotes
 ---
 

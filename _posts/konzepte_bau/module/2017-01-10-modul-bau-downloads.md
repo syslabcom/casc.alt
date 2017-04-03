@@ -4,7 +4,7 @@ title: Reiter
 description: Modul, das beliebig viele interne oder externe Links auflistet und in Reitern gruppiert anzeigt.
 department: modul_bau
 name: modul-bau-downloads
-img: /media/konzepte/module/modul_downloads.png
+img: media/konzepte/module/modul_downloads.png
 linked-pages:
 - title: Studiengang Bauingenieurwesen und Umweltwisschenschaften BA
   url: /bau_studiengang_ba.html

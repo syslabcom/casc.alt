@@ -5,7 +5,7 @@ name: casc_beim_tag
 description: Karriereförderung als Teil des bunten Programms beim Tag der offenen Tür auf dem Campus der Universität der Bundeswehr München am 11. Juni 2016.
 category: aktuelles
 tagline: Unser Service
-image: /media/news/news_5.jpg
+image: media/news/news_5.jpg
 department: casc
 ---
 

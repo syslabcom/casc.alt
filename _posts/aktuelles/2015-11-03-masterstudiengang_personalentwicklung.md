@@ -5,7 +5,7 @@ name: masterstudiengang_personalentwicklung
 description: Statt einer „klassischen“ Masterfeier wurden die Absolventinnen und Absolventen zur Wochenend-Präsenz des aktuellen Jahrgangs eingeladen und in das pädagogische Konzept des Tages integriert.
 category: aktuelles
 tagline: Unser Service
-image: /media/news/news_17.jpg
+image: media/news/news_17.jpg
 department: casc
 ---
 

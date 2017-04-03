@@ -5,7 +5,7 @@ name: werkstoffe-news-1
 description:  "Das KI-Kolloquium ist eine sich monatlich wiederholende Veranstaltungsreihe der Fakultät für Bauingenieurwesen."
 category: aktuelles
 department: werkstoffe
-image: /media/werkstoffe/ki_kolloquium.jpg
+image: media/werkstoffe/ki_kolloquium.jpg
 ---
 
 Das KI-Kolloquium ist eine sich monatlich wiederholende Veranstaltungsreihe der Fakultät für Bauingenieurwesen. Dabei werden unterschiedlichste Projekte aus der Praxis des Bauingenieurs von erfahrenen Vertretern der Branche vorgestellt. Der Eintritt zu dieser Veranstaltung ist frei.

@@ -5,7 +5,7 @@ name: kommsite-intro
 description: 
 category: kommsite
 department: kommsite
-hero_image: /media/hero/kommsite_1.png
+hero_image: media/hero/kommsite_1.png
 hero_title: UniBW - Kommunikationswebsite
 hero_overline: Bleiben Sie auf dem Laufenden
 section: Web Relaunch

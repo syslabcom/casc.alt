@@ -5,7 +5,7 @@ title: Einführungsveranstaltung CMS neue Website
 category: kommsite
 department: kommsite
 section: Web Relaunch
-img: "/media/kommsite/plone.png"
+img: "media/kommsite/plone.png"
 description: Das Content Management System der neuen Website wird präsentiert und erste Schritte erläutert.
 location: Campus Universität der Bundeswehr München
 day: dd

@@ -5,7 +5,7 @@ title: Erstellung erster interner Test-Sites
 category: kommsite
 department: kommsite
 section: Web Relaunch
-img: "/media/kommsite/testsite.png"
+img: "media/kommsite/testsite.png"
 description: Zu Demonstrationszwecken werden erste Testsites erstellt, Inhalte eingepflegt und online gestellt.
 location: Campus Universität der Bundeswehr München
 day: dd

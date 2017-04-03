@@ -5,7 +5,7 @@ name: kommsite-prozesse
 description: Iterativer Prozess - oder warum wir nicht alles vorhersehen können
 category: kommsite
 department: kommsite
-hero_image: /media/hero/kommsite_n4.jpg
+hero_image: media/hero/kommsite_n4.jpg
 hero_title: Prozesse und Methoden
 section: Web Relaunch
 color_scheme: dark-gray
@@ -21,7 +21,7 @@ Das Projekt: Webrelaunch ist keineswegs von vornhinen festgelegt. Es gibt eine V
 ### Das Projektmanagement-Dilemma
 
 <p class="text-center">
-<img src="/media/kommsite/quality.png">
+<img src="media/kommsite/quality.png">
 <br> <em>Das Projektmanagement Dreieck</em>
 </p>
 
@@ -33,7 +33,7 @@ Zeit, Kosten und funktionale Anforderungen bedingen sich stets. Da Zeit und Kost
 Die Bedarfsfindung ist nicht vorab abgeschlossen, sondern läuft während der Umsetzung weiter. Daher wurde ein iterativer Ansatz zur Umsetzung gewählt, bei dem jeweils ein kleiner aber wichtiger Teil umgesetzt wird, Feedback eingeholt wird und dann auf der gewonnenen Erfahrung der nächste Schritt angegangen wird. Das erlaubt stetes Korrigieren bei gleichzeitiger Vorwärtsbewegung trotz einer sich stark und ständig verändernden Umgebung.
 
 <p class="text-center">
-<img class="text-center" src="/media/kommsite/interactive_process.png">
+<img class="text-center" src="media/kommsite/interactive_process.png">
 <br><em>Sammeln - Priorisieren - Umsetzen</em>
 </p>
 

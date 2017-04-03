@@ -5,7 +5,7 @@ name: personalentwicklung
 description: "Soziale Kompetenzentwicklung in Organisationen aktiv mitgestalten - Erlangen Sie mit dem berufsbegleitenden Master Personalentwicklung die notwendigen Kenntnisse für eine Fach- oder Führungsposition in der systematischen Personalentwicklung."
 category: programme
 tagline: 
-hero_image:  /media/programme/4_personalentwicklung.jpg
+hero_image:  media/programme/4_personalentwicklung.jpg
 hero_title: Personalentwicklung (M.A.)
 parent: Studiengänge
 backlink: "/programme#studiengaenge"

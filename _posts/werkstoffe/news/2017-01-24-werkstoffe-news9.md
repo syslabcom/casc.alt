@@ -4,7 +4,7 @@ title: "Aktuelle Themen für Bachelor- und Masterarbeiten"
 name: werkstoffe-news-1
 description:  "An unserem Institut sind zahlreiche Themen zur Bearbeitung einer Bachelor- oder Masterarbeit vorhanden.."
 category: aktuelles
-image: /media/werkstoffe/ausbildungsbetrieb_2016.png
+image: media/werkstoffe/ausbildungsbetrieb_2016.png
 department: werkstoffe
 ---
 

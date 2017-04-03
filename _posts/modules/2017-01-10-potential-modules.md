@@ -5,7 +5,7 @@ name: potential_modules
 description: Showcase the available UI components
 category: potential-modules
 tagline: 
-hero_image: /media/legoblocks.jpg
+hero_image: media/legoblocks.jpg
 hero_title: Beispielhaft mögliche Module für den neuen UniBW Webauftritt
 department: UniBwM
 section: Module

@@ -6,7 +6,7 @@ description: Werkstoffe des Bauwesens
 name: christian_thienel
 hero_overline: Institut für Werkstoffe des Bauwesens
 hero_title: Prof. Dr.-Ing. Karl-Christian Thienel
-image: "/media/people/karl-christian-thienel.jpg"
+image: "media/people/karl-christian-thienel.jpg"
 parent: People
 phone: +49 (0) 89 6004 4219
 email: christian.thienel@unibw.de

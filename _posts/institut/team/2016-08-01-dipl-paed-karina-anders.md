@@ -5,7 +5,7 @@ name: Dipl-Päd_Karina_Anders_MBA
 description: MBA
 category: institut
 tagline: Unser Service
-image: "/media/team-members/11.jpg"
+image: "media/team-members/11.jpg"
 parent: Team
 typ: staff
 ---

@@ -5,7 +5,7 @@ name: dr_brigita-jeraj
 description: 
 category: institut
 tagline: Unser Service
-image: "/media/team-members/13.jpg"
+image: "media/team-members/13.jpg"
 parent: Team
 typ: staff
 program: systems_engineering

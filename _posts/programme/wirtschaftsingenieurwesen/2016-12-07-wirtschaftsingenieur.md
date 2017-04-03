@@ -4,7 +4,7 @@ title: Wirtschaftsingenieurwesen (B.Eng.)
 name: wirtschaftsingenieur
 description: "Als Feldwebel mit und ohne Abitur studieren – Qualifizieren Sie sich mit dem praxisnahen Bachelor Wirtschaftsingenieurwesen für vielfältige Tätigkeitsfelder in der zivilen Wirtschaft und Industrie"
 tagline: 
-hero_image: "/media/programme/6_wirtschaftsingenieurwesen.jpg"
+hero_image: "media/programme/6_wirtschaftsingenieurwesen.jpg"
 hero_title: Wirtschaftsingenieurwesen (B.Eng.)
 parent: Studiengänge
 backlink: "/programme#studiengaenge"

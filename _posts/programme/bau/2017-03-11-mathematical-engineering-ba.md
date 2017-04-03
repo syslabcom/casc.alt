@@ -6,8 +6,8 @@ description: "Als interdisziplinärer Studiengang umfasst Mathematical Engineeri
 category: programme
 tagline: 
 hero_title: Mathematical Engineering BSc
-hero_image:  /media/werkstoffe/me-ba.jpg
-img: /media/werkstoffe/me-ba.jpg
+hero_image:  media/werkstoffe/me-ba.jpg
+img: media/werkstoffe/me-ba.jpg
 parent: Studiengänge
 backlink: "/programme#studiengaenge"
 contact_name: geralt_siebert

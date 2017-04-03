@@ -9,7 +9,7 @@ hero_overline: Werkstoffe des Bauwesens
 hero_title: Bau Prüfungsarchiv
 section: BAU
 color_scheme: orange
-hero_image: /media/bau/pruefungsarchiv.jpg
+hero_image: media/bau/pruefungsarchiv.jpg
 breadcrumbs:
 - title: Home
   url: bau.html

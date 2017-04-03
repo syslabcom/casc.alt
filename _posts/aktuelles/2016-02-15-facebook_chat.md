@@ -5,7 +5,7 @@ name: facebook_chat
 description: Zahlreiche Likes erhielt die gestrige Q+A-Runde zum Bachelor-Studiengang "Wirtschaftsingenieurwesen" auf der Facebook-Seite der Bundeswehr.
 category: aktuelles
 tagline: Unser Service
-image: /media/news/news_14.jpg
+image: media/news/news_14.jpg
 department: casc
 
 ---

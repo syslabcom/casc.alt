@@ -4,7 +4,7 @@ title: Organisationskontakt
 description: Modul, das drei Personen mit Bild, Titel, Namen, Telefonnummer und Email-Adresse sowie daneben beliebigen HTML-Inhalt anzeigt.
 department: modul_bau
 name: modul-bau-orgakontakt
-img: /media/konzepte/module/modul_orgakontakt.png
+img: media/konzepte/module/modul_orgakontakt.png
 linked-pages:
 - title: Startseite "Bauingenieurwesen und Umweltwissenschaften"
   url: /bau.html

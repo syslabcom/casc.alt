@@ -5,7 +5,7 @@ name: customized programs
 description: "Sie möchten Ihre Mitarbeiterinnen und Mitarbeiter in einem speziellen Themengebiet weiterbilden? Wir entwickeln mit Ihnen Customized Programs, die explizit auf Ihre Bedarfe zugeschnitten sind."
 category: programme
 parent: Studiengänge
-hero_image: /media/programme/15_customized_programs.jpg
+hero_image: media/programme/15_customized_programs.jpg
 hero_title: Customized Programs
 footer: Programme
 contact_person: dr_nicol_matzner_vogel

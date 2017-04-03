@@ -5,7 +5,7 @@ name: master_personalentwicklung
 description: Am 1. April 2016 wurden die Studierenden von der akademischen Leiterin, Prof. Sigrid Rotering-Steinberg und der Präsidentin der Universität der Bundeswehr München, Prof. Merith Niehuss zum ersten Präsenzwochenende auf dem Campus willkommen geheißen..
 category: aktuelles
 tagline: Unser Service
-image: /media/news/news_12.jpg
+image: media/news/news_12.jpg
 department: casc
 ---
 

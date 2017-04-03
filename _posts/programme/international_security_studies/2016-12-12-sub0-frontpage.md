@@ -5,7 +5,7 @@ name: international_security_studies
 description: "Sich zum Experten für internationale Sicherheitspolitik weiterbilden – Starten Sie mit dem englischsprachigen Master International Security Studies eine erfolgreiche Karriere im Bereich der  internationalen Sicherheit"
 category: programme
 tagline: 
-hero_image: /media/programme/1_international_security_studies.jpg
+hero_image: media/programme/1_international_security_studies.jpg
 hero_title: International Security Studies (M.A.)
 parent: Studiengänge
 backlink: "/programme#studiengaenge"

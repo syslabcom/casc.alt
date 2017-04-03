@@ -4,7 +4,7 @@ title: "Erfolgreiche Ausbildung zur staatlich geprüften Bautechnikerin"
 name: werkstoffe-news-1
 description:  "Wir gratulieren: Yvonne Köppe-Kreissig hat ihre zweijährige berufsbegleitende Ausbildung erfolgreich absolviert."
 category: aktuelles
-image: /media/werkstoffe/yvonne-koeppe-kreissig.png
+image: media/werkstoffe/yvonne-koeppe-kreissig.png
 department: werkstoffe
 ---
 

@@ -5,7 +5,7 @@ name: management_knowhow
 description: Die Universität der Bundeswehr München und die ESB Reutlingen feiern die Absolventinnen und Absolventen des MBA-Studiengangs "International Management".
 category: aktuelles
 tagline: Unser Service
-image: /media/news/news_19.jpg
+image: media/news/news_19.jpg
 department: casc
 
 ---

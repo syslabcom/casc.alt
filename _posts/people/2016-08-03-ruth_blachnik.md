@@ -3,7 +3,7 @@ layout: bio
 title: Ruth Blachnik
 name: ruth_blachnik
 description: Rechenzentrum
-image: "/media/people/ruth_blachnik.jpg"
+image: "media/people/ruth_blachnik.jpg"
 parent: People
 category: akademische_leitung
 program: bauingenieurwesen_und_umweltwisschenschaften_ma
