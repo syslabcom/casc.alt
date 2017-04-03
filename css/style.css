@@ -533,7 +533,7 @@ section.gradient:after {
 }
 #hero.no-hero .title {
     text-shadow: none;
-//    background-color: #ccc;
+    background-color: #ccc;
 }
 #hero .marker {
     position: absolute;
