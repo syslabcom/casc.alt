@@ -531,6 +531,10 @@ section.gradient:after {
     z-index: 10;
     text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
 }
+#hero.no-hero .title {
+    text-shadow: none;
+//    background-color: #ccc;
+}
 #hero .marker {
     position: absolute;
     top: 0px;

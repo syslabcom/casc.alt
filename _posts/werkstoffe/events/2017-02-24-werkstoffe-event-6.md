@@ -23,9 +23,9 @@ Eine Betonkanu-Regatta ist eine Mischung aus Beton- und Bootsbautechnik, sportli
 Prämiert werden dabei nicht nur die sportlichen Höchstleistungen, sondern auch Kreativität bei der Gestaltung der Boote und besonders originelle Mannschaftsauftritte. Denn bei Entwurf, Bau, Transport und Rennen sind Phantasie, Engagement und vor allem auch Teamwork gefragt. In einem Betonkanu-Projekt sammeln die Akteure also nicht nur wertvolle praktische Erfahrungen mit dem Baustoff Beton, sondern lernen, ein Projekt im Team zu realisieren - verantwortlich Teilaufgaben zu übernehmen, zu koordinieren, abzustimmen und alle Einzelergebnisse zu einem Gesamtwerk zusammenzufügen. (Quelle: <a href="http://www.betonkanu-regatta.de/">"http://www.betonkanu-regatta.de/"</a>)
  
  
-<img src="media/werkstoffe/maedchen-machen-technik11.jpg">
+<img src="media/werkstoffe/maedchen-machen-technik11.jpeg">
 
-<img src="media/werkstoffe/maedchen-machen-technik12.jpg">
+<img src="media/werkstoffe/maedchen-machen-technik12.jpeg">
 
 
 Weitere Informationen finden Sie auf folgender Homepage: <a href="http://www.betonkanu-regatta.de/">"http://www.betonkanu-regatta.de/"</a> 
