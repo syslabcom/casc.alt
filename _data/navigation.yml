@@ -216,31 +216,31 @@
       id: casc
       url: casc.html
 
-  - title: Seitentypen 
-    id: seitentypen
-    url: #
-    children:
-    - title: Startseite 
-      id: startseite 
-      url: home.html
-    - title: Fakultätsseite 
-      id: fakultaetsseite 
-      url: fak_landing.html
-    - title: Studiengangsseite 
-      id: studiengangsseite 
-      url: studies.html
-    - title: Inhaltsseite 
-      id: inhaltsseite 
-      url: content.html
-    - title: Eventseite 
-      id: eventseite 
-      url: event.html
-    - title: Personenseite 
-      id: personenseite 
-      url: person.html
-    - title: Intranetseite 
-      id: intranetseite 
-      url: intranet.html
+  # - title: Seitentypen 
+  #   id: seitentypen
+  #   url: #
+  #   children:
+  #   - title: Startseite 
+  #     id: startseite 
+  #     url: home.html
+  #   - title: Fakultätsseite 
+  #     id: fakultaetsseite 
+  #     url: fak_landing.html
+  #   - title: Studiengangsseite 
+  #     id: studiengangsseite 
+  #     url: studies.html
+  #   - title: Inhaltsseite 
+  #     id: inhaltsseite 
+  #     url: content.html
+  #   - title: Eventseite 
+  #     id: eventseite 
+  #     url: event.html
+  #   - title: Personenseite 
+  #     id: personenseite 
+  #     url: person.html
+  #   - title: Intranetseite 
+  #     id: intranetseite 
+  #     url: intranet.html
 
   - title: Modulbeispiele
     id: modulbeispiele
