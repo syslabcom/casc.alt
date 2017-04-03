@@ -34,12 +34,12 @@ layout: generic
                       </div>
                       <div class="media-body pl-15">
                         <div class="event-content pull-left flip">
-                          <h4 class="entry-title text-white m-0 mt-5"><a href="{{ item.url }}">{{ item.title }}</a></h4>
+                          <h4 class="entry-title text-white m-0 mt-5"><a href="{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></h4>
                         </div>
                       </div>
                     </div>
                     <p class="mt-10">{{ item.description }}</p>
-                    <a href="{{ item.url }}" class="btn-read-more">Mehr</a>
+                    <a href="{{ item.url | replace_first: '/', '' }}" class="btn-read-more">Mehr</a>
                     <div class="clearfix"></div>
                   </div>
                 </article>

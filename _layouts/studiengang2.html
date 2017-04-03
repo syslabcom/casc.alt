@@ -91,7 +91,7 @@ layout: generic
                           <i class="fa fa-envelope-o mr-5"></i> <a href="mailto:{{ item.email }}">{{ item.email }}</a><br>
                           <i class="fa fa-phone text-theme-color-2 mr-5"></i> {{ item.phone }}
                         </p>
-                        <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ item.url}}">Zur Person…</a>
+                        <a class="btn btn-theme-colored btn-sm pull-right flip" href="{{ item.url | replace_first: '/', '' }}">Zur Person…</a>
                       </div>
                     </div>
                   </div>

@@ -8,7 +8,7 @@
       <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}">
 
       <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5">
-        <a href="{{ item.url }}" class="no-hover">
+        <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
             <h2 class="mt-0"> {{ item.title }} </h2>
             <h3 class="font-16">{{ item.description }}</h3>
             {% if include.showcontent %}

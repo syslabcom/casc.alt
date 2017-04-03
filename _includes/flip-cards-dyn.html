@@ -38,7 +38,7 @@
                     <div class="display-table-cell">
                       <h3 class="text-theme-color-2">{{ item.title }}</h3>
                       <p class="text-gray-lightgray">{{ item.description }}</p>
-                      <a href="{{ item.url }}" class="btn btn-default mt-10"> Mehr </a>
+                      <a href="{{ item.url | replace_first: '/', '' }}" class="btn btn-default mt-10"> Mehr </a>
                     </div>
                   </div>
                 </div>

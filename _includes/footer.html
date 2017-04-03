@@ -18,7 +18,7 @@
             <ul class="list angle-double-right list-border">
             {% assign footeritems = site.posts | where:"footer","Programme" | sort: 'title' %}
             {% for item in footeritems %}
-              <li><a class="text-white" href="{{ item.url }}">{{ item.title }}</a></li>
+              <li><a class="text-white" href="{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></li>
             {% endfor %}
             </ul>
           </div>
@@ -29,7 +29,7 @@
             <ul class="list angle-double-right list-border">
             {% assign footeritems = site.posts | where:"footer","Service" | sort: 'title' %}
             {% for item in footeritems %}
-              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              <li><a href="{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></li>
             {% endfor %}
             </ul>
           </div>
@@ -40,7 +40,7 @@
             <ul class="list angle-double-right list-border">
             {% assign footeritems = site.posts | where:"footer","Institut" | sort: 'title' %}
             {% for item in footeritems %}
-              <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+              <li><a href="{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></li>
             {% endfor %}
             </ul>
           </div>

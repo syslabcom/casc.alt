@@ -24,7 +24,7 @@
                   data-whitespace="normal"
                   data-basealign="grid"
                   data-responsive_offset="on"
-                  ><a href="{{ site.baseurl }}{{ item.url }}">
+                  ><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
                     <h1>{{ item.hero_title }}</h1>
                   </a>
                 </div>
@@ -196,9 +196,9 @@
           <div class="col-md-12">
             <ol class="breadcrumb">
               {% for item in page.breadcrumbs %}
-                <li><a href="{{ site.baseurl }}{{item.url}}">{{item.title}}</a></li>
+                <li><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">{{item.title}}</a></li>
               {% endfor %}
-              <li><a href="{{ site.baseurl }}{{page.url}}" class="active text-gray-silver">{{page.title}}</a></li>
+              <li><a href="{{ site.baseurl }}{{ page.url | replace_first: '/', '' }}" class="active text-gray-silver">{{page.title}}</a></li>
             </ol>
           </div>
         </div>

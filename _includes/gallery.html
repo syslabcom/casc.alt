@@ -14,7 +14,7 @@
       <div class="col-sm-{{include.sm | default:'6' }} col-md-{{include.md | default:'4' }}">
         <div class="box-item">
           <div class="item-inner padding">
-            <a href="{{item.url}}">
+            <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
               <img class="img-responsive" src="{{ item.img }}" alt="{{ item.title }}">
               <h4>{{ item.title }}</h4>
             </a>

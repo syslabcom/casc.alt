@@ -35,7 +35,7 @@ parent: Aktuelles
               {% for item in items limit:7 %}
                   {% unless page.url == item.url %}
                     <div class="item">
-                      <a href="{{ item.url }}">
+                      <a href="{{ item.url | replace_first: '/', '' }}">
                         <img src="{{ item.image }}" alt="">
                         <h4 class="title">{{ item.title }}</h4>
                         <p>{{ item.description }}</p>
