@@ -1,18 +1,17 @@
 ---
 layout: event
 name: kommsite-event-3
-title: Einführungsveranstaltung CMS neue Website
+title: Vorstellung des ersten Prototypen
 category: kommsite
 department: kommsite
 section: Web Relaunch
-img: "media/kommsite/plone.png"
-description: Das Content Management System der neuen Website wird präsentiert und erste Schritte erläutert.
+img: "media/kommsite/kommsite_event.jpg"
+description: Vorstellung des aktuellen Fortschritts.
 location: Campus Universität der Bundeswehr München
-day: dd
-month: Mon
+day: 04
+month: Apr
 year: 2017
-start: 2017-mm-dd
-end: 2017-mm-dd
+start: 2017-04-05 
+end: 2017-04-05 
 ---
 
-Event 3 Inhalt

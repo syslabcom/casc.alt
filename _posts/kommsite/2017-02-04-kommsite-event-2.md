@@ -1,12 +1,12 @@
 ---
 layout: event
 name: kommsite-event-2
-title: Vorstellung des ersten Prototypen
+title: Einführungsveranstaltung CMS neue Website
 category: kommsite
 department: kommsite
 section: Web Relaunch
-img: "media/kommsite/website_proto.png"
-description: Der Prototyp der neuen Website wird dem Gremium vorgestellt und weitere Designfragen geklärt.  
+img: "media/kommsite/plone.png"
+description: Das Content Management System der neuen Website wird präsentiert und erste Schritte erläutert.
 location: Campus Universität der Bundeswehr München
 day: dd
 month: Mon
