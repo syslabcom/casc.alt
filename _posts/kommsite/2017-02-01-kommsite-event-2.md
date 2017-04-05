@@ -1,18 +1,18 @@
 ---
 layout: event
 name: kommsite-event-2
-title: Einführungsveranstaltung CMS neue Website
+title: CMS Workshop
 category: kommsite
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description: Das Content Management System der neuen Website wird präsentiert und erste Schritte erläutert.
+description: Das Content Management System der neuen Website wird präsentiert und erste Konzepte erläutert.
 location: Campus Universität der Bundeswehr München
-day: dd
-month: Mon
+day: 7
+month: Mär
 year: 2017
-start: 2017-mm-dd
-end: 2017-mm-dd
+start: 2017-03-07 9:00
+end: 2017-03-07 - 12:00
 ---
 
 Event 2 Inhalt

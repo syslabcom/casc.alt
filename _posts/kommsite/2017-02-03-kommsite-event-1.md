@@ -8,9 +8,9 @@ section: Web Relaunch
 img: "media/kommsite/struktur_event.png"
 description: Workshop zur Analyse der Anforderungen an das Layout für das Gesamterscheinungsbild und die einzelnen Module 
 location: Campus Universität der Bundeswehr München
-day: 7
-month: März
+day: 9
+month: Mär
 year: 2017
-start: 2017-03-07 9:00
-end: 2017-03-07 12:00
+start: 2017-03-09 9:00
+end: 2017-03-09 12:00
 ---
