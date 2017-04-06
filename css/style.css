@@ -1,11 +1,11 @@
 @font-face {
     font-family: thesans;
-    src: url('css/fonts/TheSaB4_.woff') format('woff');
+    src: url('fonts/TheSaB4_.woff') format('woff');
 }
 
 @font-face {
     font-family: theserif;
-    src: url('css/fonts/TheSerif_cls_3_.woff') format('woff');
+    src: url('fonts/TheSerif_cls_3_.woff') format('woff');
 }
 body {
     font-size: 16px;

@@ -12,18 +12,18 @@
         </li>
         {% for item in section.items %}
         <li class="{% if page.category == item.id %}active{% endif %}">
-            <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}"> {{ item.title }} </a>
+            <a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }} </a>
             {% if item.children %}
             <ul class="dropdown">
               
               {% for subitem in item.children %}
               <li>
-                <a href="{{ site.baseurl }}{{ subitem.url | replace_first: '/', '' }}"> {{ subitem.title }} </a>
+                <a href="{{ site.baseurl }}{{ subitem.url }}"> {{ subitem.title }} </a>
                   {% if subitem.children %}
                   <ul class="dropdown">
                     
                     {% for subsubitem in subitem.children %}
-                    <li><a href="{{ site.baseurl }}{{ subitem.url | replace_first: '/', '' }}"> {{ subsubitem.title }} </a></li>
+                    <li><a href="{{ site.baseurl }}{{ subitem.url }}"> {{ subsubitem.title }} </a></li>
                     {% endfor %}                      
                   </ul>
                   {% endif %}

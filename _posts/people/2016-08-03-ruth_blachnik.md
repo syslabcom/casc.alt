@@ -9,6 +9,6 @@ category: akademische_leitung
 program: bauingenieurwesen_und_umweltwisschenschaften_ma
 typ: staff
 email: homepage@unibw.de
-phone: +49 89 6004-0
+phone: 
 ---
 

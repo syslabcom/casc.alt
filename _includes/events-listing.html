@@ -14,7 +14,7 @@
             <div class="thumb">
               <img class="img-fullwidth" alt="" src="{{ site.baseurl }}{{ item.img }}">
               <div class="overlay">
-                <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}"><i class="fa fa-calendar mr-5"></i></a>
+                {% if item.details %}<a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}"><i class="fa fa-calendar mr-5"></i></a>{% endif %}
               </div>
             </div>
             <div class="schedule-details clearfix p-15 pt-10">
@@ -25,8 +25,8 @@
               </ul>
               <p>{{ item.description }}</p>
               <div class="mt-10">
-                <a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">Anmelden</a>
-                <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}" class="btn btn-dark btn-sm mt-10">Details</a>
+                {% if item.anmelden %}<a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">Anmelden</a>{% endif %}
+                {% if item.details %}<a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}" class="btn btn-dark btn-sm mt-10">Details</a>{% endif %}
               </div>
             </div>
           </div>
