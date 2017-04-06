@@ -178,7 +178,7 @@
 
 - date: 5.4.2017
   title: "Infoveranstaltung"
-  description: "tbd…"
+  description: "Der Fortschritt des Projektes wurde von Prof. Thienel vorgestellt. Wichtige Ergebnisse waren: <dl><dt>Wie viele Hauptnavigationspunkte?</dt><dd>Antwort: 6</dd><dt>Bleibt der BSCW-Connector?</dt><dd>Antwort: Nein, wollen wir nicht mehr, da Vorteil bzgl. Suchmaschinen-Ranking. Seiten, auf denen PDFs zu z.B. Vorlesungsskripten ohne BSCW, also direkt auf der Webseite, eingehängt sind, sind bei z.B. bei Google ganz oben in der Liste. Eine normale Verlinkung ins BSCW bleibt aber möglich.</dd><dt>Externe Portale erlaubt?</dt><dd>Alle Uni-Portale sollen auf Universitätssystemen liegen (RZ). Begründung: Sicherheit und Corporate Design. Es wird Extern-Gehen durch ein 'machbares Entgegenkommen' angestrebt, mit dem Ziel, externe Seiten mittelfristig wieder zurückzuholen. Zuerst soll identifiziert werden, was gebraucht wird, damit die Bereiche wieder zurückkommen könnten, die jetzt externe Uni-Seiten betreiben.</dd><dt>Wann können wir im CMS probieren?</dt><dd>Im Herbst. Den Nutzern soll ein fertiger Editor an die Hand gegeben werden, damit es keine Beschwerden wegen der Bedienung aufgrund unfertiger Software gibt. Evtl. könnten wir hier vorab Spiel-Seiten anbieten, aber auch erst, wenn im Editor nur noch Feinschliff fehlt, um Unmut zu vermeiden.</dd></dl><p><a href='media/kommsite/slides-thienel-webauftritt-20170405.pdf'>Folien</a></p>"
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
