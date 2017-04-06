@@ -29,3 +29,21 @@ Klärung der Frage: "Findet der Besucher der Seiten die Informationen, die er be
 Ende April: Bereitstellung der Prototypen als Vorlage
 
 Ab Ende April werden die - aufgrund der Infoveranstaltung - überarbeitetn Prototypen als Vorlage bereitgestellt, um den Bereichen die Möglichkeit zu geben, Konzepte für die Überarbeitung ihrer eigenen Sites zu erstellen.
+
+
+Teilnehmer:
+- BAU 
+- RZ
+- BW 
+- Präs
+- WOW
+- UB (Unibibliothek)
+- Präs; Forschung
+- casc
+- Präs; Alumni
+- LRT
+- Medienzentrum
+- HUM
+- EIT
+- Gleichstellung
+
