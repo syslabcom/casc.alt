@@ -47,3 +47,6 @@ Teilnehmer:
 - EIT
 - Gleichstellung
 
+## Folien
+
+<a href="media/kommsite/slides-thienel-webauftritt-20170405.pdf">Folien zur Präsentation downloaden</a>
