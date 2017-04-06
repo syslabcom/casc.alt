@@ -43,4 +43,8 @@ Es wird einen Styleguide geben, in dem beschrieben ist, was eine Website der Uni
 
 Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support - soll voraussichtlich ein neuer Web-Content-Editor am Präsidialbereich leisten. Details dazu finden Sie hier, wenn diese spruchreif werden.
 
+### Grafische Unterstützung
+
 Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bildern aufgebaut, auf die Sie zugreifen können. 
+
+Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitte kontaktieren Sie uns unter homepage@unibw.de.
