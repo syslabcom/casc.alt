@@ -78,6 +78,8 @@ $( document ).ready(function() {
     var u="//webfrontend.rz.unibw-muenchen.de/piwik/";
     _paq.push(['setTrackerUrl', u+'piwik.php']);
     _paq.push(['setSiteId', '1']);
+    var otherUniBwSites = 2;
+    _paq.push(['addTracker', piwikUrl = u+'piwik.php', otherUniBwSites]);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
   })();
