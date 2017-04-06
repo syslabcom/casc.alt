@@ -31,7 +31,31 @@ Ende April: Bereitstellung der Prototypen als Vorlage
 Ab Ende April werden die - aufgrund der Infoveranstaltung - überarbeitetn Prototypen als Vorlage bereitgestellt, um den Bereichen die Möglichkeit zu geben, Konzepte für die Überarbeitung ihrer eigenen Sites zu erstellen.
 
 
-Teilnehmer:
+## Was können Sie jetzt bereits tun?
+
+- Bereichsseiten und Struktur
+  Entwerfen Sie - auf Papier - Ihre neuen Bereichsseiten und legen Sie die Struktur fest
+
+- Module
+  Überlegen Sie, welche Module Sie benötigen könnten und wie Sie diese nutzen möchten
+
+- Rückmeldung
+  Geben Sie uns Rückmeldung bis **21.4.2017** für die erste Modulsammlung
+
+- Inhalte
+  Tragen Sie Inhalte zusammen, strukturieren Sie diese und erstellen oder besorgen Sie ansprechende Bilder
+
+- UniBw-Intern
+  Machen Sie Vorschläge für die Position des Zugangs zur Seite „UniBw-Intern“
+
+- Feedback
+  Geben Sie uns Rückmeldungen jeder Art über die Kommunikationsseite (https://webrelaunch.unibw.de)
+
+
+## Teilnehmer
+
+An der Veranstaltung teilgenommen haben Vertreter folgender Einrichtungen:
+
 - BAU 
 - RZ
 - BW 
@@ -46,6 +70,7 @@ Teilnehmer:
 - HUM
 - EIT
 - Gleichstellung
+
 
 ## Folien
 
