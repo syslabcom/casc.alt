@@ -8,7 +8,7 @@ section: Web Relaunch
 img: "media/kommsite/kommsite_event.jpg"
 description: Die Vorstellung findet unter der Leitung des Vizepräsidenten für Forschung, Christian Thienel, statt.
 location: Campus Universität der Bundeswehr München
-day: 04
+day: 05
 month: Apr
 year: 2017
 start: 2017-04-05 14:00
