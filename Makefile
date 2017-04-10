@@ -144,4 +144,10 @@ demo-run: stamp-bundler
 # for http://casc.syslab.com deployment
 demo-build: jekyll
 
+node_modules/.bin/grunt:
+	npm install
+
+bundle: node_modules/.bin/grunt
+	node_modules/.bin/grunt
+
 .PHONY: all bundle extra-clean clean jshint check-clean release serve
