@@ -8,8 +8,9 @@ permalink: /:title.html
 sass:
   style: :compressed
   load_paths:
-    - "_sass"
-exclude: 
+    - css
+    - js
+exclude:
   - Gemfile
   - Gemfile.lock
   - config.codekit
@@ -24,3 +25,7 @@ exclude:
   - stamp-bower
   - stamp-npm
   - stamp-bundler
+  - ruby/
+  - bin/
+  - Gruntfile.js
+  - package.json
