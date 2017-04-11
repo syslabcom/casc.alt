@@ -26,8 +26,6 @@ exclude:
   - stamp-npm
   - stamp-bundler
   - ruby/
-  - person.html
   - bin/
-  - bundles/
   - Gruntfile.js
   - package.json

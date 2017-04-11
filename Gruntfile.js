@@ -13,14 +13,15 @@ module.exports = function(grunt) {
           'js/jquery-plugin-collection.js',
           'js/revolution-slider/js/jquery.themepunch.tools.min.js',
           'js/revolution-slider/js/jquery.themepunch.revolution.min.js',
+          'js/tsvensen-equalize.js-87c2cf1/js/equalize.min.js'
         ],
-        dest: 'bundles/casc.js',
+        dest: 'bundles/unibw.js',
       },
     },
     uglify: {
       my_target: {
         files: {
-          'bundles/casc.min.js': ['bundles/casc.js']
+          'bundles/unibw.min.js': ['bundles/unibw.js']
         }
       }
     }
