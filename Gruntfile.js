@@ -23,15 +23,16 @@ module.exports = function(grunt) {
           'js/revolution-slider/js/extensions/revolution.extension.navigation.min.js',
           'js/revolution-slider/js/extensions/revolution.extension.parallax.min.js',
           'js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js',
-          'js/revolution-slider/js/extensions/revolution.extension.video.min.js'
+          'js/revolution-slider/js/extensions/revolution.extension.video.min.js',
+          'js/custom.js'
         ],
-        dest: 'bundles/unibw.js',
+        dest: 'js/unibw.js',
       },
     },
     uglify: {
       my_target: {
         files: {
-          'bundles/unibw.min.js': ['bundles/unibw.js']
+          'js/unibw.min.js': ['bundles/unibw.js']
         }
       }
     },
@@ -43,7 +44,7 @@ module.exports = function(grunt) {
       },
       target: {
         files: {
-          'bundles/unibw.min.css': [
+          'css/unibw.min.css': [
             'css/bootstrap.min.css', 
             'css/jquery-ui.min.css',
             'css/animate.css',
