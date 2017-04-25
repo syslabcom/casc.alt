@@ -16,3 +16,19 @@ breadcrumbs:
 
 ---
 
+
+<section>
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+        <h1> Inhaltstypen </h1>
+
+    <p>Die folgenden Module sind bereits umgesetzt und können bei der Umsetzung von weiteren Websites verwendet werden.</p>
+          <p>Zur Liste <a href="potential-modules.html">weiterer möglicher Module</a> (zur Zeit nicht umgesetzt)</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
