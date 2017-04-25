@@ -252,6 +252,9 @@
     - title: Module in BAU 
       id: module-bau
       url: module_bau.html
+    - title: Inhaltstypen
+      id: contenttypes
+      url: contenttypes.html
     - title: Umgesetzte Module 
       id: umgesetztemodule
       url: modules.html

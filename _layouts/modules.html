@@ -2,22 +2,7 @@
 layout: generic
 ---
 
-
-<section>
-  <div class="container">
-    <div class="section-content">
-      <div class="row">
-        <div class="col-md-12 text-center">
-
-        <h1> Aktuell umgesetzte Module </h1>
-
-    <p>Die folgenden Module sind bereits umgesetzt und können bei der Umsetzung von weiteren Websites verwendet werden.</p>
-          <p>Zur Liste <a href="potential-modules.html">weiterer möglicher Module</a> (zur Zeit nicht umgesetzt)</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+{{ content }}
 
 {% include content_snippet.html heading="Slider" id="slider" content="" %}
 {% include slider.html %}
@@ -25,8 +10,6 @@ layout: generic
 {% include content_snippet.html heading="Aufmacherbild (Hero)" id="heroimage" content="" %}
 {% include hero.html %}
 
-{% include content_snippet.html heading="Studiengänge Gallerie" id="curriculumgallery" content="" %}
-{% include program_gallery.html parent="Studiengänge" %}
 
 {% include content_snippet.html heading="Termine" id="termine" content="" %}
 {% include events.html %}

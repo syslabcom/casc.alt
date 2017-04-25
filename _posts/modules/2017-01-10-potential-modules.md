@@ -20,5 +20,19 @@ orgkontakt:
 ---
 
 
-The following UI components can be implemented for use in multiple areas of the
-CASC website.
+<section>
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12 text-center">
+
+        <h1> Mögliche Module </h1>
+
+    <p>Im Folgenden finden sich Beispiele für mögliche weitere Module, die jedoch zum aktuellen Zeitpunkt noch nicht umgesetzt sind.</p>
+    <p>Zur Liste <a class="text-blue" href="modules.html">aktuell bereits umgesetzter Module</a></p>
+  
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
