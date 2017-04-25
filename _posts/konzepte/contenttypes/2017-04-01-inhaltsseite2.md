@@ -1,9 +1,9 @@
 ---
-layout: generic
+layout: inhaltsseite
 title: Inhaltsseite
-description: Inhaltsseite mit Text, Bildern und zusätzlichen Informationen in der rechten Spalte.
-department: inhaltstypen
-name: inhaltsseite-2
-img: media/konzepte/module/inhaltsseite.png
+description: Generische Textseite mit frei gestaltbarem HTML Inhalt.
+department: inhaltsseite
+name: inhaltsseite-2 
+img: media/konzepte/contenttypes/ct_contentpage.png
 ---
 
