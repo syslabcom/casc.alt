@@ -32,7 +32,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'js/unibw.min.js': ['bundles/unibw.js']
+          'js/unibw.min.js': ['js/unibw.js']
         }
       }
     },
