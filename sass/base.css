@@ -7,7 +7,7 @@
   src: url("../css/fonts/TheSerif_cls_3_.woff") format("woff"); }
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   color: #97a4af; }
 
 .list-icon li {
@@ -170,14 +170,15 @@ a {
       height: 53px;
       display: block; }
 
-.menuzord-menu ul .dropdown {
+.menuzord-menu ul.dropdown {
   top: 50px;
   opacity: 0.95;
   box-shadow: 1px 1px 1px #eeeeee; }
-  .menuzord-menu ul .dropdown li a {
+  .menuzord-menu ul.dropdown li a {
     padding: 3px 25px 3px 22px;
-    font-size: 16px; }
-  .menuzord-menu ul .dropdown li:hover > a {
+    font-size: 16px;
+    font-family: thesans; }
+  .menuzord-menu ul.dropdown li:hover > a {
     padding-left: 22px; }
 
 .menuzord-menu > li {

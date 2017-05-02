@@ -39,7 +39,7 @@ $font-weight-bold: bold !default;
 
 
 body {
-    font-size: 16px;
+    font-size: 18px;
     color: #97a4af;
 }
 
@@ -207,7 +207,7 @@ a {
 
 .menuzord-menu {
     ul {
-        .dropdown {
+        &.dropdown {
             top: 50px;
             opacity: 0.95;
             box-shadow: 1px 1px 1px #eeeeee;
@@ -215,6 +215,7 @@ a {
                 a {
                     padding: 3px 25px 3px 22px;
                     font-size: 16px;
+                    font-family: thesans;
                 }
                 &:hover > a {
                     padding-left: 22px;
