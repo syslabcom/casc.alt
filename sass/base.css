@@ -1,10 +1,10 @@
 @font-face {
   font-family: "thesans";
-  src: url("fonts/TheSaB4_.woff") format("woff"); }
+  src: url("../css/fonts/TheSaB4_.woff") format("woff"); }
 
 @font-face {
   font-family: theserif;
-  src: url("fonts/TheSerif_cls_3_.woff") format("woff"); }
+  src: url("../css/fonts/TheSerif_cls_3_.woff") format("woff"); }
 
 body {
   font-size: 16px;
@@ -24,7 +24,7 @@ body {
   list-style-position: inside; }
 
 .font-thesans {
-  font-family: 'thesans', sans-serif; }
+  font-family: "thesans"; }
 
 .font-theserif {
   font-family: 'theserif', serif; }
@@ -210,6 +210,10 @@ section.inner-header {
   height: 540px; }
   section.inner-header .container {
     height: 540px; }
+    section.inner-header .container .section-content {
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 40px; }
   section.inner-header.no-hero {
     height: 200px; }
     section.inner-header.no-hero .container {
@@ -220,7 +224,7 @@ section.inner-header {
         margin-bottom: 40px; }
   section.inner-header .title {
     font-size: 36px;
-    font-family: thesans;
+    font-family: "thesans";
     margin-left: -3px; }
   section.inner-header small {
     font-size: 18px;

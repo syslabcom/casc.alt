@@ -3,11 +3,11 @@
 
 @font-face {
     font-family: "thesans";
-    src: url('fonts/TheSaB4_.woff') format('woff');
+    src: url('../css/fonts/TheSaB4_.woff') format('woff');
 }
 @font-face {
     font-family: theserif;
-    src: url('fonts/TheSerif_cls_3_.woff') format('woff');
+    src: url('../css/fonts/TheSerif_cls_3_.woff') format('woff');
 }
 
 $colour-uni-orange: #ED6600 !default;
@@ -60,7 +60,7 @@ body {
 }
 
 .font-thesans {
-  font-family: 'thesans', sans-serif;
+  font-family: "thesans";
 }
 .font-theserif {
   font-family: 'theserif', serif;
@@ -272,6 +272,11 @@ section {
         height: 540px;
         .container {
             height: 540px;
+            .section-content {
+                position:absolute;
+                bottom:0;
+                margin-bottom: 40px;
+            }
         }
         &.no-hero {
             height: 200px;
@@ -286,7 +291,7 @@ section {
         }
         .title {
             font-size: 36px;
-            font-family: thesans;
+            font-family: "thesans";
             margin-left: -3px;
         }
         small {
