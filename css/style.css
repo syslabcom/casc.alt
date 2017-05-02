@@ -446,6 +446,8 @@ section.inner-header .container .section-content {
 }
 section.inner-header .title {
     font-size: 36px;
+    font-family: thesans;
+    margin-left: -3px;
 }
 section.inner-header small {
     font-size: 18px;
