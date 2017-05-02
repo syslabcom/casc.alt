@@ -23,8 +23,7 @@ module.exports = function(grunt) {
           'js/revolution-slider/js/extensions/revolution.extension.navigation.min.js',
           'js/revolution-slider/js/extensions/revolution.extension.parallax.min.js',
           'js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js',
-          'js/revolution-slider/js/extensions/revolution.extension.video.min.js',
-          'js/custom.js'
+          'js/revolution-slider/js/extensions/revolution.extension.video.min.js'
         ],
         dest: 'js/unibw.js',
       },
