@@ -13,6 +13,7 @@
 $colour-uni-orange: #ED6600 !default;
 $colour-text: #282828 !default;
 $colour-text-secondary: #808080 !default;
+$colour-text-light: #ffffff !default;
 $colour-uni-grey: #6A686F !default;
 $colour-middle-grey: #8B8891 !default;
 $colour-light-grey: #E6E6E6 !default;
@@ -33,19 +34,20 @@ $colour-creamy-red-wine: #984b43 !default;
 
 // Font treatment
 $base-font-size: 18px !default;
+$small-font-size: 16px !default;
 $base-line-height: 1.5em !default;
 $font-weight-normal: normal !default;
 $font-weight-bold: bold !default;
 
 
 body {
-    font-size: 18px;
-    color: #97a4af;
+    font-size: $base-font-size;
+    color: $colour-text;
 }
 
 
 .list-icon li {
-    font-size: 16px;    
+    font-size: $small-font-size;    
 }
 
 .ellipsis {
@@ -102,13 +104,13 @@ a {
 .background-gray, .silver { background-color: #aaa; }
 .background-dark-gray { background-color: #666; }
 
-.scheme-beige { background-color: #f5f2f0 !important; color: #333 !important; }
+.scheme-beige { background-color: #f5f2f0 !important; color: $colour-text !important; }
 
-.scheme-light-gray, .scheme-light-grey { background-color: #eee !important; color: #333 !important; }
+.scheme-light-gray, .scheme-light-grey { background-color: #eee !important; color: $colour-text !important; }
 .scheme-grey, 
-.scheme-gray { background-color: #bbb !important; color: white !important; }
+.scheme-gray { background-color: #bbb !important; color: $colour-text-light !important; }
 .scheme-dark-grey, 
-.scheme-dark-gray { background-color: #666 !important; color: white !important; }
+.scheme-dark-gray { background-color: #666 !important; color: $colour-text-light !important; }
 
 .scheme-dark-gray a,
 .scheme-dark-gray h2,
@@ -117,22 +119,22 @@ a {
   color: white; 
 }
 
-.scheme-yellow { background-color: $colour-dark-yellow !important; color: black !important; }
-.scheme-orange { background-color: $colour-uni-orange !important; color: white !important; }
-.scheme-red { background-color: $colour-rust-red !important; color: white !important; }
+.scheme-yellow { background-color: $colour-dark-yellow !important; color: $colour-text !important; }
+.scheme-orange { background-color: $colour-uni-orange !important; color: $colour-text-light !important; }
+.scheme-red { background-color: $colour-rust-red !important; color: $colour-text-light !important; }
 .scheme-blue {
     h2,
     h3,
     h4,
     a,
     p { 
-      background-color: $colour-warm-blue !important; color: white !important; 
+      background-color: $colour-warm-blue !important; color: $colour-text-light !important; 
     }
 }
 
 #header {
     background-color: #fff;
-    color: #6A686F;
+    color: $colour-text;
     padding: 1em 0;
     z-index: 20;
     top: 0;
@@ -141,6 +143,8 @@ a {
     padding-top: 85px;
     transition: all 1s;
 }
+@import "sitelogos";
+
 #global-navigation {
     position: relative;
     height: 42px;
@@ -153,7 +157,6 @@ a {
             li {
                 a {
                     .site-logo {
-                        color: transparent;
                         border-radius: 0;
                         background-size: cover;
                     }
@@ -163,6 +166,7 @@ a {
 
     }
 }
+
 #athene{
     position: absolute;
     left: 50%;
@@ -206,6 +210,11 @@ a {
 
 
 .menuzord-menu {
+    a {
+        &.site-logo {
+            color: transparent !important; 
+        }
+    }
     ul {
         &.dropdown {
             top: 50px;
@@ -226,8 +235,8 @@ a {
     > li  {
         padding: 4px 0;
         > a {
-            color: black;
-            font-size: 15px;
+            color: $colour-text;
+            font-size: $base-font-size;
         }
     }
 
@@ -242,7 +251,7 @@ a {
             }
             .active {
                 > a {
-                    border-bottom: 6px solid #da670f;
+                    border-bottom: 6px solid $colour-text;
                     border-radius: 0 !important;
                     padding: 4px 4px;
                     margin: 4px 12px;
@@ -297,7 +306,12 @@ section {
         }
         small {
             font-size: 18px;
-            color: white;
+            color: $colour-text-light;
+        }
+    }
+    .section-title {
+        p {
+            font-size: $base-font-size;
         }
     }
 }
@@ -350,7 +364,7 @@ section.gradient:after,
 #hero small,
 .rev_slider h1 {
     font-size: 56px;
-    color: white;
+    color: $colour-text-light;
     font-weight: bold;
     display: inline;
     z-index: 10;
@@ -360,7 +374,8 @@ section.gradient:after,
     &.no-hero {
         .title {
             text-shadow: none;
-            background-color: #ccc;
+            color: $colour-text;
+            background-color: white;
         }
     }
     .marker {
@@ -384,6 +399,11 @@ section.gradient:after,
     }
 }
 
+
+#footer {
+
+    color: $colour-text-light;
+}
 
 
 /* Description highlight */
@@ -483,13 +503,13 @@ body {
     .box {
         margin-top: -70px;
         background-color: #666666;
-        color: #fff;
+        color: $colour-text-light;
         border-radius: 0px 0px 20px 20px;
         padding: 10px 0px 20px 30px;
         a, h3 {
-            color: white;
+            color: $colour-text-light;
             i {
-                color: white;
+                color: $colour-text-light;
             }
         }
     }
@@ -574,7 +594,7 @@ body {
         text-overflow: ellipsis;
         white-space: nowrap;
         .item-header {
-            color: #fff;
+            color: $colour-text-light;
             height: 30px;
             padding: 5px 10px;
             &.services {
@@ -619,7 +639,7 @@ body {
   width: 100%;
 }
 .color-marker {
-    color: white;
+    color: $colour-text-light;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -681,7 +701,7 @@ body {
     border: 1px solid #cccccc;
     background: #f8f8f8;
     padding: 10px;
-    color: #666666;
+    color: $colour-text;
     border-radius: 4px;
     margin-bottom: 10px;
     
@@ -689,7 +709,7 @@ body {
         width: 100px;
     }
     div {
-        color: #666666;
+        color: $colour-text;
     }
     p {
         font-size: 17px;
@@ -705,4 +725,3 @@ body {
 }
 
 
-@import "sitelogos";
