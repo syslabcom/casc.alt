@@ -2,7 +2,7 @@
 layout: generic
 name: inhalte
 category: Inhalt hinzufügen
-hero_image: media/hero/hero_module.jpg
+hero_image: media/hero/inhalte.jpg
 hero_title: Inhalt hinzufügen
 department: inhaltstypen
 section: Inhalt hinzufügen
