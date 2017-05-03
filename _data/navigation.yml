@@ -174,9 +174,6 @@
   - title: Historie
     id: kommsite-historie
     url: kommsite-verlauf.html
-  - title: Prototyp
-    id: kommsite-prototyp
-    url: kommsite-prototyp.html
   - title: Der Umzug
     id: kommsite-umzug
     url: kommsite-umzug.html
@@ -186,6 +183,9 @@
   - title: Termine
     id: kommsite-termine
     url: kommsite-termine.html
+  - title: Prototyp
+    id: kommsite-prototyp
+    url: kommsite-prototyp.html
 
 #############################################################################
 # Site MAIN PRAES SITE
