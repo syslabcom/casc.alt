@@ -18,6 +18,38 @@ breadcrumbs:
 ---
 
 
+### Kleingruppen-Beratungen
+
+Ab Mitte/Ende Mai werden wir Kleingruppen-Beratungen (6-10 Teilnehmer) durchführen. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse homepage@unibw.de homepage@unibw.de an. 
+
+<a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anmelden</a>
+
+
+### Inhaltliche Unterstützung
+
+Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support - soll voraussichtlich ein neuer Web-Content-Editor am Präsidialbereich leisten. Details dazu finden Sie hier, wenn diese spruchreif werden.
+
+
+### Grafische Unterstützung
+
+Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bildern aufgebaut, auf die Sie zugreifen können. 
+
+Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitte kontaktieren Sie uns unter homepage@unibw.de.
+
+<a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anfragen</a>
+
+
+
+### Styleguide
+
+Es wird einen Styleguide geben, in dem beschrieben ist, was eine Website der Universität ausmacht und wie Sie diese am besten gestalten. 
+
+
+### Dokumentation
+
+Genau wie in der bisherigen Site wird es einen eigenen Dokumentationsbereich für die neue Website geben. Hier behandeln wir alle Uni-spezifischen Fragen und Kniffe. Dieser Bereich wird voraussichtlich im neuen Uni-Wiki liegen, das Mai/Juni eingeführt werden soll.
+
+
 ### Helpdesk Tickets
 
 Das RZ bietet Zugang zum Ticketsystem an. Wir freuen uns über jedes Ticket, das exakte Angaben zum Problem liefert.
@@ -31,20 +63,6 @@ Wir bemühen uns nach Kräften, Ihnen weiter zu helfen. Bitte haben Sie Verstän
 Es ist geplant, rechtzeitig über die Uni Weiterbildungsstelle Trainings zum neuen Webauftritt anzubieten. Dazu wird voraussichtlich ein Web-Content-Editor am Präsidialbereich eingestellt. Details dazu finden Sie hier, wenn diese spruchreif werden.
 
 
-### Dokumentation
 
-Genau wie in der bisherigen Site wird es einen eigenen Dokumentationsbereich für die neue Website geben. Hier behandeln wir alle Uni-spezifischen Fragen und Kniffe. Dieser Bereich wird voraussichtlich im neuen Uni-Wiki liegen, das April/Mai eingeführt werden soll.
-
-### Styleguide
-
-Es wird einen Styleguide geben, in dem beschrieben ist, was eine Website der Universität ausmacht und wie Sie diese am besten gestalten. 
  
-### Inhaltliche Unterstützung
 
-Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support - soll voraussichtlich ein neuer Web-Content-Editor am Präsidialbereich leisten. Details dazu finden Sie hier, wenn diese spruchreif werden.
-
-### Grafische Unterstützung
-
-Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bildern aufgebaut, auf die Sie zugreifen können. 
-
-Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitte kontaktieren Sie uns unter homepage@unibw.de.
