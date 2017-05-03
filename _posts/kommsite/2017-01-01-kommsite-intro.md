@@ -10,6 +10,10 @@ hero_title: UniBW - Kommunikationswebsite
 hero_overline: Bleiben Sie auf dem Laufenden
 section: Web Relaunch
 color_scheme: orange
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---
 
 ### Übersicht

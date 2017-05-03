@@ -7,6 +7,10 @@ department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
 description: HisInOne wird in die neue Website integriert
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---
 <img src="media/kommsite/hisinone.jpg" style="float:right; margin-left: 1em; margin-bottom:1em; width: 25%">
 Im neuen Webauftritt muss niemand mehr Personendaten manuell einpflegen. Es genügt, ein Personenobjekt anzulegen und die Emailadresse einzutragen. Das Portal fragt dann alle vorhandenen Daten direkt von HisInOne ab und aktualisiert diese nächtlich.

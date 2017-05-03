@@ -10,6 +10,9 @@ hero_title: Was bisher geschah...
 hero_overline: 
 section: Web Relaunch
 color_scheme: orange
+breadcrumbs:
+- title: Home
+  url: kommsite.html
 ---
 
 # Ziele:

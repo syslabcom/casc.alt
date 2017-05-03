@@ -10,6 +10,9 @@ hero_title: Wie soll die Website funktionieren?
 hero_overline: 
 section: Web Relaunch
 color_scheme: orange
+breadcrumbs:
+- title: Home
+  url: kommsite.html
 ---
 
 ### Modulseiten

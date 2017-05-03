@@ -11,8 +11,8 @@ section: Web Relaunch
 color_scheme: dark-gray
 icon_class: pe-7s-magic-wand
 breadcrumbs:
-- Web Relaunch
-- Designansatz
+- title: Home
+  url: kommsite.html
 ---
 
 

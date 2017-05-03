@@ -13,4 +13,8 @@ month: Mär
 year: 2017
 start: 2017-03-09 9:00
 end: 2017-03-09 12:00
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---

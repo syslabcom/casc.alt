@@ -11,8 +11,8 @@ section: Web Relaunch
 color_scheme: dark-gray
 icon_class: pe-7s-edit
 breadcrumbs:
-- Web Relaunch
-- Prozesse und Methoden
+- title: Home
+  url: kommsite.html
 ---
 
 Das Projekt: Webrelaunch ist keineswegs von vornhinen festgelegt. Es gibt eine Vielzahl an Interessenten einzubinden und eine Unmenge an Anforderungen zu sammeln, zu bewerten und einzuordnen. Und es kommen von beiden stets neue hinzu. Das stellt das Projekt und seine Leitung vor große sich ständig verändernde Herausforderungen.

@@ -13,6 +13,10 @@ month: Mär
 year: 2017
 start: 2017-03-07 9:00
 end: 2017-03-07 - 12:00
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---
 
 Event 2 Inhalt

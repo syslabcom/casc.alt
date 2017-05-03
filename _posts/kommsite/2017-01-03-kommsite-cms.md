@@ -13,8 +13,8 @@ icon_class: pe-7s-box1
 color_scheme: dark-gray
 icon_class: pe-7s-magic-wand
 breadcrumbs:
-- Web Relaunch
-- CMS
+- title: Home
+  url: kommsite.html
 
 ---
 

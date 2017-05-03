@@ -7,6 +7,10 @@ department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
 description: So funktioniert die neue Suche.
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---
 
 Zusammen mit der alten Website wird auch die "Google Search Appliance" eingestellt, da Google hier den Support aufgekündigt hat.

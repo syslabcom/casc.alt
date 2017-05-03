@@ -7,6 +7,10 @@ department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
 description: "Für Ihre Site benötigen Sie Inhalte und Modulseiten. Inhalte sind Texte, Bilder, Nachrichten und Termine. Modulseiten zeigen diese Inhalte dann strukturiert an."
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---
 
 Für Ihre Site benötigen Sie Inhalte und Modulseiten. Inhalte sind Texte, Bilder, Nachrichten und Termine. Modulseiten zeigen diese Inhalte dann strukturiert an.

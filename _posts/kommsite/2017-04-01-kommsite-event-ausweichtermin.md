@@ -14,6 +14,10 @@ year: 2017
 start: 2017-04-13 14:00
 end: 2017-04-13 16:00
 details: True
+breadcrumbs:
+- title: Home
+  url: kommsite.html
+
 ---
 
 Auf Grundlage der Ergebnisse aus zahlreichen Workshops und Arbeitsgruppen zu den Themen Design, Layout, Struktur (Hauptnavigation) und Funktionalität wurden Prototypen für die Fakultät BAU, RZ, CASC, BW, UniBw-Intern erstellt. 
