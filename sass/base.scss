@@ -56,9 +56,23 @@ body {
   width:95%;
   overflow:hidden;
 }
-.main-content .container ul {
-  list-style-type: disc;
-  list-style-position: inside;
+.main-content {
+    .container {
+        ul {
+            list-style-type: disc;
+            list-style-position: outside;
+            > li {
+                margin-left: 2em;
+            }
+        }
+        ol {
+            list-style-type: decimal;
+            list-style-position: outside;
+            > li {
+                margin-left: 3em;
+            }
+        }
+    }
 }
 
 .font-thesans {
@@ -67,14 +81,26 @@ body {
 .font-theserif {
   font-family: 'theserif', serif;
 }
-#breadcrumbs .breadcrumb {
-    color: $colour-text; 
-    font-size: $base-font-size;
-    font-weight: $font-weight-bold;
-}
-#breadcrumbs .breadcrumb > li + li::before {
-    content: "/";
-    font-size: $base-font-size;
+#breadcrumbs {
+    .breadcrumb {
+        color: $colour-text; 
+        font-size: $base-font-size;
+        font-weight: $font-weight-bold;
+        a {
+            &:hover,
+            &:focus {
+              color: $colour-text-secondary;
+            }
+          }
+        li {
+            margin-left: 0;
+        }
+        > li + li::before {
+        content: "/";
+        font-size: $base-font-size;
+        }
+    }
+
 }
 a {    
     color: $colour-link;
@@ -87,14 +113,6 @@ a {
     }
 }
 
-.breadcrumb {
-  a {
-    &:hover,
-    &:focus {
-      color: $colour-text-secondary;
-    }
-  }
-}
 /* Color schemes */
 .unibworange-text { color: $colour-uni-orange; }
 .unibworange-background { background-color: $colour-uni-orange; }

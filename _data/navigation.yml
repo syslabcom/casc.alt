@@ -176,7 +176,10 @@
     url: kommsite-verlauf.html
   - title: Prototyp
     id: kommsite-prototyp
-    url: https://prototyp.rz.unibw-muenchen.de
+    url: kommsite-prototyp.html
+  - title: Der Umzug
+    id: kommsite-umzug
+    url: kommsite-umzug.html
   - title: Unterstützung
     id: kommsite-unterstuetzung
     url: kommsite-hilfe.html

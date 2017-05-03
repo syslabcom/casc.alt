@@ -21,7 +21,15 @@ body {
 
 .main-content .container ul {
   list-style-type: disc;
-  list-style-position: inside; }
+  list-style-position: outside; }
+  .main-content .container ul > li {
+    margin-left: 2em; }
+
+.main-content .container ol {
+  list-style-type: decimal;
+  list-style-position: outside; }
+  .main-content .container ol > li {
+    margin-left: 3em; }
 
 .font-thesans {
   font-family: "thesans"; }
@@ -33,10 +41,13 @@ body {
   color: #282828;
   font-size: 18px;
   font-weight: bold; }
-
-#breadcrumbs .breadcrumb > li + li::before {
-  content: "/";
-  font-size: 18px; }
+  #breadcrumbs .breadcrumb a:hover, #breadcrumbs .breadcrumb a:focus {
+    color: #808080; }
+  #breadcrumbs .breadcrumb li {
+    margin-left: 0; }
+  #breadcrumbs .breadcrumb > li + li::before {
+    content: "/";
+    font-size: 18px; }
 
 a {
   color: #337ab7;
@@ -45,9 +56,6 @@ a {
     color: #23527c; }
   a:focus {
     color: #23527c; }
-
-.breadcrumb a:hover, .breadcrumb a:focus {
-  color: #808080; }
 
 /* Color schemes */
 .unibworange-text {
