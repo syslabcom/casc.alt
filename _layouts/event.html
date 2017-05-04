@@ -14,9 +14,11 @@ parent: Aktuelles
             </div> -->
 
             <h1>{{ page.title }}</h1>
+            <img src="{{ page.img }}" alt="{{ page.title }}" style="float:right; margin-left:1em; width:25%">  
 
-            <p class="mb-20">{{ page.start  }}<br>
+            <p class="mb-20">{{ page.start }} - {{ page.end }}<br>{{ page.location }}
             <em>{{ page.description }}</em></p>
+
 
             {{ content }}
 
@@ -30,16 +32,17 @@ parent: Aktuelles
           <div class="widget">
             <h5 class="widget-title line-bottom">Termine</h5>
             <div class="widget-image-carousel">
-              {% assign items = site.posts | where:"layout","news-item" %}
+              {% assign posts = site.posts | where:"layout","event" %}
+              {% assign items = posts | where:"category",page.category %}
 
               {% for item in items limit:7 %}
                   {% unless page.url == item.url %}
                     <div class="item">
                       <a href="{{ item.url | replace_first: '/', '' }}">
-                        <img src="{{ item.image }}" alt="">
-                        <h4 class="title">{{ item.title }}</h4>
-                        <p>{{ item.description }}</p>
-                      </a>
+                        <h4 class="title">{{ item.title }}</h4></a>
+                        
+                        <p class="font-12"><em>{{item.start}} - {{item.end}}<br>{{item.location}}</em></p>
+                        <hr>
                     </div>
                   {% endunless %}
               {% endfor %}

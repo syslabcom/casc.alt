@@ -2,7 +2,7 @@
 layout: eventlist
 title: Termine und Deadlines
 nav_title: Termine
-category: kommsite-termine
+category: kommsite
 show_category: kommsite
 section: Web Relaunch
 hero_image: media/hero/termine.jpg
