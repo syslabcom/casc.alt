@@ -6,12 +6,39 @@
   font-family: theserif;
   src: url("../css/fonts/TheSerif_cls_3_.woff") format("woff"); }
 
+html {
+  font-size: 14px; }
+
 body {
-  font-size: 18px;
+  font-size: 14px;
   color: #282828; }
 
+h1,
+.h1 {
+  font-size: 3rem; }
+
+h2,
+.h2 {
+  font-size: 2rem; }
+
+h3,
+.h3 {
+  font-size: 1.5rem; }
+
+h4,
+.h4 {
+  font-size: 1.33rem; }
+
+h5,
+.h5 {
+  font-size: 1.17rem; }
+
+h6,
+.h6 {
+  font-size: 1rem; }
+
 .list-icon li {
-  font-size: 16px; }
+  font-size: 12px; }
 
 .ellipsis {
   text-overflow: ellipsis;
@@ -39,7 +66,7 @@ body {
 
 #breadcrumbs .breadcrumb {
   color: #282828;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold; }
   #breadcrumbs .breadcrumb a:hover, #breadcrumbs .breadcrumb a:focus {
     color: #808080; }
@@ -47,7 +74,7 @@ body {
     margin-left: 0; }
   #breadcrumbs .breadcrumb > li + li::before {
     content: "/";
-    font-size: 18px; }
+    font-size: 14px; }
 
 a {
   color: #337ab7;
@@ -427,7 +454,7 @@ nav ul li a#site-v {
   padding: 4px 0; }
   .menuzord-menu > li > a {
     color: #282828;
-    font-size: 18px; }
+    font-size: 14px; }
 
 #header .header-nav .header-nav-wrapper {
   background-color: white; }
@@ -474,7 +501,7 @@ section.inner-header {
     color: #ffffff; }
 
 section .section-title p {
-  font-size: 18px; }
+  font-size: 14px; }
 
 /* Testimonials - Quotes */
 #quotes .item img {
