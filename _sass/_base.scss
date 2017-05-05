@@ -317,7 +317,17 @@ a {
 /* Inner Header - Heros on subpages */
 
 section {
-    
+    &#upcoming-events {
+        p {
+            font-size: 0.9rem;
+        }
+        ul {
+            li {
+                margin-left:0;
+                font-size: 0.8rem;
+            }
+        }
+    }
     &#intranet-search {
         a {
             color: $colour-text;
