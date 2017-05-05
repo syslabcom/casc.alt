@@ -347,7 +347,12 @@ section {
             }
         }
     }
-
+    &.people {
+        a { color: $colour-text; }
+        img {
+            width: 100%;
+        }
+    }
     &.inner-header {
         height: 540px;
         .container {

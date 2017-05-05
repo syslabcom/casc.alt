@@ -5,10 +5,10 @@
     <div class="row">
     {% for item in site.posts %}
       {% if item.name == include.pagename %}
-      <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}">
+      <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
+        <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}">
 
-      <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5">
-        <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
+        <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5">
             <h2 class="mt-0"> {{ item.title }} </h2>
             <p class="description" >{{ item.description }}</p>
             {% if include.showcontent %}
@@ -16,8 +16,8 @@
             {% endif %}
 
             <img class="img-responsive visible-xs" src="{{ item.img }}">
-        </a>
-      </div>
+        </div>
+      </a>
       {% endif %}
     {% endfor %}
     </div>
