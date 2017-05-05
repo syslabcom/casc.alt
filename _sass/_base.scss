@@ -317,6 +317,11 @@ a {
 /* Inner Header - Heros on subpages */
 
 section {
+    &#event-list {
+        p {
+            color: $colour-text-secondary;        
+        }
+    }
     &#upcoming-events {
         p {
             font-size: 0.9rem;
@@ -393,12 +398,12 @@ section {
             }
         }
         .title {
-            font-size: 36px;
+            font-size: 2rem;
             font-family: "thesans";
             margin-left: -3px;
         }
         small {
-            font-size: 18px;
+            font-size: 1rem;
             color: $colour-text-light;
         }
     }

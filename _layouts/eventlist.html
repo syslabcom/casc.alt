@@ -3,7 +3,7 @@ layout: generic
 parent: Aktuelles
 ---
 
-<section>
+<section id="event-list">
   <div class="container mt-30 mb-30 pt-30 pb-30">
 
 
@@ -21,7 +21,7 @@ parent: Aktuelles
               </div>
             </div>
             <div class="col-sm-4 pl-0 pl-sm-15">
-              <div class="event-details p-15 mt-20">
+              <div class="event-details pt-15">
                 <h4 class="media-heading font-weight-500">{{ item.title }}</h4>
                 <p>{{ item.description }}</p>
                 {% if item.details %}<a href="{{ item.url | lreplace: '/', '' }}" class="btn btn-flat btn-dark btn-theme-colored btn-sm">Details <i class="fa fa-angle-double-right"></i></a>{% endif %}
