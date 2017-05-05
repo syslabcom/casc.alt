@@ -317,6 +317,16 @@ a {
 /* Inner Header - Heros on subpages */
 
 section {
+    &#intranet-search {
+        a {
+            color: $colour-text;
+        }
+    }
+    &.news-sec {
+        a {
+            color: $colour-text;
+        }
+    }
     &.news {
         a {
             .description {
