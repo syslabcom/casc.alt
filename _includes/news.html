@@ -1,9 +1,9 @@
-<section id="blog" class="bg-lighter">
+<section id="news-listing" class="news bg-lighter">
       <div class="container">
         <div class="section-title mb-10">
           <div class="row">
             <div class="col-md-8">
-              <h2 class="mt-0 text-uppercase font-28 line-bottom line-height-1">{{include.title | default:"Aktuelles"}}</h2>
+              <h2 class="mt-0 text-uppercase line-bottom line-height-1">{{include.title | default:"Aktuelles"}}</h2>
            </div>
           </div>
         </div>
@@ -16,33 +16,33 @@
             {% if item.layout == 'news-item' and count < 4 and item.department == page.department %}
 
             <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
-              <article class="post clearfix mb-sm-30">
-                <div class="entry-header">
-                  <div class="post-thumb thumb"> 
-                    <a href="{{ item.url | replace_first: '/', '' }}"><img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth"> </a>
-                  </div>
-                </div>
-                <div class="entry-content p-20 pr-10 bg-white">
-                  <div class="entry-meta media mt-0 no-bg no-border">
-                    <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
-                      <ul>
-                        <li class="font-16 text-white font-weight-600 border-bottom">28</li>
-                        <li class="font-12 text-white text-uppercase">Feb</li>
-                      </ul>
+              <a href="{{ item.url | replace_first: '/', '' }}">
+                <article class="post clearfix mb-sm-30">
+                  <div class="entry-header">
+                    <div class="post-thumb thumb"> 
+                      <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
                     </div>
-                    <div class="media-body pl-15">
-                      <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></h4>
+                  </div>
+                  <div class="entry-content p-20 pr-10 bg-white">
+                    <div class="entry-meta media mt-0 no-bg no-border">
+                      <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
+                        <ul class="blank">
+                          <li class="font-16 text-white font-weight-600 border-bottom">28</li>
+                          <li class="font-12 text-white text-uppercase">Feb</li>
+                        </ul>
+                      </div>
+                      <div class="media-body pl-15">
+                        <div class="event-content pull-left flip">
+                          <h4 class="entry-title text-uppercase m-0 mt-5">{{ item.title }}</h4>
+                        </div>
                       </div>
                     </div>
+                    <p class="description mt-10">{{ item.description }}</p>
+                    <div href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-sm">Mehr…</div>
+                    <div class="clearfix"></div>
                   </div>
-                  <a href="{{ item.url | replace_first: '/', '' }}">
-                  <p class="mt-10">{{ item.description }}</p>
-                  </a>
-                  <a href="{{ item.url | replace_first: '/', '' }}" class="btn-read-more">Mehr…</a>
-                  <div class="clearfix"></div>
-                </div>
-              </article>
+                </article>
+              </a>
             </div>
               {% assign count = count | plus: 1 %}
             {% endif %}

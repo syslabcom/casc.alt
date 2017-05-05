@@ -7,10 +7,10 @@
   src: url("../css/fonts/TheSerif_cls_3_.woff") format("woff"); }
 
 html {
-  font-size: 14px; }
+  font-size: 18px; }
 
 body {
-  font-size: 14px;
+  font-size: 18px;
   color: #282828; }
 
 h1,
@@ -38,7 +38,10 @@ h6,
   font-size: 1rem; }
 
 .list-icon li {
-  font-size: 12px; }
+  font-size: 16px; }
+
+a.tilelink {
+  color: #282828; }
 
 .ellipsis {
   text-overflow: ellipsis;
@@ -51,6 +54,10 @@ h6,
   list-style-position: outside; }
   .main-content .container ul > li {
     margin-left: 2em; }
+  .main-content .container ul.blank {
+    list-style-type: none; }
+    .main-content .container ul.blank > li {
+      margin-left: 0; }
 
 .main-content .container ol {
   list-style-type: decimal;
@@ -66,7 +73,7 @@ h6,
 
 #breadcrumbs .breadcrumb {
   color: #282828;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold; }
   #breadcrumbs .breadcrumb a:hover, #breadcrumbs .breadcrumb a:focus {
     color: #808080; }
@@ -74,7 +81,7 @@ h6,
     margin-left: 0; }
   #breadcrumbs .breadcrumb > li + li::before {
     content: "/";
-    font-size: 14px; }
+    font-size: 18px; }
 
 a {
   color: #337ab7;
@@ -454,7 +461,7 @@ nav ul li a#site-v {
   padding: 4px 0; }
   .menuzord-menu > li > a {
     color: #282828;
-    font-size: 14px; }
+    font-size: 18px; }
 
 #header .header-nav .header-nav-wrapper {
   background-color: white; }
@@ -467,6 +474,9 @@ nav ul li a#site-v {
     margin: 4px 12px; }
 
 /* Inner Header - Heros on subpages */
+section.news a .description {
+  color: #282828; }
+
 section.clients h2 {
   text-align: center; }
 
@@ -501,7 +511,7 @@ section.inner-header {
     color: #ffffff; }
 
 section .section-title p {
-  font-size: 14px; }
+  font-size: 18px; }
 
 /* Testimonials - Quotes */
 #quotes .item img {
