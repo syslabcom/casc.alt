@@ -6,7 +6,7 @@ media: media
 markdown: kramdown
 permalink: /:title.html
 sass:
-  style: :compressed
+#  style: :compressed
   load_paths:
     - css
     - js

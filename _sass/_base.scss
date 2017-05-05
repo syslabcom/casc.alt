@@ -353,6 +353,14 @@ section {
             width: 100%;
         }
     }
+    &.gallery {
+        a {
+            color: $colour-text;
+        }
+        img {
+            width: 100%;
+        }
+    }
     &.inner-header {
         height: 540px;
         .container {
