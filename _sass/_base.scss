@@ -317,6 +317,7 @@ a {
 /* Inner Header - Heros on subpages */
 
 section {
+    
     &#intranet-search {
         a {
             color: $colour-text;
@@ -382,6 +383,22 @@ section {
         p {
             font-size: $base-font-size;
         }
+    }
+    .people-scroller {
+        a {
+            color: $colour-text;
+        }
+        h4 {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        p {
+            clear:both;
+            margin-top: 2em;
+            font-size: 0.9rem;
+            color: $colour-text-secondary;
+        }
+
     }
 }
 
