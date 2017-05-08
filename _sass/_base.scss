@@ -215,9 +215,10 @@ a {
         ul {
             li {
                 a {
-                    .site-logo {
+                    &.site-logo {
                         border-radius: 0;
                         background-size: cover;
+                        margin-right: 20px;
                     }
                 }
             }
@@ -266,7 +267,24 @@ a {
     }
 }
 
-
+#secondary-navigation {
+    position: absolute;
+    right: 1%;
+    top: -90px;
+    color: $colour-text;
+    a {
+        font-size: 16px;
+        color: $colour-text-secondary;
+        &:hover, &:visited {
+            color: $colour-text-secondary;
+        }
+        &.language-selector {
+            img {
+                height: 1rem;
+            }
+        }
+    }
+}
 
 .menuzord-menu {
     a {
