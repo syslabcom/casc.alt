@@ -412,6 +412,10 @@ section {
             font-size: $base-font-size;
         }
     }
+    .module-title {
+        text-transform: uppercase;
+    }
+
     .people-scroller {
         a {
             color: $colour-text;

@@ -75,11 +75,9 @@ COLOR CODE2: #ED6600
 .work-gallery:hover .gallery-bottom-part,
 .line-bottom-theme-colored-2:after,
 .panel-group .panel-title a.active::after {
-  background: #ED6600;
+  background: #002e5b !important;
 }
-.panel-group .panel-title a.active::after {
-  background-color: #ED6600 !important;
-}
+
 .btn-theme-color-2 {
   background-color: #ED6600;
 }
@@ -266,7 +264,8 @@ COLOR CODE2: #ED6600
   background: #002e5b;
 }
 .panel-group .panel-title a.active {
-  background-color: #002e5b !important;
+  background-color: #f8f8f8 !important;
+  color: #002e5b;
 }
 .ui-state-highlight {
   background: #002e5b !important;
