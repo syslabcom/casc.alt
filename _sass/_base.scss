@@ -191,16 +191,34 @@ a {
     }
 }
 
+
 #header {
     background-color: #fff;
     color: $colour-text;
-    padding: 1em 0;
+    padding: 0.5em 0;
     z-index: 20;
     top: 0;
     left: 0;
     right: 0;
     padding-top: 85px;
     transition: all 1s;
+
+    .header-nav {
+        .header-nav-wrapper {
+            background-color: white;
+            .menuzord {
+                    background-color: white;
+            }
+            .active {
+                > a {
+                    border-bottom: 6px solid $colour-text;
+                    border-radius: 0 !important;
+                    padding: 4px 4px;
+                    margin: 4px 12px;
+                }
+            }
+        }
+    }
 }
 @import "sitelogos";
 
@@ -319,24 +337,7 @@ a {
 
 }
 
-#header {
-    .header-nav {
-        .header-nav-wrapper {
-            background-color: white;
-            .menuzord {
-                    background-color: white;
-            }
-            .active {
-                > a {
-                    border-bottom: 6px solid $colour-text;
-                    border-radius: 0 !important;
-                    padding: 4px 4px;
-                    margin: 4px 12px;
-                }
-            }
-        }
-    }
-}
+
 
 /* Inner Header - Heros on subpages */
 
