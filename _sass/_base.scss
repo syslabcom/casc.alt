@@ -708,6 +708,7 @@ body {
         white-space: nowrap;
         .item-header {
             color: $colour-text-light;
+            background-color: $colour-rust-red;
             height: 30px;
             padding: 5px 10px;
             &.services {
