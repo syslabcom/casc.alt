@@ -26,10 +26,14 @@ $colour-link-focus: #23527c !default;
 
 // Intranet Colours
 $colour-rust-red : #CC3300 !default;
+$colour-rust-red-80: rgba(204, 51, 0, 0.8) !default;
 $colour-dark-yellow: #FFCC66 !default;
+$colour-dark-yellow-80: rgba(255, 204, 102, 0.8) !default;
 $colour-ruddy-beige: #C09F80 !default;
+$colour-ruddy-beige-80: rgba(192, 159, 128, 0.8) !default;
 $colour-warm-blue : #336699 !default;
 $colour-creamy-red-wine: #984b43 !default;
+$colour-creamy-red-wine-80: rgba(152, 75, 67, 0.8) !default;
 
 
 // Font treatment
@@ -723,14 +727,20 @@ body {
             background-color: $colour-rust-red;
             height: 30px;
             padding: 5px 10px;
-            &.services {
+            &.services, &.service {
               background-color: $colour-ruddy-beige;
+            }
+            &.forms {
+              background-color: $colour-ruddy-beige-80;
             }
             &.research {
               background-color: $colour-warm-blue;
             }
             &.studies {
               background-color: $colour-rust-red;
+            }
+            &.campus {
+              background-color: $colour-rust-red-80;
             }
             &.personel {
               background-color: $colour-dark-yellow;
@@ -739,7 +749,7 @@ body {
               background-color: #2c3e50;
             }
             &.soul {
-              background-color: #4c348c;
+              background-color: $colour-dark-yellow-80;
             }
             &.people {
               background-color: #898e92;
@@ -749,6 +759,12 @@ body {
             }
             &.learning {
               background-color: $colour-rust-red;
+            }
+            &.legal {
+              background-color: $colour-creamy-red-wine;
+            }
+            &.ci {
+              background-color: $colour-creamy-red-wine-80;
             }
         }
     }
@@ -774,8 +790,11 @@ body {
     vertical-align: middle;
     margin: 0;
     padding: 7px 6px;
-    &.services {
+    &.services, &.service {
         background-color: $colour-ruddy-beige;
+    }
+    &.forms {
+        background-color: $colour-ruddy-beige-80;
     }
     &.research {
         background-color: $colour-warm-blue;
@@ -785,6 +804,9 @@ body {
       background-color: $colour-rust-red;
       padding-left: 5px;
     }
+    &.campus {
+      background-color: $colour-rust-red-80;
+    }
     &.personel {
       background-color: $colour-dark-yellow;
     }
@@ -792,7 +814,7 @@ body {
       background-color: #2C3E50;
     }
     &.soul {
-      background-color: #4C348C;
+      background-color: $colour-dark-yellow-80;
     }
     &.people {
       background-color: #898E92;
@@ -804,6 +826,12 @@ body {
     }
     &.learning {
       background-color: $colour-rust-red;
+    }
+    &.legal {
+      background-color: $colour-creamy-red-wine;
+    }
+    &.ci {
+      background-color: $colour-creamy-red-wine-80;
     }
 }
 
