@@ -191,16 +191,34 @@ a {
     }
 }
 
+
 #header {
     background-color: #fff;
     color: $colour-text;
-    padding: 1em 0;
+    padding: 0.5em 0;
     z-index: 20;
     top: 0;
     left: 0;
     right: 0;
     padding-top: 85px;
     transition: all 1s;
+
+    .header-nav {
+        .header-nav-wrapper {
+            background-color: white;
+            .menuzord {
+                    background-color: white;
+            }
+            .active {
+                > a {
+                    border-bottom: 6px solid $colour-text;
+                    border-radius: 0 !important;
+                    padding: 4px 4px;
+                    margin: 4px 12px;
+                }
+            }
+        }
+    }
 }
 @import "sitelogos";
 
@@ -215,9 +233,10 @@ a {
         ul {
             li {
                 a {
-                    .site-logo {
+                    &.site-logo {
                         border-radius: 0;
                         background-size: cover;
+                        margin-right: 20px;
                     }
                 }
             }
@@ -266,12 +285,32 @@ a {
     }
 }
 
-
+#secondary-navigation {
+    position: absolute;
+    right: 1%;
+    top: -90px;
+    color: $colour-text;
+    a {
+        font-size: 16px;
+        color: $colour-text-secondary;
+        &:hover, &:visited {
+            color: $colour-text-secondary;
+        }
+        &.language-selector {
+            img {
+                height: 0.8rem;
+            }
+        }
+    }
+}
 
 .menuzord-menu {
     a {
         &.site-logo {
             color: transparent !important; 
+        }
+        &:hover {
+            color: $colour-dark-blue;
         }
     }
     ul {
@@ -301,24 +340,7 @@ a {
 
 }
 
-#header {
-    .header-nav {
-        .header-nav-wrapper {
-            background-color: white;
-            .menuzord {
-                    background-color: white;
-            }
-            .active {
-                > a {
-                    border-bottom: 6px solid $colour-text;
-                    border-radius: 0 !important;
-                    padding: 4px 4px;
-                    margin: 4px 12px;
-                }
-            }
-        }
-    }
-}
+
 
 /* Inner Header - Heros on subpages */
 
