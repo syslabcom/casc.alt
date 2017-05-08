@@ -343,6 +343,13 @@ section {
             color: $colour-text;
         }
     }
+    &.gallery {
+        figure {
+            figcaption {
+                text-align: center;
+            }
+        }
+    }
     &.news {
         a {
             .description {
