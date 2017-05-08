@@ -309,6 +309,9 @@ a {
         &.site-logo {
             color: transparent !important; 
         }
+        &:hover {
+            color: $colour-dark-blue;
+        }
     }
     ul {
         &.dropdown {
