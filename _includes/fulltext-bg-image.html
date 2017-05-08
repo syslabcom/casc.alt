@@ -7,12 +7,12 @@
     <div class="row">
 
       <div class="col-md-12  col-sm-12">
-        <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
-            <h2 class="mt-0"> {{ item.title }} </h2>
-            <p>{{ item.description }}</p>
+<!--         <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover"> -->
+            <h2 class="module-title line-bottom"> {{ item.title }} </h2>
+            <p class="description">{{ item.description }}</p>
 
            {{ item.content | markdownify }} 
-        </a>
+<!--         </a> -->
       </div>
 
     </div>
