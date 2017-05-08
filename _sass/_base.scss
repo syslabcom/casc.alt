@@ -362,6 +362,27 @@ section {
         }
         h2 { margin-top:0; font-size: 1.5rem;}
     }
+    &.news-listing {
+        background-color: $colour-light-grey;
+        a {
+            .description {
+                color: $colour-text
+            }
+        }
+        h3 {
+            &.entry-title {
+                font-size: 1.5rem;
+            }
+        }
+        article {
+            &.post {
+                background-color: white;
+                .entry-content {
+                    background-color: white;
+                }
+            }
+        }
+    }
     &.clients {
         h2 {
             text-align: center;

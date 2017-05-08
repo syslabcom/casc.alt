@@ -1,9 +1,10 @@
-<section id="news-listing" class="news bg-lighter">
+<section class="news-listing">
       <div class="container">
-        <div class="section-title mb-10">
+        <div class="section-title">
           <div class="row">
             <div class="col-md-8">
-              <h2 class="mt-0 text-uppercase line-bottom line-height-1">{{include.title | default:"Aktuelles"}}</h2>
+              <h2 class="module-title line-bottom">{{include.title | default:"Aktuelles"}}</h2>
+              <p class="description">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
            </div>
           </div>
         </div>
@@ -23,17 +24,17 @@
                       <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
                     </div>
                   </div>
-                  <div class="entry-content p-20 pr-10 bg-white">
+                  <div class="entry-content p-20 pr-10">
                     <div class="entry-meta media mt-0 no-bg no-border">
-                      <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
+                      <!-- <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
                         <ul class="blank">
                           <li class="font-16 text-white font-weight-600 border-bottom">28</li>
                           <li class="font-12 text-white text-uppercase">Feb</li>
                         </ul>
-                      </div>
-                      <div class="media-body pl-15">
+                      </div> -->
+                      <div class="media-body">
                         <div class="event-content pull-left flip">
-                          <h4 class="entry-title text-uppercase m-0 mt-5">{{ item.title }}</h4>
+                          <h3 class="entry-title">{{ item.title }}</h4>
                         </div>
                       </div>
                     </div>
