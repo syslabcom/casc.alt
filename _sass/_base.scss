@@ -78,7 +78,9 @@ h6,
 .list-icon li {
     font-size: $small-font-size;    
 }
-
+.visualClear {
+    clear: both;
+}
 a.tilelink {
     color: $colour-text;
 }
@@ -342,6 +344,10 @@ section {
             color: $colour-text;
         }
     }
+    &.businesscards {
+        background-color: $colour-light-grey;
+    }
+
     &.news-sec {
         a {
             color: $colour-text;
@@ -874,24 +880,43 @@ body {
 
 /*Business Card Css */
 .business-card {
-    border: 1px solid #cccccc;
-    background: #f8f8f8;
+    border: 0;
+    background: white;
     padding: 10px;
     color: $colour-text;
     border-radius: 4px;
-    margin-bottom: 10px;
-    
-    .profile-img {
-        width: 100px;
-    }
+    margin-bottom: 30px;
+
     div {
         color: $colour-text;
     }
     p {
-        font-size: 17px;
+        font-size: 1rem;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+    .ellipsis {
+        font-size: 0.9rem;
     }
     .byline {
-        font-size: 14px;
+        margin-bottom: 0;
+    }
+    
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    .position-data {
+        margin-left: 120px;
+        h3 {
+            height: 62px;
+        }
+    }
+    .contact-data {
+        padding: 1em 1em;
+        font-size: 0.8rem;
     }
 
 }

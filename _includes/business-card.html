@@ -1,10 +1,10 @@
 <div style="display:none">
-  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="100px" y="100px"
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="100px" y="50px"
       width="100" height="100" style="enable-background:new 0 0 100 100;" xml:space="preserve" style="display: none;">
     <style type="text/css">
       .st0{fill:#ED6E00;}
     </style>
-        <symbol id="athene-img" viewBox="210 20 50 100">
+        <symbol width="100" height="100"  id="athene-img" viewBox="210 20 50 50">
       <path class="st0" d="M238.4,55.6c-0.2,0.6-1.1,0.8-1.4,0.3c-0.2-0.5-0.4-0.5-0.8-0.8c-0.4-0.3,0.2-0.5,0.2-0.5
         c-0.1-0.1-0.4-0.2-0.7-0.3c-0.5-0.1-0.5-0.8,0.1-0.8c0.7,0,1.1,0.1,1.8,0.5c0.4,0.2,0.8,0.3,1.3,0.4c0.6,0,0.6,1.3-0.3,1.2
         L238.4,55.6z"/>
@@ -45,7 +45,7 @@
   </svg>
 </div>
 
-<section class="scheme-{{include.color_scheme}}">
+<section class="businesscards scheme-{{include.color_scheme}}">
   <div class="container">
       <div class="section-title mb-10">
         <div class="row">
@@ -58,38 +58,38 @@
      
       <div class="section-content">
         <div class="row">
-        {% for person in include.people %}
-        <div class="col-sm-4">
-            <div class="business-card">
-                <div class="media">
-                    <div class="media-left">                
-                      {% if person.img %}
-                      <div class="profile-img">
+          {% for person in include.people %}
+          <div class="col-sm-4">
+              <div class="business-card">
+                  {% if person.img %}
+                    <div class="profile-img">
                         <img src="{{ person.img }}" alt="{{ person.name }}" class="img-circle">
-                      </div>
-                      {% else %}
-                      <svg class="profile-img" >
+                    </div>
+                  {% else %}
+                    <svg class="profile-img" >
                         <use xlink:href="#athene-img"></use>
-                      </svg>
-                      {% endif %}
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading text-black">{{ person.name }}</h4>
-                        <p>{{ person.title }}{% if person.job %}<br><div class="ellipsis font-12">{{person.job}}</div>{% endif %}</p>
-                        <div class="byline">
-                          {% if person.location %}<i class="fa fa-map text-theme-color-2 mr-5"></i>{{ person.location }}<br>{% endif %}
-                          {% if person.phone %}<i class="fa fa-phone text-theme-color-2 mr-5"></i>{{ person.phone }}<br>{% endif %}
-                          {% if person.fax %}<i class="fa fa-fax text-theme-color-2 mr-5"></i>{{ person.fax }}<br>{% endif %}
-                          {% if person.email %}<div class="ellipsis"><i class="fa fa-envelope-o text-theme-color-2 mr-5"></i><a  href="mailto:{{ person.email }}">{{ person.email }}</a></div>{% endif %}
+                    </svg>
+                  {% endif %}
+                  <div class="position-data">
+                    <h3 class="media-heading text-black">{{ person.name }}</h3>
+                    <p class="byline">{{ person.title }} &nbsp;</p>
+                    <div class="ellipsis">{{person.job}} &nbsp;</div>
+                  </div>
+                  <div class="visualClear"></div>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+                  <div class="contact-data">                  
+                      {% if person.location %}<i class="fa fa-map text-theme-color-2 mr-5"></i>{{ person.location }}{% endif %}<br>
+                      {% if person.phone %}<i class="fa fa-phone text-theme-color-2 mr-5"></i>{{ person.phone }}{% endif %}<br>
+                      {% if person.fax %}<i class="fa fa-fax text-theme-color-2 mr-5"></i>{{ person.fax }}{% endif %}<br>
+                      {% if person.email %}<div class="ellipsis"><i class="fa fa-envelope-o text-theme-color-2 mr-5"></i><a  href="mailto:{{ person.email }}">{{ person.email }}</a></div>{% endif %}
+                  </div>
+              </div>
+          </div>
+          {% endfor %}
+          <div class="visualClear"></div>
+
         </div>
-        {% endfor %}
       </div>
-
     </div>
   </div>
 </section>
