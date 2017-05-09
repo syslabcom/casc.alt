@@ -163,8 +163,10 @@ a {
 .background-gray, .silver { background-color: #aaa; }
 .background-dark-gray { background-color: #666; }
 
-.scheme-beige { background-color: #f5f2f0 !important; color: $colour-text !important; }
 
+/* Old schemes */
+/*
+.scheme-beige { background-color: #f5f2f0 !important; color: $colour-text !important; }
 .scheme-light-gray, .scheme-light-grey { background-color: #eee !important; color: $colour-text !important; }
 .scheme-grey, 
 .scheme-gray { background-color: #bbb !important; color: $colour-text-light !important; }
@@ -190,7 +192,34 @@ a {
       background-color: $colour-warm-blue !important; color: $colour-text-light !important; 
     }
 }
+*/
+/* New Schemes */
 
+.scheme-white { background-color: white !important; color: $colour-text !important; }
+.scheme-uni-grey { 
+    background-color: $colour-uni-grey !important; 
+    color: white !important; 
+    h2,
+    h3,
+    h4,
+    a,
+    p { 
+        color: white !important; 
+    }
+}
+.scheme-middle-grey { background-color: $colour-middle-grey !important; color: $colour-text !important; }
+.scheme-light-grey { background-color: $colour-light-grey !important; color: $colour-text !important; }
+.scheme-dark-blue { 
+    background-color: $colour-dark-blue !important; 
+    color: white !important; 
+    h2,
+    h3,
+    h4,
+    a,
+    p { 
+        color: white !important; 
+    }
+}
 
 #header {
     background-color: #fff;
