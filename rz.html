@@ -19,6 +19,18 @@ gallery:
 - title: Alle Jahre wieder...
   img: media/rz/kalender.JPG
   url: /rz.html
+downloads:
+- tab: Allgemein
+  title: Antrag
+  url: antrag
+- tab: Allgemein
+  title: Formular
+  url: formular
+- tab: Allgemein
+  title: Bedingungen
+  url: bedingungen
+- tab: Spezielles
+- tab: Besonderes
 ---
 
 {% include gallery.html title="Aktuelle Themen" description="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." color_scheme="light-grey" %}
@@ -28,6 +40,9 @@ gallery:
 
 {% include status-grid.html title="Bitte beachten" dataset="rz_notice" color_scheme="light-gray" %}
 
+{% include downloads.html title="Fullsize downloads" description="Für den Einsatz auf Modulseiten" color_scheme="light-gray" fullsize=true %}
+
+{% include downloads.html title="Content page downloads" description="Für den Einsatz auf Inhaltsseiten" color_scheme="light-gray" fullsize=false %}
 
 {% include video.html video="https://en.syslab.com/download/RZ-Drone-Video.mp4" preview="media/video/rz.png" %}
 

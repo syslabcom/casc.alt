@@ -1,10 +1,10 @@
-<section>
+<section class="tabbed-downloads">
   <div class="container">
     <div class="row">
-      <div class="col-md-9">
+      <div class="{% if include.fullsize == true %}col-md-12{% else %}col-md-offset-3 col-md-9{% endif %}">
         <div class="single-service">
-          <h4 class="line-bottom mt-20 mb-20 text-theme-colored">Downloads </h4>
-
+          <h2 class="module-title line-bottom"> {{ include.title }} </h2>
+          {% if include.description %}<p class="description">{{ include.description }}</p>{%endif%}
           {% assign tabs = page.downloads | group_by:"tab" %}
           <ul id="myTab" class="nav nav-tabs boot-tabs">
           	{% for tab in tabs %}
