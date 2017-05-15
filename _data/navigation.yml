@@ -103,7 +103,7 @@
 # Site UB
 #############################################################################
 - name: ub
-  title: Bibliothek
+  title: UB
   url: ub.html
   items:
   - title: Literatur finden
@@ -262,8 +262,8 @@
     - title: Intern
       id: intern
       url: intranet.html
-    - title: BAU
-      id: bau
+    - title: UB
+      id: ub
       url: bau.html
     - title: BW
       id: bw
