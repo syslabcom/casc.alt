@@ -9,7 +9,7 @@ description:
 category: 
 hero_overline: Institut für Werkstoffe des Bauwesens
 hero_title: Karin Bächle
-image: "media/people/person.png"
+image: "media/logos/athene.png"
 parent: People
 phone: +49 (0) 89 6004 4219
 email: karin.baechle@unibw.de
