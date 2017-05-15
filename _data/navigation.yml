@@ -98,6 +98,58 @@
     - title: Mathematical Engineering MSc
       url: mathematical-engineering-ma.html
 
+
+#############################################################################
+# Site UB
+#############################################################################
+- name: ub
+  title: Bibliothek
+  url: ub.html
+  items:
+  - title: Literatur finden
+    id: literatur
+    url: #
+    children:
+    - title: Katalog
+      url: ub.html
+    - title: Elektrische Medien
+    - title: Fernleihe
+    - title: Campuslieferdienst
+    - title: Besondere Bestände
+  - title: Bibliothek nutzen
+    id: nutzung
+    url: ub.html
+    children:
+    - title: Bibliotheksausweis
+      url: ub.html
+    - title: Ausleihe und Rückgabe
+      url: ub.html
+    - title: Lern- und Arbeitsort
+      url: ub.html
+    - title: Benutzungsordnung
+      url: ub.html
+  - title: Unsere Dienstleistungen
+    id: dienstleistungen
+    url: #
+    children:
+    - title: AtheneForschung
+    - title: Schulung und Beratung
+    - title: Publikationsunterstützung
+    - title: Erwerbungsvorschläge
+    - title: Trimesterapparate
+    - title: Veranstaltungsräume
+  - title: Über uns
+    id: uerberuns
+    url: #
+    children:
+    - title: Allgemeines zur UB
+    - title: Aktuelles
+    - title: Profil
+    - title: Organigramm
+    - title: Unser Team
+    - title: Aus- und Fortbildung
+    - title: Stellen
+
 #############################################################################
 # Site BW
 #############################################################################
