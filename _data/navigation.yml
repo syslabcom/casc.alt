@@ -113,6 +113,10 @@
     - title: Katalog
       url: ub.html
     - title: Elektrische Medien
+      children:
+      - title: e-Journals
+      - title: e-Books
+      - title: Datenbanken
     - title: Fernleihe
     - title: Campuslieferdienst
     - title: Besondere Bestände
