@@ -262,12 +262,12 @@
     - title: Intern
       id: intern
       url: intranet.html
+    - title: BAU
+      id: bau
+      url: bau.html
     - title: UB
       id: ub
-      url: bau.html
-    - title: BW
-      id: bw
-      url: bw.html
+      url: ub.html
     - title: RZ
       id: rz
       url: rz.html
