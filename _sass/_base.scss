@@ -25,16 +25,20 @@ $colour-link-hover: #23527c !default;
 $colour-link-focus: #23527c !default;
 
 // Intranet Colours
-$colour-rust-red : #CC3300 !default;
+$colour-rust-red : #CC3300 !default;  //Studium. + Weiterbildung
 $colour-rust-red-80: rgba(204, 51, 0, 0.8) !default;
-$colour-dark-yellow: #FFCC66 !default;
+$colour-dark-yellow: #FFCC66 !default;  // Personal
 $colour-dark-yellow-80: rgba(255, 204, 102, 0.8) !default;
-$colour-ruddy-beige: #C09F80 !default;
+$colour-ruddy-beige: #C09F80 !default;  // IT Dienste
 $colour-ruddy-beige-80: rgba(192, 159, 128, 0.8) !default;
-$colour-warm-blue : #336699 !default;
-$colour-creamy-red-wine: #984b43 !default;
+$colour-warm-blue : #336699 !default;  // Forschung
+$colour-creamy-red-wine: #984b43 !default;  //
 $colour-creamy-red-wine-80: rgba(152, 75, 67, 0.8) !default;
-
+$colour-mensa-brown: #984b43 !default;  // Verpflegung
+$colour-olive-green: #46512f !default; // Militaerisches
+$colour-mediterran-azure: #38d1e8 !default;  // Fuer die Seele
+$colour-orange-orange: #ed6600 !default; // uebergreifende dienste
+$colour-category-grey: #cc3300 !default ; // Personen will change
 
 // Font treatment
 $base-font-size: 18px !default;
