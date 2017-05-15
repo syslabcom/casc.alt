@@ -112,7 +112,7 @@
     children:
     - title: Katalog
       url: ub.html
-    - title: Elektrische Medien
+    - title: Elektronische Medien
       children:
       - title: e-Journals
       - title: e-Books
