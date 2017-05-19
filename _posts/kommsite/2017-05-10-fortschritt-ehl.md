@@ -7,7 +7,7 @@ department: kommsite
 section: Web Relaunch
 img: "media/people/karl-christian-thienel.jpg"
 description: Vorstellung des aktuellen Stands der Arbeiten, der laufenden Aktivitäten und der Planung bzgl. Beratungen und Umzug der Seiten durch Vizepräsident C.Thienel
-day: Ende
+day: 10.
 month: Mai
 year: 2017
 start: 10. Mai
