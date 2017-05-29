@@ -147,12 +147,14 @@
     url: #
     children:
     - title: Allgemeines zur UB
-    - title: Aktuelles
     - title: Profil
     - title: Organigramm
     - title: Unser Team
     - title: Aus- und Fortbildung
     - title: Stellen
+  - title: Aktuelles
+    id: aktuelles
+    url: #
 
 #############################################################################
 # Site BW
