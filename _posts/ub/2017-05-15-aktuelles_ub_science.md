@@ -6,7 +6,7 @@ description: "Die Universitätsbibliothek hat nun den Zugriff auf die elektronis
 category: ub
 hero_title: Athene Forschung
 department: ub
-img: media/ub/ub_titelbild_science.jpg
+img: media/ub/ub_titelbild_science_n.jpg
 ---
 
 
