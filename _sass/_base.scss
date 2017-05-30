@@ -82,7 +82,7 @@ h6,
 }
 
 .list-icon li {
-    font-size: $small-font-size;    
+    font-size: $small-font-size;
 }
 .visualClear {
     clear: both;
@@ -130,7 +130,7 @@ a.tilelink {
 }
 #breadcrumbs {
     .breadcrumb {
-        color: $colour-text; 
+        color: $colour-text;
         font-size: $base-font-size;
         font-weight: $font-weight-bold;
         a {
@@ -149,14 +149,14 @@ a.tilelink {
     }
 
 }
-a {    
+a {
     color: $colour-link;
     text-decoration: none;
     &:hover {
         color: $colour-link-hover;
     }
     &:focus {
-        color: $colour-link-focus;        
+        color: $colour-link-focus;
     }
 }
 
@@ -174,16 +174,16 @@ a {
 /*
 .scheme-beige { background-color: #f5f2f0 !important; color: $colour-text !important; }
 .scheme-light-gray, .scheme-light-grey { background-color: #eee !important; color: $colour-text !important; }
-.scheme-grey, 
+.scheme-grey,
 .scheme-gray { background-color: #bbb !important; color: $colour-text-light !important; }
-.scheme-dark-grey, 
+.scheme-dark-grey,
 .scheme-dark-gray { background-color: #666 !important; color: $colour-text-light !important; }
 
 .scheme-dark-gray a,
 .scheme-dark-gray h2,
 .scheme-dark-gray h3,
 .scheme-dark-gray h4 {
-  color: white; 
+  color: white;
 }
 
 .scheme-yellow { background-color: $colour-dark-yellow !important; color: $colour-text !important; }
@@ -194,36 +194,36 @@ a {
     h3,
     h4,
     a,
-    p { 
-      background-color: $colour-warm-blue !important; color: $colour-text-light !important; 
+    p {
+      background-color: $colour-warm-blue !important; color: $colour-text-light !important;
     }
 }
 */
 /* New Schemes */
 
 .scheme-white { background-color: white !important; color: $colour-text !important; }
-.scheme-uni-grey { 
-    background-color: $colour-uni-grey !important; 
-    color: white !important; 
+.scheme-uni-grey {
+    background-color: $colour-uni-grey !important;
+    color: white !important;
     h2,
     h3,
     h4,
     a,
-    p { 
-        color: white !important; 
+    p {
+        color: white !important;
     }
 }
 .scheme-middle-grey { background-color: $colour-middle-grey !important; color: $colour-text !important; }
 .scheme-light-grey { background-color: $colour-light-grey !important; color: $colour-text !important; }
-.scheme-dark-blue { 
-    background-color: $colour-dark-blue !important; 
-    color: white !important; 
+.scheme-dark-blue {
+    background-color: $colour-dark-blue !important;
+    color: white !important;
     h2,
     h3,
     h4,
     a,
-    p { 
-        color: white !important; 
+    p {
+        color: white !important;
     }
 }
 
@@ -342,7 +342,7 @@ a {
 .menuzord-menu {
     a {
         &.site-logo {
-            color: transparent !important; 
+            color: transparent !important;
         }
         &:hover {
             color: $colour-dark-blue;
@@ -382,7 +382,7 @@ a {
 section {
     &#event-list {
         p {
-            color: $colour-text-secondary;        
+            color: $colour-text-secondary;
         }
     }
     &#upcoming-events {
@@ -548,9 +548,9 @@ section.gradient:before,
     bottom: 0;
     left: 0;
     background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0.7) 100%);
-    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,0.2) 70%,rgba(0,0,0,0.7) 100%); 
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.2) 70%,rgba(0,0,0,0.7) 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#c7000000',GradientType=0 ); 
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,0.2) 70%,rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.2) 70%,rgba(0,0,0,0.7) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007db9e8', endColorstr='#c7000000',GradientType=0 );
 }
 .inner-header .hero-image:after,
 section.gradient:after,
@@ -647,7 +647,7 @@ body {
                 text-align: center;
             }
         }
-    } 
+    }
     .category-institut {
         .main-content {
             #overview {
@@ -705,12 +705,12 @@ body {
 .royal-gradient::before {
     background: #141E30; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #141E30 , #243B55); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: linear-gradient(to left, #141E30 , #243B55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .titanium-gradient::before {
     background: #283048; /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #283048 , #859398); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */        
+    background: linear-gradient(to left, #283048 , #859398); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 #studies-info {
@@ -960,14 +960,14 @@ body {
     .byline {
         margin-bottom: 0;
     }
-    
+
     .profile-img {
         width: 100px;
         height: 100px;
         float: left;
         img {
             width: 100px;
-            height: 100px;        
+            height: 100px;
         }
     }
     .position-data {
