@@ -987,3 +987,33 @@ body {
   list-style-type: none;
 }
 
+#organisationskontakt {
+    .legend {
+        position: relative;
+        z-index: 10;
+        float: left;
+        left: -170px;
+        top: -150px;
+        padding: 0px 20px 20px 20px;
+        width: auto;
+        border-left: 2px solid #ed6600;
+        background: #f7f7f7;
+        font-size: 0.8em;
+
+        h3 {
+          font-size: 18px;
+          font-weight: bold;
+        }
+
+        ul {
+            list-style-type: none;
+            list-style: none;
+
+            > li {
+                margin-left: 0 !important;
+            }
+        }
+
+    }
+}
+
