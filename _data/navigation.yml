@@ -41,7 +41,7 @@
     id: diensteleistungen
     url: rz-services.html
     children:
-    - title: Drucken & Plotten
+    - title: Drucken & Weiterverarbeitung
       id: drucken_plotten
       url: drucken_plotten.html
   - title: Hilfe & Support
