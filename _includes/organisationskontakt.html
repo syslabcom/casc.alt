@@ -1,47 +1,33 @@
-
-  <style>
-
-.legend {
-  position: relative;
-  z-index: 10;
-  float: left;
-  left: -170px;
-  top: -150px;
-  padding: 0px 20px 20px 20px;
-  width: auto;
-  border-left: 2px solid #ed6600;
-  background: #f7f7f7;
-  font-size: 0.8em;
-}
-
-.legend h3
-{
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.legend ul 
-{
-  list-style-type: none !important;
-  list-style: none !important;
-}
-.legend ul > li {
-  margin-left: 0 !important;
-}
-
-  </style>
-
   <section id="organisationskontakt" class="">
-  <div class="container pb-50">
-    <div class="section-content">
-      <div class="row"> 
+    <div class="container pb-50">
+      <div class="section-title">
+        <div class="row">
+            <h2 class="module-title line-bottom">Organisations-Kontakt</h2>
+            <p class="description" tal:condition="description">Leitung der Organisation und Lageplan</p>
+        </div>
+      </div>
+
+      <div class="row">
         <div class="col-md-7">
         {% for person in page.orgkontakt %}
           {% include single_inline_person.html person=person.name role=person.role %}
         {% endfor %}
         </div>
         <div class="col-md-5">
-          <img id="zoom" alt="" src="media/campusplan-wow-large.png" class="img-responsive img-fullwidth">
+          <div id="floor_plan"
+              style="background-image:url('media/lageplan_neutral_low_480.jpg');width:480px;height:524px;background-repeat:no-repeat"
+              class="img-responsive img-fullwidth">
+              <img src="media/pointer1.png"
+                  id="point1"
+                  style="position:relative;z-index:2;left:100px;top:60px">
+              <img src="media/pointer2.png"
+                  id="point2"
+                  style="position:relative;z-index:2;left:290px;top:210px">
+              <img src="media/pointer3.png"
+                  id="point3"
+                  style="position:relative;z-index:2;left:100px;top:330px">
+          </div>
+
           <div class="legend">
               <h3>Legende</h3>
               <ul>
@@ -53,22 +39,5 @@
         </div>
       </div>
     </div>
-  </div>
-  <script src="{{ site.baseurl }}js/jquery.elevatezoom.js"></script>
-  <script src="{{ site.baseurl }}js/jquery.elevateZoom-3.0.8.min.js"></script>
-  <script>
-    jQuery(function($) {
 
-        if ( $(window).width() >= 1200 ) {
-
-            $("#zoom").elevateZoom({
-                zoomType: "lens",
-                lensShape: "round",
-                lensSize: 200
-            });
-        }
-
-    });
-
-  </script>
 </section>
