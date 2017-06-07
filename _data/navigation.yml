@@ -314,15 +314,10 @@
     id: modulbeispiele
     url: #
     children:
-    - title: Module in BAU 
-      id: module-bau
-      url: module_bau.html
     - title: Umgesetzte Module 
       id: umgesetztemodule
       url: modules.html
-    - title: Mögliche Module 
-      id: moeglichemodule
-      url: potential-modules.html
+    
 
 - name: home
   title: Home
