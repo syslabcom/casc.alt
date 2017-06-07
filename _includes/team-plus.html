@@ -1,5 +1,15 @@
 <section id="organisationskontakt" class="scheme-{{include.color_scheme}}">
   <div class="container pb-50">
+  {% if include.title %}
+    <div class="section-title">
+      <div class="row">
+        <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{ include.title }}</h2>
+        <p class="description mt-20">
+          {{ include.description }}
+        </p>
+      </div>
+    </div>
+    {% endif %}
     <div class="section-content">
       <div class="row"> 
         <div class="col-md-7">
