@@ -2,7 +2,7 @@
 layout: page
 name: kommsite-howto-3
 title: Die neue Suche
-category: kommsite
+category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"

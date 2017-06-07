@@ -1,12 +1,12 @@
 ---
 layout: page
 name: kommsite-howto-2
-title: Das Modulkonzept - so funktionieren Module und Seiten
-category: kommsite
+title: Das Modulkonzept
+category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description: "Für Ihre Site benötigen Sie Inhalte und Modulseiten. Inhalte sind Texte, Bilder, Nachrichten und Termine. Modulseiten zeigen diese Inhalte dann strukturiert an."
+description: So funktionieren Module und Seiten
 breadcrumbs:
 - title: Home
   url: kommsite.html
