@@ -6,7 +6,7 @@ category: kommsite
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/qa.jpg"
-description: Kleingruppen-Beratung HUM am 07.06.2017 für Fakultät HUM
+description: Kleingruppen-Beratung am 07.06.2017 für Fakultät HUM
 day: 07.
 month: Juni
 year: 2017

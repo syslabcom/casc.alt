@@ -315,9 +315,9 @@
     url: #
     children:
     - title: Umgesetzte Module 
-      id: umgesetztemodule
-      url: modules.html
-    
+      id: module_bau
+      url: module_bau.html
+      
 
 - name: home
   title: Home
