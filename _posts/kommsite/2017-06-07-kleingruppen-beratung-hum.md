@@ -1,12 +1,12 @@
 ---
 layout: event
 name: kleingruppen-beratung-hum
-title: Kleingruppen-Beratung HUM
+title: Kleingruppen-Beratung
 category: kommsite
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/qa.jpg"
-description: Kleingruppen-Beratung am 07.06.2017 für Fakultät HUM
+description: Kleingruppen-Beratung am 07.06.2017 für Fakultät HUM und EIT
 day: 07.
 month: Juni
 year: 2017
@@ -19,4 +19,4 @@ breadcrumbs:
 
 ---
 
-Die nächste Kleingruppen-Beratung wird am 07.06.2016 für die Fakultät HUM stattfinden.
+Eine weitere Kleingruppen-Beratung für Fakultät HUM und EIT wurde am 07.06.2016 durch Vizepräsident C.Thienel durchgeführt.
