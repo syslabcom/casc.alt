@@ -18,14 +18,21 @@ breadcrumbs:
 
 ### Kleingruppen-Beratungen
 
-Ab Mitte/Ende Mai werden wir Kleingruppen-Beratungen (6-10 Teilnehmer) durchführen. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse homepage@unibw.de homepage@unibw.de an. 
+Seit Mai werden Kleingruppen-Beratungen (6-10 Teilnehmer) durchgeführt. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse homepage@unibw.de homepage@unibw.de an. 
 
 <a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anmelden</a>
 
 
 ### Inhaltliche Unterstützung
 
-Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support - soll voraussichtlich ein neuer Web-Content-Editor am Präsidialbereich leisten. Details dazu finden Sie hier, wenn diese spruchreif werden.
+Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support wird ein neuer Web-Content-Editor des Präsidialbereichs leisten. Der Web-Content-Editor wird ab August über unsere Kontakt-Adresse homepage@unibw.de erreichbar sein.
+
+<a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
+
+
+### Modul-Baukasten
+
+Unsere neuen Webseiten werden aus sog. Modulen zusammengesetzt. Zur Vorbereitung und Konzeptionierung können Sie in Kürze hier einen "Papier-Modul-Baukasten" herunterladen.
 
 
 ### Grafische Unterstützung
