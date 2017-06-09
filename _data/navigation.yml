@@ -324,110 +324,101 @@
   items:
   - title: Universität
     children:
-    - title: Aktuelle Meldungen
-    - title: Gremien und Vertretungen
+    - title: Über uns
       children:
-      - title: Ausschüsse
-      - title: Beirat für Informations- und KommunikationsInfraStruktur (IKIS)
-      - title: Datenschutzbeauftragter
-      - title: Nachwuchskommission
-      - title: Ethikkommission
-      - title: Gleichstellungsbeauftragte
-      - title: IT-Sicherheitsbeauftragter
-      - title: Konvent der wissenschaftlichen Mitarbeiter
-      - title: Ombudsperson
-      - title: Personalrat
-      - title: Studentischer Konvent
-      - title: Freundeskreis (Name prüfen)
-    - title: Leitung 
+      - title: Willkommen
+      - title: Zahlen, Daten, Fakten
+      - title: Geschichte
+    - title: Leitung
       children:
-      - title: Erweiterte Hochschulleitung
-      - title: Kanzler
-      - title: Militärische Leitung
       - title: Präsidentin
-      - title: Präsidialabteilung
+      - title: Vizepräsidenten
+      - title: Kanzler
+      - title: Leiter Studierendenbereiche
+    - title: Einrichtungen
+      children:
+      - title: Universitätsbibliothek
+      - title: Medienzentrum
+      - title: Rechenzentrum
+      - title: Sprachenzentrum
+      - title: Sportzentrum
+    - title: Gremien
+      children:
+      - title: Leitungsgremium
+      - title: Erweiterte Hochschulleitung
       - title: Senat
       - title: Universitätsrat
       - title: Verwaltungsrat
-      - title: Vizepräsidenten
-    - title: Fakultäten
-      children:
-      - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
-        id: bau
-        url: bau.html
-      - title: Elektrotechnik und Informationstechnik (univ.)
-      - title: Humanwissenschaften (univ.)
-      - title: Informatik (univ.)
-      - title: Luft- und Raumfahrttechnik (univ.)
-      - title: Staats- und Sozialwissenschaften (univ.)
-      - title: Wirtschafts- und Organisationswissenschaften (univ.)
-      - title: Betriebswirtschaft (HAW)
-      - title: Elektrotechnik und Technische Informatik (HAW)
-      - title: Maschinenbau (HAW)
-    - title: Stellenbörse
-      children:
-      - title: Stellenausschreibungen, Offene Stellen
-      - title: Neuberufungen
-      - title: Vakante Professuren
-      - title: Wissenschaftlicher Mitarbeiter
-      - title: Studentische Hilfskräfte
-      - title: wissenschaftliche Hilfskräfte
-      - title: Berufungsorganisation, Berufungsverfahren
-    - title: Über uns 
+    - title: Vertretungen
       children: 
-      - title: Leitbild
-      - title: Geschichte (Historie)
-      - title: Anfahrt
-      - title: Lageplan
+      - title: Datenschutz
+      - title: Beirat IKIS
+      - title: Nachwuchskommission
+      - title: Ethikkommission
+      - title: Gleichstellungsbeauftragte
+      - title: It-Sicherheitsbeauftragter
+      - title: Konvent Wiss.Mitarbeiter
+      - title: Personalrat
+      - title: Studentischer Konvent
+      - title: Schwerbehindertenvertretung
+    - title: Arbeiten an der Uni
+      children:
+      - title: Stellenangebote
+      - title: Personalverwaltung
+      - title: Berufung
+      - title: Ausbildung
+      - title: Beruf und Familie
+      - title: Arbeit und Gesundheit
+      - title: Betriebsarzt
+      - title: FAQ
 
   - title: Studium
     children:
-    - title: Beratung / Bewerbung
+    - title: Studieninformationen
       children:
-      - title: Studieninformationen
-      - title: Zugangsmöglichkeiten (Ihr Weg zu uns, Bewerbung)
-      - title: Studium als Soldat
+      - title: Bewerbung
+      - title: Studium als Soldat/in
       - title: Studium als Zivilist
-      - title: Besonderheiten (Alleinstellungsmerkmale, Spezielles)
+      - title: Besonderheiten
       - title: Förderprogramme/Stipendien
       - title: Frühförderung für Hochbegabte
-    - title: Studienangebot (Studiengänge)
+      - title: Prüfungsamt
+      - title: Kontakte
+    - title: Studiengänge
       children:
-      - title: (alle Studiengänge nennen mit Berufsfeldern)
-    - title: Fakultäten
+      - title: Alle Studiengänge (inkl.Weiterbildung)
+    - title: Alumni & Career Service
       children:
-      - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
-        id: bau
-        url: bau.html
-      - title: Elektrotechnik und Informationstechnik (univ.)
-      - title: Humanwissenschaften (univ.)
-      - title: Informatik (univ.)
-      - title: Luft- und Raumfahrttechnik (univ.)
-      - title: Staats- und Sozialwissenschaften (univ.)
-      - title: Wirtschafts- und Organisationswissenschaften (univ.)
-      - title: Betriebswirtschaft (HAW)
-      - title: Elektrotechnik und Technische Informatik (HAW)
-      - title: Maschinenbau (HAW)
-    - title: Im Studium
+      - title: Alumni-Netzwerk
+      - title: Service
+      - title: Aktuelles
+      - title: Veranstaltungen
+      - title: Wir sind Alumni
+      - title: Kontakt
+    - title: Weiterbildung
       children:
-      - title: E-Learning (Ilias)
-      - title: Studiengänge mit Lehrinhalten
-      - title: Studium plus
-      - title: Vorlesungsverzeichnis
-      - title: Summer School
-    - title: Alumni + Career Service
+      - title: Programme
+      - title: Service
+      - title: Institut
+      - title: Aktuelles
+    - title: Studium plus
       children:
-      - title: Auslandsbüro
-        children:
-        - title: Erasmus
-        - title: Fördermöglichkeiten
-        - title: Incoming
-        - title: Internationales
-        - title: Outgoing
-        - title: Partnerhochschulen
-        - title: Auslandsaufenthalt
-        - title: Tutorenmöglichkeiten, Tutorenprogramm
-      - title: Weiterbildung
+      - title: Zentralinstitut
+      - title: Aktuelles
+      - title: Lehre
+      - title: FAQ
+      - title: Kontakt
+    - title: Internationales
+      children:
+      - title: Kontakt
+      - title: Erasmus+
+      - title: Incoming
+      - title: Outgoing
+      - title: Partnerhochschulen
+      - title: Erfahrungsberichte
+      - title: Fördermöglichkeiten
+      - title: Tutorenprogramm
+      
 
   - title: Forschung
     children:
