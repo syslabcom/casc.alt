@@ -10,7 +10,7 @@ description: Das neue Interne Portal der UniBwM
 day: 30
 month: Juni
 year: 2017
-start: 
+start: 30
 end: 
 details: True
 breadcrumbs:
