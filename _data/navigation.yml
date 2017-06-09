@@ -419,72 +419,39 @@
       - title: Fördermöglichkeiten
       - title: Tutorenprogramm
       
+  - title: Fakultäten
+    children:
+    - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
+      id: bau
+      url: bau.html
+    - title: Elektrotechnik und Informationstechnik (univ.)
+    - title: Humanwissenschaften (univ.)
+    - title: Informatik (univ.)
+    - title: Luft- und Raumfahrttechnik (univ.)
+    - title: Staats- und Sozialwissenschaften (univ.)
+    - title: Wirtschafts- und Organisationswissenschaften (univ.)
+    - title: Betriebswirtschaft (HAW)
+    - title: Elektrotechnik und Techniche Informatik (HAW)
+    - title: Maschinenbau (HAW)
 
-  - title: Forschung
-    children:
-    - title: Forschungszentren
-      children:
-      - title: Cyber Defence (CODE)
-      - title: Modern Vehicles (MOVE)
-      - title: Munich Integrated Research on Aerospace (MIRA)
-      - title: Risiko, Infrastruktur, Sicherheit und Konflikt (RISK)
-    - title: Center of Excellence
-    - title: Fakultäten
-      children:
-      - title: Bauingenieurwesen und Umweltwissenschaften (univ.)
-        id: bau
-        url: bau.html
-      - title: Elektrotechnik und Informationstechnik (univ.)
-      - title: Humanwissenschaften (univ.)
-      - title: Informatik (univ.)
-      - title: Luft- und Raumfahrttechnik (univ.)
-      - title: Staats- und Sozialwissenschaften (univ.)
-      - title: Wirtschafts- und Organisationswissenschaften (univ.)
-      - title: Betriebswirtschaft (HAW)
-      - title: Elektrotechnik und Technische Informatik (HAW)
-      - title: Maschinenbau (HAW)
-    - title: Transfer-Service  
-      children:
-      - title: Entrepreneurship
-      - title: Startup-Service
-      - title: Technologietransfer
-      - title: Kooperationen
-    - title: Forschungsdatenbank (Athene Forschung)
-    - title: Forschungs-Service
-      children: 
-      - title: Forschungsförderung
-      - title: Drittmittelmanagement
-      - title: Vertragsprüfung und Steuerrecht
-      - title: Patent- und Erfindungsberatung
-    - title: Nachwuchsförderung
-      children:
-      - title: Post-Doc
-      - title: Promovierende
-      - title: ProfiLehre
-      - title: Förderprogramme
-    - title: Qualitätsmanagement
-      children:
-      - title: DFG-Beauftragter
-      - title: Nachwuchskommission
-      - title: Ethikkommission
-      - title: Kommission zur Sicherstellung der guten wiss. Praxis
-      - title: Chancengleichheit in der Wissenschaft
-      - title: Ombudsperson
-  - title: Einrichtungen
-    children:
-    - title: Bibliothek (Universitätsbibliothek)
-    - title: Institut für Technik Intelligenter Systeme (ITIS)
-    - title: Medienzentrum
-    - title: Prüfungsamt
-    - title: Rechenzentrum
-    - title: Sportzentrum
-    - title: Sprachenzentrum
-    - title: Zentrale Verwaltung
+  - title: Forschung (DL/KT)
+
   - title: Campusleben
     children:
-    - title: Für die Seele 
+    - title: Verpflegung
+      children: 
+      - title: Mensa
+      - title: Restaurant Brandl
+      - title: UniCasino
+      - title: Unibar
+    - title: Sport an der Uni
       children:
-      - title: Betriebliches Gesundheitsmanagement
+      - title: Sportzentrum
+      - title: Sportförderverein
+      - title: Allg.Hochschulsport
+      - title: Betriebl. Gesundheitsmanagement
+    - title: Für die Seele / Beratung u. Hilfe
+      children:
       - title: Militärseelsorge
       - title: Psychosoziale Beratungsstelle
     - title: Kinderbetreuung
@@ -495,17 +462,14 @@
       children:
       - title: Big Band
       - title: Uni-Chor
-    - title: Sport an der Uni 
+    - title: Service
       children:
-      - title: Sportförderverein
-      - title: Sportzentrum
-    - title: Verpflegung
-      children:
-      - title: Restaurant (Brandl)
-      - title: Mensa
-      - title: Supermarkt
-      - title: Unibar
-      - title: UniCasino
+      - title: Fundbüro
+      - title: Friseur
+      - title: Pass- und Ausweisstelle
+      - title: Bundeswehrdienstleistungszentrum
+      - title: Feuerwehr
+      
   - title: Mil.Bereich
     children: 
     - title: Studierendenbereich
