@@ -435,6 +435,19 @@
     - title: Maschinenbau (HAW)
 
   - title: Forschung (DL/KT)
+    children:
+    - title: Forschung und Innovation
+    - title: Forschungsinformationsportal
+    - title: Forschungseinrichtungen
+      children:
+      - title: Forschungszentren
+      - title: Forschungsinstitut
+      - title: An-Institut
+    - title: Ideen-, Wissens-, Technologietransfer
+    - title: Nachwuchsförderung
+    - title: Center of Exellence
+    - title: Forschungs-Service
+    - title: Qualitätsmanagement
 
   - title: Campusleben
     children:
