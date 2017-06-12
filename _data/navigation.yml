@@ -462,6 +462,7 @@
     - title: Forschungs-Service
       children:
       - title: Forschungsförderung
+      - title: Antragsberatung
       - title: Projektabwicklung national
       - title: EU-Projektabwicklung
       - title: Vertragsmanagement
@@ -473,7 +474,7 @@
       - title: Ethikkommission
       - title: DFG-Beauftragter
       - title: Datenmanagement
-      - title: Changengleichheit in der Forschung
+      - title: Chancengleichheit in der Forschung
 
   - title: Campusleben
     children:
