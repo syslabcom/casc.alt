@@ -440,14 +440,38 @@
     - title: Forschungsinformationsportal
     - title: Forschungseinrichtungen
       children:
-      - title: Forschungszentren
-      - title: Forschungsinstitut
-      - title: An-Institut
+      - title: Forschungszentrum Risiko, Infrastruktur, Sicherheit, Konflikt (RISK)
+      - title: Forschungszentrum Munich Integrated Research on Aerospace (MIRA)
+      - title: Forschungszentrum Modern Vehicles (MOVE)
+      - title: Forschungsinstitut Cyber Defence (Code)
+      - title: Center fo Intelligence an Security Studies (CISS)
     - title: Ideen-, Wissens-, Technologietransfer
+      children:
+      - title: Entrepreneurship
+      - title: Existenzgründung
+      - title: Kooperationsanfragen
+      - title: Erfindungsberatung, Patente & Linzenzen
     - title: Nachwuchsförderung
+      children:
+      - title: Doktoranden
+      - title: Promovierte
+      - title: Qualifizierungsangebot
+      - title: Kommission zur Föderung des wissenschaftlichen Nachwuchs
     - title: Center of Exellence
     - title: Forschungs-Service
+      children:
+      - title: Forschungsförderung & Antragsberatung
+      - title: Projektabwicklung national & International
+      - title: Vertragsmanagement
+      - title: Steuern
     - title: Qualitätsmanagement
+      children:
+      - title: Ombudsperson
+      - title: Kommission zur Untersuchung wissenschaftlichen Fehlverhaltens
+      - title: Ethikkommission
+      - title: DFG-Beauftragter
+      - title: Datenschutz & Datenmanagement
+      - title: Changengleichheit in der wissenschaftlichen
 
   - title: Campusleben
     children:
