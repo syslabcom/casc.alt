@@ -114,8 +114,12 @@
     id: literatur
     url: #
     children:
+    - title: OPAC
     - title: Weitere Kataloge
-      url: ub.html
+      children:
+      - title: EZB
+      - title: DBIS
+      - title: KVK
     - title: Elektronische Medien
       children:
       - title: e-Journals
