@@ -114,15 +114,14 @@
     id: literatur
     url: #
     children:
-    - title: Katalog
+    - title: Weitere Kataloge
       url: ub.html
     - title: Elektronische Medien
       children:
       - title: e-Journals
       - title: e-Books
       - title: Datenbanken
-    - title: Fernleihe
-    - title: Campuslieferdienst
+    - title: Erwerbungsvorschläge
     - title: Besondere Bestände
   - title: Bibliothek nutzen
     id: nutzung
@@ -135,6 +134,7 @@
     - title: Lern- und Arbeitsort
       url: ub.html
     - title: Benutzungsordnung
+    - title: Öffnungszeiten
       url: ub.html
   - title: Unsere Dienstleistungen
     id: dienstleistungen
@@ -142,15 +142,19 @@
     children:
     - title: AtheneForschung
     - title: Schulung und Beratung
+      children: 
+      - title: Infoveranstaltungen
+      - title: Book of Librarian
+      - title: Literaturverwaltung
     - title: Publikationsunterstützung
-    - title: Erwerbungsvorschläge
+    - title: Fernleihe
+    - title: Campuslieferdienst
     - title: Trimesterapparate
     - title: Veranstaltungsräume
   - title: Über uns
     id: uerberuns
     url: #
     children:
-    - title: Allgemeines zur UB
     - title: Profil
     - title: Organigramm
     - title: Unser Team
@@ -444,7 +448,7 @@
       - title: Forschungszentrum Munich Integrated Research on Aerospace
       - title: Forschungszentrum Modern Vehicles
       - title: Forschungsinstitut Cyber Defence
-      - title: Center for Intelligence an Security Studies
+      - title: Center for Intelligence on Security Studies
     - title: Ideen-, Wissens-, Technologietransfer
       children:
       - title: Entrepreneurship
