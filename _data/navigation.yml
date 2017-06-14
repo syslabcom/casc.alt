@@ -128,7 +128,7 @@
     - title: Erwerbungsvorschläge
     - title: Besondere Bestände
       id: besonderebestaende
-      url: #
+      url: ub/besonderebestaende.html
   - title: Bibliothek nutzen
     id: nutzung
     url: ub.html
