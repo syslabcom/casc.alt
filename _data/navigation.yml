@@ -127,6 +127,8 @@
       - title: Datenbanken
     - title: Erwerbungsvorschläge
     - title: Besondere Bestände
+      id: besonderebestaende
+      url: #
   - title: Bibliothek nutzen
     id: nutzung
     url: ub.html
