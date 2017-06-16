@@ -6,7 +6,7 @@ category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description: Anbindung an HisInOne
+description: Anbindung der Website an HisInOne
 breadcrumbs:
 - title: Home
   url: kommsite.html

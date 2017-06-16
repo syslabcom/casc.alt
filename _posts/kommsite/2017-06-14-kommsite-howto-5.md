@@ -6,7 +6,7 @@ category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description: Modul-Baukasten
+description: Der Modul-Baukasten zum Download
 breadcrumbs:
 - title: Home
   url: kommsite.html
