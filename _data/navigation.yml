@@ -522,37 +522,21 @@
       
   - title: Mil.Bereich
     children: 
-    - title: Studierendenbereich
+    - title: StudBer
       children:
-      - title: aero
-      - title: alpha
-      - title: bravo
-      - title: charlie
-      - title: delta
-    - title: Angebote
-    - title: Ansprechpartner
-    - title: Antragsstellung
-    - title: BFD
-    - title: bundeswehr.org
-    - title: Dienstpläne
-    - title: DV-Stelle
-    - title: Freizeitbüro
-    - title: Militärische Gleich-stellungsbeauftragte
-    - title: Interessengruppen
-    - title: Militärseelsorge
-    - title: Psychologische Beratungsstelle
-    - title: Rechnungsführer
-    - title: S1-S6
-    - title: Sanitätszentrum
-    - title: Sozialdienst der Bundeswehr
+      - title: Aero
+      - title: Alpha
+      - title: Bravo
+      - title: Charlie
+      - title: Delta
+    - title: Studienbeginn
+    - title: Liegenschaft
+    - title: SanVZ
     - title: Sportfördergruppe
-    - title: Sprachnachweis (SLP)
-    - title: Stab
-    - title: Stamm
-    - title: Truppenkameradschaft
-    - title: ÜVAS
-    - title: Vertrauenspersonen
-    - title: Wache
-    - title: Wohnen
+    - title: Betreuung / Fürsorge
+    - title: IG/AG
+    - title: Interessenvertretungen
+    - title: Links
+    
 
 
