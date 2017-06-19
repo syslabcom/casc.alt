@@ -6,7 +6,7 @@ category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description: Module - HowTo
+description:
 breadcrumbs:
 - title: Home
   url: kommsite.html
