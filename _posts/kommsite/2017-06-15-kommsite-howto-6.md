@@ -23,7 +23,7 @@ Ein "Modul" ist ein vollbreiter Block auf einer Webseite, der Informationen - al
 
 Wir können zwischen zwei Arten von Modulen unterscheiden: Module, die beim Editieren direkt mit Inhalten versehen werden, und Module, die bestehende Inhaltsobjekte einbinden.
 
-Bei Arten von Modulen können auf Modulseiten nach Belieben gemischt werden. Das Editieren erfolgt immer über den "Bearbeiten" Knopf einer Modulseite.
+Beide Modularten können auf Modulseiten nach Belieben gemischt werden. Das Editieren erfolgt immer über den "Bearbeiten" Knopf einer Modulseite.
 
 Im Folgenden beschreiben wir die unterschiedlichen Arten von Modulen genauer.
 
@@ -80,7 +80,7 @@ In diesem Modul können beliebig viele Inhaltselemente ausgewählt werden. Die R
 
 Von den gewählten Inhaltselementen wird jeweils das Hero-Bild angezeigt, und darunter der Titel. Außerdem verlinken Bild und Titel jeweils auf das gewählte Inhaltselement. Es ist sinnvoll, Ordner (Sektionen) oder einzelne Seiten auszuwählen. Dadurch lässt sich zum Beispiel eine Übersicht der Institute erstellen.
 
-Dieses Modul kann geauer konfiguriert werden: Der Titel des Moduls (verpflichtend), sowie der optionale Einführungstext (optional) beschreiben, was in dieser Gallerie gezeigt wird.
+Dieses Modul kann genauer konfiguriert werden: Der Titel des Moduls (verpflichtend), sowie der optionale Einführungstext (optional) beschreiben, was in dieser Gallerie gezeigt wird.
 
 <img src="/media/kommsite/howto_modulbeispiele/Bearbeiten_Galerie.png" alt="Bearbeiten Galerie" />
 
