@@ -6,7 +6,7 @@ category: kommsite
 department: kommsite
 section: Web Relaunch
 img: "media/people/karl-christian-thienel.jpg"
-description: Vorstellung des aktuellen Stands der Arbeiten, der laufenden Aktivitäten und der Planung bzgl. Beratungen und Umzug der Seiten durch Vizepräsident C.Thienel
+description: 
 day: 10.
 month: Mai
 year: 2017
@@ -20,4 +20,7 @@ breadcrumbs:
 ---
 
 Vizepräsident C.Thienel hat am 10.05.2017 der Erweiterten Hochschulleitung einen Fortschrittsbericht zum Projekt "Neuer Webauftritt" gegeben.
+
+Inhalt:
+Vorstellung des aktuellen Stands der Arbeiten, der laufenden Aktivitäten und der Planung bzgl. Beratungen und Umzug der Seiten.
 
