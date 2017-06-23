@@ -210,3 +210,17 @@
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
+
+- date: 19.6.2017
+  title: "Train the Trainer"
+  description: "Festlegung des Train the Trainer Konzepts zur Schulung der künftigen Seitenpfleger."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 21.6.2017
+  title: "Editor - Backend"
+  description: "In einem weiteren Workshop haben Seitenpfleger Feedback zum neuen Editor gegeben. Erweiterungen und Änderungswünsche werden aktuell eingearbeitet. Ein weiterer Workshop ist bereits geplant."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
