@@ -25,19 +25,21 @@ $colour-link-hover: #23527c !default;
 $colour-link-focus: #23527c !default;
 
 // Intranet Colours
-$colour-rust-red : #CC3300 !default;  //Studium. + Weiterbildung
-$colour-rust-red-80: rgba(204, 51, 0, 0.8) !default;
+$colour-rust-red : #CC3300 !default;  //Studium
+$colour-rust-red-80: rgba(204, 51, 0, 0.8) !default;  // Campus (??)
+$colour-mediterran-azure: #50A2E8 !default;  // Koerper und Seele
+$colour-ruddy-beige: #C09F80 !default;  // Service, IT Dienste
+$colour-ruddy-beige-80: rgba(192, 159, 128, 0.8) !default;
 $colour-dark-yellow: #FFCC66 !default;  // Personal
 $colour-dark-yellow-80: rgba(255, 204, 102, 0.8) !default;
-$colour-ruddy-beige: #C09F80 !default;  // IT Dienste
-$colour-ruddy-beige-80: rgba(192, 159, 128, 0.8) !default;
-$colour-warm-blue : #336699 !default;  // Forschung
-$colour-creamy-red-wine: #984b43 !default;  //
+$colour-orange-orange: #ED6600 !default; // uebergreifende dienste
+$colour-dark-purle: #6C387B !default; // Foschung
+$colour-olive-green: #46512F !default; // Militaerisches
 $colour-creamy-red-wine-80: rgba(152, 75, 67, 0.8) !default;
-$colour-mensa-brown: #984b43 !default;  // Verpflegung
-$colour-olive-green: #46512f !default; // Militaerisches
-$colour-mediterran-azure: #38d1e8 !default;  // Fuer die Seele
-$colour-orange-orange: #ed6600 !default; // uebergreifende dienste
+$colour-mensa-brown: #984B43 !default;  // Verpflegung
+$colour-dark-pink: #B30557 !default; // Weiterbildung
+
+
 $colour-category-grey: #cc3300 !default ; // Personen will change
 
 // Font treatment
@@ -817,37 +819,40 @@ body {
             height: 30px;
             padding: 5px 10px;
             &.studies {
-              background-color: #CC3300;
+              background-color: $colour-rust-red;
             }
             &.campus {
               background-color: $colour-rust-red-80;
             }
             &.soul {
-              background-color: #50A2E8;
+              background-color: $colour-mediterran-azure;
             }
             &.service {
-              background-color: #C09F80;
+              background-color: $colour-ruddy-beige;
             }
             &.it {
-              background-color: #C09F80;
+              background-color: $colour-ruddy-beige;
             }
             &.personnel {
-              background-color: #FFCC66;
+              background-color: $colour-dark-yellow;
             }
             &.central-services {
-              background-color: #ED6600;
+              background-color: $colour-orange-orange;
             }
             &.research {
-              background-color: #6C387B;
+              background-color: $colour-dark-purle;
             }
             &.military {
-              background-color: #46512F;
+              background-color: $colour-olive-green;
             }
             &.lunch {
-              background-color: #984b43;
+              background-color: $colour-mensa-brown;
             }
             &.learning {
-              background-color: #B30557;
+              background-color: $colour-dark-pink;
+            }
+            &.hours {
+              background-color: $colour-dark-blue;
             }
             &.forms {
               background-color: $colour-ruddy-beige-80;
@@ -880,47 +885,48 @@ body {
     margin: 0;
     padding: 7px 6px;
     &.studies {
-      background-color: #CC3300;
+      background-color: $colour-rust-red;
     }
     &.campus {
       background-color: $colour-rust-red-80;
     }
     &.soul {
-      background-color: #50A2E8;
+      background-color: $colour-mediterran-azure;
     }
     &.service {
-      background-color: #C09F80;
+      background-color: $colour-ruddy-beige;
       padding-left: 8px;
     }
     &.it {
-      background-color: #C09F80;
+      background-color: $colour-ruddy-beige;
     }
     &.personnel {
-      background-color: #FFCC66;
+      background-color: $colour-dark-yellow;
     }
     &.central-services {
-      background-color: #ED6600;
+      background-color: $colour-orange-orange;
     }
     &.research {
-      background-color: #6C387B;
+      background-color: $colour-dark-purle;
       padding-left: 8px;
     }
     &.military {
-      background-color: #46512F;
+      background-color: $colour-olive-green;
     }
     &.lunch {
-      background-color: #984b43;
+      background-color: $colour-mensa-brown;
       padding-left: 8px;
     }
     &.learning {
-      background-color: #B30557;
+      background-color: $colour-dark-pink;
+      padding-left: 8px;
+    }
+    &.hours {
+      background-color: $colour-dark-blue;
       padding-left: 8px;
     }
     &.forms {
         background-color: $colour-ruddy-beige-80;
-    }
-    &.legal {
-      background-color: $colour-creamy-red-wine;
     }
     &.ci {
       background-color: $colour-creamy-red-wine-80;
