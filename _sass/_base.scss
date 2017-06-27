@@ -816,41 +816,41 @@ body {
             background-color: $colour-rust-red;
             height: 30px;
             padding: 5px 10px;
-            &.services, &.service {
-              background-color: $colour-ruddy-beige;
-            }
-            &.forms {
-              background-color: $colour-ruddy-beige-80;
-            }
-            &.research {
-              background-color: $colour-warm-blue;
-            }
             &.studies {
-              background-color: $colour-rust-red;
+              background-color: #CC3300;
             }
             &.campus {
               background-color: $colour-rust-red-80;
             }
-            &.personel {
-              background-color: $colour-dark-yellow;
+            &.soul {
+              background-color: #50A2E8;
+            }
+            &.service {
+              background-color: #C09F80;
             }
             &.it {
-              background-color: #2c3e50;
+              background-color: #C09F80;
             }
-            &.soul {
-              background-color: $colour-dark-yellow-80;
+            &.personnel {
+              background-color: #FFCC66;
             }
-            &.people {
-              background-color: #898e92;
+            &.central-services {
+              background-color: #ED6600;
+            }
+            &.research {
+              background-color: #6C387B;
+            }
+            &.military {
+              background-color: #46512F;
             }
             &.lunch {
-              background-color: #c00d0e;
+              background-color: #984b43;
             }
             &.learning {
-              background-color: $colour-rust-red;
+              background-color: #B30557;
             }
-            &.legal {
-              background-color: $colour-creamy-red-wine;
+            &.forms {
+              background-color: $colour-ruddy-beige-80;
             }
             &.ci {
               background-color: $colour-creamy-red-wine-80;
@@ -879,42 +879,45 @@ body {
     vertical-align: middle;
     margin: 0;
     padding: 7px 6px;
-    &.services, &.service {
-        background-color: $colour-ruddy-beige;
-    }
-    &.forms {
-        background-color: $colour-ruddy-beige-80;
-    }
-    &.research {
-        background-color: $colour-warm-blue;
-        padding-left: 8px;
-    }
     &.studies {
-      background-color: $colour-rust-red;
-      padding-left: 5px;
+      background-color: #CC3300;
     }
     &.campus {
       background-color: $colour-rust-red-80;
     }
-    &.personel {
-      background-color: $colour-dark-yellow;
-    }
-    &.it {
-      background-color: #2C3E50;
-    }
     &.soul {
-      background-color: $colour-dark-yellow-80;
+      background-color: #50A2E8;
     }
-    &.people {
-      background-color: #898E92;
+    &.service {
+      background-color: #C09F80;
       padding-left: 8px;
     }
+    &.it {
+      background-color: #C09F80;
+    }
+    &.personnel {
+      background-color: #FFCC66;
+    }
+    &.central-services {
+      background-color: #ED6600;
+    }
+    &.research {
+      background-color: #6C387B;
+      padding-left: 8px;
+    }
+    &.military {
+      background-color: #46512F;
+    }
     &.lunch {
-      background-color: #C00D0E;
-      padding-left: 9px;
+      background-color: #984b43;
+      padding-left: 8px;
     }
     &.learning {
-      background-color: $colour-rust-red;
+      background-color: #B30557;
+      padding-left: 8px;
+    }
+    &.forms {
+        background-color: $colour-ruddy-beige-80;
     }
     &.legal {
       background-color: $colour-creamy-red-wine;
