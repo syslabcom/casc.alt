@@ -28,12 +28,13 @@ $colour-link-focus: #23527c !default;
 $colour-rust-red : #CC3300 !default;  //Studium
 $colour-rust-red-80: rgba(204, 51, 0, 0.8) !default;  // Campus (??)
 $colour-mediterran-azure: #50A2E8 !default;  // Koerper und Seele
-$colour-ruddy-beige: #C09F80 !default;  // Service, IT Dienste
+$colour-ruddy-beige: #C09F80 !default;  // Service
+$colour-dark-grey: #898E92 !default; // IT Dienste
 $colour-ruddy-beige-80: rgba(192, 159, 128, 0.8) !default;
 $colour-dark-yellow: #FFCC66 !default;  // Personal
 $colour-dark-yellow-80: rgba(255, 204, 102, 0.8) !default;
 $colour-orange-orange: #ED6600 !default; // uebergreifende dienste
-$colour-dark-purle: #6C387B !default; // Foschung
+$colour-dark-purple: #6C387B !default; // Foschung
 $colour-olive-green: #46512F !default; // Militaerisches
 $colour-creamy-red-wine-80: rgba(152, 75, 67, 0.8) !default;
 $colour-mensa-brown: #984B43 !default;  // Verpflegung
@@ -162,6 +163,9 @@ a {
     }
     .fa {
         color: $colour-text;
+        &.pull-right {
+            color: $colour-text-light;
+        }
     }
 
 }
@@ -831,7 +835,7 @@ body {
               background-color: $colour-ruddy-beige;
             }
             &.it {
-              background-color: $colour-ruddy-beige;
+              background-color: $colour-dark-grey;
             }
             &.personnel {
               background-color: $colour-dark-yellow;
@@ -840,7 +844,7 @@ body {
               background-color: $colour-orange-orange;
             }
             &.research {
-              background-color: $colour-dark-purle;
+              background-color: $colour-dark-purple;
             }
             &.military {
               background-color: $colour-olive-green;
@@ -898,7 +902,7 @@ body {
       padding-left: 8px;
     }
     &.it {
-      background-color: $colour-ruddy-beige;
+      background-color: $colour-dark-grey;
     }
     &.personnel {
       background-color: $colour-dark-yellow;
@@ -907,7 +911,7 @@ body {
       background-color: $colour-orange-orange;
     }
     &.research {
-      background-color: $colour-dark-purle;
+      background-color: $colour-dark-purple;
       padding-left: 8px;
     }
     &.military {
