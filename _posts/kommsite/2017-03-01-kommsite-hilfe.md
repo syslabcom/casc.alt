@@ -13,12 +13,41 @@ color_scheme: dark-gray
 breadcrumbs:
 - title: Home
   url: kommsite.html
+howtos:
+- name: kommsite-howto-1
+  icon: plug
+- name: kommsite-howto-3
+  icon: search
+- name: kommsite-howto-2
+  icon: puzzle-piece
+- name: kommsite-howto-9
+  icon: puzzle-piece
+- name: kommsite-howto-6
+  icon: puzzle-piece
+- name: kommsite-howto-5
+  icon: puzzle-piece
+- name: kommsite-howto-8
+  icon: sitemap
+- name: kommsite-howto-7
+  icon: picture-o
 ---
 
 
+{% include howtos.html
+    title="Tipps & Tricks"
+    description='In den folgenden "How-Tos" finden Sie reichhaltige und praxisnahe Beschreibungen zu vielen Themen rund um die neue Website. Im Lauf des Projektes wird diese Liste ständig erweitert und ergänzt.'
+    color_scheme="light-gray" %}
+
+<div class="section-title">
+  <div class="row">
+    <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">Weitere Angebote</h2>
+
+  </div>
+</div>
+
 ### Kleingruppen-Beratungen
 
-Seit Mai werden Kleingruppen-Beratungen (6-10 Teilnehmer) durchgeführt. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse homepage@unibw.de homepage@unibw.de an. 
+Seit Mai werden Kleingruppen-Beratungen (6-10 Teilnehmer) durchgeführt. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse homepage@unibw.de homepage@unibw.de an.
 
 <a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anmelden</a>
 
@@ -37,7 +66,7 @@ Unsere neuen Webseiten werden aus sog. Modulen zusammengesetzt. Zur Vorbereitung
 
 ### Grafische Unterstützung
 
-Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bildern aufgebaut, auf die Sie zugreifen können. 
+Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bildern aufgebaut, auf die Sie zugreifen können.
 
 Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitte kontaktieren Sie uns unter homepage@unibw.de.
 
@@ -47,7 +76,7 @@ Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitt
 
 ### Styleguide
 
-Es wird einen Styleguide geben, in dem beschrieben ist, was eine Website der Universität ausmacht und wie Sie diese am besten gestalten. 
+Es wird einen Styleguide geben, in dem beschrieben ist, was eine Website der Universität ausmacht und wie Sie diese am besten gestalten.
 
 
 ### Dokumentation
@@ -69,5 +98,5 @@ Es ist geplant, rechtzeitig über die Uni Weiterbildungsstelle Trainings zum neu
 
 
 
- 
+
 
