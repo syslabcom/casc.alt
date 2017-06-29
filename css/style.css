@@ -734,6 +734,11 @@ body.category-antrag .main-content #overview {
   width: 108px;
 }
 
+.owl-hide-nav .owl-nav,
+.owl-hide-nav .owl-dots {
+  display: none;
+}
+
 .quicklinks-wrapper > .row {
   margin-bottom: 20px;
 }
