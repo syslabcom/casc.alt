@@ -135,6 +135,7 @@ $( document ).ready(function() {
           {% include footer-kommsite.html %}
         {% elsif page.department == 'UniBwM' %}
          <!-- no footer -->
+        {% elsif page.department == 'home' %}
         {% else %}
           {% include footer.html %}
         {% endif %}
