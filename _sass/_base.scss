@@ -114,6 +114,12 @@ a.tilelink {
                     margin-left: 0;
                 }
             }
+            &.angle-double-right {
+                list-style-type: none;
+                > li {
+                    margin-left: 0;
+                }
+            }
         }
         ol {
             list-style-type: decimal;
