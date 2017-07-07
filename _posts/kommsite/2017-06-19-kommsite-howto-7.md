@@ -23,3 +23,5 @@ Um Sie gerade in der Neugestaltungsphase mit Bildern zu unterstützen, hat ein F
 Eine erste kleine Auswahl an Fotos haben wir für Sie hier eingefügt - die Originale bitte über o.g. Kontaktadresse anfordern.
 
 <img src="media/kommsite/fototeaser.jpg">
+
+<img src="media/kommsite/fototeaser2.jpg">
