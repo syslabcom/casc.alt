@@ -784,6 +784,12 @@ body {
       text-align: center;
       width: 108px;
     }
+    &.owl-hide-nav {
+        .owl-nav,
+        .owl-dots {
+            display: none;
+        }
+    }
 }
 
 
