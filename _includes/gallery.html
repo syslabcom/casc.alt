@@ -4,29 +4,28 @@
       <div class="row">
         <div class="col-md-12">
           <h2 class="module-title line-bottom">{{ include.title }}</h2>
-          <p class="description">
-            {{ include.description }}
-          </p>
+          <p class="description">{{ include.description }}</p>
           </div>
       </div>
     </div>
-    <div class="row xequalize">
+    <div class="section-content">
+      <div class="row xequalize">
 
-    {% for item in page.gallery %}
-      <div class="col-sm-{{include.sm | default:'6' }} col-md-{{include.md | default:'4' }}">
-        <div class="box-item">
-          <div class="item-inner padding">
-            <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
-              <figure>
-                <img class="img-responsive" src="{{ item.img }}" alt="{{ item.title }}">
-                <figcaption class="ellipsis">{{ item.title }}</figcaption>
-              </figure>
-            </a>
+      {% for item in page.gallery %}
+        <div class="col-sm-{{include.sm | default:'6' }} col-md-{{include.md | default:'4' }}">
+          <div class="box-item">
+            <div class="item-inner padding">
+              <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
+                <figure>
+                  <img class="img-responsive" src="{{ item.img }}" alt="{{ item.title }}">
+                  <figcaption class="ellipsis">{{ item.title }}</figcaption>
+                </figure>
+              </a>
+            </div>
           </div>
         </div>
+        {% endfor %}
       </div>
-      {% endfor %}
-
     </div>
   </div>
 </section>

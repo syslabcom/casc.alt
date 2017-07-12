@@ -1,26 +1,25 @@
 <section class="news news-img-left scheme-{{include.color_scheme}}">
-
   <div class="container">
+    <div class="section-content">
+      <div class="row">
+      {% for item in site.posts %}
+        {% if item.name == include.pagename %}
+        <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
+          <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}">
 
-    <div class="row">
-    {% for item in site.posts %}
-      {% if item.name == include.pagename %}
-      <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
-        <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}">
+          <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5">
+              <h2 class="module-title line-bottom"> {{ item.title }} </h2>
+              <p class="description" >{{ item.description }}</p>
+              {% if include.showcontent %}
+                {{ item.content | markdownify }}
+              {% endif %}
 
-        <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5">
-            <h2 class="module-title line-bottom"> {{ item.title }} </h2>
-            <p class="description" >{{ item.description }}</p>
-            {% if include.showcontent %}
-              {{ item.content | markdownify }}
-            {% endif %}
-
-            <img class="img-responsive visible-xs" src="{{ item.img }}">
-        </div>
-      </a>
-      {% endif %}
-    {% endfor %}
+              <img class="img-responsive visible-xs" src="{{ item.img }}">
+          </div>
+        </a>
+        {% endif %}
+      {% endfor %}
+      </div>
     </div>
-
   </div>
 </section>

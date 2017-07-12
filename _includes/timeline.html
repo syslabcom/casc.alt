@@ -20,32 +20,35 @@
 
 <section>
   <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center ">
-        <div class="heading-line-bottom text-center mb-60">
-          <h2>{{ include.module_title }}</h2>
-        </div>
-        <p class="text-left">Das Webrelaunch Projekt wurde am 21.01.2016 vom Webteam unter Leitung des Vizepräsidenten für Forschung zusammen mit dem Rechenzentrum gestartet. <br>
-        Die Umsetzungsphase ist in Kürze abgeschlossen und wird in die Testphase übergehen. Die ersten Pilot-Portale sollen im Herbst umgesetzt sein.</p>
-      </div>
-    </div>
-    <div class="row mt-60 mb-60">
-      <ul class="working-process">
-        {% assign milestones = page.deadlines %}
-        {% for milestone in milestones %}
-        <li class="col-xs-12 col-sm-{{ milestone.width }}">
-          <a href="{{ milestone.link }}" class="{{ milestone.mode }}"><i class="fa {{ milestone.icon }}"></i></a>
-          <h5>{{ milestone.title }}</h5>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-right">
-        <div class="">
-          <p><a class="btn btn-gray btn-theme-colored btn-lg" href="kommsite-verlauf.html">Details zum Projektverlauf <i class="fa fa-arrow-circle-right"></i></a></p>
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="heading-line-bottom text-center mb-60">{{ include.module_title }}</h2>
+          <p class="text-left">Das Webrelaunch Projekt wurde am 21.01.2016 vom Webteam unter Leitung des Vizepräsidenten für Forschung zusammen mit dem Rechenzentrum gestartet. <br>
+          Die Umsetzungsphase ist in Kürze abgeschlossen und wird in die Testphase übergehen. Die ersten Pilot-Portale sollen im Herbst umgesetzt sein.</p>
         </div>
       </div>
     </div>
+    <div class="section-content">
+      <div class="row mt-60 mb-60">
+        <div class="col-md-12">
+          <ul class="working-process">
+            {% assign milestones = page.deadlines %}
+            {% for milestone in milestones %}
+            <li class="col-xs-12 col-sm-{{ milestone.width }}">
+              <a href="{{ milestone.link }}" class="{{ milestone.mode }}"><i class="fa {{ milestone.icon }}"></i></a>
+              <h5>{{ milestone.title }}</h5>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 text-right">
+          <div class="">
+            <p><a class="btn btn-gray btn-theme-colored btn-lg" href="kommsite-verlauf.html">Details zum Projektverlauf <i class="fa fa-arrow-circle-right"></i></a></p>
+          </div>
+        </div>
+      </div>
   </div>
 </section>

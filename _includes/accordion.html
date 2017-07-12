@@ -3,31 +3,35 @@
     {% if page.accordion-title %}
     <div class="section-title">
       <div class="row">
-        <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{ page.accordion-title }}</h2>
-        <p class="description mt-20">
+        <div class="col-md-12">
+          <h2 class="module-title line-bottom">{{ page.accordion-title }}</h2>
+          <p class="description">
           {{ page.accordion-description }}
         </p>
+        </div>
       </div>
     </div>
     {% endif %}
-    <div class="row">
-      <div class="col-md-9">
-        <div class="single-service">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="single-service">
 
-          <div id="accordion1" class="panel-group accordion">
-            {% for item in page.accordion %}
-            {% assign elems = site.posts | where:"name",item.name %}
-            <div class="panel">
-              <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ elems[0].title }} </a> </div>
-              <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
-                <div class="panel-content">
-                  <p>{{ elems[0].content | markdownify }}</p>
+            <div id="accordion1" class="panel-group accordion">
+              {% for item in page.accordion %}
+              {% assign elems = site.posts | where:"name",item.name %}
+              <div class="panel">
+                <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ elems[0].title }} </a> </div>
+                <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+                  <div class="panel-content">
+                    <p>{{ elems[0].content | markdownify }}</p>
+                  </div>
                 </div>
               </div>
+              {% endfor %}
             </div>
-            {% endfor %}
           </div>
-        </div>
+         </div>
       </div>
     </div>
   </div>

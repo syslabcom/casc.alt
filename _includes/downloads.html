@@ -1,28 +1,38 @@
 <section class="tabbed-downloads">
   <div class="container">
-    <div class="row">
-      <div class="{% if include.fullsize == true %}col-md-12{% else %}col-md-offset-3 col-md-9{% endif %}">
-        <div class="single-service">
-          <h2 class="module-title line-bottom"> {{ include.title }} </h2>
-          {% if include.description %}<p class="description">{{ include.description }}</p>{%endif%}
-          {% assign tabs = page.downloads | group_by:"tab" %}
-          <ul id="myTab" class="nav nav-tabs boot-tabs">
-          	{% for tab in tabs %}
-          	<li{% if forloop.index == 1 %} class="active" {% endif %}><a href="#tab-{{ forloop.index }}" data-toggle="tab">{{ tab.name }}</a></li>
-          	{% endfor %}
-          </ul>
-		  <div id="myTabContent" class="tab-content">
-		  	{% for tab in tabs %}
-            <div class="tab-pane fade{% if forloop.index == 1 %} in active{% endif %}" id="tab-{{ forloop.index }}">
-              <ul class="list-icon">
-              {% for item in tab.items %}	
-                <li><i class="fa fa-download"></i> <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></li>
+  {% if include.title %}
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="module-title line-bottom">{{ include.title }}</h2>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+    
+    <div class="section-content">
+      <div class="row">
+        <div class="{% if include.fullsize == true %}col-md-12{% else %}col-md-offset-3 col-md-9{% endif %}">
+          <div class="single-service">
+            {% assign tabs = page.downloads | group_by:"tab" %}
+            <ul id="myTab" class="nav nav-tabs boot-tabs">
+            	{% for tab in tabs %}
+            	<li{% if forloop.index == 1 %} class="active" {% endif %}><a href="#tab-{{ forloop.index }}" data-toggle="tab">{{ tab.name }}</a></li>
+            	{% endfor %}
+            </ul>
+  		    <div id="myTabContent" class="tab-content">
+  		  	{% for tab in tabs %}
+              <div class="tab-pane fade{% if forloop.index == 1 %} in active{% endif %}" id="tab-{{ forloop.index }}">
+                <ul class="list-icon">
+                {% for item in tab.items %}	
+                  <li><i class="fa fa-download"></i> <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></li>
+                {% endfor %}
+                </ul>
+              </div>
               {% endfor %}
-              </ul>
             </div>
-            {% endfor %}
-          </div>
 
+          </div>
         </div>
       </div>
     </div>

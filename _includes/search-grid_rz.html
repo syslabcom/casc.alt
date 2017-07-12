@@ -1,592 +1,608 @@
 <section id="intranet-search">
   <div class="container">
-    <div class="row search-form">
-      <div class="section-title">
-        <div class="row">
-          <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">{{include.title}}</h2>
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="module-title line-bottom">{{include.title}}</h2>
         </div>
       </div>
-      <form>
-        <div class="form-group">
-          <label for="search-box"><h4><b>Suchbegriff</b></h4></label>
-          <input type="text" class="form-control" id="search-box" placeholder="z.B. Prüfungsamt">
-        </div>
-        <div class="col-md-9 col-sm-12">
-          <h4><b>Filter</b></h4>
-          <div class="col-sm-4">
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker services fa fa-cogs"></span>
-                <input type="checkbox" class="filter" id="z_speicher" value="Zentraler Speicher"> Zentraler Speicher
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker research fa fa-flask"></span>
-                <input type="checkbox" class="filter" id="email" value="E-Mail"> E-Mail
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker studies fa fa-graduation-cap"></span>
-                <input type="checkbox" class="filter" id="print" value="Drucken"> Drucken & Verarbeitung
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker military fa fa-cogs"></span>
-                <input type="checkbox" class="filter" id="netz" value="Netz"> Netz
-              </label>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker personnel fa fa-users"></span>
-                <input type="checkbox" class="filter" id="it_sicherheit" value="IT-Sicherheit"> IT-Sicherheit
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker it fa fa-laptop"></span>
-                <input type="checkbox" class="filter" id="it" value="IT-Dienste"> Server-Dienste
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker soul fa fa-balance-scale"></span>
-                <input type="checkbox" class="filter" id="learning" value="E-Learning"> E-Learning / E-Campus
-              </label>
-            </div>
-
-
-
-          </div>
-          <div class="col-sm-4">
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker people fa fa-user"></span>
-                <input type="checkbox" class="filter" id="nutzer" value="Nutzerkonto"> Nutzerkonto
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker lunch fa fa-user"></span>
-                <input type="checkbox" class="filter" id="cloud" value="Cloud"> Datenaustausch
-              </label>
-            </div>
-            <div class="form-group">
-              <label class="checkbox-inline">
-                <span class="color-marker learning fa fa-institution"></span>
-                <input type="checkbox" class="filter" id="software" value="Software"> Software
-              </label>
-            </div>
-              <label class="checkbox-inline">
-                <span class="color-marker learning fa fa-institution"></span>
-                <input type="checkbox" class="filter" id="hosting" value="Server-Hosting"> Server-Hosting
-              </label>
-            </div>
-
-
-
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-12">
-          <h4><b>Sortierung</b></h4>
-          <select id="sorting" class="form-control">
-            <option value="alphabetical">A - Z</option>
-            <option value="hits">Häufigkeit</option>
-          </select>
-        </div>
-      </form>
     </div>
-    <div class="row search-results">
-      <div class="grid">
-        <div class="grid-sizer"></div>
-        <a href="#">
-            <div class="grid-item" data-category="Zentraler Speicher" data-hits="23">
+    <div class="section-content">
+      <div class="row">
+        <form>
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="search-box"><h4><b>Suchbegriff</b></h4></label>
+              <input type="text" class="form-control" id="search-box" placeholder="z.B. Prüfungsamt">
+            </div>
+          </div>
+
+          <div class="col-md-12 col-sm-12">
+            <h4><b>Filter</b></h4>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker services fa fa-cogs"></span>
+                  <input type="checkbox" class="filter" id="z_speicher" value="Zentraler Speicher"> Zentraler Speicher
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker research fa fa-flask"></span>
+                  <input type="checkbox" class="filter" id="email" value="E-Mail"> E-Mail
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker studies fa fa-graduation-cap"></span>
+                  <input type="checkbox" class="filter" id="print" value="Drucken"> Drucken & Verarbeitung
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker military fa fa-cogs"></span>
+                  <input type="checkbox" class="filter" id="netz" value="Netz"> Netz
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker personnel fa fa-users"></span>
+                  <input type="checkbox" class="filter" id="it_sicherheit" value="IT-Sicherheit"> IT-Sicherheit
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker it fa fa-laptop"></span>
+                  <input type="checkbox" class="filter" id="it" value="IT-Dienste"> Server-Dienste
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker soul fa fa-balance-scale"></span>
+                  <input type="checkbox" class="filter" id="learning" value="E-Learning"> E-Learning / E-Campus
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker people fa fa-user"></span>
+                  <input type="checkbox" class="filter" id="nutzer" value="Nutzerkonto"> Nutzerkonto
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker lunch fa fa-user"></span>
+                  <input type="checkbox" class="filter" id="cloud" value="Cloud"> Datenaustausch
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker learning fa fa-institution"></span>
+                  <input type="checkbox" class="filter" id="software" value="Software"> Software
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker learning fa fa-institution"></span>
+                  <input type="checkbox" class="filter" id="hosting" value="Server-Hosting"> Server-Hosting
+                </label>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-sm-12">
+            <h4><b>Sortierung</b></h4>
+            <div class="col-sm-3">
+              <select id="sorting" class="form-control">
+                <option value="alphabetical">A - Z</option>
+                <option value="hits">Häufigkeit</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>    
+      <div class="row search-results">
+        <div class="col-md-12">
+          <div class="grid">
+            <div class="grid-sizer"></div>
+            <a href="#">
+              <div class="grid-item" data-category="Zentraler Speicher" data-hits="23">
                 <div class="item-header services">
                   <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
                 </div>
                 <span class="text">Datenablage</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Zentraler Speicher" data-hits="22">
+                <div class="item-header services">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Datenarchiv</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Zentraler Speicher" data-hits="14">
+                <div class="item-header services">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Datensicherung</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Zentraler Speicher" data-hits="15">
+                <div class="item-header services">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Dokumentenserver</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Zentraler Speicher" data-hits="16">
+                <div class="item-header services">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">leer</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="E-Mail" data-hits="29">
+                <div class="item-header research">
+                  <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                </div>
+                <span class="text">E-Mail Postfach</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="E-Mail" data-hits="21">
+                <div class="item-header research">
+                  <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                </div>
+                <span class="text">E-Mail Listen</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="E-Mail" data-hits="19">
+                <div class="item-header research">
+                  <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                </div>
+                <span class="text">Filter und Regeln</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="E-Mail" data-hits="13">
+                <div class="item-header research">
+                  <i class="pull-right fa fa-flask" aria-hidden="true"></i>
+                </div>
+                <span class="text">Funktionspostfach</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Drucken" data-hits="18">
+                <div class="item-header studies">
+                  <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <span class="text">Dezentrale Drucker MFP</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Drucken" data-hits="17">
+                <div class="item-header studies">
+                  <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <span class="text">Weiterverarbeitung</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Drucken" data-hits="11">
+                <div class="item-header studies">
+                  <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <span class="text">Lokale Drucker</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Drucken" data-hits="12">
+                <div class="item-header studies">
+                  <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <span class="text">Spezielle Drucke</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Drucken" data-hits="12">
+                <div class="item-header studies">
+                  <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <span class="text">Zentrale Drucker</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="Drucken" data-hits="25">
+                <div class="item-header studies">
+                  <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
+                </div>
+                <span class="text">Zentrale Plotter</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="IT-Sicherheit" data-hits="24">
+                <div class="item-header personnel">
+                  <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                </div>
+                <span class="text">PKI</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="IT-Sicherheit" data-hits="70">
+                <div class="item-header personnel">
+                  <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                </div>
+                <span class="text">WSUS</span>
+              </div>
+            </a>
+            <a href="#">
+              <div class="grid-item" data-category="IT-Sicherheit" data-hits="3">
+                <div class="item-header personnel">
+                  <i class="pull-right fa fa-users" aria-hidden="true"></i>
+                </div>
+                <span class="text">Virenschutz</span>
+              </div>
+            </a>
+            <a href="#">
+            <div class="grid-item" data-category="E-Learning" data-hits="8">
+                <div class="item-header soul">
+                  <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                </div>
+                <span class="text">ILIAS</span>
             </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Zentraler Speicher" data-hits="22">
-            <div class="item-header services">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+            </a>
+            <a href="#">
+            <div class="grid-item" data-category="E-Learning" data-hits="9">
+                <div class="item-header soul">
+                  <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                </div>
+                <span class="text">HISinOne</span>
             </div>
-            <span class="text">Datenarchiv</span>
+            </a>
+            <a href="#">
+            <div class="grid-item" data-category="E-Learning" data-hits="14">
+                <div class="item-header soul">
+                  <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
+                </div>
+                <span class="text">VHB</span>
+            </div>
+            </a>
+
+
+            <a href="#">
+            <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
+                <div class="item-header people">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">ILIAS</span>
+            </div>
+            </a>
+            <a href="#">
+            <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
+                <div class="item-header people">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">HISinOne</span>
+            </div>
+            </a>
+            <a href="#">
+            <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
+                <div class="item-header people">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Nutzermanagement</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
+                <div class="item-header people">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">ÜVAS</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
+                <div class="item-header people">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">ZPM</span>
+            </div>
+            </a>
+
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Dokumentenserver</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Videokonferenz</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">DFN Gigamove</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">DFN Terminplaner</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Webkonferenz</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">MathCal</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Sync&Share</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Teamdrive</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">ILIAS</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Kalender</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Cloud" data-hits="50">
+                <div class="item-header lunch">
+                  <i class="pull-right fa fa-user" aria-hidden="true"></i>
+                </div>
+                <span class="text">Funktionspostfach</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Netz" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">eduroam</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Netz" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">DHCP und DNS-IPAM</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Netz" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">NTP</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Netz" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Proxy</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Netz" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">VPN</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Netz" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">WLAN</span>
+            </div>
+            </a>
+
+
+            <a href="#">
+            <div class="grid-item" data-category="Netz" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">WWW / Internet</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Teamdrive</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">WSUS</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Virenschutz</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Plagiatprüfung</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Umfragen</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Versionsverwaltung</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Lizenzen</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Microsoft Imagine</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Software PC-Pools</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Software" data-hits="50">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Studisoft</span>
+            </div>
+            </a>
+
+            <a href="#">
+            <div class="grid-item" data-category="Server-Hosting" data-hits="20">
+                <div class="item-header military">
+                  <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
+                </div>
+                <span class="text">Interaktiver Webserver</span>
+            </div>
+            </a>
           </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Zentraler Speicher" data-hits="14">
-            <div class="item-header services">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Datensicherung</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Zentraler Speicher" data-hits="15">
-            <div class="item-header services">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Dokumentenserver</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Zentraler Speicher" data-hits="16">
-            <div class="item-header services">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">leer</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="E-Mail" data-hits="29">
-            <div class="item-header research">
-              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
-            </div>
-            <span class="text">E-Mail Postfach</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="E-Mail" data-hits="21">
-            <div class="item-header research">
-              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
-            </div>
-            <span class="text">E-Mail Listen</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="E-Mail" data-hits="19">
-            <div class="item-header research">
-              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
-            </div>
-            <span class="text">Filter und Regeln</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="E-Mail" data-hits="13">
-            <div class="item-header research">
-              <i class="pull-right fa fa-flask" aria-hidden="true"></i>
-            </div>
-            <span class="text">Funktionspostfach</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Drucken" data-hits="18">
-            <div class="item-header studies">
-              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
-            </div>
-            <span class="text">Dezentrale Drucker MFP</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Drucken" data-hits="17">
-            <div class="item-header studies">
-              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
-            </div>
-            <span class="text">Weiterverarbeitung</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Drucken" data-hits="11">
-            <div class="item-header studies">
-              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
-            </div>
-            <span class="text">Lokale Drucker</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Drucken" data-hits="12">
-            <div class="item-header studies">
-              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
-            </div>
-            <span class="text">Spezielle Drucke</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Drucken" data-hits="12">
-            <div class="item-header studies">
-              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
-            </div>
-            <span class="text">Zentrale Drucker</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="Drucken" data-hits="25">
-            <div class="item-header studies">
-              <i class="pull-right fa fa-graduation-cap" aria-hidden="true"></i>
-            </div>
-            <span class="text">Zentrale Plotter</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="IT-Sicherheit" data-hits="24">
-            <div class="item-header personnel">
-              <i class="pull-right fa fa-users" aria-hidden="true"></i>
-            </div>
-            <span class="text">PKI</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="IT-Sicherheit" data-hits="70">
-            <div class="item-header personnel">
-              <i class="pull-right fa fa-users" aria-hidden="true"></i>
-            </div>
-            <span class="text">WSUS</span>
-          </div>
-        </a>
-        <a href="#">
-          <div class="grid-item" data-category="IT-Sicherheit" data-hits="3">
-            <div class="item-header personnel">
-              <i class="pull-right fa fa-users" aria-hidden="true"></i>
-            </div>
-            <span class="text">Virenschutz</span>
-          </div>
-        </a>
-
-
-
-
-
-
-        <a href="#">
-        <div class="grid-item" data-category="E-Learning" data-hits="8">
-            <div class="item-header soul">
-              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
-            </div>
-            <span class="text">ILIAS</span>
         </div>
-        </a>
-        <a href="#">
-        <div class="grid-item" data-category="E-Learning" data-hits="9">
-            <div class="item-header soul">
-              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
-            </div>
-            <span class="text">HISinOne</span>
-        </div>
-        </a>
-        <a href="#">
-        <div class="grid-item" data-category="E-Learning" data-hits="14">
-            <div class="item-header soul">
-              <i class="pull-right fa fa-balance-scale" aria-hidden="true"></i>
-            </div>
-            <span class="text">VHB</span>
-        </div>
-        </a>
-
-
-        <a href="#">
-        <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
-            <div class="item-header people">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">ILIAS</span>
-        </div>
-        </a>
-        <a href="#">
-        <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
-            <div class="item-header people">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">HISinOne</span>
-        </div>
-        </a>
-        <a href="#">
-        <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
-            <div class="item-header people">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Nutzermanagement</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
-            <div class="item-header people">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">ÜVAS</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Nutzerkonto" data-hits="14">
-            <div class="item-header people">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">ZPM</span>
-        </div>
-        </a>
-
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Dokumentenserver</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Videokonferenz</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">DFN Gigamove</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">DFN Terminplaner</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Webkonferenz</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">MathCal</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Sync&Share</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Teamdrive</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">ILIAS</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Kalender</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Cloud" data-hits="50">
-            <div class="item-header lunch">
-              <i class="pull-right fa fa-user" aria-hidden="true"></i>
-            </div>
-            <span class="text">Funktionspostfach</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Netz" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">eduroam</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Netz" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">DHCP und DNS-IPAM</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Netz" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">NTP</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Netz" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Proxy</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Netz" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">VPN</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Netz" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">WLAN</span>
-        </div>
-        </a>
-
-
-        <a href="#">
-        <div class="grid-item" data-category="Netz" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">WWW / Internet</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Teamdrive</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">WSUS</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Virenschutz</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Plagiatprüfung</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Umfragen</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Versionsverwaltung</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Lizenzen</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Microsoft Imagine</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Software PC-Pools</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Software" data-hits="50">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Studisoft</span>
-        </div>
-        </a>
-
-        <a href="#">
-        <div class="grid-item" data-category="Server-Hosting" data-hits="20">
-            <div class="item-header military">
-              <i class="pull-right fa fa-cogs" aria-hidden="true"></i>
-            </div>
-            <span class="text">Interaktiver Webserver</span>
-        </div>
-        </a>
-
-
       </div>
     </div>
   </div>
 </section>
+

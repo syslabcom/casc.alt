@@ -1,16 +1,15 @@
 <section class="news scheme-{{include.color_scheme}}">
-
   <div class="container">
-
-    <div class="row">
-    {% for item in site.posts %}
-      {% if item.name == include.pagename %}
-      <div class="col-md-12 col-sm-12">
-           {{ item.content | markdownify  }} 
+    <div class="section-content">
+      <div class="row">
+      {% for item in site.posts %}
+        {% if item.name == include.pagename %}
+        <div class="col-sm-12">
+             {{ item.content | markdownify  }} 
+        </div>
+        {% endif %}
+      {% endfor %}
       </div>
-      {% endif %}
-    {% endfor %}
     </div>
-
   </div>
 </section>

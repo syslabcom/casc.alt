@@ -1,31 +1,34 @@
     <section id="quotes" class="divider" data-background-ratio="1" data-bg-img="">
-      <div class="container pb-50">
+      <div class="container">
         <div class="section-title">
           <div class="row">
-            <div class="col-md-6">
-              <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">Stimmen unserer <span class="text-theme-color-2 font-weight-400">Studenten</span></h2>
+            <div class="col-md-12">
+              <h2 class="module-title line-bottom">Stimmen unserer Studenten</h2>
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-12 mb-10">
-            <div class="owl-carousel-2col boxed" data-dots="true">
 
-              {% assign items = site.posts | where:"show","quotes" %}
-              {% for item in items %}
-              <div class="item"><a href="{{ item.url | replace_first: '/', '' }}">
-                <div class="testimonial pt-10">
-                  <div class="thumb pull-left mb-0 mr-0 pr-20">
-                    <img class="img-circle" alt="" src="{{ item.image }}">
-                  </div>
-                  <div class="ml-100 ">
-                    <h4 class="mt-0">{{ item.description }}</h4>
-                    <p class="author mt-20">- <span class="">{{ item.title }},</span> <small><em class="text-gray">{{ item.abschluss }}</em></small></p>
-                  </div>
-                </div></a>
-              </div>
-              {% endfor %}
-            </div> 
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12 mb-10">
+              <div class="owl-carousel-2col boxed" data-dots="true">
+
+                {% assign items = site.posts | where:"show","quotes" %}
+                {% for item in items %}
+                <div class="item"><a href="{{ item.url | replace_first: '/', '' }}">
+                  <div class="testimonial pt-10">
+                    <div class="thumb pull-left mb-0 mr-0 pr-20">
+                      <img class="img-circle" alt="" src="{{ item.image }}">
+                    </div>
+                    <div class="ml-100 ">
+                      <h4 class="mt-0">{{ item.description }}</h4>
+                      <p class="author mt-20">- <span class="">{{ item.title }},</span> <small><em class="text-gray">{{ item.abschluss }}</em></small></p>
+                    </div>
+                  </div></a>
+                </div>
+                {% endfor %}
+              </div> 
+            </div>
           </div>
         </div>
       </div>
