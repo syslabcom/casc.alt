@@ -40,8 +40,9 @@ howtos:
 
 <div class="section-title">
   <div class="row">
-    <h2 class="mt-0 mb-0 text-uppercase line-bottom font-28">Weitere Angebote</h2>
-
+      <div class="col-md-12">    
+        <h2 class="module-title line-bottom">Weitere Angebote</h2>
+      </div>
   </div>
 </div>
 

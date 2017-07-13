@@ -3,34 +3,34 @@
   <div class="container">
 
 {% endif %}
-    {% if include.title %}
-    <div class="section-title">
-      <div class="row">
-        <div class="col-md-12">    
-          <h2 class="module-title line-bottom">{{ include.title }}</h2>
-          <p class="description">
-            {{ include.description }}
-          </p>
-        </div>
+  {% if include.title %}
+  <div class="section-title">
+    <div class="row">
+      <div class="col-md-12">    
+        <h2 class="module-title line-bottom">{{ include.title }}</h2>
+        <p class="description">
+          {{ include.description }}
+        </p>
       </div>
     </div>
-    {% endif %}
-    <div class="section-content">
-      <div class="row text-center">
-         {% for item in page.howtos %}
-         {% assign elems = site.posts | where:"name",item.name %}
-         <div class="col-sm-6 col-md-4">
-           <div class="icon-box iconbox-bg p-30 mb-30 iconbox-theme-colored">
-             <a class="icon icon-gray icon-circled icon-border-effect effect-circled" href="{{ item.name }}">
-              <i class="fa fa-{{ item.icon }}"></i>
-             </a>
-             <h5 class="icon-box-title">{{ elems[0].title }}</h5>
-             <p class="text-gray"> {{ elems[0].description }}</p>
-          </div>
+  </div>
+  {% endif %}
+  <div class="section-content">
+    <div class="row text-center">
+       {% for item in page.howtos %}
+       {% assign elems = site.posts | where:"name",item.name %}
+       <div class="col-sm-6 col-md-4">
+         <div class="icon-box iconbox-bg p-30 mb-30 iconbox-theme-colored">
+           <a class="icon icon-gray icon-circled icon-border-effect effect-circled" href="{{ item.name }}">
+            <i class="fa fa-{{ item.icon }}"></i>
+           </a>
+           <h5 class="icon-box-title">{{ elems[0].title }}</h5>
+           <p class="text-gray"> {{ elems[0].description }}</p>
         </div>
-        {% endfor %}
       </div>
+      {% endfor %}
     </div>
+  </div>
 
     {% if include.generic %}
   </div>
