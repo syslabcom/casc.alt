@@ -13,20 +13,20 @@
           <div class="schedule-box maxwidth500 bg-light mb-30">
             <div class="thumb">
               <img class="img-fullwidth" alt="" src="{{ site.baseurl }}{{ item.img }}">
-              <div class="overlay">
+              <!--div class="overlay">
                 {% if item.details %}<a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}"><i class="fa fa-calendar mr-5"></i></a>{% endif %}
-              </div>
+              </div-->
             </div>
             <div class="schedule-details clearfix p-15 pt-10">
               <h5 class="title"><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">{{ item.title }}</a></h5>
               <ul class="list-inline mb-20">
-                <li><i class="fa fa-calendar mr-5"></i>{{ item.start }}</li>
-                <li><i class="fa fa-map-marker mr-5"></i> {{ item.location }}</li>
+                {% if item.start %}<li><i class="fa fa-calendar mr-5"></i>{{ item.start }}</li>{% endif %}
+                {% if item.location %}<li><i class="fa fa-map-marker mr-5"></i> {{ item.location }}</li>{% endif %}
               </ul>
               <p>{{ item.description }}</p>
               <div class="mt-10">
-                {% if item.anmelden %}<a class="btn btn-dark btn-theme-colored btn-sm mt-10" href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">Anmelden</a>{% endif %}
-                {% if item.details %}<a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}" class="btn btn-dark btn-sm mt-10">Details</a>{% endif %}
+                {% if item.anmelden %}<a class="btn btn-theme-colored btn-sm mt-10" href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">Anmelden</a>{% endif %}
+                {% if item.details %}<a class="btn btn-theme-colored btn-sm mt-10" href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">Details</a>{% endif %}
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-          <p class="text-right"><a href="{{ site.baseurl }}{{ include.morelink | default:'werkstoffe-termine.html'}} " class="btn btn-gray btn-lg">Alle Veranstaltungen anzeigen <i class="fa fa-arrow-circle-right"></i></a></p>
+          <p class="text-right"><a href="{{ site.baseurl }}{{ include.morelink | default:'werkstoffe-termine.html'}} " class="btn btn-theme-colored btn-lg">Alle Veranstaltungen anzeigen <i class="fa fa-arrow-circle-right"></i></a></p>
         </div>
       </div>
     </div>

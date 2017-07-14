@@ -17,7 +17,7 @@ Unsere neuen Webseiten "leben" von Bildern - Hero-Bilder im Seitenkopf, Bilder i
 
 Um Sie gerade in der Neugestaltungsphase mit Bildern zu unterstützen, hat ein Fotograf eine ganze Reihe von Fotos erstellt. Darüber hinaus können Sie für individuelle Foto-Motive zur Gestaltung Ihrer Webseiten eine uni-interne Fotografin über unsere Kontakt-Adresse anfordern.
 
-<a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
+<a class="btn btn-theme-colored btn-lg" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
 
 
 Eine erste kleine Auswahl an Fotos haben wir für Sie hier eingefügt - die Originale bitte über o.g. Kontaktadresse anfordern.

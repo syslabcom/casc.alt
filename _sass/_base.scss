@@ -168,7 +168,7 @@ a {
         color: $colour-link-focus;
     }
     .fa {
-        color: $colour-text;
+        
         &.pull-right {
             color: $colour-text-light;
         }
@@ -399,6 +399,12 @@ section {
     &#event-list {
         p {
             color: $colour-text-secondary;
+        }
+        ul {
+            margin-top: 10px;
+            li {
+                list-style-type: none;
+            }
         }
     }
     &#upcoming-events {

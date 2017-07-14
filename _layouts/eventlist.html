@@ -6,14 +6,22 @@ parent: Aktuelles
 <section id="event-list">
   <div class="container mt-30 mb-30 pt-30 pb-30">
 
-
+  <div class="section-title">
 
     <div class="row">
       <div class="col-md-12" >
-        <h2 class="line-bottom mt-0 mb-30">{{ page.hero_title }}</h2>
+        <h2 class="module-title line-bottom">{{ page.hero_title }}</h2>
+      </div>  
+    </div>
+  </div>
+  <div class="section-content">
+    <div class="row">
+      <div class="col-md-12">
+
+        {% assign events = site.posts | where:"layout", "event" | where:"category",page.show_category %}
+        {% for item in events %}
         <div class="upcoming-events bg-white-f3 mb-20">
-          {% assign events = site.posts | where:"layout", "event" | where:"category",page.show_category %}
-          {% for item in events %}
+        
           <div class="row">
             <div class="col-sm-4 pr-0 pr-sm-15">
               <div class="thumb p-15">
@@ -21,10 +29,10 @@ parent: Aktuelles
               </div>
             </div>
             <div class="col-sm-4 pl-0 pl-sm-15">
-              <div class="event-details pt-15">
+              <div class="event-details p-15 mt-15">
                 <h4 class="media-heading font-weight-500">{{ item.title }}</h4>
                 <p>{{ item.description }}</p>
-                {% if item.details %}<a href="{{ item.url | lreplace: '/', '' }}" class="btn btn-flat btn-dark btn-theme-colored btn-sm">Details <i class="fa fa-angle-double-right"></i></a>{% endif %}
+                {% if item.details %}<a href="{{ item.url | lreplace: '/', '' }}" class="btn btn-theme-colored btn-sm mt-10">Details</a>{% endif %}
               </div>
             </div>
             <div class="col-sm-4">
@@ -35,16 +43,18 @@ parent: Aktuelles
                   <li class="p-15 bg-lightest">{{item.year}}</li>
                 </ul>
                 <ul>
-                  <li class="mb-10 text-theme-colored"><i class="fa fa-clock-o mr-5"></i>  {{ item.start}} - {{item.end }}</li>
+                  <li class="text-theme-colored"><i class="fa fa-clock-o mr-5"></i>  {{ item.start}} - {{ item.end }}</li>
                   <li class="text-theme-colored"><i class="fa fa-map-marker mr-5"></i> {{ item.location }}</li>
                 </ul>
               </div>
             </div>
           </div>
-        {% endfor %}
         </div>
         
+        {% endfor %}
 
+      </div>
     </div>
+
   </div>
 </section>

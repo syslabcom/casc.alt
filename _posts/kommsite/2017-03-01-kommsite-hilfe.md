@@ -50,14 +50,14 @@ howtos:
 
 Seit Mai werden Kleingruppen-Beratungen (6-10 Teilnehmer) durchgeführt. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse homepage@unibw.de homepage@unibw.de an.
 
-<a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anmelden</a>
+<a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anmelden</a>
 
 
 ### Inhaltliche Unterstützung
 
 Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support wird ein neuer Web-Content-Editor des Präsidialbereichs leisten. Der Web-Content-Editor wird ab August über unsere Kontakt-Adresse homepage@unibw.de erreichbar sein.
 
-<a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
+<a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
 
 
 ### Modul-Baukasten
@@ -71,7 +71,7 @@ Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bild
 
 Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitte kontaktieren Sie uns unter homepage@unibw.de.
 
-<a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anfragen</a>
+<a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anfragen</a>
 
 
 
@@ -90,7 +90,7 @@ Genau wie in der bisherigen Site wird es einen eigenen Dokumentationsbereich fü
 Das RZ bietet Zugang zum Ticketsystem an. Wir freuen uns über jedes Ticket, das exakte Angaben zum Problem liefert.
 Wir bemühen uns nach Kräften, Ihnen weiter zu helfen. Bitte haben Sie Verständnis, wenn wir manchmal am Ende dieser Kräfte sind, wir werden uns trotzdem bemühen!
 
-<a class="btn btn-xl btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Mail an das Ticketsystem</a>
+<a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Mail an das Ticketsystem</a>
 
 
 ### Trainings
