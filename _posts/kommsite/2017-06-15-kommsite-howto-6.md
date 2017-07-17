@@ -1,7 +1,9 @@
 ---
 layout: page
 name: kommsite-howto-6
-title: Wie kommen die Inhalte in die Module?
+item_type: howto
+icon: puzzle-piece
+title: Wie kommen Inhalte in Module?
 category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch

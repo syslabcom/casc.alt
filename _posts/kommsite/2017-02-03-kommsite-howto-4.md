@@ -1,6 +1,7 @@
 ---
 layout: page
 name: kommsite-howto-4
+item_type: howto
 title: Icons
 category: kommsite-unterstuetzung
 department: kommsite

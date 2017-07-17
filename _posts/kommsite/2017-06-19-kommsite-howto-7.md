@@ -1,6 +1,8 @@
 ---
 layout: page
 name: kommsite-howto-7
+item_type: howto
+icon: picture-o
 title: Bilderdatenbank
 category: kommsite-unterstuetzung
 department: kommsite

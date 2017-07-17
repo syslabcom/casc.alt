@@ -1,6 +1,8 @@
 ---
 layout: page
 name: kommsite-howto-1
+item_type: howto
+icon: plug
 title: HisInOne
 category: kommsite-unterstuetzung
 department: kommsite

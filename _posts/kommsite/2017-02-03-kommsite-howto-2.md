@@ -1,6 +1,8 @@
 ---
 layout: page
 name: kommsite-howto-2
+item_type: howto
+icon: puzzle-piece
 title: Das Modulkonzept
 category: kommsite-unterstuetzung
 department: kommsite

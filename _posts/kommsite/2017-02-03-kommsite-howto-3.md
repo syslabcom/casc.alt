@@ -1,6 +1,8 @@
 ---
 layout: page
 name: kommsite-howto-3
+item_type: howto
+icon: search
 title: Die neue Suche
 category: kommsite-unterstuetzung
 department: kommsite

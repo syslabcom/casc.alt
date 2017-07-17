@@ -1,6 +1,8 @@
 ---
 layout: page
 name: kommsite-howto-9
+item_type: howto
+icon: puzzle-piece
 title: Welche Module es gibt
 category: kommsite-unterstuetzung
 department: kommsite
