@@ -3,7 +3,7 @@ layout: page
 name: kommsite-howto-2
 item_type: howto
 icon: puzzle-piece
-title: Das Modulkonzept
+title: Module als flexibles Gestaltungsinstrument
 category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
@@ -12,6 +12,8 @@ description: So funktionieren Module und Seiten
 breadcrumbs:
 - title: Home
   url: kommsite.html
+- title: Unterstützung
+  url: kommsite-hilfe.html
 
 ---
 

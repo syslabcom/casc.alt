@@ -3,19 +3,20 @@ layout: page
 name: kommsite-howto-7
 item_type: howto
 icon: picture-o
-title: Bilderdatenbank
+title: Bilder aus der Bilddatenbank
 category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description: Bilderdatenbank
+description: Unsere neuen Webseiten "leben" von Bildern - Hero-Bilder im Seitenkopf, Bilder in den Modulen, Bilder in den Inhaltsseiten.
 breadcrumbs:
 - title: Home
   url: kommsite.html
+- title: Unterstützung
+  url: kommsite-hilfe.html
 
 ---
 
-Unsere neuen Webseiten "leben" von Bildern - Hero-Bilder im Seitenkopf, Bilder in den Modulen, Bilder in den Inhaltsseiten...
 
 Um Sie gerade in der Neugestaltungsphase mit Bildern zu unterstützen, hat ein Fotograf eine ganze Reihe von Fotos erstellt. Darüber hinaus können Sie für individuelle Foto-Motive zur Gestaltung Ihrer Webseiten eine uni-interne Fotografin über unsere Kontakt-Adresse anfordern.
 

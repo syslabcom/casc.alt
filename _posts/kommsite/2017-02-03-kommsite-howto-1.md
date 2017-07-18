@@ -3,7 +3,7 @@ layout: page
 name: kommsite-howto-1
 item_type: howto
 icon: plug
-title: HisInOne
+title: "Schnittstellen: HisInOne"
 category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
@@ -12,6 +12,8 @@ description: Anbindung der Website an HisInOne
 breadcrumbs:
 - title: Home
   url: kommsite.html
+- title: Unterstützung
+  url: kommsite-hilfe.html
 
 ---
 HisInOne wird in die neue Website integriert

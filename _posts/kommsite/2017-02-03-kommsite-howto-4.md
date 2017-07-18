@@ -1,7 +1,7 @@
 ---
 layout: page
 name: kommsite-howto-4
-item_type: howto
+item_type: xhowto
 title: Icons
 category: kommsite-unterstuetzung
 department: kommsite
@@ -11,6 +11,8 @@ description: Übersicht über alle zu verwendenden Icons
 breadcrumbs:
 - title: Home
   url: kommsite.html
+- title: Unterstützung
+  url: kommsite-hilfe.html
 
 ---
 

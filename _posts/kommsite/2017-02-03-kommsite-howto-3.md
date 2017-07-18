@@ -3,15 +3,17 @@ layout: page
 name: kommsite-howto-3
 item_type: howto
 icon: search
-title: Die neue Suche
+title: Die neue Suchmaschine
 category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description: So funktioniert die neue Suche.
+description: So funktioniert die neue Suche, der Nachfolger der Google Search Appkliance.
 breadcrumbs:
 - title: Home
   url: kommsite.html
+- title: Unterstützung
+  url: kommsite-hilfe.html
 
 ---
 

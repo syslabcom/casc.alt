@@ -8,10 +8,12 @@ category: kommsite-unterstuetzung
 department: kommsite
 section: Web Relaunch
 img: "media/kommsite/plone.png"
-description:
+description: Module und Inhalte sind zwei wichtige Konzepte im neuen Webauftritt
 breadcrumbs:
 - title: Home
   url: kommsite.html
+- title: Unterstützung
+  url: kommsite-hilfe.html
 
 ---
 
