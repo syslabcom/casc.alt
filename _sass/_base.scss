@@ -1068,7 +1068,7 @@ body {
         font-size: 1.2em;
     }
     .url {
-        color: #97a4af;
+        color: #333;
     }
     .discreet {
         display: block;
@@ -1080,18 +1080,24 @@ body {
     .row {
         padding-bottom: 40px; 
         .url {
-            background-color: #ff6600;
+            background-color: #eee;
             display: inline-block;
             border-radius: 0.5em;
             padding: .1em .5em;
-            color: #FFFFFF;
             font-size: 90%;
+            i {
+                color: #ff6600;
+            }
         }
         &.bscw .url {
-            background-color: #40dd40;
+            i {
+                color: #40dd40;
+            }
         }
         &.plone4 .url {
-            background-color: #4477dd;
+            i {
+                color: #4477dd;
+            }
         }
     }
 }
