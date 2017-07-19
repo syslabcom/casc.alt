@@ -20,3 +20,7 @@ breadcrumbs:
 ---
 
 Vizepräsident C.Thienel die Kleingruppen-Beratung für die Fakultät BAU abgehalten. Dabei wurden die Teilnehmer über die neue Seitengestaltung allgemein informiert, sowie über die Umzugsplanung. Darüber hinaus wurden Tipps zur Herangehensweise an die Neugestaltung der Webseiten vermittelt.
+
+## Folien
+
+<a href="media/kommsite/vorbereitungen-fuer-den-neuen-webauftritt.pdf">Folien zur Präsentation downloaden</a>

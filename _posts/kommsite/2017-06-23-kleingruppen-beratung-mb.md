@@ -20,3 +20,8 @@ breadcrumbs:
 ---
 
 Am 04.07.2017 ist eine Kleingruppen-Beratung für die Fakultät MB geplant. 
+
+
+## Folien
+
+<a href="media/kommsite/vorbereitungen-fuer-den-neuen-webauftritt.pdf">Folien zur Präsentation downloaden</a>

@@ -20,3 +20,7 @@ breadcrumbs:
 ---
 
 Eine weitere Kleingruppen-Beratung für Fakultät HUM und EIT wurde am 07.06.2016 durch Vizepräsident C.Thienel durchgeführt.
+
+## Folien
+
+<a href="media/kommsite/vorbereitungen-fuer-den-neuen-webauftritt.pdf">Folien zur Präsentation downloaden</a>

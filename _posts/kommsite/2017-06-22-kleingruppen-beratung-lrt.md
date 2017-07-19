@@ -20,3 +20,8 @@ breadcrumbs:
 ---
 
 Die näschste Kleingruppen-Beratung wird für die Fakultät LRT am 27.06.2016  durchgeführt.
+
+
+## Folien
+
+<a href="media/kommsite/vorbereitungen-fuer-den-neuen-webauftritt.pdf">Folien zur Präsentation downloaden</a>
