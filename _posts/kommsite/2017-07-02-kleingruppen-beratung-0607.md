@@ -1,7 +1,7 @@
 ---
 layout: event
 name: kleingruppen-beratung
-title: Kleingruppen-Beratung
+title: Kleingruppen-Beratung SOWI
 category: kommsite
 department: kommsite
 section: Web Relaunch
@@ -19,7 +19,7 @@ breadcrumbs:
 
 ---
 
-Am 06.07.2017 findet eine Kleingruppen-Beratung statt.
+Am 06.07.2017 findet eine Kleingruppen-Beratung für SOWI statt.
 
 ## Folien
 
