@@ -1062,3 +1062,39 @@ body {
     }
 }
 
+.searchResults {
+
+    .result-title {
+        font-size: 1.2em;
+    }
+    .url {
+        color: #97a4af;
+    }
+    .discreet {
+        display: block;
+        line-height: 1.25em;
+    }
+    .highlighting {
+        color: #777777;
+        line-height: 1em;
+        padding-top: 10px;
+    }
+    .row {
+        padding-bottom: 40px; 
+        .url {
+            background-color: #ff6600;
+            display: inline-block;
+            border-radius: 0.5em;
+            padding: .1em .5em;
+            color: #FFFFFF;
+            font-size: 90%;
+        }
+        &.bscw .url {
+            background-color: #40dd40;
+        }
+        &.plone4 .url {
+            background-color: #4477dd;
+        }
+    }
+}
+
