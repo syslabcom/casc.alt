@@ -1183,3 +1183,15 @@ body {
     }
 
 }
+
+
+/* Hide the clear button on that page */
+.site-zki-herbsttagung {
+    &.section-anmeldung {
+        &.subsection-datenspeicher  {
+            #clearSavedFormInput {
+                display: none;
+            }
+        }
+    }
+}
