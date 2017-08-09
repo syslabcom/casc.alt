@@ -1,5 +1,15 @@
 <section id="upcoming-events" class="divider parallax layer-overlay overlay-white-8" data-bg-img="{{ include.bg-image }}" style="background-image: url(&quot;{{ include.bg-image }}&quot;); background-position: {{ include.bg-position }};">
   <div class="container">
+    {% if include.module_title %}
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="module-title line-bottom">{{ include.module_title }}</h2>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
     <div class="section-content">
       <div class="row">
     {% assign count = 1 %}
