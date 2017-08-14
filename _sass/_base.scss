@@ -1055,7 +1055,17 @@ body {
 }
 
 #intranet-search {
+    &.image-library {
+        .search-results {
+            .grid-item {
+                height:200px;
+                background-color: white;
+                .item-header {
 
+                }
+            }
+        }
+    }
     .form-group {
         .checkbox-inline {
             white-space: nowrap;
