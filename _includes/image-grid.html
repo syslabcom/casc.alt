@@ -1,0 +1,113 @@
+<section id="intranet-search" class="image-library">
+  <div class="container">
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="module-title line-bottom">{{include.title}}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="row">
+        <form>
+          <div class="col-md-12">
+            <div class="form-group">
+              <label for="search-box"><h4><b>Suchbegriff</b></h4></label>
+              <input type="text" class="form-control" id="search-box" placeholder="z.B. Prüfungsamt">
+            </div>
+          </div>
+          <div class="col-md-12 col-sm-12">
+            <h4><b>Filter</b></h4>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker studies fa fa-graduation-cap"></span>
+                  <input type="checkbox" class="filter" id="kommsite" value="kommsite"> Kommsite
+                </label>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+              <div class="form-group">
+                <label class="checkbox-inline">
+                  <span class="color-marker soul fa fa-balance-scale"></span>
+                  <input type="checkbox" class="filter" id="rechenzentrum" value="rechenzentrum"> Rechenzentrum
+                </label>
+              </div>
+            </div>
+            
+          </div>
+  <!--         <div class="col-md-3 col-sm-12">
+            <h4><b>Sortierung</b></h4>
+            <select id="sorting" class="form-control">
+              <option value="hits">Häufigkeit</option>
+              <option value="alphabetical">A - Z</option>
+            </select>
+          </div> -->
+        </form>
+      </div>    
+      <div class="row search-results">
+        <div class="col-md-12">
+          <div class="grid gallery-isotope">
+            <div class="grid-sizer"></div>
+
+              <div class="gallery-item grid-item"
+                   data-category="kommsite" data-hits="3"
+                   style="background-image: url('/media/hero/kommsite_1.png'); background-size: cover;">
+                <div class="item-header kommsite-1">
+                  <span class="ellipsis fa font-thesans">Kommsite 1</span>
+                </div>
+                <div class="overlay-shade"/>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="styled-icons icon-sm icon-gray icon-circled icon-theme-colored">
+                      <a data-lightbox="image" href="/media/hero/kommsite_1.png"><i class="fa fa-plus"></i></a>
+                      <a href="/media/hero/kommsite_1.png/download"><i class="fa fa-download"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <span class="text hidden">Kommsite 1</span>
+              </div>
+
+              <div class="gallery-item grid-item"
+                   data-category="kommsite" data-hits="3"
+                   style="background-image: url('/media/hero/kommsite_2.png'); background-size: cover;">
+                <div class="item-header kommsite-2">
+                  <span class="ellipsis fa font-thesans">Kommsite 2</span>
+                </div>
+                <div class="overlay-shade"/>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="styled-icons icon-sm icon-gray icon-circled icon-theme-colored">
+                      <a data-lightbox="image" href="/media/hero/kommsite_2.png"><i class="fa fa-plus"></i></a>
+                      <a href="/media/hero/kommsite_2.png"><i class="fa fa-download"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <span class="text hidden">Kommsite 2</span>
+              </div>
+
+              <div class="gallery-item grid-item"
+                   data-category="rechenzentrum" data-hits="3"
+                   style="background-image: url('/media/hero/rz.jpg'); background-size: cover;">
+                <div class="item-header Image-title">
+                  <span class="ellipsis fa font-thesans">RZ 1</span>
+                </div>
+                <div class="overlay-shade"/>
+                <div class="icons-holder">
+                  <div class="icons-holder-inner">
+                    <div class="styled-icons icon-sm icon-gray icon-circled icon-theme-colored">
+                      <a data-lightbox="image" href="/media/hero/rz.jpg"><i class="fa fa-plus"></i></a>
+                      <a href="/media/hero/rz.jpg"><i class="fa fa-download"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <span class="text hidden">RZ 1</span>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </div>    
+
+  </div>
+</section>
