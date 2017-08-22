@@ -506,6 +506,7 @@ section {
             }
         }
         &.no-hero {
+            background-color: #eee;
             height: 200px;
             .container {
                 height: 200px;
@@ -513,6 +514,14 @@ section {
                     position:absolute;
                     bottom:0;
                     margin-bottom: 40px;
+                    h1 {
+                        &.title {
+                            text-shadow: none !important; 
+                            color: #333 !important;
+                            background-color: transparent;
+                            font-weight: normal !important;
+                        }
+                    }
                 }
             }
         }
@@ -610,13 +619,6 @@ section.gradient:after,
     text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
 }
 #hero {
-    &.no-hero {
-        .title {
-            text-shadow: none;
-            color: $colour-text;
-            background-color: white;
-        }
-    }
     .marker {
         position: absolute;
         top: 0px;
