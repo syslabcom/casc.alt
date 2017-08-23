@@ -11,6 +11,13 @@
 }
 
 $colour-uni-orange: #ED6600 !default;
+
+// https://color.adobe.com/de/create/color-wheel/?base=2&rule=Analogous&selected=0&name=Mein%20Color-Thema&mode=rgb&rgbvalues=0.31246392692162916,0.9686274509803922,0.5733410531524858,0.8394117647058824,0.8128914386067215,0.2616615052447046,0.9294117647058824,0.4,0,0.8394117647058824,0.3571560841517555,0.7853092440107536,0.3859965181005549,0.5141390172153777,0.9686274509803922&swatchOrder=0,1,2,3,4
+$colour-uni-similar-1: #50F792 !default;  // green
+$colour-uni-similar-2: #D6CF43 !default;  // yellow
+$colour-uni-similar-3: #D65BC8 !default;  // pink
+$colour-uni-similar-4: #6283F7 !default;  // blue
+
 $colour-text: #282828 !default;
 $colour-text-secondary: #808080 !default;
 $colour-text-light: #ffffff !default;
