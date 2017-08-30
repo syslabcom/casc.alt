@@ -976,6 +976,36 @@ body {
     &.ci {
       background-color: $colour-creamy-red-wine-80;
     }
+    &.e-learning  {
+      background-color: $colour-rust-red;
+    }
+    &.drucken  {
+      background-color: $colour-dark-yellow;
+    }
+    &.sonstiges  {
+      background-color: $colour-olive-green;
+    }
+    &.netz  {
+      background-color: $colour-dark-purple;
+    }
+    &.datenaustausch  {
+      background-color: $colour-mediterran-azure;
+    }
+    &.it-sicherheit  {
+      background-color: $colour-dark-pink;
+    }
+    &.zentraler-speicher  {
+      background-color: $colour-mensa-brown;
+    }
+    &.nutzerkonto  {
+      background-color: $colour-ruddy-beige;
+    }
+    &.software  {
+      background-color: $colour-uni-orange;
+    }
+    &.email  {
+      background-color: $colour-middle-grey;
+    }
 }
 
 
