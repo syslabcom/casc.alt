@@ -1,0 +1,54 @@
+<section>
+  <div class="container">
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">    
+          <h2 class="module-title line-bottom">{{ include.title }}</h2>
+          <p class="description">
+            {{ include.description }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-content">
+      <div class="row">
+
+        <div class="col-md-12">
+              <div class="row">
+        
+          {% assign items = page.tutorials %}
+          {% for item in items %}
+              <a href="{{ item.url }}">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <article class="post clearfix mb-sm-30">
+                  <div class="entry-header">
+                    <div class="post-thumb thumb"> 
+                      <img src="{{ item.img }}" alt="" class="img-responsive img-fullwidth">
+                    </div>
+                  </div>
+                  <div class="entry-content p-20 pr-10">
+                    <div class="entry-meta media mt-0 no-bg no-border">
+                      <div class="media-body">
+                        <div class="event-content pull-left flip">
+                          <h3 class="entry-title">{{ item.title }}</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="description mt-10">{{ item.description }}</p>
+                  </div>
+                </article>
+
+                </div>
+
+                
+              </a>
+          {% endfor %}
+          </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+

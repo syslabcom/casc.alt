@@ -1,0 +1,33 @@
+<section id="services" class="bg-lighter">
+  <div class="container">
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">    
+          <h2 class="module-title line-bottom">{{ include.title }}</h2>
+          <p class="description">
+            {{ include.description }}
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row mtli-row-clearfix">
+      {% assign items = page.scats %}
+      {% for item in items %}
+      <div class="col-sm-6 col-md-6">
+                  
+        <div class="icon-box iconbox-theme-colored p-0 mb-20">
+      <a class="icon bg-theme-colored icon-circled icon-border-effect effect-circle icon-sm pull-left sm-pull-none flip" href="#">
+          <i class="fa fa-{{ item.icon }} text-white"></i>
+         </a>
+         <div class="ml-70 mb-30 ml-sm-0">
+          <h5 class="icon-box-title font-18 mb-5">{{ item.title }}</h5>
+          <p class="text-gray font-15 mb-0 mt-0">{{ item.description }}</p>
+         </div>
+        </div>
+      </div>
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+                <!-- bg-theme-colored icon-circled icon-border-effect effect-circle icon-sm pull-left sm-pull-none flip-->
