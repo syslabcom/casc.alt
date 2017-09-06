@@ -29,7 +29,10 @@ module.exports = function(grunt) {
       },
     },
     uglify: {
-      my_target: {
+      unibwjs: {
+        options: {
+          sourceMap: true,
+        },
         files: {
           'js/unibw.min.js': ['js/unibw.js']
         }
