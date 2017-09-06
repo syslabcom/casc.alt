@@ -5,7 +5,7 @@ var js_sources = [
           'js/jquery-plugin-collection.js',
           'js/revolution-slider/js/jquery.themepunch.tools.min.js',
           'js/revolution-slider/js/jquery.themepunch.revolution.min.js',
-          'js/tsvensen-equalize.js-87c2cf1/js/equalize.min.js',
+          'js/tsvensen-equalize.js-87c2cf1/js/equalize.js',
           // 'js/underscore-min.js',
           'js/revolution-slider/js/extensions/revolution.extension.actions.min.js',
           'js/revolution-slider/js/extensions/revolution.extension.carousel.min.js',

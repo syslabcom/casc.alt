@@ -16,9 +16,9 @@
             {% for item in site.posts %}
             {% if item.layout == 'news-item' and count < 4 and item.department == page.department %}
 
-            <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+            <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInLeft news-item" data-wow-duration="1s" data-wow-delay="0.3s">
               <a href="{{ item.url | replace_first: '/', '' }}">
-                <article class="post clearfix mb-sm-30">
+                <article class="post clearfix mb-sm-30 ">
                   <div class="entry-header">
                     <div class="post-thumb thumb"> 
                       <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
@@ -51,4 +51,7 @@
           </div>
         </div>
       </div>
+      <script>
+        $('.news-listing ').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
+      </script>
     </section>
