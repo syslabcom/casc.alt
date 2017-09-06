@@ -1,12 +1,4 @@
-module.exports = function(grunt) {
-
-  grunt.initConfig({
-    concat: {
-      options: {
-        separator: ';',
-      },
-      dist: {
-        src: [
+var js_sources = [
           'js/jquery-2.2.4.min.js',
           'js/jquery-ui.min.js',
           'js/bootstrap.min.js',
@@ -24,29 +16,8 @@ module.exports = function(grunt) {
           'js/revolution-slider/js/extensions/revolution.extension.parallax.min.js',
           'js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js',
           'js/revolution-slider/js/extensions/revolution.extension.video.min.js'
-        ],
-        dest: 'js/unibw.js',
-      },
-    },
-    uglify: {
-      unibwjs: {
-        options: {
-          sourceMap: true,
-        },
-        files: {
-          'js/unibw.min.js': ['js/unibw.js']
-        }
-      }
-    },
-    cssmin: {
-      options: {
-        mergeIntoShorthands: false,
-        roundingPrecision: -1,
-        sourceMap: true
-      },
-      target: {
-        files: {
-          'css/unibw.min.css': [
+        ];
+var css_sources = [
             'css/bootstrap.min.css', 
             'css/jquery-ui.min.css',
             'css/animate.css',
@@ -59,7 +30,39 @@ module.exports = function(grunt) {
             'js/revolution-slider/css/layers.css',
             'js/revolution-slider/css/navigation.css',
             'css/colors/theme-skin-color-set-casc.css'
-          ]
+          ];
+
+module.exports = function(grunt) {
+
+  grunt.initConfig({
+    concat: {
+      options: {
+        separator: ';',
+      },
+      dist: {
+        src: js_sources,
+        dest: 'js/unibw.js',
+      },
+    },
+    uglify: {
+      unibwjs: {
+        options: {
+          sourceMap: true,
+        },
+        files: {
+          'js/unibw.min.js': js_sources
+        }
+      }
+    },
+    cssmin: {
+      options: {
+        mergeIntoShorthands: false,
+        roundingPrecision: -1,
+        sourceMap: true
+      },
+      target: {
+        files: {
+          'css/unibw.min.css': css_sources
         }
       }
     },
