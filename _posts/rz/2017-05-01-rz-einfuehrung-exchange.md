@@ -7,7 +7,7 @@ category: rz
 hero_title: Einführung Exchange
 hero_image:  media/rz/exchange.jpg
 img: media/rz/exchange.jpg
-department: rz
+department: Rechenzentrum
 ---
 
 

@@ -3,4 +3,103 @@ layout: generic
 ---
 
 <section id="print-queue-upload">
+	<div class="container">
+	    
+	    <div class="row">
+			<div class="col-sm-3">
+			</div>
+			<div class="col-sm-9">
+				<p class="description">Hier können Sie uns Dokumente übermitteln, die durch das RZ gedruckt werden sollen. Das läuft folgendermaßen ab: </p>
+				<ol class="list">
+					<li>Füllen Sie das untenstehende Formular aus und wählen Sie ihre Druckdaten aus.</li>
+					<li>Diese werden dann verschlüsselt auf den Druckserver übertragen und ein Ticket wird erzeugt, um den Druckvorgang zu initiieren.</li>
+					<li>Sie erhalten dann automatisch eine Benachrichtigung aus dem Ticketsystem.</li>
+				</ol>
+				<div class="row mt-20">
+					<div class="col-sm-12">
+				      	<div class="panel panel-info">
+				      		<div class="panel-heading">Auftragsdaten</div>
+						    <div class="panel-body">
+								<form class="pat-inject" enctype="multipart/form-data" method="POST">
+
+									<div class="row">
+									    <div class="col-sm-12">
+											<p>Ihr Login: <strong>syslab</strong></p>
+											<p>Ihre E-mail: <strong>admin@syslab.com</strong></p>
+										</div>
+									</div>
+									<div class="row">
+									  <div class="col-sm-4">
+									    <div class="form-group">
+									      <label>Anzahl der Ausdrucke
+									      <input type="text" class="form-control" name="copies" required="" data-required-error="Füllen Sie dieses Feld aus." value="1">
+									      </label>
+									    </div>
+									  </div>
+									</div>
+									<div class="row">
+									    <div class="col-sm-8">
+										  	<div class="form-group">
+										    	<label for="inlineRadioDruck">Druck
+												    <div class="radio form-inline mt-0">
+									                    <label class="radio-inline">
+									                        <input type="radio" name="inlineRadioDruck" id="inlineRadioDruck-einseitig" value="einseitig" checked="checked">
+									                        Einseitig </label>
+									                    <label class="radio-inline">
+									                        <input type="radio" name="inlineRadioDruck" id="inlineRadioDruck-zweiseitig" value="doppelseitig">
+									                        Doppelseitig </label>
+									                </div>
+								                </label>
+								            </div>
+									    </div>
+									</div>
+									<div class="row">
+									    <div class="col-sm-8">
+										  	<div class="form-group">
+										    	<label for="inlineRadioDruck">Farbigkeit
+												    <div class="radio form-inline mt-0">
+									                    <label class="radio-inline">
+									                        <input type="radio" name="inlineRadioColor" id="inlineRadioColor-sw" value="sw" checked="checked">
+									                        schwarz/weiss </label>
+									                    <label class="radio-inline">
+									                        <input type="radio" name="inlineRadioColor" id="inlineRadioColor-color" value="farbig">
+									                        farbig </label>
+									                </div>
+								                </label>
+								            </div>
+									    </div>
+									</div>
+
+									<div class="row">
+									    <div class="col-sm-12">
+									    	<div class="form-group">
+									      		<label>Bemerkungen</label>
+									      			<textarea class="form-control" name="notes" rows="5"></textarea>
+									    	</div>
+									    </div>
+									</div>
+
+									<div class="row">
+									  <div class="col-sm-12">
+									    <div class="form-group">
+									      <label>Wählen Sie die hochzuladende Datei aus.</label>
+
+									      <input class="btn" type="file" name="files" multiple="multiple" required="required" data-required-error="Füllen Sie dieses Feld aus.">
+									      <p class="help-block"><em>Falls es sich um mehrere Dateien handelt, wählen Sie hier eine ZIP Datei mit allen Dateien aus.</em></p>
+									    </div>
+									  </div>
+									</div>
+
+									<button type="submit" class="btn btn-primary mt-30">Druck beauftragen</button>
+									<input name="_authenticator" type="hidden" value="922d79342fc744c1d1b0091059b391325bfece3a">
+								</form>
+
+							</div>	
+				      	</div>
+				     </div>
+				</div>
+			</div>
+		</div>
+
+	</div>
 </section>

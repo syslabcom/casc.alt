@@ -44,6 +44,9 @@
     - title: Drucken & Weiterverarbeitung
       id: drucken_plotten
       url: drucken_plotten.html
+    - title: Filer Upload
+      id: print-queue-upload
+      url: print-queue-upload.html
   - title: Hilfe & Support
     id: hilfesupport
     url: rz-help.html
