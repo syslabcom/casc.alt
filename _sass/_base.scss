@@ -1,13 +1,29 @@
 @charset "UTF-8";
 
 
-@font-face {
+/*@font-face {
     font-family: "thesans";
     src: url('../css/fonts/TheSaB4_.woff') format('woff');
 }
+*/
 @font-face {
+    font-family: "thesans";
+    src: url("../fonts/TheSans_B2/TheSans_B2_400_SemiLight/TheSans_B2_400_.eot");
+    src: url("../fonts/TheSans_B2/TheSans_B2_400_SemiLight/TheSans_B2_400_.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TheSans_B2/TheSans_B2_400_SemiLight/TheSans_B2_400_.woff") format("woff"),
+    url("../fonts/TheSans_B2/TheSans_B2_400_SemiLight/TheSans_B2_400_.svg#TheSans_B2_400_") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+/*@font-face {
     font-family: theserif;
-    src: url('../css/fonts/TheSerif_cls_3_.woff') format('woff');
+    src: url('../fonts/TheSerif_cls_3_.woff') format('woff');
+}*/
+@font-face {
+     font-family: "theserif";
+     src: url("../fonts/TheSerifOffice/TheSerifOfficeLF5/TheSerifOfficeLF5_.woff2") format("woff2");
+     font-weight: normal;
+     font-style: normal;
 }
 
 $colour-uni-orange: #ED6600 !default;

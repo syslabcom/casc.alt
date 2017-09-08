@@ -1,6 +1,16 @@
-@font-face {
+/*@font-face {
     font-family: thesans;
     src: url('fonts/TheSaB4_.woff') format('woff');
+}
+*/
+@font-face {
+    font-family: "thesans";
+    src: url("fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.eot");
+    src: url("fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.eot?#iefix") format("embedded-opentype"),
+    url("fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.woff") format("woff"),
+    url("fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.svg#TheSans_B2_500_") format("svg");
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
