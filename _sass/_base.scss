@@ -299,6 +299,21 @@ a {
                     padding: 4px 4px;
                     margin: 4px 12px 1px;
                 }
+                .dropdown {
+                    li {
+                        > a {
+                            border-bottom: none;
+                            padding: 3px 19px 3px 22px;
+                            margin: 0;
+                            font-size: 16px;
+                            font-family: thesans;
+                        }
+                        &:hover > a {
+                            background: transparent;
+                            padding-left: 22px;
+                        }
+                    }
+                }
             }
         }
     }
@@ -396,20 +411,25 @@ a {
         &:hover {
             color: $colour-dark-blue;
         }
-    }
-    ul {
-        &.dropdown {
-            top: 50px;
-            opacity: 0.95;
-            box-shadow: 1px 1px 1px #eeeeee;
-            li {
-                a {
-                    padding: 3px 19px 3px 22px;
-                    font-size: 16px;
-                    font-family: thesans;
-                }
-                &:hover > a {
-                    padding-left: 22px;
+    } 
+    li {
+        ul {
+            &.dropdown {
+                top: 50px;
+                opacity: 0.95;
+                box-shadow: 1px 1px 1px #eeeeee;
+                li {
+                    a {
+                        padding: 3px 19px 3px 22px;
+                        font-size: 16px;
+                        font-family: thesans;
+                    }
+                    &:hover > a {
+                        padding-left: 22px;
+                    }
+                    .indicator {
+                        top: 4px;
+                    }
                 }
             }
         }
