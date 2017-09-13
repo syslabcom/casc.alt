@@ -9,48 +9,27 @@ department: Rechenzentrum
 breadcrumbs:
 - title: Home
   url: rz.html
-gallery:
-- title: Studentenjahrgang 2017
-  img: media/rz/einschleusung_rz.JPG
-  url: /rz.html
-- title: Ihr Anliegen - unser Ticket - das ist ein sehr langer Titel, der abgeschnitten werden sollte.
-  img: media/rz/regelungen.JPG
-  url: /rz.html
-- title: Alle Jahre wieder...
-  img: media/rz/kalender.JPG
-  url: /rz.html
-downloads:
-- tab: Allgemein
-  title: Antrag
-  url: antrag
-- tab: Allgemein
-  title: Formular
-  url: formular
-- tab: Allgemein
-  title: Bedingungen
-  url: bedingungen
-- tab: Spezielles
-  title: Spezieller link 1
-  url: link1
-- tab: Spezielles
-  title: Spezieller link 2
-  url: link2
-- tab: Besonderes
-  title: Nix besonderes!
-  url: link1
+news:
+- title: Aktuelles
+  url: #
+  icon: lightbulb-o
+  description: Das Rechenzentrum hat eine neue Suchmaschine!
+- title: Störungen
+  url: #
+  icon: flash
+  description: Drucken ist derzeit nicht möglich - die Bude brennt!
+- title: Neue Öffnungszeiten
+  url: #
+  icon: clock-o
+  description: "07:30 - 17:30 Uhr   Mo - Do<br />
+07:30 - 15:30 Uhr   Freitag"
 ---
 
-{% include gallery.html title="Aktuelle Themen" description="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." color_scheme="light-grey" %}
+{% include static.html pagename="rz-missionstatement"%}
 
-{% include page-teaser-img-right.html pagename="rz_einfuehrung_exchange"  %}
-{% include page-teaser-img-left.html pagename="rz_einfuehrung_exchange"  %}
-{% include page-teaser-video-left.html pagename="rz_video"  %}
+{% include rz-news.html color_scheme="light-grey" %}
 
-{% include status-grid.html title="Bitte beachten" dataset="rz_notice" color_scheme="light-gray" %}
+{% include page-teaser-img-right.html pagename="rz_teaser_support" color_scheme="dark-blue" %}
+{% include page-teaser-img-left.html pagename="rz_teaser_dienste" color_scheme="light-grey" %}
 
-{% include downloads.html title="Fullsize downloads" description="Für den Einsatz auf Modulseiten" color_scheme="light-gray" fullsize=true %}
-
-{% include downloads.html title="Content page downloads" description="Für den Einsatz auf Inhaltsseiten" color_scheme="light-gray" fullsize=false %}
-
-{% include video.html video="https://en.syslab.com/download/RZ-Drone-Video.mp4" preview="media/video/rz.png" %}
-
+{% include contact-rz-details.html title="Öffnungszeiten und Kontakt" %}

@@ -1,0 +1,43 @@
+<section>
+  <div class="container">
+  {% if include.title %}
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">    
+          <h2 class="module-title line-bottom">{{ include.title }}</h2>
+          <p class="description">
+            {{ include.description }}
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="section-content">
+      <div class="row">
+
+        <div class="col-md-12">
+              <div class="row">
+        
+          {% assign items = page.news %}
+          {% for item in items %}
+              <a href="{{ item.url }}">
+                <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+                  <div class="icon-box iconbox-bg p-30 mb-30 iconbox-theme-colored">
+                    <span class="icon icon-gray icon-circled icon-border-effect effect-circled">
+                      <i class="fa fa-{{ item.icon }}"></i>
+                    </span>
+                    <h5 class="icon-box-title">{{ item.title }}</h5>
+                    <p class="text-gray">{{ item.description }}</p>
+                  </div>
+                </div>
+              </a>
+          {% endfor %}
+          </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
