@@ -1,43 +1,107 @@
-<section>
-  <div class="container">
-  {% if include.title %}
-    <div class="section-title">
-      <div class="row">
-        <div class="col-md-12">    
-          <h2 class="module-title line-bottom">{{ include.title }}</h2>
-          <p class="description">
-            {{ include.description }}
-          </p>
-        </div>
-      </div>
-    </div>
-    {% endif %}
-
-    <div class="section-content">
-      <div class="row">
-
-        <div class="col-md-12">
-              <div class="row">
-        
-          {% assign items = page.news %}
-          {% for item in items %}
-              <a href="{{ item.url }}">
-                <div class="col-xs-12 col-sm-4 col-md-4 text-center">
-                  <div class="icon-box iconbox-bg p-30 mb-30 iconbox-theme-colored">
-                    <span class="icon icon-gray icon-circled icon-border-effect effect-circled">
-                      <i class="fa fa-{{ item.icon }}"></i>
-                    </span>
-                    <h5 class="icon-box-title">{{ item.title }}</h5>
-                    <p class="text-gray">{{ item.description }}</p>
-                  </div>
-                </div>
-              </a>
-          {% endfor %}
+<section class="news-listing">
+        <div class="container">
+          <div class="section-title">
+            <div class="row">
+              <div class="col-md-8">
+                <h2 class="module-title line-bottom">Neues aus dem Rechenzentrum</h2>
+             </div>
+            </div>
           </div>
-      </div>
-    </div>
+          <div class="section-content">
+            <div class="row">
 
-  </div>
-</section>
+              
+                
+                  <div class="col-xs-12 col-sm-6 col-md-4 mb-30 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                    <a href="https://staging.rz.unibw-muenchen.de/rz/nachrichten/ihr-anliegen-unser-ticket-das-ist-ein-sehr-langer-titel-der-abgeschnitten-werden-sollte">
+                      <article class="post clearfix mb-sm-30">
+                        <div class="entry-header">
+                          <div class="post-thumb thumb">
+                            <img src="/media/rz/exchange_teaser.jpg" alt="" class="img-responsive img-fullwidth">
+                          </div>
+                        </div>
+                        <div class="entry-content p-20 pr-10">
+                          <div class="entry-meta media mt-0 no-bg no-border">
+                            <div class="media-body">
+                              <div class="event-content pull-left flip">
+                                <h3 class="entry-title">Einführung Exchange</h3>
+                                <p>Zum Endes des Jahres 2015 wurde Microsoft Exchange als neue Basis für Mail und Groupware von uns eingeführt...</p>
+                              </div>
+                            </div>
+                          </div>
+                          <p class="description mt-10"></p>
+                          <div href="https://staging.rz.unibw-muenchen.de/rz/nachrichten/ihr-anliegen-unser-ticket-das-ist-ein-sehr-langer-titel-der-abgeschnitten-werden-sollte" class="btn btn-theme-colored btn-md">Mehr</div>
+                          <div class="clearfix"></div>
+                        </div>
+                      </article>
+                    </a>
+                  </div>
+                
+              
 
+              
+                
+                  <div class="col-xs-12 col-sm-6 col-md-4 mb-30 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                    <a href="https://staging.rz.unibw-muenchen.de/rz/nachrichten/alle-jahre-wieder">
+                      <article class="post clearfix mb-sm-30">
+                        <div class="entry-header">
+                          <div class="post-thumb thumb">
+                            <img src="/media/rz/kalender_teaser.jpg" alt="" class="img-responsive img-fullwidth">
+                          </div>
+                        </div>
+                        <div class="entry-content p-20 pr-10">
+                          <div class="entry-meta media mt-0 no-bg no-border">
+                            <div class="media-body">
+                              <div class="event-content pull-left flip">
+                                <h3 class="entry-title">Alle Jahre wieder...</h3>
+                                <p>Zu Beginn des Semesters findet wie jedes Jahr unsere große Uni Party mit vielen Tollen Attraktionen statt...</p>
+                              </div>
+                            </div>
+                          </div>
+                          <p class="description mt-10"></p>
+                          <div href="https://staging.rz.unibw-muenchen.de/rz/nachrichten/alle-jahre-wieder" class="btn btn-theme-colored btn-md">Mehr</div>
+                          <div class="clearfix"></div>
+                        </div>
+                      </article>
+                    </a>
+                  </div>
+                
+              
 
+              
+                
+                  <div class="col-xs-12 col-sm-6 col-md-4 mb-30 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s;">
+                    <a href="https://staging.rz.unibw-muenchen.de/rz/nachrichten/studentenjahrgang-2017">
+                      <article class="post clearfix mb-sm-30">
+                        <div class="entry-header">
+                          <div class="post-thumb thumb">
+                            <img src="/media/rz/einschleusung_rz_teaser.jpg" alt="" class="img-responsive img-fullwidth">
+                          </div>
+                        </div>
+                        <div class="entry-content p-20 pr-10">
+                          <div class="entry-meta media mt-0 no-bg no-border">
+                            <div class="media-body">
+                              <div class="event-content pull-left flip">
+                                <h3 class="entry-title">Studentenjahrgang 2017</h3>
+                                <p>Auch in diesem Jahr haben sich wieder viele neue Studenten an der UniBW für ein Studium eingeschrieben...</p>
+                              </div>
+                            </div>
+                          </div>
+                          <p class="description mt-10"></p>
+                          <div href="https://staging.rz.unibw-muenchen.de/rz/nachrichten/studentenjahrgang-2017" class="btn btn-theme-colored btn-md">Mehr</div>
+                          <div class="clearfix"></div>
+                        </div>
+                      </article>
+                    </a>
+                  </div>
+                
+              
+
+            </div>
+
+            
+
+          </div>
+        </div>
+
+      </section>
