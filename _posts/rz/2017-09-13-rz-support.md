@@ -9,4 +9,4 @@ department: Rechenzentrum
 ---
 Egal womit Sie gerade kämpfen, wir helfen Ihnen!<br />
 Unser Support Bereich bietet Hilfe, Anleitungen, Tutorials und weitere Unterstützung zu allen technischen Fragen rund um den Campus.<br />
-<a href="rz-support.html" class="btn btn-theme-colored unibworange-background mt-20 btn-xl">Hilfe & Unterstützung</a>
+<a href="rz-support-v2.html" class="btn btn-theme-colored unibworange-background mt-20 btn-xl">Hilfe & Unterstützung</a>
