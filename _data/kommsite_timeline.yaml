@@ -224,3 +224,38 @@
   img: /js/vertical-timeline/img/cd-icon-location.svg
   img_class: cd-location
   url:  
+
+- date: 03.8.2017
+  title: "Editor - Backend"
+  description: "Ausarbeitung finaler Erweiterungen und Änderungen für Release 1."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:    
+
+- date: 16.8.2017
+  title: "Neue Suchmaschine"
+  description: "Inbetriebnahme der neuen Suchmaschine Solr - sowohl für den alten als auch für den neuen Webauftritt."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url:  
+
+- date: 31.8.2017
+  title: "Neue Server"
+  description: "Inbetriebnahme der neuen Server für den künfigten Webauftritt."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 12.9.2017
+  title: "Livegang erstes Portal"
+  description: "Die Universitätsbibliothek geht mit ihrem neuen Webportal www.unibw.de/ub im neuen System live."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
+
+- date: 20.9.2017
+  title: "Start Schulungen zur Seitenpflege"
+  description: "Die erste Schulung zur Seitenpflege im neuen System findet statt."
+  img: /js/vertical-timeline/img/cd-icon-location.svg
+  img_class: cd-location
+  url: 
