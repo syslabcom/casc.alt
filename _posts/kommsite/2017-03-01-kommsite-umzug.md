@@ -72,4 +72,4 @@ Der Livegang wird folgendermaßen ablaufen:
 
 
 
-Bitte wenden Sie sich bei Fragen und Anregungen jederzeit gerne an das Web Team unter <a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a>
+Bitte wenden Sie sich bei Fragen und Anregungen jederzeit gerne an das Web Team unter <a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> support@unibw.de</a>
