@@ -62,9 +62,9 @@ Um Sie bei der Neugestaltung Ihrer Webseiten zu unterstützen, bieten wir unters
 
 Der Livegang wird folgendermaßen ablaufen:
 
-* Zum Herbst wir der Umzugsplan für die UniBwM-Portale (ca. 200) bekanntgegeben. Wir werden dabei mit den Fakultätsseiten beginnen. Eine Übersicht finden Sie hier in Kürze.
+* Zum Herbst können Sie sich für ein neues Webportal anmelden. Wir nehmen Sie damit in die Planung für Beratung, Schulung und die Einrichtung eines neuen Webportals auf.
 
-* In Abstimmung mit Ihnen schalten wir Ihnen im neuen Webauftritt ein Entwicklungs-Portal frei, das Sie dann befüllen können.
+* In Abstimmung mit Ihnen schalten wir Ihnen im neuen Webauftritt ein Entwicklungs-Portal frei, das Sie dann befüllen können, und planen für Sie einen Schulungstermin ein.
 
 * Über unser Ticketsystem erhalten Sie technische (RZ) und redaktionelle (WebContentEditor) Unterstützung.
 
