@@ -148,6 +148,11 @@ a.tilelink {
                     margin-left: 0;
                 }
             }
+            &.list-group {
+                > li {
+                    margin-left: 0;
+                }
+            }
         }
         ol {
             list-style-type: decimal;
