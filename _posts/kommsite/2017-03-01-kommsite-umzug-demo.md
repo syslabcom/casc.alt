@@ -78,6 +78,6 @@ Bitte wenden Sie sich bei Fragen und Anregungen jederzeit gerne an das Web Team 
   <div class="widget dark">
     <h4 class="widget-title">Bleiben Sie aktuell!</h4>
     <p>Registrieren Sie sich hier und wir versorgen Sie mit kurzen und prägnanten Updates über die Fortschritte des Projekts.</p>
-    <iframe src="https://staging.rz.unibw-muenchen.de/migration-requests/portal-migration-request?ajax_load=1" height="200"></iframe>
+    <iframe src="https://staging.rz.unibw-muenchen.de/migration-requests/portal-migration-request?ajax_load=1" scrolling="no" height="300"></iframe>
   </div>
 </div>
