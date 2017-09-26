@@ -74,10 +74,8 @@ Der Livegang wird folgendermaßen ablaufen:
 
 Bitte wenden Sie sich bei Fragen und Anregungen jederzeit gerne an das Web Team unter <a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a>
 
-<div class="col-sm-12 col-md-12">
-  <div class="widget dark">
-    <h4 class="widget-title">Bleiben Sie aktuell!</h4>
-    <p>Registrieren Sie sich hier und wir versorgen Sie mit kurzen und prägnanten Updates über die Fortschritte des Projekts.</p>
-    <iframe src="https://staging.rz.unibw-muenchen.de/migration-requests/portal-migration-request?ajax_load=1" scrolling="no" height="300"></iframe>
-  </div>
-</div>
+## Bleiben Sie aktuell!
+
+Registrieren Sie sich hier und wir versorgen Sie mit kurzen und prägnanten Updates über die Fortschritte des Projekts.
+
+<iframe src="https://staging.rz.unibw-muenchen.de/migration-requests/portal-migration-request?ajax_load=1" scrolling="no" height="300"></iframe>
