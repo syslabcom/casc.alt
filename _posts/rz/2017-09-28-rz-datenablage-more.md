@@ -28,11 +28,11 @@ linked-pages:
 - title: Ratgeber Datenablage
   desc: Welche Datenablage ist für mich geeignet? 
   url: #
-  icon: question 
+  icon: question-circle 
 - title: FAQs
   desc: Weitere Fragen zum Thema Datenablage und Backup
   url: #
-  icon: question
+  icon: question-circle
 
 breadcrumbs:
 - title: Home

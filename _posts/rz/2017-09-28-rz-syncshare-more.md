@@ -43,7 +43,7 @@ linked-pages:
 - title: Weitere FAQs zu TeamDrive und Sync&Share
   desc: 
   url: #
-  icon: question
+  icon: question-circle
 
 breadcrumbs:
 - title: Home
