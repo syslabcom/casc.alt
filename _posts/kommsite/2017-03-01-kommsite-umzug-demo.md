@@ -73,13 +73,13 @@ Der Livegang wird folgendermaßen ablaufen:
 
 Bitte wenden Sie sich bei Fragen und Anregungen jederzeit gerne an das Web Team unter <a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> support@unibw.de</a>
 
-## Benötigen Sie Hilfe bei der Migration?
+## Antrag auf ein neues Webportal
 
-Falls Ihr Portal auch auf das neue CMS migriert werden soll, können Sie hier eine Anfrage auf Migration stellen.
+Sie können hier ein neues Webportal (inkl. Schulung zur Seitenpflege) beantragen.
 
-*Bitte loggen Sie sich - falls nicht schon geschehen - mit Ihrer RZ-Kennung ein.*
+*Bitte loggen Sie sich - falls nicht schon geschehen - mit Ihrer RZ-Kennung ein.<br />
+Danach werden Ihr Login, Ihre Emailadresse und das Antragsformular angezeigt.*
 
-Danach werden Ihr Login, Ihre Emailadresse und das Antragsformular angezeigt.
-Im Feld "Bemerkungen" nennen Sie uns bitte alle nötigen Informationen um welches Portal es sich handelt.
+Im Feld "Bemerkungen" nennen sie uns bitte den Portalnamen und den Bereich (z.B. Portal werkstoffe, Bereich BAU).
 
 <iframe src="https://staging.rz.unibw-muenchen.de/migration-requests/portal-migration-request?ajax_load=1" scrolling="no" height="300"></iframe>
