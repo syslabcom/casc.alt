@@ -62,20 +62,24 @@ Um Sie bei der Neugestaltung Ihrer Webseiten zu unterstützen, bieten wir unters
 
 Der Livegang wird folgendermaßen ablaufen:
 
-* Zum Herbst wir der Umzugsplan für die UniBwM-Portale (ca. 200) bekanntgegeben. Wir werden dabei mit den Fakultätsseiten beginnen. Eine Übersicht finden Sie hier in Kürze.
+* Zum Herbst können Sie sich für ein neues Webportal anmelden. Wir nehmen Sie damit in die Planung für Beratung, Schulung und die Einrichtung eines neuen Webportals auf.
 
-* In Abstimmung mit Ihnen schalten wir Ihnen im neuen Webauftritt ein Entwicklungs-Portal frei, das Sie dann befüllen können.
+* In Abstimmung mit Ihnen schalten wir Ihnen im neuen Webauftritt ein Entwicklungs-Portal frei, das Sie dann befüllen können, und planen für Sie einen Schulungstermin ein.
 
 * Über unser Ticketsystem erhalten Sie technische (RZ) und redaktionelle (WebContentEditor) Unterstützung.
 
 * Wenn Sie mit den Arbeiten in Ihrem neuen Portal fertig sind, verlinken wir es und schalten das alte Portal ab. Ihr neues Webportal ist online.
 
 
+Bitte wenden Sie sich bei Fragen und Anregungen jederzeit gerne an das Web Team unter <a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> support@unibw.de</a>
 
-Bitte wenden Sie sich bei Fragen und Anregungen jederzeit gerne an das Web Team unter <a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a>
+## Benötigen Sie Hilfe bei der Migration?
 
-## Bleiben Sie aktuell!
+Falls Ihr Portal auch auf das neue CMS migriert werden soll, können Sie hier eine Anfrage auf Migration stellen.
 
-Registrieren Sie sich hier und wir versorgen Sie mit kurzen und prägnanten Updates über die Fortschritte des Projekts.
+*Bitte loggen Sie sich - falls nicht schon geschehen - mit Ihrer RZ-Kennung ein.*
+
+Danach werden Ihr Login, Ihre Emailadresse und das Antragsformular angezeigt.
+Im Feld "Bemerkungen" nennen Sie uns bitte alle nötigen Informationen um welches Portal es sich handelt.
 
 <iframe src="https://staging.rz.unibw-muenchen.de/migration-requests/portal-migration-request?ajax_load=1" scrolling="no" height="300"></iframe>
