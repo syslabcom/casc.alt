@@ -1,10 +1,12 @@
+{% for item in site.posts %}
+{% if item.name == include.pagename %}
 <section class="news-listing">
   <div class="container">
     <div class="section-title">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="module-title line-bottom">Weitere Informationen</h2>
-          <p>Hier finden Sie weiterführende Informationen und technische Details zum Thema Versionsverwaltung.</p>
+          <h2 class="module-title line-bottom">{{ item.title }}</h2>
+          {{ item.content | markdownify  }} 
        </div>
       </div>
     </div>
@@ -12,48 +14,17 @@
       <div class="row">
         <div class="col-md-12">
         <ul class="list-group">
-          <li class="list-group-item">
-          <a href="#"><i class="fa fa-external-link"></i> Homepage des Subversion-Projekts (unter Apache)</a> - Beschreibung der Seite
+          {% for link in item.linked-pages %}
+            <li class="list-group-item">
+          <a href="{{ link.url }}">{% if link.icon %}<i class="fa fa-{{ link.icon }}"></i> {% endif %}{{ link.title }}</a>{% if link.desc %} - {{ link.desc }}{% endif %}
           </li>
-
-          <li class="list-group-item">
-          <a href="#">Tortoise  - ein komfortabler Subversion-Client (Windows)</a> - Beschreibung der Seite
-          </li>
-
-          <li class="list-group-item">
-          <a href="#"><i class="fa fa-book"></i> Das offizielle Buch zu Subversion</a> - Beschreibung der Seite
-          </li>
-
-          <li class="list-group-item">
-          <a href="#">Sicherheitshinweis für snv-Client unter Linux</a> - Beschreibung der Seite
-          </li>
-
-          <li class="list-group-item">
-          <a href="#"><i class="fa fa-external-link"></i> Subversion auf Wikipedia</a>
-          </li>
-
-          <li class="list-group-item">
-          <a href="#">2. Server verfügbar - Subversion mit 2. Server und redundanter Anbindung</a> - Beschreibung der Seite
-          </li>
-
-          <li class="list-group-item">
-          <a href="#">Alternative Dokumentenserver</a>  
-          </li>
-
-          <li class="list-group-item">
-          <a href="#">Alternativen  - "Welche Datenablage ist für mich geeignet?"</a>
-          </li>
-
-          <li class="list-group-item">
-          <a href="#">Übersichts­tabelle aller Möglichkeiten zur Datenablage (PDF)</a>
-          </li>
+          {% endfor %}
         </ul>
         </div>
       </div>
-
     </div>
   </div>
-
 </section>
-
+{% endif %}
+{% endfor %}
 

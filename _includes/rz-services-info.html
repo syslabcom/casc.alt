@@ -1,3 +1,5 @@
+{% for item in site.posts %}
+{% if item.name == include.pagename %}
 <section class="bg-theme-colored">
   <div class="container p-0">
 
@@ -11,13 +13,13 @@
                 <div class="icon-box left mb-0"> 
                   <span class="icon icon-gray icon-md icon-circled pull-left flip mr-20 mt-20 no-hover"><i class="fa fa-lightbulb-o"></i></span>
                   <div class="ml-60">
-                    <h3 class="media-heading heading text-white ml-60">Zugang zur Versionsverwaltung</h3>
-                    <p class="text-white ml-60">Hier erhalten Sie den Antrag für den Zugang zur Versionsverwaltung. Bitte füllen Sie das Formular aus und geben den ausgedruckten Antrag im ServiceDesk ab.</p>
+                    <h3 class="media-heading heading text-white ml-60">{{ item.title }}</h3>
+                    {{ item.content | markdownify  }}
                   </div>
                 </div>
               </div>
               <div class="col-sm-4 col-md-4 mt-40 text-center"> 
-                <a class="btn btn-theme-colored unibworange-background btn-xl" href="#">Zum Antrag</a> 
+                <a class="btn btn-theme-colored unibworange-background btn-xl" href="{{ item.button_url }} ">{{ item.button_title }} </a> 
               </div>
             </div>
           </div>
@@ -26,4 +28,6 @@
     </div>
   </div>
 </section>
+{% endif %}
+{% endfor %}
 
