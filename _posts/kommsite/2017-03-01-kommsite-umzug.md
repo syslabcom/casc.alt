@@ -82,4 +82,7 @@ Danach werden Ihr Login, Ihre Emailadresse und das Antragsformular angezeigt.*
 
 Im Feld "Bemerkungen" nennen sie uns bitte den Portalnamen und den Bereich (z.B. Portal werkstoffe, Bereich BAU).
 
+Falls mit Ihrem Browser hier keine Anmeldemaske erscheinen sollten, schicken Sie uns bitte eine Email <a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> support@unibw.de</a>
+
 <iframe src="https://staging.rz.unibw-muenchen.de/migration-requests/portal-migration-request?ajax_load=1" scrolling="no" height="300"></iframe>
+
