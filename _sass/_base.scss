@@ -486,6 +486,15 @@ section {
                 overflow:hidden;
             }
         }
+        .post {
+          .entry-title {
+              height: 1em;
+          }
+          .description {
+              height: 3.35em;
+              overflow:hidden;
+          }
+        }
     }
     &.news {
         a {
