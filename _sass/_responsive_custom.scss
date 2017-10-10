@@ -5,6 +5,7 @@
 	#hero h1.title { font-size: 38px; }
 	h1 {font-size: 2rem; }
 	.business-card h3 { font-size:1rem; }
+	#organisationskontakt .legend { left: 0; top: 0; }
 }
 
 /* Extra Small Devices, Phones */
@@ -24,6 +25,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	#organisationskontakt .legend { left: -170px; top: -150px; }
 } 
 
 /* Large Devices, Wide Screens */
