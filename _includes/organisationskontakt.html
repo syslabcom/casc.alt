@@ -10,12 +10,12 @@
       </div>
       <div class="section-content">
         <div class="row">
-          <div class="col-sm-12 col-lg-7">
+          <div class="col-sm-12 col-md-7">
           {% for person in page.orgkontakt %}
             {% include single_inline_person.html person=person.name role=person.role %}
           {% endfor %}
           </div>
-          <div class="col-sm-12 col-lg-5">
+          <div class="col-sm-12 col-md-5">
             <div id="floor_plan"
                 style="background-image:url('media/lageplan_neutral_low_480.jpg');width:480px;height:524px;background-repeat:no-repeat"
                 class="img-responsive img-fullwidth">
