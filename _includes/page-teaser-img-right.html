@@ -6,7 +6,7 @@
         {% if item.name == include.pagename %}
 
         <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
-          <div class="col-md-7  col-sm-5">
+          <div class="col-md-7 col-sm-5 teaser-container">
               <h2 class="module-title line-bottom"> {{ item.title }} </h2>
               <p class="description">{{ item.description }}</p>
               {% if include.showcontent %}

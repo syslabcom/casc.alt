@@ -7,7 +7,7 @@
         <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
           <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}">
 
-          <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5">
+          <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5 teaser-container">
               <h2 class="module-title line-bottom"> {{ item.title }} </h2>
               <p class="description" >{{ item.description }}</p>
               {% if include.showcontent %}
