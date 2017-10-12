@@ -5,6 +5,8 @@
 	#hero h1.title { font-size: 38px; }
 	h1 {font-size: 2rem; }
 	.business-card h3 { font-size:1rem; }
+
+	#organisationskontakt .contact-map-container { margin-bottom: 0; }
 	#organisationskontakt .legend { left: 0; top: 0; }
 }
 
@@ -25,6 +27,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	#organisationskontakt .contact-map-container { margin-bottom: -150px; }
 	#organisationskontakt .legend { left: -170px; top: -150px; }
 } 
 

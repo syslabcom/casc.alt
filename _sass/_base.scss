@@ -1144,6 +1144,9 @@ body {
 }
 
 #organisationskontakt {
+    .contact-map-container {
+        margin-bottom: -150px;
+    }
     .legend {
         position: relative;
         z-index: 10;
