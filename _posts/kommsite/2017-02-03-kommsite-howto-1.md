@@ -23,4 +23,4 @@ Im neuen Webauftritt muss niemand mehr Personendaten manuell einpflegen. Es gen�
 
 Damit gehört das Aktualisieren von Personen an mehreren Stellen entgültig der Vergangenheit an. Lediglich an einer Stelle müssen die Daten gepflegt werden - in HisInOne.
 
-Da dies aufgrund der Datenfülle vielleicht nicht immer ganz trivial ist, gibt es hier eine <a href="media/kommsite/anleitung-personenbearbeitung.pdf">Anleitung für die Personenbearbeitung in HisInOne</a>. 
+Da dies aufgrund der Datenfülle vielleicht nicht immer ganz trivial ist, gibt es hier eine <a href="https://wiki.unibw.de/display/HIS/Personenbearbeitung"> Anleitung für die Personenbearbeitung in HisInOne</a>. 
