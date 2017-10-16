@@ -18,13 +18,16 @@ breadcrumbs:
 ---
 
 
-Um Sie gerade in der Neugestaltungsphase mit Bildern zu unterstützen, hat ein Fotograf eine ganze Reihe von Fotos erstellt. Darüber hinaus können Sie für individuelle Foto-Motive zur Gestaltung Ihrer Webseiten eine uni-interne Fotografin über unsere Kontakt-Adresse anfordern.
-
-<a class="btn btn-theme-colored btn-lg" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
+Um Sie gerade in der Neugestaltungsphase mit Bildern zu unterstützen, hat ein Fotograf eine ganze Reihe von Fotos erstellt. 
 
 
-Eine erste kleine Auswahl an Fotos haben wir für Sie hier eingefügt - die Originale bitte über o.g. Kontaktadresse anfordern.
+Unsere aktuelle Bilderdatenbank können Sie über diese Adresse erreichen:
 
-<img src="media/kommsite/fototeaser.jpg">
+<a class="btn btn-theme-colored btn-lg" href="https://beta.rz.unibw-muenchen.de/bilderdatenbank"> zur Bilderdatenbank</a>
 
-<img src="media/kommsite/fototeaser2.jpg">
+
+
+Darüber hinaus können Sie für individuelle Foto-Motive zur Gestaltung Ihrer Webseiten eine uni-interne Fotografin über unsere Kontakt-Adresse anfordern.
+
+<a class="btn btn-theme-colored btn-lg" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
+
