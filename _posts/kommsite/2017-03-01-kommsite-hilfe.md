@@ -48,16 +48,16 @@ howtos:
 
 ### Kleingruppen-Beratungen
 
-Seit Mai werden Kleingruppen-Beratungen (6-10 Teilnehmer) durchgeführt. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse homepage@unibw.de homepage@unibw.de an.
+Seit Mai werden Kleingruppen-Beratungen (6-10 Teilnehmer) durchgeführt. Melden Sie sich bitte bei Bedarf über unsere Kontaktadresse support@unibw.de support@unibw.de an.
 
-<a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anmelden</a>
+<a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anmelden</a>
 
 
 ### Inhaltliche Unterstützung
 
-Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support wird ein neuer Web-Content-Editor des Präsidialbereichs leisten. Der Web-Content-Editor wird ab August über unsere Kontakt-Adresse homepage@unibw.de erreichbar sein.
+Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support wird ein neuer Web-Content-Editor des Präsidialbereichs leisten. Der Web-Content-Editor wird ab August über unsere Kontakt-Adresse support@unibw.de erreichbar sein.
 
-<a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
+<a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
 
 
 ### Modul-Baukasten
@@ -69,33 +69,35 @@ Unsere neuen Webseiten werden aus sog. Modulen zusammengesetzt. Zur Vorbereitung
 
 Für die Bebilderung der Inhalte wird eine Bibliothek an UniBW-spezifischen Bildern aufgebaut, auf die Sie zugreifen können.
 
-Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitte kontaktieren Sie uns unter homepage@unibw.de.
+Für die Erstellung spezieller Bilder steht ein Fotoservice zur Verfügung. Bitte kontaktieren Sie uns unter support@unibw.de.
 
-<a class="btn btn-lg btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anfragen</a>
+<a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Jetzt anfragen</a>
 
 
 
 ### Styleguide
 
-Es wird einen Styleguide geben, in dem beschrieben ist, was eine Website der Universität ausmacht und wie Sie diese am besten gestalten.
+Es wird einen Styleguide geben, in dem beschrieben ist, was Webseiten der Universität ausmachen und wie Sie diese am besten gestalten.
 
 
 ### Dokumentation
 
-Genau wie in der bisherigen Site wird es einen eigenen Dokumentationsbereich für die neue Website geben. Hier behandeln wir alle Uni-spezifischen Fragen und Kniffe. Dieser Bereich wird voraussichtlich im neuen Uni-Wiki liegen, das Mai/Juni eingeführt werden soll.
+Genau wie im bisherigen Webauftritt wird es einen eigenen Dokumentationsbereich für die neuen Webportale geben. Hier behandeln wir alle Uni-spezifischen Fragen und Kniffe. Dieser Bereich wird voraussichtlich im neuen Uni-Wiki liegen.
 
 
-### Helpdesk Tickets
+
+### Support-Tickets
 
 Das RZ bietet Zugang zum Ticketsystem an. Wir freuen uns über jedes Ticket, das exakte Angaben zum Problem liefert.
-Wir bemühen uns nach Kräften, Ihnen weiter zu helfen. Bitte haben Sie Verständnis, wenn wir manchmal am Ende dieser Kräfte sind, wir werden uns trotzdem bemühen!
+
 
 <a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Mail an das Ticketsystem</a>
 
 
-### Trainings
+### Schulung zur Seitenpflege
 
-Es ist geplant, rechtzeitig über die Uni Weiterbildungsstelle Trainings zum neuen Webauftritt anzubieten. Dazu wird voraussichtlich ein Web-Content-Editor am Präsidialbereich eingestellt. Details dazu finden Sie hier, wenn diese spruchreif werden.
+Sie können eine Schulung zur Seitenpflege in Anspruch nehmen, indem Sie sich einfach über unsere Kontakt-Adresse anmelden:
+<a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Anmeldung zur Schulung</a>
 
 
 
