@@ -23,7 +23,11 @@ Im Beitrag <a href="/kommsite-howto-2.html">Das Modulkonzept</a> haben wir erfah
 Hier erfolgt eine Liste aller aktuell verfügbaren Module.
 
 
-### Kontakt
+
+----------
+
+
+## Kontakt
 
 Dieses Modul zeigt drei Personenprofile und den Lageplan der Bundeswehr Universität an.
 
@@ -33,13 +37,19 @@ Sie können drei beliebige Personen auswählen, die in der linken Spalte des Mod
 <img src="media/konzepte/module/modul_orgakontakt.png">
 
 
-### Link Filter
+----------
+
+
+## Link Filter
 
 Dieses Modul zeigt eine Anzahl von Links an und erlaubt das Filtern nach Kategorien.
 
 <img src="media/konzepte/module/modul_filter.png">
 
-### Text mit Bild oder Video
+----------
+
+
+## Text mit Bild oder Video
 
 Dieses Modul zeigt den Text und das Aufmacherbild oder -video eines Inhaltsobjektes nebeneinander an.
 
@@ -51,7 +61,10 @@ Sie können die Position des Bildes oder Videos (rechts oder links vom Text) sow
 
 <img src="media/konzepte/module/modul_page_teaser_img_right.png">
 
-### Linkboxen
+----------
+
+
+## Linkboxen
 
 Dieses Modul zeigt beliebige Links auf einzelne Seiten in Form von Boxen mit Icon, Titel und Beschreibungstext an
 
@@ -61,13 +74,19 @@ Zudem können Sie wählen, ob die Darstellung  zwei-, drei- oder vierspaltig sei
 <img src="media/konzepte/module/modul_linkboxes.png">
 
 
-### Aufmachertext
+----------
+
+
+## Aufmachertext
 
 Dieses Modul zeigt einen Textblock zentriert und in größerer Schrift als Aufmachertext oder Eyecatcher an.
 
 <img src="media/konzepte/module/modul_hero-text.png">
 
-### Personenkarussell
+----------
+
+
+## Personenkarussell
 
 Dieses Modul zeigt Kurzportraits von beliebigen gewählten Personen horizontal angeordnet.
 
@@ -79,13 +98,19 @@ Zudem können Sie wählen, ob die Darstellung der Portraits zwei-, drei- oder vi
 
 <img src="media/konzepte/module/modul_team_slider.png">
 
-### Nachrichtenüberblick
+----------
+
+
+## Nachrichtenüberblick
 
 Dieses Modul zeigt eine dreispaltige Übersicht über drei beliebige Nachrichtenquellen an. Sie können für jede Spalte eine Nachrichtenquelle (Kollektion) auswählen, deren Inhalte dann als Links in der jeweiligen Spalte des Moduls angezeigt werden.
 
 <img src="media/konzepte/module/modul_news_overview.png">
 
-### Text Breit
+----------
+
+
+## Text Breit
 
 Dieses Modul ist ein rein informativer Text, kein Inhaltsobjekt wird verlinkt.
 
@@ -96,7 +121,10 @@ Wenn Sie möchten, können Sie ein Hintergrundbild angeben, das vollflächig hin
 <img src="media/konzepte/module/modul_fulltext_with_bg.png">
 
 
-### Downloads
+----------
+
+
+## Downloads
 
 Dieses Modul stellt eine beliebige Anzahl von Dateien zum Download bereit.
 
@@ -106,7 +134,10 @@ Zudem können Sie eine Überschrift und einen Beschreibungstext für das Modul v
 
 <img src="media/konzepte/module/modul_downloads.png">
 
-### Nachrichten
+----------
+
+
+## Nachrichten
 
 Dieses Modul zeigt die drei aktuellsten Nachrichten des Portals in einer kompakten Version an.
 
@@ -115,7 +146,10 @@ Sie können den Titel und einen optionalen Beschreibungstext für das Modul ange
 
 <img src="media/konzepte/module/modul_news.png">
 
-### Galerie
+----------
+
+
+## Galerie
 
 Die Galerie ermöglicht es, eine Reihe von Inhaltsobjekten über Bild und Titel kompakt darzustellen und als Navigationselement zu benutzen.
 
@@ -126,7 +160,10 @@ Zudem können Sie die Überschrift, die Anzahl der Spalten - drei oder vier - so
 <img src="media/konzepte/module/modul_gallery.png">
 
 
-### Mitarbeiter
+----------
+
+
+## Mitarbeiter
 
 Dieses Modul zeigt die ausgewählten Personenseiten in Form von Visitenkarten in einem dreispaltigen Raster an.
 
@@ -136,7 +173,10 @@ Zudem können Sie eine Überschrift sowie einen Beschreibungstext vergeben.
 
 <img src="media/konzepte/module/modul_business-cards.png">
 
-### Textblock, 2-spaltig
+----------
+
+
+## Textblock, 2-spaltig
 
 Dieses Modul zeigt zwei Spalten mit jeweils einem Textblock an.
 
@@ -147,7 +187,10 @@ Falls Sie für die rechte Spalte weder Text noch Überschrift eingeben, wird die
 
 <img src="media/konzepte/module/modul_text_2_cols.png">
 
-### Akkordeon
+----------
+
+
+## Akkordeon
 
 Dieses Modul zeigt beliebig viele Inhaltsseiten in Form eines Akkordeons zum Ein- und Ausklappen an.
 
@@ -157,8 +200,10 @@ Zudem können Sie eine Überschrift, einen Beschreibungstext und eine Unterüber
 
 <img src="media/konzepte/module/modul_accordion.png">
 
+----------
 
-### Bild
+
+## Bild
 
 Unter dem Titel sowie einem optionalen Beschreibungstext kann ein Bild ausgewählt werden. Dieses wird in voller Breite angezeigt.
 
@@ -166,8 +211,9 @@ Die Hintergrundfarbe des Moduls können Sie ebenfalls festlegen.
 
 <img src="media/konzepte/module/modul_image.png">
 
+----------
 
-### Zitate
+## Zitate
 
 Ein Modul, das Statements einzelner Personen anzeigt. Jedes Statement enthält ein verkleinertes Profilbild der Person, den Kommentar, den Namen sowie weitere Informationen zur Person. Werden mehr als zwei Statements angelegt, wird eine Batch-Navigation eingeblendet.
 
