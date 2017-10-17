@@ -1,0 +1,40 @@
+{% for item in site.posts %}
+{% if item.name == include.pagename %}
+<section>
+  <div class="container">
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-8">
+          <h2 class="module-title line-bottom">{{ item.title }}</h2>
+       </div>
+      </div>
+    </div>
+
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12">
+        
+        {% for link in item.linked-pages %}
+        <a href="{{ link.url }}">
+          <div class="col-sm-6 col-md-4">
+            <div class="icon-box icon-left pt-0 pl-0 pb-30 pr-30 iconbox-theme-colored">
+              <span class="icon icon-gray icon-circled icon-border-effect effect-circled icon-sm pull-left flip mr-10">
+                <i class="fa fa-{{ link.icon }}"></i>
+              </span>
+              <h5 class="icon-box-title pl-60">{{ link.title }}</h5>
+              <p class="text-gray">{{ link.desc }}</p>
+            </div>
+          </div>
+        </a>
+        {% endfor %}
+            
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+        
+{% endif %}
+{% endfor %}

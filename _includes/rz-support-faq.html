@@ -1,0 +1,37 @@
+{% for item in site.posts %}
+{% if item.name == include.pagename %}
+<section class="accordion">
+  <div class="container">
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="module-title line-bottom">{{ item.title }}</h2>
+          {{ item.content | markdownify  }} 
+       </div>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="single-service">
+
+            <div id="accordion1" class="panel-group accordion">
+              {% for faq in item.faq-pages %}
+              <div class="panel">
+                <div class="panel-title"> <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="true"> <span class="open-sub"></span> {{ faq.title }} </a> </div>
+                <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
+                  <div class="panel-content">
+                    <p>{{ faq.desc }}</p>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+
+{% endif %}
+{% endfor %}
+

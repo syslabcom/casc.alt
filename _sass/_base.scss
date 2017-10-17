@@ -262,6 +262,17 @@ a {
         color: white !important;
     }
 }
+.scheme-uni-orange {
+    background-color: $colour-uni-orange !important;
+    color: white !important;
+    h2,
+    h3,
+    h4,
+    a,
+    p {
+        color: white !important;
+    }
+}
 .scheme-middle-grey { background-color: $colour-middle-grey !important; color: $colour-text !important; }
 .scheme-light-grey { background-color: $colour-light-grey !important; color: $colour-text !important; }
 .scheme-dark-blue {
