@@ -33,8 +33,9 @@ Dieses Modul zeigt drei Personenprofile und den Lageplan der Bundeswehr Universi
 
 Sie können drei beliebige Personen auswählen, die in der linken Spalte des Moduls angezeigt werden. Auf dem Lageplan können Sie über Eingabe der Koordinaten bis zu drei Marker setzen und benennen.
 
-
+<blockquote>
 <img src="media/konzepte/module/modul_orgakontakt.png">
+</blockquote>
 
 
 ----------
@@ -44,7 +45,9 @@ Sie können drei beliebige Personen auswählen, die in der linken Spalte des Mod
 
 Dieses Modul zeigt eine Anzahl von Links an und erlaubt das Filtern nach Kategorien.
 
+<blockquote>
 <img src="media/konzepte/module/modul_filter.png">
+</blockquote>
 
 ----------
 
@@ -59,7 +62,9 @@ Titel und Text des gewählten Objektes werden dann neben dem Aufmacherbild (oder
 Sie können die Position des Bildes oder Videos (rechts oder links vom Text) sowie die Hintergrundfarbe des Moduls selbst festlegen.
 
 
+<blockquote>
 <img src="media/konzepte/module/modul_page_teaser_img_right.png">
+</blockquote>
 
 ----------
 
@@ -71,7 +76,9 @@ Dieses Modul zeigt beliebige Links auf einzelne Seiten in Form von Boxen mit Ico
 Sie können beliebig viele Einträge anlegen, für die Sie jeweils ein Icon auswählen sowie Titel,  Beschreibungstext und URL der verlinkten Seite angeben können.
 Zudem können Sie wählen, ob die Darstellung  zwei-, drei- oder vierspaltig sein soll. Überschrift und Beschreibungstext für das Modul können vergeben werden, sind aber beide optional.
 
+<blockquote>
 <img src="media/konzepte/module/modul_linkboxes.png">
+</blockquote>
 
 
 ----------
@@ -81,7 +88,9 @@ Zudem können Sie wählen, ob die Darstellung  zwei-, drei- oder vierspaltig sei
 
 Dieses Modul zeigt einen Textblock zentriert und in größerer Schrift als Aufmachertext oder Eyecatcher an.
 
+<blockquote>
 <img src="media/konzepte/module/modul_hero-text.png">
+</blockquote>
 
 ----------
 
@@ -96,7 +105,9 @@ Werden mehr Personen ausgewählt als auf einer Zeile Platz haben, wird eine Karu
 Zudem können Sie wählen, ob die Darstellung der Portraits zwei-, drei- oder vierspaltig sein soll. Die Überschrift, ein Beschreibungstext und die Hintergrundfarbe des Moduls können Sie ebenfalls selbst bestimmen.
 
 
+<blockquote>
 <img src="media/konzepte/module/modul_team_slider.png">
+</blockquote>
 
 ----------
 
@@ -105,7 +116,9 @@ Zudem können Sie wählen, ob die Darstellung der Portraits zwei-, drei- oder vi
 
 Dieses Modul zeigt eine dreispaltige Übersicht über drei beliebige Nachrichtenquellen an. Sie können für jede Spalte eine Nachrichtenquelle (Kollektion) auswählen, deren Inhalte dann als Links in der jeweiligen Spalte des Moduls angezeigt werden.
 
+<blockquote>
 <img src="media/konzepte/module/modul_news_overview.png">
+</blockquote>
 
 ----------
 
@@ -118,7 +131,9 @@ Daher können Sie alle angezeigten Elemente wie Titel, Beschreibungstext und Tex
 
 Wenn Sie möchten, können Sie ein Hintergrundbild angeben, das vollflächig hinter dem Text angezeigt wird. Wird kein Bild angegeben, wird die gewählte Hintergrundfarbe verwendet.
 
+<blockquote>
 <img src="media/konzepte/module/modul_fulltext_with_bg.png">
+</blockquote>
 
 
 ----------
@@ -132,7 +147,9 @@ Sie können bis zu drei Bereiche anlegen, die jeweils über einen Reiter und ein
 
 Zudem können Sie eine Überschrift und einen Beschreibungstext für das Modul vergeben.
 
+<blockquote>
 <img src="media/konzepte/module/modul_downloads.png">
+</blockquote>
 
 ----------
 
@@ -144,7 +161,9 @@ Dieses Modul zeigt die drei aktuellsten Nachrichten des Portals in einer kompakt
 Sie können den Titel und einen optionalen Beschreibungstext für das Modul angeben. Darunter werden dann automatisch die drei neuesten Nachrichtenseiten durch deren Aufmacherbild, Titel und Beschreibungstext angezeigt und verlinkt.
 
 
+<blockquote>
 <img src="media/konzepte/module/modul_news.png">
+</blockquote>
 
 ----------
 
@@ -157,7 +176,9 @@ Sie können über einen Objektselektor beliebige Inhaltsobjekte vom Typ News, Bi
 
 Zudem können Sie die Überschrift, die Anzahl der Spalten - drei oder vier - sowie die Hintergrundfarbe der Galerie selbst festlegen.
 
+<blockquote>
 <img src="media/konzepte/module/modul_gallery.png">
+</blockquote>
 
 
 ----------
@@ -171,7 +192,9 @@ Im Modul können Sie eine beliebige Anzahl von Personenseiten auswählen. Von de
 
 Zudem können Sie eine Überschrift sowie einen Beschreibungstext vergeben.
 
+<blockquote>
 <img src="media/konzepte/module/modul_business-cards.png">
+</blockquote>
 
 ----------
 
@@ -185,7 +208,9 @@ Zudem können Sie über den Textspalten eine Überschrift und optional einen Bes
 
 Falls Sie für die rechte Spalte weder Text noch Überschrift eingeben, wird die linke Spalte über die ganze Modulbreite ausgedehnt angezeigt.
 
+<blockquote>
 <img src="media/konzepte/module/modul_text_2_cols.png">
+</blockquote>
 
 ----------
 
@@ -198,7 +223,9 @@ Die Titel der gewählten Seiten werden als einzelne Zeilen des Akkordeons angeze
 
 Zudem können Sie eine Überschrift, einen Beschreibungstext und eine Unterüberschrift vergeben.
 
+<blockquote>
 <img src="media/konzepte/module/modul_accordion.png">
+</blockquote>
 
 ----------
 
@@ -209,7 +236,9 @@ Unter dem Titel sowie einem optionalen Beschreibungstext kann ein Bild ausgewäh
 
 Die Hintergrundfarbe des Moduls können Sie ebenfalls festlegen.
 
+<blockquote>
 <img src="media/konzepte/module/modul_image.png">
+</blockquote>
 
 ----------
 
@@ -219,4 +248,6 @@ Ein Modul, das Statements einzelner Personen anzeigt. Jedes Statement enthält e
 
 Zudem kann ein Titel für das Modul angegeben und die Hintergrundfarbe ausgewählt werden.
 
+<blockquote>
 <img src="media/konzepte/module/modul_testimonials.png">
+</blockquote>
