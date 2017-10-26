@@ -1,7 +1,7 @@
 ---
 layout: page
 name: tutorial-neues-portal
-title: Tutorial Neues Portal
+title: Tutorial Neues Portal - mit Video
 description: So füllen Sie ein neues Portal mit Inhalten
 category: kommsite-unterstuetzung
 icon: fort-awesome
@@ -14,6 +14,11 @@ breadcrumbs:
   url: kommsite.html
 - title: Unterstützung
 ---
+
+<div class="fluid-video-wrapper">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FIBuOsgfkFs" frameborder="0" allowfullscreen></iframe>
+</div>
+<br />
 
 Hier lernen Sie, wie Sie in einem neu angelegten Portal erste Inhalte anlegen und auf einer Startseite präsentieren. 
 
