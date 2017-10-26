@@ -1,7 +1,7 @@
 ---
 layout: page
 name: tutorial-neues-portal
-title: Tutorial Neues Portal - mit Video
+title: Video-Tutorial Neues Portal
 description: So füllen Sie ein neues Portal mit Inhalten
 category: kommsite-unterstuetzung
 icon: fort-awesome
