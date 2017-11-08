@@ -254,9 +254,12 @@ a {
 .scheme-uni-grey {
     background-color: $colour-uni-grey !important;
     color: white !important;
+    h1,
     h2,
     h3,
     h4,
+    h5,
+    h6,
     a,
     p {
         color: white !important;
@@ -265,9 +268,12 @@ a {
 .scheme-uni-orange {
     background-color: $colour-uni-orange !important;
     color: white !important;
+    h1,
     h2,
     h3,
     h4,
+    h5,
+    h6,
     a,
     p {
         color: white !important;
@@ -278,12 +284,25 @@ a {
 .scheme-dark-blue {
     background-color: $colour-dark-blue !important;
     color: white !important;
+    h1,
     h2,
     h3,
     h4,
+    h5,
+    h6,
     a,
     p {
         color: white !important;
+    }
+    .btn-theme-colored {
+        background-color: $colour-uni-orange;
+        border-color: $colour-uni-orange;
+    }
+    .btn-theme-colored:hover,
+    .btn-theme-colored:active,
+    .btn-theme-colored:focus {
+        background-color: darken($colour-uni-orange, 10%);
+        border-color: darken($colour-uni-orange, 10%);
     }
 }
 .scheme-uni-similar-1 { background-color: $colour-uni-similar-1 !important; color: $colour-uni-similar-1-text !important; }
