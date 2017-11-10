@@ -24,7 +24,7 @@ Im Herbst wird auf das neue CMS umgestellt - ab diesem Zeitpunkt können Sie Ihr
 
 ## Was kommt auf Sie zu? Was können Sie jetzt schon tun? 
 
-Zu diesem Thema werden wir in regelmässigen Abständen Kleingruppen-Beratungen durchführen. Bei Bedarf melden Sie sich bitte über unsere Kontaktadresse <a href="mailto:homepage@unibw.de">homepage@unibw.de</a> bei uns an.
+Zu diesem Thema werden wir in regelmässigen Abständen Kleingruppen-Beratungen durchführen. Bei Bedarf melden Sie sich bitte über unsere Kontaktadresse <a href="mailto:support@unibw.de">support@unibw.de</a> bei uns an.
 
 Agenda:
 
@@ -43,4 +43,4 @@ Agenda:
 * Skizzieren: Was will ich übernehmen? Was will ich neu machen? (andere Struktur, andere Zielgruppe, intern/extern…)
 * Prototypen anschauen (Module, Seitentypen)
 * Erste Termine ab Ende Mai
-* Bei Interesse über <a href="mailto:homepage@unibw.de">homepage@unibw.de</a> anmelden
+* Bei Interesse über <a href="mailto:support@unibw.de">support@unibw.de</a> anmelden

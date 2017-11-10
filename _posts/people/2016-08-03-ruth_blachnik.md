@@ -8,7 +8,7 @@ parent: People
 category: akademische_leitung
 program: bauingenieurwesen_und_umweltwisschenschaften_ma
 typ: staff
-email: homepage@unibw.de
+email: support@unibw.de
 phone: 
 ---
 

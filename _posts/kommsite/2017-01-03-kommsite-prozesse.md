@@ -52,5 +52,4 @@ Mit diesem Ansatz können wir zwar auch nicht jeden glücklich machen und auch n
 </ul>
 
 Haben Sie Fragen, Anregungen oder Kritik zu diesen Punkten, dann freuen wir uns über eine Email an 
-<!--a class="btn btn-xl btn-theme-colored" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a-->
-<a class="btn btn-theme-colored btn-lg mt-10" href="mailto:homepage@unibw.de"><i class="fa fa-envelope-o"></i> homepage@unibw.de</a>
+<a class="btn btn-theme-colored btn-lg mt-10" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> support@unibw.de</a>

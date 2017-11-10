@@ -22,7 +22,7 @@ Im Herbst wird auf das neue CMS umgestellt - ab diesem Zeitpunkt können Sie Ihr
 
 Was kommt auf Sie zu? Was können Sie jetzt schon tun? 
 
-Zu diesem Thema werden wir in regelmässigen Abständen Kleingruppen-Beratungen durchführen. Bei Bedarf melden Sie sich bitte über unsere Kontaktadresse homepage@unibw.de bei uns an.
+Zu diesem Thema werden wir in regelmässigen Abständen Kleingruppen-Beratungen durchführen. Bei Bedarf melden Sie sich bitte über unsere Kontaktadresse <a href="mailto:support@unibw.de">support@unibw.de</a> bei uns an.
 
 Agenda:
 
@@ -43,5 +43,5 @@ Wie bereiten Sie sich auf die Beratung vor?
 
 Erste Termine finden ab Ende Mai statt, abhängig von der Anzahl der Anmeldungen
 
-Bei Interesse melden Sie sich bitte mit einer kurzen formlosen Email an homepage@unibw.de an.
+Bei Interesse melden Sie sich bitte mit einer kurzen formlosen Email an <a href="mailto:support@unibw.de">support@unibw.de</a> an.
 
