@@ -2,27 +2,50 @@
 layout: generic
 parent: Aktuelles
 ---
-
 <section id="event">
   <div class="container mt-30 mb-30 pt-30 pb-30">
     <div class="row">
       <div class="col-md-9">
         <div class="blog-posts single-post">
           <article class="post clearfix mb-0">
-            <!-- <div class="entry-header">
+            <div class="entry-header">
               <div class="post-thumb thumb"> <img src="{{ page.image }}" alt="" class="img-responsive img-fullwidth"> </div>
-            </div> -->
+            </div>
 
-            <h1>{{ page.title }}</h1>
-            <img src="{{ page.img }}" alt="{{ page.title }}" style="float:right; margin-left:1em; width:25%">  
-
-            <p class="mb-20">{{ page.start }} - {{ page.end }}<br>{{ page.location }}
-            <em>{{ page.description }}</em></p>
-
+            <h2 class="module-title line-bottom">{{ page.title }}</h2>
+            <div class="date-info">
+              <i class="fa fa-calendar mr-5"></i> {{ page.start |  date: '%d. %m. %Y' }} - {{ page.end |  date: '%d. %m. %Y' }} | <em class="time-info">{{ page.start-time }} - {{ page.end-time }}</em>
+            </div>
 
             {{ content }}
 
-
+            <div class="event-details">
+              <div class="row">
+                <div class="col-md-3 col-sm-12 detail-label">Veranstalter:</div>
+                <div class="col-md-8 col-sm-12">{{ page.veranstalter }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-sm-12 detail-label">Ausrichtung:</h5></div>
+                <div class="col-md-8 col-sm-12">{{ page.ausrichtung }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-sm-12 detail-label">Ort:</div>
+                <div class="col-md-8 col-sm-12">{{ page.location }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-sm-12 detail-label">Kosten:</div>
+                <div class="col-md-8 col-sm-12">{{ page.kosten }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-sm-12 detail-label">Termin übernehmen:</div>
+                <div class="col-md-8 col-sm-12">iCalendar</div>
+              </div>
+            </div>
+             <div class="row">
+                <div class="col-sm-12">
+                  <p><a href="werkstoffe-termine.html" class="btn btn-theme-colored btn-xl"><i class="fa fa-arrow-circle-left"></i> Zurück zur Übersicht</a></p>
+                </div>
+            </div>
           </article>
         </div>
       </div>
@@ -30,7 +53,7 @@ parent: Aktuelles
       <div class="col-md-3">
         <div class="sidebar sidebar-right mt-sm-30">
           <div class="widget">
-            <h5 class="widget-title line-bottom">Termine</h5>
+            <h5 class="widget-title line-bottom">Weitere Termine</h5>
             <div class="widget-image-carousel">
               {% assign posts = site.posts | where:"layout","event" %}
               {% assign items = posts | where:"category",page.category %}

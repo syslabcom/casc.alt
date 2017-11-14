@@ -3,58 +3,19 @@ layout: generic
 parent: Aktuelles
 ---
 
-<section id="event-list">
-  <div class="container mt-30 mb-30 pt-30 pb-30">
+<section>
+  <div class="container">
 
-  <div class="section-title">
+    <div class="section-title">
 
-    <div class="row">
-      <div class="col-md-12" >
-        <h2 class="module-title line-bottom">{{ page.hero_title }}</h2>
-      </div>  
-    </div>
-  </div>
-  <div class="section-content">
-    <div class="row">
-      <div class="col-md-12">
-
-        {% assign events = site.posts | where:"layout", "event" | where:"category",page.show_category %}
-        {% for item in events %}
-        <div class="upcoming-events bg-white-f3 mb-20">
-        
-          <div class="row">
-            <div class="col-sm-4 pr-0 pr-sm-15">
-              <div class="thumb p-15">
-                {% if item.img  %}<img class="img-fullwidth" src="{{ item.img }}" alt="Bild: {{item.title}}">{% endif %}
-              </div>
-            </div>
-            <div class="col-sm-4 pl-0 pl-sm-15">
-              <div class="event-details p-15 mt-15">
-                <h4 class="media-heading font-weight-500">{{ item.title }}</h4>
-                <p>{{ item.description }}</p>
-                {% if item.details %}<a href="{{ item.url | lreplace: '/', '' }}" class="btn btn-theme-colored btn-sm mt-10">Details</a>{% endif %}
-              </div>
-            </div>
-            <div class="col-sm-4">
-              <div class="event-count p-15 mt-15">
-                <ul class="event-date list-inline font-16 text-uppercase mt-10 mb-20">
-                  <li class="p-15 pl-20 pr-20 mr-5 bg-lightest"> {{item.day}}</li>
-                  <li class="p-15 mr-5 bg-lightest">{{item.month}}</li>
-                  <li class="p-15 bg-lightest">{{item.year}}</li>
-                </ul>
-                <ul>
-                  <li class="text-theme-colored"><i class="fa fa-clock-o mr-5"></i>  {{ item.start}} - {{ item.end }}</li>
-                  <li class="text-theme-colored"><i class="fa fa-map-marker mr-5"></i> {{ item.location }}</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        {% endfor %}
-
+      <div class="row">
+        <div class="col-md-12" >
+          <h2 class="module-title line-bottom">{{ page.hero_title }}</h2>
+        </div>  
       </div>
     </div>
-
   </div>
 </section>
+
+
+{% include events-list.html %}

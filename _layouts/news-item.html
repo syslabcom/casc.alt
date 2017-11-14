@@ -13,10 +13,9 @@ parent: Aktuelles
               <div class="post-thumb thumb"> <img src="{{ page.image }}" alt="" class="img-responsive img-fullwidth"> </div>
             </div>
 
-            <h2>{{ page.title }}</h2>
+            <h2 class="module-title line-bottom">{{ page.title }}</h2>
 
-            <p class="mb-20">{{ page.date |  date: '%d. %B %Y' }}<br>
-            <em>{{ page.description }}</em></p>
+            <p><em>{{ page.date |  date: '%d. %B %Y' }}</em></p>
 
             {{ content }}
 

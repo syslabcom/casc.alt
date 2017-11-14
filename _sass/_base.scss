@@ -471,6 +471,26 @@ a {
 /* Inner Header - Heros on subpages */
 
 section {
+    &#event {
+        article {
+            .date-info {
+                margin-bottom: 30px; 
+                font-size: 1.11rem;
+                font-weight: bold;
+                .time-info {
+                    color: $colour-text-secondary;
+                }
+            }
+            .event-details {
+                margin-top: 20px;
+                margin-bottom: 50px;
+                .detail-label {
+                    white-space: nowrap;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
     &#event-list {
         p {
             color: $colour-text-secondary;
@@ -552,6 +572,53 @@ section {
                 .entry-content {
                     background-color: white;
                 }
+            }
+        }
+    }
+    &.events-listing,
+    &#events-list {
+        background-color: $colour-light-grey;
+        a {
+            .description,
+            .entry-content {
+                color: $colour-text;
+            }
+        }
+        h3 {
+            &.entry-title {
+                font-size: 1.5rem;
+            }
+        }
+        article {
+            &.post {
+                background-color: darken($colour-light-grey, 20%);
+                .entry-content {
+                    background-color: transparent;
+                }
+            }
+            .media-body {
+                ul.list-icon {
+                    i {
+                        margin: 0 0px 0 -5px;
+                    }
+                    li {
+                        margin: 0 0 5px 0;
+                        padding: 0;
+                        font-size: 100%;
+                    }
+                }
+            }
+        }
+    }
+    &#events-list {
+        .container {
+            padding-top:0;
+        }
+        background-color: white;
+        article {
+            &.post {
+                background-color: $colour-light-grey;
+                margin-bottom: 20px;
             }
         }
     }
