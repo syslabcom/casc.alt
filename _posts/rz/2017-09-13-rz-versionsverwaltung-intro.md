@@ -18,7 +18,7 @@ breadcrumbs:
 	<p>
 	Das Rechenzentrum betreibt dazu einen zentralen Subversion-Server. Damit können alle Nutzer des Rechen­zentrums diesen Dienst nutzen und für ihre Projekte ein entsprechendes Repository befüllen. Der Zugriff auf das Repository erfolgt über entsprechende subversion-Clients, über WebDAV oder einfach nur über einen Browser. Die Einrichtung des Repository erfolgt durch das RZ.</p>
 
-	<blockquote class="gray bg-theme-colored">
+	<blockquote>
 	<h5>Hinweis</h5>
 	<p>Sollen nur Dokumente gemeinsam bearbeitet, versioniert und veröffentlicht werden, ist in der Regel unser <a href="#">Dokumentenserver</a> besser geeignet.</p>
 	</blockquote>

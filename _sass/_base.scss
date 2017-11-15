@@ -170,6 +170,15 @@ a.tilelink {
 .font-theserif {
   font-family: 'theserif', serif;
 }
+blockquote {
+    border-left: 3px solid $colour-uni-grey;
+    background-color: $colour-light-grey;
+    p {
+        font-family: "thesans";
+        font-size: 100%;
+        font-style: normal;
+    }
+}
 #breadcrumbs {
     .breadcrumb {
         color: $colour-text;
