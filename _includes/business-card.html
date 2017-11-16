@@ -59,7 +59,7 @@
       <div class="section-content">
         <div class="row">
           {% for person in include.people %}
-          <div class="col-md-6 col-lg-4 ">
+          <div class="col-md-6 col-lg-4">
               <div class="business-card">
                 <a href="christian_thienel.html">
                   {% if person.img %}
@@ -89,7 +89,11 @@
           </div>
           {% endfor %}
           <div class="visualClear"></div>
-
+          <script>
+          setTimeout(function() {
+            $('.businesscards').equalize({'children': '.business-card', 'equalize': 'height', 'reset': true});
+          }, 200);
+          </script>
         </div>
       </div>
     </div>
