@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: testimonial
 title: Marco Knott
 abschluss: "Bachelor-Studiengang Wirtschaftsingenieurwesen, Jahrgang 2013"
 name: marco-knott

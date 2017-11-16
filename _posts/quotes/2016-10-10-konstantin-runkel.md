@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: testimonial
 title: Konstantin Runkel (MBA)
 abschluss: "Military Recruiter bei Amazon Deutschland, MBA-Studiengang International Management, Jahrgang 2013"
 name: florian-grimm
