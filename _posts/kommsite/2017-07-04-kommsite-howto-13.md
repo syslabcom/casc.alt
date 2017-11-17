@@ -21,7 +21,7 @@ breadcrumbs:
 
 Wir haben auf der Website nun drei Typen von Abbildungen:
 
-#### Hero – das Aufmacherbild
+### Hero – das Aufmacherbild
 
 Es repräsentiert unsere Universität auf der Homepage, visualisiert die Fakultäten, Institute und Einrichtungen.
 
@@ -50,4 +50,15 @@ Wenden Sie sich an das Web-Team!
 Vom Gelände und vielen Einrichtungen wurden diese Woche hunderte von Fotos von einem professionellen Fotografen gefertigt, so dass man hier schon auf einen großen Fundus zurückgreifen kann. Außerdem werden wir auch in Zukunft Kapazitäten bereitstellen.
 
 Sie müssen übrigens die Bildgröße nicht selber berechnen, speichern Sie Ihre Bilder in der größtmöglichen Auflösung ab. Das Content Management System rechnet alles passgenau selber aus.
+
+<div class="alert alert-info">
+Wenn Sie kein geeignetes Bild in unserer Bilddatenbank (<a href="https://beta.rz.unibw-muenchen.de/bilderdatenbank">https://beta.rz.unibw-muenchen.de/bilderdatenbank</a>) finden, haben Sie <strong>folgende Möglichkeiten</strong>:<br />
+
+<ol>
+	<li>Ein geeignetes Foto selbst aufnehmen.</li>
+	<li>Ein passendes Foto aus einer Datenbank im Internet auf eigene Kosten (Insttut, Professur, Einrichtung, etc) kaufen.</li>
+	<li>Bei Schemabildern einen Antrag an Herrn Vogel (<a href="mailto:achim.vogel@unibw.de">achim.vogel@unibw.de</a>) stellen, der Ihnen mitteilen wird, ob wir diesen Wunsch umsetzen können.</li>
+	<li>Ein Bild aus einer freien Datenbank nutzen.</li>
+</ol>
+</div>
 

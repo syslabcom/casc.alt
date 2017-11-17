@@ -1,6 +1,6 @@
 ---
 layout: page
-name: howto-personenseite
+name: howto-work-with-images
 title: Personenseite - Personendaten anzeigen
 description: So legen Sie eine Personenseite zu einem Datensatz aus HisInOne an
 category: kommsite-unterstuetzung
