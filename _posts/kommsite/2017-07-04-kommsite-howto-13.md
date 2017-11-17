@@ -52,7 +52,7 @@ Vom Gelände und vielen Einrichtungen wurden diese Woche hunderte von Fotos von 
 Sie müssen übrigens die Bildgröße nicht selber berechnen, speichern Sie Ihre Bilder in der größtmöglichen Auflösung ab. Das Content Management System rechnet alles passgenau selber aus.
 
 <div class="alert alert-info">
-Wenn Sie kein geeignetes Bild in unserer Bilddatenbank (<a href="https://beta.rz.unibw-muenchen.de/bilderdatenbank">https://beta.rz.unibw-muenchen.de/bilderdatenbank</a>) finden, haben Sie <strong>folgende Möglichkeiten</strong>:<br />
+<strong>Wenn Sie kein geeignetes Bild in unserer Bilddatenbank (<a href="https://beta.rz.unibw-muenchen.de/bilderdatenbank">https://beta.rz.unibw-muenchen.de/bilderdatenbank</a>) finden, haben Sie folgende Möglichkeiten:</strong><br />
 
 <ol>
 	<li>Ein geeignetes Foto selbst aufnehmen.</li>
