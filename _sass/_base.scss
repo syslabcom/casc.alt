@@ -69,6 +69,9 @@ $colour-mensa-brown: #984B43 !default;  // Verpflegung
 $colour-dark-pink: #B30557 !default; // Weiterbildung
 
 
+$colour-valley-green: #719c17 !default; // PC
+$colour-ocean-blue: #0c66b3 !default; // Web
+
 $colour-category-grey: #cc3300 !default ; // Personen will change
 
 // Font treatment
@@ -1078,6 +1081,12 @@ body {
             &.email  {
               background-color: $colour-middle-grey;
             }
+            &.web  {
+              background-color: $colour-ocean-blue;
+            }
+            &.pc  {
+              background-color: $colour-valley-green;
+            }
 
         }
     }
@@ -1155,9 +1164,11 @@ body {
     }
     &.drucken  {
       background-color: $colour-dark-yellow;
+      padding-left: 8px;
     }
     &.sonstiges  {
       background-color: $colour-olive-green;
+      padding-left: 8px;
     }
     &.netz  {
       background-color: $colour-dark-purple;
@@ -1167,18 +1178,28 @@ body {
     }
     &.it-sicherheit  {
       background-color: $colour-dark-pink;
+      padding-left: 10px;
     }
     &.zentraler-speicher  {
       background-color: $colour-mensa-brown;
+      padding-left: 8px;
     }
     &.nutzerkonto  {
       background-color: $colour-ruddy-beige;
+      padding-left: 8px;
     }
     &.software  {
       background-color: $colour-uni-orange;
     }
     &.email  {
       background-color: $colour-middle-grey;
+    }
+    &.pc  {
+      background-color: $colour-ocean-blue;
+    }
+    &.web  {
+      background-color: $colour-valley-green;
+      padding-left: 8px;
     }
 }
 
