@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-8
 item_type: howto
+howto_section: contentediting
 icon: sitemap
 title: Wie viel Struktur ist notwendig?
 category: kommsite-unterstuetzung

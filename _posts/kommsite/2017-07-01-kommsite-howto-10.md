@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-10
 item_type: howto
+howto_section: general
 icon: hand-grab-o
 title: "Vorbereiten: Was können Sie tun?"
 category: kommsite-unterstuetzung

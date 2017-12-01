@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-12
 item_type: howto
+howto_section: general
 icon: university
 title: Beratung in Kleingruppen
 category: kommsite-unterstuetzung

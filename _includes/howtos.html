@@ -19,7 +19,7 @@
     <div class="row">
         {% assign count = 1 %}
         {% for item in site.posts %}
-          {% if item.item_type == 'howto' and item.department == 'kommsite' %}
+          {% if item.item_type == 'howto' and item.department == 'kommsite' and item.howto_section == include.section %}
             {% assign newline = count | modulo: 3 %}
       
             {% if newline == 0 %}

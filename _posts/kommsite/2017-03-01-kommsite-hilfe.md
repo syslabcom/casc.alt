@@ -34,9 +34,17 @@ howtos:
 
 
 {% include howtos.html
-    title="Tipps & Tricks"
-    description='In den folgenden "How-Tos" finden Sie reichhaltige und praxisnahe Beschreibungen zu vielen Themen rund um die neue Website. Im Lauf des Projektes wird diese Liste ständig erweitert und ergänzt.'
+    title="Howtos zur Seitenpflege"
+    section="contentediting"
+    description='In den folgenden "How-Tos" finden Sie reichhaltige und praxisnahe Beschreibungen zur Unterstützung bei der Erstellung und Pflege Ihres Portals und dessen Inhalte. Im Lauf des Projektes wird diese Liste ständig erweitert und ergänzt.'
     color_scheme="light-gray" %}
+
+{% include howtos.html
+    section="general"
+    title="Allgmeine Tipps & Tricks"
+    description='Hier  finden Sie weitere Hilfen und Informationen was die neue Website betrifft.'
+    color_scheme="light-gray" %}
+
 
 <div class="section-title">
   <div class="row">

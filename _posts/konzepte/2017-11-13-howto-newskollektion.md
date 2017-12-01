@@ -1,6 +1,7 @@
 ---
 layout: page
 name: howto-newskollektion
+howto_section: contentediting
 title: Nachrichten - Kollektion anlegen und verwenden
 description: So legen Sie eine Kollektion an und verlinken diese im Modul "Nachrichten"
 category: kommsite-unterstuetzung

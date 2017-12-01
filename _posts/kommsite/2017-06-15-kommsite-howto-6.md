@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-6
 item_type: howto
+howto_section: contentediting
 icon: puzzle-piece
 title: Wie kommen Inhalte in Module?
 category: kommsite-unterstuetzung

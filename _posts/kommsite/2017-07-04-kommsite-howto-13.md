@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-13
 item_type: howto
+howto_section: contentediting
 icon: image
 title: Wie setze ich Bilder gekonnt ein?
 category: kommsite-unterstuetzung

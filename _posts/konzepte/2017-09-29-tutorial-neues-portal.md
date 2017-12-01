@@ -1,6 +1,7 @@
 ---
 layout: page
 name: tutorial-neues-portal
+howto_section: contentediting
 title: Video-Tutorial Neues Portal
 description: So füllen Sie ein neues Portal mit Inhalten
 category: kommsite-unterstuetzung

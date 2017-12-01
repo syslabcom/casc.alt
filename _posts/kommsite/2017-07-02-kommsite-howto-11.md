@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-11
 item_type: howto
+howto_section: general
 icon: font
 title: "Grundsatzentscheidung: Schriften"
 category: kommsite-unterstuetzung

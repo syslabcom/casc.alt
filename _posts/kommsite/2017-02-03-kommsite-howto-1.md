@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-1
 item_type: howto
+howto_section: general
 icon: plug
 title: "Schnittstellen: HisInOne"
 category: kommsite-unterstuetzung

@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-7
 item_type: howto
+howto_section: contentediting
 icon: picture-o
 title: Bilder aus der Bilddatenbank
 category: kommsite-unterstuetzung

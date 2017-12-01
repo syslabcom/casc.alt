@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-5
 item_type: howto
+howto_section: general
 icon: puzzle-piece
 title: Für Ihre Seitenplanung
 category: kommsite-unterstuetzung

@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-3
 item_type: howto
+howto_section: general
 icon: search
 title: Die neue Suchmaschine
 category: kommsite-unterstuetzung

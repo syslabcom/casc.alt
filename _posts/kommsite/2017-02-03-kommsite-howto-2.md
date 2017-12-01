@@ -2,6 +2,7 @@
 layout: page
 name: kommsite-howto-2
 item_type: howto
+howto_section: contentediting
 icon: puzzle-piece
 title: Module als flexibles Gestaltungsinstrument
 category: kommsite-unterstuetzung
