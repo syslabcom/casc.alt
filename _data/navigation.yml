@@ -252,9 +252,9 @@
   - title: Termine
     id: kommsite-termine
     url: kommsite-termine.html
-  - title: Prototyp
-    id: kommsite-prototyp
-    url: kommsite-prototyp.html
+  # title: Prototyp
+  # id: kommsite-prototyp
+  # url: kommsite-prototyp.html
 
 #############################################################################
 # Site MAIN PRAES SITE
