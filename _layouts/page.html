@@ -2,7 +2,7 @@
 layout: generic
 ---
 
-<section>
+<section id="page-content">
   <div class="container mt-30 mb-30 pt-30 pb-30">
     <div class="row">
       <div class="col-md-2">
@@ -10,16 +10,15 @@ layout: generic
         </div>
       </div>
       <div class="col-md-10">
-        <article class="post clearfix mb-0">
-          {% if page.title %}<h1>{{page.title}}</h1>{% endif %}
-          {% if page.description %}<p class="font-20 description">
+        {% if page.title %}<h2>{{page.title}}</h2>{% endif %}
+        {% if page.description %}<p class="font-20 description">
              {{ page.description }}
-          </p>
-          {% endif %}
+        </p>
+        {% endif %}
 
-          {{ content | markdownify}}
+        {{ content | markdownify}}
 
-        </article>
+        
       </div>
           
 

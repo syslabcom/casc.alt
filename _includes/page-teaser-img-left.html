@@ -5,7 +5,7 @@
       {% for item in site.posts %}
         {% if item.name == include.pagename %}
         <a href="{{ item.url | replace_first: '/', '' }}" class="no-hover">
-          <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}">
+          <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}" alt="{{ item.title }}">
 
           <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5 teaser-container">
               <h2 class="module-title line-bottom"> {{ item.title }} </h2>
@@ -14,7 +14,7 @@
                 {{ item.content | markdownify }}
               {% endif %}
 
-              <img class="img-responsive visible-xs" src="{{ item.img }}">
+              <img class="img-responsive visible-xs" src="{{ item.img }}"  alt="{{ item.title }}">
           </div>
         </a>
         {% endif %}

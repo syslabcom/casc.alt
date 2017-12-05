@@ -1,6 +1,6 @@
   <div id="secondary-navigation" class="top-dropdown-outer">
-    <a href="#" class="language-selector">EN |
-    <a class="" href="intranet.html">Intern</a><!-- | 
+    <a href="en.html" class="language-selector">EN</a> |
+    <a href="intranet.html">Intern</a><!-- | 
     <a class="top-search-box has-dropdown"><i class="fa fa-search font-13"></i> &nbsp;</a>
     <ul class="dropdown">
       <li>
@@ -23,7 +23,7 @@
   
     <ul class="menuzord-menu">
         <li>
-            <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="site-logo site-{{ page.department }}" href="#home">{{ section.title }}</a>
+            <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="site-logo site-{{ page.department }}">{{ section.title }}</a>
         </li>
         {% for item in section.items %}
         <li class="{% if page.category == item.id %}active{% endif %}">
