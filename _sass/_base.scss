@@ -996,6 +996,15 @@ body {
 }
 
 .search-results {
+    &.rz {
+        .grid-item {
+            height: 150px;
+            white-space: normal;
+            .text {
+                padding: 10px 15px;
+            }
+        }
+    }
     .grid-item {
         width: 220px;
         height: 100px;
@@ -1089,19 +1098,27 @@ body {
             }
 
         }
+        .text {
+            display: block;
+            font-weight: bold;
+            line-height: 30px;
+            padding: 20px 15px;
+            position: absolute;
+            text-align: center;
+            width: 100%;
+            .title {
+                padding: 0px 0 5px 0;
+            }
+            .description {
+                color: #666;
+                font-weight: normal; 
+                font-size: 0.85em;
+                line-height: 1.25em;
+            }
+        }
     }
 }
 
-.search-results .grid-item .text {
-  display: block;
-  font-weight: bold;
-  line-height: 30px;
-  padding: 0 10px;
-  position: absolute;
-  text-align: center;
-  top: 50%;
-  width: 100%;
-}
 .color-marker {
     color: $colour-text-light;
     background-color: $colour-rust-red;
