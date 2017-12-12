@@ -5938,16 +5938,6 @@ blockquote p {
   right: 11px;
   top: 11px;
 }
-.search-form-wrapper form label:before {
-  color: #555555;
-  cursor: pointer;
-  content: "\f002";
-  font-family: fontawesome;
-  font-size: 16px;
-  position: absolute;
-  right: 13px;
-  top: 6px;
-}
 .search-form-wrapper form input[type="text"] {
   background-color: #fff;
   border: 1px solid #c0c0c0;
