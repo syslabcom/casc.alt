@@ -30,10 +30,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	#hero h1.title { font-size: 56px; }
 	#organisationskontakt .contact-map-container { margin-bottom: -150px; }
 	#organisationskontakt .legend { left: -170px; top: -150px; }
 	.news .teaser-container .btn { margin-bottom: 0px; }
-} 
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
