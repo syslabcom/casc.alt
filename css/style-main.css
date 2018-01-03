@@ -731,9 +731,9 @@ section > .container-fluid {
 }
 /* -------- Scroll To Top ---------- */
 .scrollToTop {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.3);
   bottom: 15px;
-  display: none;
+  display: inline;
   height: 50px;
   padding: 2px;
   position: fixed;
