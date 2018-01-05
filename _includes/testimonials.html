@@ -15,8 +15,9 @@
 
                 {% assign items = site.posts | where:"show","quotes" %}
                 {% for item in items %}
-                <div class="item"><a href="{{ item.url | replace_first: '/', '' }}">
+                <div class="item">
                   <div class="testimonial pt-10">
+                    <a href="{{ item.url | replace_first: '/', '' }}">
                     <div class="thumb pull-left mb-0 mr-0 pr-20">
                       <img class="img-circle" alt="" src="{{ item.image }}">
                     </div>
@@ -24,7 +25,8 @@
                       <q cite="{{ item.url | replace_first: '/', '' }}" class="mt-0">{{ item.description }}</q>
                       <p class="author mt-20">- <span class="">{{ item.title }},</span> <small><em class="text-gray">{{ item.abschluss }}</em></small></p>
                     </div>
-                  </div></a>
+                    </a>
+                  </div>
                 </div>
                 {% endfor %}
               </div> 

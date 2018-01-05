@@ -6254,3 +6254,7 @@ q {
   color: #333;
   font-size: 1.33rem;
 }
+/* to render the border around the quote when in focus */
+.testimonial a {
+  display: block;
+}
