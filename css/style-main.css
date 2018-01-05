@@ -6248,3 +6248,9 @@ blockquote p {
   border-color: #eeeeee;
   color: #333333;
 }
+
+q:before, q:after {content:''}
+q {
+  color: #333;
+  font-size: 1.33rem;
+}

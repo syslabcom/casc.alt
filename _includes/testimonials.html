@@ -21,7 +21,7 @@
                       <img class="img-circle" alt="" src="{{ item.image }}">
                     </div>
                     <div class="ml-100 ">
-                      <h4 class="mt-0">{{ item.description }}</h4>
+                      <q cite="{{ item.url | replace_first: '/', '' }}" class="mt-0">{{ item.description }}</q>
                       <p class="author mt-20">- <span class="">{{ item.title }},</span> <small><em class="text-gray">{{ item.abschluss }}</em></small></p>
                     </div>
                   </div></a>
