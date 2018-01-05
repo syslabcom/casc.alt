@@ -1102,7 +1102,8 @@ var THEMEMASCOT = {};
                 effect: "slide",
                 animation: "none",
                 indicatorFirstLevel: "<i class='fa fa-angle-down'></i>",
-                indicatorSecondLevel: "<i class='fa fa-angle-right'></i>"
+                indicatorSecondLevel: "<i class='fa fa-angle-right'></i>",
+                trigger: 'click'
             });
             $("#menuzord-right").menuzord({
                 align: "right",
