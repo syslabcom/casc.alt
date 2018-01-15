@@ -54,10 +54,10 @@ $colour-link-focus: #23527c !default;
 
 // Intranet Colours
 $colour-rust-red : #CC3300 !default;  //Studium
-$colour-rust-red-80: rgba(204, 51, 0, 0.8) !default;  // Campus (??)
+$colour-rust-red-80: #D47557 !default;  // Campus (??)
 $colour-mediterran-azure: #50A2E8 !default;  // Koerper und Seele
 $colour-ruddy-beige: #C09F80 !default;  // Service
-$colour-dark-grey: #898E92 !default; // IT Dienste
+$colour-dark-grey: #8b9094 !default; // IT Dienste
 $colour-ruddy-beige-80: rgba(192, 159, 128, 0.8) !default;
 $colour-dark-yellow: #FFCC66 !default;  // Personal
 $colour-dark-yellow-80: rgba(255, 204, 102, 0.8) !default;
@@ -212,13 +212,6 @@ a {
     &:focus {
         color: $colour-link-focus;
     }
-    .fa {
-        
-        &.pull-right {
-            color: $colour-text-light;
-        }
-    }
-
 }
 
 /* Color schemes */
@@ -1023,21 +1016,27 @@ body {
             }
             &.campus {
               background-color: $colour-rust-red-80;
+              color: $colour-text;
             }
             &.soul {
               background-color: $colour-mediterran-azure;
+              color: $colour-text;
             }
             &.service {
               background-color: $colour-ruddy-beige;
+              color: $colour-text;
             }
             &.it {
               background-color: $colour-dark-grey;
+              color: $colour-text;
             }
             &.personnel {
               background-color: $colour-dark-yellow;
+              color: $colour-text;
             }
             &.central-services {
               background-color: $colour-orange-orange;
+              color: $colour-text;
             }
             &.research {
               background-color: $colour-dark-purple;
@@ -1056,6 +1055,7 @@ body {
             }
             &.forms {
               background-color: $colour-ruddy-beige-80;
+              color: $colour-text;
             }
             &.ci {
               background-color: $colour-creamy-red-wine-80;
@@ -1065,6 +1065,7 @@ body {
             }
             &.drucken  {
               background-color: $colour-dark-yellow;
+              color: $colour-text;
             }
             &.sonstiges  {
               background-color: $colour-olive-green;
@@ -1074,6 +1075,7 @@ body {
             }
             &.datenaustausch  {
               background-color: $colour-mediterran-azure;
+              color: $colour-text;
             }
             &.it-sicherheit  {
               background-color: $colour-dark-pink;
@@ -1083,18 +1085,22 @@ body {
             }
             &.nutzerkonto  {
               background-color: $colour-ruddy-beige;
+              color: $colour-text;
             }
             &.software  {
               background-color: $colour-uni-orange;
+              color: $colour-text;
             }
             &.email  {
               background-color: $colour-middle-grey;
+              color: $colour-text;
             }
             &.web  {
               background-color: $colour-ocean-blue;
             }
             &.pc  {
               background-color: $colour-valley-green;
+              color: $colour-text;
             }
 
         }
