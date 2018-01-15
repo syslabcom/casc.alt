@@ -68,9 +68,6 @@ Unterstützung bei Inhaltlicher Arbeit und Design - Content Management Support w
 <a class="btn btn-lg btn-theme-colored" href="mailto:support@unibw.de"><i class="fa fa-envelope-o"></i> Kontakt aufnehmen</a>
 
 
-### Modul-Baukasten
-
-Unsere neuen Webseiten werden aus sog. Modulen zusammengesetzt. Zur Vorbereitung und Konzeptionierung können Sie in Kürze hier einen "Papier-Modul-Baukasten" herunterladen.
 
 
 ### Grafische Unterstützung
