@@ -161,7 +161,7 @@ a.tilelink {
             list-style-type: decimal;
             list-style-position: outside;
             > li {
-                margin-left: 3em;
+                margin-left: 2em;
             }
         }
     }
@@ -1481,6 +1481,41 @@ body {
             #clearSavedFormInput {
                 display: none;
             }
+        }
+    }
+}
+
+/* tinymce specials */
+.mce-content-body {
+    ul {
+        list-style-type: disc;
+        list-style-position: outside;
+        > li {
+            margin-left: 2em;
+        }
+        &.blank {
+            list-style-type: none;
+            > li {
+                margin-left: 0;
+            }
+        }
+        &.angle-double-right {
+            list-style-type: none;
+            > li {
+                margin-left: 0;
+            }
+        }
+        &.list-group {
+            > li {
+                margin-left: 0;
+            }
+        }
+    }
+    ol {
+        list-style-type: decimal;
+        list-style-position: outside;
+        > li {
+            margin-left: 2em;
         }
     }
 }
