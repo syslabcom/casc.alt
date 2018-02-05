@@ -672,6 +672,11 @@ section {
             }
         }
     }
+    &.categories {
+        .icon-box {
+            overflow: hidden;
+        }
+    }
     &.inner-header {
         height: 540px;
         .container {
@@ -737,11 +742,6 @@ section {
         }
 
     }
-}
-
-.icon-box {
-    overflow: hidden;
-    display: block;   
 }
 .contact-info {
     overflow: hidden;
