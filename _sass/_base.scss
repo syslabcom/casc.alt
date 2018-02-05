@@ -738,6 +738,15 @@ section {
 
     }
 }
+
+.icon-box {
+    overflow: hidden;
+    display: block;   
+}
+.contact-info {
+    overflow: hidden;
+    display: block;   
+}
 .nav-tabs>li>a {
     font-size: 14px;
 }
@@ -1304,6 +1313,9 @@ body {
     .contact-data {
         padding: 1em 1em;
         font-size: 0.8rem;
+    }
+    .content {
+        margin-bottom: 20px;
     }
 
 }
