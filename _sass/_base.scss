@@ -653,6 +653,13 @@ section {
             width: 100%;
         }
     }
+    &.call-to-action {
+        a {
+            .description {
+                color: $colour-text;
+            }
+        }
+    }
     &.inner-header {
         height: 540px;
         .container {

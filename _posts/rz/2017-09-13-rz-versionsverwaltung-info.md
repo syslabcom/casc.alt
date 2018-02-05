@@ -14,4 +14,4 @@ breadcrumbs:
   url: rz.html
 
 ---
-<p class="text-white ml-60">Hier erhalten Sie den Antrag für den Zugang zur Versionsverwaltung. Bitte füllen Sie das Formular aus und geben den ausgedruckten Antrag im ServiceDesk ab.</p>
+<p class="description text-white ml-60">Hier erhalten Sie den Antrag für den Zugang zur Versionsverwaltung. Bitte füllen Sie das Formular aus und geben den ausgedruckten Antrag im ServiceDesk ab.</p>

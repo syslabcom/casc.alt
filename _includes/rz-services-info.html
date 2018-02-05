@@ -1,6 +1,6 @@
 {% for item in site.posts %}
 {% if item.name == include.pagename %}
-<section class="bg-theme-colored">
+<section class="call-to-action bg-theme-colored">
   <div class="container p-0">
 
     <div class="section-content">
@@ -9,6 +9,7 @@
 
           <div class="pt-40 pb-40 pl-40 bg-theme-colored">
             <div class="row">
+              <a href="{{ item.button_url }} ">
               <div class="col-xs-12 col-sm-8 col-md-8">
                 <div class="icon-box left mb-0"> 
                   <span class="icon icon-gray icon-md icon-circled pull-left flip mr-20 mt-20 no-hover"><i class="fa fa-lightbulb-o"></i></span>
@@ -19,8 +20,9 @@
                 </div>
               </div>
               <div class="col-sm-4 col-md-4 mt-40 text-center"> 
-                <a class="btn btn-theme-colored unibworange-background btn-xl" href="{{ item.button_url }} ">{{ item.button_title }} </a> 
+                <div class="btn btn-theme-colored unibworange-background btn-xl">{{ item.button_title }} </div> 
               </div>
+            </a>
             </div>
           </div>
         </div>
