@@ -379,7 +379,9 @@ a {
                 }
             }
         }
-
+        &.secondary {
+          z-index: 3;
+        }
     }
 }
 
@@ -429,7 +431,10 @@ a {
     top: -90px;
     color: $colour-text;
     a {
+        height: 16px;
+        line-height: 16px;
         font-size: 16px;
+        padding: 0 10px;
         color: $colour-text-secondary;
         &:hover, &:visited {
             color: $colour-text-secondary;
@@ -439,6 +444,9 @@ a {
                 height: 0.8rem;
             }
         }
+    }
+    a + a {
+        border-left: 1px solid black;
     }
 }
 
@@ -1564,4 +1572,15 @@ body {
             border-top: 1px solid #ddd;
         }
     }
+}
+
+#language-menu li {
+  border-right: 1px solid black;
+  padding: 0;
+  height: 16px;
+  line-height: 16px;
+}
+
+.search-form-wrapper button.search {
+  height: 46px;
 }
