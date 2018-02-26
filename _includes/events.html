@@ -37,7 +37,6 @@
                   </div>
                 </div>
                 <p class="description mt-10">{{ item.description }}</p>
-                <div href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-sm">Mehr</div>
                 <div class="clearfix"></div>
               </div>
             </article>
@@ -49,7 +48,7 @@
       </div>
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12">
-          <p class="text-right"><a href="{{ site.baseurl }}{{ include.morelink | default:'werkstoffe-termine.html'}} " class="btn btn-theme-colored btn-lg">Alle Veranstaltungen anzeigen <i class="fa fa-arrow-circle-right"></i></a></p>
+          <p class="text-right"><a href="{{ site.baseurl }}{{ include.morelink | default:'werkstoffe-termine.html'}} " class="btn btn-theme-colored btn-lg unibworange-background">Alle Veranstaltungen anzeigen <i class="fa fa-arrow-circle-right"></i></a></p>
         </div>
       </div>
     </div>

@@ -602,7 +602,7 @@ section {
     }
     &.events-listing,
     &#events-list {
-        background-color: $colour-light-grey;
+        background-color: $colour-dark-blue;
         a {
             .description,
             .entry-content {
@@ -616,7 +616,7 @@ section {
         }
         article {
             &.post {
-                background-color: darken($colour-light-grey, 20%);
+                background-color: $colour-light-grey;
                 .entry-content {
                     background-color: transparent;
                 }
@@ -632,6 +632,14 @@ section {
                         font-size: 100%;
                     }
                 }
+            }
+        }
+    }
+    &.events-listing {
+        .section-title {
+            .module-title,
+            .description {
+                color: white;
             }
         }
     }
@@ -1571,6 +1579,21 @@ body {
             vertical-align: top;
             border-top: 1px solid #ddd;
         }
+    }
+}
+
+/* tinymce added image styles */
+.mce-content-body {
+    .image-left {
+      float: left;
+      margin: 0.5em 1em 0.5em 0;
+    }
+    .image-right {
+      float: right;
+      margin: 0.5em 0em 0.5em 1em;
+    }
+    .image-inline {
+      float: none;
     }
 }
 
