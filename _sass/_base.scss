@@ -1583,18 +1583,16 @@ body {
 }
 
 /* tinymce added image styles */
-.mce-content-body {
-    .image-left {
-      float: left;
-      margin: 0.5em 1em 0.5em 0;
-    }
-    .image-right {
-      float: right;
-      margin: 0.5em 0em 0.5em 1em;
-    }
-    .image-inline {
-      float: none;
-    }
+.image-left {
+  float: left;
+  margin: 0.5em 1em 0.5em 0;
+}
+.image-right {
+  float: right;
+  margin: 0.5em 0em 0.5em 1em;
+}
+.image-inline {
+  float: none;
 }
 
 #language-menu li {
