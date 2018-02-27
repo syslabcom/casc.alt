@@ -858,6 +858,11 @@ section.gradient:after,
 
 #footer {
     color: $colour-text-light;
+    .text-white {
+        strong {
+            color: $colour-text-light;
+        }
+    }
 }
 
 
