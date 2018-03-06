@@ -36,11 +36,10 @@
       {% assign section = item %}
     {% endif %}
   {% endfor %}
+
+    <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="site-logo site-{{ page.department }}">{{ section.title }}</a>
   
     <ul class="menuzord-menu">
-        <li>
-            <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="site-logo site-{{ page.department }}">{{ section.title }}</a>
-        </li>
         {% for item in section.items %}
         <li class="{% if page.category == item.id %}active{% endif %}">
             <a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }} </a>

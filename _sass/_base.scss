@@ -367,17 +367,13 @@ a {
         position: relative;
         z-index: 2;
         float: left;
-        ul {
-            li {
-                a {
-                    &.site-logo {
-                        border-radius: 0;
-                        background-size: cover;
-                        margin-right: 20px;
-                        height: 36px;
-                    }
-                }
-            }
+        a {
+          &.site-logo {
+            border-radius: 0;
+            background-size: cover;
+            margin-right: 20px;
+            height: 36px;
+          }
         }
         &.secondary {
           z-index: 3;
@@ -450,15 +446,20 @@ a {
     }
 }
 
+a.site-logo {
+  float: left;
+  color: transparent !important;
+  line-height: 1.42857143;
+  display: inline-block;
+  margin-top: 5px;
+}
+
 .menuzord-menu {
     a {
-        &.site-logo {
-            color: transparent !important;
-        }
         &:hover {
             color: $colour-dark-blue;
         }
-    } 
+    }
     li {
         ul {
             &.dropdown {
