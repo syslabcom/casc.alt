@@ -696,7 +696,6 @@ section > .container-fluid {
   position: absolute;
   text-align: center;
   width: 100%;
-  z-index: -1;
 }
 .bg-video .video {
   height: 100%;
