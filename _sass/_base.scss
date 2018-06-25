@@ -1028,8 +1028,9 @@ body {
     }
 }
 
-.businesscards .section-content .row {
-    margin-bottom: 40px;
+.businesscards .container, 
+.categories .container {
+    padding-bottom: 40px;
 }
  
 .quicklinks-wrapper > .row {
