@@ -1662,3 +1662,6 @@ span {
 .fluid-video-wrapper video {
   width: 100%;
 }
+
+// #17094 hide html-code module
+[data-tile-id="raw_html"] { display: none; }
