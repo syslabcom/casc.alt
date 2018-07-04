@@ -1629,3 +1629,39 @@ span {
 .search-form-wrapper button.search {
   height: 46px;
 }
+
+.bg-video video {
+  &::-webkit-media-controls {
+    top: 500px;
+    position: absolute;
+  }
+  width: 100%;
+}
+
+#videoContainer {
+  .position, .duration {
+    line-height: 25px;
+    width: auto;
+  }
+  span.mb_OnlyYT {
+    left: 195px;
+  }
+  progress {
+    &::-moz-progress-bar {
+      background-color: #444;
+    }
+    &::-webkit-progress-value {
+      background-color: #444;
+    }
+    border: none;
+    position: relative;
+    top: -8px;
+  }
+}
+
+.fluid-video-wrapper video {
+  width: 100%;
+}
+
+// #17094 hide html-code module
+[data-tile-id="raw_html"] { display: none; }
