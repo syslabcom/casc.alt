@@ -1665,3 +1665,7 @@ span {
 
 // #17094 hide html-code module
 [data-tile-id="raw_html"] { display: none; }
+
+// Hide Form Folder from the Add Content modal
+img[src$='/ct_form.png'],
+img[src$='/ct_form.png'] + div {display: none}
