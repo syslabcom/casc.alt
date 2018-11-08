@@ -281,6 +281,7 @@ a {
     p {
         color: white !important;
     }
+    .post { color: $colour-text !important; }
 }
 .scheme-uni-orange {
     background-color: $colour-uni-orange !important;
@@ -295,6 +296,7 @@ a {
     p {
         color: white !important;
     }
+    .post { color: $colour-text !important; }
 }
 .scheme-middle-grey { background-color: $colour-middle-grey !important; color: $colour-text !important; }
 .scheme-light-grey { background-color: $colour-light-grey !important; color: $colour-text !important; }
@@ -321,6 +323,7 @@ a {
         background-color: darken($colour-uni-orange, 10%);
         border-color: darken($colour-uni-orange, 10%);
     }
+    .post * { color: $colour-text !important; }
 }
 .scheme-uni-similar-1 { background-color: $colour-uni-similar-1 !important; color: $colour-uni-similar-1-text !important; }
 .scheme-uni-similar-2 { background-color: $colour-uni-similar-2 !important; color: $colour-uni-similar-2-text !important; }
@@ -570,6 +573,18 @@ section {
               height: 3.35em;
               overflow:hidden;
           }
+        }
+    }
+    &.gallery-extended {
+        .post {
+            background-color: #f8f8f8;
+            .entry-title {
+              height: auto;
+            }
+            .description {
+              height: auto;
+              overflow: auto;
+            }
         }
     }
     &.news {

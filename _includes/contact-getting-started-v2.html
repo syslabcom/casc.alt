@@ -1,4 +1,4 @@
-<section class="gallery">
+<section class="gallery gallery-extended scheme-dark-blue">
   <div class="container">
     <div class="section-title">
       <div class="row">
@@ -13,14 +13,11 @@
 
     <div class="section-content">
       <div class="row">
-
-        <div class="col-md-12">
-              <div class="row">
         
           {% assign items = page.tutorials %}
           {% for item in items %}
-              <a href="{{ item.url }}">
                 <div class="col-xs-12 col-sm-4 col-md-4">
+                 <a href="{{ item.url }}">
                   <article class="post clearfix mb-sm-30">
                   <div class="entry-header">
                     <div class="post-thumb thumb"> 
@@ -37,18 +34,23 @@
                     </div>
                     <p class="description mt-10">{{ item.description }}</p>
                   </div>
-                </article>
+                  </article>
+                  </a>
 
                 </div>
 
-                
-              </a>
           {% endfor %}
           </div>
       </div>
-    </div>
 
   </div>
+
 </section>
 
 
+
+   <script>
+    setTimeout(function() {
+      $('.gallery').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
+    }, 200);
+    </script>
