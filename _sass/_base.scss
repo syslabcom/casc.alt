@@ -296,7 +296,7 @@ a {
     p {
         color: white !important;
     }
-    .post { color: $colour-text !important; }
+    .post * { color: $colour-text !important; }
 }
 .scheme-middle-grey { background-color: $colour-middle-grey !important; color: $colour-text !important; }
 .scheme-light-grey { background-color: $colour-light-grey !important; color: $colour-text !important; }
