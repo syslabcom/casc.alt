@@ -1,5 +1,24 @@
 /*==========  Mobile First Method  ==========*/
  
+@media only screen and (max-width : 768px) {
+    /* remove the background image for small devices */
+    #hero {
+        background-image: none !important;
+        background: none;
+        margin-bottom: 0;
+    }
+    #hero.gradient:before { background: none; margin: 0; padding: 0; }
+    #hero.inner-header, #hero.inner-header .container { height:auto;}
+    #hero.inner-header .section-content { margin-bottom: auto;}
+    #hero h1.title { text-shadow: none; color: #333;}
+    #breadcrumbs { display: none;}
+    #hero.divider .container { padding-top: 10px; padding-bottom: 0px; }
+    main section .container, main section .container-fluid, main .divider .container, #footer.divider .container  { padding-top: 30px; padding-bottom: 30px; }
+    section.inner-header .container .section-content { position: relative; }
+    /* END remove the background image for small devices */
+
+}
+
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
 	#hero h1.title { font-size: 28px; }
