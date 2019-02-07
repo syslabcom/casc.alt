@@ -10,6 +10,17 @@
 	#organisationskontakt .contact-map-container { margin-bottom: 0; }
 	#organisationskontakt .legend { left: 0; top: 0; }
 	.news .teaser-container .btn { margin-bottom: 20px; }
+
+	/* contact map small */
+	#organisationskontakt #floor_plan { 
+        background-image:url('../media/lageplan_neutral_low_320.jpg');
+        background-repeat:no-repeat;
+        width:340px;
+        height:370px;
+    }
+    #organisationskontakt .contact-map-container .point-map-small {display: block;}
+    #organisationskontakt .contact-map-container .point-map-big {display: none;}
+
 }
 
 /* Extra Small Devices, Phones */
@@ -39,8 +50,27 @@
 	#organisationskontakt .contact-map-container { margin-bottom: -150px; }
 	#organisationskontakt .legend { left: -170px; top: -150px; }
 	.news .teaser-container .btn { margin-bottom: 0px; }
+
+	/* contact map small */
+	#organisationskontakt #floor_plan { 
+        background-image:url('../media/lageplan_neutral_low_320.jpg');
+        background-repeat:no-repeat;
+        width:340px;
+        height:370px;
+    }
+    #organisationskontakt .contact-map-container .point-map-small {display: block;}
+    #organisationskontakt .contact-map-container .point-map-big {display: none;}
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+	/* contact map big */
+	#organisationskontakt #floor_plan { 
+        background-image:url('../media/lageplan_neutral_low_480.jpg');
+        background-repeat:no-repeat;
+        width:480px;
+        height:524px;
+    }
+    #organisationskontakt .contact-map-container .point-map-small {display: none;}
+    #organisationskontakt .contact-map-container .point-map-big {display: block;}
 }

@@ -1386,6 +1386,14 @@ section.categories>.container {
 #organisationskontakt {
     .contact-map-container {
         margin-bottom: -150px;
+        .point-map-small {display: none;}
+        .point-map-big {display: block;}
+    }
+    #floor_plan { 
+        background-image:url('../media/lageplan_neutral_low_480.jpg');
+        background-repeat:no-repeat;
+        width:480px;
+        height:524px;
     }
     .legend {
         position: relative;
