@@ -134,7 +134,7 @@ ul {
       border-color: $colour-uni-orange;
       border-width: 1px;
       border-radius: 0 !important;
-    }   
+    } 
 }
 
 .ellipsis {
@@ -659,6 +659,11 @@ section {
             }
         }
     }
+    &.events-search {
+        .container {
+            padding-bottom:0;
+        }
+    }
     &#events-list {
         .container {
             padding-top:0;
@@ -877,6 +882,9 @@ section.gradient:after,
         strong, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
             color: $colour-text-light;
         }
+    }
+    ul.list li {   
+      padding-left: 0;
     }
 }
 
