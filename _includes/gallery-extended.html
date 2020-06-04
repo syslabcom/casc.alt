@@ -1,0 +1,58 @@
+<section class="gallery gallery-extended scheme-{{include.color_scheme}}">
+  <div class="container">
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">    
+          <h2 class="module-title line-bottom">Neu am Campus?</h2>
+          <p class="description">
+            Sie sind neu am Campus? Wir helfen Ihnen bei Ihren ersten Schritten im Datendschungel des Campus
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-content">
+      <div class="row">
+                  
+
+      {% for item in page.gallery %}
+         <div class="col-sm-{{include.sm | default:'6' }} col-md-{{include.md | default:'4' }}">
+          <div class="box-item">
+            <div class="item-inner padding">
+              
+              <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
+                <article class="post clearfix xmb-sm-30">
+
+                  <div class="entry-header">
+                    <div class="post-thumb thumb"> 
+                      <img src="{{ item.img }}" alt="{{ item.title }}" class="img-responsive img-fullwidth">
+                    </div>
+                  </div>
+                  <div class="entry-content p-20 pr-10">
+                    <div class="entry-meta media mt-0 no-bg no-border">
+                      <div class="media-body">
+                        <div class="event-content pull-left flip">
+                          <h3 class="entry-title">{{ item.title }}</h3>
+                        </div>
+                      </div>
+                    </div>
+                    <p class="description mt-10">{{ item.description }}</p>
+                  </div>
+                  </article>
+              </a>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <script>
+    setTimeout(function() {
+      $('.gallery').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
+    }, 200);
+    </script>

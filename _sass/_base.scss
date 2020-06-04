@@ -281,7 +281,7 @@ a {
     p {
         color: white !important;
     }
-    .post { color: $colour-text !important; }
+    .post * { color: $colour-text !important; }
 }
 .scheme-uni-orange {
     background-color: $colour-uni-orange !important;
