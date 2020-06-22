@@ -263,11 +263,31 @@ a {
     p {
       background-color: $colour-warm-blue !important; color: $colour-text-light !important;
     }
+
 }
 */
 /* New Schemes */
 
-.scheme-white { background-color: white !important; color: $colour-text !important; }
+.scheme-white { 
+    background-color: white !important; 
+    color: $colour-text !important; 
+    .list-group-item { 
+                        background-color: #fafafa; 
+                      } 
+    }
+
+
+.scheme-light-grey { 
+    background-color: #eee !important; 
+    color: $colour-text !important; 
+    .list-group-item,
+    .bg-deep,
+    .howto.iconbox-bg,
+    .icon-box.howto .icon-gray  { 
+                background-color: #ffffff; 
+              } 
+    }
+
 .scheme-uni-grey {
     background-color: $colour-uni-grey !important;
     color: white !important;
@@ -282,6 +302,28 @@ a {
         color: white !important;
     }
     .post * { color: $colour-text !important; } 
+    .list-group-item { 
+                        background-color: #fafafa;
+                        color: $colour-text !important; 
+                        a { color: $colour-link !important; }
+                        a:hover { color: $colour-link-hover !important; }
+                        a:active { color: $colour-link !important; }
+                        a:focus { color: $colour-link-focus !important; }
+                        a:visited { color: $colour-link !important; }
+                      } 
+
+    .icon-box h4, 
+              h5 { color: $colour-text !important; }
+    .icon-box .text-gray,
+              p.text-gray,
+              h6.text-gray  { color: grey !important; }   
+    .icon-box a.icon-dark { color: white !important; }  
+    .icon-box .icon.icon-gray { background-color: #c4c3c7 }
+    .contact-info h4 { color: $colour-text !important; }  
+    .contact-info .text-gray { color: grey !important; }  
+    .bg-deep { background-color: #f1f1f1 !important; }
+    .howto h5 { color: white !important;  }
+    .howto p.text-gray { color: #c4c3c7 !important;  }
 }
 .scheme-uni-orange {
     background-color: $colour-uni-orange !important;
@@ -297,9 +339,67 @@ a {
         color: white !important;
     }
     .post * { color: $colour-text !important; }
+    .list-group-item { 
+                        background-color: #fafafa;
+                        color: $colour-text !important; 
+                        a { color: $colour-link !important; }
+                        a:hover { color: $colour-link-hover !important; }
+                        a:active { color: $colour-link !important; }
+                        a:focus { color: $colour-link-focus !important; }
+                        a:visited { color: $colour-link !important; }
+                      } 
+
+    .icon-box h4, 
+              h5 { color: $colour-text !important; }
+    .icon-box .text-gray,
+              p.text-gray,
+              h6.text-gray  { color: grey !important; }   
+    .icon-box .icon.icon-gray { background-color: #e0e0e0 }    
+    .icon-box a.icon-dark { color: white !important; }  
+    .contact-info h4 { color: $colour-text !important; }  
+    .contact-info .text-gray { color: grey !important; }  
+    .bg-deep { background-color: #f1f1f1 !important; }
+    .howto h5 { color: white !important;  }
+    .howto .icon-white { border-color: #e0e0e0  !important; }
+    .howto p.text-gray { color: #e0e0e0 !important;  }
 }
-.scheme-middle-grey { background-color: $colour-middle-grey !important; color: $colour-text !important; }
-.scheme-light-grey { background-color: $colour-light-grey !important; color: $colour-text !important; }
+.scheme-middle-grey { 
+    background-color: $colour-middle-grey !important; 
+    color: white !important;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    a,
+    p {
+        color: white !important;
+    }
+    .post * { color: $colour-text !important; } 
+    .list-group-item { 
+                        background-color: #fafafa;
+                        color: $colour-text !important; 
+                        a { color: $colour-link !important; }
+                        a:hover { color: $colour-link-hover !important; }
+                        a:active { color: $colour-link !important; }
+                        a:focus { color: $colour-link-focus !important; }
+                        a:visited { color: $colour-link !important; }
+                      } 
+
+    .icon-box h4, 
+              h5 { color: $colour-text !important; }
+    .icon-box .text-gray,
+              p.text-gray,
+              h6.text-gray  { color: grey !important; }   
+    .icon-box a.icon-dark { color: white !important; }  
+    .icon-box .icon.icon-gray { background-color: #dfdde3 }
+    .contact-info h4 { color: $colour-text !important; }  
+    .contact-info .text-gray { color: grey !important; }  
+    .bg-deep { background-color: #f1f1f1 !important; }
+    .howto h5 { color: white !important;  }
+    .howto p.text-gray { color: #dfdde3 !important;  }
+    }
 .scheme-dark-blue {
     background-color: $colour-dark-blue !important;
     color: white !important;
@@ -324,11 +424,36 @@ a {
         border-color: darken($colour-uni-orange, 10%);
     }
     .post * { color: $colour-text !important; }
+    .list-group-item { 
+                        color: $colour-text !important; 
+                        a { color: $colour-link !important; }
+                        a:hover { color: $colour-link-hover !important; }
+                        a:active { color: $colour-link !important; }
+                        a:focus { color: $colour-link-focus !important; }
+                        a:visited { color: $colour-link !important; }
+                      }
+
+    .icon-box h4, 
+              h5 { color: $colour-text !important; }
+    .icon-box .text-gray,
+              p.text-gray,
+              h6.text-gray  { color: grey !important; }   
+    .icon-box a.icon-gray { color: $colour-link !important; }   
+    
+    .icon-box .icon.icon-gray { background-color: #dfdde3 } 
+    .icon-box a.icon-dark { color: white !important; }  
+    .contact-info h4 { color: $colour-text !important; }  
+    .contact-info .text-gray { color: grey !important; }  
+    .bg-deep { background-color: #f1f1f1 !important; }
+    .howto h5 { color: white !important;  }
+    .howto p.text-gray { color: #c0c0c0 !important;  }
+
 }
 .scheme-uni-similar-1 { background-color: $colour-uni-similar-1 !important; color: $colour-uni-similar-1-text !important; }
 .scheme-uni-similar-2 { background-color: $colour-uni-similar-2 !important; color: $colour-uni-similar-2-text !important; }
 .scheme-uni-similar-3 { background-color: $colour-uni-similar-3 !important; color: $colour-uni-similar-3-text !important; }
 .scheme-uni-similar-4 { background-color: $colour-uni-similar-4 !important; color: $colour-uni-similar-4-text !important; }
+
 
 #header {
     background-color: #fff;

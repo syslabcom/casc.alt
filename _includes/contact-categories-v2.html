@@ -1,4 +1,4 @@
-<section id="services" class="bg-lighter">
+<section id="services" class="categories scheme-{{include.color_scheme}}">
   <div class="container">
     <div class="section-title">
       <div class="row">
@@ -15,7 +15,7 @@
         {% assign items = page.scats %}
         {% for item in items %}
           <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="icon-box iconbox-theme-colored bg-white p-15 mb-30 border-1px">
+            <div class="icon-box iconbox-theme-colored iconbox-bg p-15 mb-30 border-1px">
               <a class="icon icon-dark icon-rounded pull-left flip mb-0 mr-0 mt-5" href="{{ item.url }}">
                 <i class="fa fa-{{ item.icon }}"></i>
               </a>
