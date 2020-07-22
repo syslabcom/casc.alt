@@ -1,52 +1,54 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="{{ page.lang }}">
+
 <head>
 
-<!-- Meta Tags -->
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-<meta name="Description" CONTENT="{{ page.description }}">
-<meta name="keywords" content="universität, casc, education, ausbildung, kurse, weiterbildung" />
-<meta name="author" content="Unibw CASC" />
+  <!-- Meta Tags -->
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="Description" CONTENT="{{ page.description }}">
+  <meta name="keywords" content="universität, casc, education, ausbildung, kurse, weiterbildung" />
+  <meta name="author" content="Unibw CASC" />
 
-<!-- Page Title -->
-<title>{{ page.title }} — {{ site.title }}</title>
-<!-- Favicon and Touch Icons -->
-<link href="{{ site.baseurl }}media/favicons/favicon.png" rel="shortcut icon" type="image/png">
-<link href="{{ site.baseurl }}media/favicons/apple-touch-icon.png" rel="apple-touch-icon">
-<link href="{{ site.baseurl }}media/favicons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
-<link href="{{ site.baseurl }}media/favicons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
-<link href="{{ site.baseurl }}media/favicons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
+  <!-- Page Title -->
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <!-- Favicon and Touch Icons -->
+  <link href="{{ site.baseurl }}media/favicons/favicon.png" rel="shortcut icon" type="image/png">
+  <link href="{{ site.baseurl }}media/favicons/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="{{ site.baseurl }}media/favicons/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72">
+  <link href="{{ site.baseurl }}media/favicons/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114">
+  <link href="{{ site.baseurl }}media/favicons/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144">
 
 
-<link href="{{ site.baseurl }}css/unibw.min.css" rel="stylesheet" type="text/css">
-<link href="{{ site.baseurl }}css/screen.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}css/{{ site.brand }}.min.css" rel="stylesheet" type="text/css">
+  <link href="{{ site.baseurl }}css/screen.css" rel="stylesheet" type="text/css">
 
-<script src="{{ site.baseurl }}js/unibw.min.js"></script>
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+  <script src="{{ site.baseurl }}js/unibw.min.js"></script>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
-<script id="proto-piwik">
-  var _paq = _paq || [];
-  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
-  (function() {
-    var u="https://www.unibw.de/piwik/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', '1']);
-    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-  })();
-</script>
+  <script id="proto-piwik">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function () {
+      var u = "https://www.unibw.de/piwik/";
+      _paq.push(['setTrackerUrl', u + 'piwik.php']);
+      _paq.push(['setSiteId', '1']);
+      var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+      g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+    })();
+  </script>
 </head>
+
 <body class="{{ page.class }} layout-{{ page.layout }} category-{{ page.category }}">
-<div id="wrapper" class="clearfix">
-  <!-- preloader -->
-<!--   <div id="preloader">
+  <div id="wrapper" class="clearfix">
+    <!-- preloader -->
+    <!--   <div id="preloader">
     <div id="spinner">
       <div class="preloader-orbit-loading">
         <div class="cssload-inner cssload-one"></div>
@@ -56,62 +58,63 @@
     </div>
     <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
   </div> 
- -->  
-  <!-- Header -->
-  <header id="header" class="header">
-    <div id="global-navigation" class="header-nav">
-      <div class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-2-1px">
-        <div class="container">
-        <!-- EDIT _data/navigation.yml fuer neue Navigationen!! -->
-          {% include navigation/navigation.html %}
+ -->
+    <!-- Header -->
+    <header id="header" class="header">
+      <div id="global-navigation" class="header-nav">
+        <div class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-2-1px">
+          <div class="container">
+            <!-- EDIT _data/navigation.yml fuer neue Navigationen!! -->
+            {% include navigation/navigation.html %}
+          </div>
         </div>
       </div>
-    </div>
-    {% include hero.html %}
-  </header>
-  
-  <!-- Start main-content -->
-  <main class="main-content">
+      {% include hero.html %}
+    </header>
 
-   {{ content }}
-   
+    <!-- Start main-content -->
+    <main class="main-content">
 
-  <!-- end main-content -->
-  </main>
+      {{ content }}
 
-  <!-- Footer -->
-  <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="">
-        {{ page.department }}
-        {% if page.department == 'Rechenzentrum' %}
-          {% include footer-rz.html %}
-        {% elsif page.department == 'bau' %}
-          {% include footer-bau.html %}
-        {% elsif page.department == 'werkstoffe' %}
-          {% include footer-bau.html %}
-        {% elsif page.department == 'kommsite' %}
-          {% include footer-kommsite.html %}
-        {% elsif page.department == 'UniBwM' %}
-         <!-- no footer -->
-        {% elsif page.department == 'home' %}
-        {% else %}
-          {% include footer.html %}
-        {% endif %}
-        {% include global_footer.html %}
-  </footer>
-  <nav class="scrollToTop" >
-    <a href="#header">
-      <i class="fa fa-angle-up"></i>
-      <h5 class="sr-only">Zum Seitenanfang springen</h5>
-    </a>
-  </nav>
-</div>
-<!-- end wrapper -->
 
-<!-- Footer Scripts -->
-<!-- JS | Custom script for all pages -->
-<script src="{{ site.baseurl }}js/underscore-min.js"></script>
+      <!-- end main-content -->
+    </main>
 
-<script src="{{ site.baseurl }}js/custom.js"></script>
+    <!-- Footer -->
+    <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="">
+      {{ page.department }}
+      {% if page.department == 'Rechenzentrum' %}
+      {% include footer-rz.html %}
+      {% elsif page.department == 'bau' %}
+      {% include footer-bau.html %}
+      {% elsif page.department == 'werkstoffe' %}
+      {% include footer-bau.html %}
+      {% elsif page.department == 'kommsite' %}
+      {% include footer-kommsite.html %}
+      {% elsif page.department == 'UniBwM' %}
+      <!-- no footer -->
+      {% elsif page.department == 'home' %}
+      {% else %}
+      {% include footer.html %}
+      {% endif %}
+      {% include global_footer.html %}
+    </footer>
+    <nav class="scrollToTop">
+      <a href="#header">
+        <i class="fa fa-angle-up"></i>
+        <h5 class="sr-only">Zum Seitenanfang springen</h5>
+      </a>
+    </nav>
+  </div>
+  <!-- end wrapper -->
+
+  <!-- Footer Scripts -->
+  <!-- JS | Custom script for all pages -->
+  <script src="{{ site.baseurl }}js/underscore-min.js"></script>
+
+  <script src="{{ site.baseurl }}js/custom.js"></script>
 
 </body>
+
 </html>
