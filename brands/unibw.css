@@ -1,2 +1,35 @@
 // Unibw specific styles
-.unibw {color: orange;}
+
+
+#header .header-nav .header-nav-wrapper .menuzord { background: white; }
+
+#athene{
+    top: -80px;
+    height: 70px;
+}
+
+#athene .bumped {
+      top: -50px;
+}
+#athene a {
+        background: url("../media/logos/logo-unibw-brandmark.svg");
+        width: 330px;
+        height: 53px;
+        margin-left: -15px;
+}
+#athene a:hover:before {
+            opacity: 1;
+}
+#athene a:before {
+            content: ' ';
+            background: url("../media/logos/logo-unibw-text.svg");
+            background-size: cover;
+            width: 330px;
+            height: 53px;
+            display: block;
+}
+
+/*module styles */
+section .module-title {
+        text-transform: uppercase;
+    }

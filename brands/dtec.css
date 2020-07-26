@@ -1,2 +1,45 @@
 // DTec specific styles
 .dtec {color: red;}
+
+.header-nav {
+	background: transparent;
+}
+.header-nav-wrapper {
+    background: transparent;
+}
+.border-bottom-theme-color-2-1px {
+	background: transparent;
+	background-image:url('../media/dtec/bg_main_nav.png');
+	background-position: center bottom;
+    background-repeat: no-repeat;
+	border-bottom: 1px solid white !important;
+}
+.menuzord { margin-bottom: 5px; background: transparent; }
+
+#hero .title,
+#breadcrumbs {display: none !important;}
+
+.bg-theme-color-2, .line-bottom-center:after, .line-bottom:after { background: transparent !important; }
+
+/* main styles */
+#athene{
+    top: -70px;
+    height: 70px;
+}
+#athene.bumped {
+      top: -50px;
+      opacity: 0;
+}
+#athene a {
+        background: url("../media/dtec/logo_dtec_big.png");
+        background-size: cover;
+        color: transparent;
+        width: 334px;
+        height: 63px;
+        margin-left: -15px;
+}
+
+/* module styles */
+section .module-title {
+	text-transform: none;
+}

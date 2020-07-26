@@ -535,4 +535,29 @@
     - title: Interessenvertretungen
     - title: Links
     
+#############################################################################
+# Site DTEC
+#############################################################################
+- name: DTEC
+  title: DTEC
+  url: dtec.html
+  items:
+  - title: UniBw M
+    id: unibwm
+    url: dtec-unibwm.html
+  - title: HSU
+    id: hsu
+    url: dtec-hsu.html
+  - title: Forschung
+    id: forschung
+    url: dtec-forschung.html
+  - title: Gründungen
+    id: gruendungen
+    url: gruendungen.html
+  - title: Transfer
+    id: transfer
+    url: transfer.html
+  - title: Partner
+    id: partner
+    url: partner.html
 
