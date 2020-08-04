@@ -1,230 +1,242 @@
 {% if page.slider_section %}
 <section id="home">
   <div class="container-fluid p-0">
-        <!-- Slider Revolution Start -->
-        <div class="rev_slider_wrapper">
-          <div class="rev_slider" data-version="5.0">
-            <ul>
-            {% assign programme = site.posts | where:"slider", page.slider_section %}
-            {% for item in programme %}
-              <li data-index="rs-{{ forloop.index }}" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="{{ site.baseurl }}{{ item.hero_image }}" data-rotate="0" data-saveperformance="off" data-title="{{ item.hero_title }}" data-description="">
-                <!-- MAIN IMAGE -->
-                <img src="{{ site.baseurl }}{{ item.hero_image }}"  alt=""  data-bgposition="center 10%" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
-                <!-- LAYERS -->
+    <!-- Slider Revolution Start -->
+    <div class="rev_slider_wrapper">
+      <div class="rev_slider" data-version="5.0">
+        <ul>
+          {% assign programme = site.posts | where:"slider", page.slider_section %}
+          {% for item in programme %}
+          <li data-index="rs-{{ forloop.index }}" data-transition="fade" data-slotamount="default" data-easein="default"
+            data-easeout="default" data-masterspeed="default" data-thumb="{{ site.baseurl }}{{ item.hero_image }}"
+            data-rotate="0" data-saveperformance="off" data-title="{{ item.hero_title }}" data-description="">
+            <!-- MAIN IMAGE -->
+            <img src="{{ site.baseurl }}{{ item.hero_image }}" alt="" data-bgposition="center 10%" data-bgfit="cover"
+              data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+            <!-- LAYERS -->
 
-                <!-- LAYER NR. 1 -->
-                <div class="tp-caption tp-resizeme text-layer"
-                  id="rs-{{ forloop.index }}-layer-2"
-                  data-x="['left']"
-                  data-hoffset="['10']"
-                  data-y="['bottom']"
-                  data-voffset="['30']" 
-                  data-width="['1024', '800', '600', '400']" 
-                  data-height="['auto', 'auto', 'auto', 'auto']" 
-                  data-whitespace="normal"
-                  data-basealign="grid"
-                  data-responsive_offset="on"
-                  ><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
-                    <h1>{{ item.hero_title }}</h1>
-                  </a>
-                </div>
-              </li>
-            {% endfor %}
-            </ul>
-          </div>
-          <!-- end .rev_slider -->
-        </div>
-        <!-- end .rev_slider_wrapper -->
-        <script>
-          $(document).ready(function(e) {
-            $(".rev_slider").revolution({
-              sliderType:"standard",
-              sliderLayout: "auto",
-              dottedOverlay: "none",
-              delay: 50000,
-              navigation: {
-                  keyboardNavigation: "off",
-                  keyboard_direction: "horizontal",
-                  mouseScrollNavigation: "off",
-                  onHoverStop: "off",
-                  touch: {
-                      touchenabled: "on",
-                      swipe_threshold: 75,
-                      swipe_min_touches: 1,
-                      swipe_direction: "horizontal",
-                      drag_block_vertical: false
-                  },
-                arrows: {
-                  style:"zeus",
-                  enable:true,
-                  hide_onmobile:true,
-                  hide_under:600,
-                  hide_onleave:true,
-                  hide_delay:200,
-                  hide_delay_mobile:1200,
-                  tmp:'<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div> </div>',
-                  left: {
-                    h_align:"left",
-                    v_align:"center",
-                    h_offset:30,
-                    v_offset:0
-                  },
-                  right: {
-                    h_align:"right",
-                    v_align:"center",
-                    h_offset:30,
-                    v_offset:0
-                  }
-                },
-                bullets: {
-                  enable:true,
-                  hide_onmobile:true,
-                  hide_under:600,
-                  style:"hermes",
-                  hide_onleave:true,
-                  hide_delay:200,
-                  hide_delay_mobile:1200,
-                  direction:"horizontal",
-                  h_align:"center",
-                  v_align:"bottom",
-                  h_offset:0,
-                  v_offset:20,
-                  space:5,
-                  tmp:'<div class="tp-tab-content"><span class="tp-tab-date">{{param1}}</span><span class="tp-tab-title">{{title}}</span></div><div class="tp-tab-image"></div>'
-                }
+            <!-- LAYER NR. 1 -->
+            <div class="tp-caption tp-resizeme text-layer" id="rs-{{ forloop.index }}-layer-2" data-x="['left']"
+              data-hoffset="['10']" data-y="['bottom']" data-voffset="['30']" data-width="['1024', '800', '600', '400']"
+              data-height="['auto', 'auto', 'auto', 'auto']" data-whitespace="normal" data-basealign="grid"
+              data-responsive_offset="on"><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
+                <h1>{{ item.hero_title }}</h1>
+              </a>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <!-- end .rev_slider -->
+    </div>
+    <!-- end .rev_slider_wrapper -->
+    <script>
+      $(document).ready(function (e) {
+        $(".rev_slider").revolution({
+          sliderType: "standard",
+          sliderLayout: "auto",
+          dottedOverlay: "none",
+          delay: 50000,
+          navigation: {
+            keyboardNavigation: "off",
+            keyboard_direction: "horizontal",
+            mouseScrollNavigation: "off",
+            onHoverStop: "off",
+            touch: {
+              touchenabled: "on",
+              swipe_threshold: 75,
+              swipe_min_touches: 1,
+              swipe_direction: "horizontal",
+              drag_block_vertical: false
+            },
+            arrows: {
+              style: "zeus",
+              enable: true,
+              hide_onmobile: true,
+              hide_under: 600,
+              hide_onleave: true,
+              hide_delay: 200,
+              hide_delay_mobile: 1200,
+              tmp: '<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div> </div>',
+              left: {
+                h_align: "left",
+                v_align: "center",
+                h_offset: 30,
+                v_offset: 0
               },
-              responsiveLevels: [1240, 1024, 778],
-              visibilityLevels: [1240, 1024, 778],
-              gridwidth: [1170, 1024, 778, 480],
-              gridheight: [500, 768, 960, 720],
-              lazyType: "none",
-              parallax: {
-                  origo: "slidercenter",
-                  speed: 1000,
-                  levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 100, 55],
-                  type: "scroll"
-              },
-              shadow: 0,
-              spinner: "off",
-              stopLoop: "on",
-              stopAfterLoops: 0,
-              stopAtSlide: -1,
-              shuffle: "off",
-              autoHeight: "off",
-              fullScreenAutoWidth: "off",
-              fullScreenAlignForce: "off",
-              fullScreenOffsetContainer: "",
-              fullScreenOffset: "0",
-              hideThumbsOnMobile: "off",
-              hideSliderAtLimit: 0,
-              hideCaptionAtLimit: 0,
-              hideAllCaptionAtLilmit: 0,
-              debugMode: false,
-              fallbacks: {
-                  simplifyAll: "off",
-                  nextSlideOnWindowFocus: "off",
-                  disableFocusListener: false,
+              right: {
+                h_align: "right",
+                v_align: "center",
+                h_offset: 30,
+                v_offset: 0
               }
-            });
-          });
-        </script>
-        <!-- Slider Revolution Ends -->
+            },
+            bullets: {
+              enable: true,
+              hide_onmobile: true,
+              hide_under: 600,
+              style: "hermes",
+              hide_onleave: true,
+              hide_delay: 200,
+              hide_delay_mobile: 1200,
+              direction: "horizontal",
+              h_align: "center",
+              v_align: "bottom",
+              h_offset: 0,
+              v_offset: 20,
+              space: 5,
+              tmp: '<div class="tp-tab-content"><span class="tp-tab-date">{{param1}}</span><span class="tp-tab-title">{{title}}</span></div><div class="tp-tab-image"></div>'
+            }
+          },
+          responsiveLevels: [1240, 1024, 778],
+          visibilityLevels: [1240, 1024, 778],
+          gridwidth: [1170, 1024, 778, 480],
+          gridheight: [500, 768, 960, 720],
+          lazyType: "none",
+          parallax: {
+            origo: "slidercenter",
+            speed: 1000,
+            levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 100, 55],
+            type: "scroll"
+          },
+          shadow: 0,
+          spinner: "off",
+          stopLoop: "on",
+          stopAfterLoops: 0,
+          stopAtSlide: -1,
+          shuffle: "off",
+          autoHeight: "off",
+          fullScreenAutoWidth: "off",
+          fullScreenAlignForce: "off",
+          fullScreenOffsetContainer: "",
+          fullScreenOffset: "0",
+          hideThumbsOnMobile: "off",
+          hideSliderAtLimit: 0,
+          hideCaptionAtLimit: 0,
+          hideAllCaptionAtLilmit: 0,
+          debugMode: false,
+          fallbacks: {
+            simplifyAll: "off",
+            nextSlideOnWindowFocus: "off",
+            disableFocusListener: false,
+          }
+        });
+      });
+    </script>
+    <!-- Slider Revolution Ends -->
   </div>
 </section>
 {% else %}
 
-  {% if page.color_scheme %}
-    {% assign colorscheme = page.color_scheme %}
-  {% else %}
-    {% assign colorscheme = 'dark-gray' %}
-  {% endif %}
-  {% if page.hero_video %}
-
-    <section id="hero" class="inner-header divider"  >
-      <div class="bg-video">
-        <div id="home-video" class="video" data-bg-img="{{page.hero_image}}" >
-          <div class="player video-container" data-property="{videoURL:'pW1uVUg5wXM',containment:'#home-video',autoPlay:true, showControls:false, mute:false, startAt:0, opacity:1}" ></div>
-        </div>
-      </div>
-      <div class="display-table">
-        <div class="display-table-cell">
-          <div class="container">
-            <!-- Section Content -->
-            <div class="section-content">
-              <div class="row">
-                <div class="col-md-12">
-                  <h1 class="title">{{ page.hero_title }}</h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-  {% elsif page.hero_image %}
-    <section id="hero" 
-             class="inner-header divider gradient" 
-             data-bg-img="{{ site.baseurl }}{{ page.hero_image }}" 
-             style="background-image: url({{ site.baseurl }}{{ page.hero_image }}); ">
-      {% if page.section %}
-      <!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
-            <span style="white-space: nowrap">{{page.section}}</span>
-        </div-->
-      {% endif %}
-      <div class="container">
-        <!-- Section Content -->
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-              <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %} -->
-              <h1 class="title">{{ page.hero_title }}</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  {% elsif page.hero_title %}
-
-    <section id="hero" 
-             class="inner-header no-hero divider ">
-      {% if page.section %}
-      <!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
-            <span>{{page.section}}</span>
-        </div-->
-      {% endif %}
-      <div class="container">
-        <!-- Section Content -->
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-              <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %}-->
-              <h1 class="title">{{ page.hero_title }}</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  {% endif %}
-
+{% if page.color_scheme %}
+{% assign colorscheme = page.color_scheme %}
+{% else %}
+{% assign colorscheme = 'dark-gray' %}
 {% endif %}
+{% if page.hero_video %}
 
-  <div id="breadcrumbs">
-    <div class="container mt-0 pt-0 mb-0 pb-0">
-      <div class="section-content">
-        <div class="row">
-          <div class="col-md-12">
-            <ol class="breadcrumb">
-              {% for item in page.breadcrumbs %}
-                <li><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">{{item.title}}</a></li>
-              {% endfor %}
-              <li><a href="{{ site.baseurl }}{{ page.url | replace_first: '/', '' }}" class="active text-gray-silver">{{page.title}}</a></li>
-            </ol>
+<section id="hero" class="inner-header divider">
+  <div class="bg-video">
+    <div id="home-video" class="video" data-bg-img="{{page.hero_image}}">
+      <div class="player video-container"
+        data-property="{videoURL:'pW1uVUg5wXM',containment:'#home-video',autoPlay:true, showControls:false, mute:false, startAt:0, opacity:1}">
+      </div>
+    </div>
+  </div>
+  <div class="display-table">
+    <div class="display-table-cell">
+      <div class="container">
+        <!-- Section Content -->
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12">
+              <h1 class="title">{{ page.hero_title }}</h1>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+</section>
+
+{% elsif page.hero_image %}
+<section id="hero" class="inner-header divider gradient" data-bg-img="{{ site.baseurl }}{{ page.hero_image }}"
+  style="background-image: url({{ site.baseurl }}{{ page.hero_image }}); ">
+  {% if page.section %}
+  <!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
+            <span style="white-space: nowrap">{{page.section}}</span>
+        </div-->
+  {% endif %}
+  {% if site.brand == 'unibw' %}
+  <div class="container">
+    <!-- Section Content -->
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %} -->
+          <h1 class="title">{{ page.hero_title }}</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+</section>
+{% if site.brand == 'dtec' %}
+<section id="title" class=""></section>
+<div class="container">
+  <!-- Section Content -->
+  <div class="section-content">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="title">{{ page.hero_title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{% endif %}
+
+
+{% elsif page.hero_title %}
+
+
+{% if page.section %}
+<!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
+            <span>{{page.section}}</span>
+        </div-->
+{% endif %}
+<div class="container">
+  <!-- Section Content -->
+  <div class="section-content">
+    <div class="row">
+      <div class="col-md-12">
+        <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %}-->
+        <h1 class="title">{{ page.hero_title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+{% endif %}
+
+{% endif %}
+
+<div id="breadcrumbs">
+  <div class="container mt-0 pt-0 mb-0 pb-0">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12">
+          <ol class="breadcrumb">
+            {% for item in page.breadcrumbs %}
+            <li><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">{{item.title}}</a></li>
+            {% endfor %}
+            <li><a href="{{ site.baseurl }}{{ page.url | replace_first: '/', '' }}"
+                class="active text-gray-silver">{{page.title}}</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
