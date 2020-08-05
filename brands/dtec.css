@@ -1,5 +1,26 @@
 // DTec specific styles
-.dtec {color: red;}
+/* colour values */
+
+/*
+
+main grays:
+dark-gray: #646363 75% Schwarz
+light-gray: #9D9D9C 50% Schwarz
+orange: #ED6E00
+pink: #C3004A
+
+shades of gray
+
+40 % Schwarz
+30 % Schwarz
+20 % Schwarz
+10 % Schwarz
+
+*/
+
+/* if we need the focus, take the dark gray color instead orange */
+
+header :focus, footer :focus, ol :focus, ul :focus { border: none; }
 
 .header-nav {
 	background: transparent;
@@ -12,9 +33,11 @@
 	background-image:url('../media/dtec/bg_main_nav.png');
 	background-position: center bottom;
     background-repeat: no-repeat;
-	border-bottom: 1px solid white !important;
+	border-bottom: none !important;
 }
-.menuzord { margin-bottom: 5px; background: transparent; }
+.menuzord { margin-bottom: 6px; background: transparent; }
+
+#header .header-nav .header-nav-wrapper .menuzord { background-color: transparent; }
 
 #hero .title,
 #breadcrumbs {display: none !important;}
@@ -23,23 +46,202 @@
 
 /* main styles */
 #athene{
-    top: -70px;
-    height: 70px;
+    top: -100px;
+    height: 90px;
 }
 #athene.bumped {
-      top: -50px;
+      top: 0;
       opacity: 0;
 }
 #athene a {
-        background: url("../media/dtec/logo_dtec_big.png");
+        background: url("../media/dtec/dtec.bw_Logo_RGB.svg");
         background-size: cover;
         color: transparent;
-        width: 334px;
-        height: 63px;
-        margin-left: -15px;
+        width: 420px;
+        height: 90px;
+        margin-left: auto;
+}
+
+#athene a:before {
+            display: none;
+        }
+
+/* menu styles */
+
+/*
+
+mini-logo height should be 49px !
+
+#global-navigation {
+    position: relative;
+    height: 51px;
+    line-height: 42px;
+    nav {
+        position: relative;
+        z-index: 2;
+        float: left;
+        a {
+          &.site-logo {
+            border-radius: 0;
+            background-size: cover;
+            margin-right: 20px;
+            height: 36px;
+          }
+        }
+        &.secondary {
+          z-index: 3;
+        }
+    }
+}
+*/
+
+.menuzord-menu>li>a,
+.menuzord-menu>li:hover>a
+ {
+    background: transparent;
+    border: none;
+}
+
+.menuzord .menuzord-menu ul.dropdown li:hover>a, 
+.menuzord .menuzord-menu>li.active>a, 
+.menuzord .menuzord-menu>li:hover>a,
+#header .header-nav .header-nav-wrapper .menuzord-menu > .active > a  {
+    background: transparent none repeat scroll 0 0;
+    color: #646363;
+    font-weight: bolder;
+    border: none;
 }
 
 /* module styles */
 section .module-title {
 	text-transform: none;
+}
+
+.icon-box .icon.icon-gray:hover {
+  color: #4B4A4A;
+}
+
+/* colour schemes */
+.scheme-white {}
+
+.scheme-white .text-white { color: #282828 !important; }
+
+.scheme-light-grey { background-color: #E3E2E2 !important; }
+.scheme-light-grey .text-white { color: #282828 !important;}
+
+.scheme-uni-grey { background-color: #646363 !important; }
+.scheme-uni-grey .list-group-item { background-color: #FDFCFC; } 
+.scheme-uni-grey .btn-theme-colored {
+        background-color: #B1B0B0;
+        border-color: #B1B0B0;
+    }
+.scheme-uni-grey .btn-theme-colored:hover,
+.scheme-uni-grey .btn-theme-colored:active,
+.scheme-uni-grey .btn-theme-colored:focus {
+        background-color: #979696;
+        border-color: #979696;
+    }
+.scheme-uni-grey .icon-box .text-gray,
+.scheme-uni-grey p.text-gray,
+.scheme-uni-grey h6.text-gray  { color: grey !important; }   
+.scheme-uni-grey .icon-box .icon.icon-gray { background-color: #CAC9C9 }
+.scheme-uni-grey .bg-deep { background-color: #FDFCFC !important; }
+.scheme-uni-grey .howto p.text-gray { color: #CAC9C9 !important;  }
+
+.scheme-uni-orange { background-color: #9D9D9C !important; }
+.scheme-uni-orange .list-group-item { background-color: #FDFCFC; }   
+.scheme-uni-orange .icon-box .icon.icon-gray { background-color: #E3E2E2; }
+.scheme-uni-orange .bg-deep { background-color: #FDFCFC !important; }
+.scheme-uni-orange .howto .icon-white { border-color: #E3E2E2  !important; }
+.scheme-uni-orange .howto p.text-gray { color: #E3E2E2 !important;  }
+
+.scheme-middle-grey { background-color: #9D9D9C !important; } 
+.scheme-middle-grey .list-group-item {  background-color: #FDFCFC; }
+.scheme-middle-grey .icon-box .icon.icon-gray { background-color: #E3E2E2; }
+.scheme-middle-grey .bg-deep { background-color: #FDFCFC !important; }
+.scheme-middle-grey .howto p.text-gray { color: #CAC9C9 !important;  }
+
+.scheme-dark-blue { background-color: #646363 !important; }
+.scheme-dark-blue .btn-theme-colored {
+        background-color: #B1B0B0;
+        border-color: #B1B0B0;
+    }
+.scheme-dark-blue .btn-theme-colored:hover,
+.scheme-dark-blue .btn-theme-colored:active,
+.scheme-dark-blue .btn-theme-colored:focus {
+        background-color: #979696;
+        border-color: #979696;
+    }
+.scheme-dark-blue .icon-box .icon.icon-gray { background-color: #E3E2E2 } 
+.scheme-dark-blue .bg-deep { background-color: #FDFCFC !important; }
+.scheme-dark-blue .howto p.text-gray { color: #CAC9C9 !important;  }
+
+.scheme-white .list-group-item a,
+.scheme-uni-grey .list-group-item a,
+.scheme-light-grey .list-group-item a,
+.scheme-middle-grey .list-group-item a,
+.scheme-uni-orange .list-group-item a,
+.scheme-dark-blue .list-group-item a
+ {
+    color: #7EAAC0 !important;
+}
+
+.scheme-white .list-group-item a :hover,
+.scheme-white  .list-group-item a :active,
+.scheme-white  .list-group-item a :focus,
+.scheme-white  .list-group-item a :visited,
+.scheme-uni-grey .list-group-item a :hover,
+.scheme-uni-grey  .list-group-item a :active,
+.scheme-uni-grey  .list-group-item a :focus,
+.scheme-uni-grey  .list-group-item a :visited,
+.scheme-uni-orange .list-group-item a :hover,
+.scheme-uni-orange .list-group-item a :active,
+.scheme-uni-orange .list-group-item a :focus,
+.scheme-uni-orange .list-group-item a :visited,
+.scheme-middle-grey .list-group-item a :hover,
+.scheme-middle-grey .list-group-item a :active,
+.scheme-middle-grey .list-group-item a :focus,
+.scheme-middle-grey .list-group-item a :visited,
+.scheme-light-grey .list-group-item a :hover,
+.scheme-light-grey .list-group-item a :active,
+.scheme-light-grey .list-group-item a :focus,
+.scheme-light-grey .list-group-item a :visited,
+.scheme-dark-blue .list-group-item a :hover,
+.scheme-dark-blue .list-group-item a :active,
+.scheme-dark-blue .list-group-item a :focus,
+.scheme-dark-blue .list-group-item a :visited 
+  {
+    color: #518196 !important;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+/* footer styles */
+.layer-overlay.overlay-dark-9::before {
+    background-color: #646363;
+}
+
+
+.footer .text-theme-color-2, 
+.footer .work-gallery .gallery-bottom-part .title {
+    color: #fff;
+}
+
+.footer a,
+.footer a:hover,
+.footer a:visited,
+.footer a:active,
+.footer a:focus { color: #fff; border: none;}
+
+footer .widget .list-inline li + li {
+    border-left: 1px solid white;
+}
+
+
+/* Mobile mode (Responsive mode) */
+@media (max-width: 900px){
+    /* Menu items */
+#header .header-nav .header-nav-wrapper .menuzord { margin-bottom: 12px; }
 }

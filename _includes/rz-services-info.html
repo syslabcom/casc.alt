@@ -1,13 +1,13 @@
 {% for item in site.posts %}
 {% if item.name == include.pagename %}
-<section class="call-to-action bg-theme-colored">
+<section class="call-to-action scheme-{{include.color_scheme}}">
   <div class="container p-0">
 
     <div class="section-content">
       <div class="row">
         <div class="col-md-12">
 
-          <div class="pt-40 pb-40 pl-40 bg-theme-colored">
+          <div class="pt-40 pb-40 pl-40">
             <div class="row">
               <a href="{{ item.button_url }} ">
               <div class="col-xs-12 col-sm-8 col-md-8">

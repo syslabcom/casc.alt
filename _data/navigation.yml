@@ -549,8 +549,22 @@
     id: hsu
     url: dtec-hsu.html
   - title: Forschung
-    id: forschung
-    url: dtec-forschung.html
+    children: 
+    - title: StudBer
+      children:
+      - title: Aero
+      - title: Alpha
+      - title: Bravo
+      - title: Charlie
+      - title: Delta
+    - title: Studienbeginn
+    - title: Liegenschaft
+    - title: SanVZ
+    - title: Sportfördergruppe
+    - title: Betreuung / Fürsorge
+    - title: IG/AG
+    - title: Interessenvertretungen
+    - title: Links
   - title: Gründungen
     id: gruendungen
     url: gruendungen.html

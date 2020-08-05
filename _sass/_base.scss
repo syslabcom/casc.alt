@@ -470,6 +470,7 @@ a {
         .header-nav-wrapper {
             background-color: white;
             .menuzord {
+                background-color: white;
             }
             .menuzord-menu {
                 > .active {
@@ -525,8 +526,11 @@ a {
       opacity: 0;
     }
     a {
+        background: url("../media/logos/logo-unibw-brandmark.svg");
         background-size: cover;
         color: transparent;
+        width: 330px;
+        height: 53px;
         display: block;
         transition: all 0.5s;
         margin-left: -15px;
@@ -535,6 +539,7 @@ a {
         }
         &:before {
             content: ' ';
+            background: url("../media/logos/logo-unibw-text.svg");
             background-size: cover;
             width: 330px;
             height: 53px;
@@ -880,6 +885,9 @@ section {
             font-size: $base-font-size;
         }
     }
+    .module-title {
+        text-transform: uppercase;
+    }
     .hero-content {
         table>tbody>tr>td, 
         table>tbody>tr>th, 
@@ -1002,6 +1010,11 @@ section.gradient:after,
     }
     ul.list li {   
       padding-left: 0;
+    }
+    .widget .list-inline li {
+        height: 18px;
+        line-height: 18px;
+        padding: 0 18px;
     }
 }
 
