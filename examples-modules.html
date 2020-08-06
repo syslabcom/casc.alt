@@ -49,6 +49,35 @@ scats:
   icon: edit
   url: #
 
+downloads:
+- title: Broschüre des Studiengangs Bauingenieurwesen und Umweltwissenschaften
+  tab: Allgemeine Informationen
+  url: https://www.unibw.de/bauv/studium/Baubroschuere2008.pdf
+- title: Allgemeine Prüfungsordnungen / Studienordnungen / Modulhandbücher
+  tab: Allgemeine Informationen
+  url: https://www.unibw.de/rz/dokumente/ordnungen?id=196273&tid=ordnungen
+- title: Regelungen zum Übergang vom Bachelor- in den Masterstudien
+  tab: Allgemeine Informationen
+  url: https://www.unibw.de/bauv/studium/uebergangsregelung-web.pdf
+- title: Stundenplan WT2017
+  tab: Stundenpläne
+  url: https://www.unibw.de/bauv/studium/stundenplanwt17-neu.pdf
+- title: Stundenplan WFT2017
+  tab: Stundenpläne
+  url: https://www.unibw.de/bauv/studium/stundenplanft17.pdf
+- title: FPO Ba BAU Okt. 2011
+  tab: Bachelor-Studiengang
+  url: https://www.unibw.de/rz/dokumente/ordnungen/getFILE?fid=6383699&tid=ordnungen
+- title: Modulhandbuch 2016
+  tab: Bachelor-Studiengang
+  url: https://www.unibw.de/bauv/studium/modulhandbuch-bsc-bau-2016-hisinone-stand-vom-22.pdf
+- title: FPO Ma BAU Jan. 2016
+  tab: Master-Studiengang
+  url: https://www.unibw.de/rz/dokumente/ordnungen/getFILE?fid=9359751&id=ordnungen
+- title: Modulhandbuch 2017
+  tab: Master-Studiengang
+  url: https://w
+
 gallery:
 - title: Mathematik und Bauinformatik
   description: Mathematik und Bauinformatik hier kommt noch mehr Text
@@ -86,7 +115,15 @@ gallery:
   description: Mathematik und Bauinformatik hier kommt noch mehr Text
   img: media/bau/geodaesie.jpg
   url: /bau_professur_geodaesie.html
+accordion-intro: bau-schwerpunkte-und-profile
+accordion:
+- name: bau-karriere
+- name: bau-inhalte
+- name: bau-inhalte
+- name: bau-inhalte
 ---
+
+{% include contact-search.html title="Wie können wir Ihnen helfen?" description="Verwenden Sie die Suchfunktion, um die Hilfeseiten des Rechenzentrums nach einer Lösung zu durchsuchen." %}
 
 {% include rz-services-info.html pagename="rz-datenablage-info" color_scheme="white" %}
 {% include rz-services-info.html pagename="rz-datenablage-info" color_scheme="uni-grey" %}
@@ -95,13 +132,38 @@ gallery:
 {% include rz-services-info.html pagename="rz-datenablage-info" color_scheme="light-grey" %}
 {% include rz-services-info.html pagename="rz-datenablage-info" color_scheme="dark-blue" %}
 
+{% include downloads.html title="Downloads" %}
+
+{% include modul_text-zwei-spalten.html %}
+
+{% include accordion.html %}
+
+{% include page-teaser-img-left.html pagename="werkstoffe-wir-bilden-aus" color_scheme="white" %}
+{% include page-teaser-img-left.html pagename="werkstoffe-wir-bilden-aus" color_scheme="uni-grey" %}
+{% include page-teaser-img-left.html pagename="werkstoffe-wir-bilden-aus" color_scheme="uni-orange" %}
+{% include page-teaser-img-left.html pagename="werkstoffe-wir-bilden-aus" color_scheme="middle-grey" %}
+{% include page-teaser-img-left.html pagename="werkstoffe-wir-bilden-aus" color_scheme="light-grey" %}
+{% include page-teaser-img-left.html pagename="werkstoffe-wir-bilden-aus" color_scheme="dark-blue" %}
+
+{% include gallery.html pagename="rz-support-email-howtos" title="Gallery" color_scheme="white" %}
+{% include gallery.html pagename="rz-support-email-howtos" title="Gallery" color_scheme="uni-grey" %}
+{% include gallery.html pagename="rz-support-email-howtos" title="Gallery" color_scheme="uni-orange" %}
+{% include gallery.html pagename="rz-support-email-howtos" title="Gallery" color_scheme="middle-grey" %}
+{% include gallery.html pagename="rz-support-email-howtos" title="Gallery" color_scheme="light-grey" %}
+{% include gallery.html pagename="rz-support-email-howtos" title="Gallery" color_scheme="dark-blue" %}
 
 
-{% include downloads.html title="Downloads" color_scheme="white" %}
-{% include downloads.html title="Downloads" ccolor_scheme="uni-grey" %}
-{% include downloads.html title="Downloads" ccolor_scheme="uni-orange" %}
-{% include downloads.html title="Downloads" ccolor_scheme="middle-grey" %}
-{% include downloads.html title="Downloads" ccolor_scheme="light-grey" %}
-{% include downloads.html title="Downloads" ccolor_scheme="dark-blue" %}
+{% include gallery-extended.html pagename="rz-support-email-howtos" title="Gallery extended" color_scheme="white" %}
+{% include gallery-extended.html pagename="rz-support-email-howtos" title="Gallery extended" color_scheme="uni-grey" %}
+{% include gallery-extended.html pagename="rz-support-email-howtos" title="Gallery extended" color_scheme="uni-orange" %}
+{% include gallery-extended.html pagename="rz-support-email-howtos" title="Gallery extended" color_scheme="middle-grey" %}
+{% include gallery-extended.html pagename="rz-support-email-howtos" title="Gallery extended" color_scheme="light-grey" %}
+{% include gallery-extended.html pagename="rz-support-email-howtos" title="Gallery extended" color_scheme="dark-blue" %}
 
-{% include gallery.html pagename="rz-support-email-howtos" title="Howtos" color_scheme="white" %}
+
+{% include fulltext-bg-image.html pagename="bw-berufsfeld" title="Fulltext" color_scheme="white" %}
+{% include fulltext-bg-image.html pagename="bw-berufsfeld" title="Fulltext" color_scheme="uni-grey" %}
+{% include fulltext-bg-image.html pagename="bw-berufsfeld" title="Fulltext" color_scheme="uni-orange" %}
+{% include fulltext-bg-image.html pagename="bw-berufsfeld" title="Fulltext" color_scheme="middle-grey" %}
+{% include fulltext-bg-image.html pagename="bw-berufsfeld" title="Fulltext" color_scheme="light-grey" %}
+{% include fulltext-bg-image.html pagename="bw-berufsfeld" title="Fulltext" color_scheme="dark-blue" %}

@@ -3,9 +3,13 @@
     <div class="section-content">
     
       <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h2 class="title font-36 text-theme-color-2">{{ include.title }}</h2>
+        <div class="col-md-12">
+          {% if include.title  %}<h2 class="title font-36 text-theme-color-2">{{ include.title }}</h2>{% endif %}
           <p>{{ include.description }}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
           
           <!-- Mailchimp Subscription Form-->
           <form id="mailchimp-subscription-form1" class="newsletter-form">

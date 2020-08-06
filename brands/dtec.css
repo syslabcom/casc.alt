@@ -19,8 +19,11 @@ shades of gray
 */
 
 /* if we need the focus, take the dark gray color instead orange */
-
 header :focus, footer :focus, ol :focus, ul :focus { border: none; }
+
+a { color: #7EAAC0; }
+a:hover,
+a:focus { color: #518196; }
 
 .header-nav {
 	background: transparent;
@@ -38,9 +41,13 @@ header :focus, footer :focus, ol :focus, ul :focus { border: none; }
 .menuzord { margin-bottom: 6px; background: transparent; }
 
 #header .header-nav .header-nav-wrapper .menuzord { background-color: transparent; }
-
+/*
 #hero .title,
 #breadcrumbs {display: none !important;}
+*/
+
+.main-title { margin-top: 70px; }
+.main-content section:first-child>.container  { padding-top: 0px; }
 
 .bg-theme-color-2, .line-bottom-center:after, .line-bottom:after { background: transparent !important; }
 
@@ -113,9 +120,12 @@ mini-logo height should be 49px !
 }
 
 /* module styles */
+section.bg-lighter { background-color: #fff !important; }
 section .module-title {
 	text-transform: none;
 }
+
+.text-theme-color-2 { color: #282828; }
 
 .icon-box .icon.icon-gray:hover {
   color: #4B4A4A;
@@ -125,9 +135,11 @@ section .module-title {
 .scheme-white {}
 
 .scheme-white .text-white { color: #282828 !important; }
+.scheme-white.overlay-theme-colored-8:before { background-color: rgba(255, 255, 255, 0.8) !important; }
 
 .scheme-light-grey { background-color: #E3E2E2 !important; }
 .scheme-light-grey .text-white { color: #282828 !important;}
+.scheme-light-grey.overlay-theme-colored-8:before { background-color: rgba(227, 226, 226, 0.8) !important; }
 
 .scheme-uni-grey { background-color: #646363 !important; }
 .scheme-uni-grey .list-group-item { background-color: #FDFCFC; } 
@@ -147,6 +159,7 @@ section .module-title {
 .scheme-uni-grey .icon-box .icon.icon-gray { background-color: #CAC9C9 }
 .scheme-uni-grey .bg-deep { background-color: #FDFCFC !important; }
 .scheme-uni-grey .howto p.text-gray { color: #CAC9C9 !important;  }
+.scheme-uni-grey.overlay-theme-colored-8:before { background-color: rgba(100, 99, 99, 0.8) !important; }
 
 .scheme-uni-orange { background-color: #9D9D9C !important; }
 .scheme-uni-orange .list-group-item { background-color: #FDFCFC; }   
@@ -154,12 +167,14 @@ section .module-title {
 .scheme-uni-orange .bg-deep { background-color: #FDFCFC !important; }
 .scheme-uni-orange .howto .icon-white { border-color: #E3E2E2  !important; }
 .scheme-uni-orange .howto p.text-gray { color: #E3E2E2 !important;  }
+.scheme-uni-orange.overlay-theme-colored-8:before { background-color: rgba(157, 157, 156, 0.8) !important; }
 
 .scheme-middle-grey { background-color: #9D9D9C !important; } 
 .scheme-middle-grey .list-group-item {  background-color: #FDFCFC; }
 .scheme-middle-grey .icon-box .icon.icon-gray { background-color: #E3E2E2; }
 .scheme-middle-grey .bg-deep { background-color: #FDFCFC !important; }
 .scheme-middle-grey .howto p.text-gray { color: #CAC9C9 !important;  }
+.scheme-middle-grey.overlay-theme-colored-8:before { background-color: rgba(157, 157, 156, 0.8) !important; }
 
 .scheme-dark-blue { background-color: #646363 !important; }
 .scheme-dark-blue .btn-theme-colored {
@@ -175,6 +190,7 @@ section .module-title {
 .scheme-dark-blue .icon-box .icon.icon-gray { background-color: #E3E2E2 } 
 .scheme-dark-blue .bg-deep { background-color: #FDFCFC !important; }
 .scheme-dark-blue .howto p.text-gray { color: #CAC9C9 !important;  }
+.scheme-dark-blue.overlay-theme-colored-8:before { background-color: rgba(100, 99, 99, 0.8) !important; }
 
 .scheme-white .list-group-item a,
 .scheme-uni-grey .list-group-item a,
@@ -213,6 +229,8 @@ section .module-title {
   {
     color: #518196 !important;
 }
+
+section.gallery-extended .post { margin-bottom: 15px; }
 
 .btn {
     border-radius: 0;
