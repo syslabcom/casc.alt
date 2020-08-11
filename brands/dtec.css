@@ -41,13 +41,16 @@ a:focus { color: #518196; }
 .menuzord { margin-bottom: 6px; background: transparent; }
 
 #header .header-nav .header-nav-wrapper .menuzord { background-color: transparent; }
+
 /*
-#hero .title,
 #breadcrumbs {display: none !important;}
 */
 
-.main-title { margin-top: 70px; }
+#hero-title .container { padding-top: 50px; padding-bottom: 0px; }
+
+/* taken out because that looked not good when a title is picked for the module or the module is coloured 
 .main-content section:first-child>.container  { padding-top: 0px; }
+*/
 
 .bg-theme-color-2, .line-bottom-center:after, .line-bottom:after { background: transparent !important; }
 
@@ -123,6 +126,10 @@ mini-logo height should be 49px !
 section.bg-lighter { background-color: #fff !important; }
 section .module-title {
 	text-transform: none;
+    font-weight: bolder;
+}
+section .module-title.line-bottom {
+    margin-bottom: 15px;
 }
 
 .text-theme-color-2 { color: #282828; }
@@ -130,6 +137,29 @@ section .module-title {
 .icon-box .icon.icon-gray:hover {
   color: #4B4A4A;
 }
+
+section.events-listing,
+section#events-list {
+        background-color: #646363;
+}
+section.events-listing .btn-theme-colored {
+        background-color: #B1B0B0;
+        border-color: #B1B0B0;
+    }
+section.events-listing .btn-theme-colored:hover,
+section.events-listing .btn-theme-colored:active,
+section.events-listing .btn-theme-colored:focus {
+        background-color: #979696;
+        border-color: #979696;
+    }
+
+blockquote {
+    border-left: 3px solid #646363;
+}
+
+.unibworange-text { color: #646363; }
+.unibworange-background { background-color: #646363; }
+.unibworange-border { border-color: #646363; }
 
 /* colour schemes */
 .scheme-white {}
@@ -256,7 +286,6 @@ section.gallery-extended .post { margin-bottom: 15px; }
 footer .widget .list-inline li + li {
     border-left: 1px solid white;
 }
-
 
 /* Mobile mode (Responsive mode) */
 @media (max-width: 900px){

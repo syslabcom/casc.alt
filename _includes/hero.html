@@ -1,5 +1,5 @@
 {% if page.slider_section %}
-<section id="home">
+<section id="home" class="divider">
   <div class="container-fluid p-0">
     <!-- Slider Revolution Start -->
     <div class="rev_slider_wrapper">
@@ -150,7 +150,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="title">{{ page.hero_title }}</h1>
+                {% if site.brand == 'unibw' %}<h1 class="title">{{ page.hero_title }}</h1>{% endif %}
             </div>
           </div>
         </div>
@@ -182,25 +182,10 @@
   </div>
   {% endif %}
 </section>
-{% if site.brand == 'dtec' %}
-<section id="title" class=""></section>
-<div class="main-title container">
-  <!-- Section Content -->
-  <div class="section-content">
-    <div class="row">
-      <div class="col-md-12">
-        <h1 class="title">{{ page.hero_title }}</h1>
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-{% endif %}
-
 
 {% elsif page.hero_title %}
 
-
+{% if site.brand == 'unibw' %}
 {% if page.section %}
 <!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
             <span>{{page.section}}</span>
@@ -208,7 +193,7 @@
 {% endif %}
 <div class="container">
   <!-- Section Content -->
-  <div class="main-title section-content">
+  <div class="section-content">
     <div class="row">
       <div class="col-md-12">
         <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %}-->
@@ -218,6 +203,7 @@
   </div>
 </div>
 </section>
+{% endif %}
 
 {% endif %}
 
@@ -240,3 +226,19 @@
     </div>
   </div>
 </div>
+
+
+{% if site.brand == 'dtec' %}
+<section id="hero-title" class="">
+<div class="container">
+  <!-- Section Content -->
+  <div class="section-content">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="title">{{ page.hero_title }}</h1>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+{% endif %}
