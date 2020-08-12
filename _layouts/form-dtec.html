@@ -1,0 +1,161 @@
+---
+layout: generic
+---
+<section id="hero-title">
+  <div class="container">
+    <!-- Section Content -->
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="title" i18n:translate="">Ihre Kontaktaufnahme mit dtec.bw</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="divider">
+      <div class="container pt-30">
+        <div class="row">
+          <div class="col-md-12">
+    
+            <form id="contact_form"  data-disable="false" role="form" novalidate="true">
+
+              <legend>Persönliche Daten</legend>
+              <div class="row">
+                  <div class="col-sm-2">
+                      <div class="form-group">
+                              <select class="form-control" required="" data-required-error="Füllen Sie dieses Feld aus.">
+                                  <option>Herr</option>
+                                  <option>Frau</option>
+                              </select>
+                      </div> 
+                  </div>
+                  <div class="col-sm-5">
+                      <div class="form-group">
+                              <input type="text" class="form-control" id="titel" placeholder="Titel" required="" pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus." />
+                      </div>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-sm-6">
+                      <div class="form-group">
+                              <input type="text" class="form-control" id="firstName" placeholder="Vorname" required="" pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus." />
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="form-group">
+                              <input type="text" class="form-control" id="lastName" placeholder="Nachname" required="" pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus." />
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-sm-12">
+                      <div class="form-group">
+                              <input type="text" class="form-control" id="street" placeholder="Straße, Hausnummer" required="" pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus." />
+                      </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-2">
+                      <div class="form-group">
+                              <input type="text" class="form-control" id="plz" placeholder="PLZ" required="" data-required-error="Füllen Sie dieses Feld aus." pattern="^[0-9 ]*$" data-pattern-error="Es sind ausschließlich Zahlen erlaubt." />
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="form-group">            
+                              <input type="text" class="form-control" id="city" placeholder="Ort" required="" pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus." />
+                      </div>
+                  </div>
+                  <div class="col-sm-4">
+                      <div class="form-group">            
+                              <input type="text" class="form-control" id="country" placeholder="Land" required="" pattern="^[a-zA-Z- ]+$" data-pattern-error="Es sind ausschließlich Buchstaben und Bindestrich erlaubt." data-required-error="Füllen Sie dieses Feld aus." />
+                      </div>
+                  </div>
+              </div>
+
+              <div class="row">
+                  <div class="col-sm-6">
+                      <div class="form-group">
+                              <input type="email" class="form-control" id="email" placeholder="Email" required="" data-required-error="Füllen Sie dieses Feld aus." data-error="Bitte geben Sie eine gültige Emailadresse ein." />
+                      </div>
+                  </div>
+                  <div class="col-sm-6">
+                      <div class="form-group">
+
+                              <input type="text" class="form-control" id="phone" placeholder="Tel" required="" data-required-error="Füllen Sie dieses Feld aus." pattern="^[0-9 ]*$" data-pattern-error="Es sind ausschließlich Zahlen erlaubt." />
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="heading-line-bottom">
+                <h4 class="heading-title">Ich interessiere mich für folgendes Weiterbildungsprogramm</h4>
+              </div>
+              <div class="row">
+                  <div class="col-sm-8">
+                      <div class="form-group">
+                        <select class="form-control" required="" data-required-error="Füllen Sie dieses Feld aus.">
+                          {% assign footeritems = site.posts | where:"footer","Programme" | sort: 'title' %}
+                          {% for item in footeritems %}
+                            <option value="{{ item.title }}">{{ item.title }}</option>
+                          {% endfor %}
+                        </select>
+                      </div> 
+                  </div>
+              </div>
+
+              <div class="form-group">
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" name="infomaterial" value="on">
+                      Unser Unternehmen/Ministerium ist an einer Kooperation/Partnerschaft mit dtec.bw interessiert. Bitte nehmen Sie mit uns Kontakt auf./</label>
+                  </div>
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox" name="gespraechstermin" value="on">
+                      *Die <a href="#" title="Datenschutzerklärung">Datenschutzerklärung</a> von dtec.bw habe ich gelesen und bin mit der Verarbeitung meiner hier eingegebenen Daten für eine persönliche Kontakaufnahme einverstanden.<br/><br/>Wir benötigen eine Anrede und einen Nachnamen, um Sie persönlich ansprechen zu können und ihre E-Mail-Adresse für unsere Rückmeldung an Sie. Ihre Anfrage wird zur Bearbeitung direkt an dtec.bw gesendet.</label>
+                  </div>
+              </div>
+
+              <div class="form-group">
+                <label>Ihre Nachricht:</label>
+                <textarea name="text" class="form-control" rows="6"></textarea>
+              </div>
+
+              <p class="button-bar">
+                  <button type="submit" class="btn btn-theme-colored">Absenden</button>
+              </p>
+            </form>
+         
+
+
+            <!-- Contact Form Validation-->
+            <script type="text/javascript">
+              $("#contact_form").validate({
+                submitHandler: function(form) {
+                  var form_btn = $(form).find('button[type="submit"]');
+                  var form_result_div = '#form-result';
+                  $(form_result_div).remove();
+                  form_btn.before('<div id="form-result" class="alert alert-success" role="alert" style="display: none;"></div>');
+                  var form_btn_old_msg = form_btn.html();
+                  form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
+                  $(form).ajaxSubmit({
+                    dataType:  'json',
+                    success: function(data) {
+                      if( data.status == 'true' ) {
+                        $(form).find('.form-control').val('');
+                      }
+                      form_btn.prop('disabled', false).html(form_btn_old_msg);
+                      $(form_result_div).html(data.message).fadeIn('slow');
+                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                    }
+                  });
+                }
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
