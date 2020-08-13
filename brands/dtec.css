@@ -19,7 +19,8 @@ shades of gray
 */
 
 /* if we need the focus, take the dark gray color instead orange */
-header :focus, footer :focus, ol :focus, ul :focus { border: none; }
+header *:focus, footer *:focus, ol *:focus, ul *:focus { border: none;}
+header * :focus, footer * :focus, ol * :focus, ul * :focus { border: none;}
 
 a { color: #7EAAC0; }
 a:hover,
@@ -142,6 +143,10 @@ form#contact_form .checkbox label {
     line-height: 1.5;
 }
 
+form#contact_form .btn {
+    font-size: 1em;
+}
+
 blockquote {
     border-left: 3px solid #646363;
 }
@@ -149,6 +154,7 @@ blockquote {
 .unibworange-text { color: #646363; }
 .unibworange-background { background-color: #646363; }
 .unibworange-border { border-color: #646363; }
+.searchResults .row .url i { color: #646363; }
 
 /* colour schemes */
 .scheme-white {}
