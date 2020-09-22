@@ -57,7 +57,7 @@ extra-clean:: clean
 
 build: jekyll
 jekyll: #fetchrelease stamp-bundler
-	$(BUNDLE) exec jekyll build  --config "_config.yml,_config-dtec.yml"
+	$(BUNDLE) exec jekyll build
 
 dev: stamp-bower jekyll
 	# Set up development environment
