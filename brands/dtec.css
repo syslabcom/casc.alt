@@ -279,9 +279,6 @@ section.gallery-extended .post { margin-bottom: 15px; }
 .footer a:active,
 .footer a:focus { color: #fff; border: none;}
 
-footer .widget .list-inline li + li {
-    border-left: 1px solid white;
-}
 
 /* Mobile mode (Responsive mode) */
 @media (max-width: 900px){

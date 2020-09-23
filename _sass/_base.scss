@@ -1015,7 +1015,13 @@ section.gradient:after,
         height: 18px;
         line-height: 18px;
         padding: 0 18px;
+        border-right: 1px solid $colour-text-light;
     }
+
+    .widget .list-inline li:last-child {
+        border-right: none !important;
+    }
+
 }
 
 
