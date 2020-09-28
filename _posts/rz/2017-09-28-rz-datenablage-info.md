@@ -14,7 +14,5 @@ breadcrumbs:
   url: rz.html
 
 ---
-<div class="text-white ml-60">
-	<p>Hier finden Sie den Antrag, um den Dienst "Datenablage" beim RZ zu beantragen.<br />
+<p class="description ml-60">Hier finden Sie den Antrag, um den Dienst "Datenablage" beim RZ zu beantragen.<br />
 	Bitte drucken Sie das PDF aus und geben den ausgefüllten Antrag am ServiceDesk ab.</p>	
-</div>
