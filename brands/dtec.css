@@ -40,7 +40,7 @@ a:focus { color: #518196; }
 	border-bottom: none !important;
 }
 .menuzord { margin-bottom: 6px; background: transparent; }
-
+ 
 #header .header-nav .header-nav-wrapper .menuzord { background-color: transparent; }
 
 /*
@@ -51,12 +51,10 @@ a:focus { color: #518196; }
 
 /* for the following modules, the first module below h1 headline should have no padding top if it has a white background */
 
-/* .main-content section.news.scheme-white:first-child>.container */
-
-.main-content section.collection-search:first-child>.container,
-.main-content section.lead-text.scheme-white:first-child>.container,
-.main-content section.gallery.scheme-white:first-child>.container   { padding-top: 0px; }
-
+/* .main-content .mosaic-tile-content:first-child section.news .container, */
+.main-content .mosaic-tile-content:first-child section.collection-search .container,
+.main-content .mosaic-tile-content:first-child section.lead-text.scheme-white .container,
+.main-content .mosaic-tile-content:first-child section.gallery.scheme-white .container  { padding-top: 0px; }
 
 .bg-theme-color-2, .line-bottom-center:after, .line-bottom:after { background: transparent !important; }
 
