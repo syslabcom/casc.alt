@@ -1,7 +1,8 @@
-  {% for item in site.posts %}
+{% for item in site.posts %}
 {% if item.name == include.pagename %}
-<section class="scheme-{{include.color_scheme}}">
+<section class="lead-text scheme-{{include.color_scheme}}">
   <div class="container">
+    {% if include.show_title %}
     <div class="section-title">
       <div class="row">
         <div class="col-md-12">
@@ -9,6 +10,7 @@
         </div>
       </div>
     </div>
+    {% endif %}
     <div class="section-content">
       <div class="row">
         <div class="col-sm-12">

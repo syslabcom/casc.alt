@@ -49,9 +49,14 @@ a:focus { color: #518196; }
 
 #hero-title .container { padding-top: 50px; padding-bottom: 0px; }
 
-/* taken out because that looked not good when a title is picked for the module or the module is coloured 
-.main-content section:first-child>.container  { padding-top: 0px; }
-*/
+/* for the following modules, the first module below h1 headline should have no padding top if it has a white background */
+
+/* .main-content section.news.scheme-white:first-child>.container */
+
+.main-content section.collection-search:first-child>.container,
+.main-content section.lead-text.scheme-white:first-child>.container,
+.main-content section.gallery.scheme-white:first-child>.container   { padding-top: 0px; }
+
 
 .bg-theme-color-2, .line-bottom-center:after, .line-bottom:after { background: transparent !important; }
 
@@ -68,8 +73,8 @@ a:focus { color: #518196; }
         background: url("../media/dtec/dtec.bw_Logo_RGB.svg");
         background-size: cover;
         color: transparent;
-        width: 420px;
-        height: 90px;
+        width: 378px;
+        height: 81px;
         margin-left: auto;
 }
 
@@ -124,6 +129,17 @@ section.events-listing .btn-theme-colored:focus {
         background-color: #979696;
         border-color: #979696;
     }
+
+section.collection-search.text-center {
+    text-align: left;
+}
+section.collection-search .col-md-offset-2 {
+    margin-left: 0px;
+}
+section.collection-search .newsletter-form {
+    margin-top: 15px;
+}
+
 
 /* form */
 

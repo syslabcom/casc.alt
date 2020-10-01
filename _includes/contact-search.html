@@ -1,7 +1,6 @@
-<section class="bg-lighter text-center">
-  {% if include.title  %}<div class="container">{% else %}<div class="container pt-0">{% endif %}
+<section class="collection-search bg-lighter text-center">
+  <div class="container">
     <div class="section-content">
-    
       <div class="row">
         <div class="col-md-12">
           {% if include.title  %}<h2 class="title font-36 text-theme-color-2">{{ include.title }}</h2>{% endif %}
@@ -13,11 +12,11 @@
           
           <!-- Mailchimp Subscription Form-->
           <form id="mailchimp-subscription-form1" class="newsletter-form">
-            <label for="mce-search"></label>
+            <label class="sr-only" for="mce-search">Suchfeld</label>
             <div class="input-group">
               <input type="search" id="mce-search" data-height="45px" class="form-control input-lg" placeholder="Suchkriterien eingeben" name="search" value="">
               <span class="input-group-btn">
-                <button type="submit" class="btn btn-dark btn-theme-colored btn-xl" data-height="45px"><i class="fa fa-search"></i> Suchen</button>
+                <button type="submit" class="btn btn-dark btn-theme-colored btn-xl" data-height="45px" style="height: 45px;"><i class="fa fa-search"></i> Suchen</button>
               </span>
             </div>
           </form>
