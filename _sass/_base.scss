@@ -283,11 +283,13 @@ a {
     .list-group-item,
     .bg-deep,
     .howto.iconbox-bg,
-    .icon-box .icon-gray  { 
+    .icon-box .icon-gray,
+    p.callout  { 
                 background-color: #ffffff; 
               } 
     .howto p.text-gray { color: $colour-text !important;  }
     }
+
 
 .scheme-uni-grey {
     background-color: $colour-uni-grey !important;
@@ -299,10 +301,14 @@ a {
     h5,
     h6,
     a,
+    strong,
     p {
         color: white !important;
     }
-    .post * { color: $colour-text !important; } 
+    .post *,
+    p.callout,
+    blockquote p,
+    .contact-info h4 { color: $colour-text !important; } 
     .list-group-item { 
                         background-color: #fafafa;
                         color: $colour-text !important; 
@@ -313,18 +319,21 @@ a {
                         a:visited { color: $colour-link !important; }
                       } 
 
-    .icon-box h4, 
-              h5 { color: $colour-text !important; }
-    .icon-box .text-gray,
-              p.text-gray,
-              h6.text-gray  { color: grey !important; }   
-    .icon-box a.icon-dark { color: white !important; }  
-    .icon-box .icon.icon-gray { background-color: #c4c3c7 }
-    .contact-info h4 { color: $colour-text !important; }  
+    .icon-box { 
+                h4, 
+                h5 { color: $colour-text !important; }
+                .text-gray,
+                p.text-gray,
+                h6.text-gray  { color: grey !important; }
+                a.icon-dark { color: white !important; }
+                .icon.icon-gray { background-color: #c4c3c7 }
+            }
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
-    .howto h5 { color: white !important;  }
-    .howto p.text-gray { color: white !important;  }
+    .howto {
+                h5, 
+                p.text-gray { color: white !important;  }
+    }
 }
 .scheme-uni-orange {
     background-color: $colour-uni-orange !important;
@@ -336,10 +345,14 @@ a {
     h5,
     h6,
     a,
+    strong,
     p {
         color: white !important;
     }
-    .post * { color: $colour-text !important; }
+    .post *,
+    p.callout,
+    blockquote p,
+    .contact-info h4 { color: $colour-text !important; } 
     .list-group-item { 
                         background-color: #fafafa;
                         color: $colour-text !important; 
@@ -350,19 +363,23 @@ a {
                         a:visited { color: $colour-link !important; }
                       } 
 
-    .icon-box h4, 
-              h5 { color: $colour-text !important; }
-    .icon-box .text-gray,
-              p.text-gray,
-              h6.text-gray  { color: grey !important; }   
-    .icon-box .icon.icon-gray { background-color: #e0e0e0 }    
-    .icon-box a.icon-dark { color: white !important; }  
-    .contact-info h4 { color: $colour-text !important; }  
+    
+    .icon-box { 
+                h4, 
+                h5 { color: $colour-text !important; }
+                .text-gray,
+                p.text-gray,
+                h6.text-gray  { color: grey !important; }
+                a.icon-dark { color: white !important; }
+                .icon.icon-gray { background-color: #e0e0e0 }
+            }
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
-    .howto h5 { color: white !important;  }
+    .howto {
+                h5, 
+                p.text-gray { color: white !important;  }
+    }
     .howto .icon-white { border-color: #e0e0e0  !important; }
-    .howto p.text-gray { color: white !important;  }
 }
 .scheme-middle-grey { 
     background-color: $colour-middle-grey !important; 
@@ -374,10 +391,14 @@ a {
     h5,
     h6,
     a,
+    strong,
     p {
         color: white !important;
     }
-    .post * { color: $colour-text !important; } 
+     .post *,
+    p.callout,
+    blockquote p,
+    .contact-info h4 { color: $colour-text !important; } 
     .list-group-item { 
                         background-color: #fafafa;
                         color: $colour-text !important; 
@@ -387,20 +408,22 @@ a {
                         a:focus { color: $colour-link-focus !important; }
                         a:visited { color: $colour-link !important; }
                       } 
-
-    .icon-box h4, 
-              h5 { color: $colour-text !important; }
-    .icon-box .text-gray,
-              p.text-gray,
-              h6.text-gray  { color: grey !important; }   
-    .icon-box a.icon-dark { color: white !important; }  
-    .icon-box .icon.icon-gray { background-color: #dfdde3 }
-    .contact-info h4 { color: $colour-text !important; }  
+    .icon-box { 
+                h4, 
+                h5 { color: $colour-text !important; }
+                .text-gray,
+                p.text-gray,
+                h6.text-gray  { color: grey !important; }
+                a.icon-dark { color: white !important; }
+                .icon.icon-gray { background-color: #dfdde3 }
+            }
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
-    .howto h5 { color: white !important;  }
-    .howto p.text-gray { color: white !important;  }
+    .howto {
+                h5, 
+                p.text-gray { color: white !important;  }
     }
+}
 .scheme-dark-blue {
     background-color: $colour-dark-blue !important;
     color: white !important;
@@ -411,6 +434,7 @@ a {
     h5,
     h6,
     a,
+    strong,
     p {
         color: white !important;
     }
@@ -424,7 +448,10 @@ a {
         background-color: darken($colour-uni-orange, 10%);
         border-color: darken($colour-uni-orange, 10%);
     }
-    .post * { color: $colour-text !important; }
+    .post *,
+    p.callout,
+    blockquote p,
+    .contact-info h4 { color: $colour-text !important; } 
     .list-group-item { 
                         color: $colour-text !important; 
                         a { color: $colour-link !important; }
@@ -433,22 +460,23 @@ a {
                         a:focus { color: $colour-link-focus !important; }
                         a:visited { color: $colour-link !important; }
                       }
-
-    .icon-box h4, 
-              h5 { color: $colour-text !important; }
-    .icon-box .text-gray,
-              p.text-gray,
-              h6.text-gray  { color: grey !important; }   
-    .icon-box a.icon-gray { color: $colour-link !important; }   
-    
-    .icon-box .icon.icon-gray { background-color: #dfdde3 } 
-    .icon-box a.icon-dark { color: white !important; }  
-    .contact-info h4 { color: $colour-text !important; }  
+    .icon-box { 
+                h4, 
+                h5 { color: $colour-text !important; }
+                .text-gray,
+                p.text-gray,
+                h6.text-gray  { color: grey !important; }
+                a.icon-dark { color: white !important; }
+                a.icon-gray { color: $colour-link !important; }   
+                .icon.icon-gray { background-color: #dfdde3 }
+            }
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
-    .howto h5 { color: white !important;  }
-    .howto p.text-gray { color: white !important;  }
-
+    .howto {
+                h5, 
+                p.text-gray { color: white !important;  }
+    }
+    blockquote { border-color: #666;}
 }
 .scheme-uni-similar-1 { background-color: $colour-uni-similar-1 !important; color: $colour-uni-similar-1-text !important; }
 .scheme-uni-similar-2 { background-color: $colour-uni-similar-2 !important; color: $colour-uni-similar-2-text !important; }
@@ -1839,3 +1867,4 @@ nav.secondary div.dropdown-menu { width: 288px; }
 // Hide Form Folder from the Add Content modal
 img[src$='/ct_form.png'],
 img[src$='/ct_form.png'] + div {display: none}
+
