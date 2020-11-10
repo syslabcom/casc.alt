@@ -131,9 +131,6 @@ section.events-listing .btn-theme-colored:focus {
 section.collection-search.text-center {
     text-align: left;
 }
-section.collection-search .col-md-offset-2 {
-    margin-left: 0px;
-}
 section.collection-search .newsletter-form {
     margin-top: 15px;
 }
