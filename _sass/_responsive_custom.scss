@@ -21,6 +21,8 @@
     section.inner-header .container .section-content { position: relative; }
     /* END remove the background image for small devices */
 
+    section#job dl dt { width: 100%; float: none; display: block; margin: 0; overflow: hidden; }
+    section#job dl dd { width: 100%; float: none; display: block; border: none; overflow: hidden; }
 }
 
 /* Custom, iPhone Retina */
@@ -97,3 +99,21 @@
     #organisationskontakt .contact-map-container .point-map-small {display: none;}
     #organisationskontakt .contact-map-container .point-map-big {display: block;}
 }
+
+
+/*
+            @include screen-size(medium-large) {
+              padding-right: 5%;
+              padding-bottom: 0.5em;
+              color: rgba(0,0,0,0.7);
+              width: 35%;
+            }
+
+            @include screen-size(small) {
+              width: 100%;
+              float: none;
+              display: block;
+              margin: 0;
+              overflow: hidden;
+            }
+            */

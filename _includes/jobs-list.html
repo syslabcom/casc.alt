@@ -1,0 +1,39 @@
+<section class="jobs-listing">
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+      {% assign count = 1 %}
+      {% assign count_old = 1 %}
+
+        {% for item in site.posts %}
+        {% if item.layout == 'job' %}
+
+        <div class="col-xs-12 job-item">
+          <a href="{{ item.url | replace_first: '/', '' }}">
+            <article class="post clearfix">
+              <div class="entry-content p-20 pr-10">
+                <div class="entry-meta media mt-0 no-bg no-border"> 
+                  <div class="media-body">
+                    
+                    <ul class="list-icon">
+                      <li><i class="fa fa-institution"></i> {{ item.institute }}</li>
+                    </ul>
+                    <div class="job-content">
+                      <h3 class="entry-title">{{ item.title }}</h3>
+                    </div>
+                  </div>
+                </div>
+                <p class="description mt-10">{{ item.description }}</p>
+                <div href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-sm">Mehr</div>
+                <div class="clearfix"></div>
+              </div>
+            </article>
+          </a>
+        </div>
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

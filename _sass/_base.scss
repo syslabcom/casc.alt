@@ -834,6 +834,101 @@ section {
             }
         }
     }
+    &#job {
+
+       dl {
+          margin-bottom: 2em;
+          margin-top: 0;
+          float: left;
+          width: 100%;
+          border-bottom: 1px solid $colour-light-grey;
+
+          dt {
+            float: left;
+            font-weight: bold;
+            clear: left;
+            border-top: 1px solid $colour-light-grey;
+            padding-top: 0.5em;
+            padding-right: 5%;
+            padding-bottom: 0.5em;
+            width: 30%;
+          }
+
+
+          dd {
+            margin-bottom: 0;
+            padding-top: 0.5em;
+            padding-bottom: 0.5em;
+
+            > *:last-child {
+              margin-bottom: 0;
+            }
+
+            width: 70%;
+            display: inline-block;
+            float: left;
+            margin-right: -100%;
+            border-top: 1px solid $colour-light-grey;
+        }
+      }
+    }
+    &.jobs-listing {
+         a {
+            .description,
+            .entry-content {
+                color: $colour-text;
+            }
+        }
+        article {
+            &.post {
+                background-color: $colour-light-grey;
+                margin-bottom: 20px;
+                .entry-content {
+                    background-color: transparent;
+                }
+            }
+            .media-body {
+                ul.list-icon {
+                    i {
+                        margin: 0 0px 0 -5px;
+                    }
+                    li {
+                        margin: 0 0 5px 0;
+                        padding: 0;
+                        font-size: 100%;
+                    }
+                }
+            }
+        }
+    }
+    &.jobs-listing-var2 {
+        a {
+            .description,
+            .list-icon li {
+                color: $colour-text;
+            }
+        }
+        article {
+            &.post {
+                padding: 15px;
+                background-color: $colour-light-grey;
+                margin-bottom: 20px;
+            }
+        }
+        .media-body { 
+            .list-icon {
+                padding-top: 15px;
+                border-top: 1px dotted #999999;
+            }
+            .list-icon li {
+                margin-left: 0;
+                margin-right: 15px;
+                i {
+                    margin: 0;
+                }
+            }
+        }
+    }
     &.clients {
         h2 {
             text-align: center;
