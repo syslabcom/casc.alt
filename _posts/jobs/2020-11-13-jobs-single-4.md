@@ -1,0 +1,74 @@
+---
+layout: job_career
+name: job-single-4
+title: Praktikant Steuern und Zölle (w/m/x) 
+description: Wir bieten dir ein interessantes Praktikum im Bereich Steuern und Zölle mit dem Fokus auf Governance und Risikomanagement.
+job-category: jobs-stud
+department: jobs
+section: Jobs
+institute: BMW Group
+statement-of-payment: 
+working-time: Vollzeit, 6 Monate
+created: heute
+category: Praktikum
+
+breadcrumbs:
+- title: Home
+  url: home.html
+- title: Career Service
+  url: /jobs_career.html
+---
+
+<dl>
+
+	<dt>Aufgaben</dt>
+	<dd>
+		<ul>
+			<li>Im Rahmen deiner Tätigkeit als Praktikant (w/m/x) unterstützt du unser Team bei den
+Themen Governance und Risikomanagement im Bereich der direkten und indirekten
+Steuern sowie Zölle.</li>
+<li>Du erhältst Einblick in die Erarbeitung und Implementierung eines globalen Tax and
+Customs Compliance Management Systems.</li>
+<li>Ferner unterstützt du uns bei der betrieblichen Verankerung von rechtlichen Vorgaben
+im Bereich der Exportkontrolle.</li>
+<li>Du setzt dich in diesem Zusammenhang sowohl mit personen- und
+organisationsbezogenen Sanktionslisten als auch mit güterbezogenen Embargos
+auseinander.</li>
+<li>Darüber hinaus arbeitest du bei der Sicherstellung des zentralen und globalen Steuer-,
+Zoll und Exportkontrollrisikomanagements zur weltweiten Risikoidentifikation,
+-beurteilung und -beherrschung mit.</li>
+<li>Die Mitwirkung bei der Koordination und Erstellung zentraler Berichte für den gesamten
+Bereich Steuern, Zölle und Exportkontrolle rundet dein spannendes Aufgabengebiet ab.</li>
+		</ul>
+	</dd>
+	<dt>Qualifications</dt>
+	<dd>
+		<ul>
+			<li>Studium der Betriebswirtschaftslehre, Rechtswissenschaften, idealerweise mit dem
+Schwerpunkt Steuer- und Prüfungswesen oder ein vergleichbarer Studiengang.</li>
+<li>Zweite Hälfte Bachelorstudiengang oder Masterstudium.</li>
+<li>Erste praktische Erfahrung im kaufmännischen oder steuerlichen Bereich.</li>
+<li>Verhandlungssichere Deutsch- und sehr gute Englischkenntnisse.</li>
+<li>Team- und Kommunikationsfähigkeit.</li>
+<li>Freude am eigenverantwortlichen Arbeiten.</li>
+<li>Organisationstalent</li>
+		</ul>
+	</dd>
+	<dt>Dokumente</dt>
+	<dd>
+		<ul>
+			<li><img src="https://staging.cms5a.syslab.com//++resource++mimetype.icons/pdf.png" alt="PDF document" title="LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf">
+	        <a href="https://staging.cms5a.syslab.com/stellenausschreibungen/synced-jobs/2020/wissenschaftliche-mitarbeiterin-wissenschaftlicher-mitarbeiter-m-w-d-forschungsprojekt-seranis/view/++widget++form.widgets.attachment/@@download/LRT%2B%2BWM%2B13%2B-FZ%2BSPACE_Strukturen_AF_DTEC.Bw.pdf">BMW,%20München%3a%20Praktikum%20Steuern%20und%20Zölle.pdf</a>
+	        <span class="discreet"> —
+	            PDF-Dokument,
+	            98 KB
+	        </span></li>
+	    </ul>
+	</dd>
+</dl>
+
+
+<p>
+Du hast Spaß daran Neues zu lernen und unsere Abteilung tatkräftig zu unterstützen?<br /><br />
+<strong>Bewirb dich jetzt!</strong></p>
+

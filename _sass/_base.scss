@@ -834,6 +834,9 @@ section {
             }
         }
     }
+    &.jobs-intro .container {
+        padding-bottom: 0;
+    }
     &#job {
 
        dl {
@@ -842,6 +845,28 @@ section {
           float: left;
           width: 100%;
           border-bottom: 1px solid $colour-light-grey;
+
+          &.main-info {
+            margin-top: 15px;
+            background-color:  $colour-light-grey;
+            border-color: $colour-uni-orange;
+            dt,
+            dd {
+            padding-left: 10px; 
+            border-color: $colour-uni-orange;
+            }
+          }
+
+          &.main-info-career {
+            margin-top: 15px;
+            background-color:  $colour-light-grey;
+            border-color: $colour-dark-blue;
+            dt,
+            dd {
+            padding-left: 10px; 
+            border-color: $colour-dark-blue;
+            }
+          }
 
           dt {
             float: left;

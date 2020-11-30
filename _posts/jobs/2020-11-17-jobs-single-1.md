@@ -3,28 +3,21 @@ layout: job
 name: job-single-1
 title: Wissenschaftliche Mitarbeiterin / Wissenschaftlicher Mitarbeiter (m/w/d) für das Spitzenforschungsprojekt SeRANIS
 description: EIT - Forschungszentrum SPACE - im Rahmen DTEC.Bw
-category: jobs
+job-category: jobs-wiss
 department: jobs
 section: Jobs
 institute: Fakultät Elektrotechnik und Informationstechnik
 statement-of-payment: E 13 TVöD
 working-time: Vollzeit
-created: vor 3 Tagen
+deadline: 30.11.2020
+created: vor 1 Tag
+category: Wissenschaftliche Mitarbeiterinnen und Mitarbeiter
 contact-email: office.sp@unibw.de
 breadcrumbs: 
 - title: Home
   url: jobs.html
 ---
 <dl>
-                    
-	<dt>Working hours</dt>
-	<dd>40 per_week</dd>
-
-	<dt>Institute of employment</dt>
-	<dd>Fakultät für Elektrotechnik und Informationstechnik</dd>
-
-	<dt>Statement on payment</dt>
-	<dd>Medior</dd>
 
 	<dt>Aufgaben</dt>
 	<dd>

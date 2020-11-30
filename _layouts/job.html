@@ -11,18 +11,60 @@ parent: Aktuelles
 
             <h1 class="module-title line-bottom">{{ page.title }}</h1>
             
-
-            <div class="date-info">
-              <i class="fa fa-calendar mr-5"></i> {{ page.created }}
-            </div>
+            <p class="description"><strong>{{ page.description }}</strong></p>
 
             <hr />
-            <p class="description">{{ page.description }}</p>
+
+            <p>
+Die Universität der Bundeswehr München ist in der nationalen wie auch internationalen Forschungslandschaft fest
+verankert. Als Campusuniversität mit sehr guter Grundausstattung bietet sie beste Voraussetzungen für hochqualitative
+Lehre und Forschung.</p>
+<p>
+
+Das DTEC.Bw wird als ein von beiden Universitäten der Bundeswehr (UniBw) getragenes wissenschaftliches Zentrum
+an der Universität der Bundeswehr München etabliert. Es wird ausgewählte Vorhaben innovativer und interdisziplinärer
+universitärer Spitzenforschung in den Bereichen von Digitalisierung sowie damit verbundener Schlüssel- und
+Zukunftstechnologien durchführen.</p>
+<p>
+
+Als derzeit größtes Spitzenforschungsprojekt wird SeRANIS (Seamless Radio Access Networks for Internet of Space)
+mit mehr als 50 Wissenschaftlerinnen und Wissenschaftlern an Technologien für die nächste Mobilfunkgeneration (6G)
+sowie an innovativen Verfahren der Satellitennavigation arbeiten. Dabei werden sowohl terrestrische als auch
+weltraumbasierte Kommunikationsnetze aufgebaut, unter anderem im Rahmen einer Kleinsatellitenmission.
+            </p>
+            
+            <dl class="main-info">
+                    
+              <dt>Institut</dt>
+              <dd><i class="fa fa-institution mr-5"></i> Fakultät für Elektrotechnik und Informationstechnik</dd>
+
+              <dt>Arbeitszeit</dt>
+              <dd><i class="fa fa-briefcase mr-5"></i> {{ page.working-time }}</dd>
+
+              <dt>Vergütung</dt>
+              <dd><i class="fa fa-euro mr-5"></i> {{ page.statement-of-payment }}</dd>
+
+              <dt>Ende der Bewerbungsfrist</dt>
+              <dd><i class="fa fa-calendar mr-5"></i> {{ page.deadline }}</dd>
+
+            </dl> 
 
             {{ content }}
 
-            <hr />
-            <p ><strong>Haben wir Ihr Interesse geweckt?</strong></p>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section  class="lead-text scheme-uni-orange">
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="hero-content">
+            <h3>Haben wir Ihr Interesse geweckt?</h3>
             <p>
             Dann senden Sie bitte Ihre aussagekräftigen Bewerbungsunterlagen (Anschreiben, Lebenslauf, Zeugnisse, Bescheinigungen) bis zum 16.12.2020 im PDF-Format per E-Mail an:</p>
             <p>
@@ -34,11 +76,10 @@ parent: Aktuelles
             <p>
             <strong>Wir freuen uns auf Ihre Bewerbung!</strong>
             </p>
-
-          </article>
+          </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
+

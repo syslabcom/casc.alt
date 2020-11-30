@@ -6,7 +6,7 @@
       {% assign count_old = 1 %}
 
         {% for item in site.posts %}
-        {% if item.layout == 'job' %}
+        {% if item.layout == 'job' and item.job-category == 'jobs-wiss' %}
 
          <div class="col-xs-12 job-item">
             <a href="{{ item.url | replace_first: '/', '' }}">
