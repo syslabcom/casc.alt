@@ -1,67 +1,76 @@
 ---
 layout: job
 name: job-single-1
-title: Wissenschaftliche Mitarbeiterin / Wissenschaftlicher Mitarbeiter (m/w/d) für das Spitzenforschungsprojekt SeRANIS
-description: EIT - Forschungszentrum SPACE - im Rahmen DTEC.Bw
+title: Wissenschaftliche Mitarbeiterin / Wissenschaftlicher Mitarbeiter (m/w/d)
+description: Institut für Wasserwesen - Professur für Siedlungswirtschaft und Abfalltechnik
 job-category: jobs-wiss
 department: jobs
 section: Jobs
-institute: Fakultät Elektrotechnik und Informationstechnik
+institute: Fakultät Bauingenieuerwesen und Umweltwissenschaften
 statement-of-payment: E 13 TVöD
-working-time: Vollzeit
-deadline: 30.11.2020
+working-time: Vollzeit, befristet für zunächst zwei Jahre
+deadline: 7.12.2020
 created: vor 1 Tag
 category: Wissenschaftliche Mitarbeiterinnen und Mitarbeiter
-contact-email: office.sp@unibw.de
+contact-email: christian.schaum@unibw.de
 breadcrumbs: 
 - title: Home
-  url: jobs.html
+  url: home.html
+- title: Stellenausschreibungen
+  url: /jobs.html
 ---
-<dl>
 
-	<dt>Aufgaben</dt>
+<p>
+Die Universität der Bundeswehr München ist in der nationalen wie auch internationalen Forschungslandschaft fest
+verankert. Als Campusuniversität mit sehr guter Grundausstattung bietet sie beste Voraussetzungen für hochqualitative
+Lehre und Forschung.</p>
+
+<dl>
+	<dt>Ihre Aufgaben:</dt>
 	<dd>
 		<ul>
-			<li>experimentelle Untersuchungen zu einem der folgenden Themenbereiche:
-			Additive Fertigung von Multi-Material-Bauteilen,  Fertigung und Einsatz von Faser-Kunststoff-Verbunden, aktive und passive Strukturstabilisierung für optische Systeme oder  Strukturüberwachung (SHM) auf Grundlage von Körperschallemissionen</li>
-			<li>Charakterisierung von Proben und Bauteilen mit Hilfe mechanischer, mikroskopischer und weiterer geeigneter Verfahren</li>
-			<li>Entwicklung, Auslegung und experimentelle Umsetzung von Material- oder Strukturkonzepten sowie Test, Validierung und Demonstration der entwickelten Prototypen im Labor</li>
-			<li>Unterstützung bei Entwicklung von Experimenten und deren Integration auf dem Kleinsatelliten</li>
-			<li>Mitarbeit bei der Projektumsetzung von der Planungsphase bis zum fertigen Flugmodell</li>
+			<li>Eigenständige wissenschaftliche Bearbeitung und Koordination von nationalen und internationalen Forschungsprojekten im Bereich einer zukunftsfähigen Abwasser- und Klärschlammbehandlung</li>
+			<li>Zusammenarbeit mit Teammitgliedern der Professur, insbesondere dem Labor, sowie Expertinnen und Experten des Forschungszentrums RISK - Risiko, Infrastruktur, Sicherheit und Konflikt an der Universität der Bundeswehr München</li>
+			<li>Mitarbeit bei der Lehre durch Mitwirken in Übungen und Praktika sowie der Betreuung von studentischen Arbeiten</li>
 		</ul>
 	</dd>
-	<dt>Qualifications</dt>
+	<dt>Qualifikationserfordernisse:</dt>
 	<dd>
 		<ul>
-			<li>überdurchschnittlich abgeschlossenes wissenschaftliches Hochschulstudium im Bereich der Luft- und Raumfahrttechnik, Materialwissenschaft, Maschinenbau, Physik oder eines vergleichbaren Studiengangs
-	        </li>
-			<li>gute bis sehr gute Kenntnisse in einem der folgenden Themenbereiche: Additive Fertigung, Legierungsentwicklung, Mikroskopie, mechanische Prüfverfahren etc., Strukturmechanik und Leichtbau, insbesondere mit Faser-Kunststoff-Verbunden oder  Strukturdynamik und Structural Health Monitoring
-	        </li>
-			<li>Kenntnisse in den Anwendungsbereichen Raumfahrt und Raumfahrtnutzung von Vorteil</li>
-			<li>gute Englischkenntnisse für die Zusammenarbeit in einem internationalen Umfeld; Deutschkenntnisse sind von Vorteil</li>
+			<li>Ein abgeschlossenes Studium im Bereich der Siedlungswasserwirtschaft oder verwandten Disziplinen</li>
+			<li>Deutsch in Wort und Schrift auf sehr hohem Niveau sowie sehr gutes Englisch</li>
+			<li>Besitz der Fahrerlaubnis der Führerscheinklasse B (Bereitschaft für Dienstreisen)</li>
 		</ul>
 	</dd>
-	<dt>Offered</dt>
+	<dt>Was erwarten wir:</dt>
 	<dd>
 		<ul>
-			<li>vielseitige und praxisorientierte, wissenschaftliche Projekte in exzellenter Forschungsinfrastruktur</li>
-			<li>Gestaltungsfreiraum in der Forschung in einem dynamischen und internationalen Team</li>
-			<li>Möglichkeit zur Promotion sowie zur Unternehmensgründung im DTEC.Bw Startup-Inkubator</li>
+			<li>Kenntnisse und Interesse an Themen einer zukunftsfähigen Abwasser- und Klärschlammbehandlung</li>
+			<li>Vorteilhaft sind Erfahrungen im Bereich des Projektmanagements</li>
+			<li>Freude an der Zusammenarbeit mit nationalen und internationalen interdisziplinären Projektpartnern</li>
+			<li>Eigeninitiative, eigenverantwortliches Arbeiten und Begeisterungsfähigkeit</li>
+			<li>Interesse an wissenschaftlicher Arbeit und an interdisziplinären Projekten</li>
+			<li>Analytisches Denkvermögen, Teamfähigkeit, Kreativität und sorgfältiges Arbeiten</li>
 		</ul>
 	</dd>
-	<dt>Closing date</dt>
-	<dd>16.12.2020</dd>
-	<dt>Documents</dt>
+	<dt>Was bieten wir:</dt>
+	<dd>
+		<ul>
+			<li>Angenehmes Arbeitsumfeld in einem sympathischen und engagierten Team</li>
+			<li>Modernste IT-Ausstattung sowie ein herausragend ausgestattetes Umweltlabor</li>
+			<li>Aktive Förderung Ihrer wissenschaftlichen Entwicklung und die Möglichkeit zur Promotion bei entsprechender Eignung und Motivation</li>
+			<li>Mehrjähriger Vertrag mit dem Ziel der Verlängerung</li>
+			<li>Hervorragende Möglichkeiten zur Vernetzung</li>
+			<li>Möglichkeit zur hochschuldidaktischen Weiterbildung und Zertifizierung</li>
+			<li>Campusuniversität mit kurzen Wegen zwischen wissenschaftlicher Arbeit und attraktiven Sport- und Freizeitmöglichkeiten direkt vor den Toren Münchens</li>
+			<li>Eine Eingruppierung in die Entgeltgruppe 13 erfolgt unter der Beachtung des § 12 TVöD im Hinblick auf die tatsächlich auszuübenden Tätigkeiten und der Erfüllung der persönlichen bzw. tariflichen Anforderungen.</li>
+		</ul>
+	</dd>
+	<dt>Dokumente</dt>
 	<dd>
 		<ul>
 			<li><img src="https://staging.cms5a.syslab.com//++resource++mimetype.icons/pdf.png" alt="PDF document" title="LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf">
-	        <a href="https://staging.cms5a.syslab.com/stellenausschreibungen/synced-jobs/2020/wissenschaftliche-mitarbeiterin-wissenschaftlicher-mitarbeiter-m-w-d-forschungsprojekt-seranis/view/++widget++form.widgets.attachment/@@download/LRT%2B%2BWM%2B13%2B-FZ%2BSPACE_Strukturen_AF_DTEC.Bw.pdf">LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf</a>
-	        <span class="discreet"> —
-	            PDF-Dokument,
-	            98 KB
-	        </span></li>
-	        <li><img src="https://staging.cms5a.syslab.com//++resource++mimetype.icons/pdf.png" alt="PDF document" title="LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf">
-	        <a href="https://staging.cms5a.syslab.com/stellenausschreibungen/synced-jobs/2020/wissenschaftliche-mitarbeiterin-wissenschaftlicher-mitarbeiter-m-w-d-forschungsprojekt-seranis/view/++widget++form.widgets.attachment/@@download/LRT%2B%2BWM%2B13%2B-FZ%2BSPACE_Strukturen_AF_DTEC.Bw.pdf">LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf</a>
+	        <a href="https://www.unibw.de/stellenausschreibungen/wissenschaftliche-mitarbeiterinnen-und-mitarbeiter/fakultaet-bauwesen-und-umweltwissenschaften/fakultaet-fuer-beuingenieurwesen-und-umweltwissenschaften-institut-fuer-wasserwesen-professur-fuer-siedelungswasserwirtschaft-und-abfalltechnik/">fakultaet-fuer-beuingenieurwesen-und-umweltwissenschaften-institut-fuer-wasserwesen-professur-fuer-siedelungswasserwirtschaft-und-abfalltechnik.pdf</a>
 	        <span class="discreet"> —
 	            PDF-Dokument,
 	            98 KB
@@ -70,6 +79,4 @@ breadcrumbs:
 	</dd>
 </dl>
 
-<p>befristet bis 31.12.2024 in Vollzeit gesucht.</p>
-<p>Eine Eingruppierung in die Entgeltgruppe 13 erfolgt unter der Beachtung des § 12 TVöD im Hinblick auf die tatsächlich auszuübenden Tätigkeiten und der Erfüllung der persönlichen bzw. tariflichen Anforderungen.</p>
-<p>Die Beschäftigung kann auf Wunsch auch in Teilzeit erfolgen. Die Universität der Bundeswehr München strebt eine Erhöhung des Anteils von Wissenschaftlerinnen und Arbeitnehmerinnen an, Bewerbungen von Frauen werden ausdrücklich begrüßt. Personen mit Handicap werden bei gleicher Eignung besonders berücksichtigt.</p>
+<p>Die Universität der Bundeswehr München strebt eine Erhöhung des Anteils von Wissenschaftlerinnen und Arbeitnehmerinnen, Bewerbungen von Frauen werden ausdrücklich begrüßt. Personen mit Handicap werden bei gleicher Eignung besonders berücksichtigt.</p>

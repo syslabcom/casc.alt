@@ -1,66 +1,50 @@
 ---
 layout: job
 name: job-single-3
-title: Studentische Hilfskraft (m/w/d) für das Forschungsprojekt VITAL-Sens
-description: EIT - Bereich techn. Informatik, Elektrotechnik u. Mikrosystemtechnik - im Rahmen DTEC.Bw
+title: Studentische/Wissenschaftliche Hilfskräfte (m/w/d)
+description: Am Institut für Wasserwesen, Professur für Siedlungswasserwirtschaft und Abfalltechnik
 job-category: jobs-stud
 department: jobs
 section: Jobs
-institute: Fakultät Elektrotechnik und Informationstechnik
-statement-of-payment: E 13 TVöD
-working-time: Teilzeit, befristet bis 12/2024
-deadline: 30.11.2020
-created: heute
+institute: Fakultät Bauingenieuerwesen und Umweltwissenschaften
+statement-of-payment: Standardvergütung UniBw München
+working-time: max. 4 Std. / Woche
+created: vor 14 Tagen
 category: Studentische Hilfskraft
+email: swa@unibw.de
 breadcrumbs:
 - title: Home
   url: jobs.html
 ---
-<dl>
 
-	<dt>Aufgaben</dt>
+<p>
+Die Universität der Bundeswehr München ist in der nationalen wie auch internationalen Forschungslandschaft fest
+verankert. Als Campusuniversität mit sehr guter Grundausstattung bietet sie beste Voraussetzungen für hochqualitative
+Lehre und Forschung.</p>
+
+<dl>
+	<dt>Was erwarten wir:</dt>
 	<dd>
 		<ul>
-			<li>experimentelle Untersuchungen zu einem der folgenden Themenbereiche:
-			Additive Fertigung von Multi-Material-Bauteilen,  Fertigung und Einsatz von Faser-Kunststoff-Verbunden, aktive und passive Strukturstabilisierung für optische Systeme oder  Strukturüberwachung (SHM) auf Grundlage von Körperschallemissionen</li>
-			<li>Charakterisierung von Proben und Bauteilen mit Hilfe mechanischer, mikroskopischer und weiterer geeigneter Verfahren</li>
-			<li>Entwicklung, Auslegung und experimentelle Umsetzung von Material- oder Strukturkonzepten sowie Test, Validierung und Demonstration der entwickelten Prototypen im Labor</li>
-			<li>Unterstützung bei Entwicklung von Experimenten und deren Integration auf dem Kleinsatelliten</li>
-			<li>Mitarbeit bei der Projektumsetzung von der Planungsphase bis zum fertigen Flugmodell</li>
+			<li>Student/in aus dem Bereich Bauingenieurwesen, (Wasser-)Chemie, Umwelttechnik, Verfahrenstechnik oder vergleichbaren Fachbereichen</li>
+			<li>Zielstrebige, kreative und lösungsorientierte Bearbeitung von komplexen Aufgaben</li>
+			<li>Interesse an der praktischen Arbeit im Labor im Bereich der (Ab-)Wasseraufbereitung einschl. der Datenauswertung</li>
+			<li>Engagierte Mitarbeit in einem interdisziplinären Team</li>
 		</ul>
 	</dd>
-	<dt>Qualifications</dt>
+	<dt>Was bieten wir:</dt>
 	<dd>
 		<ul>
-			<li>überdurchschnittlich abgeschlossenes wissenschaftliches Hochschulstudium im Bereich der Luft- und Raumfahrttechnik, Materialwissenschaft, Maschinenbau, Physik oder eines vergleichbaren Studiengangs
-	        </li>
-			<li>gute bis sehr gute Kenntnisse in einem der folgenden Themenbereiche: Additive Fertigung, Legierungsentwicklung, Mikroskopie, mechanische Prüfverfahren etc., Strukturmechanik und Leichtbau, insbesondere mit Faser-Kunststoff-Verbunden oder  Strukturdynamik und Structural Health Monitoring
-	        </li>
-			<li>Kenntnisse in den Anwendungsbereichen Raumfahrt und Raumfahrtnutzung von Vorteil</li>
-			<li>gute Englischkenntnisse für die Zusammenarbeit in einem internationalen Umfeld; Deutschkenntnisse sind von Vorteil</li>
+			<li>Mitarbeit an interessanten Forschungsprojekten aus dem Bereich einer zukunftsfähigen (Trink-)Wasser-, Abwasser- und Klärschlammbehandlung, sowohl im nationalen aus auch im internationalen Kontext</li>
+			<li>Mitarbeit und eigenständige Durchführung von Laborversuchen in einem hervorragend ausgestattetem Umweltlabor und Technikum</li>
+			<li>Flexible und auf Ihre Studienplanung abgestimmte Arbeitszeiten</li>
+			<li>Vertiefende Erkenntnisse für Ihr weiteres Studium</li>
 		</ul>
 	</dd>
-	<dt>Offered</dt>
-	<dd>
-		<ul>
-			<li>vielseitige und praxisorientierte, wissenschaftliche Projekte in exzellenter Forschungsinfrastruktur</li>
-			<li>Gestaltungsfreiraum in der Forschung in einem dynamischen und internationalen Team</li>
-			<li>Möglichkeit zur Promotion sowie zur Unternehmensgründung im DTEC.Bw Startup-Inkubator</li>
-		</ul>
-	</dd>
-	<dt>Closing date</dt>
-	<dd>16.12.2020</dd>
-	<dt>Documents</dt>
 	<dd>
 		<ul>
 			<li><img src="https://staging.cms5a.syslab.com//++resource++mimetype.icons/pdf.png" alt="PDF document" title="LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf">
-	        <a href="https://staging.cms5a.syslab.com/stellenausschreibungen/synced-jobs/2020/wissenschaftliche-mitarbeiterin-wissenschaftlicher-mitarbeiter-m-w-d-forschungsprojekt-seranis/view/++widget++form.widgets.attachment/@@download/LRT%2B%2BWM%2B13%2B-FZ%2BSPACE_Strukturen_AF_DTEC.Bw.pdf">LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf</a>
-	        <span class="discreet"> —
-	            PDF-Dokument,
-	            98 KB
-	        </span></li>
-	        <li><img src="https://staging.cms5a.syslab.com//++resource++mimetype.icons/pdf.png" alt="PDF document" title="LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf">
-	        <a href="https://staging.cms5a.syslab.com/stellenausschreibungen/synced-jobs/2020/wissenschaftliche-mitarbeiterin-wissenschaftlicher-mitarbeiter-m-w-d-forschungsprojekt-seranis/view/++widget++form.widgets.attachment/@@download/LRT%2B%2BWM%2B13%2B-FZ%2BSPACE_Strukturen_AF_DTEC.Bw.pdf">LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf</a>
+	        <a href="https://www.unibw.de/wasserwesen/wasserwesen/200923_stellenausschreibung_unibwm.pdf">200923_stellenausschreibung_unibwm.pdf</a>
 	        <span class="discreet"> —
 	            PDF-Dokument,
 	            98 KB
@@ -69,7 +53,5 @@ breadcrumbs:
 	</dd>
 </dl>
 
-<p>befristet bis 31.12.2024 in Vollzeit gesucht.</p>
-<p>Eine Eingruppierung in die Entgeltgruppe 13 erfolgt unter der Beachtung des § 12 TVöD im Hinblick auf die tatsächlich auszuübenden Tätigkeiten und der Erfüllung der persönlichen bzw. tariflichen Anforderungen.</p>
-<p>Die Beschäftigung kann auf Wunsch auch in Teilzeit erfolgen. Die Universität der Bundeswehr München strebt eine Erhöhung des Anteils von Wissenschaftlerinnen und Arbeitnehmerinnen an, Bewerbungen von Frauen werden ausdrücklich begrüßt. Personen mit Handicap werden bei gleicher Eignung besonders berücksichtigt.</p>
-
+<p>Die Universität der Bundeswehr München strebt eine Erhöhung des Anteils von Wissenschaftlerinnen an, Bewerbungen von Frauen werden ausdrücklich begrüßt. Personen mit Handicap werden bei gleicher Eignung besonders berücksichtigt.
+</p>

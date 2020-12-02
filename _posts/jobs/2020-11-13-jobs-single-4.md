@@ -1,64 +1,69 @@
 ---
-layout: job_career
+layout: job
 name: job-single-4
-title: Praktikant Steuern und Zölle (w/m/x) 
-description: Wir bieten dir ein interessantes Praktikum im Bereich Steuern und Zölle mit dem Fokus auf Governance und Risikomanagement.
-job-category: jobs-stud
+title: Wissenschaftliche Mitarbeiterin / Wissenschaftlicher Mitarbeiter (m/w/d) für das Spitzenforschungsprojekt SeRANIS
+description: im Zentrum für Digitalisierungs- und Technologieforschung der Bundeswehr (DTEC.Bw)
+job-category: jobs-wiss
 department: jobs
 section: Jobs
-institute: BMW Group
-statement-of-payment: 
-working-time: Vollzeit, 6 Monate
-created: heute
-category: Praktikum
-
-breadcrumbs:
+institute: Fakultät Betriebswirtschaft
+statement-of-payment: E 13 TVöD
+working-time: Vollzeit, befristet für zunächst zwei Jahre
+deadline: 20.11.2020
+created: vor 30 Tagen
+category: Wissenschaftliche Mitarbeiterinnen und Mitarbeiter
+contact-email: office.sp@unibw.de
+breadcrumbs: 
 - title: Home
   url: home.html
-- title: Career Service
-  url: /jobs_career.html
+- title: Stellenausschreibungen
+  url: /jobs.html
 ---
 
-<dl>
 
-	<dt>Aufgaben</dt>
+<p>
+Die Universität der Bundeswehr München ist in der nationalen wie auch internationalen Forschungslandschaft fest
+verankert. Als Campusuniversität mit sehr guter Grundausstattung bietet sie beste Voraussetzungen für hochqualitative
+Lehre und Forschung.</p>
+
+<p>
+Das DTEC.Bw wird als ein von beiden Universitäten der Bundeswehr (UniBw) getragenes wissenschaftliches Zentrum an der Universität der Bundeswehr München etabliert. Es wird ausgewählte Vorhaben innovativer und interdisziplinärer universitärer Spitzenforschung in den Bereichen von Digitalisierung sowie damit verbundener Schlüssel- und Zukunftstechnologien durchführen.</p>
+<p>
+Als derzeit größtes Spitzenforschungsprojekt wird SeRANIS (Seamless Radio Access Networks for Internet of Space) mit mehr als 50 Wissenschaftlerinnen und Wissenschaftlern an Technologien für die nächste Mobilfunkgeneration (6G) sowie an innovativen Verfahren der Satellitennavigation arbeiten. Dabei werden sowohl terrestrische als auch weltraumbasierte Kommunikationsnetze aufgebaut, unter anderem im Rahmen einer Kleinsatellitenmission.
+</p>
+
+<dl>
+	<dt>Ihre Aufgaben:</dt>
 	<dd>
 		<ul>
-			<li>Im Rahmen deiner Tätigkeit als Praktikant (w/m/x) unterstützt du unser Team bei den
-Themen Governance und Risikomanagement im Bereich der direkten und indirekten
-Steuern sowie Zölle.</li>
-<li>Du erhältst Einblick in die Erarbeitung und Implementierung eines globalen Tax and
-Customs Compliance Management Systems.</li>
-<li>Ferner unterstützt du uns bei der betrieblichen Verankerung von rechtlichen Vorgaben
-im Bereich der Exportkontrolle.</li>
-<li>Du setzt dich in diesem Zusammenhang sowohl mit personen- und
-organisationsbezogenen Sanktionslisten als auch mit güterbezogenen Embargos
-auseinander.</li>
-<li>Darüber hinaus arbeitest du bei der Sicherstellung des zentralen und globalen Steuer-,
-Zoll und Exportkontrollrisikomanagements zur weltweiten Risikoidentifikation,
--beurteilung und -beherrschung mit.</li>
-<li>Die Mitwirkung bei der Koordination und Erstellung zentraler Berichte für den gesamten
-Bereich Steuern, Zölle und Exportkontrolle rundet dein spannendes Aufgabengebiet ab.</li>
+			<li>Erforschung einer oder mehrerer Technologien aus den Bereichen Kommunikationsnetze für 6G und IoT, digitale Signalverarbeitung, Antennensysteme, maschinelles Lernen, Navigation, Software defined radio</li>
+			<li>Mitwirkung beim Aufbau und der Inbetriebnahme von Testbed-Infrastruktur</li>
+			<li>Entwicklung und Erforschung von Algorithmen, Simulatoren und Prototypen für neuartige nachrichtentechnische Systeme und Raumfahrtkomponenten</li>
+			<li>Test, Qualifizierung und Demonstration der entwickelten Prototypen im Labor</li>
+			<li>Verfassen wissenschaftlicher Publikationen; Präsentationen auf internationalen Konferenzen</li>
 		</ul>
 	</dd>
-	<dt>Qualifications</dt>
+	<dt>Qualifikationserfordernisse:</dt>
 	<dd>
 		<ul>
-			<li>Studium der Betriebswirtschaftslehre, Rechtswissenschaften, idealerweise mit dem
-Schwerpunkt Steuer- und Prüfungswesen oder ein vergleichbarer Studiengang.</li>
-<li>Zweite Hälfte Bachelorstudiengang oder Masterstudium.</li>
-<li>Erste praktische Erfahrung im kaufmännischen oder steuerlichen Bereich.</li>
-<li>Verhandlungssichere Deutsch- und sehr gute Englischkenntnisse.</li>
-<li>Team- und Kommunikationsfähigkeit.</li>
-<li>Freude am eigenverantwortlichen Arbeiten.</li>
-<li>Organisationstalent</li>
+			<li>überdurchschnittlich abgeschlossenes Hochschulstudium im Bereich der Elektro- und Informationstechnik, Nachrichtentechnik, Mathematik, Physik oder eines vergleichbaren Studiengangs</li>
+			<li>Kenntnisse in einem oder mehreren der folgenden Themengebiete: digitale Signalverarbeitung, Hochfrequenztechnik, High-Level-Synthese- und HDL-basierter FPGA / VLSI Entwurf, Software Defined Radio, 3GPP Protokollstack, Machine Learning</li>
+			<li>sehr gute Englischkenntnisse in Wort und Schrift</li>
+		</ul>
+	</dd>
+	<dt>Was bieten wir:</dt>
+	<dd>
+		<ul>
+			<li>vielseitige und praxisorientierte, wissenschaftliche Projekte in exzellenter Forschungsinfrastruktur</li>
+			<li>Gestaltungsfreiraum in der Forschung in einem dynamischen und internationalen Team</li>
+			<li>Möglichkeit zur Promotion sowie zur Unternehmensgründung im DTEC.Bw Startup-Inkubator</li>
 		</ul>
 	</dd>
 	<dt>Dokumente</dt>
 	<dd>
 		<ul>
 			<li><img src="https://staging.cms5a.syslab.com//++resource++mimetype.icons/pdf.png" alt="PDF document" title="LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf">
-	        <a href="https://staging.cms5a.syslab.com/stellenausschreibungen/synced-jobs/2020/wissenschaftliche-mitarbeiterin-wissenschaftlicher-mitarbeiter-m-w-d-forschungsprojekt-seranis/view/++widget++form.widgets.attachment/@@download/LRT%2B%2BWM%2B13%2B-FZ%2BSPACE_Strukturen_AF_DTEC.Bw.pdf">BMW,%20München%3a%20Praktikum%20Steuern%20und%20Zölle.pdf</a>
+	        <a href="https://www.unibw.de/stellenausschreibungen/wissenschaftliche-mitarbeiterinnen-und-mitarbeiter/fakultaet-bauwesen-und-umweltwissenschaften/fakultaet-fuer-beuingenieurwesen-und-umweltwissenschaften-institut-fuer-wasserwesen-professur-fuer-siedelungswasserwirtschaft-und-abfalltechnik/">fakultaet-fuer-elektrotechnik-und-informationstechnik-forschungszentrum-space-im-rahmen-dtec.bw</a>
 	        <span class="discreet"> —
 	            PDF-Dokument,
 	            98 KB
@@ -67,8 +72,4 @@ Schwerpunkt Steuer- und Prüfungswesen oder ein vergleichbarer Studiengang.</li>
 	</dd>
 </dl>
 
-
-<p>
-Du hast Spaß daran Neues zu lernen und unsere Abteilung tatkräftig zu unterstützen?<br /><br />
-<strong>Bewirb dich jetzt!</strong></p>
-
+<p>Die Universität der Bundeswehr München strebt eine Erhöhung des Anteils von Wissenschaftlerinnen und Arbeitnehmerinnen, Bewerbungen von Frauen werden ausdrücklich begrüßt. Personen mit Handicap werden bei gleicher Eignung besonders berücksichtigt.</p>

@@ -9,16 +9,15 @@ parent: Aktuelles
         <div class="blog-posts single-post">
           <article class="post clearfix mb-0">
 
-            <h1 class="module-title line-bottom">{{ page.title }}</h1>
+            <h1 class="module-title line-bottom">{{ page.institute }}: {{ page.title }}</h1>
             
             <p class="description"><strong>{{ page.description }}</strong></p>
 
-            <hr />
             
             <dl class="main-info-career">
                     
               <dt>Arbeitgeber</dt>
-              <dd><i class="fa fa-institution mr-5"></i> {{ page.institute }}</dd>
+              <dd><i class="fa fa-industry mr-5"></i> {{ page.institute }}</dd>
 
               <dt>Arbeitszeit</dt>
               <dd><i class="fa fa-briefcase mr-5"></i> {{ page.working-time }}</dd>
@@ -40,11 +39,15 @@ parent: Aktuelles
       <div class="row">
         <div class="col-md-12">
           <div class="hero-content">
-Ansprechpartner:<br />
-BMW Group Recruiting Team<br />
-+49 89 382-17001<br /><br />
-Standort: München<br />
-Stellenreferenz: 2938
+            <h3>Haben wir Ihr Interesse geweckt?</h3>
+            <p>
+            Dann senden Sie bitte Ihre aussagekräftigen Bewerbungsunterlagen (Anschreiben, Lebenslauf, Zeugnisse, Bescheinigungen) bis zum 16.12.2020 im PDF-Format per E-Mail an:</p>
+            <p>
+            <a class="btn btn-theme-colored" href="mailto:{{ page.contact-email }}">{{ page.contact-email }}</a>
+            </p>
+            <p>
+            <strong>Wir freuen uns auf Ihre Bewerbung!</strong>
+            </p>
           </div>
         </div>
       </div>

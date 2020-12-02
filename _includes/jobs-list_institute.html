@@ -1,4 +1,36 @@
-<section class="jobs-listing-var2">
+<section class="jobs-filter">
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+        <div class="col-xs-12">
+          <form class="form-horizontal">
+            <div class="form-group">
+                <div class="col-md-10 col-sm-8 cols-xs-6">
+                  <select class="form-control" id="category">
+                    <option>Alle Kategorien</option>
+                    <option>Ausbildungsplätze</option>
+                    <option>Arbeitnehmerinnen und Arbeitnehmer</option>
+                    <option>Doktorandin/ Doktorand</option>
+                    <option>Professorinnen/ Professoren</option>
+                    <option>Wissenschaftliche Hilfskräfte</option>
+                    <option>Wissenschaftliche Mitarbeiterinnen und Mitarbeiter</option>
+                    <option>Stellenangebote anderer Hochschulen</option>
+                  </select>  
+                </div>
+                 <div class="col-sm-2">
+                  <a href="/jobs_institute.html" class="btn btn-gray"><i class="fa fa-times"></i>&nbsp;&nbsp;Filter zurücksetzen</a> 
+                </div> 
+
+            </div>
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jobs-listing">
   <div class="container">
     <div class="section-content">
       <div class="row">
@@ -19,7 +51,7 @@
                         <li class="pull-left"><i class="fa fa-users"></i>{{ item.category }}</li>
                         <li class="pull-left"><i class="fa fa-euro"></i>{{ item.statement-of-payment }}</li>
                         <li class="pull-left"><i class="fa fa-briefcase"></i>{{ item.working-time }}</li>
-                        <li class="pull-left"><i class="fa fa-calendar"></i>{{ item.deadline }}</li>
+                        {% if item.deadline %}<li class="pull-left"><i class="fa fa-calendar"></i>{{ item.deadline }}</li>{% endif %}
                       </ul>
                   </div>
                 
