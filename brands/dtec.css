@@ -149,8 +149,8 @@ form#contact_form label {
     font-weight: bolder;
 }
 form#contact_form .checkbox label {
-    font-size: 0.8em;
-    font-weight: bolder;
+    font-size: 1em;
+    font-weight: normal;
     line-height: 1.5;
 }
 
