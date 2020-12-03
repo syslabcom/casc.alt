@@ -1,7 +1,7 @@
 ---
 layout: job_career
 name: job-single-5
-title: Praktikant Steuern und Zölle (w/m/x)
+title: BMW Group - Praktikant Steuern und Zölle (w/m/x)
 description: Wir bieten dir ein interessantes Praktikum im Bereich Steuern und Zölle mit dem Fokus aufGovernance und Risikomanagement.
 job-category: jobs-alumni
 department: jobs
