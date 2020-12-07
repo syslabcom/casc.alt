@@ -16,7 +16,7 @@ contact-email: thomas.braml@unibw.de
 breadcrumbs: 
 - title: Home
   url: home.html
-- title: Stellenausschreibungen
+- title: Stellenangebote
   url: /jobs.html
 ---
 

@@ -8,15 +8,24 @@ parent: Aktuelles
       <div class="col-md-12">
         <div class="blog-posts single-post">
           <article class="post clearfix mb-0">
+            <div class="row">
+              
+              
+              <div class="pull-right institute-logo">
+                <a href="institute.html"><img src="media/logos/UniBwM_BAU_Kachel_1.png" width="120" height="120" alt="Fakultät für Bauingenieuerwesen und Umweltwissenschaften" /></a>
+              </div>
+              <div class="col-sm-10 col-xs-12">
+                <h1 class="module-title line-bottom">{{ page.title }}</h1>
+                <p class="description"><strong>{{ page.description }}</strong></p>
+              </div>
+                
+            </div>
 
-            <h1 class="module-title line-bottom">{{ page.title }}</h1>
             
-            <p class="description"><strong>{{ page.description }}</strong></p>
-
             <dl class="main-info">
                     
               <dt>Institut</dt>
-              <dd><i class="fa fa-institution mr-5"></i> Fakultät für Elektrotechnik und Informationstechnik</dd>
+              <dd><i class="fa fa-institution mr-5"></i> {{ page.institute }}</dd>
 
               <dt>Arbeitszeit</dt>
               <dd><i class="fa fa-briefcase mr-5"></i> {{ page.working-time }}</dd>

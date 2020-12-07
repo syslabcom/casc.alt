@@ -12,9 +12,11 @@ working-time: max. 4 Std. / Woche
 created: vor 14 Tagen
 category: Studentische Hilfskraft
 email: swa@unibw.de
-breadcrumbs:
+breadcrumbs: 
 - title: Home
-  url: jobs.html
+  url: home.html
+- title: Stellenangebote
+  url: /jobs.html
 ---
 
 <p>
@@ -41,13 +43,14 @@ Lehre und Forschung.</p>
 			<li>Vertiefende Erkenntnisse für Ihr weiteres Studium</li>
 		</ul>
 	</dd>
+	<dt>Dokumente</dt>
 	<dd>
 		<ul>
 			<li><img src="https://staging.cms5a.syslab.com//++resource++mimetype.icons/pdf.png" alt="PDF document" title="LRT++WM+13+-FZ+SPACE_Strukturen_AF_DTEC.Bw.pdf">
-	        <a href="https://www.unibw.de/wasserwesen/wasserwesen/200923_stellenausschreibung_unibwm.pdf">200923_stellenausschreibung_unibwm.pdf</a>
+	        <a href="https://www.unibw.de/stellenausschreibungen/wissenschaftliche-mitarbeiterinnen-und-mitarbeiter/fakultaet-bauwesen-und-umweltwissenschaften/fakultaet-fuer-beuingenieurwesen-und-umweltwissenschaften-institut-fuer-wasserwesen-professur-fuer-siedelungswasserwirtschaft-und-abfalltechnik/">200923_stellenausschreibung_unibwm.pdf</a>
 	        <span class="discreet"> —
 	            PDF-Dokument,
-	            98 KB
+	            104 KB
 	        </span></li>
 	    </ul>
 	</dd>

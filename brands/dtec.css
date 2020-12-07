@@ -49,6 +49,10 @@ a:focus { color: #518196; }
 
 #hero-title .container { padding-top: 50px; padding-bottom: 0px; }
 
+.rev_slider .slotholder:before {
+    background: transparent;
+}
+
 /* for the following modules, the first module below h1 headline should have no padding top if it has a white background */
 
 /* .main-content .mosaic-tile-content:first-child section.news .container, */

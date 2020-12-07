@@ -20,7 +20,13 @@
               data-hoffset="['10']" data-y="['bottom']" data-voffset="['30']" data-width="['1024', '800', '600', '400']"
               data-height="['auto', 'auto', 'auto', 'auto']" data-whitespace="normal" data-basealign="grid"
               data-responsive_offset="on"><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
+                {% if item.slider == 'dtec_citations' %}
+                <div class="text_citation">
+                {{ item.content }}
+                </div>
+                {% else %}
                 <h1>{{ item.hero_title }}</h1>
+                {% endif %}
               </a>
             </div>
           </li>
@@ -209,6 +215,7 @@
 
 {% endif %}
 
+{% if page.breadcrumbs %}
 <div id="breadcrumbs">
   <div class="container mt-0 pt-0 mb-0 pb-0">
     <div class="section-content">
@@ -226,7 +233,7 @@
     </div>
   </div>
 </div>
-
+{% endif %}
 
 {% if site.brand == 'dtec' %}
 <section id="hero-title" class="">
