@@ -207,6 +207,7 @@ blockquote {
           }
         li {
             margin-left: 0;
+            display: inline;
         }
         > li + li::before {
         content: "/";
