@@ -835,12 +835,9 @@ section {
             }
         }
     }
-    &.jobs-intro .container {
-        padding-bottom: 0;   
-    }
     &.jobs-filter .container {
         padding-bottom: 0;
-        margin-bottom: -50px;
+        padding-top: 0;
     }
     &#job {
        dl {
@@ -902,6 +899,9 @@ section {
       }
     }
     &.jobs-listing {
+        .container {
+            padding-top: 0;
+        }
         a {
             .description,
             .list-icon li {
