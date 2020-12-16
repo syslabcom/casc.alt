@@ -11,6 +11,7 @@ statement-of-payment: k.A.
 working-time: Vollzeit, 6 Monate
 deadline: 
 created: vor 3 Tagen
+location: BMW-Zentrale München
 category: Alumni
 contact-email: bewerbung@bmw-group.com
 breadcrumbs: 
