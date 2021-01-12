@@ -9,7 +9,7 @@ section: Jobs
 institute: BMW Group
 statement-of-payment: k.A.
 working-time: Vollzeit, 6 Monate
-deadline: 
+deadline: 7.12.2020
 created: vor 3 Tagen
 location: BMW-Zentrale München
 category: Alumni
