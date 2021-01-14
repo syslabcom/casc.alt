@@ -6,7 +6,7 @@ description: Am Institut für Wasserwesen, Professur für Siedlungswasserwirtsch
 job-category: jobs-stud
 department: jobs
 section: Jobs
-institute: Fakultät Bauingenieuerwesen und Umweltwissenschaften
+institute: Institut für Wasserwesen, Professur für Siedlungswasserwirtschaft und Abfalltechnik
 statement-of-payment: Standardvergütung UniBw München
 working-time: max. 4 Std. / Woche
 created: vor 14 Tagen

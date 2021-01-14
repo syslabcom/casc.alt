@@ -6,7 +6,7 @@ description: Institut für Wasserwesen - Professur für Siedlungswirtschaft und 
 job-category: jobs-wiss
 department: jobs
 section: Jobs
-institute: Fakultät Bauingenieuerwesen und Umweltwissenschaften
+institute: Institut für Wasserwesen - Professur für Siedlungswirtschaft und Abfalltechnik
 statement-of-payment: E 13 TVöD
 working-time: Vollzeit, befristet für zunächst zwei Jahre
 deadline: 7.12.2020

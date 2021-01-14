@@ -6,7 +6,7 @@ description: Institut für konstruktiven Ingenieurbau
 job-category: jobs-wiss
 department: jobs
 section: Jobs
-institute: Fakultät Bauingenieuerwesen und Umweltwissenschaften
+institute: Institut für konstruktiven Ingenieurbau
 statement-of-payment: E 13 TVöD
 working-time: Vollzeit, befristet für zwei Jahre
 deadline: 31.12.2020
