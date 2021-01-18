@@ -8,11 +8,12 @@ department: jobs
 section: Jobs
 institute: BMW Group
 statement-of-payment: k.A.
+field-of-study: Maschinenbau
 working-time: Vollzeit, 6 Monate
 deadline: 7.12.2020
 created: vor 3 Tagen
 location: BMW-Zentrale München
-category: Alumni
+category: Praktika
 contact-email: bewerbung@bmw-group.com
 breadcrumbs: 
 - title: Home
