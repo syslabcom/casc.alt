@@ -9,7 +9,7 @@ section: Jobs
 institute: Fakultät Betriebswirtschaft
 statement-of-payment: E 13 TVöD
 working-time: Vollzeit, befristet für zunächst zwei Jahre
-deadline: 20.11.2020
+closing-date: 20.11.2020
 created: vor 30 Tagen
 category: Wissenschaftliche Mitarbeiterinnen und Mitarbeiter
 contact-email: office.sp@unibw.de

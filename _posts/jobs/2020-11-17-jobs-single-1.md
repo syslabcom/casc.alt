@@ -9,7 +9,7 @@ section: Jobs
 institute: Institut für Wasserwesen - Professur für Siedlungswirtschaft und Abfalltechnik
 statement-of-payment: E 13 TVöD
 working-time: Vollzeit, befristet für zunächst zwei Jahre
-deadline: 7.12.2020
+closing-date: 7.12.2020
 created: vor 1 Tag
 category: Wissenschaftliche Mitarbeiterinnen und Mitarbeiter
 contact-email: christian.schaum@unibw.de

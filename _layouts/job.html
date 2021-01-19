@@ -30,14 +30,26 @@ parent: Aktuelles
               <dt>Stellen-Kategorie</dt>
               <dd><i class="fa fa-users mr-5"></i> {{ page.category }}</dd>
 
+
+{% if page.location %}
+              <dt>Ort</dt>
+              <dd><i class="fa fa-map-marker mr-5"></i> {{ page.location }}</dd>
+{% endif %}
+
+{% if page.working-time %}
               <dt>Arbeitszeit</dt>
               <dd><i class="fa fa-briefcase mr-5"></i> {{ page.working-time }}</dd>
+{% endif %}
 
+{% if page.statement-of-payment %}
               <dt>Vergütung</dt>
               <dd><i class="fa fa-euro mr-5"></i> {{ page.statement-of-payment }}</dd>
+{% endif %}
 
+{% if page.closing-date %}
               <dt>Ende der Bewerbungsfrist</dt>
-              <dd><i class="fa fa-calendar mr-5"></i> {{ page.deadline }}</dd>
+              <dd><i class="fa fa-calendar mr-5"></i> {{ page.closing-date }}</dd>
+{% endif %}
 
             </dl> 
 

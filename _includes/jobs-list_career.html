@@ -16,10 +16,10 @@
                       <p class="description mt-10">{{ item.description }}</p>
 
                       <ul class="list-icon clearfix">
-                        <li class="pull-left"><i class="fa fa-industry"></i>{{ item.institute }}</li>
+                        <li class="pull-left"><i class="fa fa-industry"></i>{{ item.employer }}</li>
                         <li class="pull-left"><i class="fa fa-map-marker"></i>{{ item.location }}</li>
                         <li class="pull-left"><i class="fa fa-briefcase"></i>{{ item.working-time }}</li>
-                        <li class="pull-left"><i class="fa fa-calendar"></i>{{ item.deadline }}</li>
+                        {% if item.deadline %}<li class="pull-left"><i class="fa fa-calendar"></i>{{ item.closing-date }}</li>{% endif %}
                       </ul>
                   </div>
                 

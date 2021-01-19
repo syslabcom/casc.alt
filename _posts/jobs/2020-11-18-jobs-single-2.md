@@ -9,7 +9,7 @@ section: Jobs
 institute: Institut für konstruktiven Ingenieurbau
 statement-of-payment: E 13 TVöD
 working-time: Vollzeit, befristet für zwei Jahre
-deadline: 31.12.2020
+closing-date: 31.12.2020
 created: vor 1 Tag
 category: Wissenschaftliche Mitarbeiterinnen und Mitarbeiter
 contact-email: thomas.braml@unibw.de

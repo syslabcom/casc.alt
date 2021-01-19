@@ -17,30 +17,42 @@ parent: Aktuelles
             <dl class="main-info-career">
                     
               <dt>Arbeitgeber</dt>
-              <dd><i class="fa fa-industry mr-5"></i> {{ page.institute }}</dd>
+              <dd><i class="fa fa-industry mr-5"></i> {{ page.employer }}</dd>
 
               <dt>Stellen-Kategorie</dt>
               <dd><i class="fa fa-users mr-5"></i> {{ page.category }}</dd>
 
+{% if page.field-of-study %}
               <dt>Studiengang</dt>
               <dd><i class="fa fa-graduation-cap mr-5"></i> {{ page.field-of-study }}</dd>
+              {% endif %}
 
+{% if page.location %}
               <dt>Ort</dt>
               <dd><i class="fa fa-map-marker mr-5"></i> {{ page.location }}</dd>
+{% endif %}
 
+{% if page.working-time %}
               <dt>Arbeitszeit</dt>
               <dd><i class="fa fa-briefcase mr-5"></i> {{ page.working-time }}</dd>
+{% endif %}
 
+{% if page.statement-of-payment %}
+              <dt>Vergütung</dt>
+              <dd><i class="fa fa-euro mr-5"></i> {{ page.statement-of-payment }}</dd>
+{% endif %}
+
+{% if page.closing-date %}
               <dt>Ende der Bewerbungsfrist</dt>
-              <dd><i class="fa fa-calendar mr-5"></i> {{ page.deadline }}</dd>
-              
+              <dd><i class="fa fa-calendar mr-5"></i> {{ page.closing-date }}</dd>
+{% endif %}
             </dl> 
 
             {{ content }}
 
            <dl>
                     
-                <dt>Bewerbung</dt>
+           <dt>Bewerbung</dt>
                 <dd>
                 Du hast Spaß daran Neues zu lernen und unsere Abteilung tatkräftig zu unterstützen?<br />
   Bewirb dich jetzt!<br /><br />
