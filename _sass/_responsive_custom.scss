@@ -118,3 +118,22 @@
               overflow: hidden;
             }
             */
+
+/* print view */            
+
+@media print {
+    
+   .header-nav-wrapper { position: static !important; }  
+   #athene {
+        a {
+            margin-left: auto !important;
+            &:before {
+                content: none !important;
+                display: inline !important;
+            }
+        }
+        a[href]:after {
+            content: none !important;
+        }
+    } 
+}
