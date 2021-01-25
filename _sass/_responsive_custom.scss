@@ -124,6 +124,9 @@
 @media print {
     
    .header-nav-wrapper { position: static !important; }  
+   #global-navigation nav.secondary {
+        display: none !important;
+   }
    #athene {
         a {
             margin-left: auto !important;
@@ -132,8 +135,10 @@
                 display: inline !important;
             }
         }
-        a[href]:after {
+        
+    }
+    #athene a[href]:after,
+    #global-navigation nav a.site-logo[href]:after, {
             content: none !important;
-        }
-    } 
+    }
 }
