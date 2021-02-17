@@ -1,59 +1,56 @@
-<section class="news-listing">
-      <div class="container">
-        <div class="section-title">
-          <div class="row">
-            <div class="col-md-8">
-              <h2 class="module-title line-bottom">{{include.title | default:"Aktuelles"}}</h2>
-              <p class="description">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
-           </div>
-          </div>
+<section class="news-listing scheme-{{include.color_scheme}}">
+  <div class="container">
+    <div class="section-title">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="module-title line-bottom">{{include.title | default:"Aktuelles"}}</h2>
+          <p class="description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est </p>
+       </div>
+      </div>
+    </div>
+    <div class="section-content">
+      <div class="row">
+      {% assign count = 1 %}
+      {% assign count_old = 1 %}
+
+        {% for item in site.posts %}
+        {% if item.layout == 'news-item' and count < 4 and item.department == page.department %}
+
+        <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInLeft news-item" data-wow-duration="1s" data-wow-delay="0.3s">
+          <a href="{{ item.url | replace_first: '/', '' }}">
+            <article class="post clearfix mb-sm-30 ">
+              <div class="entry-header">
+                <div class="post-thumb thumb"> 
+                  <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
+                </div>
+              </div>
+              <div class="entry-content p-20 pr-10">
+                <div class="entry-meta media mt-0 no-bg no-border">
+                  <div class="media-body">
+                    <div class="event-content pull-left flip">
+                      <h3 class="entry-title">{{ item.title }}</h4>
+                    </div>
+                  </div>
+                </div>
+                <p class="description mt-10">{{ item.description }}</p>
+                <div class="clearfix"></div>
+              </div>
+            </article>
+          </a>
         </div>
-        <div class="section-content">
-          <div class="row">
-          {% assign count = 1 %}
-          {% assign count_old = 1 %}
-
-            {% for item in site.posts %}
-            {% if item.layout == 'news-item' and count < 4 and item.department == page.department %}
-
-            <div class="col-xs-12 col-sm-6 col-md-4 wow fadeInLeft news-item" data-wow-duration="1s" data-wow-delay="0.3s">
-              <a href="{{ item.url | replace_first: '/', '' }}">
-                <article class="post clearfix mb-sm-30 ">
-                  <div class="entry-header">
-                    <div class="post-thumb thumb"> 
-                      <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
-                    </div>
-                  </div>
-                  <div class="entry-content p-20 pr-10">
-                    <div class="entry-meta media mt-0 no-bg no-border">
-                      <!-- <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
-                        <ul class="blank">
-                          <li class="font-16 text-white font-weight-600 border-bottom">28</li>
-                          <li class="font-12 text-white text-uppercase">Feb</li>
-                        </ul>
-                      </div> -->
-                      <div class="media-body">
-                        <div class="event-content pull-left flip">
-                          <h3 class="entry-title">{{ item.title }}</h4>
-                        </div>
-                      </div>
-                    </div>
-                    <p class="description mt-10">{{ item.description }}</p>
-                    <div href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-sm">Mehr</div>
-                    <div class="clearfix"></div>
-                  </div>
-                </article>
-              </a>
-            </div>
-              {% assign count = count | plus: 1 %}
-            {% endif %}
-          {% endfor %}
-          </div>
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 mt-30">
+          <p class="text-right"><a href="https://dtec.syslab.com/home/aktuelles/neuigkeiten-und-termine/aktuelles.html" class="btn btn-theme-colored btn-lg">Alle anzeigen <i class="fa fa-arrow-circle-right"></i></a></p>
         </div>
       </div>
-      <script>
-      setTimeout(function() {
-        $('.news-listing ').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
-      }, 200);
-      </script>
-    </section>
+    </div>
+  <script>
+  setTimeout(function() {
+    $('.news-listing ').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
+  }, 200);
+  </script>
+</section>

@@ -275,7 +275,16 @@ a {
     .list-group-item { 
                         background-color: #fafafa; 
                       } 
+    article {
+            &.post {
+                background-color: #f1f1f1 !important;
+                .entry-content {
+                    background-color: #f1f1f1 !important;
+                }
+            }
+        }
     }
+
 
 
 .scheme-light-grey { 
