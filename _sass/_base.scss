@@ -44,7 +44,7 @@ $colour-text-secondary: #808080 !default;
 $colour-text-light: #ffffff !default;
 $colour-uni-grey: #6A686F !default;
 $colour-middle-grey: #8B8891 !default;
-$colour-light-grey: #E6E6E6 !default;
+$colour-light-grey: #eeeeee !default;
 $colour-dark-blue: #003366 !default;
 $colour-black-minus-one: #111111 !default;
 $colour-black-minus-two: #282828 !default;
@@ -288,7 +288,7 @@ a {
 
 
 .scheme-light-grey { 
-    background-color: #eee !important; 
+    background-color: $colour-light-grey !important; 
     color: $colour-text !important; 
     .list-group-item,
     .bg-deep,
@@ -764,7 +764,7 @@ section {
         h2 { margin-top:0; font-size: 1.5rem;}
     }
     &.news-listing {
-        background-color: #eee;
+        background-color: $colour-light-grey;
         a {
             .description {
                 color: $colour-text
@@ -1764,7 +1764,7 @@ section.categories>.container {
     .row {
         padding-bottom: 40px; 
         .url {
-            background-color: #eee;
+            background-color: $colour-light-grey;
             display: inline-block;
             border-radius: 0.5em;
             padding: .1em .5em;
@@ -1832,7 +1832,7 @@ section.categories>.container {
         &:focus {
           z-index: 2;
           color: #002e5b;
-          background-color: #eee;
+          background-color: $colour-light-grey;
           border-color: #ddd;
         }
       }
