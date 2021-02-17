@@ -277,9 +277,9 @@ a {
                       } 
     article {
             &.post {
-                background-color: #f1f1f1 !important;
+                background-color: $colour-light-grey !important;
                 .entry-content {
-                    background-color: #f1f1f1 !important;
+                    background-color: $colour-light-grey !important;
                 }
             }
         }
@@ -764,7 +764,7 @@ section {
         h2 { margin-top:0; font-size: 1.5rem;}
     }
     &.news-listing {
-        background-color: $colour-light-grey;
+        background-color: #eee;
         a {
             .description {
                 color: $colour-text
