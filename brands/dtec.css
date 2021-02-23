@@ -127,9 +127,10 @@ section .module-title.line-bottom {
 .icon-box .icon.icon-gray:hover {
   color: #4B4A4A;
 }
-
-section.events-listing,
-section#events-list {
+section.news-listing {
+        background-color: #E3E2E2;
+}
+section.events-listing {
         background-color: #646363;
 }
 section.events-listing .btn-theme-colored {
