@@ -1,0 +1,14 @@
+- name: corona-news
+  title: Interne COVID-19 Updates
+  url: /covid-19.html
+  flag: True 
+  image: /media/content-navigation/Corona-News.png
+  thumb: /media/content-navigation/Corona-News.svg 
+  alt: 'Tile pointing to the Covid 19 Information page'
+- name: innovation
+  title: Innovation
+  url: /innovation.html
+  image: /media/content-navigation/Innovation-Icon.png
+  thumb: /media/content-navigation/Innovation-Icon.svg
+  alt: 'Tile pointing to the Covid 19 Information page'
+  
