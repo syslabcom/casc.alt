@@ -1,6 +1,11 @@
 <style>
     .product { background: silver;}
     .product-details h5 { color: white; font-size: 18px;}
+    
+    @media only screen and (min-width : 992px) {
+        .product { background: #f8f8f8;}
+        .product-details h5 { color: black; font-size: 18px;}
+    }
 </style>
 <section class="content-navigation">
     <div class="container">
@@ -14,7 +19,7 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 mb-30">
                     <a href="{{ item.url }}">
                         <div class="product">
-                            {% if item.flag %}<span class="tag-sale">New!</span>{% endif %}
+                            {% if item.flag %}<span class="tag-sale">Neu!</span>{% endif %}
                             <div class="product-thumb"> 
                                 <picture class="img-responsive img-fullwidth" alt="Corona News" >
                                     <source media="(min-width: 992px)"

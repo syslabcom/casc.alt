@@ -10,5 +10,28 @@
   url: /innovation.html
   image: /media/content-navigation/Innovation-Icon.png
   thumb: /media/content-navigation/Innovation-Icon.svg
-  alt: 'Tile pointing to the Covid 19 Information page'
-  
+  alt: 'Innovation'
+- name: exzellente-forschung
+  title: Exzellente Forschung
+  url: /exzellente-forschung.html
+  image: /media/content-navigation/Forschung-Icon.png
+  thumb: /media/content-navigation/Forschung-Icon.svg
+  alt: 'Exzellente Forschung'
+- name: universitaetsleitung
+  title: Universitätsleitung
+  url: /universitaetsleitung.html
+  image: /media/content-navigation/Leitung-Icon.png
+  thumb: /media/content-navigation/Leitung-Icon.svg
+  alt: 'Universitätsleitung'
+- name: dtecbw
+  title: dtec.bw
+  url: /dtecbw.html
+  image: /media/content-navigation/dtecbw-Icon.png
+  thumb: /media/content-navigation/dtecbw-Icon.svg
+  alt: 'dtec.bw'
+- name: internationalisierung
+  title: Internationalisierung
+  url: /internationalisierung.html
+  image: /media/content-navigation/Internationalisierung-Icon.png
+  thumb: /media/content-navigation/Internationalisierung-Icon.svg
+  alt: 'Internationalisierung'
