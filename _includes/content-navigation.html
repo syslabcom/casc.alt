@@ -1,22 +1,11 @@
-<style>
-    .product { background: silver;}
-    .product-details h5 { color: white; font-size: 18px;}
-    
-    @media only screen and (min-width : 992px) {
-        .product { background: #f8f8f8;}
-        .product-details h5 { color: black; font-size: 18px;}
-    }
-</style>
 <section class="content-navigation">
     <div class="container">
+       <div class="section-content">
         <div class="row multi-row-clearfix">
-            <div class="col-md-12">
-              <div class="products">
-
 
                 {% for item in site.data.content_nav_tiles %}
           
-                <div class="col-sm-6 col-md-4 col-lg-4 mb-30">
+                <div class="col-sm-6 col-md-4">
                     <a href="{{ item.url }}">
                         <div class="product">
                             {% if item.flag %}<span class="tag-sale">Neu!</span>{% endif %}
@@ -32,7 +21,7 @@
                                 </picture>
                                 </div>
                             <div class="product-details text-center">
-                                <h5 class="product-title">{{ item.title }}</h5>
+                                <h3 class="product-title">{{ item.title }}</h3>
                             </div>
                         </div>
                     </a>
@@ -40,9 +29,9 @@
 
               {% endfor %}
           
-
-              </div>
-            </div>
         </div>
+      </div>
     </div>
 </section>
+
+
