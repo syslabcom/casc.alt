@@ -1,8 +1,8 @@
 title: Universität der Bundeswehr
 author: Syslab.com GmbH
 brand: unibw
-#baseurl: /
-domain: www.unibw.de
+baseurl: /
+#domain: www.unibw.de
 media: media
 markdown: kramdown
 permalink: /:title.html
