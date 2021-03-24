@@ -1,4 +1,5 @@
 var js_sources = [
+  'js/requirejs-undefine.js',
   //'js/jquery-2.2.4.min.js', // We're using jQuery from the plone-base bundle
   'js/jquery-ui.min.js',
   'js/bootstrap.min.js',
@@ -16,7 +17,8 @@ var js_sources = [
   'js/revolution-slider/js/extensions/revolution.extension.navigation.min.js',
   'js/revolution-slider/js/extensions/revolution.extension.parallax.min.js',
   'js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js',
-  'js/revolution-slider/js/extensions/revolution.extension.video.min.js'
+  'js/revolution-slider/js/extensions/revolution.extension.video.min.js',
+  'js/requirejs-redefine.js',
 ];
 var css_sources = [
   'css/bootstrap.min.css',
