@@ -1080,14 +1080,22 @@ var THEMEMASCOT = {};
             $('.scrolltofixed').scrollToFixed({
                 marginTop: $('.header .header-nav').outerHeight(true) + 10,
                 limit: function() {
-                    var limit = $('#footer').offset().top - $(this).outerHeight(true);
+                    var footer = $('#footer');
+                    if (! footer.length) {
+                      return;
+                    }
+                    var limit = footer.offset().top - $(this).outerHeight(true);
                     return limit;
                 }
             });
             $('#sidebar').scrollToFixed({
                 marginTop: $('.header .header-nav').outerHeight() + 20,
                 limit: function() {
-                    var limit = $('#footer').offset().top - $('#sidebar').outerHeight() - 20;
+                    var footer = $('#footer');
+                    if (! footer.length) {
+                      return;
+                    }
+                    var limit = footer.offset().top - $('#sidebar').outerHeight() - 20;
                     return limit;
                 }
             });
