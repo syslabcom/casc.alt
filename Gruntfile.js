@@ -1,5 +1,5 @@
 var js_sources = [
-  'js/jquery-2.2.4.min.js',
+  //'js/jquery-2.2.4.min.js', // We're using jQuery from the plone-base bundle
   'js/jquery-ui.min.js',
   'js/bootstrap.min.js',
   'js/jquery-plugin-collection.js',
