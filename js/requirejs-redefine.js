@@ -1,6 +1,6 @@
-if (typeof _old_define !== "undefined") {
+if (window._old_define) {
     define = _old_define;
 }
-if (typeof _old_require !== "undefined") {
+if (window._old_require) {
     require = _old_require;
 }
