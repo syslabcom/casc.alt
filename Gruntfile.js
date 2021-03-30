@@ -26,12 +26,12 @@ var css_sources = [
   'css/menuzord-skins/menuzord-rounded-boxed.css',
   'css/style-main.css',
   'css/custom-bootstrap-margin-padding.css',
+  'css/responsive.css',
   'js/fullcalendar-3.9.0/fullcalendar.min.css',
   'js/revolution-slider/css/settings.css',
   'js/revolution-slider/css/layers.css',
   'js/revolution-slider/css/navigation.css',
-  '_site/css/screen.css',
-  'css/responsive.css'
+  '_site/css/screen.css'
   // 'css/colors/theme-skin-color-set-casc.css'
 ];
 var unibw_sources = css_sources.concat(['css/colors/theme-skin-color-set-casc.css', 'brands/unibw.css']);
