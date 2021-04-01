@@ -760,6 +760,7 @@ section {
         .product {
             background: $colour-light-grey;
         }
+        .product-details { padding: 20px; }
         .product-details h3 { color: $colour-text; font-size: 1.2rem; }
         @media only screen and (max-width: 991px) {
             .product {
