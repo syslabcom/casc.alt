@@ -769,7 +769,9 @@ section {
             .product {
                 background: $colour-uni-grey;
             }
-            .product-details h3 { color: white; }
+            .product-details {
+                h3.product-title { color: white; }
+            }
         }
     }
     &.news {
