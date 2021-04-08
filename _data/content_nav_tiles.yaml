@@ -1,37 +1,67 @@
 - name: corona-news
-  title: Interne COVID-19 Updates
+  title: Interne Covid-19 Updates
   url: /covid-19.html
   flag: True 
-  image: /media/content-navigation/Corona-News.png
-  thumb: /media/content-navigation/Corona-News.svg 
+  image: /media/content-navigation/UniBw-M_Icon_Corona-News.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Corona-News.svg 
   alt: 'Tile pointing to the Covid 19 Information page'
-- name: innovation
-  title: Innovation
-  url: /innovation.html
-  image: /media/content-navigation/Innovation-Icon.png
-  thumb: /media/content-navigation/Innovation-Icon.svg
-  alt: 'Innovation'
-- name: exzellente-forschung
-  title: Exzellente Forschung
-  url: /exzellente-forschung.html
-  image: /media/content-navigation/Forschung-Icon.png
-  thumb: /media/content-navigation/Forschung-Icon.svg
-  alt: 'Exzellente Forschung'
 - name: universitaetsleitung
   title: Universitätsleitung
   url: /universitaetsleitung.html
-  image: /media/content-navigation/Leitung-Icon.png
-  thumb: /media/content-navigation/Leitung-Icon.svg
+  image: /media/content-navigation/UniBw-M_Icon_Leitung-Athene.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Leitung-Athene.svg
   alt: 'Universitätsleitung'
+- name: karriere
+  title: Karriere und Stellen
+  url: /karriere.html
+  image: /media/content-navigation/UniBw-M_Icon_Karriere-Stellen.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Karriere-Stellen.svg
+  alt: 'Karriere und Stellen'
+- name: studium-zivil
+  title: Studium für Zivilpersonen
+  url: /studium-zivil.html
+  image: /media/content-navigation/UniBw-M_Icon_zivile-Studierende.png
+  thumb: /media/content-navigation/UniBw-M_Icon_zivile-Studierende.svg
+  alt: 'Studium für Zivilpersonen'
+- name: zentrale-einrichtungen
+  title: Zentrale Einrichtungen
+  url: /zentrale-einrichtungen.html
+  image: /media/content-navigation/UniBw-M_Icon_Zentrale-Einrichtungen.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Zentrale-Einrichtungen.svg
+  alt: 'Zentrale Einrichtungen'
+- name: forschungsinstitute
+  title: Forschungsinstitute/FZ
+  url: /forschungsinstitute.html
+  image: /media/content-navigation/UniBw-M_Icon_Forschungsinstitut-FZ.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Forschungsinstitut-FZ.svg
+  alt: 'Forschungsinstitute/FZ'
+- name: technologietransfer
+  title: Technologietransfer
+  url: /innovation.html
+  image: /media/content-navigation/UniBw-M_Icon_Technologietransfer.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Technologietransfer.svg
+  alt: 'Technologietransfer'
+- name: entrepreneurship
+  title: Entrepreneurship
+  url: /entrepreneurship.html
+  image: /media/content-navigation/UniBw-M_Icon_Entrepreneurship.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Entrepreneurship.svg
+  alt: 'Entrepreneurship'
+- name: emeriti-of-excellence
+  title: Emeriti of Excellence
+  url: /emeriti-of-excellence.html
+  image: /media/content-navigation/UniBw-M_Icon_Exzellente-Emeriti.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Exzellente-Emeriti.svg
+  alt: 'Emeriti of Excellence'
+- name: auszeichnungen-preise
+  title: Auszeichnungen/Preise
+  url: /auszeichnungen-preise.html
+  image: /media/content-navigation/UniBw-M_Icon_Auszeichnungen-Preise.png
+  thumb: /media/content-navigation/UniBw-M_Icon_Auszeichnungen-Preise.svg
+  alt: 'Auszeichnungen/Preise'
 - name: dtecbw
   title: dtec.bw
   url: /dtecbw.html
-  image: /media/content-navigation/dtecbw-Icon.png
-  thumb: /media/content-navigation/dtecbw-Icon.svg
+  image: /media/content-navigation/UniBw-M_Icon_dtecbw.png
+  thumb: /media/content-navigation/UniBw-M_Icon_dtecbw.svg
   alt: 'dtec.bw'
-- name: internationalisierung
-  title: Internationalisierung
-  url: /internationalisierung.html
-  image: /media/content-navigation/Internationalisierung-Icon.png
-  thumb: /media/content-navigation/Internationalisierung-Icon.svg
-  alt: 'Internationalisierung'

@@ -745,7 +745,7 @@ section {
     }
     &.gallery-extended {
         .post {
-            background-color: #f8f8f8;
+            background-color: $colour-light-grey;
             margin-bottom: 30px;
             .entry-title {
               height: auto;
@@ -755,6 +755,12 @@ section {
               overflow: auto;
             }
         }
+    }
+    &.content-navigation {
+        .product {
+            background: $colour-light-grey;
+        }
+        .product-details h3 { color: $colour-text; font-size: 1.2rem; }
     }
     &.news {
         a {
