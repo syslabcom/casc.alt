@@ -275,14 +275,7 @@ a {
     .list-group-item { 
                         background-color: #fafafa; 
                       } 
-    article {
-            &.post {
-                background-color: $colour-light-grey !important;
-                .entry-content {
-                    background-color: $colour-light-grey !important;
-                }
-            }
-        }
+    
     }
 
 
@@ -290,6 +283,14 @@ a {
 .scheme-light-grey { 
     background-color: $colour-light-grey !important; 
     color: $colour-text !important; 
+    article {
+        &.post {
+            background-color: #ffffff !important;
+            .entry-content {
+                background-color: #ffffff !important;
+            }
+        }
+    }
     .list-group-item,
     .bg-deep,
     .howto.iconbox-bg,
@@ -753,6 +754,9 @@ section {
             .description {
               height: auto;
               overflow: auto;
+            }
+            .entry-content {
+                background-color: $colour-light-grey;
             }
         }
     }
