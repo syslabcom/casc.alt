@@ -777,6 +777,11 @@ section {
                 h3.product-title { color: white; }
             }
         }
+        @media only screen and (max-width: 576px) {
+            .product-details {
+                h3.product-title { font-size: 0.8em; }
+            }
+        }
         @media only screen and (max-width: 320px) {
             .section-content .row .col-xs-6 {
                 width:100%;
