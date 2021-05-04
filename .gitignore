@@ -16,3 +16,4 @@ stamp-bundler
 /.bundle/
 /node_modules/
 /ruby/
+vendor/
