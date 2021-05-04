@@ -779,12 +779,15 @@ section {
         }
         @media only screen and (max-width: 576px) {
             .product-details {
-                h3.product-title { font-size: 0.8em; }
+                h3.product-title { font-size: 1em; }
             }
         }
         @media only screen and (max-width: 320px) {
             .section-content .row .col-xs-6 {
                 width:100%;
+            }
+            .product-details {
+                h3.product-title { font-size: 1.2em; }
             }
         }
     }
