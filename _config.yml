@@ -12,6 +12,7 @@ sass:
     - css
     - js
 exclude:
+  - vendor/
   - Gemfile
   - Gemfile.lock
   - config.codekit
