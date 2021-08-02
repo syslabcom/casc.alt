@@ -4,7 +4,7 @@
 /*
 
 main grays:
-dark-gray: #646363 75% Schwarz
+dark-gray: #595858 75% Schwarz ->  WCAG 2.1 
 light-gray: #9D9D9C 50% Schwarz
 orange: #ED6E00
 pink: #C3004A
@@ -19,12 +19,15 @@ shades of gray
 */
 
 /* if we need the focus, take the dark gray color instead orange */
-header *:focus, footer *:focus, ol *:focus, ul *:focus { border: none;}
-header * :focus, footer * :focus, ol * :focus, ul * :focus { border: none;}
 
-a { color: #7EAAC0; }
+/* this does not work for me... 
+header *:focus, footer *:focus, ol *:focus, ul *:focus { border:  none; outline: 3px dashed #595858 !important; }
+header * :focus, footer * :focus, ol * :focus, ul * :focus { border:  none; outline: 3px dashed #595858 !important;  }
+*/
+
+a { color: #487A93; } /* WCAG 2.1 */
 a:hover,
-a:focus { color: #518196; }
+a:focus { color: #365B6E; } /* WCAG 2.1 */
 
 .header-nav {
 	background: transparent;
@@ -107,7 +110,7 @@ a:focus { color: #518196; }
 .menuzord .menuzord-menu>li:hover>a,
 #header .header-nav .header-nav-wrapper .menuzord-menu > .active > a  {
     background: transparent none repeat scroll 0 0;
-    color: #646363;
+    color: #595858;
     font-weight: bolder;
     border: none;
 }
@@ -131,7 +134,7 @@ section.news-listing {
         background-color: #E3E2E2;
 }
 section.events-listing {
-        background-color: #646363;
+        background-color: #595858;
 }
 section.events-listing .btn-theme-colored {
         background-color: #B1B0B0;
@@ -175,13 +178,13 @@ form#contact_form .btn {
 }
 
 blockquote {
-    border-left: 3px solid #646363;
+    border-left: 3px solid #595858;
 }
 
-.unibworange-text { color: #646363; }
-.unibworange-background { background-color: #646363; }
-.unibworange-border { border-color: #646363; }
-.searchResults .row .url i { color: #646363; }
+.unibworange-text { color: #595858; }
+.unibworange-background { background-color: #595858; }
+.unibworange-border { border-color: #595858; }
+.searchResults .row .url i { color: #595858; }
 
 /* colour schemes */
 .scheme-white {}
@@ -201,6 +204,29 @@ blockquote {
 .scheme-uni-orange .howto p.text-gray { color: #E3E2E2 !important;  }
 .scheme-uni-orange.overlay-theme-colored-8:before { background-color: rgba(157, 157, 156, 0.8) !important; }
 
+.scheme-uni-orange,
+.scheme-uni-orange h1,
+.scheme-uni-orange h2,
+.scheme-uni-orange h3,
+.scheme-uni-orange h4,
+.scheme-uni-orange h5,
+.scheme-uni-orange h6,
+.scheme-uni-orange a,
+.scheme-uni-orange strong,
+.scheme-uni-orange p,
+.scheme-uni-orange a.icon-dark,
+.scheme-uni-orange .howto h5, 
+.scheme-uni-orange .howto p.text-gray {
+        color: #000000 !important;
+}
+
+.scheme-uni-orange .btn-theme-colored,
+.scheme-uni-orange .btn-theme-colored:hover,
+.scheme-uni-orange .btn-theme-colored:active,
+.scheme-uni-orange .btn-theme-colored:focus {
+        color:  #ffffff !important;
+    }
+
 .scheme-middle-grey { background-color: #9D9D9C !important; } 
 .scheme-middle-grey .list-group-item {  background-color: #FDFCFC; }
 .scheme-middle-grey .icon-box .icon.icon-gray { background-color: #E3E2E2; }
@@ -208,18 +234,45 @@ blockquote {
 .scheme-middle-grey .howto p.text-gray { color: #CAC9C9 !important;  }
 .scheme-middle-grey.overlay-theme-colored-8:before { background-color: rgba(157, 157, 156, 0.8) !important; }
 
-.scheme-uni-grey { background-color: #646363 !important; }
+.scheme-middle-grey,
+.scheme-middle-grey h1,
+.scheme-middle-grey h2,
+.scheme-middle-grey h3,
+.scheme-middle-grey h4,
+.scheme-middle-grey h5,
+.scheme-middle-grey h6,
+.scheme-middle-grey a,
+.scheme-middle-grey strong,
+.scheme-middle-grey p,
+.scheme-middle-grey a.icon-dark,
+.scheme-middle-grey .howto h5, 
+.scheme-middle-grey .howto p.text-gray {
+        color: #000000 !important;
+}
+
+.scheme-middle-grey .btn-theme-colored,
+.scheme-middle-grey .btn-theme-colored:hover,
+.scheme-middle-grey .btn-theme-colored:active,
+.scheme-middle-grey .btn-theme-colored:focus {
+        color:  #ffffff !important;
+}
+
+.scheme-uni-grey { background-color: #595858 !important; }
 .scheme-uni-grey .list-group-item { background-color: #FDFCFC; } 
 .scheme-uni-grey .btn-theme-colored {
         background-color: #B1B0B0;
         border-color: #B1B0B0;
+        color:  #000000 !important;
     }
+
 .scheme-uni-grey .btn-theme-colored:hover,
 .scheme-uni-grey .btn-theme-colored:active,
 .scheme-uni-grey .btn-theme-colored:focus {
         background-color: #979696;
         border-color: #979696;
+        color:  #000000 !important;
     }
+
 .scheme-uni-grey .icon-box .text-gray,
 .scheme-uni-grey p.text-gray,
 .scheme-uni-grey h6.text-gray  { color: grey !important; }   
@@ -228,17 +281,18 @@ blockquote {
 .scheme-uni-grey .howto p.text-gray { color: #CAC9C9 !important;  }
 .scheme-uni-grey.overlay-theme-colored-8:before { background-color: rgba(100, 99, 99, 0.8) !important; }
 
-
-.scheme-dark-blue { background-color: #646363 !important; }
+.scheme-dark-blue { background-color: #595858 !important; }
 .scheme-dark-blue .btn-theme-colored {
         background-color: #B1B0B0;
         border-color: #B1B0B0;
+        color:  #000000 !important;
     }
 .scheme-dark-blue .btn-theme-colored:hover,
 .scheme-dark-blue .btn-theme-colored:active,
 .scheme-dark-blue .btn-theme-colored:focus {
         background-color: #979696;
         border-color: #979696;
+        color:  #000000 !important;
     }
 .scheme-dark-blue .icon-box .icon.icon-gray { background-color: #E3E2E2 } 
 .scheme-dark-blue .bg-deep { background-color: #FDFCFC !important; }
@@ -252,7 +306,7 @@ blockquote {
 .scheme-uni-orange .list-group-item a,
 .scheme-dark-blue .list-group-item a
  {
-    color: #7EAAC0 !important;
+    color: #487A93 !important;
 }
 
 .scheme-white .list-group-item a :hover,
@@ -283,13 +337,15 @@ blockquote {
     color: #518196 !important;
 }
 
+
 .btn {
     border-radius: 0;
 }
 
 /* footer styles */
+.footer,
 .layer-overlay.overlay-dark-9::before {
-    background-color: #646363;
+    background-color: #595959;
 }
 
 
@@ -310,3 +366,13 @@ blockquote {
     /* Menu items */
 #header .header-nav .header-nav-wrapper .menuzord { margin-bottom: 12px; }
 }
+
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+/* additional changes due to WAI compatibility */
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+
+#secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
+        color: #595858;
+}
+
+.text-gray-silver { color: #595858 !important; }
