@@ -130,10 +130,8 @@ footer,
 ol, 
 ul {
     :focus {
-      border-style: solid;
-      border-color: $colour-uni-orange;
-      border-width: 1px;
-      border-radius: 0 !important;
+      border: none;
+      outline: 1px solid $colour-uni-orange;
     } 
 }
 

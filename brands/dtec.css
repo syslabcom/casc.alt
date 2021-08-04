@@ -18,12 +18,6 @@ shades of gray
 
 */
 
-/* if we need the focus, take the dark gray color instead orange */
-
-/* this does not work for me... 
-header *:focus, footer *:focus, ol *:focus, ul *:focus { border:  none; outline: 3px dashed #595858 !important; }
-header * :focus, footer * :focus, ol * :focus, ul * :focus { border:  none; outline: 3px dashed #595858 !important;  }
-*/
 
 a { color: #487A93; } /* WCAG 2.1 */
 a:hover,
@@ -373,6 +367,8 @@ blockquote {
 /* +++++++++++++++++++++++++++++++++++++++++++ */
 /* additional changes due to WAI compatibility */
 /* +++++++++++++++++++++++++++++++++++++++++++ */
+
+header *:focus, footer *:focus, ol *:focus, ul *:focus { outline: 2px dashed #595858 !important; }
 
 #secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
         color: #595858;
