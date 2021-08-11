@@ -1,29 +1,29 @@
 {
-  "name": "casc-site",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^1.2.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-cssmin": "^2.0.0",
-    "grunt-contrib-uglify": "^0.5.1"
-  },
-  "main": "Gruntfile.js",
-  "dependencies": {
-    "grunt-cli": "^1.2.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/syslabcom/casc.alt.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/syslabcom/casc.alt/issues"
-  },
-  "homepage": "https://github.com/syslabcom/casc.alt#readme",
-  "description": ""
+    "name": "casc-site",
+    "version": "0.1.0",
+    "main": "Gruntfile.js",
+    "dependencies": {
+        "grunt-cli": "^1.2.0"
+    },
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-cli": "^1.2.0",
+        "grunt-contrib-concat": "^1.0.1",
+        "grunt-contrib-cssmin": "^2.0.0",
+        "grunt-contrib-uglify": "^0.5.1"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/syslabcom/casc.alt.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/syslabcom/casc.alt/issues"
+    },
+    "homepage": "https://github.com/syslabcom/casc.alt#readme",
+    "description": ""
 }
