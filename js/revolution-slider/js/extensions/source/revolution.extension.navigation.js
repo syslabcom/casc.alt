@@ -798,9 +798,9 @@ var initArrows = function(container,o,opt) {
 	
 	// ADD LEFT AND RIGHT ARROWS
 	if (container.find('.tp-leftarrow.tparrows').length===0) 
-		container.append('<div class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</div>');
+		container.append('<button type="button" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</button>');
 	if (container.find('.tp-rightarrow.tparrows').length===0) 
-		container.append('<div class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</div>');	
+		container.append('<button type="button" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</button>');
 	var la = container.find('.tp-leftarrow.tparrows'),
 		ra = container.find('.tp-rightarrow.tparrows');
 	if (o.rtl) {
@@ -941,7 +941,7 @@ var addBullet = function(container,o,li,opt) {
 	jQuery.each(opt.thumbs[li.index()].params,function(i,obj) { inst = inst.replace(obj.from,obj.to);})
 
 
-	bw.append('<div class="justaddedbullet tp-bullet">'+inst+'</div>');
+	bw.append('<button type="button" class="justaddedbullet tp-bullet">'+inst+'</button>');
 
 	// SET BULLET SPACES AND POSITION
 	var b = container.find('.justaddedbullet'),
