@@ -2563,6 +2563,11 @@ form .error {
 .minimal-revslider-wrapper .tp-rightarrow {
   right: 0;
 }
+/* -------- Revolution Slider Navigation Elements ---------- */
+button.tparrows,
+button.tp-bullet {
+  border: none;
+}
 /* -------- Tab-Slider ---------- */
 .tab-slider .tab-content {
   padding: 0;

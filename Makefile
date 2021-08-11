@@ -1,35 +1,9 @@
-BOWER 		?= node_modules/.bin/bower
-JSHINT 		?= node_modules/.bin/jshint
-PEGJS		?= node_modules/.bin/pegjs
-PHANTOMJS	?= node_modules/.bin/phantomjs
-BINDIR      ?= .bundle/bin
-# XXX: See stamp-bundler below.
-# BUNDLE      ?= $(BINDIR)/bundle
-BUNDLE      ?= bundle
-
-PATTERNS	= src/bower_components/patternslib
-SOURCES		= $(wildcard $(PATTERNS)/src/*.js) $(wildcard $(PATTERNS)/src/pat/*.js) $(wildcard $(PATTERNS)/src/lib/*.js)
-BUNDLES		= bundles/patterns.js bundles/patterns.min.js
-
-GENERATED	= $(PATTERNS)/src/lib/depends_parse.js
-
-JSHINTEXCEPTIONS = $(GENERATED) \
-		   $(PATTERNS)/src/lib/dependshandler.js \
-		   $(PATTERNS)/src/lib/htmlparser.js \
-		   $(PATTERNS)/src/pat/skeleton.js
-CHECKSOURCES	= $(filter-out $(JSHINTEXCEPTIONS),$(SOURCES))
-
-RELEASE         = $(shell git describe --tags)
-RELEASE_DIR		= release/prototype
-RELEASE_TARBALL = release/prototype-$(RELEASE).tar.gz
-
-# This directory is relative to ./prototype dir.
-DIAZO_DIR   = ../src/unibw/theme/static
-
-LATEST          = $(shell cat LATEST)
+BUNDLER_DIR     ?= .bundle
+BUNDLER_BIN_DIR ?= $(BUNDLER_DIR)/bin
+BUNDLER         ?= $(BUNDLER_BIN_DIR)/bundler
+BUNDLE          ?= bundle
 BUNDLEPLONEID	= casc
-BUNDLEDISTNAME  = casc-bundle
-BUNDLEDISTURL	= https://products.syslab.com/packages/$(BUNDLEDISTNAME)/$(LATEST)/$(BUNDLEDISTNAME)-$(LATEST).tar.gz
+GRUNT           ?= npx grunt
 
 all:: jekyll
 default: all
@@ -37,40 +11,42 @@ default: all
 ########################################################################
 ## Install dependencies
 
+stamp-bundler:
+	mkdir -p $(BUNDLER_BIN_DIR) && gem install --user-install bundler -v 2.1.4 --bindir=$(BUNDLER_BIN_DIR) --no-wrappers 2>&1 | grep -Ev 'PATH|not run'
+	$(BUNDLER) install --path $(BUNDLER_DIR)
+	touch stamp-bundler
+
 stamp-npm: package.json
 	npm install
 	touch stamp-npm
 
-stamp-bower: stamp-npm
-	$(BOWER) install
-	touch stamp-bower
-
+.PHONY: clean
 clean::
-	rm -rf stamp-npm stamp-bower stamp-bundler node_modules src/bower_components bundles/*
-
-extra-clean:: clean
-	rm -rf ~/.cache/bower
+	rm -rf stamp-npm stamp-bundler node_modules bundles/*
 
 
 ########################################################################
 ## Bundle generation
 
+
+.PHONY: build
 build: jekyll
-jekyll: #fetchrelease stamp-bundler
+jekyll: stamp-bundler
 	$(BUNDLE) exec jekyll build
 
-dev: stamp-bower jekyll
+.PHONY: dev
+dev: jekyll
 	# Set up development environment
 	rm -rf _site/bundles
 	ln -s ../src _site/bundles
 	rm -f _site/bundles/$(BUNDLEPLONEID).js
-	ln -s bower_components/requirejs/require.js _site/bundles/$(BUNDLEPLONEID).js
 	rm -f _site/main.js
 	cp main.js src/main.js
 	sed -i -e "s|baseUrl: 'src',|baseUrl: '/bundles/',|" src/main.js
 
 ########################################################################
 # For development (i.e. serving files)
+.PHONY: serve
 serve: demo-run
 demo-run: stamp-bundler
 	$(BUNDLE) exec jekyll serve --no-watch --skip-initial-build --host 0.0.0.0
@@ -78,10 +54,8 @@ demo-run: stamp-bundler
 # for http://casc.syslab.com deployment
 demo-build: jekyll
 
-node_modules/.bin/grunt:
-	npm install
+.PHONY: bundle
+bundle: stamp-npm
+	$(GRUNT)
 
-bundle: node_modules/.bin/grunt
-	node_modules/.bin/grunt
-
-.PHONY: all bundle extra-clean clean jshint check-clean release serve
+#
