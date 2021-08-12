@@ -941,7 +941,7 @@ var addBullet = function(container,o,li,opt) {
 	jQuery.each(opt.thumbs[li.index()].params,function(i,obj) { inst = inst.replace(obj.from,obj.to);})
 
 
-	bw.append('<button type="button" aria-label="Zum Sliderbild Nummer ' + li.index() + '" class="justaddedbullet tp-bullet">'+inst+'</button>');
+	bw.append('<button type="button" aria-label="Zum Sliderbild Nummer ' + (parseInt(li.index(), 10) + 1) + '" class="justaddedbullet tp-bullet">'+inst+'</button>');
 
 	// SET BULLET SPACES AND POSITION
 	var b = container.find('.justaddedbullet'),
