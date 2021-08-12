@@ -1193,7 +1193,19 @@ section.gradient:after,
     }
 }
 
+/* -------- Revolution Slider Navigation Elements ---------- */
+button.tparrows,
+button.tp-bullet {
+  border: none;
+}
+.rev_slider_wrapper:focus-within .tparrows,
+.rev_slider_wrapper:focus-within .tp-bullets {
+    opacity: 1 !important;
+    visibility: initial !important;
+}
 
+
+/* -------- Footer ---------- */
 #footer {
     color: $colour-text-light;
     .text-white {
