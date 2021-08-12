@@ -40,26 +40,11 @@ a:focus { color: #365B6E; } /* WCAG 2.1 */
  
 #header .header-nav .header-nav-wrapper .menuzord { background-color: transparent; }
 
-/*
-#breadcrumbs {display: none !important;}
-*/
-
 #hero-title .container { padding-top: 50px; padding-bottom: 0px; }
 
 .rev_slider .slotholder:before {
     background: transparent;
 }
-
-/* dark text variant
-.rev_slider .text_citation {
-    color: #555;
-    text-shadow: 0 0 100px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5), 0 0 5px rgba(255, 255, 255, 0.5);
-    .text_small {
-        text-shadow: 0 0 100px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5), 0 0 10px rgba(255, 255, 255, 0.5);
-    }
-}
-*/
-
 
 /* for the following modules, the first module below h1 headline should have no padding top if it has a white background */
 
@@ -355,7 +340,11 @@ blockquote {
 .footer a:focus { color: #fff; border: none;}
 
 
+
+/* +++++++++++++++++++++++++++++ */
 /* Mobile mode (Responsive mode) */
+/* +++++++++++++++++++++++++++++ */
+
 @media (max-width: 900px){
     /* Menu items */
     #header { margin-top: 15px; }
@@ -368,7 +357,9 @@ blockquote {
 /* additional changes due to WAI compatibility */
 /* +++++++++++++++++++++++++++++++++++++++++++ */
 
-header *:focus, footer *:focus, ol *:focus, ul *:focus { outline: 1px dotted #595858 !important; }
+header *:focus, footer *:focus, ol *:focus, ul *:focus, *:focus { outline: 1px dotted #595858 !important; }
+
+#secondary-navigation { background: pink !important; }
 
 #secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
         color: #595858;
