@@ -15592,9 +15592,9 @@ var initArrows = function(container,o,opt) {
 	
 	// ADD LEFT AND RIGHT ARROWS
 	if (container.find('.tp-leftarrow.tparrows').length===0) 
-		container.append('<button type="button" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</button>');
+		container.append('<button type="button" aria-label="Vorheriges Sliderbild" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</button>');
 	if (container.find('.tp-rightarrow.tparrows').length===0) 
-		container.append('<button type="button" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</button>');
+		container.append('<button type="button" aria-label="Nächstes Sliderbild" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</button>');
 	var la = container.find('.tp-leftarrow.tparrows'),
 		ra = container.find('.tp-rightarrow.tparrows');
 	if (o.rtl) {
@@ -15735,7 +15735,7 @@ var addBullet = function(container,o,li,opt) {
 	jQuery.each(opt.thumbs[li.index()].params,function(i,obj) { inst = inst.replace(obj.from,obj.to);})
 
 
-	bw.append('<button type="button" class="justaddedbullet tp-bullet">'+inst+'</button>');
+	bw.append('<button type="button" aria-label="Zum Sliderbild Nummer ' + li.index() + '" class="justaddedbullet tp-bullet">'+inst+'</button>');
 
 	// SET BULLET SPACES AND POSITION
 	var b = container.find('.justaddedbullet'),
