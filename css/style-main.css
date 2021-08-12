@@ -2568,6 +2568,11 @@ button.tparrows,
 button.tp-bullet {
   border: none;
 }
+.rev_slider_wrapper:focus-within .tparrows,
+.rev_slider_wrapper:focus-within .tp-bullets {
+    opacity: 1 !important;
+    visibility: initial !important;
+}
 /* -------- Tab-Slider ---------- */
 .tab-slider .tab-content {
   padding: 0;
