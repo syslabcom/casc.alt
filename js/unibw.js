@@ -979,7 +979,7 @@ return d},fgSegHtml:function(a,b){var c,d,e=this.view,f=a.event,g=e.isEventDragg
             if (ev.key == "Escape") {
                 main_menu.find(".indicator").parent("a").attr("aria-expanded", false);
                 main_menu.find(".dropdown, .megamenu").slideUp(p.hideSpeed);
-                if (p.responsive) {
+                if (main_menu.find(".showhide").is(":visible")) {
                     main_menu.find(".showhide").attr("aria-expanded", "false");
                     main_menu.find(".menuzord-menu").slideUp(p.hideSpeed);
                 }
