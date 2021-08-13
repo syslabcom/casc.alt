@@ -4,6 +4,7 @@ var js_sources = [
     "js/jquery-ui.min.js",
     "js/bootstrap.min.js",
     "js/jquery-plugin-collection.js",
+    "js/menuzord-unglified.js",
     "js/fullcalendar-2.6.0/lang/de.js",
     "js/tsvensen-equalize.js-87c2cf1/js/equalize.js",
     "js/underscore-min.js",
