@@ -3,6 +3,15 @@
  * -----------------------------------------------
  */
 !(function (e) {
+    var mz_generate_id = function () {
+        return (
+            "mz_" +
+            Math.floor((1 + Math.random()) * 0x10000)
+                .toString(16)
+                .substring(1)
+        );
+    };
+
     jQuery.fn.menuzord = function (n) {
         function i(n) {
             "fade" == p.effect
@@ -54,6 +63,13 @@
                               e(this)
                                   .parent("li")
                                   .siblings("li")
+                                  .find(".indicator")
+                                  .parent("a")
+                                  .attr("aria-expanded", false),
+                              e(this).attr("aria-expanded", true),
+                              e(this)
+                                  .parent("li")
+                                  .siblings("li")
                                   .find(".dropdown, .megamenu")
                                   .stop(!0, !0)
                                   .fadeOut(300),
@@ -86,29 +102,39 @@
                         e(this).parent("a").siblings(".dropdown, .megamenu").length >
                             0 &&
                             e(this).bind("click", function (n) {
-                                e(g).scrollTo({ top: 45, left: 0 }, 600),
-                                    "A" == e(this).parent().prop("tagName") &&
-                                        n.preventDefault(),
-                                    "none" ==
-                                    e(this)
-                                        .parent("a")
+                                var a_parent = e(this).parent();
+                                e(g).scrollTo({ top: 45, left: 0 }, 600);
+                                "A" == a_parent.prop("tagName") && n.preventDefault();
+                                if (
+                                    a_parent
                                         .siblings(".dropdown, .megamenu")
-                                        .css("display")
-                                        ? (e(this)
-                                              .parent("a")
-                                              .siblings(".dropdown, .megamenu")
-                                              .delay(p.showDelay)
-                                              .slideDown(p.showSpeed),
-                                          e(this)
-                                              .parent("a")
-                                              .parent("li")
-                                              .siblings("li")
-                                              .find(".dropdown, .megamenu")
-                                              .slideUp(p.hideSpeed))
-                                        : e(this)
-                                              .parent("a")
-                                              .siblings(".dropdown, .megamenu")
-                                              .slideUp(p.hideSpeed);
+                                        .css("display") == "none"
+                                ) {
+                                    // close others
+                                    a_parent
+                                        .parent("li")
+                                        .siblings("li")
+                                        .find(".indicator")
+                                        .parent("a")
+                                        .attr("aria-expanded", false);
+                                    a_parent
+                                        .parent("li")
+                                        .siblings("li")
+                                        .find(".dropdown, .megamenu")
+                                        .slideUp(p.hideSpeed);
+
+                                    // open this
+                                    a_parent.attr("aria-expanded", true);
+                                    a_parent
+                                        .siblings(".dropdown, .megamenu")
+                                        .delay(p.showDelay)
+                                        .slideDown(p.showSpeed);
+                                } else {
+                                    a_parent.attr("aria-expanded", false);
+                                    a_parent
+                                        .siblings(".dropdown, .megamenu")
+                                        .slideUp(p.hideSpeed);
+                                }
                             });
                     });
         }
@@ -129,12 +155,16 @@
                 e(m)
                     .show(0)
                     .click(function () {
-                        "none" == e(g).css("display")
-                            ? e(g).slideDown(p.showSpeed)
-                            : e(g)
-                                  .slideUp(p.hideSpeed)
-                                  .find(".dropdown, .megamenu")
-                                  .hide(p.hideSpeed);
+                        if ("none" == e(g).css("display")) {
+                            e(this).attr("aria-expanded", true);
+                            e(g).slideDown(p.showSpeed);
+                        } else {
+                            e(this).attr("aria-expanded", false);
+                            e(g)
+                                .slideUp(p.hideSpeed)
+                                .find(".dropdown, .megamenu")
+                                .hide(p.hideSpeed);
+                        }
                     });
         }
         function r() {
@@ -213,41 +243,71 @@
             .children("li")
             .children("a")
             .each(function () {
-                e(this).siblings(".dropdown, .megamenu").length > 0 &&
+                var submenus = e(this).siblings(".dropdown, .megamenu");
+                if (submenus.length > 0) {
+                    // for connecting via aria-controls, let's just use the first submenu.
+                    var first_submenu = e(submenus[0]);
+                    if (!first_submenu.attr("id")) {
+                        first_submenu.attr("id", mz_generate_id);
+                    }
+                    e(this).attr("aria-controls", first_submenu.attr("id"));
+                    e(this).attr("aria-expanded", false);
                     e(this).append(
-                        "<span class='indicator'>" + p.indicatorFirstLevel + "</span>"
+                        "<span class='indicator' aria-hidden='true'>" +
+                            p.indicatorFirstLevel +
+                            "</span>"
                     );
+                }
             }),
             e(g)
                 .find(".dropdown")
                 .children("li")
                 .children("a")
                 .each(function () {
-                    e(this).siblings(".dropdown").length > 0 &&
+                    var submenus = e(this).siblings(".dropdown");
+                    if (submenus.length > 0) {
+                        // for connecting via aria-controls, let's just use the first submenu.
+                        var first_submenu = e(submenus[0]);
+                        if (!first_submenu.attr("id")) {
+                            first_submenu.attr("id", mz_generate_id);
+                        }
+                        e(this).attr("aria-controls", first_submenu.attr("id"));
+                        e(this).attr("aria-expanded", false);
                         e(this).append(
-                            "<span class='indicator'>" +
+                            "<span class='indicator' aria-hidden='true'>" +
                                 p.indicatorSecondLevel +
                                 "</span>"
                         );
+                    }
                 }),
             "right" == p.align && e(g).addClass("menuzord-right"),
-            p.indentChildren && e(g).addClass("menuzord-indented"),
+            p.indentChildren && e(g).addClass("menuzord-indented");
+
+        if (p.responsive) {
+            var submenu = e(f).find(".menuzord-menu");
+            if (submenu && !submenu.attr("id")) {
+                submenu.attr("id", mz_generate_id());
+            }
+            var submenu_id = submenu.attr("id");
+            e(f)
+                .addClass("menuzord-responsive")
+                .prepend(
+                    "<a href='javascript:void(0)' class='showhide' aria-label='Mobilmenü' aria-expanded='false' aria-controls='" +
+                        submenu_id +
+                        "'><span aria-hidden='true'><em></em><em></em><em></em></span></a>"
+                );
+            m = e(f).children(".showhide");
+        }
+
+        p.scrollable &&
             p.responsive &&
-                (e(f)
-                    .addClass("menuzord-responsive")
-                    .prepend(
-                        "<a href='javascript:void(0)' class='showhide'><em></em><em></em><em></em></a>"
-                    ),
-                (m = e(f).children(".showhide"))),
-            p.scrollable &&
-                p.responsive &&
-                e(g)
-                    .css("max-height", p.scrollableMaxHeight)
-                    .addClass("scrollable")
-                    .append("<li class='scrollable-fix'></li>"),
-            u(),
-            e(window).resize(function () {
-                u(), a();
-            });
+            e(g)
+                .css("max-height", p.scrollableMaxHeight)
+                .addClass("scrollable")
+                .append("<li class='scrollable-fix'></li>");
+        u();
+        e(window).resize(function () {
+            u(), a();
+        });
     };
 })(jQuery);
