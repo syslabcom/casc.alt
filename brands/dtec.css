@@ -19,9 +19,9 @@ shades of gray
 */
 
 
-a { color: #487A93; } /* WCAG 2.1 */
+a { color: #487A93; } /* AAA */
 a:hover,
-a:focus { color: #365B6E; } /* WCAG 2.1 */
+a:focus { color: #365B6E; } /* AAA */
 
 .header-nav {
 	background: transparent;
@@ -84,12 +84,21 @@ a:focus { color: #365B6E; } /* WCAG 2.1 */
     border: none;
 }
 
+.menuzord-menu li a,
+.menuzord-menu li:hover a,
+.menuzord-menu ul.dropdown li a,
+.menuzord-menu ul.dropdown li:hover a {
+    color:  #595858;
+    transition:  none;
+    -webkit-transition: none;
+    border-radius: 0px;
+}
+
 .menuzord .menuzord-menu ul.dropdown li:hover>a, 
 .menuzord .menuzord-menu>li.active>a, 
 .menuzord .menuzord-menu>li:hover>a,
 #header .header-nav .header-nav-wrapper .menuzord-menu > .active > a  {
     background: transparent none repeat scroll 0 0;
-    color: #595858;
     font-weight: bolder;
     border: none;
 }
@@ -174,6 +183,13 @@ blockquote {
 .scheme-light-grey { background-color: #E3E2E2 !important; }
 .scheme-light-grey .text-white { color: #282828 !important;}
 .scheme-light-grey.overlay-theme-colored-8:before { background-color: rgba(227, 226, 226, 0.8) !important; }
+
+.scheme-light-grey .btn-theme-colored,
+.scheme-light-grey .btn-theme-colored:hover,
+.scheme-light-grey .btn-theme-colored:active,
+.scheme-light-grey .btn-theme-colored:focus {
+        color:  #ffffff !important;
+}
 
 .scheme-uni-orange { background-color: #9D9D9C !important; }
 .scheme-uni-orange .list-group-item { background-color: #FDFCFC; }   
@@ -337,9 +353,7 @@ blockquote {
 .footer a:hover,
 .footer a:visited,
 .footer a:active,
-.footer a:focus { color: #fff; border: none;}
-
-
+.footer a:focus { color: #fff; border: none; text-decoration:  underline; }
 
 /* +++++++++++++++++++++++++++++ */
 /* Mobile mode (Responsive mode) */
@@ -357,9 +371,7 @@ blockquote {
 /* additional changes due to WAI compatibility */
 /* +++++++++++++++++++++++++++++++++++++++++++ */
 
-header *:focus, footer *:focus, ol *:focus, ul *:focus, *:focus { outline: 1px dotted #595858 !important; }
-
-#secondary-navigation { background: pink !important; }
+header *:focus, footer *:focus, ol *:focus, ul *:focus, a:focus, *:focus { outline: 2px dotted #595858 !important; }
 
 #secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
         color: #595858;

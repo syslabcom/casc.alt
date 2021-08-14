@@ -48,9 +48,9 @@ $colour-light-grey: #eeeeee !default;
 $colour-dark-blue: #003366 !default;
 $colour-black-minus-one: #111111 !default;
 $colour-black-minus-two: #282828 !default;
-$colour-link: #337ab7 !default;
-$colour-link-hover: #23527c !default;
-$colour-link-focus: #23527c !default;
+$colour-link: #487A93 !default;        // AAA
+$colour-link-hover: #365B6E !default;  // AAA
+$colour-link-focus: #365B6E !default;  // AAA
 
 // Intranet Colours
 $colour-rust-red : #CC3300 !default;  //Studium
@@ -662,10 +662,6 @@ a.site-logo {
 
 }
 
-
-
-/* Inner Header - Heros on subpages */
-
 section {
     &#event {
         article {
@@ -1014,46 +1010,6 @@ section {
             overflow: hidden;
         }
     }
-    &.inner-header {
-        height: 540px;
-        .container {
-            height: 540px;
-            .section-content {
-                position:absolute;
-                bottom:0;
-                margin-bottom: 40px;
-            }
-        }
-        &.no-hero {
-            background-color: rgb(248,248,248);
-            height: 200px;
-            .container {
-                height: 200px;
-                .section-content {
-                    position:absolute;
-                    bottom:0;
-                    margin-bottom: 40px;
-                    h1 {
-                        &.title {
-                            text-shadow: none !important; 
-                            color: #333 !important;
-                            background-color: transparent;
-                            font-weight: normal !important;
-                        }
-                    }
-                }
-            }
-        }
-        .title {
-            font-size: 2rem;
-            font-family: "thesans";
-            margin-left: -3px;
-        }
-        small {
-            font-size: 1rem;
-            color: $colour-text-light;
-        }
-    }
     .section-title {
         margin-bottom: 10px;
         p {
@@ -1104,6 +1060,9 @@ section {
     height: 100px;
     width: 100px;
 }
+
+
+/* Inner Header - Heros on subpages */
 
 .inner-header .hero-image:before,
 section.gradient:before,
@@ -1171,7 +1130,48 @@ section.gradient:after,
         text-shadow: 0 0 10px #555, 0 0 30px #555, 0 0 5px rgba(0, 0, 0, 0.7);
     }
 }
+
 #hero {
+    &.inner-header {
+        height: 540px;
+        .container {
+            height: 540px;
+            .section-content {
+                position:absolute;
+                bottom:0;
+                margin-bottom: 40px;
+            }
+        }
+        &.no-hero {
+            background-color: rgb(248,248,248);
+            height: 200px;
+            .container {
+                height: 200px;
+                .section-content {
+                    position:absolute;
+                    bottom:0;
+                    margin-bottom: 40px;
+                    h1 {
+                        &.title {
+                            text-shadow: none !important; 
+                            color: #333 !important;
+                            background-color: transparent;
+                            font-weight: normal !important;
+                        }
+                    }
+                }
+            }
+        }
+        .title {
+            font-size: 2rem;
+            font-family: "thesans";
+            margin-left: -3px;
+        }
+        small {
+            font-size: 1rem;
+            color: $colour-text-light;
+        }
+    }
     .marker {
         position: absolute;
         top: 0px;

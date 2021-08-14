@@ -1,5 +1,5 @@
 {% if page.slider_section %}
-<section id="home" class="divider">
+<div id="home" class="divider">
   <div class="container-fluid p-0">
     <!-- Slider Revolution Start -->
     <div class="rev_slider_wrapper">
@@ -131,7 +131,7 @@
     </script>
     <!-- Slider Revolution Ends -->
   </div>
-</section>
+</div>
 {% else %}
 
 {% if page.color_scheme %}
@@ -141,7 +141,7 @@
 {% endif %}
 {% if page.hero_video %}
 
-<section id="hero" class="inner-header divider">
+<div id="hero" class="inner-header divider">
   <div class="bg-video">
     <div id="home-video" class="video" data-bg-img="{{page.hero_image}}">
       <div class="player video-container"
@@ -164,10 +164,10 @@
     </div>
   </div>
 
-</section>
+</div>
 
 {% elsif page.hero_image %}
-<section id="hero" class="inner-header divider gradient" data-bg-img="{{ site.baseurl }}{{ page.hero_image }}"
+<div id="hero" class="inner-header divider gradient" data-bg-img="{{ site.baseurl }}{{ page.hero_image }}"
   style="background-image: url({{ site.baseurl }}{{ page.hero_image }}); ">
   {% if page.section %}
   <!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
@@ -187,7 +187,7 @@
     </div>
   </div>
   {% endif %}
-</section>
+</div>
 
 {% elsif page.hero_title %}
 
