@@ -169,6 +169,10 @@ blockquote {
     border-left: 3px solid #595858;
 }
 
+.single-post .post .entry-content {
+    background:  transparent;
+}
+
 .unibworange-text { color: #595858; }
 .unibworange-background { background-color: #595858; }
 .unibworange-border { border-color: #595858; }
