@@ -4,7 +4,7 @@ title: Online Druckauftrag
 name: print-queue-upload
 category: rz
 hero_title: Online Druckauftrag
-hero_image:  media/hero/plotter.jpg
+hero_image:  media/hero/drucken.jpg
 img: media/rz/exchange.jpg
 department: Rechenzentrum
 section: RZ
