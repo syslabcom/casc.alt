@@ -19,7 +19,7 @@ shades of gray
 */
 
 
-a { color: #467790; } /* AAA */
+a { color: #467790; text-decoration:  underline; } /* AAA */
 a:hover,
 a:focus { color: #365B6E; } /* AAA */
 
