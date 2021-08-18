@@ -24,17 +24,17 @@ a:hover,
 a:focus { color: #365B6E; } /* AAA */
 
 .header-nav {
-	background: transparent;
+    background: transparent;
 }
 .header-nav-wrapper {
     background: transparent;
 }
 .border-bottom-theme-color-2-1px {
-	background: transparent;
-	background-image:url('../media/dtec/bg_main_nav.png');
-	background-position: center bottom;
+    background: transparent;
+    background-image:url('../media/dtec/bg_main_nav.png');
+    background-position: center bottom;
     background-repeat: no-repeat;
-	border-bottom: none !important;
+    border-bottom: none !important;
 }
 .menuzord { margin-bottom: 6px; background: transparent; }
  
@@ -106,7 +106,7 @@ a:focus { color: #365B6E; } /* AAA */
 /* module styles */
 section.bg-lighter { background-color: #fff !important; }
 section .module-title {
-	text-transform: none;
+    text-transform: none;
     font-weight: bolder;
 }
 section .module-title.line-bottom {
@@ -389,11 +389,8 @@ blockquote {
     color: #fff;
 }
 
-.footer a,
-.footer a:hover,
-.footer a:visited,
-.footer a:active,
-.footer a:focus { color: #fff; border: none; text-decoration:  underline; }
+.footer a, .footer a:hover, .footer a:visited, .footer a:active, .footer a:focus,
+.footer ul.list li a, .footer ul.list li a:hover, .footer ul.list li a:visited, .footer ul.list li a:active, .footer ul.list li a:focus { color: #fff; border: none; text-decoration:  underline; }
 
 /* +++++++++++++++++++++++++++++ */
 /* Mobile mode (Responsive mode) */
@@ -413,6 +410,7 @@ blockquote {
 
 header *:focus, footer *:focus, ol *:focus, ul *:focus, a:focus, *:focus, 
 section a:focus article,
+.widget-image-carousel a:focus article,
 section a:focus .icon-box { outline: 2px dotted #ff0000 !important;  }
 
 #secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
@@ -420,3 +418,5 @@ section a:focus .icon-box { outline: 2px dotted #ff0000 !important;  }
 }
 
 .text-gray-silver  { color: #282828 !important; }
+
+.form-control { border-color: #595858; }

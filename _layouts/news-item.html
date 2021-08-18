@@ -27,7 +27,7 @@ parent: Aktuelles
       <div class="col-md-3">
         <div class="sidebar sidebar-right mt-sm-30">
           <div class="widget">
-            <h5 class="widget-title line-bottom">Aktuelles</h5>
+            <h2 class="widget-title line-bottom">Aktuelles</h2>
             <div class="widget-image-carousel">
               {% assign items = site.posts | where:"layout","news-item" | where:"department",page.department %}
 
@@ -35,9 +35,11 @@ parent: Aktuelles
                   {% unless page.url == item.url %}
                     <div class="item">
                       <a href="{{ item.url | replace_first: '/', '' }}">
+                        <article>
                         <img src="{{ item.image }}" alt="">
-                        <h4 class="title">{{ item.title }}</h4>
+                        <h3 class="title">{{ item.title }}</h3>
                         <p>{{ item.description }}</p>
+                        </article>
                       </a>
                     </div>
                   {% endunless %}

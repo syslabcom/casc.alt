@@ -1162,7 +1162,7 @@ section.gradient:after,
                     h1 {
                         &.title {
                             text-shadow: none !important; 
-                            color: #333 !important;
+                            color: #282828 !important;
                             background-color: transparent;
                             font-weight: normal !important;
                         }
@@ -1212,6 +1212,17 @@ button.tp-bullet {
     visibility: initial !important;
 }
 
+/* ------- News article ----- */
+
+.sidebar {
+    h2 { 
+        font-size: 1.3rem; 
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 1.2rem;
+    }
+}
 
 /* -------- Footer ---------- */
 #footer {
@@ -1806,7 +1817,7 @@ section.categories>.container {
         font-size: 1.2em;
     }
     .url {
-        color: #333;
+        color: #282828;
     }
     .discreet {
         display: block;
@@ -1840,6 +1851,17 @@ section.categories>.container {
     }
 }
 
+#search-results-bar {
+    > h3 {
+        font-size: 1.11rem;
+        font-weight: bold;
+    }
+}
+
+h3.autotab-heading {
+    font-size: 1.11rem;
+    font-weight: bold;
+}
 .plone-pagination {
 
   ul {
