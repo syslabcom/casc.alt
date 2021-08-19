@@ -1,4 +1,4 @@
-// DTec specific styles
+/* DTec specific styles */
 /* colour values */
 
 /*
@@ -19,14 +19,12 @@ shades of gray
 */
 
 
-a { color: #467790; text-decoration:  underline; } /* AAA */
+a { color: #467790; } /* AAA */
 a:hover,
 a:focus { color: #365B6E; } /* AAA */
 
-.header-nav {
-    background: transparent;
-}
-.header-nav-wrapper {
+.header-nav,
+.header-nav-wrapper  {
     background: transparent;
 }
 .border-bottom-theme-color-2-1px {
@@ -36,7 +34,6 @@ a:focus { color: #365B6E; } /* AAA */
     background-repeat: no-repeat;
     border-bottom: none !important;
 }
-.menuzord { margin-bottom: 6px; background: transparent; }
  
 #header .header-nav .header-nav-wrapper .menuzord { background-color: transparent; }
 
@@ -56,7 +53,7 @@ a:focus { color: #365B6E; } /* AAA */
 .bg-theme-color-2, .line-bottom-center:after, .line-bottom:after { background: transparent !important; }
 
 /* main styles */
-#athene{
+#athene {
     top: -100px;
     height: 90px;
 }
@@ -76,6 +73,8 @@ a:focus { color: #365B6E; } /* AAA */
 #athene a:before {
             display: none;
         }
+
+.menuzord { margin-bottom: 6px; background: transparent; }
 
 .menuzord-menu>li>a,
 .menuzord-menu>li:hover>a
@@ -142,6 +141,11 @@ section.collection-search .newsletter-form {
     margin-top: 15px;
 }
 
+.section-content p a {  text-decoration: underline; }
+
+.section-content a,
+.section-content a p,
+.section-content p a.btn { text-decoration: none; }
 
 /* form */
 
@@ -205,6 +209,9 @@ blockquote {
 .scheme-light-grey .icon-box p.text-gray,
 .scheme-light-grey .contact-info .text-gray  { color: #282828 !important;}
 
+
+.scheme-light-grey a { color: #2D4C5C; }
+
 .scheme-light-grey .btn-theme-colored,
 .scheme-light-grey .btn-theme-colored:hover,
 .scheme-light-grey .btn-theme-colored:active,
@@ -227,9 +234,9 @@ blockquote {
 .scheme-uni-orange h4,
 .scheme-uni-orange h5,
 .scheme-uni-orange h6,
-.scheme-uni-orange a,
 .scheme-uni-orange strong,
 .scheme-uni-orange p,
+.scheme-uni-orange a,
 .scheme-uni-orange a.icon-dark,
 .scheme-uni-orange .howto h5, 
 .scheme-uni-orange .howto p.text-gray, 
@@ -261,9 +268,9 @@ blockquote {
 .scheme-middle-grey h4,
 .scheme-middle-grey h5,
 .scheme-middle-grey h6,
-.scheme-middle-grey a,
 .scheme-middle-grey strong,
 .scheme-middle-grey p,
+.scheme-middle-grey a,
 .scheme-middle-grey a.icon-dark,
 .scheme-middle-grey .howto h5, 
 .scheme-middle-grey .howto p.text-gray, 
