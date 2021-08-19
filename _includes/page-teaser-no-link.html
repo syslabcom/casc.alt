@@ -1,0 +1,20 @@
+<section class="news news-img-left scheme-{{include.color_scheme}}">
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+      {% for item in site.posts %}
+        {% if item.name == include.pagename %}
+          <img class="col-md-4 col-sm-5  img-responsive hidden-xs" src="{{ item.img }}" alt="{{ item.title }}">
+
+          <div class="col-md-7 col-md-offset-1 col-sm-offset-1 col-sm-5 teaser-container">
+              <h2 class="module-title line-bottom"> {{ item.title }} </h2>
+              <p class="description" >Hier kommt ein Beschreibungstext... <br /><a href="https://www.unibw.de/schutz-zuverlaessigkeit" target="_blank">www.unibw.de/schutz-zuverlaessigkeit</a></p>
+
+              <img class="img-responsive visible-xs" src="{{ item.img }}"  alt="{{ item.title }}">
+          </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
