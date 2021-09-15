@@ -1047,6 +1047,18 @@ section {
         }
 
     }
+
+    .news-item {
+        a { color: $colour-text; }
+        article {
+            &.post {
+                .entry-content {
+                    background-color: #f1f1f1;
+                    h2 { font-size: 1.5rem; }
+                }
+            }
+        }
+    }
 }
 .contact-info {
     overflow: hidden;
@@ -1162,7 +1174,7 @@ section.gradient:after,
                     h1 {
                         &.title {
                             text-shadow: none !important; 
-                            color: #282828 !important;
+                            color: $colour-text !important;
                             background-color: transparent;
                             font-weight: normal !important;
                         }
@@ -1200,6 +1212,7 @@ section.gradient:after,
         }
     }
 }
+
 
 /* -------- Revolution Slider Navigation Elements ---------- */
 button.tparrows,
@@ -1817,7 +1830,7 @@ section.categories>.container {
         font-size: 1.2em;
     }
     .url {
-        color: #282828;
+        color: $colour-text;
     }
     .discreet {
         display: block;
