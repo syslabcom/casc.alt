@@ -421,9 +421,12 @@ blockquote {
 header *:focus, footer *:focus, ol *:focus, ul *:focus, a:focus, *:focus, 
 section a:focus article,
 .widget-image-carousel a:focus article,
-section a:focus .icon-box { outline: 2px dotted #ff0000 !important;  }
+section a:focus .icon-box,
+section.call-to-action a:focus .row { outline: 2px dotted #ff0000 !important; }
 
-footer *:focus { outline-color: #ffffff !important;  }
+footer *:focus { outline-color: #ffffff !important; }
+
+section.call-to-action a:focus .row .icon-box { outline: none !important; }
 
 #secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
         color: #595858;
