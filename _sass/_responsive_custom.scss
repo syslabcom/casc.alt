@@ -23,6 +23,7 @@
 
     section#job dl dt { width: 100%; float: none; display: block; margin: 0; overflow: hidden; }
     section#job dl dd { width: 100%; float: none; display: block; border: none; overflow: hidden; }
+    section .icon-box.left { text-align: left; }
 }
 
 /* Custom, iPhone Retina */
@@ -70,6 +71,9 @@
   .institute-logo { display: none;  }
 }
 
+@media only screen and (max-width : 576px) {
+    section.call-to-action .icon-box .ml-60 { margin-left: 0px !important; }
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
@@ -89,6 +93,10 @@
     #organisationskontakt .contact-map-container .point-map-big {display: none;}
     .product { background: $colour-uni-grey; }
     .product-details h3 { color: white; }
+}
+
+@media only screen and (max-width : 992px) {
+    section.call-to-action .pl-40 { padding: 0 !important; }
 }
 
 /* Large Devices, Wide Screens */
