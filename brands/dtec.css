@@ -19,9 +19,9 @@ shades of gray
 */
 
 
-a { color: #467790; } /* AAA */
-a:hover,
-a:focus { color: #365B6E; } /* AAA */
+a, a strong { color: #467790; } /* AAA */
+a:hover, a:hover strong,
+a:focus, a:focus strong { color: #365B6E; } /* AAA */
 
 .header-nav,
 .header-nav-wrapper  {
@@ -419,9 +419,10 @@ blockquote {
 /* +++++++++++++++++++++++++++++++++++++++++++ */
 
 header *:focus, footer *:focus, ol *:focus, ul *:focus, a:focus, *:focus, 
+section *:focus,
 section a:focus article,
-.widget-image-carousel a:focus article,
 section a:focus .icon-box,
+.widget-image-carousel a:focus article,
 section.call-to-action a:focus .row { outline: 2px dotted #ff0000 !important; }
 
 footer *:focus { outline-color: #ffffff !important; }
