@@ -410,6 +410,9 @@ blockquote {
     /* Menu items */
     #header { margin-top: 15px; }
     #header .header-nav .header-nav-wrapper .menuzord { margin-bottom: 12px; }
+    #header .header-nav .header-nav-wrapper .menuzord-responsive .menuzord-menu li a { font-size: 0.9em; padding-top: 10px !important; padding-bottom: 10px !important; line-height: 1.5em; }
+    #header .header-nav .header-nav-wrapper .menuzord-responsive .menuzord-menu ul.dropdown li a { font-size: 1.1em; padding-top: 10px !important; padding-bottom: 10px !important;  line-height: 1.5em; }
+    #global-navigation { line-height: 1.5em }
     #secondary-navigation { top:  -105px }
     #athene { top: -85px }
 }
