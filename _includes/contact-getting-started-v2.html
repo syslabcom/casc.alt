@@ -2,7 +2,7 @@
   <div class="container">
     <div class="section-title">
       <div class="row">
-        <div class="col-md-12">    
+        <div class="col-md-12">
           <h2 class="module-title line-bottom">{{ include.title }}</h2>
           <p class="description">
             {{ include.description }}
@@ -13,14 +13,14 @@
 
     <div class="section-content">
       <div class="row">
-        
+
           {% assign items = page.tutorials %}
           {% for item in items %}
                 <div class="col-xs-12 col-sm-4 col-md-4">
                  <a href="{{ item.url }}">
                   <article class="post clearfix mb-sm-30">
                   <div class="entry-header">
-                    <div class="post-thumb thumb"> 
+                    <div class="post-thumb thumb">
                       <img src="{{ item.img }}" alt="" class="img-responsive img-fullwidth">
                     </div>
                   </div>
@@ -47,10 +47,8 @@
 
 </section>
 
-
-
-   <script>
-    setTimeout(function() {
-      $('.gallery').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
-    }, 200);
+    <script>
+        $(window).load(function() {
+          live_equalizer(".gallery", "article");
+        });
     </script>

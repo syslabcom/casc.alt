@@ -20,7 +20,7 @@
           <a href="{{ item.url | replace_first: '/', '' }}">
             <article class="post clearfix mb-sm-30 ">
               <div class="entry-header">
-                <div class="post-thumb thumb"> 
+                <div class="post-thumb thumb">
                   <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
                 </div>
               </div>
@@ -49,8 +49,8 @@
       </div>
     </div>
   <script>
-  setTimeout(function() {
-    $('.news-listing ').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
-  }, 200);
+    $(window).load(function() {
+      live_equalizer(".news-listing", "article");
+    });
   </script>
 </section>

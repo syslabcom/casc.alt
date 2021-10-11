@@ -12,19 +12,19 @@
         <div class="row multi-row-clearfix">
 
                 {% for item in site.data.content_nav_tiles %}
-          
+
                 <div class="col-xs-6 col-sm-6 col-md-4">
                     <a href="{{ item.url }}">
                         <div class="product">
                             {% if item.flag %}<span class="tag-sale">Neu!</span>{% endif %}
-                            <div class="product-thumb"> 
+                            <div class="product-thumb">
                                 <picture class="img-responsive img-fullwidth" alt="Corona News" >
                                     <source media="(min-width: 992px)"
                                             srcset="{{ item.image }}"
-                                    /> 
+                                    />
                                     <source
                                             srcset="{{ item.thumb }} 1x"
-                                    /> 
+                                    />
                                     <img src="{{ item.image }}" alt="{{ item.alt }}" />
                                 </picture>
                                 </div>
@@ -36,14 +36,14 @@
                 </div>
 
               {% endfor %}
-          
+
         </div>
       </div>
     </div>
   <script>
-  setTimeout(function() {
-    $('.content-navigation').equalize({'children': '.product', 'equalize': 'height', 'reset': true});
-  }, 200);
+    $(window).load(function() {
+      live_equalizer(".content-navigation", ".product");
+    });
   </script>
 </section>
 

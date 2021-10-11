@@ -20,6 +20,7 @@ var js_sources = [
     "js/revolution-slider/js/extensions/source/revolution.extension.slideanims.js",
     "js/revolution-slider/js/extensions/source/revolution.extension.video.js",
     "js/requirejs-redefine.js",
+    "js/unibw-custom.js",
 ];
 var css_sources = [
     "css/bootstrap.min.css",

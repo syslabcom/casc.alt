@@ -55,7 +55,7 @@
          </div>
         </div>
       </div>
-     
+
       <div class="section-content">
         <div class="row">
           {% for person in include.people %}
@@ -79,7 +79,7 @@
                 </a>
                   <div class="visualClear"></div>
 
-                  <div class="contact-data">                  
+                  <div class="contact-data">
                       {% if person.location %}<i class="fa fa-map text-theme-color-2 mr-5"></i>{{ person.location }}{% endif %}<br>
                       {% if person.phone %}<i class="fa fa-phone text-theme-color-2 mr-5"></i>{{ person.phone }}{% endif %}<br>
                       {% if person.fax %}<i class="fa fa-fax text-theme-color-2 mr-5"></i>{{ person.fax }}{% endif %}<br>
@@ -90,9 +90,9 @@
           {% endfor %}
           <div class="visualClear"></div>
           <script>
-          setTimeout(function() {
-            $('.businesscards').equalize({'children': '.business-card', 'equalize': 'height', 'reset': true});
-          }, 200);
+            $(window).load(function() {
+              live_equalizer(".businesscards", ".business-card");
+            });
           </script>
         </div>
       </div>

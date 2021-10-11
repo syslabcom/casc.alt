@@ -20,14 +20,14 @@
           <a href="{{ item.url | replace_first: '/', '' }}">
             <article class="post clearfix mb-sm-30 ">
               <!--div class="entry-header">
-                <div class="post-thumb thumb"> 
+                <div class="post-thumb thumb">
                   <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
                 </div>
               </div-->
               <div class="entry-content p-20 pr-10">
-                <div class="entry-meta media mt-0 no-bg no-border"> 
+                <div class="entry-meta media mt-0 no-bg no-border">
                   <div class="media-body">
-                    
+
                     <ul class="list-icon">
                       <li><i class="fa fa-calendar"></i> {{ item.start |  date: '%d. %m.' }} - {{ item.end |  date: '%d. %m. %Y' }}</li>
                     </ul>
@@ -54,8 +54,8 @@
     </div>
   </div>
   <script>
-  setTimeout(function() {
-    $('.events-listing ').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
-  }, 200);
+    $(window).load(function() {
+      live_equalizer(".events-listing", "article");
+    });
   </script>
 </section>

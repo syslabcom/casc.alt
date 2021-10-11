@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-        
+
         {% assign count = count | plus: 1 %}
       {% endif %}
     {% endfor %}
@@ -53,9 +53,9 @@
     </div>
   </div>
   <script>
-  setTimeout(function() {
-    $('.upcoming-events').equalize({'children': '.schedule-box', 'equalize': 'height', 'reset': true});
-  }, 200);
+    $(window).load(function() {
+      live_equalizer(".upcoming-events", ".schedule-box");
+    });
   </script>
 
 </section>

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="section-title">
       <div class="row">
-        <div class="col-md-12">    
+        <div class="col-md-12">
           <h2 class="module-title line-bottom">{{ include.title }}</h2>
           <p class="description">{{ include.description }}</p>
         </div>
@@ -11,18 +11,18 @@
 
     <div class="section-content">
       <div class="row">
-                  
+
 
       {% for item in page.gallery %}
          <div class="col-sm-{{include.sm | default:'6' }} col-md-{{include.md | default:'4' }}">
           <div class="box-item">
             <div class="item-inner padding">
-              
+
               <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
                 <article class="post clearfix">
 
                   <div class="entry-header">
-                    <div class="post-thumb thumb"> 
+                    <div class="post-thumb thumb">
                       <img src="{{ item.img }}" alt="{{ item.title }}" class="img-responsive img-fullwidth">
                     </div>
                   </div>
@@ -53,9 +53,8 @@
   </div>
 </section>
 
-
-   <script>
-    setTimeout(function() {
-      $('.gallery').equalize({'children': 'article', 'equalize': 'height', 'reset': true});
-    }, 200);
+    <script>
+      $(window).load(function() {
+        live_equalizer(".gallery", "article");
+      });
     </script>
