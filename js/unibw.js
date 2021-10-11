@@ -986,12 +986,12 @@ return d},fgSegHtml:function(a,b){var c,d,e=this.view,f=a.event,g=e.isEventDragg
             }
         });
 
-        p.scrollable &&
-            p.responsive &&
-            e(g)
-                .css("max-height", p.scrollableMaxHeight)
-                .addClass("scrollable")
-                .append("<li class='scrollable-fix'></li>");
+        //p.scrollable &&
+        //    p.responsive &&
+        //    e(g)
+        //        .css("max-height", p.scrollableMaxHeight)
+        //        .addClass("scrollable")
+        //        .append("<li class='scrollable-fix'></li>");
         u();
         e(window).resize(function () {
             u(), a();
