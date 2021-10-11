@@ -311,12 +311,12 @@
             }
         });
 
-        p.scrollable &&
-            p.responsive &&
-            e(g)
-                .css("max-height", p.scrollableMaxHeight)
-                .addClass("scrollable")
-                .append("<li class='scrollable-fix'></li>");
+        //p.scrollable &&
+        //    p.responsive &&
+        //    e(g)
+        //        .css("max-height", p.scrollableMaxHeight)
+        //        .addClass("scrollable")
+        //        .append("<li class='scrollable-fix'></li>");
         u();
         e(window).resize(function () {
             u(), a();
