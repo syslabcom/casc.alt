@@ -144,7 +144,10 @@ section.collection-search .newsletter-form {
     margin-top: 15px;
 }
 
-.section-content p a {  text-decoration: underline; }
+.section-content p a,
+.section-content .checkbox label a {
+    text-decoration: underline; 
+}
 
 .section-content a,
 .section-content a p,
