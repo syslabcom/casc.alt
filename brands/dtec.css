@@ -145,7 +145,8 @@ section.collection-search .newsletter-form {
 }
 
 .section-content p a,
-.section-content .checkbox label a {
+.section-content .checkbox label a,
+.section-content .searchResults a {
     text-decoration: underline; 
 }
 
