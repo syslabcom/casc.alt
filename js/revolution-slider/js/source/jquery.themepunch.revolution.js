@@ -1035,6 +1035,30 @@ var waitForScripts = function(c,o) {
 
 }
 
+
+function _R_get_src(el) {
+    if (el.jquery) {
+        el = el[0];
+    }
+    var value = el.src || el.dataset && el.dataset.src || "";
+    return value;
+}
+
+function _R_set_src(el, src) {
+    if (el.jquery) {
+        el = el[0];
+    }
+    if (el.tagName !== "IMG" && el.dataset !== undefined) {
+        el.dataset.src = src;
+    } else {
+        try {
+            el.src = src;
+        } catch(e) {
+            return;
+        }
+    }
+}
+
 //////////////////////////////////
 //	-	GET SCRIPT LOCATION	-	//
 //////////////////////////////////
@@ -1240,7 +1264,7 @@ var initSlider = function (container,opt) {
 		obj.params = new Array();
 
 		obj.id = li.data('index');
-		obj.src = li.data('thumb')!==undefined ? li.data('thumb') : img.data('lazyload') !== undefined ? img.data('lazyload') : img.attr('src');
+		obj.src = li.data('thumb')!==undefined ? li.data('thumb') : img.data('lazyload') !== undefined ? img.data('lazyload') : _R_get_src(img);
 		if (li.data('title') !== undefined) obj.params.push({from:RegExp("\\{\\{title\\}\\}","g"), to:li.data("title")})
 		if (li.data('description') !== undefined) obj.params.push({from:RegExp("\\{\\{description\\}\\}","g"), to:li.data("description")})
 		for (var i=1;i<=10;i++) {
@@ -1498,9 +1522,9 @@ var initSlider = function (container,opt) {
 		waitForCurrentImages(container.find('.tp-static-layers'),opt,function() {
 			container.find('.tp-static-layers img').each(function() {
 				var e = jQuery(this),
-					src = e.data('lazyload') != undefined ? e.data('lazyload') : e.attr('src'),
+					src = e.data('lazyload') != undefined ? e.data('lazyload') : _R_get_src(e),
 					loadobj = getLoadObj(opt,src);
-				e.attr('src',loadobj.src)
+                                _R_set_src(e, _R_get_src(loadobj));
 			})
 		})
 
@@ -1914,7 +1938,7 @@ var prepareSlides = function(container,opt) {
 		if (opt.dottedOverlay!="none" && opt.dottedOverlay!=undefined)
 				img.closest('.slotholder').append('<div class="tp-dottedoverlay '+opt.dottedOverlay+'"></div>');
 
-		var src=img.attr('src');
+		var src=_R_get_src(img);
 		dts.src = src;
 		dts.bgfit = dts.bgfit || "cover";
 		dts.bgrepeat = dts.bgrepeat || "no-repeat",
@@ -1926,7 +1950,7 @@ var prepareSlides = function(container,opt) {
 		img.replaceWith(comment);
 		img = pari.find('.tp-bgimg');
 		img.data(dts);
-		img.attr("src",src);
+                _R_set_src(img, src);
 
 		if (opt.sliderType === "standard" || opt.sliderType==="undefined")
 			img.css({'opacity':0});
@@ -1986,24 +2010,26 @@ var imgLoaded = function(img,opt,progress) {
 	if (opt.loadqueue)
 		jQuery.each(opt.loadqueue, function(index,queue) {
 
-			var mqsrc = queue.src.replace(/\.\.\/\.\.\//gi,""),
+                        var queue_src = _R_get_src(queue);
+                        var img_src = _R_get_src(img);
+			var mqsrc = queue_src.replace(/\.\.\/\.\.\//gi,""),
 				fullsrc = self.location.href,
 				origin = document.location.origin,
 				fullsrc_b = fullsrc.substring(0,fullsrc.length-1)+"/"+mqsrc,
 				origin_b = origin+"/"+mqsrc,
-				absolute = abstorel(self.location.href,queue.src);
+				absolute = abstorel(self.location.href, queue_src);
 
 			fullsrc = fullsrc.substring(0,fullsrc.length-1)+mqsrc;
 			origin = origin+mqsrc;
 
-			if (cutParams(origin) === cutParams(decodeURIComponent(img.src)) ||
-				cutParams(fullsrc)=== cutParams(decodeURIComponent(img.src)) ||
-				cutParams(absolute)=== cutParams(decodeURIComponent(img.src)) ||
-				cutParams(origin_b) === cutParams(decodeURIComponent(img.src)) ||
-				cutParams(fullsrc_b)=== cutParams(decodeURIComponent(img.src)) ||
-				cutParams(queue.src) === cutParams(decodeURIComponent(img.src)) ||
-				cutParams(queue.src).replace(/^.*\/\/[^\/]+/, '') === cutParams(decodeURIComponent(img.src)).replace(/^.*\/\/[^\/]+/, '') ||
-				(window.location.origin==="file://" && cutParams(img.src).match(new RegExp(mqsrc)))) {
+			if (cutParams(origin) === cutParams(decodeURIComponent(img_src)) ||
+				cutParams(fullsrc)=== cutParams(decodeURIComponent(img_src)) ||
+				cutParams(absolute)=== cutParams(decodeURIComponent(img_src)) ||
+				cutParams(origin_b) === cutParams(decodeURIComponent(img_src)) ||
+				cutParams(fullsrc_b)=== cutParams(decodeURIComponent(img_src)) ||
+				cutParams(queue_src) === cutParams(decodeURIComponent(img_src)) ||
+				cutParams(queue_src).replace(/^.*\/\/[^\/]+/, '') === cutParams(decodeURIComponent(img_src)).replace(/^.*\/\/[^\/]+/, '') ||
+				(window.location.origin==="file://" && cutParams(img_src).match(new RegExp(mqsrc)))) {
 					queue.progress = progress;
 					queue.width = img.width;
 					queue.height = img.height;
@@ -2030,9 +2056,9 @@ var progressImageLoad = function(opt) {
 							imgLoaded(this,opt,"failed");
 						};
 
-						img.src=queue.src;
+						img.src=_R_get_src(queue);
 					} else {
-						jQuery.get(queue.src, function(data) {
+						jQuery.get(_R_get_src(queue), function(data) {
 						  queue.innerHTML = new XMLSerializer().serializeToString(data.documentElement);
 						  queue.progress="loaded";
 						  opt.syncload--;
@@ -2056,7 +2082,7 @@ var addToLoadQueue = function(src,opt,prio,type,staticlayer) {
 	var alreadyexist = false;
 	if (opt.loadqueue)
 		jQuery.each(opt.loadqueue, function(index,queue) {
-			if (queue.src === src) alreadyexist = true;
+			if (_R_get_src(queue) === src) alreadyexist = true;
 		});
 
 
@@ -2077,7 +2103,7 @@ var loadImages = function(container,opt,prio,staticlayer) {
 
 	container.find('img,.defaultimg, .tp-svg-layer').each(function() {
 		var element = jQuery(this),
-			src = element.data('lazyload') !== undefined && element.data('lazyload')!=="undefined" ? element.data('lazyload') : element.data('svg_src') !=undefined ? element.data('svg_src')  : element.attr('src'),
+			src = element.data('lazyload') !== undefined && element.data('lazyload')!=="undefined" ? element.data('lazyload') : element.data('svg_src') !=undefined ? element.data('svg_src')  : _R_get_src(element),
 			type = element.data('svg_src') !=undefined ? "svg" : "img";
 
 		element.data('start-to-load',jQuery.now());
@@ -2092,7 +2118,7 @@ var getLoadObj = function(opt,src) {
 	var obj = new Object();
 	if (opt.loadqueue)
 		jQuery.each(opt.loadqueue, function(index,queue) {
-			if (queue.src == src) obj = queue;
+			if (_R_get_src(queue) == src) obj = queue;
 		});
 	return obj;
 }
@@ -2106,14 +2132,14 @@ var waitForCurrentImages = function(nextli,opt,callback) {
 	// PRELOAD ALL IMAGES
 	nextli.find('img,.defaultimg, .tp-svg-layer').each(function() {
 		var element = jQuery(this),
-			src = element.data('lazyload') != undefined ? element.data('lazyload') : element.data('svg_src') !=undefined ? element.data('svg_src')  : element.attr('src'),
+			src = element.data('lazyload') != undefined ? element.data('lazyload') : element.data('svg_src') !=undefined ? element.data('svg_src')  : _R_get_src(element),
 			loadobj = getLoadObj(opt,src);
 
 
 		// IF ELEMENTS IS NOT LOADED YET, AND IT IS NOW LOADED
 		if (element.data('loaded')===undefined && loadobj !==undefined && loadobj.progress && loadobj.progress.match(/loaded/g)) {
 
-			element.attr('src',loadobj.src);
+                        _R_set_src(element, _R_get_src(loadobj));
 
 
 			// IF IT IS A DEFAULT IMG, WE NEED TO ASSIGN SOME SPECIAL VALUES TO IT
@@ -2122,7 +2148,7 @@ var waitForCurrentImages = function(nextli,opt,callback) {
 					if (!_R.isIE(8))
 						element.css({backgroundImage:'url("'+loadobj.src+'")'});
 					else {
-						defimg.attr('src',loadobj.src);
+						_R_set_src(defimg, loadobj.src);
 					}
 					nextli.data('owidth',loadobj.width);
 					nextli.data('oheight',loadobj.height);
