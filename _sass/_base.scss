@@ -754,6 +754,32 @@ section {
             }
         }
     }
+    &.textboxes {
+        .section-content {
+            .row {
+                margin: 0 0px 20px 0px;
+                padding: 0;
+                border-bottom: 1px solid $colour-dark-grey;
+                div.nopadding {
+                    padding: 0 !important;
+                }
+                article {
+                    &.block {
+                        .entry-image {
+                            padding: 0 20px 20px 0;
+                        }
+                        .entry-content {
+                            padding: 0 20px 20px 0;
+                        }
+                    }
+                }
+            }
+            .row:last-child { 
+                border: none;
+                margin-bottom: 0;
+            }
+        }
+    }
     &.content-navigation {
         .product {
             background: $colour-light-grey;
