@@ -930,7 +930,7 @@ var addBullet = function(container,o,li,opt) {
 	// Check if Bullet exists already ?		
 	if (container.find('.tp-bullets').length===0) {
 		o.style = o.style === undefined ? "" : o.style;		
-		container.append('<div class="tp-bullets '+o.style+' '+o.direction+'"></div>');
+		container.append('<ul class="tp-bullets '+o.style+' '+o.direction+'"></ul>');
 	}
 	
 	// Add Bullet Structure to the Bullet Container
@@ -941,7 +941,7 @@ var addBullet = function(container,o,li,opt) {
 	jQuery.each(opt.thumbs[li.index()].params,function(i,obj) { inst = inst.replace(obj.from,obj.to);})
 
 
-	bw.append('<button type="button" title="Zum Sliderbild Nummer ' + (parseInt(li.index(), 10) + 1) + '" class="justaddedbullet tp-bullet">'+inst+'</button>');
+	bw.append('<li><button type="button" title="Zum Sliderbild Nummer ' + (parseInt(li.index(), 10) + 1) + '" class="justaddedbullet tp-bullet">'+inst+'</button></li>');
 
 	// SET BULLET SPACES AND POSITION
 	var b = container.find('.justaddedbullet'),
