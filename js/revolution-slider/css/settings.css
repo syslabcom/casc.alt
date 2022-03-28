@@ -225,17 +225,17 @@ website:   	http://www.themepunch.com
     padding-top: 80px;
 }
 
-.rev_slider > ul,
+.rev_slider > ul:not(.tp-bullets),
 .rev_slider_wrapper > ul,
 .tp-revslider-mainul > li,
-.rev_slider > ul > li,
-.rev_slider > ul > li:before,
+.rev_slider > ul:not(.tp-bullets) > li,
+.rev_slider > ul:not(.tp-bullets) > li:before,
 .tp-revslider-mainul > li:before,
-.tp-simpleresponsive > ul,
-.tp-simpleresponsive > ul > li,
-.tp-simpleresponsive > ul > li:before,
+.tp-simpleresponsive > ul:not(.tp-bullets),
+.tp-simpleresponsive > ul:not(.tp-bullets) > li,
+.tp-simpleresponsive > ul:not(.tp-bullets) > li:before,
 .tp-revslider-mainul > li,
-.tp-simpleresponsive > ul > li {
+.tp-simpleresponsive > ul:not(.tp-bullets) > li {
     list-style: none !important;
     position: absolute;
     margin: 0px !important;
@@ -251,13 +251,13 @@ website:   	http://www.themepunch.com
 }
 
 .tp-revslider-mainul > li,
-.rev_slider > ul > li,
-.rev_slider > ul > li:before,
+.rev_slider > ul:not(.tp-bullets) > li,
+.rev_slider > ul:not(.tp-bullets) > li:before,
 .tp-revslider-mainul > li:before,
-.tp-simpleresponsive > ul > li,
-.tp-simpleresponsive > ul > li:before,
+.tp-simpleresponsive > ul:not(.tp-bullets) > li,
+.tp-simpleresponsive > ul:not(.tp-bullets) > li:before,
 .tp-revslider-mainul > li,
-.tp-simpleresponsive > ul > li {
+.tp-simpleresponsive > ul:not(.tp-bullets) > li {
     visibility: hidden;
 }
 
