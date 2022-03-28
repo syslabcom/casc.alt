@@ -1046,7 +1046,7 @@ return d},fgSegHtml:function(a,b){var c,d,e=this.view,f=a.event,g=e.isEventDragg
     if (!$.isFunction($.fn[equalize])) { return false; }
 
     // determine if the height or width is being equalized
-    type = (equalize.indexOf('eight') > 0) ? 'height' : 'width';
+    type = (equalize.indexOf('eight') > 0) ? 'min-height' : 'min-width';
 
     return $containers.each(function() {
           // when children exist, equalize the passed in child elements, otherwise equalize the children
@@ -15938,9 +15938,9 @@ var initArrows = function(container,o,opt) {
 	
 	// ADD LEFT AND RIGHT ARROWS
 	if (container.find('.tp-leftarrow.tparrows').length===0) 
-		container.append('<button type="button" title="Vorheriges Sliderbild" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</button>');
+		container.append('<button type="button" title="Zurück" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">Zurück</button>');
 	if (container.find('.tp-rightarrow.tparrows').length===0) 
-		container.append('<button type="button" title="Nächstes Sliderbild" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</button>');
+		container.append('<button type="button" title="Weiter" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">Weiter</button>');
 	var la = container.find('.tp-leftarrow.tparrows'),
 		ra = container.find('.tp-rightarrow.tparrows');
 	if (o.rtl) {
@@ -16070,7 +16070,7 @@ var addBullet = function(container,o,li,opt) {
 	// Check if Bullet exists already ?		
 	if (container.find('.tp-bullets').length===0) {
 		o.style = o.style === undefined ? "" : o.style;		
-		container.append('<div class="tp-bullets '+o.style+' '+o.direction+'"></div>');
+		container.append('<ul class="tp-bullets '+o.style+' '+o.direction+'"></ul>');
 	}
 	
 	// Add Bullet Structure to the Bullet Container
@@ -16081,7 +16081,7 @@ var addBullet = function(container,o,li,opt) {
 	jQuery.each(opt.thumbs[li.index()].params,function(i,obj) { inst = inst.replace(obj.from,obj.to);})
 
 
-	bw.append('<button type="button" title="Zum Sliderbild Nummer ' + (parseInt(li.index(), 10) + 1) + '" class="justaddedbullet tp-bullet">'+inst+'</button>');
+	bw.append('<li><button type="button" title="Zum Sliderbild Nummer ' + (parseInt(li.index(), 10) + 1) + '" class="justaddedbullet tp-bullet">'+inst+'</button></li>');
 
 	// SET BULLET SPACES AND POSITION
 	var b = container.find('.justaddedbullet'),
