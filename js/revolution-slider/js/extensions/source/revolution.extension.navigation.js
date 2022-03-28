@@ -798,9 +798,9 @@ var initArrows = function(container,o,opt) {
 	
 	// ADD LEFT AND RIGHT ARROWS
 	if (container.find('.tp-leftarrow.tparrows').length===0) 
-		container.append('<button type="button" title="Vorheriges Sliderbild" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">'+o.tmp+'</button>');
+		container.append('<button type="button" title="Zurück" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">Zurück</button>');
 	if (container.find('.tp-rightarrow.tparrows').length===0) 
-		container.append('<button type="button" title="Nächstes Sliderbild" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">'+o.tmp+'</button>');
+		container.append('<button type="button" title="Weiter" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">Weiter</button>');
 	var la = container.find('.tp-leftarrow.tparrows'),
 		ra = container.find('.tp-rightarrow.tparrows');
 	if (o.rtl) {
