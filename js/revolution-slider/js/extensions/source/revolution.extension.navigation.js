@@ -222,7 +222,9 @@ jQuery.extend(true,_R, {
 				ni = (ai+1)==opt.slideamount ? 0 : ai+1;
 				
 			
-			if (_a.enable === true) {
+            // Disable inserting the ``tmp`` template within the arrow buttons.
+            // We have patched the arrow buttons directly in a way which wouldn't be possible with the ``tmp`` config.
+			if (false && _a.enable === true) {
 				var inst = _a.tmp;
 
 				jQuery.each(opt.thumbs[pi].params,function(i,obj) {
@@ -798,9 +800,9 @@ var initArrows = function(container,o,opt) {
 	
 	// ADD LEFT AND RIGHT ARROWS
 	if (container.find('.tp-leftarrow.tparrows').length===0) 
-		container.append('<button type="button" title="Zurück" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'">Zurück</button>');
+		container.append('<button type="button" class="tp-leftarrow tparrows '+o.style+' '+o.left.style+'" title="Zurück"><i class="fa icon" aria-hidden="true"></i><span class="sr-only button-title">Zurück</span><span class="tp-title-wrap"></span></button>');
 	if (container.find('.tp-rightarrow.tparrows').length===0) 
-		container.append('<button type="button" title="Weiter" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'">Weiter</button>');
+		container.append('<button type="button" class="tp-rightarrow tparrows '+o.style+' '+o.right.style+'" title="Weiter"><i class="fa icon" aria-hidden="true"></i><span class="sr-only button-title">Weiter</span><span class="tp-title-wrap"></span></button>');
 	var la = container.find('.tp-leftarrow.tparrows'),
 		ra = container.find('.tp-rightarrow.tparrows');
 	if (o.rtl) {

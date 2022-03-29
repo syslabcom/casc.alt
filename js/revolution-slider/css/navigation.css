@@ -2415,8 +2415,7 @@ website:    http://www.themepunch.com
     background: rgba(0, 0, 0, 0.1);
 }
 
-.zeus.tparrows:before {
-    font-family: "revicons";
+.zeus.tparrows .icon:before {
     font-size: 20px;
     color: #fff;
     display: block;
@@ -2425,10 +2424,12 @@ website:    http://www.themepunch.com
     z-index: 2;
     position: relative;
 }
-.zeus.tparrows.tp-leftarrow:before {
+.zeus.tparrows.tp-leftarrow .icon:before {
+    font-family: "revicons";
     content: "\e824";
 }
-.zeus.tparrows.tp-rightarrow:before {
+.zeus.tparrows.tp-rightarrow .icon:before {
+    font-family: "revicons";
     content: "\e825";
 }
 

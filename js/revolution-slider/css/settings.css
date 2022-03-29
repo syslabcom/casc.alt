@@ -1734,6 +1734,7 @@ img.tp-slider-alternative-image {
     height: 5px;
 }
 
+/*
 .tparrows {
     cursor: pointer;
     background: #000;
@@ -1761,6 +1762,7 @@ img.tp-slider-alternative-image {
 .tparrows.tp-rightarrow:before {
     content: "\e825";
 }
+*/
 
 /***************************
 	- KEN BURNS FIXES -
