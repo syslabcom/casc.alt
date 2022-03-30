@@ -2417,6 +2417,7 @@ website:    http://www.themepunch.com
 
 .zeus.tparrows .icon:before {
     font-size: 20px;
+    font-weight: bold;
     color: #fff;
     display: block;
     line-height: 70px;
