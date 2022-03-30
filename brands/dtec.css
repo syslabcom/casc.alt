@@ -436,11 +436,10 @@ section.call-to-action a:focus .row { outline: 1px solid #ED6E00 !important; }
 
 footer *:focus { outline-color: #ffffff !important; }
 
-.widget-image-carousel a:focus article,
 header .rev_slider button:focus, 
 header .rev_slider a:focus,
 .rev_slider *:focus,
-.scrollToTop a: focus { outline-color: #ffffff !important; }
+.scrollToTop a:focus { outline-color: #ffffff !important; }
 
 section.call-to-action a:focus .row .icon-box { outline: none !important; }
 
