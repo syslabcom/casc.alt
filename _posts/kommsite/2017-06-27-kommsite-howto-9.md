@@ -42,6 +42,21 @@ Sie können drei beliebige Personen auswählen, die in der linken Spalte des Mod
 ----------
 
 
+## Kontakte
+
+Dieses Modul ermöglicht es, den formatierten Inhalt mehrerer Artikelseiten in Form von Textblöcken darzustellen.
+Falls der Artikel ein Hero Bild hat, wird dieses auch angezeigt.
+
+Zudem können Sie die Überschrift, die Anzahl der Spalten - zwei, drei oder vier - sowie die Hintergrundfarbe des Moduls selbst festlegen.
+
+<blockquote>
+<img src="media/konzepte/module/modul_kontakte.png">
+</blockquote>
+
+
+----------
+
+
 ## Link Filter
 
 Dieses Modul zeigt eine Anzahl von Links an und erlaubt das Filtern nach Kategorien.
