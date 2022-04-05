@@ -399,10 +399,6 @@ blockquote {
     border-radius: 0;
 }
 
-.label-default {
-    background-color: #575656;
-}
-
 /* footer styles */
 .footer,
 .layer-overlay.overlay-dark-9::before {
