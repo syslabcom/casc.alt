@@ -152,7 +152,9 @@ section.collection-search .newsletter-form {
 
 .section-content p a,
 .section-content .checkbox label a,
-.section-content .searchResults a {
+.section-content .searchResults a,
+.single-post a,
+.single-post p a {
     text-decoration: underline; 
 }
 
