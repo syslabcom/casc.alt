@@ -162,6 +162,13 @@ section.collection-search .newsletter-form {
 .section-content a p,
 .section-content p a.btn { text-decoration: none; }
 
+section blockquote {
+    border: none;
+    margin-top:  0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
 /* form */
 
 form#contact_form legend { 
