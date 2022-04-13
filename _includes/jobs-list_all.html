@@ -1,0 +1,104 @@
+<section class="jobs-filter">
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+          <div class="col-sm-12">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <div class="col-sm-12">
+                <input type="text" class="form-control" id="searchtext" placeholder="Suchtext eingeben">
+              </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-4">
+                  <label for="category">Stellen-Kategorie:</label>
+                  <select class="form-control" id="category" name="category">
+                    <option>Alle Kategorien</option>
+                    <option>Praktika</option>
+                    <option>Nebenjobs und Werkstudententätigkeit</option>
+                    <option>Abschlussarbeiten mit Praxispartnern</option>
+                    <option>Berufseinstieg und Festanstellungen</option>
+                  </select>  
+                </div>
+                <div class="col-sm-4">
+                 <label for="field-of-study">Studiengang:</label>
+                 <select class="form-control" id="field-of-study" name="field-of-study">
+                    <option>Alle Studiengänge</option>
+                    <option>Ingenieurwissenschaften und Technik</option>
+                    <option>Wirtschaft und Finanzen</option>
+                    <option>Marketing und Medien</option>
+                    <option>Human Resources</option>
+                    <option>Sonstige Fachrichtungen</option>
+                  </select>  
+                </div>
+                <div class="col-sm-4">
+                 <label for="location">Ort:</label>
+                 <select class="form-control" id="location" nane="location">
+                    <option>Alle Orte</option>
+                    <option>Nato-Flugplatz in Lechfeld</option>
+                    <option>Franken, Hunsrück, Bayerischer Wald</option>
+                    <option>Ludwigsburg</option>
+                    <option>Reichenaustraße 2, 81243 München</option>
+                  </select>  
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-8">
+
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox">
+                      Angebote von Alumni</label>
+                  </div>
+                </div> 
+
+            </div>
+             <div class="form-group">
+                <div class="col-sm-12">
+                  <a href="/jobs_all.html" class="pull-right btn btn-gray"><i class="fa fa-times"></i>&nbsp;&nbsp;Filter zurücksetzen</a> 
+                </div> 
+
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="jobs-listing">
+  <div class="container">
+    <div class="section-content">
+      <div class="row">
+      {% assign count = 1 %}
+      {% assign count_old = 1 %}
+
+        {% for item in site.posts %}
+        {% if item.layout == 'job_career' %}
+
+         <div class="col-xs-12 job-item">
+            <a href="{{ item.url | replace_first: '/', '' }}">
+            <article class="post clearfix">
+                  <div class="media-body">
+                      <h3 class="entry-title">{{ item.title }}</h3>
+                      <p class="description mt-10">{{ item.description }}</p>
+
+                      <ul class="list-icon clearfix">
+                        <li class="pull-left"><i class="fa fa-users"></i>{{ item.category }}</li>
+                        <li class="pull-left"><i class="fa fa-graduation-cap"></i>{{ item.field-of-study }}</li>
+                        <li class="pull-left"><i class="fa fa-industry"></i>{{ item.employer }}</li>
+                        <li class="pull-left"><i class="fa fa-map-marker"></i>{{ item.location }}</li>
+                        {% if item.deadline %}<li class="pull-left"><i class="fa fa-calendar"></i>{{ item.closing-date }}</li>{% endif %}
+                      </ul>
+                  </div>
+                
+            </article>
+          </a>
+        </div>
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
