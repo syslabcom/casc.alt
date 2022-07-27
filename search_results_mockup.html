@@ -242,6 +242,75 @@ name: Suche
 	</div>
 </section>
 
+<section>
+	<form id="accessibility-feedback" name="accessibility-feedback" method="post" action="https://dtecbw.de/home/@@accessibility-feedback" novalidate="novalidate">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p>Wenn Sie uns zu Barrieren auf unserer Webseite erreichen wollen, schreiben Sie uns bitte über das unten stehende Formular oder kontaktieren Sie uns unter <a href="mailto:info@dtecbw.de?subject=Barriere%20Melden">info@dtecbw.de</a></p>
+                      <p>
+                        Mit * gekennzeichnete Felder sind Pflichtfelder.
+                      </p>
+                    </div>
+                  </div>
+                  <div id="validation-error" class="alert alert-danger" style=""> Es gab ein Problem mit Ihrer Eingabe. Die Fehler sind deutlich vermerkt</div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <label for="url" class="error">Webseite / URL *:</label>
+                        <input type="url" autocomplete="url" placeholder="https://example.com" class="form-control error" id="url" name="url" required="required" pattern="^https://.*">
+                        <div id="error-url" class="error message" role="alert" style="">Bitte geben Sie eine Internetadresse ein.</div>
+                        <p>Geben Sie hier die URL der Seite ein, auf der Sie ein Problem gefunden haben.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <label for="email">E-Mail Adresse:</label>
+                        <input type="email" autocomplete="email" placeholder="jon@example.com" class="form-control" id="email" name="email">
+                        <div id="error-email" class="error message" role="alert" style="display: none">Bitte geben Sie eine gültige E-Mail-Adresse ein.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <label for="text" class="error">Problembeschreibung *:</label>
+                        <textarea name="text" placeholder="Geben Sie hier weitere Informationen zu Ihrem Anliegen ein." id="text" class="form-control error" rows="6" required="required"></textarea>
+                        <div id="error-text" role="alert" class="error message" style="">Dieses Feld darf nicht leer sein.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="form-group">
+                        <div class="checkbox">
+                          <label for="datenschutz" class="error">
+                            <input type="checkbox" id="datenschutz" name="datenschutz" value="on" required="required" data-required-error="Dieses Pflichtfeld bitte ausfüllen." class="error">
+                          *Die <a href="/home/datenschutzerklaerung" title="Datenschutzerklärung">Datenschutzerklärung</a> von dtec.bw habe ich gelesen und bin mit der Verarbeitung meiner hier eingegebenen Daten für eine persönliche Kontakaufnahme einverstanden.</label>
+                        </div>
+                        <div id="error-datenschutz" role="alert" class="error message" style="">Dieses Feld darf nicht leer sein.</div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <p class="button-bar">
+                        <button type="submit" class="btn btn-theme-colored">Absenden</button>
+                      </p>
+                    </div>
+                  </div>
+                  <div style="display: none">
+  <input type="text" value="" name="contact-dtec">
+</div>
+
+                </form>
+</section>
 
 
 
