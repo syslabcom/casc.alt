@@ -1851,9 +1851,12 @@ section.categories>.container {
 }
 
 .searchResults {
-
+    h3.result-title,
     .result-title {
         font-size: 1.2em;
+        a { 
+            color: $colour-link; 
+        }
     }
     .url {
         color: $colour-text;
@@ -1890,17 +1893,22 @@ section.categories>.container {
     }
 }
 
-#search-results-bar {
-    > h3 {
-        font-size: 1.11rem;
-        font-weight: bold;
+#search-results-bar,
+div.autotab-heading {
+    font-weight: bold;
+}
+
+.main-content .container .autotab-heading {
+    ul {
+      display: inline-block;
+      padding-left: 0;
+      > li {
+        display: inline;
+        margin-left: 10px;
+        }
     }
 }
 
-h3.autotab-heading {
-    font-size: 1.11rem;
-    font-weight: bold;
-}
 .plone-pagination {
 
   ul {

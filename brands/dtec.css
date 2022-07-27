@@ -406,6 +406,13 @@ blockquote {
     border-radius: 0;
 }
 
+/* wai stuff - search sort buttons */
+div.autotab-heading a.btn-gray.active,
+div.autotab-heading a.btn-gray:active {
+    background-color: #5e5e5e;
+    color:  #fff;
+}
+
 /* footer styles */
 .footer,
 .layer-overlay.overlay-dark-9::before {
@@ -420,6 +427,9 @@ blockquote {
 
 .footer a, .footer a:hover, .footer a:visited, .footer a:active, .footer a:focus,
 .footer ul.list li a, .footer ul.list li a:hover, .footer ul.list li a:visited, .footer ul.list li a:active, .footer ul.list li a:focus { color: #fff; border: none; text-decoration:  underline; }
+
+
+.scrollToTop { background-color: #333; }
 
 /* +++++++++++++++++++++++++++++ */
 /* Mobile mode (Responsive mode) */
