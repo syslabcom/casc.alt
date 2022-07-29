@@ -135,6 +135,10 @@ ul {
     } 
 }
 
+summary {
+    display: list-item;
+}
+
 .ellipsis {
   text-overflow: ellipsis;
   white-space: nowrap;
