@@ -928,8 +928,9 @@ return d},fgSegHtml:function(a,b){var c,d,e=this.view,f=a.event,g=e.isEventDragg
                     e(this).attr("aria-controls", first_submenu.attr("id"));
                     e(this).attr("aria-expanded", false);
                     e(this).append(
-                        "<span class='indicator' aria-hidden='true'>" +
+                        "<span class='indicator'>" +
                             p.indicatorFirstLevel +
+                            "<span class='sr-only'>Untermenü ausklappen</span>" +
                             "</span>"
                     );
                 }
@@ -949,8 +950,9 @@ return d},fgSegHtml:function(a,b){var c,d,e=this.view,f=a.event,g=e.isEventDragg
                         e(this).attr("aria-controls", first_submenu.attr("id"));
                         e(this).attr("aria-expanded", false);
                         e(this).append(
-                            "<span class='indicator' aria-hidden='true'>" +
+                            "<span class='indicator'>" +
                                 p.indicatorSecondLevel +
+                                "<span class='sr-only'>Untermenü ausklappen</span>" +
                                 "</span>"
                         );
                     }
