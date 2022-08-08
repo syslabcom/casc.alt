@@ -1173,33 +1173,40 @@ var THEMEMASCOT = {};
                 align: "left",
                 effect: "slide",
                 animation: "none",
-                indicatorFirstLevel: "<i class='fa fa-angle-down'></i>",
-                indicatorSecondLevel: "<i class='fa fa-angle-right'></i>",
+                indicatorFirstLevel:
+                    "<i class='fa fa-angle-down' aria-hidden='true'></i>",
+                indicatorSecondLevel:
+                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
                 trigger: "click",
             });
             $("#menuzord-right").menuzord({
                 align: "right",
                 effect: "slide",
                 animation: "none",
-                indicatorFirstLevel: "<i class='fa fa-angle-down'></i>",
-                indicatorSecondLevel: "<i class='fa fa-angle-right'></i>",
+                indicatorFirstLevel:
+                    "<i class='fa fa-angle-down' aria-hidden='true'></i>",
+                indicatorSecondLevel:
+                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
             });
             $("#menuzord-side-panel").menuzord({
                 align: "right",
                 effect: "slide",
                 animation: "none",
                 indicatorFirstLevel: "",
-                indicatorSecondLevel: "<i class='fa fa-angle-right'></i>",
+                indicatorSecondLevel:
+                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
             });
 
             $("#menuzord-verticalnav").menuzord({
                 align: "right",
                 effect: "slide",
                 animation: "none",
-                indicatorFirstLevel: "<i class='fa fa-angle-down'></i>",
-                indicatorSecondLevel: "<i class='fa fa-angle-right'></i>",
-                /*indicatorFirstLevel: "<i class='fa fa-angle-right'></i>",
-                indicatorSecondLevel: "<i class='fa fa-angle-right'></i>"*/
+                indicatorFirstLevel:
+                    "<i class='fa fa-angle-down' aria-hidden='true'></i>",
+                indicatorSecondLevel:
+                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
+                /*indicatorFirstLevel: "<i class='fa fa-angle-right' aria-hidden='true'></i>",
+                indicatorSecondLevel: "<i class='fa fa-angle-right' aria-hidden='true'></i>"*/
             });
         },
 
