@@ -16,6 +16,13 @@ Die Universität der Bundeswehr München ist eine junge, moderne CAMPUSuniversi
 Die Universität der Bundeswehr München ist eine junge, moderne CAMPUSuniversität. Ihre ausgezeichnete Lage in einer der innovativsten Regionen Deutschlands, ihre überschaubare Größe und die sehr gute technische Ressourcenausstattung bieten beste Voraussetzungen für exzellente und nachhaltige Forschung auf internationalem Niveau.
 </p>
 <p>
+    <figure>
+        <img src="/media/rz/kalender_teaser.jpg" alt="" class="image-richtext image-inline">
+        <figcaption><br>Links: Additiv gefertigtes Metallbauteil auf einer Bauplatte (Quelle: UniBw M) <br>Rechts: Im SLM-Verfahren lassen sich komplexe und filigrane Strukturen herstellen, wie auxetische Strukturen in Form von Würfeln (Quelle: WIWeB)</figcaption>
+    </figure>
+</p>
+
+<p>
 Die Universität der Bundeswehr München weist ein besonderes Profil auf. Fachlich sind sowohl Ingenieur- und Naturwissenschaften als auch Geistes-, Sozial- und Wirtschaftswissenschaften vertreten, wodurch die Fakultäten der Universität in der Lage sind, komplexe Themen mit hoher gesellschaftlicher Relevanz in einer ganz besonderen Bandbreite und Tiefe abzudecken. Sie bietet somit ein breites Spektrum von Arbeits- und Kooperationsmöglichkeiten, das von der Grundlagenforschung bis hin zu anwendungsbezogener Forschung und Entwicklung reicht. Seit ihrem Bestehen hat sich die Universität zu einer der ersten Adressen für Fragen der Sicherheit in Technik und Gesellschaft entwickelt. Sie ist Innovationsmotor und stellt damit einen wesentlichen Faktor für die regionale Entwicklung dar.
 </p>
 <p>
