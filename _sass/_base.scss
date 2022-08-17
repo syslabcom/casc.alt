@@ -723,6 +723,13 @@ section {
             color: $colour-text;
         }
     }
+    &.lead-text {
+        figure {
+            figcaption {
+                font-size: 0.8em;
+            }
+        }
+    }
     &.gallery {
         figure {
             figcaption {
