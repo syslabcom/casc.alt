@@ -487,6 +487,10 @@ header .rev_slider a:focus,
 .rev_slider *:focus,
 .scrollToTop a:focus { outline-color: #ffffff !important; }
 
+button.tparrows {
+    border: 2px solid #ffffff;
+}
+
 #global-navigation nav a.site-logo { display: none !important; }
 
 section.call-to-action a:focus .row .icon-box { outline: none !important; }
