@@ -969,7 +969,7 @@ return d},fgSegHtml:function(a,b){var c,d,e=this.view,f=a.event,g=e.isEventDragg
             e(f)
                 .addClass("menuzord-responsive")
                 .prepend(
-                    "<a href='javascript:void(0)' class='showhide' aria-label='Mobilmenü' aria-expanded='false' aria-controls='" +
+                    "<a href='javascript:void(0)' class='showhide' role='button' aria-label='Mobilmenü' aria-expanded='false' aria-controls='" +
                         submenu_id +
                         "'><span aria-hidden='true'><em></em><em></em><em></em></span></a>"
                 );
