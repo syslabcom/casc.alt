@@ -593,6 +593,24 @@ a {
     }
 }
 
+#campaign-logo {
+    width: 100px;
+    position: absolute;
+    left: auto;
+    top: -80px;
+    height: 75px;
+    overflow: hidden;
+    .container { padding-left: 0 }
+    a {
+        background: url("../media/logos/logo_50jahre_unibw_RGB_orange_klein.png");
+        background-size: cover;
+        color: transparent;
+        width: 100px;
+        height: 75px;
+        display: block;
+    }
+}
+
 #secondary-navigation {
     position: absolute;
     right: 1%;
