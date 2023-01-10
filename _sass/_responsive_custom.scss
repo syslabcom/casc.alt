@@ -54,7 +54,7 @@
 
 @media only screen and (min-width : 576px) {
     .business-card h3 { font-size:1.1rem; }
-}
+}   
 
 
 /* Small Devices, Tablets */
@@ -66,8 +66,16 @@
 }
 
 @media only screen and (max-width : 768px) {
-  #athene { top: -56px; } 
-  .institute-logo { display: none;  }
+    #athene { top: -56px; } 
+    .institute-logo { display: none;  }
+    #campaign-logo {
+        width: 40px;
+        height: 30px;
+        a {
+            width: 40px;
+            height: 30px;
+        }
+    }
 }
 
 
