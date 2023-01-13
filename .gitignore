@@ -17,3 +17,4 @@ stamp-bundler
 /node_modules/
 /ruby/
 vendor/
+.jekyll-cache/
