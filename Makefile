@@ -1,7 +1,7 @@
 BUNDLER_DIR     ?= .bundle
 BUNDLER_BIN_DIR ?= $(BUNDLER_DIR)/bin
 BUNDLER         ?= $(BUNDLER_BIN_DIR)/bundler
-BUNDLE          ?= bundle
+BUNDLE          ?= $(BUNDLER_BIN_DIR)/bundle
 BUNDLEPLONEID	= casc
 GRUNT           ?= npx grunt
 
