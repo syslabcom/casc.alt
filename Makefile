@@ -36,7 +36,7 @@ extra-clean:: clean
 ## Bundle generation
 
 build: jekyll
-jekyll: #fetchrelease stamp-bundler
+jekyll: stamp-bundler
 	$(BUNDLE) exec jekyll build
 
 dev: stamp-bower jekyll
