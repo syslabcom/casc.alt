@@ -26,7 +26,7 @@ stamp-bower: stamp-npm
 	touch stamp-bower
 
 clean::
-	rm -rf stamp-npm stamp-bower stamp-bundler node_modules src/bower_components bundles/*
+	rm -rf stamp-npm stamp-bower stamp-bundler .bundler/ node_modules src/bower_components bundles/*
 
 extra-clean:: clean
 	rm -rf ~/.cache/bower
