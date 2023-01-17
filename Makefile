@@ -1,4 +1,3 @@
-BOWER 		    ?= node_modules/.bin/bower
 BUNDLE          ?= $(BUNDLER_BIN_DIR)/bundle
 BUNDLEPLONEID	= casc
 BUNDLER         ?= $(BUNDLER_BIN_DIR)/bundler
@@ -21,15 +20,8 @@ stamp-npm: package.json
 	npm install
 	touch stamp-npm
 
-stamp-bower: stamp-npm
-	$(BOWER) install
-	touch stamp-bower
-
 clean::
-	rm -rf stamp-npm stamp-bower stamp-bundler .bundler/ node_modules src/bower_components bundles/*
-
-extra-clean:: clean
-	rm -rf ~/.cache/bower
+	rm -rf stamp-npm stamp-bundler .bundler/ node_modules bundles/*
 
 
 ########################################################################
@@ -39,12 +31,11 @@ build: jekyll
 jekyll: stamp-bundler
 	$(BUNDLE) exec jekyll build
 
-dev: stamp-bower jekyll
+dev: stamp-npm jekyll
 	# Set up development environment
 	rm -rf _site/bundles
 	ln -s ../src _site/bundles
 	rm -f _site/bundles/$(BUNDLEPLONEID).js
-	ln -s bower_components/requirejs/require.js _site/bundles/$(BUNDLEPLONEID).js
 	rm -f _site/main.js
 	cp main.js src/main.js
 	sed -i -e "s|baseUrl: 'src',|baseUrl: '/bundles/',|" src/main.js
@@ -64,4 +55,4 @@ node_modules/.bin/grunt:
 bundle: node_modules/.bin/grunt
 	node_modules/.bin/grunt
 
-.PHONY: all bundle extra-clean clean serve
+.PHONY: all bundle clean serve
