@@ -1192,6 +1192,7 @@ section.gradient:after,
     }
 }
 #hero {
+    .mobile-image { display: none; }
     .marker {
         position: absolute;
         top: 0px;
