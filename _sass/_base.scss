@@ -650,6 +650,7 @@ a.site-logo {
             color: $colour-dark-blue;
         }
     }
+
     li {
         ul {
             &.dropdown {
@@ -682,6 +683,13 @@ a.site-logo {
 
 }
 
+
+@media (max-width: 1490px) {
+    .menuzord-menu li:nth-child(1n+4) ul.dropdown ul.dropdown {
+        left: auto;
+        right: 100%;
+    }
+}
 
 
 /* Inner Header - Heros on subpages */
