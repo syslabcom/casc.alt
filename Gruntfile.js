@@ -36,6 +36,7 @@ var css_sources = [
     "js/revolution-slider/css/layers.css",
     "js/revolution-slider/css/navigation.css",
     "_site/css/screen.css",
+    "css/plone.css",
 ];
 var unibw_sources = css_sources.concat([
     "css/colors/theme-skin-color-set-casc.css",
