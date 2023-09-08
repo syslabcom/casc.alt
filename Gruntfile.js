@@ -36,7 +36,6 @@ var css_sources = [
     "js/revolution-slider/css/layers.css",
     "js/revolution-slider/css/navigation.css",
     "_site/css/screen.css",
-    // 'css/colors/theme-skin-color-set-casc.css'
 ];
 var unibw_sources = css_sources.concat([
     "css/colors/theme-skin-color-set-casc.css",
@@ -46,12 +45,11 @@ var dtec_sources = css_sources.concat([
     "css/colors/theme-skin-color-set-dtec.css",
     "brands/dtec.css",
 ]);
+
 // During development, we will not include the brand files into the bundle to speed up turnaround
 // Note: Including screen.css into the bundle resulted in broken styles, we didn't yet debug,
 // But that needs to happen if we once want to include both files into the bundle as well.
-// var unibw_sources = css_sources;
-// var dtec_sources = css_sources;
-console.log(dtec_sources);
+
 module.exports = function (grunt) {
     grunt.initConfig({
         concat: {
