@@ -121,6 +121,9 @@ section .module-title {
 section .module-title.line-bottom {
     margin-bottom: 15px;
 }
+section#events-list {
+    padding-top: 70px;
+}
 
 .text-theme-color-2 { color: #282828; }
 
