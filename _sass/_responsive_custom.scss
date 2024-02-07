@@ -7,6 +7,7 @@
         background: none;
         margin-bottom: 0;
     }
+    #hero .mobile-image { display: block; }
     #hero.gradient:before { background: none; margin: 0; padding: 0; }
     #hero.inner-header, #hero.inner-header .container { height:auto;}
     #hero.inner-header .section-content { margin-bottom: auto;}

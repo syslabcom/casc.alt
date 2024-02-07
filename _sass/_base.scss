@@ -1189,6 +1189,7 @@ section.gradient:after,
 }
 
 #hero {
+    .mobile-image { display: none; }
     &.inner-header {
         height: 540px;
         .container {
