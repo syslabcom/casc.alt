@@ -34,7 +34,8 @@ a:focus, a:focus strong { color: #365B6E; } /* AAA */
     background-repeat: no-repeat;
     border-bottom: none !important;
 }
- 
+
+#header { padding-bottom: 0px } 
 #header .header-nav .header-nav-wrapper .menuzord { background-color: transparent; }
 
 #hero-title .container { padding-top: 50px; padding-bottom: 0px; }
@@ -470,7 +471,7 @@ div.autotab-heading a.btn-gray:active {
     #global-navigation { line-height: 1.5em }
     #secondary-navigation { top:  -105px }
     #athene { top: -85px }
-}
+    #hero-title .container { padding-top: 10px; }
 
 /* +++++++++++++++++++++++++++++++++++++++++++ */
 /* additional changes due to WAI compatibility */
