@@ -15,6 +15,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: "thesansplain";
+    src: url("../fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.eot");
+    src: url("../fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.woff") format("woff"),
+    url("../fonts/TheSans_B2/TheSans_B2_500_Plain/TheSans_B2_500_.svg#TheSans_B2_500_") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 /*@font-face {
     font-family: theserif;
     src: url('../fonts/TheSerif_cls_3_.woff') format('woff');
@@ -98,8 +107,9 @@ h2,
 }
 h3,
 .h3 {
+  font-family: 'thesansplain';
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: normal;
 }
 h4,
 .h4 {
@@ -1756,7 +1766,6 @@ section.categories>.container {
 
         h3 {
           font-size: 18px;
-          font-weight: bold;
         }
 
         ul {
