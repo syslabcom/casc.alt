@@ -9,7 +9,7 @@
           <div class="box-item">
             <div class="item-inner padding">
 
-              <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
+              
                <article class="post clearfix">
               <div class="entry-header">
                 <!--div class="post-thumb thumb"> 
@@ -27,7 +27,7 @@
                     
                     
                     <div class="event-content">
-                      <h3 class="entry-title">{{ item.title }}</h3>
+                      <a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}"><h3 class="entry-title">{{ item.title }}</h3></a>
                        {% if item.start-time or item.location %}
                        <ul class="list-inline mb-20">
                         {% if item.start-time %}<li><i class="fa fa-clock-o mr-5"></i>{{ item.start-time }} - {{ item.end-time }}</li>{% endif %}
@@ -39,12 +39,11 @@
                 </div>
                
                 <p class="description mt-10 mb-20">{{ item.description }}</p>
-                <div href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-sm">Weitere Infos</div>
-                {% if item.department == 'pretix' %}<div href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-theme-colored-extra btn-sm">Anmeldung</div>  {% endif %}
+                <a href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-sm">Weitere Infos</a>
+                {% if item.department == 'pretix' %}<a href="{{ item.url | replace_first: '/', '' }}" class="btn btn-theme-colored btn-theme-colored-extra btn-sm">Anmeldung</a>  {% endif %}
                 <div class="clearfix"></div>
               </div>
             </article>
-              </a>
             </div>
           </div>
         </div>
