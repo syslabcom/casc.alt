@@ -4,11 +4,12 @@ var js_sources = [
     "js/jquery-ui.min.js",
     "js/bootstrap.min.js",
     "js/jquery-plugin-collection.js",
+    "js/menuzord-unglified.js",
     "js/fullcalendar-2.6.0/lang/de.js",
-    "js/revolution-slider/js/jquery.themepunch.tools.min.js",
-    "js/revolution-slider/js/jquery.themepunch.revolution.min.js",
     "js/tsvensen-equalize.js-87c2cf1/js/equalize.js",
     "js/underscore-min.js",
+    "js/revolution-slider/js/jquery.themepunch.revolution.min.js",
+    "js/revolution-slider/js/jquery.themepunch.tools.min.js",
     "js/revolution-slider/js/extensions/revolution.extension.actions.min.js",
     "js/revolution-slider/js/extensions/revolution.extension.carousel.min.js",
     "js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js",
@@ -19,6 +20,7 @@ var js_sources = [
     "js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js",
     "js/revolution-slider/js/extensions/revolution.extension.video.min.js",
     "js/requirejs-redefine.js",
+    "js/unibw-custom.js",
 ];
 var css_sources = [
     "css/bootstrap.min.css",
