@@ -9,7 +9,7 @@ end-time: 18.00 Uhr
 image: media/news/news_18.jpg
 description: "Die Universität der Bundeswehr München veranstaltet regelmäßig einen Tag der offenen Tür. Auch im Jahr 2018 wird es wieder einen Tag der offenen Tür geben."
 category: termine
-department: casc
+department: pretix
 veranstalter: Zentren für Kommunikation und Informationsverarbeitung in Lehre und Forschung e. V. (ZKI e. V.)
 ausrichtung: Rechenzentrum der Universität
 ansprechpartner: nfnfnfn, nrnnrnrnrnr

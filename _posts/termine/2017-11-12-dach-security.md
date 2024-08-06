@@ -9,7 +9,7 @@ end-time: 18.00 Uhr
 image: media/news/news_18.jpg
 description: "Am 5. und 6. September 2017 findet an der Universität der Bundeswehr München die Arbeitskonferenz D-A-CH Security 2017 statt."
 category: termine
-department: casc
+department: pretix
 veranstalter: ...
 ausrichtung: ...
 ansprechpartner: nfnfnfn, nrnnrnrnrnr
