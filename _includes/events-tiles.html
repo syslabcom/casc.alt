@@ -31,6 +31,7 @@
                        {% if item.start-time or item.location %}
                        <ul class="list-inline mb-20">
                         {% if item.start-time %}<li><i class="fa fa-clock-o mr-5"></i>{{ item.start-time }} - {{ item.end-time }}</li>{% endif %}
+                        {% if item.target-group %}<li><i class="fa fa-user mr-5"></i>{{ item.target-group }}</li>{% endif %}
                         {% if item.location %}<li><i class="fa fa-map-marker mr-5"></i> {{ item.location }}</li>{% endif %}
                       </ul>
                       {% endif %}
