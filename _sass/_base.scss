@@ -909,14 +909,11 @@ section {
             }
         }
     }
-    /* might be needed again if we get the filter bar again. 
-    
-    &.events-search {
+   &.events-search {
         .container {
-            padding-bottom:0;
+            padding-bottom: 70px;
         }
     }
-    */
     &#events-list {
         .container {
             padding-top:0;
