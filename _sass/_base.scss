@@ -900,6 +900,9 @@ section {
                 font-size: 1.8em;
                 text-align: center;
                 color: white;
+                &.open {
+                    background-color: $colour-uni-orange;
+                }
             }
             .media-body {
                 ul.list-icon {
@@ -1755,7 +1758,7 @@ section.categories>.container {
       background-color: $colour-ruddy-beige;
       padding-left: 8px;
     }
-    &.software  {
+    &.software {
       background-color: $colour-uni-orange;
     }
     &.email  {
@@ -1767,6 +1770,12 @@ section.categories>.container {
     &.web  {
       background-color: $colour-valley-green;
       padding-left: 8px;
+    }
+    &.public {
+      background-color: $colour-uni-orange;
+    }
+    &.private  {
+      background-color: $colour-middle-grey;
     }
 }
 
