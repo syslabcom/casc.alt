@@ -876,6 +876,9 @@ section {
                 font-size: 1.8em;
                 text-align: center;
                 color: white;
+                &.open {
+                    background-color: $colour-uni-orange;
+                }
             }
             .media-body {
                 ul.list-icon {
@@ -1559,7 +1562,7 @@ section.categories>.container {
               background-color: $colour-ruddy-beige;
               color: $colour-text;
             }
-            &.software  {
+            &.software {
               background-color: $colour-uni-orange;
               color: $colour-text;
             }
@@ -1573,6 +1576,12 @@ section.categories>.container {
             &.web  {
               background-color: $colour-valley-green;
               color: $colour-text;
+            }
+            &.public {
+              background-color: $colour-uni-orange;
+            }
+            &.private  {
+              background-color: $colour-middle-grey;
             }
 
         }

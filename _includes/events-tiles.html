@@ -11,7 +11,7 @@
 
               
                <article class="post clearfix">
-              <div class="entry-header">
+              <div class="entry-header {% if item.is-open %} {{ item.is-open }}{% endif %}">
                 <!--div class="post-thumb thumb"> 
                   <img src="{{ item.image }}" alt="" class="img-responsive img-fullwidth">
                 </div-->
@@ -52,6 +52,16 @@
         {% endfor %}
 
 
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-3 col-sm-4">
+            <span class="color-marker public fa"></span> Öffentliche Veranstaltung
+          </div>
+          <div class="col-md-3 col-sm-4">
+            <span class="color-marker private fa"></span> Interne Veranstaltung
+          </div>
+        </div>
       </div>
     </div>
   </div>
