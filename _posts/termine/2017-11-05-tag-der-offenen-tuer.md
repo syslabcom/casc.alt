@@ -12,8 +12,11 @@ category: termine
 department: pretix
 is-open: open
 veranstalter: Zentren für Kommunikation und Informationsverarbeitung in Lehre und Forschung e. V. (ZKI e. V.)
+website: www.test.de
+anmeldung: Bitte an der Pforte melden
 ausrichtung: Rechenzentrum der Universität
-ansprechpartner: nfnfnfn, nrnnrnrnrnr
+ansprechpartner: Mr Bombastic
+email-telefon: mr.bombastic@test.de
 location: Universität der Bundeswehr, Audimax, Geb. 33
 kosten: Teilnahme kostenlos
 ---

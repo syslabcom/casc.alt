@@ -20,13 +20,32 @@ parent: Aktuelles
             {{ content }}
 
             <div class="event-details">
+              <hr />
+              <h3>Kontakt</h3>
+              
               <div class="row">
-                <div class="col-md-3 col-sm-12 detail-label">Veranstalter:</div>
-                <div class="col-md-8 col-sm-12">{{ page.veranstalter }}</div>
+                <div class="col-md-12 col-sm-12">{{ page.ansprechpartner }}</div>
               </div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12">{{ page.email-telefon }}</div>
+              </div>
+              <hr />
+              <h3>Infos & Anmeldung</h3>
+              <div class="row">
+                <div class="col-md-12 col-sm-12">{{ page.anmeldung }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12"><a href="{{ page.website }}">{{ page.website }}</a></div>
+              </div>
+              <hr />
+
               <div class="row">
                 <div class="col-md-3 col-sm-12 detail-label">Ausrichtung:</h5></div>
                 <div class="col-md-8 col-sm-12">{{ page.ausrichtung }}</div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 col-sm-12 detail-label">Veranstalter:</div>
+                <div class="col-md-8 col-sm-12">{{ page.veranstalter }}</div>
               </div>
               <div class="row">
                 <div class="col-md-3 col-sm-12 detail-label">Ort:</div>
@@ -36,10 +55,16 @@ parent: Aktuelles
                 <div class="col-md-3 col-sm-12 detail-label">Kosten:</div>
                 <div class="col-md-8 col-sm-12">{{ page.kosten }}</div>
               </div>
+              
               <div class="row">
+                <div class="col-md-3 col-sm-12 detail-label">Art der Veranstaltung:</div>
+                <div class="col-md-8 col-sm-12">{% if item.is-open %}öffentlich{% else %}uni-intern{% endif %}</div>
+              </div>
+               <div class="row">
                 <div class="col-md-3 col-sm-12 detail-label">Termin übernehmen:</div>
                 <div class="col-md-8 col-sm-12">iCalendar</div>
               </div>
+              <hr />
             </div>
              <div class="row">
                 <div class="col-sm-12">
