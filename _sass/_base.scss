@@ -1577,12 +1577,6 @@ section.categories>.container {
               background-color: $colour-valley-green;
               color: $colour-text;
             }
-            &.public {
-              background-color: $colour-uni-orange;
-            }
-            &.private  {
-              background-color: $colour-middle-grey;
-            }
 
         }
         .text {
@@ -1704,6 +1698,12 @@ section.categories>.container {
     &.web  {
       background-color: $colour-valley-green;
       padding-left: 8px;
+    }
+    &.public {
+      background-color: $colour-uni-orange;
+    }
+    &.private  {
+      background-color: $colour-middle-grey;
     }
 }
 
