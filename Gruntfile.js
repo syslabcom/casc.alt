@@ -46,6 +46,10 @@ var dtec_sources = css_sources.concat([
     "css/colors/theme-skin-color-set-dtec.css",
     "brands/dtec.css",
 ]);
+var palladion_sources = css_sources.concat([
+    "css/colors/theme-skin-color-set-palladion.css",
+    "brands/palladion.css",
+]);
 
 // During development, we will not include the brand files into the bundle to speed up turnaround
 // Note: Including screen.css into the bundle resulted in broken styles, we didn't yet debug,
@@ -82,6 +86,7 @@ module.exports = function (grunt) {
                 files: {
                     "css/unibw.min.css": unibw_sources,
                     "css/dtec.min.css": dtec_sources,
+                    "css/palladion.min.css": palladion_sources,
                 },
             },
         },
