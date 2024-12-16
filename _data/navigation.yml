@@ -575,3 +575,33 @@
     id: partner
     url: partner.html
 
+#############################################################################
+# Site Palladion
+#############################################################################
+- name: Palladion
+  title: Palladion
+  url: palladion.html
+  items:
+  - title: Palladion Defence Accelerator
+    id: palladion-modules
+    url: palladion-modules.html
+  - title: Kontakt
+    id: kontakt
+    url: kontakt.html
+  - title: Nato | DIANA
+    children: 
+    - title: StudBer
+      children:
+      - title: Aero
+      - title: Alpha
+      - title: Bravo
+      - title: Charlie
+      - title: Delta
+    - title: Studienbeginn
+    - title: Liegenschaft
+    - title: SanVZ
+    - title: Sportfördergruppe
+    - title: Betreuung / Fürsorge
+    - title: IG/AG
+    - title: Interessenvertretungen
+    - title: Links
