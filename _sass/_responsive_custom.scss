@@ -22,6 +22,10 @@
     section.inner-header .container .section-content { position: relative; }
     /* END remove the background image for small devices */
 
+    section.inner-header.no-hero { height: auto; }
+    section.inner-header.no-hero .container { height: auto; }
+    section.inner-header.no-hero .container .section-content { position: relative; bottom: auto; margin-bottom: auto; }
+
     section#job dl dt { width: 100%; float: none; display: block; margin: 0; overflow: hidden; }
     section#job dl dd { width: 100%; float: none; display: block; border: none; overflow: hidden; }
 }
