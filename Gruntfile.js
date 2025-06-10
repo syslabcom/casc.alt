@@ -1,13 +1,13 @@
 var js_sources = [
-    "js/requirejs-undefine.js",
-    //'js/jquery-2.2.4.min.js', // We're using jQuery from the plone-base bundle
-    "js/jquery-ui.min.js",
+    //"js/requirejs-undefine.js",
+    'js/jquery-2.2.4.min.js', // We're using jQuery from the plone-base bundle
+    //"js/jquery-ui.min.js",
     "js/bootstrap.min.js",
-    "js/jquery-plugin-collection.js",
+    //"js/jquery-plugin-collection.js",
     "js/menuzord-unglified.js",
-    "js/fullcalendar-2.6.0/lang/de.js",
+    //"js/fullcalendar-2.6.0/lang/de.js",
     "js/tsvensen-equalize.js-87c2cf1/js/equalize.js",
-    "js/underscore-min.js",
+    //"js/underscore-min.js",
     "js/revolution-slider/js/source/jquery.themepunch.revolution.js",
     "js/revolution-slider/js/source/jquery.themepunch.tools.min.js",
     "js/revolution-slider/js/extensions/source/revolution.extension.actions.js",
@@ -19,7 +19,7 @@ var js_sources = [
     "js/revolution-slider/js/extensions/source/revolution.extension.parallax.js",
     "js/revolution-slider/js/extensions/source/revolution.extension.slideanims.js",
     "js/revolution-slider/js/extensions/source/revolution.extension.video.js",
-    "js/requirejs-redefine.js",
+    //"js/requirejs-redefine.js",
     "js/unibw-custom.js",
 ];
 var css_sources = [

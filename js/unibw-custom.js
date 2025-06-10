@@ -36,6 +36,8 @@ var live_equalizer;
             $(window).resize(function () {
                 equalizer();
             });
+            // Initial equalization
+            equalizer();
         });
     };
 })(jQuery);
