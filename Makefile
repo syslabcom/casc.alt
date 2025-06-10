@@ -12,7 +12,7 @@ default: all
 ## Install dependencies
 
 stamp-bundler:
-	mkdir -p $(BUNDLER_BIN_DIR) && gem install --user-install bundler -v 2.1.4 --bindir=$(BUNDLER_BIN_DIR) --no-wrappers 2>&1 | grep -Ev 'PATH|not run'
+	mkdir -p $(BUNDLER_BIN_DIR) && gem install --user-install bundler -v 2.4.20 --bindir=$(BUNDLER_BIN_DIR) --no-wrappers 2>&1 | grep -Ev 'PATH|not run'
 	$(BUNDLER) install --path $(BUNDLER_DIR)
 	touch stamp-bundler
 
