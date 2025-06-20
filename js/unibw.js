@@ -18644,4 +18644,17 @@ var remVidfromList = function(_nc,opt) {
             equalizer();
         });
     };
+
+    function stickyNav(e) {
+        var navContainer = document.getElementById('global-navigation')
+        var navTop = navContainer.getBoundingClientRect().top;
+        var navBar = document.querySelector('.header-nav-wrapper');
+        if (navTop < 0){
+            navBar.classList.add('is-fixed');
+        } else if (navTop > 0){
+            navBar.classList.remove('is-fixed');
+        }
+    }
+    window.addEventListener('scroll', stickyNav);
+
 })(jQuery);
