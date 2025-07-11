@@ -1,0 +1,72 @@
+  <p id="athene">
+      <a href="{{ site.baseurl }}./index.html">Universität der Bundeswehr München</a>
+  </p>
+  <div id="secondary-navigation" class="top-dropdown-outer">
+    <nav>
+      <h5 class="sr-only">Sprachmenü</h5>
+      <ul id="language-menu" class="list-inline">
+        <li>
+          <a href="/dtec-leichtesprache.html"><i class="fa fa-book"></i> <span class="hidden-md hidden-sm hidden-xs">Leichte Sprache</span></a>
+          </li><li>
+          <a href="/dtec-gbs.html"><i class="fa fa-sign-language"></i> <span class="hidden-md hidden-sm hidden-xs">Gebärdensprache</span></a>
+          </li>
+          <li>
+          <a href="#" class="language-selector">en</a>
+        </li>
+      </ul>
+    </nav>
+    <nav class="secondary">
+      <a class="" href="#">Intern</a>
+      <i class="fa fa-search top-search-box has-dropdown font-13"><span class="sr-only">Suche</span></i>
+      <div class="dropdown search-form-wrapper">
+        <form method="get" action="#" class="mt-10">
+          <label for="searchinput" class="sr-only">Sucheingabe:</label>
+          <div class="row">
+            <div class="col-xs-9">
+              <input placeholder="Suchbegriff eingeben" id="searchinput" name="SearchableText" type="text">
+            </div>
+            <div class="col-xs-3">
+              <button class="search" name="submit" value="" type="submit"><span class="sr-only">Suche</span><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </nav>
+  </div>
+  <!-- Navigation -->
+  <nav id="menuzord" class="menuzord pull-left flip menuzord-responsive">
+  {% for item in site.data.navigation %}
+    {% if item.name == page.department %}
+      {% assign section = item %}
+    {% endif %}
+  {% endfor %}
+
+    <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="site-logo site-{{ page.department }}">{{ section.title }}</a>
+  
+    <ul class="menuzord-menu">
+        {% for item in section.items %}
+        <li class="{% if page.category == item.id %}active{% endif %}">
+            <a href="{{ site.baseurl }}{{ item.url }}"> {{ item.title }} </a>
+            {% if item.children %}
+            <ul class="dropdown">
+              
+              {% for subitem in item.children %}
+              <li>
+                <a href="{{ site.baseurl }}{{ subitem.url }}"> {{ subitem.title }} </a>
+                  {% if subitem.children %}
+                  <ul class="dropdown">
+                    
+                    {% for subsubitem in subitem.children %}
+                    <li><a href="{{ site.baseurl }}{{ subitem.url }}"> {{ subsubitem.title }} </a></li>
+                    {% endfor %}                      
+                  </ul>
+                  {% endif %}
+
+              </li>
+              {% endfor %}                      
+            </ul>
+            {% endif %}
+        </li>
+        {% endfor %}
+    </ul>
+  </nav>
