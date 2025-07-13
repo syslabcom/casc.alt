@@ -20,8 +20,8 @@
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build-css": "npx @tailwindcss/cli -i ./css/tailwind.css -o ./css/future.css",
-        "watch-css": "npx @tailwindcss/cli -i ./css/tailwind.css -o ./css/future.css --watch"
+        "build": "npx @tailwindcss/cli -i ./resources/styles/main.css -o ./dist/main.min.css --minify",
+        "watch": "npx @tailwindcss/cli -i ./resources/styles/main.css -o ./dist/main.min.css --watch"
     },
     "repository": {
         "type": "git",
