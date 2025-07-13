@@ -63,7 +63,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 src: js_sources,
-                dest: "js/unibw.js",
+                dest: "dist/unibw.js",
             },
         },
         uglify: {
@@ -72,7 +72,7 @@ module.exports = function (grunt) {
                     sourceMap: true,
                 },
                 files: {
-                    "js/unibw.min.js": js_sources,
+                    "dist/unibw.min.js": js_sources,
                 },
             },
         },
@@ -84,10 +84,20 @@ module.exports = function (grunt) {
             },
             target: {
                 files: {
-                    "css/unibw.min.css": unibw_sources,
-                    "css/dtec.min.css": dtec_sources,
-                    "css/palladion.min.css": palladion_sources,
+                    "dist/unibw.min.css": unibw_sources,
+                    "dist/dtec.min.css": dtec_sources,
+                    "dist/palladion.min.css": palladion_sources,
                 },
+            },
+        },
+        copy: {
+            main: {
+                files: [
+                    // Copy individual resources used in the theme.
+                    {expand: true, cwd: "js/", src: "custom.js", dest: "dist/"},
+                    {expand: true, cwd: "js/", src: "jquery-2.2.4.min.js", dest: "dist/"},
+                    {expand: true, cwd: "js/", src: "underscore-min.js", dest: "dist/"},
+                ],
             },
         },
     });
@@ -95,5 +105,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks("grunt-contrib-concat");
     grunt.loadNpmTasks("grunt-contrib-uglify");
     grunt.loadNpmTasks("grunt-contrib-cssmin");
-    grunt.registerTask("default", ["concat", "uglify", "cssmin"]);
+    grunt.loadNpmTasks("grunt-contrib-copy");
+    grunt.registerTask("default", ["concat", "uglify", "cssmin", "copy"]);
 };
