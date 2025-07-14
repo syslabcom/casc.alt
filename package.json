@@ -3,11 +3,13 @@
     "version": "0.1.0",
     "main": "Gruntfile.js",
     "dependencies": {
+        "@patternslib/patternslib": "9.10.3",
         "@tailwindcss/cli": "^4.1.11",
         "tailwindcss": "^4.1.11",
         "yarn": "^1.22.22"
     },
     "devDependencies": {
+        "@patternslib/dev": "^3.8.1",
         "eslint": "^7.30.0",
         "eslint-config-prettier": "^8.3.0",
         "grunt": "^1.6.1",
@@ -20,7 +22,8 @@
         "prettier": "^2.3.2"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "build-js": "NODE_ENV=production webpack --config webpack.config.js",
+        "watch-js": "NODE_ENV=development webpack --config webpack.config.js --watch",
         "build": "npx @tailwindcss/cli -i ./resources/styles/main.css -o ./dist/main.min.css --minify",
         "watch": "npx @tailwindcss/cli -i ./resources/styles/main.css -o ./dist/main.min.css --watch"
     },
