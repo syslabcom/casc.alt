@@ -1,0 +1,27 @@
+/* Details marker. Hide it.
+ * Except when the `plain` class is set. */
+details:not(.plain) summary::-webkit-details-marker,
+details:not(.plain) summary::marker {
+    content: "";
+    opacity: 0;
+    display: none;
+    color: transparent;
+}
+
+/* open/close marker instead of the standard summary marker. */
+details > summary > .marker {
+    display: inline-block;  /* Necessary for rotation. */
+    transition: stroke-width 1s, color 1s, rotate 0.2s;
+    transform-origin: center;
+}
+/* Arrow when details open */
+details[open] > summary > .marker {
+    rotate: 45deg;
+}
+
+/* Details summary should always have an pointer, even with no anchor in it. */
+details > summary {
+  cursor: pointer;
+  user-select: none; /* Prevent text selection. */
+  text-wrap: nowrap;
+}

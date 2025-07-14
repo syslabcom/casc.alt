@@ -1,0 +1,39 @@
+@layer components {
+    .dialog--full[open] {
+        position: fixed;
+        background: var(--overlay-bg-color);
+        color: var(--overlay-fg-color) !important;
+        width: 100vw;
+        height: 100vh;
+        overflow: scroll;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .dialog--full[open] #main_navigation summary,
+    .dialog--full[open] #main_navigation a {
+        color: white;
+        display: inline-block;
+    }
+
+    .dialog--full summary {
+        color: white;
+        mix-blend-mode: difference;
+    }
+
+    .dialog--full summary svg {
+        stroke-width: 2;
+        stroke: currentcolor;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+    }
+
+    .almost-right {
+        left: calc(100vw - 4rem);
+    }
+
+    .next-to-almost-right {
+        left: calc(100vw - 8rem);
+    }
+}
