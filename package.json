@@ -4,24 +4,25 @@
     "main": "Gruntfile.js",
     "dependencies": {
         "@tailwindcss/cli": "^4.1.11",
-        "grunt-cli": "^1.2.0",
-        "tailwindcss": "^4.1.11"
+        "tailwindcss": "^4.1.11",
+        "yarn": "^1.22.22"
     },
     "devDependencies": {
         "eslint": "^7.30.0",
         "eslint-config-prettier": "^8.3.0",
-        "grunt": "^0.4.5",
+        "grunt": "^1.6.1",
         "grunt-cli": "^1.2.0",
-        "grunt-contrib-concat": "^1.0.1",
-        "grunt-contrib-cssmin": "^2.0.0",
-        "grunt-contrib-uglify": "^0.5.1",
+        "grunt-contrib-concat": "^2.1.0",
+        "grunt-contrib-copy": "^1.0.0",
+        "grunt-contrib-cssmin": "^5.0.0",
+        "grunt-contrib-uglify": "^5.2.2",
         "less": "^4.2.0",
         "prettier": "^2.3.2"
     },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build-css": "npx @tailwindcss/cli -i ./css/tailwind.css -o ./css/future.css",
-        "watch-css": "npx @tailwindcss/cli -i ./css/tailwind.css -o ./css/future.css --watch"
+        "build": "npx @tailwindcss/cli -i ./resources/styles/main.css -o ./dist/main.min.css --minify",
+        "watch": "npx @tailwindcss/cli -i ./resources/styles/main.css -o ./dist/main.min.css --watch"
     },
     "repository": {
         "type": "git",
