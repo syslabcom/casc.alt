@@ -51,7 +51,7 @@
         tw:@lg:top-8
     "
     data-pat-details-navigation="
-        breakpoint: 512;
+        breakpoint: 576;
     "
   >
     <summary
@@ -64,7 +64,18 @@
       title="main navigation"
       i18n:attributes="title"
     >
-      <svg class="tw:w-8 tw:h-8 tw:m-2 tw:rounded-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <svg class="
+               tw:w-8
+               tw:h-8
+               tw:m-2
+               tw:p-2
+               tw:rounded-full
+               tw:bg-white
+               tw:text-black
+           "
+           xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 24 24"
+      >
         <path d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
       </svg>
     </summary>
@@ -86,8 +97,8 @@
       <ul class="
             pat-navigationmarker
             tw:flex
-            tw:flex-row
-            tw:gap-4
+            tw:flex-col
+            tw:@lg:flex-row
           "
           data-pat-navigationmarker="
               parent-selector: .pat-navigationmarker details, .pat-navigationmarker li;

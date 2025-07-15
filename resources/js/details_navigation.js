@@ -40,6 +40,25 @@ class Pattern extends BasePattern {
             }
         );
 
+        // Close on ESC
+        events.add_event_listener(
+            this.el,
+            "keydown",
+            "pat-details-navigation--close-on-esc",
+            (event) => {
+                if (event.key === "Escape") {
+                    // Only close the main details element on mobile devices.
+                    if (! mediaquerylist.matches) {
+                        this.el.removeAttribute("open");
+                    }
+                    // Close all submenus on ESC
+                    for (const sub of this.el.querySelectorAll("details")) {
+                        sub.removeAttribute("open");
+                    }
+                }
+            }
+        );
+
         this.set_details_state(mediaquerylist);
     }
 

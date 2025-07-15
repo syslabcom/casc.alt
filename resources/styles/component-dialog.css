@@ -1,3 +1,8 @@
+:root {
+    --overlay-bg-color: rgb(0 0 0 / 70%);
+    --overlay-fg-color: white;
+}
+
 @layer components {
     .dialog--full[open] {
         position: fixed;
@@ -17,20 +22,16 @@
         display: inline-block;
     }
 
-    .dialog--full summary {
-        color: white;
-        mix-blend-mode: difference;
-    }
-
     .dialog--full summary svg {
         stroke-width: 2;
         stroke: currentcolor;
         stroke-linecap: round;
         stroke-linejoin: round;
+        box-sizing: content-box;
     }
 
     .almost-right {
-        left: calc(100vw - 4rem);
+        left: calc(100vw - 5rem);
     }
 
     .next-to-almost-right {

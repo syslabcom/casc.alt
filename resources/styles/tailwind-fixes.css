@@ -4,13 +4,6 @@
 /* Tailwind doesn't compile `@max-lg`, so we have to.
  */
 @container (max-width: calc(32rem - 1px)) {
-  .\@max-lg\:fixed-toolbar {
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-  }
-
   .\@max-lg\:dialog--full[open] {
     position: fixed;
     background: var(--overlay-bg-color);
@@ -29,20 +22,15 @@
     display: inline-block;
   }
 
-  .\@max-lg\:dialog--full summary {
-    color: white;
-    mix-blend-mode: difference;
-  }
-
   .\@max-lg\:dialog--full summary svg {
     stroke-width: 2;
     stroke: currentcolor;
     stroke-linecap: round;
     stroke-linejoin: round;
+    box-sizing: content-box;
   }
 
-  .\@max-lg\:text-auto {
-    font-size: inherit;
-    line-height: inherit;
+  .\@max-lg\:almost-right {
+    left: calc(100vw - 5rem);
   }
 }
