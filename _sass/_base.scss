@@ -556,13 +556,7 @@ a {
 @import "sitelogos";
 
 #global-navigation {
-    position: relative;
-    height: 51px;
-    line-height: 42px;
     nav {
-        position: relative;
-        z-index: 2;
-        float: left;
         a {
           &.site-logo {
             border-radius: 0;
@@ -570,9 +564,6 @@ a {
             margin-right: 20px;
             height: 36px;
           }
-        }
-        &.secondary {
-          z-index: 3;
         }
     }
 }
