@@ -8,6 +8,15 @@ details:not(.plain) summary::marker {
     color: transparent;
 }
 
+details summary svg {
+    stroke-width: 2;
+    fill: none;
+    stroke: currentcolor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    box-sizing: content-box;
+}
+
 /* open/close marker instead of the standard summary marker. */
 details > summary > .marker {
     display: inline-block;  /* Necessary for rotation. */

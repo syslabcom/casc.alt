@@ -22,14 +22,6 @@
         display: inline-block;
     }
 
-    .dialog--full summary svg {
-        stroke-width: 2;
-        stroke: currentcolor;
-        stroke-linecap: round;
-        stroke-linejoin: round;
-        box-sizing: content-box;
-    }
-
     .almost-right {
         left: calc(100vw - 5rem);
     }
