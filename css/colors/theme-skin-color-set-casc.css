@@ -3,8 +3,8 @@
 @URL: http://themeforest.net/user/ThemeMascot
 
 Default COLOR :  Color Set 2
-COLOR CODE1: #002e5b 
-COLOR CODE2: #ED6600 
+COLOR CODE1: #002e5b
+COLOR CODE2: #ED6600
 ----------------------------------------- */
 /*Theme Colored Red Text-color*/
 .text-theme-color-2,
@@ -281,10 +281,6 @@ ul.list.theme-colored.angle-right li:before,
 ul.list.theme-colored.check-circle li:before,
 ul.list.theme-colored.check li:before,
 .list-icon.theme-colored li i,
-.menuzord-menu > li > .megamenu .megamenu-row li:hover > a,
-.menuzord-menu > li > .megamenu .megamenu-row .post a:hover,
-.menuzord-menu > li > .megamenu .megamenu-row li:hover > a i,
-.menuzord-menu > li > .megamenu .megamenu-row .post a:hover i,
 .pricing-table .table-list li i,
 .testimonial-carousel.boxed .content::after,
 .blog-posts .post .entry-meta li i,
@@ -307,17 +303,6 @@ ul.list.theme-colored.check li:before,
 .portfolio-filter a,
 .panel-group .panel-title a,
 .testimonials-details::after {
-  color: #002e5b;
-}
-.menuzord .menuzord-menu > li.active > a,
-.menuzord .menuzord-menu > li:hover > a,
-.menuzord .menuzord-menu ul.dropdown li:hover > a {
-  background: #fff none repeat scroll 0 0;
-  color: #002e5b;
-}
-.menuzord .menuzord-menu > li.active > a i,
-.menuzord .menuzord-menu > li:hover > a i,
-.menuzord .menuzord-menu ul.dropdown li:hover > a i {
   color: #002e5b;
 }
 /* text-theme-color */

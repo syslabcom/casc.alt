@@ -976,8 +976,6 @@ var THEMEMASCOT = {};
                 THEMEMASCOT.header.TM_scrollToFixed();
                 THEMEMASCOT.header.TM_topnavAnimate();
                 THEMEMASCOT.header.TM_scrolltoTarget();
-                THEMEMASCOT.header.TM_menuzord();
-                THEMEMASCOT.header.TM_navLocalScorll();
                 THEMEMASCOT.header.TM_menuCollapseOnClick();
                 THEMEMASCOT.header.TM_homeParallaxFadeEffect();
                 THEMEMASCOT.header.TM_topsearch_toggle();
@@ -1114,28 +1112,6 @@ var THEMEMASCOT = {};
             );
         },
 
-        /* ---------------------------------------------------------------------- */
-        /* -------------------------- Scroll navigation ------------------------- */
-        /* ---------------------------------------------------------------------- */
-        TM_navLocalScorll: function () {
-            var data_offset = -60;
-            $("#menuzord .menuzord-menu, #menuzord-right .menuzord-menu").localScroll({
-                target: "body",
-                duration: 800,
-                offset: data_offset,
-                easing: "easeInOutExpo",
-            });
-
-            $(
-                "#menuzord-side-panel .menuzord-menu, #menuzord-verticalnav .menuzord-menu, #fullpage-nav"
-            ).localScroll({
-                target: "body",
-                duration: 800,
-                offset: 0,
-                easing: "easeInOutExpo",
-            });
-        },
-
         /* ---------------------------------------------------------------------------- */
         /* --------------------------- collapsed menu close on click ------------------ */
         /* ---------------------------------------------------------------------------- */
@@ -1162,51 +1138,6 @@ var THEMEMASCOT = {};
                     var limit = footer.offset().top - $("#sidebar").outerHeight() - 20;
                     return limit;
                 },
-            });
-        },
-
-        /* ----------------------------------------------------------------------------- */
-        /* --------------------------- Menuzord - Responsive Megamenu ------------------ */
-        /* ----------------------------------------------------------------------------- */
-        TM_menuzord: function () {
-            $("#menuzord").menuzord({
-                align: "left",
-                effect: "slide",
-                animation: "none",
-                indicatorFirstLevel:
-                    "<i class='fa fa-angle-down' aria-hidden='true'></i>",
-                indicatorSecondLevel:
-                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
-                trigger: "click",
-            });
-            $("#menuzord-right").menuzord({
-                align: "right",
-                effect: "slide",
-                animation: "none",
-                indicatorFirstLevel:
-                    "<i class='fa fa-angle-down' aria-hidden='true'></i>",
-                indicatorSecondLevel:
-                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
-            });
-            $("#menuzord-side-panel").menuzord({
-                align: "right",
-                effect: "slide",
-                animation: "none",
-                indicatorFirstLevel: "",
-                indicatorSecondLevel:
-                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
-            });
-
-            $("#menuzord-verticalnav").menuzord({
-                align: "right",
-                effect: "slide",
-                animation: "none",
-                indicatorFirstLevel:
-                    "<i class='fa fa-angle-down' aria-hidden='true'></i>",
-                indicatorSecondLevel:
-                    "<i class='fa fa-angle-right' aria-hidden='true'></i>",
-                /*indicatorFirstLevel: "<i class='fa fa-angle-right' aria-hidden='true'></i>",
-                indicatorSecondLevel: "<i class='fa fa-angle-right' aria-hidden='true'></i>"*/
             });
         },
 
