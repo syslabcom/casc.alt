@@ -16,7 +16,6 @@ Necessary jQuery Collection
  *  jQuery appear plugin
  *  modernizr
  *  scrollToFixed
- *  Menuzord - Responsive Megamenu
  *  jQuery Isotope
  *  jquery parallax
  *  animateNumbers

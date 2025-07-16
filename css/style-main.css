@@ -34,7 +34,7 @@ This file contains the common styles of this theme.
 	* Services.less
 	* Shop.less
 	* Blog.less
-	* Shortcode.less 
+	* Shortcode.less
 		* Alerts.less
 		* Buttons.less
 		* Blockquote.less
@@ -750,8 +750,8 @@ section > .container-fluid {
   background: rgba(0, 0, 0, 0.6);
   text-decoration: none;
 }
-/*  
- * Extra.less 
+/*
+ * Extra.less
  * -----------------------------------------------
 */
 /* -------- Heading Style ---------- */
@@ -953,13 +953,7 @@ section > .container-fluid {
     text-align: center;
   }
 }
-.menuzord-brand img {
-  max-height: 58px;
-}
 /* -------- Custom theme style ---------- */
-.header-nav .header-nav-wrapper .menuzord {
-  padding: 0;
-}
 .header-nav.navbar-transparent.animated-active {
   background-color: rgba(0, 0, 0, 0.25);
 }
@@ -990,86 +984,9 @@ div.is-fixed { position: fixed; width: 100%; z-index: 1000; top: 0; }
 .header-nav .header-nav-absolute-wrapper {
   width: 100%;
 }
-.header-nav .header-nav-wrapper .menuzord {
-  padding: 0;
-}
-/* -------- Menuzord ---------- */
-.menuzord {
-  background: transparent none repeat scroll 0 0;
-}
-.menuzord-menu > li > a {
-  font-size: 13px;
-  font-weight: 400;
-}
-@media only screen and (min-width: 901px) {
-  .menuzord-menu > li > a {
-    color: #fff;
-  }
-}
-.menuzord-menu.dark > li > a {
-  color: #666666;
-}
-.menuzord .menuzord-menu > li.active > a i,
-.menuzord .menuzord-menu > li:hover > a i,
-.menuzord .menuzord-menu ul.dropdown li:hover > a i {
-  color: #fff;
-}
-.menuzord .menuzord-menu.dark > li.active > a i,
-.menuzord .menuzord-menu.dark > li:hover > a i,
-.menuzord .menuzord-menu.dark ul.dropdown li:hover > a i {
-  color: #fff;
-}
-.menuzord-menu ul.dropdown li {
-  margin: 0;
-}
-.menuzord-menu ul.dropdown li a {
-  padding: 7px 25px 7px 22px;
-}
-.menuzord-menu ul.dropdown li .indicator {
-  top: 4px;
-}
-/* -------- Megamenu-Row ---------- */
-.menuzord-menu > li > .megamenu .megamenu-row li {
-  border: 0 none;
-  clear: both;
-  font-size: 12px;
-  margin: 0;
-  padding: 2px;
-  position: relative;
-  width: 100%;
-}
-.menuzord-menu > li > .megamenu .megamenu-row li a {
-  display: block;
-  padding: 8px 10px;
-  -webkit-transition: padding 0.2s linear;
-  -o-transition: padding 0.2s linear;
-  transition: padding 0.2s linear;
-}
-.menuzord-menu > li > .megamenu .megamenu-row li.active > a,
-.menuzord-menu > li > .megamenu .megamenu-row li:hover > a {
-  color: #111;
-  padding-left: 15px;
-}
-.menuzord-menu > li > .megamenu .megamenu-row li a i {
-  color: #444;
-}
-.menuzord-menu > li > .megamenu .megamenu-row li.active a i,
-.menuzord-menu > li > .menuzord-menu > li > .megamenu .megamenu-row li:hover a i {
-  color: #fff;
-}
-@media only screen and (max-width: 900px) {
-  .menuzord-menu {
-    background: #fff;
-  }
-}
 /* -------- Scrolltofixed ---------- */
 .header-nav .header-nav-wrapper.scroll-to-fixed-fixed.scroll-to-fixed-fixed {
   border-bottom: 1px solid #eee;
-}
-.header-nav .header-nav-absolute-wrapper.scroll-to-fixed-fixed.scroll-to-fixed-fixed .menuzord {
-  border-right: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  border-left: 1px solid #eee;
 }
 .header .inner-sticky-wrapper {
   height: 80px;
@@ -1111,13 +1028,6 @@ div.is-fixed { position: fixed; width: 100%; z-index: 1000; top: 0; }
   background-color: rgba(255, 255, 255, 0.95);
   border: medium none;
 }
-.header-nav.navbar-white .menuzord {
-  background: transparent;
-}
-/* -------- Header Transparent ---------- */
-.header-nav.navbar-transparent .menuzord {
-  background: transparent;
-}
 .header-nav.navbar-transparent .header-nav-wrapper {
   border-bottom: 1px solid #eee;
 }
@@ -1126,14 +1036,6 @@ div.is-fixed { position: fixed; width: 100%; z-index: 1000; top: 0; }
 }
 .header-nav.navbar-transparent.animated-active .header-nav-wrapper {
   border-bottom: none;
-}
-.header-nav.navbar-transparent.animated-active .menuzord-menu > li > a {
-  color: #fff;
-}
-@media only screen and (max-width: 900px) {
-  .header-nav.navbar-transparent.animated-active .menuzord-menu > li > a {
-    color: #888;
-  }
 }
 /*
  * Topbar.less
@@ -1209,52 +1111,8 @@ div.is-fixed { position: fixed; width: 100%; z-index: 1000; top: 0; }
 .vertical-nav .container {
   max-width: 940px;
 }
-.vertical-nav .menuzord {
-  background: none;
-}
-.vertical-nav .menuzord .menuzord-menu ul.dropdown li:hover > a {
-  background: #eeeeee none repeat scroll 0 0;
-  color: #111111;
-}
-.vertical-nav .menuzord-menu li {
-  padding: 5px 0;
-  position: relative;
-  width: 100%;
-}
-.vertical-nav .menuzord-menu li .indicator {
-  float: right;
-}
-.vertical-nav .menuzord-menu li a {
-  padding-left: 30px;
-  width: 100%;
-}
-.vertical-nav .menuzord-menu ul.dropdown,
-.vertical-nav .menuzord-menu .megamenu {
-  left: 100%;
-  top: 4px;
-}
-.vertical-nav .menuzord-brand img {
-  max-height: none;
-}
 .vertical-nav .vertical-nav-black {
   background: #111111;
-}
-.vertical-nav .vertical-nav-black .menuzord-menu ul.dropdown {
-  background: #111111;
-  border-color: #222222;
-}
-.vertical-nav .vertical-nav-black .menuzord-menu ul.dropdown li a {
-  background: #111111;
-}
-.vertical-nav .vertical-nav-black .menuzord-menu ul.dropdown li a .indicator i {
-  color: #fff;
-}
-.vertical-nav .vertical-nav-black .menuzord-menu ul.dropdown li:hover > a {
-  background: #111111 none repeat scroll 0 0;
-  color: #fff;
-}
-.vertical-nav .vertical-nav-black .menuzord-menu > li > a {
-  color: #808080;
 }
 .vertical-nav.vertical-nav-right .header {
   left: auto;
@@ -1265,12 +1123,6 @@ div.is-fixed { position: fixed; width: 100%; z-index: 1000; top: 0; }
   margin-left: auto;
   margin-right: 260px;
   padding-top: 0;
-}
-.vertical-nav.vertical-nav-right .menuzord-menu ul.dropdown,
-.vertical-nav.vertical-nav-right .menuzord-menu .megamenu {
-  left: auto;
-  right: 100%;
-  top: 0;
 }
 @media only screen and (max-width: 1199px) {
   .vertical-nav .container {
@@ -1287,29 +1139,11 @@ div.is-fixed { position: fixed; width: 100%; z-index: 1000; top: 0; }
   .vertical-nav .vertical-nav-widget {
     display: none;
   }
-  .vertical-nav .menuzord {
-    background: #fff;
-  }
-  .vertical-nav .vertical-nav-black .menuzord {
-    background: none;
-  }
-  .vertical-nav .menuzord-brand {
-    margin: 0;
-    padding: 0;
-  }
-  .vertical-nav .menuzord-brand img {
-    max-height: 65px;
-    padding: 10px;
-  }
   .vertical-nav .header-nav-wrapper {
     background: #111111 none repeat scroll 0 0;
     position: fixed;
     top: 0;
     width: 100%;
-  }
-  .vertical-nav .vertical-nav-black .menuzord .menuzord-menu li > a,
-  .vertical-nav .vertical-nav-black .menuzord .menuzord-menu li .indicator {
-    border-color: #222222;
   }
   .vertical-nav .main-content,
   .vertical-nav .footer {
@@ -1833,10 +1667,6 @@ form .error {
 .side-push-panel.fullwidth-page.side-panel-left.side-panel-open header .header-nav-wrapper.scroll-to-fixed-fixed .container {
   left: 300px;
   right: auto;
-}
-/* -------- Has Side Panel ---------- */
-.side-push-panel.has-side-panel .menuzord .showhide {
-  float: left;
 }
 /* -------- Body Overlay ---------- */
 .has-side-panel .body-overlay {
@@ -3427,7 +3257,7 @@ table.no-border td {
   padding: 0 8px 0 3px;
 }
 /*
- * blog.less 
+ * blog.less
  * -----------------------------------------------
 */
 .post {

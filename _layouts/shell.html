@@ -24,29 +24,18 @@
 
   <script src="{{ site.baseurl }}dist/jquery-2.2.4.min.js"></script>
   <script src="{{ site.baseurl }}dist/unibw.min.js"></script>
+  <script src="{{ site.baseurl }}dist/bundle.min.js"></script>
 </head>
 
-<body class="{{ page.class }} layout-{{ page.layout }} category-{{ page.category }}">
-  <div id="wrapper" class="clearfix">
-    <!-- preloader -->
-    <!--   <div id="preloader">
-    <div id="spinner">
-      <div class="preloader-orbit-loading">
-        <div class="cssload-inner cssload-one"></div>
-        <div class="cssload-inner cssload-two"></div>
-        <div class="cssload-inner cssload-three"></div>
-      </div>
-    </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
- -->
+<body class="{{ page.class }} layout-{{ page.layout }} out:category-{{ page.category }} tw:relative tw:@container">
+
     <!-- Header -->
-    <header id="header" class="header">
+    <header id="header" class="header tw:relative">
       <div id="global-navigation" class="header-nav">
         <div class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-2-1px">
           <div class="container">
             <!-- EDIT _data/navigation.yml fuer neue Navigationen!! -->
-            {% include navigation/navigation.html %}
+            {% include navigation/navigation-flyout.html %}
           </div>
         </div>
       </div>

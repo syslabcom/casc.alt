@@ -1,0 +1,8 @@
+.main_navigation {
+    summary {
+        @apply tw:p-4;
+    }
+    a {
+        @apply tw:p-4 tw:inline-block;
+    }
+}

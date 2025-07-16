@@ -1,5 +1,5 @@
 /*==========  Mobile First Method  ==========*/
- 
+
 @media only screen and (max-width : 768px) {
     /* remove the background image for small devices */
     #hero {
@@ -39,7 +39,7 @@
     .news .teaser-container .btn { margin-bottom: 20px; }
 
     /* contact map small */
-    #organisationskontakt #floor_plan { 
+    #organisationskontakt #floor_plan {
         background-image:url('../media/lageplan_neutral_low_320.jpg');
         background-repeat:no-repeat;
         width:340px;
@@ -68,7 +68,7 @@
 }
 
 @media only screen and (max-width : 768px) {
-  #athene { top: -56px; } 
+  #athene { top: -56px; }
   .institute-logo { display: none;  }
 }
 
@@ -84,7 +84,7 @@
     .news .teaser-container .btn { margin-bottom: 0px; }
 
     /* contact map small */
-    #organisationskontakt #floor_plan { 
+    #organisationskontakt #floor_plan {
         background-image:url('../media/lageplan_neutral_low_320.jpg');
         background-repeat:no-repeat;
         width:340px;
@@ -103,7 +103,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
     /* contact map big */
-    #organisationskontakt #floor_plan { 
+    #organisationskontakt #floor_plan {
         background-image:url('../media/lageplan_neutral_low_480.jpg');
         background-repeat:no-repeat;
         width:480px;
@@ -131,11 +131,11 @@
             }
             */
 
-/* print view */            
+/* print view */
 
 @media print {
-    
-   .header-nav-wrapper { position: static !important; }  
+
+   .header-nav-wrapper { position: static !important; }
    #global-navigation nav.secondary,
    #edit-zone {
         display: none !important;
@@ -148,7 +148,7 @@
                 display: inline !important;
             }
         }
-        
+
     }
     #athene a[href]:after,
     #global-navigation nav a.site-logo[href]:after, {

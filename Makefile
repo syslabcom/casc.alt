@@ -51,6 +51,10 @@ serve: demo-run
 demo-run: stamp-bundler
 	$(BUNDLE) exec jekyll serve --no-watch --skip-initial-build --host 0.0.0.0
 
+watch: stamp-bundler
+	$(BUNDLE) exec jekyll serve --host 0.0.0.0
+
+
 # for http://casc.syslab.com deployment
 demo-build: jekyll
 

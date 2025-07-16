@@ -136,17 +136,13 @@ a.tilelink {
 }
 
 header,
-footer, 
-ol, 
+footer,
+ol,
 ul {
     :focus {
       border: none;
       outline: 1px solid $colour-uni-orange;
-    } 
-}
-
-summary {
-    display: list-item;
+    }
 }
 
 .ellipsis {
@@ -281,20 +277,20 @@ a {
 */
 /* New Schemes */
 
-.scheme-white { 
-    background-color: white !important; 
-    color: $colour-text !important; 
-    .list-group-item { 
-                        background-color: #fafafa; 
-                      } 
-    
+.scheme-white {
+    background-color: white !important;
+    color: $colour-text !important;
+    .list-group-item {
+                        background-color: #fafafa;
+                      }
+
     }
 
 
 
-.scheme-light-grey { 
-    background-color: $colour-light-grey !important; 
-    color: $colour-text !important; 
+.scheme-light-grey {
+    background-color: $colour-light-grey !important;
+    color: $colour-text !important;
     article {
         &.post {
             background-color: #ffffff !important;
@@ -307,9 +303,9 @@ a {
     .bg-deep,
     .howto.iconbox-bg,
     .icon-box .icon-gray,
-    p.callout  { 
-                background-color: #ffffff; 
-              } 
+    p.callout  {
+                background-color: #ffffff;
+              }
     .howto p.text-gray { color: $colour-text !important;  }
     }
 
@@ -332,19 +328,19 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
-    .list-group-item { 
+    .contact-info h4 { color: $colour-text !important; }
+    .list-group-item {
                         background-color: #fafafa;
-                        color: $colour-text !important; 
+                        color: $colour-text !important;
                         a { color: $colour-link !important; }
                         a:hover { color: $colour-link-hover !important; }
                         a:active { color: $colour-link !important; }
                         a:focus { color: $colour-link-focus !important; }
                         a:visited { color: $colour-link !important; }
-                      } 
+                      }
 
-    .icon-box { 
-                h4, 
+    .icon-box {
+                h4,
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
@@ -352,10 +348,10 @@ a {
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #c4c3c7 }
             }
-    .contact-info .text-gray { color: grey !important; }  
+    .contact-info .text-gray { color: grey !important; }
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
-                h5, 
+                h5,
                 p.text-gray { color: white !important;  }
     }
 }
@@ -377,20 +373,20 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
-    .list-group-item { 
+    .contact-info h4 { color: $colour-text !important; }
+    .list-group-item {
                         background-color: #fafafa;
-                        color: $colour-text !important; 
+                        color: $colour-text !important;
                         a { color: $colour-link !important; }
                         a:hover { color: $colour-link-hover !important; }
                         a:active { color: $colour-link !important; }
                         a:focus { color: $colour-link-focus !important; }
                         a:visited { color: $colour-link !important; }
-                      } 
+                      }
 
-    
-    .icon-box { 
-                h4, 
+
+    .icon-box {
+                h4,
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
@@ -398,16 +394,16 @@ a {
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #e0e0e0 }
             }
-    .contact-info .text-gray { color: grey !important; }  
+    .contact-info .text-gray { color: grey !important; }
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
-                h5, 
+                h5,
                 p.text-gray { color: white !important;  }
     }
     .howto .icon-white { border-color: #e0e0e0  !important; }
 }
-.scheme-middle-grey { 
-    background-color: $colour-middle-grey !important; 
+.scheme-middle-grey {
+    background-color: $colour-middle-grey !important;
     color: white !important;
     h1,
     h2,
@@ -424,18 +420,18 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
-    .list-group-item { 
+    .contact-info h4 { color: $colour-text !important; }
+    .list-group-item {
                         background-color: #fafafa;
-                        color: $colour-text !important; 
+                        color: $colour-text !important;
                         a { color: $colour-link !important; }
                         a:hover { color: $colour-link-hover !important; }
                         a:active { color: $colour-link !important; }
                         a:focus { color: $colour-link-focus !important; }
                         a:visited { color: $colour-link !important; }
-                      } 
-    .icon-box { 
-                h4, 
+                      }
+    .icon-box {
+                h4,
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
@@ -443,10 +439,10 @@ a {
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #dfdde3 }
             }
-    .contact-info .text-gray { color: grey !important; }  
+    .contact-info .text-gray { color: grey !important; }
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
-                h5, 
+                h5,
                 p.text-gray { color: white !important;  }
     }
 }
@@ -478,29 +474,29 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
-    .list-group-item { 
-                        color: $colour-text !important; 
+    .contact-info h4 { color: $colour-text !important; }
+    .list-group-item {
+                        color: $colour-text !important;
                         a { color: $colour-link !important; }
                         a:hover { color: $colour-link-hover !important; }
                         a:active { color: $colour-link !important; }
                         a:focus { color: $colour-link-focus !important; }
                         a:visited { color: $colour-link !important; }
                       }
-    .icon-box { 
-                h4, 
+    .icon-box {
+                h4,
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
                 h6.text-gray  { color: grey !important; }
                 a.icon-dark { color: white !important; }
-                a.icon-gray { color: $colour-link !important; }   
+                a.icon-gray { color: $colour-link !important; }
                 .icon.icon-gray { background-color: #dfdde3 }
             }
-    .contact-info .text-gray { color: grey !important; }  
+    .contact-info .text-gray { color: grey !important; }
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
-                h5, 
+                h5,
                 p.text-gray { color: white !important;  }
     }
     blockquote { border-color: #666;}
@@ -537,32 +533,13 @@ a {
     .header-nav {
         .header-nav-wrapper {
             background-color: white;
-            .menuzord {
-                background-color: white;
-            }
-            .menuzord-menu {
-                > .active {
-                    > a {
-                        border-bottom: 3px solid $colour-uni-orange;
-                        border-radius: 0 !important;
-                        padding: 4px 4px;
-                        margin: 4px 12px 1px;
-                    }
-                }
-            }
         }
     }
 }
 @import "sitelogos";
 
 #global-navigation {
-    position: relative;
-    height: 51px;
-    line-height: 42px;
     nav {
-        position: relative;
-        z-index: 2;
-        float: left;
         a {
           &.site-logo {
             border-radius: 0;
@@ -570,9 +547,6 @@ a {
             margin-right: 20px;
             height: 36px;
           }
-        }
-        &.secondary {
-          z-index: 3;
         }
     }
 }
@@ -650,49 +624,11 @@ a.site-logo {
   margin-top: 5px;
 }
 
-.menuzord-menu {
-    a {
-        &:hover {
-            color: $colour-dark-blue;
-        }
-    }
-    li {
-        ul {
-            &.dropdown {
-                top: 50px;
-                opacity: 0.95;
-                box-shadow: 1px 1px 1px #eeeeee;
-                li {
-                    a {
-                        padding: 3px 19px 3px 22px;
-                        font-size: 16px;
-                        font-family: thesans;
-                    }
-                    &:hover > a {
-                        padding-left: 22px;
-                    }
-                    .indicator {
-                        top: 4px;
-                    }
-                }
-            }
-        }
-    }
-    > li  {
-        padding: 4px 0;
-        > a {
-            color: $colour-text;
-            font-size: $base-font-size;
-        }
-    }
-
-}
-
 section {
     &#event {
         article {
             .date-info {
-                margin-bottom: 30px; 
+                margin-bottom: 30px;
                 font-size: 1.11rem;
                 font-weight: bold;
                 .time-info {
@@ -807,7 +743,7 @@ section {
                     }
                 }
             }
-            .row:last-child { 
+            .row:last-child {
                 border: none;
                 margin-bottom: 0;
             }
@@ -818,8 +754,8 @@ section {
             background: $colour-light-grey;
             padding: 0;
         }
-        .product-details { 
-            padding: 20px 5px 30px 5px; 
+        .product-details {
+            padding: 20px 5px 30px 5px;
             h3.product-title { margin: 0; color: $colour-text; font-size: 1.2rem; }
         }
         @media only screen and (max-width: 991px) {
@@ -971,7 +907,7 @@ section {
             border-color: $colour-uni-orange;
             dt,
             dd {
-            padding-left: 10px; 
+            padding-left: 10px;
             border-color: $colour-uni-orange;
             }
           }
@@ -982,7 +918,7 @@ section {
             border-color: $colour-dark-blue;
             dt,
             dd {
-            padding-left: 10px; 
+            padding-left: 10px;
             border-color: $colour-dark-blue;
             }
           }
@@ -1033,7 +969,7 @@ section {
                 margin-bottom: 20px;
             }
         }
-        .media-body { 
+        .media-body {
             .list-icon {
                 padding-top: 15px;
                 border-top: 1px dotted #999999;
@@ -1099,11 +1035,11 @@ section {
         text-transform: uppercase;
     }
     .hero-content {
-        table>tbody>tr>td, 
-        table>tbody>tr>th, 
-        table>tfoot>tr>td, 
-        table>tfoot>tr>th, 
-        table>thead>tr>td, 
+        table>tbody>tr>td,
+        table>tbody>tr>th,
+        table>tfoot>tr>td,
+        table>tfoot>tr>th,
+        table>thead>tr>td,
         table>thead>tr>th {
             padding: 8px;
             line-height: 1.42857143;
@@ -1111,7 +1047,7 @@ section {
             border-top: 1px solid #ddd;
         }
     }
-    
+
     .people-scroller {
         a {
             color: $colour-text;
@@ -1141,7 +1077,7 @@ section {
 }
 .contact-info {
     overflow: hidden;
-    display: block;   
+    display: block;
 }
 .nav-tabs>li>a {
     font-size: 14px;
@@ -1253,7 +1189,7 @@ section.gradient:after,
                     margin-bottom: 40px;
                     h1 {
                         &.title {
-                            text-shadow: none !important; 
+                            text-shadow: none !important;
                             color: $colour-text !important;
                             background-color: transparent;
                             font-weight: normal !important;
@@ -1308,8 +1244,8 @@ button.tp-bullet {
 /* ------- News article ----- */
 
 .sidebar {
-    h2 { 
-        font-size: 1.3rem; 
+    h2 {
+        font-size: 1.3rem;
         font-weight: bold;
     }
     h3 {
@@ -1325,7 +1261,7 @@ button.tp-bullet {
             color: $colour-text-light;
         }
     }
-    ul.list li {   
+    ul.list li {
       padding-left: 0;
     }
     .widget .list-inline li {
@@ -1503,11 +1439,11 @@ body {
     }
 }
 
-section.businesscards>.container, 
+section.businesscards>.container,
 section.categories>.container {
     padding-bottom: 40px;
 }
- 
+
 .quicklinks-wrapper > .row {
   margin-bottom: 20px;
 }
@@ -1664,7 +1600,7 @@ section.categories>.container {
             }
             .description {
                 color: #666;
-                font-weight: normal; 
+                font-weight: normal;
                 font-size: 0.85em;
                 line-height: 1.25em;
             }
@@ -1856,7 +1792,7 @@ section.categories>.container {
         .point-map-small {display: none;}
         .point-map-big {display: block;}
     }
-    #floor_plan { 
+    #floor_plan {
         background-image:url('../media/lageplan_neutral_low_480.jpg');
         background-repeat:no-repeat;
         width:480px;
@@ -1913,8 +1849,8 @@ section.categories>.container {
     h3.result-title,
     .result-title {
         font-size: 1.2em;
-        a { 
-            color: $colour-link; 
+        a {
+            color: $colour-link;
         }
     }
     .url {
@@ -1928,7 +1864,7 @@ section.categories>.container {
         padding-top: 10px;
     }
     .row {
-        padding-bottom: 40px; 
+        padding-bottom: 40px;
         .url {
             background-color: $colour-light-grey;
             display: inline-block;
@@ -1996,7 +1932,7 @@ div.autotab-heading {
             margin-left: 0;
             border-top-left-radius: 4px;
             border-bottom-left-radius: 4px;
-            
+
           }
         }
         &:last-child {

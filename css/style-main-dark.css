@@ -297,12 +297,6 @@ body.dark {
 .dark .fc-day-number {
   color: #b3b3b3;
 }
-.dark .header-nav .header-nav-wrapper .menuzord {
-  background: transparent;
-}
-.dark .menuzord-menu > li > a {
-  color: #fff;
-}
 .dark.boxed-layout section {
   background: #202020;
 }

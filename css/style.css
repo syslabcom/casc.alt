@@ -109,11 +109,6 @@ a:focus {
     padding-top: 85px;
     transition: all 1s;
 }
-#global-navigation {
-    position: relative;
-    height: 42px;
-    line-height: 42px;
-}
 #athene{
     position: absolute;
     left: 50%;
@@ -164,11 +159,6 @@ a:focus {
     /*transition: all 0.5s;*/
 }
 
-#global-navigation nav {
-    position: relative;
-    z-index: 2;
-    float: left;
-}
 nav ul li a.site-logo {
     color: transparent;
     border-radius: 0;
@@ -412,28 +402,7 @@ nav ul li a#site-v {
 
 /* / Experimental Logos */
 
-.menuzord-menu ul.dropdown {
-    top: 50px;
-    opacity: 0.95;
-    box-shadow: 1px 1px 1px #eeeeee;
-}
-.menuzord-menu ul.dropdown li a {
-    padding: 3px 25px 3px 22px;
-    font-size: 16px;
-}
-.menuzord-menu ul.dropdown li:hover > a {
-    padding-left: 22px;
-}
-.menuzord-menu > li  {
-    padding: 4px 0;
-}
-.menuzord-menu > li > a {
-    color: black;
-    font-size: 15px;
-}
-
-.header-nav-wrapper,
-.header-nav .header-nav-wrapper .menuzord {
+.header-nav-wrapper {
     background-color: white;
 }
 

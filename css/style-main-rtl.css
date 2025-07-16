@@ -39,18 +39,11 @@ ul.list li:before{margin-left:10px;}
 .layer-overlay::before{right:0;}
 .header-top .header-widget .list-border li{border-left:1px solid rgba(0, 0, 0, 0.06);}
 .header-top .header-widget .list-border li:last-child{border-left:0;}
-.menuzord-menu ul.dropdown li a{padding:7px 22px 7px 25px;}
-.menuzord-menu > li > .megamenu .megamenu-row li.active > a,.menuzord-menu > li > .megamenu .megamenu-row li:hover > a{padding-right:15px;}
-.header-nav .header-nav-absolute-wrapper.scroll-to-fixed-fixed.scroll-to-fixed-fixed .menuzord{border-left:1px solid #eee;border-right:1px solid #eee;}
 .header-nav.navbar-fixed-top{right:0;left:0;}
 .vertical-nav .header{right:0;}
 .vertical-nav .main-content,.vertical-nav .footer{margin-right:260px;}
-.vertical-nav .menuzord-menu li .indicator{float:left;}
-.vertical-nav .menuzord-menu li a{padding-right:30px;}
-.vertical-nav .menuzord-menu ul.dropdown,.vertical-nav .menuzord-menu .megamenu{right:100%;}
 .vertical-nav.vertical-nav-right .header{right:auto;left:0;}
 .vertical-nav.vertical-nav-right .main-content,.vertical-nav.vertical-nav-right .footer{margin-right:auto;margin-left:260px;}
-.vertical-nav.vertical-nav-right .menuzord-menu ul.dropdown,.vertical-nav.vertical-nav-right .menuzord-menu .megamenu{right:auto !important;left:100% !important;}
 .menu-full-page #fullpage-nav{right:0 !important;}
 .menu-full-page .fullpage-nav-toggle{left:0;}
 .menu-full-page .fullpage-nav-toggle span{right:18px;left:18px;}
@@ -69,7 +62,6 @@ ul.list li:before{margin-left:10px;}
 .side-push-panel.fullwidth-page.side-panel-open header .header-nav-wrapper.scroll-to-fixed-fixed .container{left:300px;}
 .side-push-panel.fullwidth-page.side-panel-left.side-panel-open #wrapper{right:300px;left:auto;}
 .side-push-panel.fullwidth-page.side-panel-left.side-panel-open header .header-nav-wrapper.scroll-to-fixed-fixed .container{right:300px;left:auto;}
-.side-push-panel.has-side-panel .menuzord .showhide{float:right;}
 .has-side-panel .body-overlay{right:0;}
 #side-panel{left:-300px;}
 #side-panel .side-panel-wrap{right:0;padding:50px 40px 50px 70px;}

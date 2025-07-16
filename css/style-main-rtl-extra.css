@@ -95,19 +95,6 @@ html[dir="rtl"] .post .entry-title {
 html[dir="rtl"] #flickr-feed img {
   float: right;
 }
-html[dir="rtl"] .menuzord-menu {
-  float: right;
-}
-html[dir="rtl"] .menuzord-menu.menuzord-right {
-  float: left;
-}
-html[dir="rtl"] .menuzord-brand {
-  margin-right: 0;
-  margin-left: 30px;
-}
-html[dir="rtl"] .menuzord-menu > li {
-  float: right;
-}
 html[dir="rtl"] .cd-timeline::before {
   right: 18px;
 }
@@ -192,42 +179,10 @@ html[dir="rtl"] .vertical-nav .footer {
     margin-right: auto !important;
   }
 }
-html[dir="rtl"] .vertical-nav .menuzord-menu li .indicator {
-  float: left;
-  left: 0;
-  right: auto;
-  margin-left: 6px;
-}
-@media only screen and (max-width: 900px) {
-  html[dir="rtl"] .vertical-nav .menuzord-menu li .indicator {
-    border-left: 0 none;
-    border-right: 1px solid;
-  }
-}
-html[dir="rtl"] .vertical-nav .menuzord-responsive .menuzord-menu li ul.dropdown li .indicator {
-  right: auto;
-}
-html[dir="rtl"] .vertical-nav .menuzord-menu ul.dropdown,
-html[dir="rtl"] .vertical-nav .menuzord-menu .megamenu {
-  left: auto !important;
-  right: 100% !important;
-}
-html[dir="rtl"] .vertical-nav.vertical-nav-right .menuzord-menu ul.dropdown,
-html[dir="rtl"] .vertical-nav.vertical-nav-right .menuzord-menu .megamenu {
-  left: 100% !important;
-  right: auto !important;
-}
 html[dir="rtl"] .stylish-header:after {
   border-left: 105px solid transparent;
   border-right: 0px solid transparent;
   left: -42%;
-}
-html[dir="rtl"] .menuzord-responsive .menuzord-menu li .indicator {
-  right: auto;
-  left: 0;
-}
-html[dir="rtl"] .menuzord .showhide {
-  float: left;
 }
 html[dir="rtl"] .bx-controls .bx-controls-direction .bx-next {
   left: 0;

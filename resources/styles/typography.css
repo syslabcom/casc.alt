@@ -1,0 +1,8 @@
+@layer components {
+
+    .text-auto {
+        font-size: inherit;
+        line-height: inherit;
+    }
+
+}
