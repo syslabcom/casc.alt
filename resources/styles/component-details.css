@@ -25,7 +25,7 @@ details > summary > .marker {
 }
 /* Arrow when details open */
 details[open] > summary > .marker {
-    rotate: 45deg;
+    rotate: 90deg;
 }
 
 /* Details summary should always have an pointer, even with no anchor in it. */

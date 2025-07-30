@@ -522,14 +522,13 @@ a {
 #header {
     background-color: #fff;
     color: $colour-text;
-    padding: 0.5em 0;
+    padding: 0;
     z-index: 20;
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 85px;
+    padding-top: 100px;
     transition: all 1s;
-
     .header-nav {
         .header-nav-wrapper {
             background-color: white;
@@ -593,8 +592,8 @@ a {
 
 #secondary-navigation {
     position: absolute;
-    right: 1%;
-    top: -90px;
+    right: 0;
+    top: -100px;
     color: $colour-text;
     a {
         height: 16px;
@@ -617,11 +616,7 @@ a {
 }
 
 a.site-logo {
-  float: left;
   color: transparent !important;
-  line-height: 1.42857143;
-  display: inline-block;
-  margin-top: 5px;
 }
 
 section {

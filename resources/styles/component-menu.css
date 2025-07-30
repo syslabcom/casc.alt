@@ -1,8 +1,33 @@
 .main_navigation {
+    font-size: 18px;
+    font-family: thesans, sans-serif;
+    color: #595858;
+    @apply tw:mb-1;
     summary {
-        @apply tw:p-4;
+        @apply tw:px-3 tw:py-1;
+        font-weight: normal;
+    }
+    summary.hamburger {
+        @apply tw:lg:hidden;
+        svg {
+            stroke: #595858;
+        }
+    }
+    details {
+        
     }
     a {
-        @apply tw:p-4 tw:inline-block;
+        @apply tw:px-3 tw:py-1 tw:inline-block;
+        color: #595858;
+        font-weight: normal;
     }
+    details > ul > li > a {
+            font-size: 16px;
+        }
+}
+
+#secondary-navigation {
+   nav {
+       @apply tw:float-left;
+   }
 }

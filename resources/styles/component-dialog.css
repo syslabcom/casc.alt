@@ -1,6 +1,7 @@
 :root {
     --overlay-bg-color: rgb(0 0 0 / 70%);
     --overlay-fg-color: white;
+    --marker-stroke-color: #595858;
 }
 
 @layer components {
@@ -18,8 +19,19 @@
 
     .dialog--full[open] #main_navigation summary,
     .dialog--full[open] #main_navigation a {
-        color: white;
+        color: var(--overlay-bg-color);
         display: inline-block;
+        padding-left: 2em;
+    }
+
+    .dialog--full[open] #main_navigation summary .marker { 
+        color: var(--overlay-fg-color);
+        stroke: var(---marker-stroke-color);
+    }
+
+    .dialog--full[open] #main_navigation summary .hamburger { 
+        color: var(--overlay-fg-color); 
+        stroke: var(---marker-stroke-color);
     }
 
     .almost-right {

@@ -35,7 +35,7 @@ a:focus, a:focus strong { color: #365B6E; } /* AAA */
     border-bottom: none !important;
 }
 
-#header { padding-bottom: 0px }
+#header {  }
 
 #hero-title .container { padding-top: 50px; padding-bottom: 0px; }
 
@@ -57,7 +57,7 @@ a:focus, a:focus strong { color: #365B6E; } /* AAA */
 
 /* main styles */
 #athene {
-    top: -100px;
+    top: -110px;
     height: 90px;
 }
 #athene.bumped {
@@ -435,9 +435,7 @@ div.autotab-heading a.btn-gray:active {
 
 @media (max-width: 900px){
     /* Menu items */
-    #header { margin-top: 15px; }
-    #secondary-navigation { top:  -105px }
-    #athene { top: -85px }
+    #athene { top: -80px }
     #hero-title .container { padding-top: 10px; }
 }
 
@@ -474,3 +472,7 @@ section.call-to-action a:focus .row .icon-box { outline: none !important; }
 .text-gray-silver  { color: #282828 !important; }
 
 .form-control { border-color: #595858; }
+
+.main_navigation {
+    padding-bottom: 6px;
+}

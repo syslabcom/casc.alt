@@ -1,36 +1,22 @@
   <p id="athene">
       <a href="{{ site.baseurl }}./index.html">Universität der Bundeswehr München</a>
   </p>
-  <div id="secondary-navigation" class="top-dropdown-outer">
-    <nav>
-      <h5 class="sr-only">Sprachmenü</h5>
+   <div id="secondary-navigation">
+    <nav aria-label="Sprachmenü">
       <ul id="language-menu" class="list-inline">
         <li>
-          <a href="/dtec-leichtesprache.html"><i class="fa fa-book"></i> <span class="hidden-md hidden-sm hidden-xs">Leichte Sprache</span></a>
+          <a href="/dtec-leichtesprache.html" aria-label="Leichte Sprache"><i class="fa fa-book" aria-hidden="true"></i> <span class="hidden-lg hidden-md hidden-sm hidden-xs">Leichte Sprache</span></a>
           </li><li>
-          <a href="/dtec-gbs.html"><i class="fa fa-sign-language"></i> <span class="hidden-md hidden-sm hidden-xs">Gebärdensprache</span></a>
+          <a href="/dtec-gbs.html" aria-label="Gebärdensprache"><i class="fa fa-sign-language" aria-hidden="true"></i> <span class="hidden-lg hidden-md hidden-sm hidden-xs">Gebärdensprache</span></a>
           </li>
-          <li>
-          <a href="#" class="language-selector">en</a>
-        </li>
+          <li><a href="#" class="language-selector">en</a> </li>
       </ul>
     </nav>
-    <nav class="secondary">
-      <a class="" href="#">Intern</a>
-      <i class="fa fa-search top-search-box has-dropdown font-13"><span class="sr-only">Suche</span></i>
-      <div class="dropdown search-form-wrapper">
-        <form method="get" action="#" class="mt-10">
-          <label for="searchinput" class="sr-only">Sucheingabe:</label>
-          <div class="row">
-            <div class="col-xs-9">
-              <input placeholder="Suchbegriff eingeben" id="searchinput" name="SearchableText" type="text">
-            </div>
-            <div class="col-xs-3">
-              <button class="search" name="submit" value="" type="submit"><span class="sr-only">Suche</span><i class="fa fa-search"></i></button>
-            </div>
-          </div>
-        </form>
-      </div>
+    <nav aria-label="Werkzeug Navigation">
+      <ul id="tools-menu" class="list-inline">
+        <li><a href="/home/search" aria-label="Suche"><i class="fa fa-search font-13" aria-hidden="true"></i><span class="sr-only">Suche</span></a></li>
+        <li><a class="" href="#">Intern</a></li>
+      </ul>
     </nav>
   </div>
   <!-- Navigation -->
@@ -40,15 +26,10 @@
         main_navigation
         main_navigation__wrapper
         pat-details-navigation
-        tw:p-4
-        tw:pr-0
-        tw:text-2xl
         tw:absolute
-        tw:@lg:pr-4
         @lg:text-auto
         @max-lg:dialog--full
         tw:@lg:sticky
-        tw:@lg:top-8
         tw:z-100
     "
     data-pat-details-navigation="
@@ -57,10 +38,10 @@
   >
     <summary
       class="
+          hamburger
           tw:fixed
-          tw:top-4
+          tw:top-7
           almost-right
-          tw:@lg:hidden
       "
       title="main navigation"
       i18n:attributes="title"
@@ -72,7 +53,6 @@
                tw:p-2
                tw:rounded-full
                tw:bg-white
-               tw:text-black
            "
            xmlns="http://www.w3.org/2000/svg"
            viewBox="0 0 24 24"
@@ -100,18 +80,26 @@
             tw:flex
             tw:flex-col
             tw:@lg:flex-row
+            tw:flex-wrap
           "
           data-pat-navigationmarker="
               parent-selector: .pat-navigationmarker details, .pat-navigationmarker li;
           "
       >
-        <li>
-          <a class="tw:p-4" id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="site-logo site-{{ page.department }}">{{ section.title }}</a>
+        <!-- example portal home link with logo -->
+        <li class="subsite-home tw:flex">
+          <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="hidden-sm hidden-xs site-logo site-{{ page.department }}" title="Subsite Home">Subsite Home</a>
+          <a href="{{ site.baseurl }}{{ section.url }}" class="hidden-lg hidden-md" title="Subsite Home">Portal Home</a>
         </li>
+
+        <!-- example portal home link with text -->
+        <!--li class="subsite-home tw:flex">
+          <a href="{{ site.baseurl }}{{ section.url }}" title="Subsite Home">Portal Home</a>
+        </li-->
 
 
         {% for item in section.items %}
-        <li>
+        <li class="tw:flex">
           {% if item.children %}
             <details class="tw:relative" name="submenu">
                 <summary class="
@@ -122,17 +110,19 @@
                 ">
               {{ item.title }}
                   <span class="marker">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="tw:size-6">
+                    <!--svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="tw:size-6">
                       <path d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                    </svg-->
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 2L8 6L4 10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg>
                   </span>
                 </summary>
                 <ul class="
                   tw:@lg:absolute
-                  tw:@lg:top-16
-                  tw:@lg:left-0
+                  tw:@lg:top-10
+                  tw:@lg:-left-4
                   tw:@lg:ml-0
-
                   tw:@lg:bg-white
                 ">
                   <li>
@@ -150,7 +140,7 @@
                 </ul>
             </details>
           {% else %}
-            <a class="tw:p-4" href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
+            <a href="{{ site.baseurl }}{{ item.url }}" class="">{{ item.title }}</a>
           {% endif %}
         </li>
         {% endfor %}

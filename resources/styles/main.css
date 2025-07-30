@@ -8,3 +8,14 @@
 
 
 /* Other tyles */
+#secondary-navigation {
+        z-index: 10;
+}
+
+.header-nav-wrapper {
+   min-height: 50px;
+}
+
+#secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
+        color: #595858;
+}
