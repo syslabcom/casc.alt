@@ -7,15 +7,42 @@
 @import "./typography.css";
 
 
-/* Other tyles */
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+/* additional changes due to WAI compatibility */
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+
+header *:focus, footer *:focus, ol *:focus, ul *:focus, a:focus, *:focus,
+section *:focus,
+section a:focus article,
+section a:focus .icon-box,
+.widget-image-carousel a:focus article,
+section.call-to-action a:focus .row { outline: 2px solid #ED6E00 !important; }
+
 #secondary-navigation {
         z-index: 10;
+      }
+
+#secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
+        color: #595858;
+}
+
+footer *:focus { outline-color: #ffffff !important; }
+
+.footer .text-theme-color-2, 
+.footer .work-gallery .gallery-bottom-part .title {
+    color: #fff;
+}
+
+.footer a, .footer a:hover, .footer a:visited, .footer a:active, .footer a:focus,
+.footer ul.list li a, .footer ul.list li a:hover, .footer ul.list li a:visited, .footer ul.list li a:active, .footer ul.list li a:focus { color: #fff; border: none; text-decoration:  underline; }
+
+
+.btn-theme-colored {
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 50px #000, 0 0 20px #000, 0 0 5px rgba(0, 0, 0, 1);    
 }
 
 .header-nav-wrapper {
    min-height: 50px;
-}
-
-#secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
-        color: #595858;
 }
