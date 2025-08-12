@@ -13,7 +13,7 @@
     #hero.inner-header .section-content { margin-bottom: auto;}
     #hero h1.title { text-shadow: none; color: #333;}
     #hero .text-white { color: #333 !important; }
-    #hero.carousel h1.sr-only { font-weight: bold; z-index: 1; display: block; position: relative; width: auto; height: auto; margin: auto; padding: auto; font-size: 28px; padding: 15px 15px;}
+    #hero.carousel h1.sr-only { font-weight: bold; z-index: 1; display: block; position: relative; width: auto; height: auto; margin: auto; padding: auto; font-size: 28px; padding: 15px 15px;  white-space: normal; }
     #hero.carousel .rev_slider_wrapper, #hero #home-video { display: none !important; }
     #hero .mt-180, #hero .pt-70, #hero .pb-20 { margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; }
     #breadcrumbs { display: none;}
@@ -21,6 +21,10 @@
     main section .container, main section .container-fluid, main .divider .container, #footer.divider .container  { padding-top: 30px; padding-bottom: 30px; }
     section.inner-header .container .section-content { position: relative; }
     /* END remove the background image for small devices */
+
+    section.inner-header.no-hero { height: auto; }
+    section.inner-header.no-hero .container { height: auto; }
+    section.inner-header.no-hero .container .section-content { position: relative; bottom: auto; margin-bottom: auto; }
 
     section#job dl dt { width: 100%; float: none; display: block; margin: 0; overflow: hidden; }
     section#job dl dd { width: 100%; float: none; display: block; border: none; overflow: hidden; }
