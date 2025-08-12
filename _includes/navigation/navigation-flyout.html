@@ -87,8 +87,9 @@
       >
         <!-- example portal home link with logo -->
         <li class="subsite-home tw:flex">
-          <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="hidden-sm hidden-xs site-logo site-{{ page.department }}" title="Subsite Home">Subsite Home</a>
-          <a href="{{ site.baseurl }}{{ section.url }}" class="hidden-lg hidden-md" title="Subsite Home">Portal Home</a>
+          <a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="hidden-sm hidden-xs site-logo" style="width: 47.12142857142857px; background-image: url(&quot;https://unibw.de/rz/@@images/1e75e946-4cfc-4629-8232-feab66d8a7a4.png&quot;)">&nbsp;</a>
+          <!--a id="site-{{ page.department }}" href="{{ site.baseurl }}{{ section.url }}" class="hidden-sm hidden-xs site-logo site-{{ page.department }}" title="Subsite Home">Subsite Home</a-->
+          <a href="{{ site.baseurl }}{{ section.url }}" class="hidden-lg hidden-md">Subsite Home</a>
         </li>
 
         <!-- example portal home link with text -->
@@ -124,11 +125,6 @@
                   tw:@lg:ml-0
                   tw:@lg:bg-white
                 ">
-                  <li>
-                    <a class="tw:p-4" href="{{ site.baseurl }}{{ item.url }}" class="">
-                      {{ item.title }}
-                    </a>
-                  </li>
                   {% for subitem in item.children %}
                     <li>
                       <a class="tw:p-4" href="{{ site.baseurl }}{{ subitem.url }}" class="">
