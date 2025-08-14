@@ -35,9 +35,11 @@
 <body class="{{ page.class }} layout-{{ page.layout }} category-{{ page.category }}">
   <div id="wrapper" class="clearfix">
 
+  <a href="#maincontent" class="skip-link sr-only">Skip to main content</a>
+
     <!-- Header -->
-    <header id="header" class="header">
-      <div id="global-navigation" class="header-nav">
+    <header id="header" class="header" role="banner">
+      <div id="global-navigation" class="header-nav" role="navigation">
         <div class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-2-1px">
           <div class="container">
             {% include navigation/navigation.html %}
@@ -48,7 +50,7 @@
     </header>
 
     <!-- Start main-content -->
-    <main class="main-content">
+    <main class="main-content" id="maincontent" role="main">
 
       <!-- Hero -->
       {% include hero.html %}
@@ -63,6 +65,7 @@
     <!-- Footer -->
            
     {% include footer.html %}
+    
     <nav class="scrollToTop">
       <a href="#header" aria-label="Zum Seitenanfang springen">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
