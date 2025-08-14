@@ -9,6 +9,7 @@
     }
     #page-hero .hero-image { display: none; }
     #page-hero .hero-title { position: relative; margin-bottom: 20px;}
+    .hero-title.mobile-only { display: block; }
     #hero .mobile-image, #page-hero .mobile-image { display: block; }
     #hero.gradient:before, #page-hero.gradient:before { background: none; margin: 0; padding: 0; }
     #hero.inner-header, #hero.inner-header .container,
@@ -18,7 +19,7 @@
     #hero .text-white { color: #333 !important; }
     #hero.carousel h1.sr-only { font-weight: bold; z-index: 1; display: block; position: relative; width: auto; height: auto; margin: auto; padding: auto; font-size: 28px; padding: 15px 15px;}
     #hero.carousel .rev_slider_wrapper, #hero #home-video { display: none !important; }
-    #page-hero .bg-video { display: none !important; }
+    #page-hero .rev_slider_wrapper, #page-hero .bg-video { display: none !important; }
     #hero .mt-180, #hero .pt-70, #hero .pb-20 { margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; }
     #breadcrumbs { display: none;}
     #hero.divider .container, #page-hero.divider .container { padding-top: 20px !important; padding-bottom: 20px !important; }
@@ -82,7 +83,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    #page-hero h1.title, #hero h1.title { font-size: 48px; }
+    #page-hero h1.title, #hero h1.title { font-size: 50px; }
     #organisationskontakt .contact-map-container { margin-bottom: -150px; }
     #organisationskontakt .legend { left: -170px; top: -150px; }
     .news .teaser-container .btn { margin-bottom: 0px; }

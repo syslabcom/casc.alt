@@ -1165,13 +1165,19 @@ section.gradient:after,
 
 #hero .title,
 #hero small,
-.rev_slider h1 {
-    font-size: 56px;
+.rev_slider h1,
+.rev_slider .slide-title {
+    font-size: 50px;
     color: $colour-text-light;
     font-weight: bold;
     display: inline;
     z-index: 10;
     text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, 0.7);
+}
+.rev_slider .slide-title {
+    display: block !important;
+    line-height: 1.1 !important;
+    margin-top: -25px !important;
 }
 .rev_slider .text_citation {
     font-size: 42px;
@@ -2301,11 +2307,14 @@ div.autotab-heading a.btn-gray:active {
     margin-bottom: 40px;
     align-self: end;
 }
+.hero-title.mobile-only {
+    display:none;
+}
 #page-hero h1.title {
     font-size: 2rem;
 }
-.hero-title h1.title, #page-hero small, .rev_slider h1 {
-    font-size: 56px;
+.hero-title h1.title, #page-hero small, .rev_slider h1, .rev_slider .slide-title {
+    font-size: 50px;
     font-family: "thesans";
     color: #fff;
     font-weight: 700;

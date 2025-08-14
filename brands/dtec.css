@@ -50,6 +50,8 @@ a:focus, a:focus strong { color: #365B6E; } /* AAA */
     text-shadow: none;
 }
 
+.hero-title.mobile-only { display: block; }
+
 #page-hero.title-only {
     background-color: transparent;
     height: auto;

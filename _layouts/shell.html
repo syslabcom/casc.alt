@@ -61,24 +61,8 @@
     </main>
 
     <!-- Footer -->
-    <footer id="footer" class="footer divider layer-overlay overlay-dark-9" data-bg-img="">
-      {{ page.department }}
-      {% if page.department == 'Rechenzentrum' %}
-      {% include footer-rz.html %}
-      {% elsif page.department == 'bau' %}
-      {% include footer-bau.html %}
-      {% elsif page.department == 'werkstoffe' %}
-      {% include footer-bau.html %}
-      {% elsif page.department == 'kommsite' %}
-      {% include footer-kommsite.html %}
-      {% elsif page.department == 'UniBwM' %}
-      <!-- no footer -->
-      {% elsif page.department == 'home' %}
-      {% else %}
-      {% include footer.html %}
-      {% endif %}
-<!--      {% include global_footer.html %} -->
-    </footer>
+           
+    {% include footer.html %}
     <nav class="scrollToTop">
       <a href="#header" aria-label="Zum Seitenanfang springen">
         <i class="fa fa-angle-up" aria-hidden="true"></i>
