@@ -34,49 +34,26 @@
 
 <body class="{{ page.class }} layout-{{ page.layout }} category-{{ page.category }}">
   <div id="wrapper" class="clearfix">
-    <!-- preloader -->
-    <!--   <div id="preloader">
-    <div id="spinner">
-      <div class="preloader-orbit-loading">
-        <div class="cssload-inner cssload-one"></div>
-        <div class="cssload-inner cssload-two"></div>
-        <div class="cssload-inner cssload-three"></div>
-      </div>
-    </div>
-    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
-  </div>
- -->
+
     <!-- Header -->
     <header id="header" class="header">
       <div id="global-navigation" class="header-nav">
         <div class="header-nav-wrapper navbar-scrolltofixed border-bottom-theme-color-2-1px">
           <div class="container">
-            <!-- EDIT _data/navigation.yml fuer neue Navigationen!! -->
             {% include navigation/navigation.html %}
           </div>
         </div>
       </div>
-      {% include hero.html %}
+     <!--  include hero_old.html  -->
     </header>
 
     <!-- Start main-content -->
     <main class="main-content">
 
-      {% if site.brand == 'dtec' %}
-      <section id="hero-title" class="">
-      <div class="container">
-        <!-- Section Content -->
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-              <h1 class="title">{{ page.hero_title }}</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-      </section>
-      {% endif %}
+      <!-- Hero -->
+      {% include hero.html %}
 
+      <!-- Content -->
       {{ content }}
 
 

@@ -141,7 +141,7 @@ ol,
 ul {
     :focus {
       border: none;
-      outline: 1px solid $colour-uni-orange;
+      outline: 2px solid #ED6E00 !important;
     } 
 }
 
@@ -249,36 +249,6 @@ a {
 .background-dark-gray { background-color: #666; }
 
 
-/* Old schemes */
-/*
-.scheme-beige { background-color: #f5f2f0 !important; color: $colour-text !important; }
-.scheme-light-gray, .scheme-light-grey { background-color: #eee !important; color: $colour-text !important; }
-.scheme-grey,
-.scheme-gray { background-color: #bbb !important; color: $colour-text-light !important; }
-.scheme-dark-grey,
-.scheme-dark-gray { background-color: #666 !important; color: $colour-text-light !important; }
-
-.scheme-dark-gray a,
-.scheme-dark-gray h2,
-.scheme-dark-gray h3,
-.scheme-dark-gray h4 {
-  color: white;
-}
-
-.scheme-yellow { background-color: $colour-dark-yellow !important; color: $colour-text !important; }
-.scheme-orange { background-color: $colour-uni-orange !important; color: $colour-text-light !important; }
-.scheme-red { background-color: $colour-rust-red !important; color: $colour-text-light !important; }
-.scheme-blue {
-    h2,
-    h3,
-    h4,
-    a,
-    p {
-      background-color: $colour-warm-blue !important; color: $colour-text-light !important;
-    }
-
-}
-*/
 /* New Schemes */
 
 .scheme-white { 
@@ -526,7 +496,7 @@ a {
 #header {
     background-color: #fff;
     color: $colour-text;
-    padding: 0.5em 0;
+    padding: 0;
     z-index: 20;
     top: 0;
     left: 0;
@@ -557,7 +527,6 @@ a {
 
 #global-navigation {
     position: relative;
-    height: 51px;
     line-height: 42px;
     nav {
         position: relative;
@@ -586,6 +555,7 @@ a {
     z-index: 1;
     transition: all 1s;
     top: -80px;
+    margin-left: -15px;
     opacity: 1;
     height: 70px;
     overflow: hidden;
@@ -601,7 +571,6 @@ a {
         height: 53px;
         display: block;
         transition: all 0.5s;
-        margin-left: -15px;
         &:hover:before {
             opacity: 1;
         }
@@ -683,6 +652,7 @@ a.site-logo {
         > a {
             color: $colour-text;
             font-size: $base-font-size;
+            border-radius: 0px;
         }
     }
 
@@ -2189,4 +2159,185 @@ img[src$='/ct_form.png'] + div {display: none}
     width: 50px;
     height: 50px;
   }
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+/* additional changes due to WAI compatibility */
+/* +++++++++++++++++++++++++++++++++++++++++++ */
+
+
+header *:focus, footer *:focus, ol *:focus, ul *:focus, a:focus, *:focus, 
+section *:focus,
+section a:focus article,
+section a:focus .icon-box,
+.widget-image-carousel a:focus article,
+section.call-to-action a:focus .row { outline: 2px solid #ED6E00 !important; }
+
+footer *:focus { outline-color: #ffffff !important; }
+
+header .rev_slider button:focus, 
+header .rev_slider a:focus,
+.rev_slider *:focus,
+.scrollToTop a:focus { outline-color: #ffffff !important; }
+
+button.tparrows {
+    border: 2px solid #ffffff;
+}
+
+section.call-to-action a:focus .row .icon-box { outline: none !important; }
+
+
+.section-content p a,
+.section-content .checkbox label a,
+.section-content .searchResults a,
+.single-post a,
+.single-post p a {
+    text-decoration: underline; 
+}
+
+.section-content a,
+.section-content a p,
+.section-content a.btn,
+.section-content p a.btn,
+.single-post a.btn,
+.single-post p a.btn  { text-decoration: none; }
+
+/* form */
+
+form#contact_form legend { 
+    border: none;
+    font-weight: bolder;
+    font-size: 1.2em; 
+}
+form#contact_form label {
+    font-family: "thesans";
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+form#contact_form .checkbox label {
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+form#contact_form .btn {
+    font-size: 1em;
+}
+
+form .error,
+.alert-danger {
+    color: #B00D29;
+}
+
+form .form-control.error {
+    border-color:  #B00D29;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #767676;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #767676;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #767676;
+}
+
+
+#secondary-navigation a, #secondary-navigation a:hover, #secondary-navigation a:visited {
+        color: #595858;
+}
+
+.text-gray-silver  { color: #282828 !important; }
+
+.form-control {
+    font-size: 1rem; border-color: #595858; 
+}
+
+.footer .text-theme-color-2, 
+.footer .work-gallery .gallery-bottom-part .title {
+    color: #fff;
+}
+
+.footer a, .footer a:hover, .footer a:visited, .footer a:active, .footer a:focus,
+.footer ul.list li a, .footer ul.list li a:hover, .footer ul.list li a:visited, .footer ul.list li a:active, .footer ul.list li a:focus { color: #fff; border: none; text-decoration:  underline; }
+
+.scrollToTop { background-color: #333; }
+
+/* wai stuff - search sort buttons */
+div.autotab-heading a.btn-gray.active,
+div.autotab-heading a.btn-gray:active {
+    background-color: #5e5e5e;
+    color:  #fff;
+}
+
+/* hero changes */
+
+#page-hero {
+    position: relative;
+}
+#page-hero .mobile-image { display: none; }
+
+.hero-image {
+    height: 540px;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.hero-title {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    margin-bottom: 40px;
+    align-self: end;
+}
+#page-hero h1.title {
+    font-size: 2rem;
+}
+.hero-title h1.title, #page-hero small, .rev_slider h1 {
+    font-size: 56px;
+    font-family: "thesans";
+    color: #fff;
+    font-weight: 700;
+    display: inline;
+    z-index: 10;
+    text-shadow: 0 0 100px #000, 0 0 30px #000, 0 0 5px rgba(0, 0, 0, .7);
+}
+
+#page-hero.title-only {
+    background-color: rgb(248,248,248);
+    .hero-title {
+        position: relative;
+        display: grid;
+        height: 200px;
+        margin-bottom: 0;
+        .container {
+            padding-top: 0;
+            display: grid;
+            align-self: center;
+        }
+        h1 {
+            &.title {
+                text-shadow: none; 
+                color: $colour-text;
+                font-weight: normal;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+section.title-only.gradient:before,
+section.title-only.gradient:after {
+    display: none;
 }

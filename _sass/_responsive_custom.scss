@@ -7,17 +7,20 @@
         background: none;
         margin-bottom: 0;
     }
-    #hero .mobile-image { display: block; }
-    #hero.gradient:before { background: none; margin: 0; padding: 0; }
-    #hero.inner-header, #hero.inner-header .container { height:auto;}
+    #page-hero .hero-image { display: none; }
+    #page-hero .hero-title { position: relative; margin-bottom: 20px;}
+    #hero .mobile-image, #page-hero .mobile-image { display: block; }
+    #hero.gradient:before, #page-hero.gradient:before { background: none; margin: 0; padding: 0; }
+    #hero.inner-header, #hero.inner-header .container,
+    #page-hero.inner-header, #page-hero.inner-header .container { height:auto;}
     #hero.inner-header .section-content { margin-bottom: auto;}
-    #hero h1.title { text-shadow: none; color: #333;}
+    #hero h1.title, #page-hero h1.title { text-shadow: none; color: #333;}
     #hero .text-white { color: #333 !important; }
     #hero.carousel h1.sr-only { font-weight: bold; z-index: 1; display: block; position: relative; width: auto; height: auto; margin: auto; padding: auto; font-size: 28px; padding: 15px 15px;}
     #hero.carousel .rev_slider_wrapper, #hero #home-video { display: none !important; }
     #hero .mt-180, #hero .pt-70, #hero .pb-20 { margin-top: 0 !important; margin-bottom: 0 !important; padding-top: 0 !important; padding-bottom: 0 !important; }
     #breadcrumbs { display: none;}
-    #hero.divider .container { padding-top: 20px !important; padding-bottom: 20px !important; }
+    #hero.divider .container, #page-hero.divider .container { padding-top: 20px !important; padding-bottom: 20px !important; }
     main section .container, main section .container-fluid, main .divider .container, #footer.divider .container  { padding-top: 30px; padding-bottom: 30px; }
     section.inner-header .container .section-content { position: relative; }
     /* END remove the background image for small devices */
@@ -29,7 +32,7 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-    #hero h1.title { font-size: 28px; }
+    #hero h1.title, #page-hero h1.title { font-size: 28px; }
     h1 {font-size: 2rem; }
     h2 {font-size: 1.7rem; }
     .business-card h3 { font-size:1rem; }
@@ -61,7 +64,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-    #hero h1.title { font-size: 28px; }
+    #page-hero h1.title, #hero h1.title { font-size: 2rem; }
     h1 { font-size: 2rem; }
     h2 { font-size: 1.7rem; }
     .product-details h3 { font-size: 2.5rem }
@@ -78,7 +81,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-    #hero h1.title { font-size: 56px; }
+    #page-hero h1.title, #hero h1.title { font-size: 48px; }
     #organisationskontakt .contact-map-container { margin-bottom: -150px; }
     #organisationskontakt .legend { left: -170px; top: -150px; }
     .news .teaser-container .btn { margin-bottom: 0px; }
@@ -113,25 +116,7 @@
     #organisationskontakt .contact-map-container .point-map-big {display: block;}
 }
 
-
-/*
-            @include screen-size(medium-large) {
-              padding-right: 5%;
-              padding-bottom: 0.5em;
-              color: rgba(0,0,0,0.7);
-              width: 35%;
-            }
-
-            @include screen-size(small) {
-              width: 100%;
-              float: none;
-              display: block;
-              margin: 0;
-              overflow: hidden;
-            }
-            */
-
-/* print view */            
+         
 
 @media print {
     

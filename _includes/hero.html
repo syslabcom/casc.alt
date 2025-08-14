@@ -1,266 +1,61 @@
-{% if page.slider_section %}
-<section id="home" class="divider">
-  <div class="container-fluid p-0">
-    <!-- Slider Revolution Start -->
-    <div class="rev_slider_wrapper">
-      <div class="rev_slider" data-version="5.0">
-        <ul>
-          {% assign programme = site.posts | where:"slider", page.slider_section %}
-          {% for item in programme %}
-          <li data-index="rs-{{ forloop.index }}" data-transition="fade" data-slotamount="default" data-easein="default"
-            data-easeout="default" data-masterspeed="default" data-thumb="{{ site.baseurl }}{{ item.hero_image }}"
-            data-rotate="0" data-saveperformance="off" data-title="{{ item.hero_title }}" data-description="">
-            <!-- MAIN IMAGE -->
-            <img src="{{ site.baseurl }}{{ item.hero_image }}" alt="" data-bgposition="center 10%" data-bgfit="cover"
-              data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
-            <!-- LAYERS -->
 
-            <!-- LAYER NR. 1 -->
-            <div class="tp-caption tp-resizeme text-layer" id="rs-{{ forloop.index }}-layer-2" data-x="['left']"
-              data-hoffset="['10']" data-y="['bottom']" data-voffset="['30']" data-width="['1024', '800', '600', '400']"
-              data-height="['auto', 'auto', 'auto', 'auto']" data-whitespace="normal" data-basealign="grid"
-              data-responsive_offset="on"><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">
-                {% if item.slider == 'dtec_citations' %}
-                <div class="text_citation">
-                {{ item.content }}
-                </div>
-                {% else %}
-                <h1>{{ item.hero_title }}</h1>
-                {% endif %}
-              </a>
-            </div>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <!-- end .rev_slider -->
-    </div>
-    <!-- end .rev_slider_wrapper -->
-    <script>
-      $(document).ready(function (e) {
-        $(".rev_slider").revolution({
-          sliderType: "standard",
-          sliderLayout: "auto",
-          dottedOverlay: "none",
-          delay: 50000,
-          navigation: {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            onHoverStop: "off",
-            touch: {
-              touchenabled: "on",
-              swipe_threshold: 75,
-              swipe_min_touches: 1,
-              swipe_direction: "horizontal",
-              drag_block_vertical: false
-            },
-            arrows: {
-              style: "zeus",
-              enable: true,
-              hide_onmobile: true,
-              hide_under: 600,
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              tmp: '<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div> </div>',
-              left: {
-                h_align: "left",
-                v_align: "center",
-                h_offset: 30,
-                v_offset: 0
-              },
-              right: {
-                h_align: "right",
-                v_align: "center",
-                h_offset: 30,
-                v_offset: 0
-              }
-            },
-            bullets: {
-              enable: true,
-              hide_onmobile: true,
-              hide_under: 600,
-              style: "hermes",
-              hide_onleave: true,
-              hide_delay: 200,
-              hide_delay_mobile: 1200,
-              direction: "horizontal",
-              h_align: "center",
-              v_align: "bottom",
-              h_offset: 0,
-              v_offset: 20,
-              space: 5,
-              tmp: '<div class="tp-tab-content"><span class="tp-tab-date">{{param1}}</span><span class="tp-tab-title">{{title}}</span></div><div class="tp-tab-image"></div>'
-            }
-          },
-          responsiveLevels: [1240, 1024, 778],
-          visibilityLevels: [1240, 1024, 778],
-          gridwidth: [1170, 1024, 778, 480],
-          gridheight: [500, 768, 960, 720],
-          lazyType: "none",
-          parallax: {
-            origo: "slidercenter",
-            speed: 1000,
-            levels: [5, 10, 15, 20, 25, 30, 35, 40, 45, 46, 47, 48, 49, 50, 100, 55],
-            type: "scroll"
-          },
-          shadow: 0,
-          spinner: "off",
-          stopLoop: "on",
-          stopAfterLoops: 0,
-          stopAtSlide: -1,
-          shuffle: "off",
-          autoHeight: "off",
-          fullScreenAutoWidth: "off",
-          fullScreenAlignForce: "off",
-          fullScreenOffsetContainer: "",
-          fullScreenOffset: "0",
-          hideThumbsOnMobile: "off",
-          hideSliderAtLimit: 0,
-          hideCaptionAtLimit: 0,
-          hideAllCaptionAtLilmit: 0,
-          debugMode: false,
-          fallbacks: {
-            simplifyAll: "off",
-            nextSlideOnWindowFocus: "off",
-            disableFocusListener: false,
-          }
-        });
-      });
-    </script>
-    <!-- Slider Revolution Ends -->
-  </div>
-</section>
-{% else %}
+{% if page.layout != 'news-item' and page.layout != 'event' %}
+<section id="page-hero" class="inner-header {% if page.hero_image %}{% else%}title-only {% endif %}divider gradient">
 
-  {% if page.color_scheme %}
-  {% assign colorscheme = page.color_scheme %}
-  {% else %}
-  {% assign colorscheme = 'dark-gray' %}
-  {% endif %}
-
-{% if page.hero_video %}
-
-<section id="hero" class="inner-header divider">
-        <div class="bg-video">
-          <div id="home-video" class="video divider" data-bg-img="https://www.unibw.de/syslabtest/test-1/@@@@cropped-hero?timestamp=2023-04-26T15:23:38+02:00" style="background-image: url(&quot;https://www.unibw.de/syslabtest/test-1/@@@@cropped-hero?timestamp=2023-04-26T15:23:38+02:00&quot;);"><span id="controlBar_video_1682515437892" class="mb_YTPBar inlinePlayer" style="white-space: nowrap; position: absolute; z-index: 1000;"><div class="buttonBar"><span class="mb_YTPPlaypause ytpicon">P</span><span class="mb_YTPMuteUnmute ytpicon">A</span><span class="mb_YTPTime">00 : 01 / 45 : 48</span><span class="mb_YTPUrl ytpicon" title="view on YouTube">Y</span><span class="mb_OnlyYT ytpicon">O</span></div><div class="mb_YTPProgress" style="position: absolute;"><div class="mb_YTPLoaded" style="position: absolute; left: 0px; width: 0.473991%;"></div><div class="mb_YTPseekbar" style="position: absolute; left: 0px; width: 0.0363901px;"></div></div></span><div class="mbYTP_wrapper" id="wrapper_mbYTP_video_1682515437892" style="position: absolute; z-index: 0; min-width: 100%; min-height: 100%; left: 0px; top: 0px; overflow: hidden; opacity: 0;"><iframe id="mbYTP_video_1682515437892" class="playerBox" style="position: absolute; z-index: 0; width: 100px; height: 100px; top: 0px; left: 0px; overflow: hidden; opacity: 1; margin-top: -50px; margin-left: -50px;" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" title="Welt der Werkstoffe - talk, Folge 26, Michael Dietrich: Kunststoffschweißen" width="640" height="360" src="https://www.youtube.com/embed/0CkgTHs_oM8?autoplay=0&amp;modestbranding=1&amp;controls=0&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1&amp;version=3&amp;playerapiid=mbYTP_video_1682515437892&amp;origin=https%3A%2F%2Fwww.unibw.de&amp;allowfullscreen=true&amp;wmode=transparent&amp;iv_load_policy=3&amp;html5=1&amp;widgetid=1"></iframe><div class="YTPOverlay" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;"></div></div>
-            <div class="player video-container mb_YTPlayer isMuted" data-property="{videoURL:'https://www.youtube.com/watch?v=0CkgTHs_oM8',containment:'#home-video',autoPlay:false, showControls:true, mute:true, startAt:0, opacity:1}" id="video_1682515437892" style="display: none; position: relative;"></div>
-
-            
-          </div>
-        </div>
-        <div class="display-table">
-          <div class="display-table-cell">
-            <div class="container">
-              <!-- Section Content -->
-              <div class="section-content">
-                <div class="row">
-                  <div class="col-md-12">
-                    <h1 class="title">test</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-<!-- section id="hero" class="inner-header divider">
-  <div class="bg-video">
-    <div id="home-video" class="video" data-bg-img="{{page.hero_image}}">
-      <div class="player video-container"
-        data-property="{videoURL:'pW1uVUg5wXM',containment:'#home-video',autoPlay:true, showControls:false, mute:false, startAt:0, opacity:1}">
-      </div>
-    </div>
-  </div>
-  <div class="display-table">
-    <div class="display-table-cell">
-      <div class="container">
-
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-                {% if site.brand == 'unibw' %}<h1 class="title">{{ page.hero_title }}</h1>{% endif %}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-</section -->
-
-{% elsif page.hero_image %}
-
-<section id="hero" class="inner-header divider gradient" data-bg-img="{{ site.baseurl }}{{ page.hero_image }}"
-  style="background-image: url({{ site.baseurl }}{{ page.hero_image }}); ">
-  {% if page.section %}
-  <!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
-            <span style="white-space: nowrap">{{page.section}}</span>
-        </div-->
-  {% endif %}
-  {% if site.brand == 'unibw' %}
-  <div class="container">
-    <!-- Section Content -->
-    <div class="section-content">
-      <div class="row">
-        <div class="col-md-12">
-          <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %} -->
-          <h1 class="title">{{ page.hero_title }}</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  {% endif %}
+  {% if page.hero_image %}
+  <div class="hero-image" data-bg-img="{{ site.baseurl }}{{ page.hero_image }}"
+  style="background-image: url({{ site.baseurl }}{{ page.hero_image }}); ">&nbsp;</div>
   <!-- mobile image -->
   <div class="mobile-image">  
-    <img src="{{ site.baseurl }}{{ page.hero_image }}" alt="" />
+    <img src="{{ site.baseurl }}{{ page.hero_image }}" alt="" aria-hidden="true" />
   </div>
   <!-- / mobile image -->
-</section>
-
-{% elsif page.hero_title %}
-
-  {% if site.brand == 'unibw' %}
-
-      {% if page.section %}
-      <!--div class="marker scheme-{{colorscheme}} hidden-sm hidden-xs">
-                  <span>{{page.section}}</span>
-              </div-->
-      {% endif %}
-  <div class="container">
-    <!-- Section Content -->
-    <div class="section-content">
-      <div class="row">
-        <div class="col-md-12">
-          <!-- {% if page.hero_overline %}<small class="">{{ page.hero_overline }}</small><br>{% endif %}-->
-          <h1 class="title">{{ page.hero_title }}</h1>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
+  
   {% endif %}
 
+    <div class="hero-title">
+      <div class="container pb-0">
+         <h1 class="title">{{ page.title }}</h1>
+      </div>
+    </div>
+
+</section>
 {% endif %}
 
-{% endif %}
 
+<!-- todo 
+hero with carousel
+hero dtec - all versions
+hero palladion - all versions 
+// -->
+
+<!-- breadcrumbs -->
+<!-- show breadcrumb only for news items -->
+
+{% if page.layout == 'news-item' %}
 <div id="breadcrumbs">
   <div class="container mt-0 pt-0 mb-0 pb-0">
     <div class="section-content">
       <div class="row">
         <div class="col-md-12">
-          <ol class="breadcrumb">
-            {% for item in page.breadcrumbs %}
-            <li><a href="{{ site.baseurl }}{{ item.url | replace_first: '/', '' }}">{{item.title}}</a></li>
-            {% endfor %}
-            <li><a href="{{ site.baseurl }}{{ page.url | replace_first: '/', '' }}"
-                class="active text-gray-silver">{{page.title}}</a></li>
-          </ol>
+          <nav aria-label="Breadcrumbs">
+            <span class="sr-only">Sie sind hier</span>
+
+            <ol class="breadcrumb">
+              <li>
+                <a href="https://dtecbw.de/home">Startseite</a>
+              </li>
+              <li id="breadcrumbs-1">
+                  <a href="https://dtecbw.de/home/events">Events und Termine</a>
+              </li>
+              <li id="breadcrumbs-2">
+                  <span id="breadcrumbs-current">dtec.bw Jahrestagung 2025 in Hamburg</span>
+              </li>
+            </ol>
+          </nav>
         </div>
       </div>
     </div>
   </div>
 </div>
+{% endif %}
