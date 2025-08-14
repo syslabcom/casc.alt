@@ -154,10 +154,9 @@ section .module-title {
 section .module-title.line-bottom {
     margin-bottom: 15px;
 }
-section.events-search {
-    .container {
+section.events-search .container {
         padding-bottom: 0px;
-    }
+        padding-top: 0px
 }
 section#events-list {
     padding-top: 70px;

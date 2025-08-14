@@ -733,7 +733,8 @@ section {
         }
         .post {
           .entry-title {
-              height: 1em;
+            font-size: 1.5rem;
+            height: 1em;
           }
           .description {
               height: 3.35em;
@@ -850,6 +851,11 @@ section {
             .description,
             .entry-content {
                 color: $colour-text;
+            }
+        } 
+        h2 {
+            &.entry-title {
+                font-size: 1.5rem;
             }
         }
         h3 {
@@ -1052,6 +1058,10 @@ section {
             .description {
                 color: $colour-text;
             }
+        }
+        h2.media-heading {
+            font-size: 1.5rem;
+            font-weight: 400;
         }
     }
     &.categories {
