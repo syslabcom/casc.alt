@@ -1,6 +1,6 @@
 
 {% if page.layout != 'news-item' and page.layout != 'event' %}
-<section id="page-hero" class="inner-header {% if page.hero_image %}{% else%}title-only {% endif %}divider gradient">
+<section id="page-hero" class="inner-header {% if page.hero_image or page.hero_video or page.slider_section %}{% else%}title-only {% endif %}divider gradient">
 
   {% if page.hero_image %}
   <div class="hero-image" data-bg-img="{{ site.baseurl }}{{ page.hero_image }}"
@@ -10,12 +10,45 @@
     <img src="{{ site.baseurl }}{{ page.hero_image }}" alt="" aria-hidden="true" />
   </div>
   <!-- / mobile image -->
-  
+  {% endif %}
+
+  {% if page.hero_video %}
+
+  <div class="bg-video">
+    <div id="home-video" class="video divider v-align-top" data-bg-img="https://testing.cms6a.syslab.com/upgrade-test-site/artikelseiten/artikelseite-mit-hero-video-1/@@cropped-hero?timestamp=2025-08-07T11:53:48+02:00" style="background-image: url(&quot;https://testing.cms6a.syslab.com/upgrade-test-site/artikelseiten/artikelseite-mit-hero-video-1/@@cropped-hero?timestamp=2025-08-07T11:53:48+02:00&quot;);">
+      <figure id="videoContainer">
+        
+
+        
+          <video preload="metadata" autoplay="autoplay" muted="muted">
+            <source src="https://athene-forschung.unibw.de/file/152289/993812.mp4" type="video/mp4">
+          </video>
+
+          <span id="hero-video-controls" class="mb_YTPBar inlinePlayer" style="white-space: nowrap; position: absolute; z-index: 1000;">
+            <div class="buttonBar">
+              <span class="mb_YTPPlaypause ytpicon">P</span>
+              <span class="mb_YTPMuteUnmute ytpicon">M</span>
+              <span class="mb_YTPTime"><span class="position">0:28</span> / <span class="duration">87:16</span></span>
+              <span class="mb_OnlyYT ytpicon">O</span>
+            </div>
+            <progress id="progress" class="mb_YTPProgress" value="28.618043" min="0" max="5236.633333">
+              <span id="progress-bar" style="width: 0%;"></span>
+            </progress>
+          </span>
+          <script src="https://testing.cms6a.syslab.com/++plone++unibw.policy/html5_video.js" defer="defer"></script>
+        
+      </figure>
+    </div>
+  </div>
+  {% endif %}
+
+  {% if page.slider_section %}
+  <h1>slider</h1>>
   {% endif %}
 
     <div class="hero-title">
       <div class="container pb-0">
-         <h1 class="title">{{ page.title }}</h1>
+         <h1 class="title">Title {{ page.title }}</h1>
       </div>
     </div>
 

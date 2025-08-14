@@ -141,7 +141,7 @@ ol,
 ul {
     :focus {
       border: none;
-      outline: 2px solid #ED6E00 !important;
+      outline: 1px solid #ED6E00 !important;
     } 
 }
 
@@ -2340,4 +2340,21 @@ div.autotab-heading a.btn-gray:active {
 section.title-only.gradient:before,
 section.title-only.gradient:after {
     display: none;
+}
+
+/* hero video */
+.bg-video {
+    height: 540px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.bg-video .video {
+    height: 100%;
+    left: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
 }
