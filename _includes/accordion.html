@@ -1,39 +1,102 @@
-<section class="accordion">
-  <div class="container">
-    {% if page.accordion-title %}
-    <div class="section-title">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="module-title line-bottom">{{ page.accordion-title }}</h2>
-          <p class="description">
-          {{ page.accordion-description }}
-        </p>
+<div class="mosaic-tile-content">
+
+  <section id="tile-id-daea8244-9d2f-45e0-be02-1fd687f0bf11" class="accordion scheme-">
+    <div class="container">
+      <div class="section-title">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="module-title line-bottom ">Modul Akkordeon zweispaltig</h2>
+            <p class="description">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea re</p>
+            
+          </div>
         </div>
       </div>
-    </div>
-    {% endif %}
-    <div class="section-content">
-      <div class="row">
-        <div class="col-md-9">
-          <div class="single-service">
+
+      <div class="section-content">
+        <div class="row">
+          <div class="col-md-6">
 
             <div id="accordion1" class="panel-group accordion">
               {% for item in page.accordion %}
               {% assign elems = site.posts | where:"name",item.name %}
-              <div class="panel">
-                <div class="panel-title"> 
-                  <a data-parent="#accordion1" data-toggle="collapse" href="#accordion1{{ forloop.index }}" class="" aria-expanded="false" aria-role="button"> <span class="open-sub"></span> {{ elems[0].title }} </a> </div>
-                <div id="accordion1{{ forloop.index }}" class="panel-collapse collapse" role="tablist" aria-expanded="true">
-                  <div class="panel-content">
-                    <p>{{ elems[0].content | markdownify }}</p>
-                  </div>
+
+              <details class="element">
+                <summary aria-expanded="false" tabindex="0" role="button">
+                  <span class="element-title">{{ elems[0].title }}</span></summary>
+                <div class="element-content">
+                  <h3>{{ elems[0].title }}</h3>
+                  <p>{{ elems[0].content | markdownify }}</p>
                 </div>
-              </div>
+              </details>
+              
               {% endfor %}
             </div>
           </div>
-         </div>
+
+          <div class="col-md-6 ">
+            <div id="accordion2" class="panel-group accordion">
+              {% for item in page.accordion %}
+              {% assign elems = site.posts | where:"name",item.name %}
+
+              <details class="element">
+                <summary aria-expanded="false" tabindex="0" role="button">
+                  <span class="element-title">{{ elems[0].title }}</span></summary>
+                <div class="element-content">
+                  <h3>{{ elems[0].title }}</h3>
+                  <p>{{ elems[0].content | markdownify }}</p>
+                </div>
+              </details>
+              
+              {% endfor %}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  
+</div>
+
+<div class="mosaic-tile-content">
+
+  <section id="tile-id-daea8244-9d2f-45e0-be02-1fd687f0bf12" class="accordion scheme-">
+    <div class="container">
+      <div class="section-title">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="module-title line-bottom ">Modul Akkordeon einspaltig</h2>
+            <p class="description">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea re</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="section-content">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div id="accordion3" class="panel-group accordion">
+              {% for item in page.accordion %}
+              {% assign elems = site.posts | where:"name",item.name %}
+
+              <details class="element">
+                <summary aria-expanded="false" tabindex="0" role="button">
+                  <span class="element-title">{{ elems[0].title }}</span></summary>
+                <div class="element-content">
+                  <h3>{{ elems[0].title }}</h3>
+                  <p>{{ elems[0].content | markdownify }}</p>
+                </div>
+              </details>
+              
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+</div>
+

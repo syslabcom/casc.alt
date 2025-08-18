@@ -1151,6 +1151,10 @@ section {
 .contact-info div.subtitle {
     font-size: 1.11rem;
     font-weight: 400;
+    font-family: thesans, sans-serif;
+    line-height: 1.42857143;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 /* Inner Header - Heros on subpages */
@@ -2425,4 +2429,53 @@ section.title-only.gradient:after {
         }
 
     }
+}
+
+/* css accordion */
+details.element {
+    margin-bottom: 2px;
+}
+details > summary .element-title {
+   background-color: #f8f8f8;
+   position: relative;
+   display: block;
+   font-size: 14px;
+   padding: 10px 14px 10px 50px;
+   margin-bottom: 4px;
+}
+details > summary .element-title::before {
+    color: #888;
+    content: "\f067";
+    font-family: fontawesome;
+    font-size: 14px;
+    left: 0;
+    position: absolute;
+    padding: 10px 14px;
+    top: 0;
+}
+details > .element-content {
+    border: 1px solid #f8f8f8;
+    padding: 10px 20px 20px;
+    margin-top: -4px;
+    margin-bottom: 4px;
+}
+
+/* Access the active state with the open attribute */
+details[open] > summary .element-title::before {
+    color: white;
+    content: "\f068";
+    background: #002e5b !important;
+}
+
+/* Get rid of the marker pseudo-element from all browser for good */
+details > summary {
+  list-style: none;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+iframe.athene {
+    height: 24em;
 }

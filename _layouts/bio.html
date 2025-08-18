@@ -2,7 +2,7 @@
 layout: generic
 ---
 
-<section class="news">
+<section class="profile-details">
   <div class="container">
     <div class="row">
 
@@ -72,8 +72,12 @@ layout: generic
       </div>
 
     </div>
+  </div>
+</section>
 
-    <div class="row mt-20">
+<section class="profile-summary">
+  <div class="container pt-0">
+    <div class="row">
       <div class="col-md-12 col-sm-12 img-xs">
         {{ page.content }}  
       </div>
@@ -81,37 +85,17 @@ layout: generic
   </div>
 </section>
 
-<section class="profile-tabs">
-  <div class="container">
+<section class="profile-publications">
+
+  <div class="container pt-0">
     <div class="row">
-      <ul id="myTab" class="nav nav-tabs boot-tabs">
-        <li class="active" role="presentation"><a href="#werdegang" data-toggle="tab">Werdegang</a></li>
-        <li><a href="#lehrveranstaltungen" data-toggle="tab">Lehrveranstaltungen</a></li>
-        <li><a href="#forschungsbereiche" data-toggle="tab">Forschungsbereiche</a></li>
-        <li><a href="#aktuelleforschungsprojekte" data-toggle="tab">Aktuelle Forschungsprojekte</a></li>
-        <li><a href="#konferenzen" data-toggle="tab">Konferenzen</a></li>
-        <li><a href="#funktionen" data-toggle="tab">Funktionen</a></li>
-      </ul>
-      <div id="myTabContent" class="tab-content">
-        <div class="tab-pane fade in active" id="werdegang">
-          {% include table-2col.html %}
-        </div>
-        <div class="tab-pane fade" id="lehrveranstaltungen">
-          {% include table-3col.html %}
-        </div>
-        <div class="tab-pane fade" id="forschungsbereiche">
-          Leer
-        </div>
-        <div class="tab-pane fade" id="aktuelleforschungsprojekte">
-          Leer
-        </div>
-        <div class="tab-pane fade" id="konferenzen">
-          Leer
-        </div>
-        <div class="tab-pane fade" id="funktionen">
-          Leer
-        </div>
+      <div class="col-md-12 col-sm-12 img-xs">
+        
+        <h2 class="module-title line-bottom" >Publikationen</h2>
+        <iframe class="athene" src="https://testing.cms6a.syslab.com/upgrade-test-site/personenseiten/univ-prof-dr-ing-karl-christian-thienel/atheneforschung?query=authors=Christian Thienel"></iframe>
+      
       </div>
+
     </div>
   </div>
 </section>

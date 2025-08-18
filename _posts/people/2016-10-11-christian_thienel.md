@@ -25,6 +25,4 @@ breadcrumbs:
 ---
 
 
-## Prof. Dr.-Ing. Karl-Christian Thienel
-
-war nach dem Bauingenieurstudium an der TU Braunschweig von 1988-1993 wissenschaftlicher Mitarbeiter am Institut für Baustoffe, Massivbau und Brandschutz der TU Braunschweig. Von 1993-1995 forschte er als Feodor-Lynen-Stipendiat der Alexander-von-Humboldt Stiftung am Center for Advanced Cement Based Materials (ACBM) der Northwestern University, USA. 1995-2003 arbeitete er bei der Liapor GmbH & Co. KG und war ab 1997 Leiter F&E der Liapor GmbH & Co. KG. Seit 2003 leitet er als Universitätsprofessor das Institut für Werkstoff des Bauwesens der Universität der Bundeswehr München.
+Prof. Dr.-Ing. Karl-Christian Thienel war nach dem Bauingenieurstudium an der TU Braunschweig von 1988-1993 wissenschaftlicher Mitarbeiter am Institut für Baustoffe, Massivbau und Brandschutz der TU Braunschweig. Von 1993-1995 forschte er als Feodor-Lynen-Stipendiat der Alexander-von-Humboldt Stiftung am Center for Advanced Cement Based Materials (ACBM) der Northwestern University, USA. 1995-2003 arbeitete er bei der Liapor GmbH & Co. KG und war ab 1997 Leiter F&E der Liapor GmbH & Co. KG. Seit 2003 leitet er als Universitätsprofessor das Institut für Werkstoff des Bauwesens der Universität der Bundeswehr München.
