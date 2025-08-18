@@ -13,37 +13,41 @@ layout: generic
 
         <div class="inst-wrapper">
           <b>{{ page.position }}</b>
-          <table class="table xtable-striped">
-            <tbody>
-              <tr>
-                <td><b><i class="fa fa-home" aria-hidden="true"></i></b></td>
-                <td>{{ page.room }}</td>
-              </tr>
-              <tr>
-                <td><b><i class="fa fa-phone" aria-hidden="true"></i></b></td>
-                <td>
+          <ul class="table-list">
+            
+              <li>
+                <div class="table-col-icon"><b><i class="fa fa-home" aria-hidden="true"></i></b></div>
+                <div class="table-col-content">{{ page.room }}</div>
+              </li>
+              <li>
+                <div class="table-col-icon"><b><i class="fa fa-phone" aria-hidden="true"></i></b></div>
+                
+                <div class="table-col-content">
                   <a href="tel:{{ page.phone }}">{{ page.phone }}</a>
-                </td>
-              </tr>
-              <tr>
-                <td><b><i class="fa fa-fax" aria-hidden="true"></i></b></td>
-                <td>
+                </div>
+              </li>
+              <li>
+                <div class="table-col-icon"><b><i class="fa fa-fax" aria-hidden="true"></i></b></div>
+                
+                <div class="table-col-content">
                   <a href="tel:{{ page.fax }}">{{ page.fax }}</a>
-                </td>
-              </tr>
-              <tr>
-                <td><b><i class="fa fa-envelope" aria-hidden="true"></i></b></td>
-                <td><a href="mailto:{{ page.email }}">{{ page.email }}</a></td>
-              </tr>
-              <tr>
-                <td><b><i class="fa fa-user" aria-hidden="true"></i></b></td>
-                <td><a href="tel:{{ page.office_phone }}">{{ page.secretary_phone }}</a> ({{ page.secretary_name }}) Sekretariat</td>
-              </tr>
-              <tr>
-                <td>
+                </div>
+              </li>
+              <li>
+                <div class="table-col-icon"><b><i class="fa fa-envelope" aria-hidden="true"></i></b></div>
+                
+                <div class="table-col-content"><a href="mailto:{{ page.email }}">{{ page.email }}</a></div>
+              </li>
+              <li>
+                <div class="table-col-icon"><b><i class="fa fa-user" aria-hidden="true"></i></b></div>
+                
+                <div class="table-col-content"><a href="tel:{{ page.office_phone }}">{{ page.secretary_phone }}</a> ({{ page.secretary_name }}) Sekretariat</div>
+              </li>
+              <li>
+                <div class="table-col-icon">
                   <b><i class="fa fa-share-square-o" aria-hidden="true"></i></b>
-                </td>
-                <td>
+                </div>
+                <div class="table-col-content">
                   <a href="http://www.xing.de" class="social-link">
                     <i class="fa fa-xing" aria-hidden="true"></i>
                   </a>
@@ -60,10 +64,10 @@ layout: generic
                     V-Card:
                     <i class="fa fa-download" aria-hidden="true"></i>
                   </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                </div>
+              </li>
+          </ul>
+          
         </div>
       </div>
 

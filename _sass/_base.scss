@@ -302,7 +302,7 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
+    .contact-info h3.title { color: $colour-text !important; } 
     .list-group-item { 
                         background-color: #fafafa;
                         color: $colour-text !important; 
@@ -314,17 +314,19 @@ a {
                       } 
 
     .icon-box { 
+                h3, 
                 h4, 
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                h6.text-gray  { color: grey !important; }
+                .text-gray  { color: grey !important; }
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #c4c3c7 }
             }
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
+                h3, 
                 h5, 
                 p.text-gray { color: white !important;  }
     }
@@ -347,7 +349,7 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
+    .contact-info h3.title { color: $colour-text !important; } 
     .list-group-item { 
                         background-color: #fafafa;
                         color: $colour-text !important; 
@@ -360,17 +362,19 @@ a {
 
     
     .icon-box { 
+                h3, 
                 h4, 
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                h6.text-gray  { color: grey !important; }
+                .text-gray  { color: grey !important; }
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #e0e0e0 }
             }
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
+                h3, 
                 h5, 
                 p.text-gray { color: white !important;  }
     }
@@ -394,7 +398,7 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
+    .contact-info h3.title { color: $colour-text !important; } 
     .list-group-item { 
                         background-color: #fafafa;
                         color: $colour-text !important; 
@@ -405,17 +409,19 @@ a {
                         a:visited { color: $colour-link !important; }
                       } 
     .icon-box { 
+                h3, 
                 h4, 
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                h6.text-gray  { color: grey !important; }
+                .text-gray  { color: grey !important; }
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #dfdde3 }
             }
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
+                h3,
                 h5, 
                 p.text-gray { color: white !important;  }
     }
@@ -448,7 +454,7 @@ a {
     p.callout,
     blockquote p,
     blockquote strong,
-    .contact-info h4 { color: $colour-text !important; } 
+    .contact-info h3.title { color: $colour-text !important; } 
     .list-group-item { 
                         color: $colour-text !important; 
                         a { color: $colour-link !important; }
@@ -458,11 +464,12 @@ a {
                         a:visited { color: $colour-link !important; }
                       }
     .icon-box { 
+                h3,
                 h4, 
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                h6.text-gray  { color: grey !important; }
+                .text-gray  { color: grey !important; }
                 a.icon-dark { color: white !important; }
                 a.icon-gray { color: $colour-link !important; }   
                 .icon.icon-gray { background-color: #dfdde3 }
@@ -470,6 +477,7 @@ a {
     .contact-info .text-gray { color: grey !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
+                h3,
                 h5, 
                 p.text-gray { color: white !important;  }
     }
@@ -1131,7 +1139,19 @@ section {
     height: 100px;
     width: 100px;
 }
-
+.contact-info h3.title {    
+    font-size: 1.33rem;
+    font-weight: 400;
+}
+.icon-box h3.title,
+.icon-box h3.icon-box-title {
+    font-size: 1.11rem;
+    font-weight: 700;
+}
+.contact-info div.subtitle {
+    font-size: 1.11rem;
+    font-weight: 400;
+}
 
 /* Inner Header - Heros on subpages */
 
@@ -2379,4 +2399,30 @@ section.title-only.gradient:after {
     position: relative;
     top: 0;
     width: 100%;
+}
+
+/* profile page */
+
+.main-content .container ul.table-list {
+    list-style-type: none;
+    display: grid;
+    padding-left: 0;
+    margin: 0;
+    >li {
+        padding: 5px 0;
+        margin-left: 0;
+        display: table-row-group;
+        border-top: 1px solid #ddd;
+        div.table-col-content {
+            display: table-cell; 
+            width: auto;
+        }
+        div.table-col-icon {
+            display: table-cell; 
+            width: 50px;
+            margin-right: 20px;
+            padding-left: 10px;
+        }
+
+    }
 }
