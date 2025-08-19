@@ -39,6 +39,10 @@
     h2 {font-size: 1.7rem; }
     .business-card h3 { font-size:1rem; }
 
+    .collection-search h2.title {
+        font-size: 1.7rem;
+    }
+
     #organisationskontakt .contact-map-container { margin-bottom: 0; }
     #organisationskontakt .legend { left: 0; top: 0; }
     .news .teaser-container .btn { margin-bottom: 20px; }
@@ -70,6 +74,10 @@
     h1 { font-size: 2rem; }
     h2 { font-size: 1.7rem; }
     .product-details h3 { font-size: 2.5rem }
+
+    .collection-search h2.title {
+        font-size: 1.7rem;
+    }
 }
 
 @media only screen and (max-width : 768px) {
@@ -84,6 +92,7 @@
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     #page-hero h1.title, #hero h1.title { font-size: 50px; }
+    .collection-search h2.title { font-size: 2.3rem;}
     #organisationskontakt .contact-map-container { margin-bottom: -150px; }
     #organisationskontakt .legend { left: -170px; top: -150px; }
     .news .teaser-container .btn { margin-bottom: 0px; }
