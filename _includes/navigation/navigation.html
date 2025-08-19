@@ -2,8 +2,7 @@
       <a href="{{ site.baseurl }}./index.html">Universität der Bundeswehr München</a>
   </p>
   <div id="secondary-navigation" class="top-dropdown-outer">
-    <nav>
-      <h5 class="sr-only">Sprachmenü</h5>
+    <nav aria-label="Sprachmenü">
       <ul id="language-menu" class="list-inline">
         <li>
           <a href="/dtec-leichtesprache.html"><i class="fa fa-book"></i> <span class="hidden-md hidden-sm hidden-xs">Leichte Sprache</span></a>
@@ -28,7 +27,7 @@
    
   </div>
   <!-- Navigation -->
-  <nav id="menuzord" class="menuzord pull-left flip menuzord-responsive">
+  <nav id="menuzord" class="menuzord pull-left flip menuzord-responsive" label="Hauptnavigation">
   {% for item in site.data.navigation %}
     {% if item.name == page.department %}
       {% assign section = item %}

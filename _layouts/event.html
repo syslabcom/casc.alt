@@ -12,7 +12,7 @@ parent: Aktuelles
               <div class="post-thumb thumb"> <img src="{{ page.image }}" alt="" class="img-responsive img-fullwidth"> </div>
             </div>
 
-            <h2 class="module-title line-bottom">{{ page.title }}</h2>
+            <h1 class="module-title line-bottom">{{ page.title }}</h1>
             <div class="date-info">
               <i class="fa fa-calendar mr-5"></i> {{ page.start |  date: '%d. %m. %Y' }} - {{ page.end |  date: '%d. %m. %Y' }} | <em class="time-info">{{ page.start-time }} - {{ page.end-time }}</em>
             </div>
@@ -21,7 +21,7 @@ parent: Aktuelles
 
             <div class="event-details">
               <hr />
-              <h3>Kontakt</h3>
+              <h2>Kontakt</h2>
               
               <div class="row">
                 <div class="col-md-12 col-sm-12">{{ page.ansprechpartner }}</div>
@@ -30,7 +30,7 @@ parent: Aktuelles
                 <div class="col-md-12 col-sm-12">{{ page.email-telefon }}</div>
               </div>
               <hr />
-              <h3>Infos & Anmeldung</h3>
+              <h2>Infos & Anmeldung</h2>
               <div class="row">
                 <div class="col-md-12 col-sm-12">{{ page.anmeldung }}</div>
               </div>
@@ -78,7 +78,7 @@ parent: Aktuelles
       <div class="col-md-3">
         <div class="sidebar sidebar-right mt-sm-30">
           <div class="widget">
-            <h5 class="widget-title line-bottom">Weitere Termine</h5>
+            <h2 class="widget-title line-bottom">Weitere Termine</h2>
             <div class="widget-image-carousel">
               {% assign posts = site.posts | where:"layout","event" %}
               {% assign items = posts | where:"category",page.category %}
@@ -87,7 +87,7 @@ parent: Aktuelles
                   {% unless page.url == item.url %}
                     <div class="item">
                       <a href="{{ item.url | replace_first: '/', '' }}">
-                        <h4 class="title">{{ item.title }}</h4></a>
+                        <h3 class="title">{{ item.title }}</h3></a>
                         
                         <p class="font-12"><em>{{item.start}} - {{item.end}}<br>{{item.location}}</em></p>
                         <hr>
