@@ -57,9 +57,9 @@ $colour-light-grey: #eeeeee !default;
 $colour-dark-blue: #003366 !default;
 $colour-black-minus-one: #111111 !default;
 $colour-black-minus-two: #282828 !default;
-$colour-link: #467790 !default;        // AAA
-$colour-link-hover: #365B6E !default;  // AAA
-$colour-link-focus: #365B6E !default;  // AAA
+$colour-link: #002e5b !default;        // AAA
+$colour-link-hover: #002e5b !default;  // AAA
+$colour-link-focus: #002e5b !default;  // AAA
 
 // Intranet Colours
 $colour-rust-red : #CC3300 !default;  //Studium
@@ -2256,21 +2256,20 @@ button.tparrows {
 
 section.call-to-action a:focus .row .icon-box { outline: none !important; }
 
-
 .section-content p a,
 .section-content .checkbox label a,
 .section-content .searchResults a,
+.contact-data a,
 .single-post a,
 .single-post p a {
     text-decoration: underline; 
 }
 
-.section-content a,
-.section-content a p,
 .section-content a.btn,
 .section-content p a.btn,
 .single-post a.btn,
-.single-post p a.btn  { text-decoration: none; }
+.single-post p a.btn  { text-decoration: none;  }
+
 
 /* form */
 
