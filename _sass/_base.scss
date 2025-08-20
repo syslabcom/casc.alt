@@ -1342,8 +1342,20 @@ button.tp-bullet {
     ul.list li {   
       padding-left: 0;
     }
-    .widget .widget-title {
-        font-size: 1.33rem;
+    .widget {
+        h2,
+        .widget-title {
+            font-size: 1.33rem;
+        }
+        h3 {
+            font-size: 1.2rem;
+        }
+        h4 {
+            font-size: 1.1rem;
+        }
+        h5 {
+            font-size: 1rem;
+        }
     }
     .widget .list-inline li {
         height: 18px;
