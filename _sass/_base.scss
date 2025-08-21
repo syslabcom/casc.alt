@@ -647,9 +647,12 @@ a.site-logo {
                         padding: 3px 19px 3px 22px;
                         font-size: 16px;
                         font-family: thesans;
+                        color: $colour-text;
+        
                     }
                     &:hover > a {
                         padding-left: 22px;
+                        color: $colour-dark-blue;
                     }
                     .indicator {
                         top: 4px;
