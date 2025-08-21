@@ -577,7 +577,7 @@ a {
     a {
         background: url("../media/logos/logo-unibw-brandmark.svg");
         background-size: cover;
-        color: transparent;
+        color: #333333;
         width: 330px;
         height: 53px;
         display: block;
@@ -2359,6 +2359,7 @@ div.autotab-heading a.btn-gray:active {
 
 #page-hero {
     position: relative;
+    background-color: rgba(0, 0, 0, .1) 
 }
 #page-hero .mobile-image { display: none; }
 
