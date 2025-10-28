@@ -144,7 +144,7 @@ ol,
 ul {
     :focus-visible {
       border: none;
-      outline: 1px solid #ED6E00 !important;
+      outline: 1px solid #ED6E00;
     } 
 }
 
@@ -2256,7 +2256,9 @@ section *:focus-visible,
 section a:focus-visible article,
 section a:focus-visible .icon-box,
 .widget-image-carousel a:focus-visible article,
-section.call-to-action a:focus-visible .row { outline: 2px solid #ED6E00 !important; }
+section.call-to-action a:focus-visible .row,
+.menuzord-menu>li>a:focus-visible,
+.menuzord-menu ul.dropdown li a:focus-visible { outline: 2px solid #ED6E00; }
 
 footer *:focus-visible { outline-color: #ffffff !important; }
 
@@ -2271,6 +2273,13 @@ button.tparrows {
 
 section.call-to-action a:focus .row .icon-box,
 section.call-to-action a:focus-visible .row .icon-box { outline: none !important; }
+
+
+body#tinymce.mce-content-body:focus,
+body#tinymce.mce-content-body:focus-visible,
+body#tinymce.mce-content-body *:focus,
+body#tinymce.mce-content-body *:focus-visible { outline: none !important; }
+
 
 .section-content p a,
 .section-content .checkbox label a,
