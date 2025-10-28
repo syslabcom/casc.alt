@@ -99,10 +99,12 @@ This file contains the common styles of this theme.
   color: #fff;
   text-shadow: none;
 }
+/*
 :active,
 :focus {
   outline: none !important;
 }
+*/
 html {
   font-size: 100%;
 }
