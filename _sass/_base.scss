@@ -2255,6 +2255,7 @@ img[src$='/ct_form.png'] + div {display: none}
 header *:focus-visible, footer *:focus-visible, ol *:focus-visible, ul *:focus-visible, a:focus-visible, *:focus-visible, 
 section *:focus-visible,
 section a:focus-visible article,
+section a:focus-visible .product,
 section a:focus-visible .icon-box,
 .widget-image-carousel a:focus-visible article,
 section.call-to-action a:focus-visible .row,
