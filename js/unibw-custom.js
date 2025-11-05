@@ -22,7 +22,7 @@ var live_equalizer;
                     observer.disconnect(); // need to disconnect because equalize is changing style attributes.
                     $listing.equalize({
                         children: item_selector,
-                        equalize: "height",
+                        equalize: "outerHeight",
                         reset: true,
                     });
                     observer.observe($listing[0], observer_options);
