@@ -9,8 +9,10 @@ var live_equalizer;
         //attributeFilter: ["style"],
     };
 
-    live_equalizer = function (container_selector, item_selector) {
+    live_equalizer = function (container_selector, item_selector, equalize) {
         var listings = document.querySelectorAll(container_selector);
+        equalize = equalize || "outerHeight";
+
         Array.prototype.forEach.call(listings, function (listing) {
             var timeout = null;
             var $listing = $(listing);
@@ -22,7 +24,7 @@ var live_equalizer;
                     observer.disconnect(); // need to disconnect because equalize is changing style attributes.
                     $listing.equalize({
                         children: item_selector,
-                        equalize: "outerHeight",
+                        equalize: equalize,
                         reset: true,
                     });
                     observer.observe($listing[0], observer_options);
