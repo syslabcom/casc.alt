@@ -34,6 +34,10 @@ build: jekyll
 jekyll: stamp-bundler
 	$(BUNDLE) exec jekyll build
 
+.PHONY: watch
+watch: stamp-bundler
+	$(BUNDLER) exec jekyll serve --host 0.0.0.0
+
 .PHONY: dev
 dev: jekyll
 	# Set up development environment
