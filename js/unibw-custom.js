@@ -10,30 +10,31 @@ var live_equalizer;
     };
 
     live_equalizer = function (container_selector, item_selector, equalize) {
-        var listings = document.querySelectorAll(container_selector);
+        var containers = document.querySelectorAll(container_selector);
         equalize = equalize || "outerHeight";
 
-        Array.prototype.forEach.call(listings, function (listing) {
+        Array.prototype.forEach.call(containers, function (container) {
             var timeout = null;
-            var $listing = $(listing);
+            var $container = $(container);
             var observer;
 
             function equalizer() {
                 clearTimeout(timeout); // make sure, this isn't called too often.
                 timeout = setTimeout(function () {
                     observer.disconnect(); // need to disconnect because equalize is changing style attributes.
-                    $listing.equalize({
+                    $container.equalize({
                         children: item_selector,
                         equalize: equalize,
                         reset: true,
                     });
-                    observer.observe($listing[0], observer_options);
+                    observer.observe(container, observer_options);
+
                     console.debug("equalized");
                 }, 200);
             }
 
             observer = new MutationObserver(equalizer);
-            observer.observe(listing, observer_options);
+            observer.observe(container, observer_options);
 
             $(window).resize(function () {
                 equalizer();
