@@ -70,6 +70,9 @@
         if (value > max) { max = value; }      // update max
       });
 
+      // Raise max for 1 pixel, even with rounding up we still have some layout
+      // problems
+      max = max + 1
       $children.css(type, max +'px'); // add CSS to children
     });
   };
