@@ -58,9 +58,21 @@
             value;
         if (reset) { $element.css(type, ''); } // remove existing height/width dimension
         value = $element[equalize]();          // call height(), outerHeight(), etc.
+
+        // Round up to avoid that the tallest item has a `height ⊆ ℝ`, a float
+        // value and thus a slightly bigger height than the min-height (or
+        // width).
+        // Ref:
+        //     https://github.com/syslabcom/scrum/issues/4177
+        //     https://github.com/syslabcom/scrum/issues/4115
+        value = Math.ceil(value);
+
         if (value > max) { max = value; }      // update max
       });
 
+      // Raise max for 1 pixel, even with rounding up we still have some layout
+      // problems
+      max = max + 1
       $children.css(type, max +'px'); // add CSS to children
     });
   };
