@@ -1134,6 +1134,9 @@ section {
         }
     }
 }
+.entry-title {
+    hyphens: auto;
+}
 .contact-info {
     overflow: hidden;
     display: block;   
@@ -1382,7 +1385,6 @@ button.tp-bullet {
 .footer-bottom {
     background-color: #151515;
 }
-.layer-overlay::before,
 .layer-overlay.overlay-dark-9::before {
     display: none;
 }
