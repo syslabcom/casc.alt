@@ -151,7 +151,9 @@ ul {
 summary {
     display: list-item;
 }
-
+.discreet {
+    color:  #565656;
+}
 .ellipsis {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -255,6 +257,12 @@ a {
 /* New Schemes */
 
 .scheme-white { 
+    .icon-box { 
+                .text-gray,
+                p.text-gray,
+                .text-gray  { color: #565656 !important; }
+            }
+    .contact-info .text-gray { color: #565656 !important; } 
     background-color: white !important; 
     color: $colour-text !important; 
     .list-group-item { 
@@ -276,6 +284,12 @@ a {
             }
         }
     }
+    .icon-box { 
+                .text-gray,
+                p.text-gray,
+                .text-gray  { color: #565656 !important; }
+            }
+    .contact-info .text-gray { color: #565656 !important; } 
     .list-group-item,
     .bg-deep,
     .howto.iconbox-bg,
@@ -322,11 +336,11 @@ a {
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                .text-gray  { color: #666!important; }
+                .text-gray  { color: #565656!important; }
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #c4c3c7 }
             }
-    .contact-info .text-gray { color: #666 !important; }  
+    .contact-info .text-gray { color: #565656 !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
                 h3, 
@@ -370,11 +384,11 @@ a {
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                .text-gray  { color: #666 !important; }
+                .text-gray  { color: #565656 !important; }
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #e0e0e0 }
             }
-    .contact-info .text-gray { color: #666 !important; }  
+    .contact-info .text-gray { color: #565656 !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
                 h3, 
@@ -417,11 +431,11 @@ a {
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                .text-gray  { color: #666 !important; }
+                .text-gray  { color: #565656 !important; }
                 a.icon-dark { color: white !important; }
                 .icon.icon-gray { background-color: #dfdde3 }
             }
-    .contact-info .text-gray { color: #666 !important; }  
+    .contact-info .text-gray { color: #565656 !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
                 h3,
@@ -472,12 +486,12 @@ a {
                 h5 { color: $colour-text !important; }
                 .text-gray,
                 p.text-gray,
-                .text-gray  { color: #666 !important; }
+                .text-gray  { color: #565656 !important; }
                 a.icon-dark { color: white !important; }
                 a.icon-gray { color: $colour-link !important; }   
                 .icon.icon-gray { background-color: #dfdde3 }
             }
-    .contact-info .text-gray { color: #666 !important; }  
+    .contact-info .text-gray { color: #565656 !important; }  
     .bg-deep { background-color: #f1f1f1 !important; }
     .howto {
                 h3,
@@ -927,7 +941,7 @@ section {
             }
         }
     }
-   &.events-search {
+    &.events-search {
         .container {
             padding-bottom: 70px;
         }
@@ -1038,10 +1052,10 @@ section {
             }
         }
     }
-   .institute-logo {
+    .institute-logo {
      padding-top: 30px;
      padding-right: 10px;
-   }
+    }
     &.clients {
         h2 {
             text-align: center;
@@ -1092,6 +1106,7 @@ section {
     }
     .module-title {
         text-transform: uppercase;
+        hyphens: auto;
     }
     .hero-content {
         table>tbody>tr>td, 
