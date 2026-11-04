@@ -1,0 +1,23 @@
+---
+---
+// Content typography for surfaces which do not load the full theme bundle,
+// e.g. the Aurora editor canvas in the Plone backend.
+// Only @font-face rules and custom properties: no element selectors, no
+// Bootstrap. Values in px, so they do not depend on the root font size.
+// They mirror what the theme renders (Bootstrap 3, style-main.css,
+// _base.scss, _responsive_custom.scss).
+
+@import "fonts";
+
+:root {
+  --unibw-font-family: thesans, sans-serif;
+  --unibw-font-size: 18px;
+  --unibw-line-height: 1.7;
+
+  --unibw-heading-line-height: 1.42857;
+  --unibw-heading-space-above: 20px;
+  --unibw-heading-space-below: 10px;
+
+  --unibw-h2-size: 30.6px;
+  --unibw-h2-weight: 500;
+}
