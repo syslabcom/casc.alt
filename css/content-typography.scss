@@ -45,4 +45,14 @@
   --unibw-quote-padding: 30px;
   --unibw-quote-border-color: #003366;
   --unibw-quote-background: #eeeeee;
+
+  // Vertical padding of a content section (`section > .container`,
+  // style-main.css), 30px on small screens (_responsive_custom.scss).
+  --unibw-section-space: 70px;
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --unibw-section-space: 30px;
+  }
 }
