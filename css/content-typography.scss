@@ -26,6 +26,15 @@
 
   --unibw-h2-size: 30.6px;
   --unibw-h2-weight: 500;
+  // h2.module-title.line-bottom: section .module-title (_base.scss),
+  // .line-bottom (style-main.css), its colour (theme-skin-color-set-casc.css).
+  --unibw-module-title-transform: uppercase;
+  --unibw-module-title-space-below: 30px;
+  --unibw-module-title-padding-below: 10px;
+  --unibw-module-title-rule-color: #ED6600;
+  --unibw-module-title-rule-width: 50px;
+  --unibw-module-title-rule-thickness: 2px;
+
   --unibw-h3-size: 27px;
   --unibw-h3-weight: 400;
   --unibw-h4-size: 23.94px;
